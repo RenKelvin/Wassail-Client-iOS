@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */; };
+		FE5B1F9219B4033B00842C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1F9119B4033B00842C3D /* ViewController.swift */; };
+		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
+		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
+		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE5B1F9D19B4033B00842C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE5B1F8219B4033B00842C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5B1F8919B4033B00842C3D;
+			remoteInfo = "Wassail-Client-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE5B1F8A19B4033B00842C3D /* Wassail-Client-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wassail-Client-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5B1F8E19B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE5B1F9119B4033B00842C3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE5B1F9419B4033B00842C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE5B1F9619B4033B00842C3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wassail-Client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5B1F8719B4033B00842C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5B1F9919B4033B00842C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5B1F8119B4033B00842C3D = {
+			isa = PBXGroup;
+			children = (
+				FE5B1F8C19B4033B00842C3D /* Wassail-Client-iOS */,
+				FE5B1F9F19B4033B00842C3D /* Wassail-Client-iOSTests */,
+				FE5B1F8B19B4033B00842C3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5B1F8B19B4033B00842C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1F8A19B4033B00842C3D /* Wassail-Client-iOS.app */,
+				FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5B1F8C19B4033B00842C3D /* Wassail-Client-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */,
+				FE5B1F9119B4033B00842C3D /* ViewController.swift */,
+				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
+				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
+				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
+			);
+			path = "Wassail-Client-iOS";
+			sourceTree = "<group>";
+		};
+		FE5B1F8D19B4033B00842C3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1F8E19B4033B00842C3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE5B1F9F19B4033B00842C3D /* Wassail-Client-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */,
+				FE5B1FA019B4033B00842C3D /* Supporting Files */,
+			);
+			path = "Wassail-Client-iOSTests";
+			sourceTree = "<group>";
+		};
+		FE5B1FA019B4033B00842C3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1FA119B4033B00842C3D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5B1F8919B4033B00842C3D /* Wassail-Client-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5B1FA619B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOS" */;
+			buildPhases = (
+				FE5B1F8619B4033B00842C3D /* Sources */,
+				FE5B1F8719B4033B00842C3D /* Frameworks */,
+				FE5B1F8819B4033B00842C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wassail-Client-iOS";
+			productName = "Wassail-Client-iOS";
+			productReference = FE5B1F8A19B4033B00842C3D /* Wassail-Client-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE5B1F9B19B4033B00842C3D /* Wassail-Client-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5B1FA919B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOSTests" */;
+			buildPhases = (
+				FE5B1F9819B4033B00842C3D /* Sources */,
+				FE5B1F9919B4033B00842C3D /* Frameworks */,
+				FE5B1F9A19B4033B00842C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE5B1F9E19B4033B00842C3D /* PBXTargetDependency */,
+			);
+			name = "Wassail-Client-iOSTests";
+			productName = "Wassail-Client-iOSTests";
+			productReference = FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5B1F8219B4033B00842C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Haile;
+				TargetAttributes = {
+					FE5B1F8919B4033B00842C3D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FE5B1F9B19B4033B00842C3D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FE5B1F8919B4033B00842C3D;
+					};
+				};
+			};
+			buildConfigurationList = FE5B1F8519B4033B00842C3D /* Build configuration list for PBXProject "Wassail-Client-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE5B1F8119B4033B00842C3D;
+			productRefGroup = FE5B1F8B19B4033B00842C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5B1F8919B4033B00842C3D /* Wassail-Client-iOS */,
+				FE5B1F9B19B4033B00842C3D /* Wassail-Client-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5B1F8819B4033B00842C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
+				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5B1F9A19B4033B00842C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5B1F8619B4033B00842C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5B1F9219B4033B00842C3D /* ViewController.swift in Sources */,
+				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE5B1F9819B4033B00842C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE5B1F9E19B4033B00842C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE5B1F8919B4033B00842C3D /* Wassail-Client-iOS */;
+			targetProxy = FE5B1F9D19B4033B00842C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE5B1F9319B4033B00842C3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5B1F9419B4033B00842C3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5B1FA419B4033B00842C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE5B1FA519B4033B00842C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5B1FA719B4033B00842C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE5B1FA819B4033B00842C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE5B1FAA19B4033B00842C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wassail-Client-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wassail-Client-iOS.app/Wassail-Client-iOS";
+			};
+			name = Debug;
+		};
+		FE5B1FAB19B4033B00842C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wassail-Client-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wassail-Client-iOS.app/Wassail-Client-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5B1F8519B4033B00842C3D /* Build configuration list for PBXProject "Wassail-Client-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5B1FA419B4033B00842C3D /* Debug */,
+				FE5B1FA519B4033B00842C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5B1FA619B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5B1FA719B4033B00842C3D /* Debug */,
+				FE5B1FA819B4033B00842C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE5B1FA919B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5B1FAA19B4033B00842C3D /* Debug */,
+				FE5B1FAB19B4033B00842C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5B1F8219B4033B00842C3D /* Project object */;
+}
