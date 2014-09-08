@@ -95,8 +95,23 @@ class ToolsViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "123"
+    // MARK: - Delegate
+    
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+
+        var title: String = ""
+        switch section {
+        case 0:
+            title = "常用工具"
+        case 1:
+            title = "实用攻略"
+        default:
+            title = ""
+        }
+        headerView.titleLabel?.text = title
+        
+        return headerView
     }
     
     /*
