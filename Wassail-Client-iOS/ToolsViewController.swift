@@ -33,12 +33,19 @@ class ToolsViewController: UITableViewController {
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 1
+        return 2
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 5
+        switch section {
+        case 0:
+            return 5
+        case 1:
+            return 2
+        default:
+            return 0
+        }
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -49,27 +56,47 @@ class ToolsViewController: UITableViewController {
         let plist = NSDictionary(contentsOfFile: path!)
         let toolsDict = plist.valueForKey("Tools") as NSDictionary
         
-        switch indexPath.row {
+        switch indexPath.section {
         case 0:
-            let dict = toolsDict.valueForKey("World Clock") as NSDictionary
-            cell.configure(dict)
+            switch indexPath.row {
+            case 0:
+                let dict = toolsDict.valueForKey("World Clock") as NSDictionary
+                cell.configure(dict)
+            case 1:
+                let dict = toolsDict.valueForKey("Tips Calculator") as NSDictionary
+                cell.configure(dict)
+            case 2:
+                let dict = toolsDict.valueForKey("Unit Converter") as NSDictionary
+                cell.configure(dict)
+            case 3:
+                let dict = toolsDict.valueForKey("Size Converter") as NSDictionary
+                cell.configure(dict)
+            case 4:
+                let dict = toolsDict.valueForKey("Info Container") as NSDictionary
+                cell.configure(dict)
+            default:
+                return cell
+            }
         case 1:
-            let dict = toolsDict.valueForKey("Tips Calculator") as NSDictionary
-            cell.configure(dict)
-        case 2:
-            let dict = toolsDict.valueForKey("Unit Converter") as NSDictionary
-            cell.configure(dict)
-        case 3:
-            let dict = toolsDict.valueForKey("Size Converter") as NSDictionary
-            cell.configure(dict)
-        case 4:
-            let dict = toolsDict.valueForKey("Info Container") as NSDictionary
-            cell.configure(dict)
+            switch indexPath.row {
+            case 0:
+                let dict = toolsDict.valueForKey("University Rankings") as NSDictionary
+                cell.configure(dict)
+            case 1:
+                let dict = toolsDict.valueForKey("Credit Card") as NSDictionary
+                cell.configure(dict)
+            default:
+                return cell
+            }
         default:
             return cell
         }
         
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "123"
     }
     
     /*

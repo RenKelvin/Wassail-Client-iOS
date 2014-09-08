@@ -49,6 +49,24 @@
 			<key>Note</key>
 			<string>重要信息快速查看，加密储存</string>
 		</dict>
+		<key>University Rankings</key>
+		<dict>
+			<key>Title</key>
+			<string>大学排名</string>
+			<key>Icon</key>
+			<string>ToolsIconInfoContainer</string>
+			<key>Note</key>
+			<string>大学排名</string>
+		</dict>
+		<key>Credit Card</key>
+		<dict>
+			<key>Title</key>
+			<string>信用卡攻略</string>
+			<key>Icon</key>
+			<string>ToolsIconInfoContainer</string>
+			<key>Note</key>
+			<string>信用卡攻略</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
