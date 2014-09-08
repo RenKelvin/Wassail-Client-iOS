@@ -30,36 +30,20 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 5
+        switch section {
+        case 0:
+            return 1
+        case 1:
+            return 4
+        default:
+            return 0
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UnitConverterTableViewCell
         
-        // Configure the cell...
-//        let path = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
-//        let plist = NSDictionary(contentsOfFile: path!)
-//        let toolsDict = plist.valueForKey("Tools") as NSDictionary
-//        
-//        switch indexPath.row {
-//        case 0:
-//            let dict = toolsDict.valueForKey("World Clock") as NSDictionary
-//            cell.configure(dict)
-//        case 1:
-//            let dict = toolsDict.valueForKey("Tips Calculator") as NSDictionary
-//            cell.configure(dict)
-//        case 2:
-//            let dict = toolsDict.valueForKey("Unit Converter") as NSDictionary
-//            cell.configure(dict)
-//        case 3:
-//            let dict = toolsDict.valueForKey("Size Converter") as NSDictionary
-//            cell.configure(dict)
-//        case 4:
-//            let dict = toolsDict.valueForKey("Info Container") as NSDictionary
-//            cell.configure(dict)
-//        default:
-//            return cell
-//        }
+        cell.configure()
         
         return cell
     }
