@@ -95,11 +95,11 @@ class ToolsViewController: UITableViewController {
         return cell
     }
     
-    // MARK: - Delegate
+    // MARK: - Table view delegate
     
     override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
-
+        
         var title: String = ""
         switch section {
         case 0:
@@ -114,14 +114,45 @@ class ToolsViewController: UITableViewController {
         return headerView
     }
     
-    /*
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        switch indexPath.section {
+        case 0:
+            switch indexPath.row {
+            case 0:
+                ""
+            case 1:
+                ""
+            case 2:
+                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: tableView.cellForRowAtIndexPath(indexPath))
+            case 3:
+                ""
+            case 4:
+                ""
+            default:
+                ""
+            }
+        case 1:
+            switch indexPath.row {
+            case 0:
+                ""
+            case 1:
+                ""
+            default:
+                ""
+            }
+        default:
+            ""
+        }
+        
+    }
+    
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        // Get the new view controller using [segue destinationViewController].
+        // Pass the selected object to the new view controller.
+        
     }
-    */
     
 }

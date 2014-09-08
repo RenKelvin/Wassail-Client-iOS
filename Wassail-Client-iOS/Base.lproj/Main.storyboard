@@ -40,7 +40,6 @@
                                     <outlet property="iconImageView" destination="i1i-oJ-YZn" id="Qrd-XS-MvX"/>
                                     <outlet property="noteLabel" destination="huH-bB-nf2" id="9Y5-RY-a2a"/>
                                     <outlet property="titleLabel" destination="y9s-5U-77Q" id="bjv-iE-u1y"/>
-                                    <segue destination="WRg-lq-Ju5" kind="show" id="Qo8-lF-mFC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -50,6 +49,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="留学小助手" id="HFa-OU-fMH"/>
+                    <connections>
+                        <segue destination="WRg-lq-Ju5" kind="show" identifier="ToolsUnitConverterSegueIdentifier" id="jck-Io-7KI"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eaz-iW-3ev" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz4-Yj-fIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="162"/>
+            <point key="canvasLocation" x="1080" y="162"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OXJ-qH-0fD">
