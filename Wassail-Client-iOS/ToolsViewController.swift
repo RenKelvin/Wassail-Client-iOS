@@ -19,6 +19,12 @@ class ToolsViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+//        self.navigationController?.navigationBar.tintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
     override func didReceiveMemoryWarning() {
@@ -42,8 +48,8 @@ class ToolsViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
         
         // Configure the cell...
-        let bundlePath = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
-        let plist = NSDictionary(contentsOfFile: bundlePath!)
+        let path = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
+        let plist = NSDictionary(contentsOfFile: path!)
         let toolsDict = plist.valueForKey("Tools") as NSDictionary
         
         switch indexPath.row {
