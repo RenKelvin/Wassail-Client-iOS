@@ -19,12 +19,9 @@ class ToolsViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        // Configure Navigation Bar and Status Bar
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
-//        self.navigationController?.navigationBar.tintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-    }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
     }
     
     override func didReceiveMemoryWarning() {
