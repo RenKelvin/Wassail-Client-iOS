@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE57618F19BD498D00574EE1 /* Wassail.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE57618E19BD498D00574EE1 /* Wassail.plist */; };
+		FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */; };
 		FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */; };
 		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
+		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE57618E19BD498D00574EE1 /* Wassail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Wassail.plist; sourceTree = "<group>"; };
+		FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
 		FE5B1F8A19B4033B00842C3D /* Wassail-Client-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wassail-Client-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1F8E19B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +37,7 @@
 		FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wassail-Client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
+		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE57619019BD499100574EE1 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				FE57618E19BD498D00574EE1 /* Wassail.plist */,
+			);
+			name = Local;
+			sourceTree = "<group>";
+		};
 		FE5B1F8119B4033B00842C3D = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +124,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FEA5A90919BD563F0048AF6A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		FEA5A90A19BD56470048AF6A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		FEC8649119BD3C98005087A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
+				FEA5A90919BD563F0048AF6A /* Tools */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -122,6 +153,7 @@
 		FEC8649319BD3CDF005087A3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEA5A90A19BD56470048AF6A /* Tools */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -152,6 +184,7 @@
 			children = (
 				FEC8649919BD3DFB005087A3 /* 3rd-Party SDK */,
 				FEC8649819BD3DF4005087A3 /* Database */,
+				FE57619019BD499100574EE1 /* Local */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -252,6 +285,7 @@
 			files = (
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
+				FE57618F19BD498D00574EE1 /* Wassail.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
+				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +420,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -396,7 +431,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

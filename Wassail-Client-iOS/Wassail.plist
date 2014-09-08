@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tools</key>
+	<dict>
+		<key>World Clock</key>
+		<dict>
+			<key>Title</key>
+			<string>世界时钟</string>
+			<key>Icon</key>
+			<string>ToolsIconWorldClock</string>
+			<key>Note</key>
+			<string>方便查看世界各地的时间及时差</string>
+		</dict>
+		<key>Tips Calculator</key>
+		<dict>
+			<key>Title</key>
+			<string>小费计算器</string>
+			<key>Icon</key>
+			<string>ToolsIconTipsCalculator</string>
+			<key>Note</key>
+			<string>快速计算吃饭，打车，酒店等小费</string>
+		</dict>
+		<key>Unit Converter</key>
+		<dict>
+			<key>Title</key>
+			<string>单位换算</string>
+			<key>Icon</key>
+			<string>ToolsIconUnitConverter</string>
+			<key>Note</key>
+			<string>长度，重量，温度等单位换算</string>
+		</dict>
+		<key>Size Converter</key>
+		<dict>
+			<key>Title</key>
+			<string>尺码转换</string>
+			<key>Icon</key>
+			<string>ToolsIconSizeConverter</string>
+			<key>Note</key>
+			<string>衣服，鞋子，戒指等尺码转换</string>
+		</dict>
+		<key>Info Container</key>
+		<dict>
+			<key>Title</key>
+			<string>信息保险箱</string>
+			<key>Icon</key>
+			<string>ToolsIconInfoContainer</string>
+			<key>Note</key>
+			<string>重要信息快速查看，加密储存</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
