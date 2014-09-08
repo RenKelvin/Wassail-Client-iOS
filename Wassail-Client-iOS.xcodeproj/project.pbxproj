@@ -74,8 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */,
-				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
-				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
+				FEC8649119BD3C98005087A3 /* View */,
+				FEC8649319BD3CDF005087A3 /* View Controller */,
+				FEC8649419BD3CF4005087A3 /* Info */,
+				FEC8649519BD3D06005087A3 /* Info Manager */,
+				FEC8649619BD3DE4005087A3 /* RKISS */,
+				FEC8649719BD3DF1005087A3 /* Resource */,
 				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
 			);
 			path = "Wassail-Client-iOS";
@@ -104,6 +108,66 @@
 				FE5B1FA119B4033B00842C3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEC8649119BD3C98005087A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
+				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FEC8649319BD3CDF005087A3 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		FEC8649419BD3CF4005087A3 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		FEC8649519BD3D06005087A3 /* Info Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Info Manager";
+			sourceTree = "<group>";
+		};
+		FEC8649619BD3DE4005087A3 /* RKISS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RKISS;
+			sourceTree = "<group>";
+		};
+		FEC8649719BD3DF1005087A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8649919BD3DFB005087A3 /* 3rd-Party SDK */,
+				FEC8649819BD3DF4005087A3 /* Database */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FEC8649819BD3DF4005087A3 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		FEC8649919BD3DFB005087A3 /* 3rd-Party SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "3rd-Party SDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
