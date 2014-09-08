@@ -113,10 +113,19 @@
                                     <outlet property="delegate" destination="WRg-lq-Ju5" id="nHL-Tm-dkm"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1B8-Sp-kqd" customClass="RKNumericLabel" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                                <rect key="frame" x="49" y="90" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="单位换算" id="S7C-aD-ea8"/>
+                    <connections>
+                        <outlet property="numericLabel" destination="1B8-Sp-kqd" id="xhp-Bb-kr8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz4-Yj-fIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

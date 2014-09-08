@@ -9,11 +9,14 @@
 import UIKit
 
 class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+
+    @IBOutlet var numericLabel: RKNumericLabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        numericLabel?.setNumber(100)
     }
     
     override func didReceiveMemoryWarning() {
