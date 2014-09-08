@@ -63,9 +63,9 @@
 			<key>Title</key>
 			<string>信用卡攻略</string>
 			<key>Icon</key>
-			<string>ToolsIconInfoContainer</string>
+			<string>ToolsIconCreditCard</string>
 			<key>Note</key>
-			<string>信用卡攻略</string>
+			<string>信用卡申请，额度，积分，省钱攻略</string>
 		</dict>
 	</dict>
 </dict>
