@@ -16,7 +16,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        numericLabel?.setNumber(100)
+//        numericLabel?.setNumber(100)
     }
     
     override func didReceiveMemoryWarning() {
