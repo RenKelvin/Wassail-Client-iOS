@@ -134,7 +134,7 @@ class ToolsViewController: UITableViewController {
         case 1:
             switch indexPath.row {
             case 0:
-                ""
+                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: tableView.cellForRowAtIndexPath(indexPath))
             case 1:
                 ""
             default:

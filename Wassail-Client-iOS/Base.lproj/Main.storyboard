@@ -88,6 +88,7 @@
                     <navigationItem key="navigationItem" title="留学小助手" id="HFa-OU-fMH"/>
                     <connections>
                         <segue destination="WRg-lq-Ju5" kind="show" identifier="ToolsUnitConverterSegueIdentifier" id="jck-Io-7KI"/>
+                        <segue destination="rIW-M0-53H" kind="show" identifier="ToolsListViewSegueIdentifier" id="gRZ-IQ-329"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eaz-iW-3ev" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -167,6 +168,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz4-Yj-fIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1080" y="162"/>
+        </scene>
+        <!--List View-->
+        <scene sceneID="TK0-04-PdG">
+            <objects>
+                <tableViewController id="rIW-M0-53H" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Abn-bJ-5vA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListViewTableViewCellReuseIdentifier" id="0YN-N6-jFn">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YN-N6-jFn" id="m6d-WX-5P1">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListViewStoreTableViewCellReuseIdentifier" id="kfy-Xe-7bf">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kfy-Xe-7bf" id="C1y-w6-BBt">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rIW-M0-53H" id="Gho-vo-Hd7"/>
+                            <outlet property="delegate" destination="rIW-M0-53H" id="i2m-Nc-z6J"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="List View" id="cxn-Y0-GOd"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFD-A7-Fgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="846"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OXJ-qH-0fD">
