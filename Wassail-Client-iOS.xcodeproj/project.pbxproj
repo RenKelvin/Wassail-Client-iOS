@@ -18,15 +18,15 @@
 		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
 		FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */; };
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
-		FEC3BD5519C298D100184760 /* DefaultInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */; };
+		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
 		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
-		FEC3BD5B19C29DE300184760 /* DefaultInfoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */; };
+		FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */; };
 		FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */; };
 		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
 		FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */; };
 		FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */; };
 		FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD6519C2CC5A00184760 /* Tools.json */; };
-		FEC3BD6819C2CEA500184760 /* RKInfoSysnSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6719C2CEA500184760 /* RKInfoSysnSystem.swift */; };
+		FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
 		FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */; };
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
@@ -60,15 +60,15 @@
 		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
 		FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "University Rankings 1.0.json"; sourceTree = "<group>"; };
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfoManager.swift; sourceTree = "<group>"; };
+		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
 		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
-		FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfoMapper.swift; sourceTree = "<group>"; };
+		FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapper.swift; sourceTree = "<group>"; };
 		FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInfo.swift; sourceTree = "<group>"; };
 		FEC3BD6519C2CC5A00184760 /* Tools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
-		FEC3BD6719C2CEA500184760 /* RKInfoSysnSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKInfoSysnSystem.swift; sourceTree = "<group>"; };
+		FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKInfoSyncSystem.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
 		FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKTableHeaderView.xib; sourceTree = "<group>"; };
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 				FEC8649119BD3C98005087A3 /* View */,
 				FEC8649319BD3CDF005087A3 /* View Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
-				FEC8649519BD3D06005087A3 /* Info Manager */,
-				FEC3BD5619C29D1D00184760 /* Info Mapper */,
+				FEC8649519BD3D06005087A3 /* Accessor */,
+				FEC3BD5619C29D1D00184760 /* Mapper */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
 				FEC3BD4819C2896E00184760 /* Model */,
@@ -199,12 +199,12 @@
 			name = Item;
 			sourceTree = "<group>";
 		};
-		FEC3BD5619C29D1D00184760 /* Info Mapper */ = {
+		FEC3BD5619C29D1D00184760 /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */,
+				FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */,
 			);
-			name = "Info Mapper";
+			name = Mapper;
 			sourceTree = "<group>";
 		};
 		FEC3BD5719C29D5B00184760 /* Adapter */ = {
@@ -255,18 +255,18 @@
 			name = Info;
 			sourceTree = "<group>";
 		};
-		FEC8649519BD3D06005087A3 /* Info Manager */ = {
+		FEC8649519BD3D06005087A3 /* Accessor */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */,
+				FEC3BD5419C298D100184760 /* DefaultAccessor.swift */,
 			);
-			name = "Info Manager";
+			name = Accessor;
 			sourceTree = "<group>";
 		};
 		FEC8649619BD3DE4005087A3 /* RKISS */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD6719C2CEA500184760 /* RKInfoSysnSystem.swift */,
+				FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */,
 			);
 			name = RKISS;
 			sourceTree = "<group>";
@@ -423,7 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC3BD5B19C29DE300184760 /* DefaultInfoMapper.swift in Sources */,
+				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
@@ -432,11 +432,11 @@
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
-				FEC3BD5519C298D100184760 /* DefaultInfoManager.swift in Sources */,
+				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
-				FEC3BD6819C2CEA500184760 /* RKInfoSysnSystem.swift in Sources */,
+				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,

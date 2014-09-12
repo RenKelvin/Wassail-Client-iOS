@@ -1,5 +1,5 @@
 //
-//  RKInfoSysnSystem.swift
+//  RKInfoSyncSystem.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/12/14.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-private let _RKInfoSysnSystemSharedInstance = RKInfoSysnSystem()
+private let _RKInfoSyncSystemSharedInstance = RKInfoSyncSystem()
 
-class RKInfoSysnSystem: NSObject {
+class RKInfoSyncSystem: NSObject {
     
-    class var instance : RKInfoSysnSystem {
-    return _RKInfoSysnSystemSharedInstance
+    class var instance : RKInfoSyncSystem {
+    return _RKInfoSyncSystemSharedInstance
     }
     
     func apply(cloud: AnyObject?, db: AnyObject?, local: AnyObject?) -> AnyObject? {

@@ -1,5 +1,5 @@
 //
-//  DefaultInfoMapper.swift
+//  DefaultMapper.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/12/14.
@@ -8,24 +8,24 @@
 
 import UIKit
 
-private let _DefaultInfoMapperSharedInstance = DefaultInfoMapper()
+private let _DefaultMapperSharedInstance = DefaultMapper()
 
-class DefaultInfoMapper: NSObject {
+class DefaultMapper: NSObject {
     
-    class var instance : DefaultInfoMapper {
-    return _DefaultInfoMapperSharedInstance
+    class var instance : DefaultMapper {
+    return _DefaultMapperSharedInstance
     }
     
     func getList(name: String) -> NSDictionary {
         var local = LocalAdapter.instance.get(name, type: "json")
         
-        return RKInfoSysnSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
     }
     
     func getTools() -> NSDictionary {
         var local = LocalAdapter.instance.get("Tools", type: "json")
         
-        return RKInfoSysnSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
     }
     
 }

@@ -17,6 +17,6 @@ class ListInfo: NSObject {
     }
     
     func getList(name: String) -> HLList {
-        return DefaultInfoManager.instance.getList(name)
+        return DefaultAccessor.instance.getList(name)
     }
 }
