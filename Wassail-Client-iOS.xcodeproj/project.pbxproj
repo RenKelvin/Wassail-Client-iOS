@@ -18,6 +18,11 @@
 		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
 		FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */; };
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
+		FEC3BD5519C298D100184760 /* DefaultInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */; };
+		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
+		FEC3BD5B19C29DE300184760 /* DefaultInfoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */; };
+		FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */; };
+		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
 		FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */; };
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
@@ -51,6 +56,11 @@
 		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
 		FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "University Rankings 1.0.json"; sourceTree = "<group>"; };
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfoManager.swift; sourceTree = "<group>"; };
+		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
+		FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfoMapper.swift; sourceTree = "<group>"; };
+		FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSAdapter.swift; sourceTree = "<group>"; };
+		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
 		FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKTableHeaderView.xib; sourceTree = "<group>"; };
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
@@ -111,7 +121,9 @@
 				FEC8649319BD3CDF005087A3 /* View Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
 				FEC8649519BD3D06005087A3 /* Info Manager */,
-				FEC8649619BD3DE4005087A3 /* RKInfoSyncSystem */,
+				FEC3BD5619C29D1D00184760 /* Info Mapper */,
+				FEC8649619BD3DE4005087A3 /* RKISS */,
+				FEC3BD5719C29D5B00184760 /* Adapter */,
 				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649719BD3DF1005087A3 /* Resource */,
 				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
@@ -158,7 +170,6 @@
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
-				FEC3BD5119C2948300184760 /* ListViewController.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -170,6 +181,31 @@
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		FEC3BD5319C2987800184760 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD5119C2948300184760 /* ListViewController.swift */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		FEC3BD5619C29D1D00184760 /* Info Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */,
+			);
+			name = "Info Mapper";
+			sourceTree = "<group>";
+		};
+		FEC3BD5719C29D5B00184760 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
+				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
+			);
+			name = Adapter;
 			sourceTree = "<group>";
 		};
 		FEC8649119BD3C98005087A3 /* View */ = {
@@ -186,6 +222,7 @@
 		FEC8649319BD3CDF005087A3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEC3BD5319C2987800184760 /* Item */,
 				FEA5A90A19BD56470048AF6A /* Tools */,
 			);
 			name = "View Controller";
@@ -194,6 +231,7 @@
 		FEC8649419BD3CF4005087A3 /* Info */ = {
 			isa = PBXGroup;
 			children = (
+				FEC3BD5819C29DBA00184760 /* ListInfo.swift */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -201,21 +239,22 @@
 		FEC8649519BD3D06005087A3 /* Info Manager */ = {
 			isa = PBXGroup;
 			children = (
+				FEC3BD5419C298D100184760 /* DefaultInfoManager.swift */,
 			);
 			name = "Info Manager";
 			sourceTree = "<group>";
 		};
-		FEC8649619BD3DE4005087A3 /* RKInfoSyncSystem */ = {
+		FEC8649619BD3DE4005087A3 /* RKISS */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = RKInfoSyncSystem;
+			name = RKISS;
 			sourceTree = "<group>";
 		};
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FEC8649919BD3DFB005087A3 /* 3rd-Party SDK */,
+				FEC8649919BD3DFB005087A3 /* SDK */,
 				FEC8649819BD3DF4005087A3 /* Database */,
 				FE57619019BD499100574EE1 /* Local */,
 			);
@@ -229,11 +268,11 @@
 			name = Database;
 			sourceTree = "<group>";
 		};
-		FEC8649919BD3DFB005087A3 /* 3rd-Party SDK */ = {
+		FEC8649919BD3DFB005087A3 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "3rd-Party SDK";
+			name = SDK;
 			sourceTree = "<group>";
 		};
 		FECBB5FE19BDFDE200115694 /* RKUIKit */ = {
@@ -364,14 +403,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC3BD5B19C29DE300184760 /* DefaultInfoMapper.swift in Sources */,
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
+				FEC3BD5519C298D100184760 /* DefaultInfoManager.swift in Sources */,
+				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
+				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
+				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
 				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
 			);
