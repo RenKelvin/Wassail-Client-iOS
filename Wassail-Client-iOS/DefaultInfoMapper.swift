@@ -8,6 +8,16 @@
 
 import UIKit
 
+private let _DefaultInfoMapperSharedInstance = DefaultInfoMapper()
+
 class DefaultInfoMapper: NSObject {
-   
+    
+    class var instance : DefaultInfoMapper {
+    return _DefaultInfoMapperSharedInstance
+    }
+    
+    func getList() -> HLList {
+        return HLList(json: NSDictionary.dictionary())
+    }
+    
 }

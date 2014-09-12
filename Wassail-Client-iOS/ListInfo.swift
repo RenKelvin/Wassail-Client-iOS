@@ -8,6 +8,15 @@
 
 import UIKit
 
+private let _ListInfoSharedInstance = ListInfo()
+
 class ListInfo: NSObject {
-   
+    
+    class var instance : ListInfo {
+    return _ListInfoSharedInstance
+    }
+    
+    func getList() -> HLList {
+        return DefaultInfoManager.instance.getList()
+    }
 }

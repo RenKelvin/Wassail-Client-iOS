@@ -10,22 +10,24 @@ import UIKit
 
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var list: NSDictionary?
+    var list: HLList?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let path = NSBundle.mainBundle().pathForResource("University Rankings 1.0", ofType: "json")
-        let data = NSData(contentsOfFile: path!)
-        println(data)
-        let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
-        println(json)
+        let list = ListInfo.instance.getList()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: -
+    
+    override func setInfo(info: AnyObject?) {
+        list = info as? HLList
     }
     
     // MARK: - Table view data source

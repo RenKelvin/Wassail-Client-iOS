@@ -23,6 +23,7 @@
 		FEC3BD5B19C29DE300184760 /* DefaultInfoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */; };
 		FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */; };
 		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
+		FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
 		FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */; };
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
@@ -61,6 +62,7 @@
 		FEC3BD5A19C29DE300184760 /* DefaultInfoMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfoMapper.swift; sourceTree = "<group>"; };
 		FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
+		FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
 		FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKTableHeaderView.xib; sourceTree = "<group>"; };
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
@@ -208,6 +210,14 @@
 			name = Adapter;
 			sourceTree = "<group>";
 		};
+		FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */,
+			);
+			name = "Cocoa Touch Externsion";
+			sourceTree = "<group>";
+		};
 		FEC8649119BD3C98005087A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +234,7 @@
 			children = (
 				FEC3BD5319C2987800184760 /* Item */,
 				FEA5A90A19BD56470048AF6A /* Tools */,
+				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -407,6 +418,7 @@
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
+				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,

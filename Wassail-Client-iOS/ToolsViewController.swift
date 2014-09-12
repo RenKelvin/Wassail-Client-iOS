@@ -134,7 +134,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: tableView.cellForRowAtIndexPath(indexPath))
+                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList())
             case 1:
                 ""
             default:
@@ -152,7 +152,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
-        
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
     
 }

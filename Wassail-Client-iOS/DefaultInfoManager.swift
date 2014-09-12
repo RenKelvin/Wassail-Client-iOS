@@ -8,10 +8,15 @@
 
 import UIKit
 
+private let _DefaultInfoManagerSharedInstance = DefaultInfoManager()
+
 class DefaultInfoManager: NSObject {
-   
-    // Get a HLList using id
-    func getList(NSString) {
-        
+    
+    class var instance : DefaultInfoManager {
+    return _DefaultInfoManagerSharedInstance
+    }
+    
+    func getList() -> HLList {
+        return DefaultInfoMapper.instance.getList()
     }
 }
