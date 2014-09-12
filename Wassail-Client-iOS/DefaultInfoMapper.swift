@@ -16,8 +16,16 @@ class DefaultInfoMapper: NSObject {
     return _DefaultInfoMapperSharedInstance
     }
     
-    func getList() -> HLList {
-        return HLList(json: NSDictionary.dictionary())
+    func getList(name: String) -> NSDictionary {
+        var local = LocalAdapter.instance.get(name, type: "json")
+        
+        return RKInfoSysnSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+    }
+    
+    func getTools() -> NSDictionary {
+        var local = LocalAdapter.instance.get("Tools", type: "json")
+        
+        return RKInfoSysnSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
     }
     
 }

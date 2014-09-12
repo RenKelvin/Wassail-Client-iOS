@@ -16,7 +16,11 @@ class DefaultInfoManager: NSObject {
     return _DefaultInfoManagerSharedInstance
     }
     
-    func getList() -> HLList {
-        return DefaultInfoMapper.instance.getList()
+    func getList(name: String) -> HLList {
+        return HLList(json: DefaultInfoMapper.instance.getList(name))
+    }
+    
+    func getTools() -> NSDictionary {
+        return DefaultInfoMapper.instance.getTools()
     }
 }

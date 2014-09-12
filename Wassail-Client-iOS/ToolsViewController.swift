@@ -10,6 +10,8 @@ import UIKit
 
 class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var tools: NSDictionary = ToolsInfo.instance.getTools()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,27 +54,23 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
         
         // Configure the cell...
-        let path = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
-        let file = NSDictionary(contentsOfFile: path!)
-        let toolsDict = file.valueForKey("Tools") as NSDictionary
-        
         switch indexPath.section {
         case 0:
             switch indexPath.row {
             case 0:
-                let dict = toolsDict.valueForKey("World Clock") as NSDictionary
+                let dict = tools.valueForKey("World Clock") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = toolsDict.valueForKey("Tips Calculator") as NSDictionary
+                let dict = tools.valueForKey("Tips Calculator") as NSDictionary
                 cell.configure(dict)
             case 2:
-                let dict = toolsDict.valueForKey("Unit Converter") as NSDictionary
+                let dict = tools.valueForKey("Unit Converter") as NSDictionary
                 cell.configure(dict)
             case 3:
-                let dict = toolsDict.valueForKey("Size Converter") as NSDictionary
+                let dict = tools.valueForKey("Size Converter") as NSDictionary
                 cell.configure(dict)
             case 4:
-                let dict = toolsDict.valueForKey("Info Container") as NSDictionary
+                let dict = tools.valueForKey("Info Container") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -80,10 +78,10 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                let dict = toolsDict.valueForKey("University Rankings") as NSDictionary
+                let dict = tools.valueForKey("University Rankings") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = toolsDict.valueForKey("Credit Card") as NSDictionary
+                let dict = tools.valueForKey("Credit Card") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -134,7 +132,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList())
+                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList("University Rankings 1.0"))
             case 1:
                 ""
             default:
@@ -150,6 +148,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         var controller = segue.destinationViewController as UIViewController

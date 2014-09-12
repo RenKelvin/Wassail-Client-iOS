@@ -16,7 +16,6 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let list = ListInfo.instance.getList()
     }
     
     override func didReceiveMemoryWarning() {

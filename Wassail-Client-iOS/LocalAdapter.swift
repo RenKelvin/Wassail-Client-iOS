@@ -8,16 +8,22 @@
 
 import UIKit
 
+private let _LocalAdapterSharedInstance = LocalAdapter()
+
 class LocalAdapter: NSObject {
     
-    func getList() -> HLList {
+    class var instance : LocalAdapter {
+    return _LocalAdapterSharedInstance
+    }
+    
+    func get(file: String, type: String) -> NSDictionary {
         //
-        let path = NSBundle.mainBundle().pathForResource("University Rankings 1.0", ofType: "json")
+        let path = NSBundle.mainBundle().pathForResource(file, ofType: type)
         let data = NSData(contentsOfFile: path!)
         let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
         
         //
-        return HLList(json: json)
+        return json
     }
     
 }
