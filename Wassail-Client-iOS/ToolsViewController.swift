@@ -15,15 +15,16 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+        self.navigationController?.navigationBar.barTintColor = UIColor.HLBlue(0)
         self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
     }
     

@@ -13,6 +13,7 @@
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
+		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
 		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
 		FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */; };
@@ -54,6 +55,7 @@
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
+		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
 		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
 		FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "University Rankings 1.0.json"; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */,
+				FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */,
 			);
 			name = "Cocoa Touch Externsion";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
+				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
 				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
