@@ -53,8 +53,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Configure the cell...
         let path = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
-        let plist = NSDictionary(contentsOfFile: path!)
-        let toolsDict = plist.valueForKey("Tools") as NSDictionary
+        let file = NSDictionary(contentsOfFile: path!)
+        let toolsDict = file.valueForKey("Tools") as NSDictionary
         
         switch indexPath.section {
         case 0:

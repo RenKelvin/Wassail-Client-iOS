@@ -14,6 +14,10 @@
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
+		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
+		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
+		FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */; };
+		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
 		FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */; };
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
@@ -43,6 +47,10 @@
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
+		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
+		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
+		FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "University Rankings 1.0.json"; sourceTree = "<group>"; };
+		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
 		FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKTableHeaderView.xib; sourceTree = "<group>"; };
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 		FE57619019BD499100574EE1 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */,
 				FE57618E19BD498D00574EE1 /* Wassail.plist */,
 			);
 			name = Local;
@@ -102,7 +111,8 @@
 				FEC8649319BD3CDF005087A3 /* View Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
 				FEC8649519BD3D06005087A3 /* Info Manager */,
-				FEC8649619BD3DE4005087A3 /* RKISS */,
+				FEC8649619BD3DE4005087A3 /* RKInfoSyncSystem */,
+				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649719BD3DF1005087A3 /* Resource */,
 				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
 			);
@@ -148,8 +158,18 @@
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
+				FEC3BD5119C2948300184760 /* ListViewController.swift */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		FEC3BD4819C2896E00184760 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD4D19C28AD400184760 /* HLItem.swift */,
+				FEC3BD4919C289AD00184760 /* HLList.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		FEC8649119BD3C98005087A3 /* View */ = {
@@ -185,11 +205,11 @@
 			name = "Info Manager";
 			sourceTree = "<group>";
 		};
-		FEC8649619BD3DE4005087A3 /* RKISS */ = {
+		FEC8649619BD3DE4005087A3 /* RKInfoSyncSystem */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = RKISS;
+			name = RKInfoSyncSystem;
 			sourceTree = "<group>";
 		};
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
@@ -322,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
@@ -343,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
@@ -350,6 +372,8 @@
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
+				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
+				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

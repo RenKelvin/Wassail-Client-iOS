@@ -1,20 +1,26 @@
 //
-//  UnitConverterViewController.swift
+//  ListViewController.swift
 //  Wassail-Client-iOS
 //
-//  Created by Chuan Ren on 9/8/14.
+//  Created by Chuan Ren on 9/12/14.
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
 import UIKit
 
-class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var list: NSDictionary?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        //        numericLabel?.setNumber(100)
+        let path = NSBundle.mainBundle().pathForResource("University Rankings 1.0", ofType: "json")
+        let data = NSData(contentsOfFile: path!)
+        println(data)
+        let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as NSDictionary
+        println(json)
     }
     
     override func didReceiveMemoryWarning() {
