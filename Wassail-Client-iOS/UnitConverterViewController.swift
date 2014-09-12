@@ -10,6 +10,13 @@ import UIKit
 
 class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var lengthButton: UIButton?
+    @IBOutlet var areaButton: UIButton?
+    @IBOutlet var volumeButton: UIButton?
+    @IBOutlet var weightButton: UIButton?
+    @IBOutlet var tempButton: UIButton?
+    @IBOutlet var speedButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -24,6 +31,25 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: - IBAction
+    
+    @IBAction func buttonSelected(sender: UIButton) {
+        if sender.selected == true {
+            return
+        }
+            
+        else {
+            lengthButton?.selected = false
+            areaButton?.selected = false
+            volumeButton?.selected = false
+            weightButton?.selected = false
+            tempButton?.selected = false
+            speedButton?.selected = false
+            
+            sender.selected = true
+        }
     }
     
     // MARK: - Table view data source
