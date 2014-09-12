@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ToolsViewController: UITableViewController {
+class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var tools: NSDictionary = ToolsInfo.instance.getTools()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,12 +33,12 @@ class ToolsViewController: UITableViewController {
     
     // MARK: - Table view data source
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
         return 2
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         switch section {
         case 0:
@@ -48,31 +50,27 @@ class ToolsViewController: UITableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
         
         // Configure the cell...
-        let path = NSBundle.mainBundle().pathForResource("Wassail", ofType: "plist")
-        let plist = NSDictionary(contentsOfFile: path!)
-        let toolsDict = plist.valueForKey("Tools") as NSDictionary
-        
         switch indexPath.section {
         case 0:
             switch indexPath.row {
             case 0:
-                let dict = toolsDict.valueForKey("World Clock") as NSDictionary
+                let dict = tools.valueForKey("World Clock") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = toolsDict.valueForKey("Tips Calculator") as NSDictionary
+                let dict = tools.valueForKey("Tips Calculator") as NSDictionary
                 cell.configure(dict)
             case 2:
-                let dict = toolsDict.valueForKey("Unit Converter") as NSDictionary
+                let dict = tools.valueForKey("Unit Converter") as NSDictionary
                 cell.configure(dict)
             case 3:
-                let dict = toolsDict.valueForKey("Size Converter") as NSDictionary
+                let dict = tools.valueForKey("Size Converter") as NSDictionary
                 cell.configure(dict)
             case 4:
-                let dict = toolsDict.valueForKey("Info Container") as NSDictionary
+                let dict = tools.valueForKey("Info Container") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -80,10 +78,10 @@ class ToolsViewController: UITableViewController {
         case 1:
             switch indexPath.row {
             case 0:
-                let dict = toolsDict.valueForKey("University Rankings") as NSDictionary
+                let dict = tools.valueForKey("University Rankings") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = toolsDict.valueForKey("Credit Card") as NSDictionary
+                let dict = tools.valueForKey("Credit Card") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -97,7 +95,7 @@ class ToolsViewController: UITableViewController {
     
     // MARK: - Table view delegate
     
-    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
         var title: String = ""
@@ -114,7 +112,7 @@ class ToolsViewController: UITableViewController {
         return headerView
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         switch indexPath.section {
         case 0:
             switch indexPath.row {
@@ -134,7 +132,7 @@ class ToolsViewController: UITableViewController {
         case 1:
             switch indexPath.row {
             case 0:
-                ""
+                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList("University Rankings 1.0"))
             case 1:
                 ""
             default:
@@ -150,9 +148,11 @@ class ToolsViewController: UITableViewController {
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
-        
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
     
 }
