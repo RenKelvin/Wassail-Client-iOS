@@ -26,7 +26,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
 //        self.navigationController?.navigationBar
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
+//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
 //        self.navigationController?.navigationBar.translucent = true
     }
     

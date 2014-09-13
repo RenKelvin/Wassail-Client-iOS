@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uIq-Yu-BSt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="C2S-3r-gtX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UnitConverterNavigationBackground" translatesAutoresizingMaskIntoConstraints="NO" id="8gv-X7-qpb" userLabel="Background">
@@ -25,7 +25,7 @@
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fXh-CM-xME">
-                                <rect key="frame" x="0.0" y="192" width="600" height="344"/>
+                                <rect key="frame" x="0.0" y="192" width="600" height="408"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
                                 <prototypes>
@@ -265,7 +265,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Hv9-t5-mWW" firstAttribute="width" secondItem="C2S-3r-gtX" secondAttribute="width" id="2fi-yR-exw"/>
-                            <constraint firstItem="Hv9-t5-mWW" firstAttribute="top" secondItem="PVD-Nm-XzG" secondAttribute="bottom" id="4XC-ZL-Mcl"/>
+                            <constraint firstItem="Hv9-t5-mWW" firstAttribute="top" secondItem="PVD-Nm-XzG" secondAttribute="bottom" constant="-64" id="4XC-ZL-Mcl"/>
                             <constraint firstItem="fXh-CM-xME" firstAttribute="width" secondItem="C2S-3r-gtX" secondAttribute="width" id="4dI-Qi-FIt"/>
                             <constraint firstItem="zdx-9N-ruz" firstAttribute="leading" secondItem="C2S-3r-gtX" secondAttribute="leading" id="6ea-N9-zxj"/>
                             <constraint firstItem="zdx-9N-ruz" firstAttribute="centerY" secondItem="fSI-D0-XVw" secondAttribute="centerY" constant="0.5" id="7Cx-eC-fz8"/>
@@ -299,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz4-Yj-fIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="162"/>
+            <point key="canvasLocation" x="2464" y="162"/>
         </scene>
         <!--尺码转换-->
         <scene sceneID="Y6A-Or-LNQ">
@@ -310,17 +310,17 @@
                         <viewControllerLayoutGuide type="bottom" id="gFj-m6-s5I"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7ar-RS-tua">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SizeConverterNavigationBackground" translatesAutoresizingMaskIntoConstraints="NO" id="tFs-01-1sy">
-                                <rect key="frame" x="0.0" y="-64" width="600" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="iej-6U-bvm"/>
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo">
-                                <rect key="frame" x="0.0" y="64" width="600" height="472"/>
+                                <rect key="frame" x="0.0" y="128" width="600" height="472"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <prototypes>
@@ -345,7 +345,7 @@
                             <constraint firstItem="tFs-01-1sy" firstAttribute="leading" secondItem="7ar-RS-tua" secondAttribute="leading" id="Va8-Yn-Dwp"/>
                             <constraint firstAttribute="width" secondItem="fce-yP-ATo" secondAttribute="width" id="avb-zn-HQb"/>
                             <constraint firstItem="tFs-01-1sy" firstAttribute="width" secondItem="7ar-RS-tua" secondAttribute="width" id="lAx-6o-3ms"/>
-                            <constraint firstItem="tFs-01-1sy" firstAttribute="top" secondItem="7ar-RS-tua" secondAttribute="top" constant="-64" id="nAt-IO-99G"/>
+                            <constraint firstItem="tFs-01-1sy" firstAttribute="top" secondItem="7ar-RS-tua" secondAttribute="top" id="nAt-IO-99G"/>
                             <constraint firstItem="fce-yP-ATo" firstAttribute="top" secondItem="tFs-01-1sy" secondAttribute="bottom" id="pkK-hh-fMF"/>
                         </constraints>
                     </view>
@@ -353,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bqy-Ov-osU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1775" y="162"/>
+            <point key="canvasLocation" x="3159" y="162"/>
         </scene>
         <!--留学小助手-->
         <scene sceneID="H8R-eJ-6H1">
@@ -364,11 +364,11 @@
                         <viewControllerLayoutGuide type="bottom" id="dsl-3H-IMb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AIv-sg-X4D">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="HrX-Pq-H8U">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="ZVs-Xb-UQs">
@@ -447,7 +447,7 @@
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="leading" secondItem="AIv-sg-X4D" secondAttribute="leading" id="Gux-wH-1G5"/>
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="height" secondItem="AIv-sg-X4D" secondAttribute="height" id="INq-7h-Q2k"/>
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="width" secondItem="AIv-sg-X4D" secondAttribute="width" id="kUQ-38-eQT"/>
-                            <constraint firstItem="HrX-Pq-H8U" firstAttribute="top" secondItem="JGf-i3-cXH" secondAttribute="bottom" id="qwe-WK-PGx"/>
+                            <constraint firstItem="HrX-Pq-H8U" firstAttribute="top" secondItem="JGf-i3-cXH" secondAttribute="bottom" constant="-64" id="qwe-WK-PGx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="留学小助手" id="c5c-yF-mzl">
@@ -457,6 +457,7 @@
                         <segue destination="WRg-lq-Ju5" kind="show" identifier="ToolsUnitConverterSegueIdentifier" id="kVD-07-a4B"/>
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ToolsListSegueIdentifier" id="r4f-h3-sd1"/>
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ToolsSizeConverterSegueIdentifier" id="BK5-dh-8Fc"/>
+                        <segue destination="S7C-mv-WHf" kind="show" identifier="ToolsTipsCalculatorSegueIdentifier" id="sEN-DU-GIR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVq-hs-z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -472,11 +473,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Yxd-oc-dcr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="54R-DX-u2Y">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Abn-bJ-5vA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
                                 <prototypes>
@@ -695,8 +696,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="height" secondItem="54R-DX-u2Y" secondAttribute="height" id="5yq-4k-QX9"/>
-                            <constraint firstItem="Abn-bJ-5vA" firstAttribute="top" secondItem="X6I-IW-k4f" secondAttribute="bottom" id="D0n-eC-DEb"/>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="leading" secondItem="54R-DX-u2Y" secondAttribute="leading" id="EdM-Sl-wb1"/>
+                            <constraint firstItem="Abn-bJ-5vA" firstAttribute="top" secondItem="X6I-IW-k4f" secondAttribute="bottom" constant="-64" id="HJY-Qz-txO"/>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="width" secondItem="54R-DX-u2Y" secondAttribute="width" id="O8L-zu-YeH"/>
                         </constraints>
                     </view>
@@ -709,6 +710,37 @@
             </objects>
             <point key="canvasLocation" x="1080" y="862"/>
         </scene>
+        <!--小费计算器-->
+        <scene sceneID="Tp5-gv-vlo">
+            <objects>
+                <viewController id="S7C-mv-WHf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15x-vG-EaY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qpv-rp-fO5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cXL-qX-vhO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TipsCalculatorBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jHa-q9-AhX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jHa-q9-AhX" firstAttribute="leading" secondItem="cXL-qX-vhO" secondAttribute="leading" id="69h-fe-akd"/>
+                            <constraint firstItem="Qpv-rp-fO5" firstAttribute="top" secondItem="jHa-q9-AhX" secondAttribute="bottom" id="dFK-ZA-SbL"/>
+                            <constraint firstItem="jHa-q9-AhX" firstAttribute="width" secondItem="cXL-qX-vhO" secondAttribute="width" id="mD7-CH-jws"/>
+                            <constraint firstItem="jHa-q9-AhX" firstAttribute="top" secondItem="15x-vG-EaY" secondAttribute="bottom" constant="-64" id="u4O-mU-5uB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="小费计算器" id="Xud-ml-QYg"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sh0-QV-Jrq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1775" y="162"/>
+        </scene>
         <!--Article View Controller-->
         <scene sceneID="w0Q-IW-IVM">
             <objects>
@@ -718,11 +750,11 @@
                         <viewControllerLayoutGuide type="bottom" id="QWx-FY-Nd0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b1c-yE-H7w">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="65" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="qhw-vp-XwO">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <prototypes>
@@ -791,7 +823,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="leading" secondItem="b1c-yE-H7w" secondAttribute="leading" id="LxP-Kk-1lP"/>
-                            <constraint firstItem="qhw-vp-XwO" firstAttribute="top" secondItem="2NJ-Nj-Y23" secondAttribute="bottom" id="a66-ga-XHI"/>
+                            <constraint firstItem="qhw-vp-XwO" firstAttribute="top" secondItem="2NJ-Nj-Y23" secondAttribute="bottom" constant="-64" id="a66-ga-XHI"/>
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="height" secondItem="b1c-yE-H7w" secondAttribute="height" id="vc5-Po-vGR"/>
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="width" secondItem="b1c-yE-H7w" secondAttribute="width" id="wrh-UV-EL5"/>
                         </constraints>
@@ -808,7 +840,7 @@
         <scene sceneID="OXJ-qH-0fD">
             <objects>
                 <navigationController id="9Zh-LW-yx4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="auS-de-38q">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="auS-de-38q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -823,6 +855,7 @@
     </scenes>
     <resources>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
+        <image name="TipsCalculatorBackground" width="320" height="568"/>
         <image name="TriangleIndicator" width="53" height="12"/>
         <image name="UnitConverterArea" width="53" height="64"/>
         <image name="UnitConverterAreaSelected" width="53" height="64"/>
