@@ -70,13 +70,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let itemName = ListInfo.instance.getList(item.source.objectForKey("name") as NSString)
         let source = ListInfo.instance.getList(item.source.objectForKey("name") as NSString) as HLList?
         
-        let sugueIdentifier = "ListListSegueIdentifier"
+        let segueIdentifier = "ListListSegueIdentifier"
         var destinationController = ListViewController()
         destinationController.setInfo(source)
         
-        let sugue = UIStoryboardSegue(identifier: sugueIdentifier, source: self, destination: ListViewController())
+        let segue = UIStoryboardSegue(identifier: segueIdentifier, source: self, destination: ListViewController())
         
-        // sugue.perform()
+        // segue.perform()
         
         // self.navigationController?.pushViewController(destinationController, animated: true)
     }
