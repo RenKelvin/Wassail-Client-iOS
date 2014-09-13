@@ -17,10 +17,11 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        // Set article title
         self.title = article.title
         
-        self._tableView!.estimatedRowHeight = 44.0
+        // Apply table view cell self sizing
+        self._tableView!.estimatedRowHeight = 88.0
         self._tableView!.rowHeight = UITableViewAutomaticDimension
     }
     

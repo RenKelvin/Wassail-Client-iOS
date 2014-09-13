@@ -23,6 +23,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        // Configure Navigation Bar and Status Bar
+//        self.navigationController?.navigationBar
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
+//        self.navigationController?.navigationBar.translucent = true
+    }
+    
     // MARK: -
     
     override func setInfo(info: AnyObject?) {

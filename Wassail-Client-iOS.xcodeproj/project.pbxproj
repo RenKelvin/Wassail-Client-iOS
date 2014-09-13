@@ -50,6 +50,8 @@
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
 		FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */; };
 		FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */; };
+		FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */; };
+		FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
 		FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterTableViewCell.swift; sourceTree = "<group>"; };
+		FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterViewController.swift; sourceTree = "<group>"; };
+		FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +251,7 @@
 			children = (
 				FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */,
 				FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */,
+				FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
+				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -515,6 +521,7 @@
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
+				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
 				FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
@@ -541,6 +548,7 @@
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
+				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,

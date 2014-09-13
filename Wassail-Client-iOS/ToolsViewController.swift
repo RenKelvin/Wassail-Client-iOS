@@ -24,8 +24,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        self.navigationController?.navigationBar.barTintColor = UIColor.HLBlue(0)
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        //        self.navigationController?.navigationBar.barTintColor = UIColor.HLBlue(0)
+        //        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
     }
     
     override func didReceiveMemoryWarning() {
@@ -123,9 +123,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 1:
                 ""
             case 2:
-                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: tableView.cellForRowAtIndexPath(indexPath))
+                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
             case 3:
-                ""
+                self.performSegueWithIdentifier("ToolsSizeConverterSegueIdentifier", sender: nil)
             case 4:
                 ""
             default:

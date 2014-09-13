@@ -23,9 +23,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        self.navigationController?.navigationBar.barTintColor = UIColor.HLOrange(0)
-        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+//        self.navigationController?.navigationBar.barTintColor = UIColor.HLOrange(0)
+//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+//        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
     }
     
     override func didReceiveMemoryWarning() {
