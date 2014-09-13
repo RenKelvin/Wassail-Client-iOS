@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ArticleViewController: UIViewController {
+class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet var _tableView: UITableView?
     
     var article: HLArticle = HLArticle()
     
@@ -17,6 +19,9 @@ class ArticleViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         self.title = article.title
+        
+        self._tableView!.estimatedRowHeight = 44.0
+        self._tableView!.rowHeight = UITableViewAutomaticDimension
     }
     
     // MARK: -
@@ -72,9 +77,9 @@ class ArticleViewController: UIViewController {
         return headerView
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 44.0
-    }
+//    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+//        return 44.0
+//    }
     
     /*
     // MARK: - Navigation
