@@ -11,14 +11,9 @@ import UIKit
 class RKTableHeaderView: UIView {
     
     @IBOutlet var titleLabel: UILabel?
-
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect)
-    {
-        // Drawing code
+    
+    func setTitle(title: String) {
+        titleLabel?.text = title
     }
-    */
-
+    
 }

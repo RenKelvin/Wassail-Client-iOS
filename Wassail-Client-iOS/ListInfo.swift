@@ -16,7 +16,7 @@ class ListInfo: NSObject {
     return _ListInfoSharedInstance
     }
     
-    func getList(name: String) -> HLList {
+    func getList(name: String) -> HLList? {
         return DefaultAccessor.instance.getList(name)
     }
 }

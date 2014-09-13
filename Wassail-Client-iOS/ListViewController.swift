@@ -26,36 +26,40 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
-        list = info as? HLList
+        list = info as HLList?
     }
     
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 2
+        return list!.numberOfGroups()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        switch section {
-        case 0:
-            return 1
-        case 1:
-            return 4
-        default:
-            return 0
-        }
+        return list!.numberOfItemsInGroup(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UnitConverterTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ListViewTableView44CellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
-        cell.configure()
+        // cell.configure()
         
         return cell
     }
     
+    // MARK: - Table view delegate
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let title: String = list!.titleForGroup(section)
+        
+        headerView.setTitle(title)
+        
+        return headerView
+    }
+
     /*
     // MARK: - Navigation
     

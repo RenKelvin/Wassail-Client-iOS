@@ -9,11 +9,36 @@
 import UIKit
 
 class HLList: HLItem {
-    var title: NSString?
-    var source: NSArray?
+    var name: NSString = ""
+    
+    var title: NSString = ""
+    var source: NSArray = []
     
     init(json: NSDictionary) {
-        title = json.valueForKey("title") as? NSString
-        source = json.valueForKey("source") as? NSArray
+        // Header
+        name = json.objectForKey("name") as NSString
+        
+        // Body
+        let jsonBody = json.objectForKey("body") as NSDictionary
+        title = jsonBody.objectForKey("title") as NSString
+        source = jsonBody.objectForKey("source") as NSArray
+    }
+    
+    func numberOfGroups() -> Int {
+        return source.count
+    }
+    
+    func numberOfItemsInGroup(group: Int) -> Int {
+        let groupDict = source[group] as NSDictionary
+        let itemsArray = groupDict.objectForKey("items") as NSArray
+        
+        return itemsArray.count
+    }
+    
+    func titleForGroup(group: Int) -> NSString {
+        let groupDict = source[group] as NSDictionary
+        let title = groupDict.objectForKey("title") as NSString
+        
+        return title
     }
 }

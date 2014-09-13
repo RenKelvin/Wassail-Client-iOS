@@ -60,19 +60,19 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                let dict = tools.valueForKey("World Clock") as NSDictionary
+                let dict = tools.objectForKey("World Clock") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = tools.valueForKey("Tips Calculator") as NSDictionary
+                let dict = tools.objectForKey("Tips Calculator") as NSDictionary
                 cell.configure(dict)
             case 2:
-                let dict = tools.valueForKey("Unit Converter") as NSDictionary
+                let dict = tools.objectForKey("Unit Converter") as NSDictionary
                 cell.configure(dict)
             case 3:
-                let dict = tools.valueForKey("Size Converter") as NSDictionary
+                let dict = tools.objectForKey("Size Converter") as NSDictionary
                 cell.configure(dict)
             case 4:
-                let dict = tools.valueForKey("Info Container") as NSDictionary
+                let dict = tools.objectForKey("Info Container") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -80,10 +80,10 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                let dict = tools.valueForKey("University Rankings") as NSDictionary
+                let dict = tools.objectForKey("University Rankings") as NSDictionary
                 cell.configure(dict)
             case 1:
-                let dict = tools.valueForKey("Credit Card") as NSDictionary
+                let dict = tools.objectForKey("Credit Card") as NSDictionary
                 cell.configure(dict)
             default:
                 return cell
@@ -134,7 +134,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList("University Rankings 1.0"))
+                self.performSegueWithIdentifier("ToolsListViewSegueIdentifier", sender: ListInfo.instance.getList("大学排名"))
             case 1:
                 ""
             default:

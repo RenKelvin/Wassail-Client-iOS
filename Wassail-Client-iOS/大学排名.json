@@ -1,0 +1,31 @@
+{
+    "name": "大学排名",
+    "type": "HLList",
+    "body": {
+        "title": "世界大学排名",
+        "source": [
+                   {
+                   "title": "1",
+                   "items": [
+                             {
+                             "title": "1-1"
+                             },
+                             {
+                             "title": "1-2"
+                             }
+                             ]
+                   },
+                   {
+                   "title": "2",
+                   "items": [
+                             {
+                             "title": "2-1"
+                             },
+                             {
+                             "title": "2-2"
+                             }
+                             ]
+                   }
+                   ]
+    }
+}

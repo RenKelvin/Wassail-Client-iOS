@@ -16,10 +16,10 @@ class DefaultMapper: NSObject {
     return _DefaultMapperSharedInstance
     }
     
-    func getList(name: String) -> NSDictionary {
+    func getList(name: String) -> NSDictionary? {
         var local = LocalAdapter.instance.get(name, type: "json")
         
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
     
     func getTools() -> NSDictionary {

@@ -16,7 +16,7 @@
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
 		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
-		FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */; };
+		FEC3BD5019C2945800184760 /* 大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* 大学排名.json */; };
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
 		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
 		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
@@ -58,7 +58,7 @@
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
 		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
-		FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "University Rankings 1.0.json"; sourceTree = "<group>"; };
+		FEC3BD4F19C2945800184760 /* 大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "大学排名.json"; sourceTree = "<group>"; };
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
 		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		FE57619019BD499100574EE1 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD4F19C2945800184760 /* University Rankings 1.0.json */,
+				FE7EE12019C3F5A4008169D1 /* 大学排名 */,
 				FEC3BD6519C2CC5A00184760 /* Tools.json */,
 			);
 			name = Local;
@@ -162,6 +162,14 @@
 				FE5B1FA119B4033B00842C3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE7EE12019C3F5A4008169D1 /* 大学排名 */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD4F19C2945800184760 /* 大学排名.json */,
+			);
+			name = "大学排名";
 			sourceTree = "<group>";
 		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
@@ -401,7 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC3BD5019C2945800184760 /* University Rankings 1.0.json in Resources */,
+				FEC3BD5019C2945800184760 /* 大学排名.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,

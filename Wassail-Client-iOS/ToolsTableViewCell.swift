@@ -26,9 +26,9 @@ class ToolsTableViewCell: UITableViewCell {
     }
     
     func configure(dict: NSDictionary) {
-        iconImageView!.image = UIImage(named: dict.valueForKey("Icon") as String)
-        titleLabel!.text = dict.valueForKey("Title") as? String
-        noteLabel!.text = dict.valueForKey("Note") as? String
+        iconImageView!.image = UIImage(named: dict.objectForKey("Icon") as String)
+        titleLabel!.text = dict.objectForKey("Title") as String?
+        noteLabel!.text = dict.objectForKey("Note") as String?
     }
 
 }

@@ -16,8 +16,15 @@ class DefaultAccessor: NSObject {
     return _DefaultAccessorSharedInstance
     }
     
-    func getList(name: String) -> HLList {
-        return HLList(json: DefaultMapper.instance.getList(name))
+    func getList(name: String) -> HLList? {
+        var raw = DefaultMapper.instance.getList(name)
+        
+        if (raw != nil) {
+            return HLList(json: raw!)
+        }
+        else {
+            return nil
+        }
     }
     
     func getTools() -> NSDictionary {
