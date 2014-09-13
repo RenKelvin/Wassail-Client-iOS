@@ -19,12 +19,12 @@ class DefaultAccessor: NSObject {
     func getList(name: String) -> HLList? {
         var raw = DefaultMapper.instance.getList(name)
         
-        if (raw != nil) {
-            return HLList(json: raw!)
-        }
-        else {
+        if (raw == nil) {
+            println("Load info failed!")
             return nil
         }
+        
+        return HLList(json: raw!)
     }
     
     func getTools() -> NSDictionary {

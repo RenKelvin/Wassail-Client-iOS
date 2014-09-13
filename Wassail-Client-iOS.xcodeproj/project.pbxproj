@@ -27,6 +27,8 @@
 		FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */; };
 		FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD6519C2CC5A00184760 /* Tools.json */; };
 		FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */; };
+		FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */; };
+		FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
 		FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */; };
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
@@ -69,6 +71,8 @@
 		FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInfo.swift; sourceTree = "<group>"; };
 		FEC3BD6519C2CC5A00184760 /* Tools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
 		FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKInfoSyncSystem.swift; sourceTree = "<group>"; };
+		FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLListPreview.swift; sourceTree = "<group>"; };
+		FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemBuilder.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
 		FECBB60119BDFE4100115694 /* RKTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKTableHeaderView.xib; sourceTree = "<group>"; };
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
@@ -128,11 +132,11 @@
 				FEC8649119BD3C98005087A3 /* View */,
 				FEC8649319BD3CDF005087A3 /* View Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
+				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
 				FEC3BD5619C29D1D00184760 /* Mapper */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
-				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649719BD3DF1005087A3 /* Resource */,
 				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
 			);
@@ -194,7 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD4D19C28AD400184760 /* HLItem.swift */,
+				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
+				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -435,6 +441,7 @@
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
+				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
 				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
 				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
@@ -442,6 +449,7 @@
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
+				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,

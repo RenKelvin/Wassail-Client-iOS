@@ -22,7 +22,7 @@ class LocalAdapter: NSObject {
         let data = NSData(contentsOfFile: path!)
         
         var error: NSError? = NSError()
-        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &error) as NSDictionary?
+        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
         
 //        let bodyDict: NSDictionary? = json?.objectForKey("body") as? NSDictionary
 //        println(bodyDict)

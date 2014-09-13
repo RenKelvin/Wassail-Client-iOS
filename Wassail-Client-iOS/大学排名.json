@@ -1,31 +1,40 @@
 {
-    "name": "大学排名",
     "type": "HLList",
+    "name": "大学排名",
     "body": {
-        "title": "世界大学排名",
-        "source": [
-                   {
-                   "title": "1",
-                   "items": [
-                             {
-                             "title": "1-1"
-                             },
-                             {
-                             "title": "1-2"
-                             }
-                             ]
-                   },
-                   {
-                   "title": "2",
-                   "items": [
-                             {
-                             "title": "2-1"
-                             },
-                             {
-                             "title": "2-2"
-                             }
-                             ]
-                   }
-                   ]
+        "title": "大学排名",
+        "content": [
+                    {
+                    "title": "-",
+                    "items": [
+                              {
+                              "type": "HLListPreview",
+                              "name": "世界大学排名",
+                              "body": {
+                              "title": "世界大学排名"
+                              }
+                              }
+                              ]
+                    },
+                    {
+                    "title": "美国",
+                    "items": [
+                              {
+                              "type": "HLListPreview",
+                              "name": "美国本科排名",
+                              "body": {
+                              "title": "美国本科排名"
+                              }
+                              },
+                              {
+                              "type": "HLListPreview",
+                              "name": "美国研究生及博士排名",
+                              "body": {
+                              "title": "美国研究生及博士排名"
+                              }
+                              }
+                              ]
+                    }
+                    ]
     }
 }

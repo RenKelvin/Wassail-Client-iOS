@@ -10,7 +10,7 @@ import UIKit
 
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var list: HLList?
+    var list: HLList = HLList()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,22 +26,28 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
-        list = info as HLList?
+        if (info != nil) {
+            list = info as HLList
+        }
     }
     
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return list!.numberOfGroups()
+        return list.numberOfGroups()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return list!.numberOfItemsInGroup(section)
+        return list.numberOfItemsInGroup(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let listPreview = list.item(indexPath.section, row: indexPath.row) as HLListPreview
+        
+        println(listPreview.title)
+        
         let cell = tableView.dequeueReusableCellWithIdentifier("ListViewTableView44CellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
         // cell.configure()
@@ -53,13 +59,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
-        let title: String = list!.titleForGroup(section)
+        let title: String = list.titleForGroup(section)
         
         headerView.setTitle(title)
         
         return headerView
     }
-
+    
     /*
     // MARK: - Navigation
     

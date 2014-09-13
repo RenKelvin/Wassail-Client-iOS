@@ -9,36 +9,57 @@
 import UIKit
 
 class HLList: HLItem {
-    var name: NSString = ""
     
     var title: NSString = ""
-    var source: NSArray = []
+    var content: NSArray = []
     
-    init(json: NSDictionary) {
+    override init() {
+        super.init()
+    }
+    
+    override init(json: NSDictionary) {
+        super.init(json: json)
+        
         // Header
         name = json.objectForKey("name") as NSString
         
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
-        source = jsonBody.objectForKey("source") as NSArray
+        content = jsonBody.objectForKey("content") as NSArray
+        
+        // Content
+        for group in content {
+            var items = group.objectForKey("items") as NSMutableArray
+            for item in items {
+                let model = HLItemBuilder.build(item as NSDictionary)
+                items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+            }
+        }
     }
     
     func numberOfGroups() -> Int {
-        return source.count
+        return content.count
     }
     
     func numberOfItemsInGroup(group: Int) -> Int {
-        let groupDict = source[group] as NSDictionary
+        let groupDict = content[group] as NSDictionary
         let itemsArray = groupDict.objectForKey("items") as NSArray
         
         return itemsArray.count
     }
     
     func titleForGroup(group: Int) -> NSString {
-        let groupDict = source[group] as NSDictionary
+        let groupDict = content[group] as NSDictionary
         let title = groupDict.objectForKey("title") as NSString
         
         return title
+    }
+    
+    func item(group: Int, row: Int) -> HLItem {
+        let group = content.objectAtIndex(group) as NSDictionary
+        let items = group.objectForKey("items") as NSArray
+        
+        return items.objectAtIndex(row) as HLItem
     }
 }

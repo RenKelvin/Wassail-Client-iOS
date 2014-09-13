@@ -9,5 +9,15 @@
 import UIKit
 
 class HLItem: NSObject {
-   
+    
+    var name: NSString = ""
+
+    override init() {
+        super.init()
+    }
+
+    // Virtual method
+    init(json: NSDictionary) {
+    
+    }
 }
