@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLListPreview: HLItem {
+class HLListPreview: HLItemPreview {
     
     var title: NSString = ""
     
@@ -22,4 +22,12 @@ class HLListPreview: HLItem {
         let jsonBody = json.objectForKey("body") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
     }
+    
+    // MARK: HLItemPreview Methods
+    
+    override func titlePresent() -> NSString {
+        return title
+    }
+    
+    
 }

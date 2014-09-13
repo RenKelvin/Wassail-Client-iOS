@@ -12,6 +12,12 @@
 		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
+		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
+		FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */; };
+		FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B019C44ADE00CE6174 /* ListTableView88Cell.swift */; };
+		FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */; };
+		FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */; };
+		FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -56,6 +62,12 @@
 		FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wassail-Client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
+		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemPreview.swift; sourceTree = "<group>"; };
+		FE8D81B019C44ADE00CE6174 /* ListTableView88Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView88Cell.swift; sourceTree = "<group>"; };
+		FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView64Cell.swift; sourceTree = "<group>"; };
+		FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView54Cell.swift; sourceTree = "<group>"; };
+		FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView44Cell.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
@@ -176,6 +188,18 @@
 			name = "大学排名";
 			sourceTree = "<group>";
 		};
+		FE8D81AD19C448B900CE6174 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */,
+				FE8D81B019C44ADE00CE6174 /* ListTableView88Cell.swift */,
+				FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */,
+				FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */,
+				FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +223,7 @@
 			children = (
 				FEC3BD4D19C28AD400184760 /* HLItem.swift */,
 				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
+				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
 				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 			);
@@ -244,8 +269,9 @@
 			children = (
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
-				FECBB5FE19BDFDE200115694 /* RKUIKit */,
+				FE8D81AD19C448B900CE6174 /* Item */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
+				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -437,11 +463,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
+				FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
 				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
+				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
+				FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */,
+				FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */,
 				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
 				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
@@ -454,6 +485,7 @@
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
+				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,

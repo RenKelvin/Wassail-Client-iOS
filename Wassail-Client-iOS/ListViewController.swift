@@ -44,13 +44,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let listPreview = list.item(indexPath.section, row: indexPath.row) as HLListPreview
         
-        println(listPreview.title)
+        let item = list.item(indexPath.section, row: indexPath.row) as HLListPreview
+        let cellReuseIdentifier = "ListTableView44CellReuseIdentifier"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("ListViewTableView44CellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-        
-        // cell.configure()
+        cell.configure(item)
         
         return cell
     }
