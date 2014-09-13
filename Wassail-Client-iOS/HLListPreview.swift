@@ -20,6 +20,7 @@ class HLListPreview: HLItemPreview {
         
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
+        source = jsonBody.objectForKey("source") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
     }
     

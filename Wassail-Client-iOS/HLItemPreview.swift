@@ -9,7 +9,9 @@
 import UIKit
 
 class HLItemPreview: HLItem {
-   
+
+    var source: NSDictionary = NSDictionary()
+
     func titlePresent() -> NSString {
         return ""
     }

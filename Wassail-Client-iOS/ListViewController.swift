@@ -65,14 +65,30 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return headerView
     }
     
-    /*
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemName = ListInfo.instance.getList(item.source.objectForKey("name") as NSString)
+        let source = ListInfo.instance.getList(item.source.objectForKey("name") as NSString) as HLList?
+        
+        let sugueIdentifier = "ListListSegueIdentifier"
+        var destinationController = ListViewController()
+        destinationController.setInfo(source)
+        
+        let sugue = UIStoryboardSegue(identifier: sugueIdentifier, source: self, destination: ListViewController())
+        
+        // sugue.perform()
+        
+        // self.navigationController?.pushViewController(destinationController, animated: true)
+    }
+    
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
-    */
     
 }
