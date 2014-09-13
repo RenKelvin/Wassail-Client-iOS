@@ -11,7 +11,7 @@ import UIKit
 class HLList: HLItem {
     
     var title: NSString = ""
-    var content: NSArray = []
+    var groups: NSArray = []
     
     override init() {
         super.init()
@@ -26,10 +26,10 @@ class HLList: HLItem {
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
-        content = jsonBody.objectForKey("content") as NSArray
+        groups = jsonBody.objectForKey("groups") as NSArray
         
-        // Content
-        for group in content {
+        // Groups
+        for group in groups {
             var items = group.objectForKey("items") as NSMutableArray
             for item in items {
                 let model = HLItemBuilder.build(item as NSDictionary)
@@ -39,25 +39,25 @@ class HLList: HLItem {
     }
     
     func numberOfGroups() -> Int {
-        return content.count
+        return groups.count
     }
     
     func numberOfItemsInGroup(group: Int) -> Int {
-        let groupDict = content[group] as NSDictionary
+        let groupDict = groups[group] as NSDictionary
         let itemsArray = groupDict.objectForKey("items") as NSArray
         
         return itemsArray.count
     }
     
     func titleForGroup(group: Int) -> NSString {
-        let groupDict = content[group] as NSDictionary
+        let groupDict = groups[group] as NSDictionary
         let title = groupDict.objectForKey("title") as NSString
         
         return title
     }
     
     func item(group: Int, row: Int) -> HLItem {
-        let group = content.objectAtIndex(group) as NSDictionary
+        let group = groups.objectAtIndex(group) as NSDictionary
         let items = group.objectForKey("items") as NSArray
         
         return items.objectAtIndex(row) as HLItem

@@ -1,5 +1,5 @@
 //
-//  HLListPreview.swift
+//  HLArticlePreview.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/13/14.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class HLListPreview: HLItemPreview {
-    
+class HLArticlePreview: HLItemPreview {
+   
     var title: NSString = ""
     
     override init(json: NSDictionary) {
@@ -29,5 +29,5 @@ class HLListPreview: HLItemPreview {
     override func titlePresent() -> NSString? {
         return title
     }
-    
+
 }

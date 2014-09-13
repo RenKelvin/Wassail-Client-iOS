@@ -45,7 +45,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let item = list.item(indexPath.section, row: indexPath.row) as HLListPreview
+        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
         let cellReuseIdentifier = "ListTableView44CellReuseIdentifier"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         
@@ -66,15 +66,22 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
-        let itemName = ListInfo.instance.getList(item.source.objectForKey("name") as NSString)
-        let source = ListInfo.instance.getList(item.source.objectForKey("name") as NSString) as HLList?
+        let itemName = item.source.objectForKey("name") as NSString
+        let source = DefaultInfo.instance.getItem(itemName) as HLItem?
         
-        let segueIdentifier = "ListListSegueIdentifier"
-        var destinationController = ListViewController()
-        destinationController.setInfo(source)
+        self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
         
-        let segue = UIStoryboardSegue(identifier: segueIdentifier, source: self, destination: ListViewController())
+        //        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        //        let itemName = ListInfo.instance.getList(item.source.objectForKey("name") as NSString)
+        //        let source = ListInfo.instance.getList(item.source.objectForKey("name") as NSString) as HLList?
+        //
+        //        let segueIdentifier = "ListListSegueIdentifier"
+        //        var destinationController = ListViewController()
+        //        destinationController.setInfo(source)
+        //
+        //        let segue = UIStoryboardSegue(identifier: segueIdentifier, source: self, destination: ListViewController())
         
         // segue.perform()
         

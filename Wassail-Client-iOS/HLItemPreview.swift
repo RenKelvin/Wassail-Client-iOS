@@ -12,7 +12,7 @@ class HLItemPreview: HLItem {
 
     var source: NSDictionary = NSDictionary()
 
-    func titlePresent() -> NSString {
+    func titlePresent() -> NSString? {
         return ""
     }
     

@@ -15,10 +15,14 @@ class HLItemBuilder: NSObject {
         let name = json.objectForKey("name") as NSString
         
         switch type {
-
+            
         case "HLList": return HLList(json: json)
             
         case "HLListPreview": return HLListPreview(json: json)
+            
+        case "HLArticle": return HLArticle(json: json)
+            
+        case "HLArticlePreview": return HLArticlePreview(json: json)
             
         default: return HLItem()
         }

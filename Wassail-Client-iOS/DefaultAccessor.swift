@@ -16,7 +16,18 @@ class DefaultAccessor: NSObject {
     return _DefaultAccessorSharedInstance
     }
     
-    func getList(name: String) -> HLList? {
+    func getItem(name: NSString) -> HLItem? {
+        var raw = DefaultMapper.instance.getItem(name)
+        
+        if (raw == nil) {
+            println("Load info failed!")
+            return nil
+        }
+        
+        return HLItemBuilder.build(raw!)
+    }
+    
+    func getList(name: NSString) -> HLList? {
         var raw = DefaultMapper.instance.getList(name)
         
         if (raw == nil) {
