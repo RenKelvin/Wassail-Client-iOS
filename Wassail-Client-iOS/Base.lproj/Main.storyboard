@@ -449,6 +449,7 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="90T-fz-97V"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="_tableView" destination="HrX-Pq-H8U" id="gxw-FQ-Npq"/>
                         <segue destination="WRg-lq-Ju5" kind="show" identifier="ToolsUnitConverterSegueIdentifier" id="kVD-07-a4B"/>
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ToolsListSegueIdentifier" id="r4f-h3-sd1"/>
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ToolsSizeConverterSegueIdentifier" id="BK5-dh-8Fc"/>

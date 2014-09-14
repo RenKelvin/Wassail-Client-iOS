@@ -10,22 +10,21 @@ import UIKit
 
 class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var _tableView: UITableView?
+    
     var tools: NSDictionary = ToolsInfo.instance.getTools()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
-    }
+
+        //
+        self._tableView?.setContentOffset(CGPoint(x: 0, y: 44), animated: false)
+}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
