@@ -1,82 +1,82 @@
 {
     "type": "HLList",
-    "name": "大学排名",
+    "name": "1世界大学排名",
     "body": {
         "title":"世界大学排名",
         "p":"世界大学排名是根据各项科学研究和教学等标准，以英文发表研究报告和学术论文，针对全球大学在数据、报告、成就、声望等方面进行数量化评鉴，再通过加权后形成的排序。各大排名机构使用不同的标准和方法对世界大学进行排名。国际公认的三大世界大学排名：《泰晤士高等教育》（Times Higher Education）发布的THE世界大学排名、国际高等教育研究机构Quacquarelli Symonds发布的QS世界大学排名和上海交通大学世界一流大学研究中心研究发布的世界大学学术排名（ARWU）。",
         "groups": [
-                    {
-                    "title":"-",
-                    "items":[
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.1如何看待排名",
-                             "body": {
-                             "title": "如何看待排名？",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.1如何看待排名"
-                             }
-                             }
-                             },
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.2三大排名对比",
-                             "body": {
-                             "title": "三大排名对比",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.2三大排名对比"
-                             }
-                             }
-                             },
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.3《泰晤士高等教育》－ THE世界大学排名",
-                             "body": {
-                             "title": "《泰晤士高等教育》－ THE世界大学排名",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.3《泰晤士高等教育》－ THE世界大学排名"
-                             }
-                             }
-                             },
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.4Quacquarelli Symonds － QS世界大学排名",
-                             "body": {
-                             "title": "Quacquarelli Symonds － QS世界大学排名",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.4Quacquarelli Symonds － QS世界大学排名"
-                             }
-                             }
-                             },
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.5ARWU世界大学学术排名",
-                             "body": {
-                             "title": "上海交通大学世界一流大学研究中心 － ARWU世界大学学术排名",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.5ARWU世界大学学术排名"
-                             }
-                             }
-                             },
-                             {
-                             "type": "HLListPreview",
-                             "name": "1.6其他发布机构",
-                             "body": {
-                             "title": "其他发布机构",
-                             "source": {
-                             "type": "HLList",
-                             "name": "1.6其他发布机构"
-                             }
-                             }
-                             }
-                             ]
-                    }
-                    ]
+                   {
+                   "title":"-",
+                   "items":[
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.1如何看待排名",
+                            "body": {
+                            "title": "如何看待排名？",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.1如何看待排名"
+                            }
+                            }
+                            },
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.2三大排名对比",
+                            "body": {
+                            "title": "三大排名对比",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.2三大排名对比"
+                            }
+                            }
+                            },
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.3《泰晤士高等教育》－ THE世界大学排名",
+                            "body": {
+                            "title": "《泰晤士高等教育》－ THE世界大学排名",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.3《泰晤士高等教育》－ THE世界大学排名"
+                            }
+                            }
+                            },
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.4Quacquarelli Symonds － QS世界大学排名",
+                            "body": {
+                            "title": "Quacquarelli Symonds － QS世界大学排名",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.4Quacquarelli Symonds － QS世界大学排名"
+                            }
+                            }
+                            },
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.5ARWU世界大学学术排名",
+                            "body": {
+                            "title": "上海交通大学世界一流大学研究中心 － ARWU世界大学学术排名",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.5ARWU世界大学学术排名"
+                            }
+                            }
+                            },
+                            {
+                            "type": "HLListPreview",
+                            "name": "1.6其他发布机构",
+                            "body": {
+                            "title": "其他发布机构",
+                            "source": {
+                            "type": "HLList",
+                            "name": "1.6其他发布机构"
+                            }
+                            }
+                            }
+                            ]
+                   }
+                   ]
         
     }
 }

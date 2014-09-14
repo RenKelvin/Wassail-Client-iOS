@@ -51,11 +51,11 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         var cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         
-        let type = item.objectForKey("type") as NSString
+        let type = item.objectForKey("kind") as NSString
         switch type {
-        case "HLNoneArticleSection":
+        case "Section":
             cellReuseIdentifier = "ArticleTableViewSectionCellReuseIdentifier"
-        case "HLNoneArticleGraph":
+        case "Graph":
             cellReuseIdentifier = "ArticleTableViewGraphCellReuseIdentifier"
         default:
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
