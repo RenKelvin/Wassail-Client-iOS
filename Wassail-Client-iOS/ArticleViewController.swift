@@ -70,17 +70,17 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
-        let title: String = article.titleForChapter(section)
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).last as RKTableHeaderView
         
+        let title: String = article.titleForChapter(section)
         headerView.setTitle(title)
         
         return headerView
     }
     
-//    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        return 44.0
-//    }
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40.0
+    }
     
     /*
     // MARK: - Navigation

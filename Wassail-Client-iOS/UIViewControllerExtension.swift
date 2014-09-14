@@ -30,7 +30,7 @@ extension UIViewController {
         switch style {
         case .Default:
             bar.barTintColor = nil
-            bar.tintColor = UIColor.blackColor()
+            bar.tintColor = UIColor.HLBlue(0)
             bar.barStyle = UIBarStyle.Default
             bar.setBackgroundImage(nil, forBarMetrics: UIBarMetrics.Default)
             bar.backgroundColor = UIColor.clearColor()

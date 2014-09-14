@@ -15,5 +15,4 @@ class RKTableHeaderView: UIView {
     func setTitle(title: String) {
         titleLabel?.text = title
     }
-    
 }
