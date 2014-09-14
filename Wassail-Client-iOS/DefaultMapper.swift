@@ -22,12 +22,6 @@ class DefaultMapper: NSObject {
         return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
 
-    func getList(name: NSString) -> NSDictionary? {
-        var local = LocalAdapter.instance.get(name, type: "json")
-        
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
-    }
-
     func getTools() -> NSDictionary {
         var local = LocalAdapter.instance.get("Tools", type: "json")
         

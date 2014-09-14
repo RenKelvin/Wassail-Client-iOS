@@ -160,8 +160,8 @@
 		FE57619019BD499100574EE1 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				FE7EE12019C3F5A4008169D1 /* 大学排名 */,
 				FEC3BD6519C2CC5A00184760 /* Tools.json */,
+				FE7EE12019C3F5A4008169D1 /* 大学排名 */,
 			);
 			name = Local;
 			sourceTree = "<group>";
