@@ -25,9 +25,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-//        self.navigationController?.navigationBar
-//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
-//        self.navigationController?.navigationBar.translucent = true
+        //        self.navigationController?.navigationBar
+        //        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
+        //        self.navigationController?.navigationBar.translucent = true
     }
     
     // MARK: -
@@ -74,25 +74,25 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        // Get source item
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
         let itemName = item.source.objectForKey("name") as NSString
         let source = DefaultInfo.instance.getItem(itemName) as HLItem?
         
-        self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
+        if (source == nil) {
+            return
+        }
         
-        //        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
-        //        let itemName = ListInfo.instance.getList(item.source.objectForKey("name") as NSString)
-        //        let source = ListInfo.instance.getList(item.source.objectForKey("name") as NSString) as HLList?
-        //
-        //        let segueIdentifier = "ListListSegueIdentifier"
-        //        var destinationController = ListViewController()
-        //        destinationController.setInfo(source)
-        //
-        //        let segue = UIStoryboardSegue(identifier: segueIdentifier, source: self, destination: ListViewController())
-        
-        // segue.perform()
-        
-        // self.navigationController?.pushViewController(destinationController, animated: true)
+        let type = source!.type
+        println(type)
+        switch type {
+        case "HLList":
+            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: source)
+        case "HLArticle":
+            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
+        default:
+            ""
+        }
     }
     
     // MARK: - Navigation

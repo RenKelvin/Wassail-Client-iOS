@@ -19,10 +19,7 @@ class HLList: HLItem {
     
     override init(json: NSDictionary) {
         super.init(json: json)
-        
-        // Header
-        name = json.objectForKey("name") as NSString
-        
+                
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
