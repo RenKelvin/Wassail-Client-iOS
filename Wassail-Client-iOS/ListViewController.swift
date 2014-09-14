@@ -15,7 +15,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        // Set article title
+        self.title = list.title
     }
     
     override func didReceiveMemoryWarning() {
