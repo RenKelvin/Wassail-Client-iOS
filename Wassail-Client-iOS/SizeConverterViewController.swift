@@ -21,6 +21,11 @@ class SizeConverterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        // Configure Navigation Bar and Status Bar
+        self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+    }
+
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
