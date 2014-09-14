@@ -11,6 +11,7 @@ import UIKit
 class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var _tableView: UITableView?
+    @IBOutlet var _tableViewHeaderView: UIView?
     
     var tools: NSDictionary = ToolsInfo.instance.getTools()
     
@@ -21,10 +22,14 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
-
+        
         //
-        self._tableView?.setContentOffset(CGPoint(x: 0, y: 44), animated: false)
-}
+        self._tableView?.addSubview(self._tableViewHeaderView!)
+        
+        let width = self._tableView?.superview?.frame.size.width
+        self._tableViewHeaderView?.frame.size.width = width!
+        self._tableViewHeaderView?.frame.origin.y = -44.0
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
