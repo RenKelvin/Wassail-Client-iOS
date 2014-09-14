@@ -25,9 +25,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        //        self.navigationController?.navigationBar
-        //        self.navigationController?.navigationBar.barStyle = UIBarStyle.Default
-        //        self.navigationController?.navigationBar.translucent = true
+        self.setNavigationBarStyle(HLNavigationBarStyle.Default)
     }
     
     // MARK: -
@@ -84,7 +82,6 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         
         let type = source!.type
-        println(type)
         switch type {
         case "HLList":
             self.performSegueWithIdentifier("ListListSegueIdentifier", sender: source)

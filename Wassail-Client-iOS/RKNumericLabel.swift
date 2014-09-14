@@ -28,7 +28,7 @@ class RKNumericLabel: UILabel {
     }
     
     func setNumberHandler(from: Double, to: Double, timer: NSTimer, times: Int) {
-        println("123")
+        //        println("123")
         //        if times == frames {
         //            timer.invalidate()
         //            return

@@ -10,6 +10,10 @@ import UIKit
 
 extension UIColor {
     
+    //    class func makeTranslucent() -> UIColor {
+    //        // TODO: Make color translucent
+    //    }
+    
     class func HLBlue(level: Int) -> UIColor {
         switch level {
         case -2:

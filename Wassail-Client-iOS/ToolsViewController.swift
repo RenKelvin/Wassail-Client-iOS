@@ -24,8 +24,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        //        self.navigationController?.navigationBar.barTintColor = UIColor.HLBlue(0)
-        //        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
     }
     
     override func didReceiveMemoryWarning() {
