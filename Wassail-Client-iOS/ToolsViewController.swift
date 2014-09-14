@@ -118,6 +118,11 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        // Deselect
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        //
         switch indexPath.section {
         case 0:
             switch indexPath.row {
@@ -146,7 +151,6 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         default:
             ""
         }
-        
     }
     
     // MARK: - Navigation

@@ -72,7 +72,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+
+        // Deselect
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+
         // Get source item
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
         let itemName = item.source.objectForKey("name") as NSString

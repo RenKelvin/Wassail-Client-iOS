@@ -20,7 +20,7 @@ class DefaultAccessor: NSObject {
         var raw = DefaultMapper.instance.getItem(name)
         
         if (raw == nil) {
-            println("Load info failed!")
+            println("DefaultAccessor - getItem: \(name) - Failed!")
             return nil
         }
         
