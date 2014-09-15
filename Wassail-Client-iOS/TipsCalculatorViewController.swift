@@ -9,11 +9,14 @@
 import UIKit
 
 class TipsCalculatorViewController: UIViewController {
+    
+    @IBOutlet var selectorScollView: UIScrollView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.selectorScollView!.contentSize = CGSizeMake(600.0, 54)
     }
 
     override func viewWillAppear(animated: Bool) {

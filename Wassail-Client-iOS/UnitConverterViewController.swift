@@ -77,6 +77,25 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         return cell
     }
     
+    // MARK: - Table view delegate
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        
+        var title: String = ""
+        switch section {
+        case 0:
+            title = "-"
+        case 1:
+            title = "-"
+        default:
+            title = ""
+        }
+        headerView.titleLabel?.text = title
+        
+        return headerView
+    }
+
     /*
     // MARK: - Navigation
     
