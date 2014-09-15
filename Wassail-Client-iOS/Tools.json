@@ -30,8 +30,8 @@
         "Icon": "ToolsIconInfoContainer"
     },
     "University Rankings": {
-        "Note": "大学排名",
+        "Note": "世界大学权威排名分析",
         "Title": "大学排名",
-        "Icon": "ToolsIconInfoContainer"
+        "Icon": "ToolsIconUniversityRankings"
     }
 }

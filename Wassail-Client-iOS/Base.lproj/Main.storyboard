@@ -733,7 +733,9 @@
                             <constraint firstItem="Yxd-oc-dcr" firstAttribute="top" secondItem="Abn-bJ-5vA" secondAttribute="bottom" id="X74-Wg-VDU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="List" id="Nhe-kD-pbl"/>
+                    <navigationItem key="navigationItem" title="List" id="Nhe-kD-pbl">
+                        <barButtonItem key="backBarButtonItem" title=" " id="maP-My-Ea6"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ListArticleSegueIdentifier" id="fYA-Od-fVe"/>
                     </connections>
@@ -774,7 +776,7 @@
                                         <rect key="frame" x="15" y="25" width="570" height="65"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="54"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="light" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="税费 $10.00  税后$60.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9B-R5-TM2">
                                         <rect key="frame" x="15" y="105" width="570" height="17"/>
@@ -870,7 +872,7 @@
                                         <rect key="frame" x="15" y="59" width="278" height="43"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小费" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W9-G0-Mbk">
                                         <rect key="frame" x="15" y="102" width="282" height="17"/>
@@ -882,7 +884,7 @@
                                         <rect key="frame" x="309" y="59" width="276" height="43"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QNY-tj-ToH">
                                         <rect key="frame" x="15" y="142" width="262" height="22"/>
@@ -1020,7 +1022,7 @@
             </objects>
             <point key="canvasLocation" x="1775" y="162"/>
         </scene>
-        <!--Article View Controller-->
+        <!--Article-->
         <scene sceneID="w0Q-IW-IVM">
             <objects>
                 <viewController id="v6r-Fh-9PJ" customClass="ArticleViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -1107,6 +1109,9 @@
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="width" secondItem="b1c-yE-H7w" secondAttribute="width" id="wrh-UV-EL5"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Article" id="Ld2-MX-9eH">
+                        <barButtonItem key="backBarButtonItem" title=" " id="iBw-Vf-5gW"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="_tableView" destination="qhw-vp-XwO" id="17o-XT-CzW"/>
                     </connections>
