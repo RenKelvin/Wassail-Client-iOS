@@ -10,10 +10,6 @@ import UIKit
 
 extension UIColor {
     
-    //    class func makeTranslucent() -> UIColor {
-    //        // TODO: Make color translucent
-    //    }
-    
     class func HLBlue(level: Int) -> UIColor {
         switch level {
         case -2:
@@ -97,6 +93,18 @@ extension UIColor {
         default:
             return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
         }
+    }
+    
+    func makeTranslucent() -> UIColor {
+        
+        let rgb = CGColorGetComponents(self.CGColor) as UnsafePointer<CGFloat>
+        
+        let c = {n in ((n-40.0) / (1-(40.0/255.0)))}
+        let r = c(Double(rgb[0])*255)
+        let g = c(Double(rgb[1])*255)
+        let b = c(Double(rgb[2])*255)
+        
+        return UIColor(red: CGFloat(r / 255), green: CGFloat(g / 255), blue: CGFloat(b / 255), alpha: 1.0)
     }
     
 }
