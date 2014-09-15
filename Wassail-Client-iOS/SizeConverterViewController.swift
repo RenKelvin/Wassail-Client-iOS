@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SizeConverterViewController: UIViewController {
+class SizeConverterViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class SizeConverterViewController: UIViewController {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }
-
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -52,7 +52,7 @@ class SizeConverterViewController: UIViewController {
         
         return cell
     }
-
+    
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
@@ -71,7 +71,57 @@ class SizeConverterViewController: UIViewController {
         
         return headerView
     }
-
+    
+    // MARK: UICollectionViewDataSource
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+       return 6
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
+        
+        // Configure the cell
+        
+        return cell
+    }
+    
+    // MARK: UICollectionViewDelegate
+    
+    /*
+    // Uncomment this method to specify if the specified item should be highlighted during tracking
+    func collectionView(collectionView: UICollectionView!, shouldHighlightItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
+    return true
+    }
+    */
+    
+    /*
+    // Uncomment this method to specify if the specified item should be selected
+    func collectionView(collectionView: UICollectionView!, shouldSelectItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
+    return true
+    }
+    */
+    
+    /*
+    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
+    func collectionView(collectionView: UICollectionView!, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
+    return false
+    }
+    
+    func collectionView(collectionView: UICollectionView!, canPerformAction action: String!, forItemAtIndexPath indexPath: NSIndexPath!, withSender sender: AnyObject!) -> Bool {
+    return false
+    }
+    
+    func collectionView(collectionView: UICollectionView!, performAction action: String!, forItemAtIndexPath indexPath: NSIndexPath!, withSender sender: AnyObject!) {
+    
+    }
+    */
+    
     /*
     // MARK: - Navigation
     
