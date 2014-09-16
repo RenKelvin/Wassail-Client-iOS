@@ -58,7 +58,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
         
-        // Configure the cell...
+        // Configure the cell
         switch indexPath.section {
         case 0:
             switch indexPath.row {

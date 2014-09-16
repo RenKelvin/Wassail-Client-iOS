@@ -1,0 +1,32 @@
+{
+    "cloth": {
+        "title": "衣服",
+        "icon": "SizeConverterIconCloth",
+        "data": []
+    },
+    "pants": {
+        "title": "裤子",
+        "icon": "SizeConverterIconPants",
+        "data": []
+    },
+    "shoes": {
+        "title": "鞋子",
+        "icon": "SizeConverterIconShoes",
+        "data": []
+    },
+    "hat": {
+        "title": "帽子",
+        "icon": "SizeConverterIconHat",
+        "data": []
+    },
+    "ring": {
+        "title": "戒指",
+        "icon": "SizeConverterIconRing",
+        "data": []
+    },
+    "bra": {
+        "title": "内衣",
+        "icon": "SizeConverterIconBra",
+        "data": []
+    }
+}

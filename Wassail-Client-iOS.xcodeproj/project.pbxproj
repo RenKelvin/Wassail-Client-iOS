@@ -31,6 +31,8 @@
 		FE8D81B919C467E100CE6174 /* 1世界大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8D81B819C467E100CE6174 /* 1世界大学排名.json */; };
 		FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BA19C476E200CE6174 /* HLArticle.swift */; };
 		FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */; };
+		FE98698319C7DBFD00083FEE /* Size Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE98698219C7DBFD00083FEE /* Size Converter.json */; };
+		FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -96,6 +98,8 @@
 		FE8D81B819C467E100CE6174 /* 1世界大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1世界大学排名.json"; sourceTree = "<group>"; };
 		FE8D81BA19C476E200CE6174 /* HLArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticle.swift; sourceTree = "<group>"; };
 		FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticlePreview.swift; sourceTree = "<group>"; };
+		FE98698219C7DBFD00083FEE /* Size Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Size Converter.json"; sourceTree = "<group>"; };
+		FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterInfo.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
@@ -166,7 +170,7 @@
 		FE57619019BD499100574EE1 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD6519C2CC5A00184760 /* Tools.json */,
+				FE98698119C7DB0600083FEE /* Tools */,
 				FE7EE12019C3F5A4008169D1 /* 大学排名 */,
 			);
 			name = Local;
@@ -259,6 +263,15 @@
 				FE4E2B0619C48FC00096AD86 /* Article */,
 			);
 			name = Item;
+			sourceTree = "<group>";
+		};
+		FE98698119C7DB0600083FEE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD6519C2CC5A00184760 /* Tools.json */,
+				FE98698219C7DBFD00083FEE /* Size Converter.json */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
@@ -358,6 +371,7 @@
 			children = (
 				FE496C0219C47D4C0003A29A /* DefaultInfo.swift */,
 				FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */,
+				FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */,
 				FEC3BD5819C29DBA00184760 /* ListInfo.swift */,
 			);
 			name = Info;
@@ -516,6 +530,7 @@
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */,
+				FE98698319C7DBFD00083FEE /* Size Converter.json in Resources */,
 				FE8D81B919C467E100CE6174 /* 1世界大学排名.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +569,7 @@
 				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
 				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
+				FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,

@@ -50,7 +50,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         }
     }
     
-    // MARK: - Table view data source
+    // MARK: - TableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.

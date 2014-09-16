@@ -14,4 +14,16 @@ class RKSelectorCollectionViewCell: UICollectionViewCell {
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var backgroundImageView: UIImageView?
     
+    func configure(dict: NSDictionary?) {
+        if (dict == nil) {
+            return
+        }
+        
+        titleLabel!.text = dict!.objectForKey("title") as NSString
+        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as NSString)
+    }
+    
+    func setSelected() {
+        backgroundImageView!.highlighted = true
+    }
 }

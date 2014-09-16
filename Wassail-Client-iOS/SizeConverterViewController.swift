@@ -8,12 +8,17 @@
 
 import UIKit
 
-class SizeConverterViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class SizeConverterViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
+    let info: SizeConverterInfo = SizeConverterInfo.instance
+    
+    @IBOutlet var selectorView: RKSelectorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        info.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -26,7 +31,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }
     
-    // MARK: - Table view data source
+    // MARK: - TableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
@@ -53,7 +58,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         return cell
     }
     
-    // MARK: - Table view delegate
+    // MARK: - TableViewDataDelegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
@@ -80,48 +85,56 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-       return 6
+        let number = info.numberOfCategories()
+        
+        return number
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
         // Configure the cell
+        var dict: NSDictionary?
+        switch indexPath.row {
+        case 0:
+            dict = info.getCategory("cloth")
+        case 1:
+            dict = info.getCategory("pants")
+        case 2:
+            dict = info.getCategory("shoes")
+        case 3:
+            dict = info.getCategory("hat")
+        case 4:
+            dict = info.getCategory("ring")
+        case 5:
+            dict = info.getCategory("bra")
+        default:
+            dict = nil
+        }
+        cell.configure(dict)
         
         return cell
     }
     
     // MARK: UICollectionViewDelegate
     
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    func collectionView(collectionView: UICollectionView!, shouldHighlightItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
-    return true
-    }
-    */
-    
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    func collectionView(collectionView: UICollectionView!, shouldSelectItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
-    return true
-    }
-    */
-    
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    func collectionView(collectionView: UICollectionView!, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath!) -> Bool {
-    return false
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        //
+        var cell = collectionView.cellForItemAtIndexPath(indexPath) as RKSelectorCollectionViewCell
+        cell.setSelected()
+        
+        // TODO: selected
     }
     
-    func collectionView(collectionView: UICollectionView!, canPerformAction action: String!, forItemAtIndexPath indexPath: NSIndexPath!, withSender sender: AnyObject!) -> Bool {
-    return false
+    // MARK: UICollectionViewDelegateFlowLayout
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let height = selectorView!.bounds.size.height
+        let number = CGFloat(info.numberOfCategories())
+        var width = selectorView!.bounds.size.width / number
+        
+        return CGSize(width: width, height: height)
     }
-    
-    func collectionView(collectionView: UICollectionView!, performAction action: String!, forItemAtIndexPath indexPath: NSIndexPath!, withSender sender: AnyObject!) {
-    
-    }
-    */
-    
     /*
     // MARK: - Navigation
     

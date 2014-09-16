@@ -30,4 +30,8 @@ class DefaultAccessor: NSObject {
     func getTools() -> NSDictionary {
         return DefaultMapper.instance.getTools()
     }
+    
+    func getSizeConverter() -> NSDictionary {
+        return DefaultMapper.instance.getSizeConverter()
+    }
 }
