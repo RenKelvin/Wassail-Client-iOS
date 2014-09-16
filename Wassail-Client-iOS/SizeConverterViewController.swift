@@ -49,9 +49,9 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         // Return the number of rows in the section.
         switch section {
         case 0:
-            return 1
+            return 8
         case 1:
-            return 4
+            return 8
         default:
             return 0
         }
@@ -73,15 +73,21 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         var title: String = ""
         switch section {
         case 0:
-            title = "-"
+            title = "男士"
         case 1:
-            title = "-"
+            title = "女士"
         default:
             title = ""
         }
         headerView.titleLabel?.text = title
         
         return headerView
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        // Deselect
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
     // MARK: - UICollectionViewDataSource
