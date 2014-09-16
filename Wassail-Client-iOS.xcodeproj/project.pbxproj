@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
 		FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0219C47D4C0003A29A /* DefaultInfo.swift */; };
 		FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0419C47E8F0003A29A /* ArticleViewController.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
 		FE496C0219C47D4C0003A29A /* DefaultInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfo.swift; sourceTree = "<group>"; };
 		FE496C0419C47E8F0003A29A /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE1EBF2E19C807C4002C8F25 /* RKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */,
+			);
+			name = RKPickerView;
+			sourceTree = "<group>";
+		};
 		FE4E2B0619C48FC00096AD86 /* Article */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +437,7 @@
 			isa = PBXGroup;
 			children = (
 				FE5FB99819C6B60200F37192 /* RKSelectorView */,
+				FE1EBF2E19C807C4002C8F25 /* RKPickerView */,
 				FECBB60619BE094300115694 /* RKNumericLabel */,
 				FECBB60319BDFE5C00115694 /* RKTableHeaderView */,
 			);
@@ -572,6 +583,7 @@
 				FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */,
 				FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */,
 				FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */,
+				FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */,
 				FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */,
 				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
 				FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */,
