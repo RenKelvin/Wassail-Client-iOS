@@ -34,4 +34,8 @@ class DefaultAccessor: NSObject {
     func getSizeConverter() -> NSDictionary {
         return DefaultMapper.instance.getSizeConverter()
     }
+
+    func getUnitConverter() -> NSDictionary {
+        return DefaultMapper.instance.getUnitConverter()
+    }
 }

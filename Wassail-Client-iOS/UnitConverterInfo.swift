@@ -1,5 +1,5 @@
 //
-//  SizeConverterInfo.swift
+//  UnitConverterInfo.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/16/14.
@@ -8,18 +8,18 @@
 
 import UIKit
 
-private let _SizeConverterInfoSharedInstance = SizeConverterInfo()
+private let _UnitConverterInfoSharedInstance = UnitConverterInfo()
 
-class SizeConverterInfo: NSObject {
+class UnitConverterInfo: NSObject {
     
     var data: NSDictionary?
     
-    class var instance : SizeConverterInfo {
-    return _SizeConverterInfoSharedInstance
+    class var instance : UnitConverterInfo {
+    return _UnitConverterInfoSharedInstance
     }
     
     func reloadData() {
-        data = DefaultAccessor.instance.getSizeConverter() as NSDictionary?
+        data = DefaultAccessor.instance.getUnitConverter() as NSDictionary?
     }
     
     func numberOfCategories() -> Int {
@@ -45,5 +45,5 @@ class SizeConverterInfo: NSObject {
         
         return data!.allKeys
     }
-
+    
 }

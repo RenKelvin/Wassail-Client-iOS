@@ -31,6 +31,13 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }
     
+    // MARK: -
+    
+    func selectCategory(number: Int) {
+        // TODO: selected
+        
+    }
+    
     // MARK: - TableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -77,7 +84,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         return headerView
     }
     
-    // MARK: UICollectionViewDataSource
+    // MARK: - UICollectionViewDataSource
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
@@ -93,40 +100,34 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
-        // Configure the cell
-        var dict: NSDictionary?
-        switch indexPath.row {
-        case 0:
-            dict = info.getCategory("cloth")
-        case 1:
-            dict = info.getCategory("pants")
-        case 2:
-            dict = info.getCategory("shoes")
-        case 3:
-            dict = info.getCategory("hat")
-        case 4:
-            dict = info.getCategory("ring")
-        case 5:
-            dict = info.getCategory("bra")
-        default:
-            dict = nil
+        // Highlight first category
+        if (indexPath.row == 1) {
+            cell.setSelected()
+            
+            selectCategory(indexPath.row)
         }
+        
+        // Configure the cell
+        let categoryNames = info.getCategoryNames()
+        let name = categoryNames.objectAtIndex(indexPath.row) as NSString
+        let dict = info.getCategory(name) as NSDictionary?
         cell.configure(dict)
         
         return cell
     }
     
-    // MARK: UICollectionViewDelegate
+    // MARK: - UICollectionViewDelegate
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         //
         var cell = collectionView.cellForItemAtIndexPath(indexPath) as RKSelectorCollectionViewCell
         cell.setSelected()
         
-        // TODO: selected
+        //
+        self.selectCategory(indexPath.row)
     }
     
-    // MARK: UICollectionViewDelegateFlowLayout
+    // MARK: - UICollectionViewDelegateFlowLayout
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let height = selectorView!.bounds.size.height
@@ -135,6 +136,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         return CGSize(width: width, height: height)
     }
+    
     /*
     // MARK: - Navigation
     

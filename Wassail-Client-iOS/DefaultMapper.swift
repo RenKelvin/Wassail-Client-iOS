@@ -34,4 +34,10 @@ class DefaultMapper: NSObject {
         return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
     }
 
+    func getUnitConverter() -> NSDictionary {
+        var local = LocalAdapter.instance.get("Unit Converter", type: "json")
+        
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+    }
+
 }

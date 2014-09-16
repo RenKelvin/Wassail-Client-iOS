@@ -10,15 +10,14 @@ import UIKit
 
 class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet var lengthButton: UIButton?
-    @IBOutlet var areaButton: UIButton?
-    @IBOutlet var volumeButton: UIButton?
-    @IBOutlet var weightButton: UIButton?
-    @IBOutlet var tempButton: UIButton?
-    @IBOutlet var speedButton: UIButton?
+    let info: UnitConverterInfo = UnitConverterInfo.instance
+    
+    @IBOutlet var selectorView: RKSelectorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        info.reloadData()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -31,23 +30,11 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: - IBAction
+    // MARK: -
     
-    @IBAction func buttonSelected(sender: UIButton) {
-        if sender.selected == true {
-            return
-        }
-            
-        else {
-            lengthButton?.selected = false
-            areaButton?.selected = false
-            volumeButton?.selected = false
-            weightButton?.selected = false
-            tempButton?.selected = false
-            speedButton?.selected = false
-            
-            sender.selected = true
-        }
+    func selectCategory(number: Int) {
+        // TODO: selected
+        
     }
     
     // MARK: - TableViewDataSource
@@ -95,7 +82,60 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         return headerView
     }
-
+    
+    // MARK: - UICollectionViewDataSource
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        let number = info.numberOfCategories()
+        
+        return number
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
+        
+        // Highlight first category
+        if (indexPath.row == 1) {
+            cell.setSelected()
+            
+            selectCategory(indexPath.row)
+        }
+        
+        // Configure the cell
+        let categoryNames = info.getCategoryNames()
+        let name = categoryNames.objectAtIndex(indexPath.row) as NSString
+        let dict = info.getCategory(name) as NSDictionary?
+        cell.configure(dict)
+        
+        return cell
+    }
+    
+    // MARK: - UICollectionViewDelegate
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        //
+        var cell = collectionView.cellForItemAtIndexPath(indexPath) as RKSelectorCollectionViewCell
+        cell.setSelected()
+        
+        //
+        self.selectCategory(indexPath.row)
+    }
+    
+    // MARK: - UICollectionViewDelegateFlowLayout
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let height = selectorView!.bounds.size.height
+        let number = CGFloat(info.numberOfCategories())
+        var width = selectorView!.bounds.size.width / number
+        
+        return CGSize(width: width, height: height)
+    }
+    
     /*
     // MARK: - Navigation
     

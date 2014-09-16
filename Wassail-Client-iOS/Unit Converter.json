@@ -1,0 +1,32 @@
+{
+    "length": {
+        "title": "长度",
+        "icon": "UnitConverterIconLength",
+        "data": []
+    },
+    "area": {
+        "title": "面积",
+        "icon": "UnitConverterIconArea",
+        "data": []
+    },
+    "volume": {
+        "title": "体积",
+        "icon": "UnitConverterIconVolume",
+        "data": []
+    },
+    "weight": {
+        "title": "重量",
+        "icon": "UnitConverterIconWeight",
+        "data": []
+    },
+    "temp": {
+        "title": "温度",
+        "icon": "UnitConverterIconTemp",
+        "data": []
+    },
+    "speed": {
+        "title": "速度",
+        "icon": "UnitConverterIconSpeed",
+        "data": []
+    }
+}
