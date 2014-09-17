@@ -16,6 +16,8 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     @IBOutlet var selectorView: RKSelectorView?
     
+    @IBOutlet var numbersView: RKNumbersView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,8 +38,15 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     // MARK: -
     
     func selectCategory(number: Int) {
-        // TODO: selected
         
+        ci = number
+        
+        let header = info.getHeader(number)
+        if (header == nil) {
+            return
+        }
+        
+        numbersView!.reload(header!)
     }
     
     // MARK: - TableViewDataSource
@@ -74,7 +83,18 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as RKNumbersViewCell
         
-        // cell.configure()
+        let category = info.getCategory(ci) as NSDictionary?
+        if (category == nil) {
+            return cell
+        }
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        let group = groups[indexPath.section] as NSDictionary
+        
+        let rows = group.objectForKey("rows") as NSArray
+        let row = rows[indexPath.row] as NSArray
+        
+        cell.configure(row)
         
         return cell
     }

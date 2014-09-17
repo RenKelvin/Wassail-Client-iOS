@@ -10,6 +10,14 @@ import UIKit
 
 extension UIColor {
     
+    class func HLTextBlack() -> UIColor {
+        return UIColor(red: 0.251, green: 0.251, blue: 0.251, alpha: 1.000)
+    }
+    
+    class func HLTextGray() -> UIColor {
+        return UIColor(red: 0.573, green: 0.573, blue: 0.573, alpha: 1.000)
+    }
+    
     class func HLBlue(level: Int) -> UIColor {
         switch level {
         case -2:

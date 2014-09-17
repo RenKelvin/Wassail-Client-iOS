@@ -5,7 +5,7 @@
     "cloth": {
         "title": "衣服",
         "icon": "SizeConverterIconCloth",
-        "header": ["US", "UK", "France", "Italy", "Korea", "Japan"],
+        "header": ["美", "英", "法", "意", "韩", "日"],
         "groups": [
                    {
                    "title": "男士",

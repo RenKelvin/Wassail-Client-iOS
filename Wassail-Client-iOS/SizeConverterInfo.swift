@@ -60,4 +60,15 @@ class SizeConverterInfo: NSObject {
         return data!.objectForKey("names") as? NSArray
     }
     
+    func getHeader(index: Int) -> NSArray? {
+        
+        let category = self.getCategory(index)
+        
+        if (category == nil) {
+            return nil
+        }
+        
+        return category!.objectForKey("header") as NSArray?
+    }
+    
 }

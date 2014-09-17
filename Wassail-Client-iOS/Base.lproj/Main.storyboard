@@ -317,7 +317,7 @@
                                     <outlet property="delegate" destination="Uoc-r9-F8b" id="F94-i5-xt9"/>
                                 </connections>
                             </collectionView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo" customClass="RKNumbersView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="172" width="600" height="428"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
@@ -333,6 +333,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="Uoc-r9-F8b" id="5Hd-B8-lNi"/>
                                     <outlet property="delegate" destination="Uoc-r9-F8b" id="J6e-ms-0n8"/>
+                                    <outlet property="headerView" destination="X7X-rf-sZa" id="JiZ-bI-OFN"/>
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7X-rf-sZa">
@@ -362,6 +363,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="尺码转换" id="ZUm-yh-Rnf"/>
                     <connections>
+                        <outlet property="numbersView" destination="fce-yP-ATo" id="Vpz-go-iya"/>
                         <outlet property="selectorView" destination="SIS-rv-6WR" id="IWc-1b-9VF"/>
                     </connections>
                 </viewController>
