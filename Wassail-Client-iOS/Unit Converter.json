@@ -1,4 +1,7 @@
 {
+    "names": [
+              "length", "area", "volume", "weight", "temp", "speed"
+              ],
     "length": {
         "title": "长度",
         "icon": "UnitConverterIconLength",

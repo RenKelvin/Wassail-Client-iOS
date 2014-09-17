@@ -1,4 +1,7 @@
 {
+    "names": [
+              "cloth", "pants", "shoes", "hat", "ring", "hat"
+              ],
     "cloth": {
         "title": "衣服",
         "icon": "SizeConverterIconCloth",

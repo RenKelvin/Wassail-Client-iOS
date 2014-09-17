@@ -39,7 +39,6 @@
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
-		FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4D19C28AD400184760 /* HLItem.swift */; };
 		FEC3BD5019C2945800184760 /* 大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* 大学排名.json */; };
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
 		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
@@ -58,6 +57,7 @@
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
 		FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */; };
 		FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */; };
+		FEE0300219C878A80061201E /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0300119C878A80061201E /* HLItem.swift */; };
 		FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */; };
 		FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -109,7 +109,6 @@
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
-		FEC3BD4D19C28AD400184760 /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLItem.swift; path = ../HLItem.swift; sourceTree = "<group>"; };
 		FEC3BD4F19C2945800184760 /* 大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "大学排名.json"; sourceTree = "<group>"; };
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
@@ -128,6 +127,7 @@
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
 		FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterTableViewCell.swift; sourceTree = "<group>"; };
+		FEE0300119C878A80061201E /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItem.swift; sourceTree = "<group>"; };
 		FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterViewController.swift; sourceTree = "<group>"; };
 		FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -313,7 +313,7 @@
 		FEC3BD4819C2896E00184760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD4D19C28AD400184760 /* HLItem.swift */,
+				FEE0300119C878A80061201E /* HLItem.swift */,
 				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
 				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
@@ -570,7 +570,6 @@
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
-				FEC3BD4E19C28AD400184760 /* HLItem.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
 				FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
@@ -605,6 +604,7 @@
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
+				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,

@@ -100,7 +100,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
         // Highlight first category
-        if (indexPath.row == 1) {
+        if (indexPath.row == 0) {
             cell.setSelected()
             
             selectCategory(indexPath.row)

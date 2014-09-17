@@ -27,7 +27,7 @@ class SizeConverterInfo: NSObject {
             return 0
         }
         
-        return data!.count
+        return self.getCategoryNames().count
     }
     
     func getCategory(name: String) -> NSDictionary? {
@@ -43,7 +43,7 @@ class SizeConverterInfo: NSObject {
             return []
         }
         
-        return data!.allKeys
+        return data!.objectForKey("names") as NSArray
     }
-
+    
 }
