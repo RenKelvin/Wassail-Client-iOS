@@ -32,19 +32,23 @@ class RKPickerView: UIView {
         var cur: Double = 0.0
         
         for i in 0...(num-1) {
-            var button = UIButton()
-            var label = button.titleLabel
+            //            var button = UIButton()
+            var button = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).first as UIButton
             
-            label!.font = UIFont.boldSystemFontOfSize(14.0)
-            label!.textAlignment = NSTextAlignment.Center
-            label!.textColor = UIColor.whiteColor()
-            
+            buttons.addObject(button)
+
             button.frame = CGRect(origin: CGPoint(x: 0, y: cur), size: CGSize(width: viewWidth, height: buttonHeight))
             cur += buttonHeight
             
-            buttons.addObject(button)
+            button.tag = i
+            button.addTarget(self, action: Selector("buttonSelector:"), forControlEvents: UIControlEvents.TouchUpInside)
+            
             self.addSubview(button)
         }
+    }
+    
+    func buttonSelector(sender: UIButton!) {
+        pickerMove(sender.tag)
     }
     
     func reload(units: NSArray) {
@@ -60,23 +64,22 @@ class RKPickerView: UIView {
             button.setTitle(units.objectAtIndex(i) as NSString, forState: UIControlState.Normal)
         }
         
-        self.pick(4)
+        pickerMove(0)
         
     }
     
-    func pick(num: Int) {
+    func pickerMove(num: Int) {
         
-        UIView.animateWithDuration(1.0, delay: 0.0, options: .CurveEaseOut, animations: {
+        UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseOut, animations: {
             
-            println(self.picker!.center)
             let button = self.buttons.objectAtIndex(num) as UIButton
-            println(CGPoint(x: button.center.x, y: button.center.y))
+
             self.picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
             
             },
             completion: {
                 finished in
-                println("Napkins opened!")
+                println("Pick \(num) end")
             }
         )
         
