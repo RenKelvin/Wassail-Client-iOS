@@ -12,8 +12,13 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     let info: UnitConverterInfo = UnitConverterInfo.instance
     
+    var ci: Int = 0
+
     @IBOutlet var selectorView: RKSelectorView?
     
+    @IBOutlet var leftPickerView: RKPickerView?
+    @IBOutlet var rightPickerView: RKPickerView?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,8 +38,16 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: -
     
     func selectCategory(number: Int) {
-        // TODO: selected
+
+        ci = number
         
+        let units = info.getUnits(number)
+        if (units == nil) {
+            return
+        }
+        
+        leftPickerView!.reload(units!)
+        rightPickerView!.reload(units!)
     }
     
     // MARK: - TableViewDataSource

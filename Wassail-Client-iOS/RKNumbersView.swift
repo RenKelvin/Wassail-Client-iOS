@@ -26,7 +26,7 @@ class RKNumbersView: UITableView {
         
         var cur: Double = 15.0
         
-        for i in 1...num {
+        for i in 0...(num-1) {
             var label = UILabel()
             
             label.font = UIFont.boldSystemFontOfSize(16.0)
@@ -43,6 +43,10 @@ class RKNumbersView: UITableView {
     
     func reload(header: NSArray) {
         
+        if (header.count == 0) {
+            return
+        }
+
         self.generateLabels(header.count)
         
         for i in 1...header.count {

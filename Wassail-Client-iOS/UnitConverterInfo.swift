@@ -37,7 +37,21 @@ class UnitConverterInfo: NSObject {
         
         return data!.objectForKey(name) as? NSDictionary
     }
-    
+   
+    func getCategory(index: Int) -> NSDictionary? {
+        if (data == nil) {
+            return nil
+        }
+        
+        let names = self.getNames()
+        if (names == nil) {
+            return nil
+        }
+        
+        let name = names![index] as NSString
+        return data!.objectForKey(name) as? NSDictionary
+    }
+
     func getNames() -> NSArray? {
         if (data == nil) {
             return nil
@@ -46,4 +60,15 @@ class UnitConverterInfo: NSObject {
         return data!.objectForKey("names") as? NSArray
     }
     
+    func getUnits(index: Int) -> NSArray? {
+        
+        let category = self.getCategory(index)
+        
+        if (category == nil) {
+            return nil
+        }
+        
+        return category!.objectForKey("units") as NSArray?
+    }
+
 }

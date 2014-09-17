@@ -5,31 +5,31 @@
     "length": {
         "title": "长度",
         "icon": "UnitConverterIconLength",
-        "data": []
+        "units": ["米", "千米", "英尺", "英寸", "英里"]
     },
     "area": {
         "title": "面积",
         "icon": "UnitConverterIconArea",
-        "data": []
+        "units": []
     },
     "volume": {
         "title": "体积",
         "icon": "UnitConverterIconVolume",
-        "data": []
+        "units": []
     },
     "weight": {
         "title": "重量",
         "icon": "UnitConverterIconWeight",
-        "data": []
+        "units": []
     },
     "temp": {
         "title": "温度",
         "icon": "UnitConverterIconTemp",
-        "data": []
+        "units": []
     },
     "speed": {
         "title": "速度",
         "icon": "UnitConverterIconSpeed",
-        "data": []
+        "units": []
     }
 }
