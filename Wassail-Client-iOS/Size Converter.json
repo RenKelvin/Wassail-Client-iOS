@@ -1,6 +1,6 @@
 {
     "names": [
-              "cloth", "pants", "shoes", "hat", "ring", "hat"
+              "cloth", "pants", "shoes", "hat", "ring", "bra"
               ],
     "cloth": {
         "title": "衣服",
@@ -26,26 +26,31 @@
     "pants": {
         "title": "裤子",
         "icon": "SizeConverterIconPants",
+        "header": ["2"],
         "groups": []
     },
     "shoes": {
         "title": "鞋子",
         "icon": "SizeConverterIconShoes",
+        "header": ["3"],
         "groups": []
     },
     "hat": {
         "title": "帽子",
         "icon": "SizeConverterIconHat",
+        "header": ["4"],
         "groups": []
     },
     "ring": {
         "title": "戒指",
         "icon": "SizeConverterIconRing",
+        "header": ["5"],
         "groups": []
     },
     "bra": {
         "title": "内衣",
         "icon": "SizeConverterIconBra",
+        "header": ["6"],
         "groups": []
     }
 }

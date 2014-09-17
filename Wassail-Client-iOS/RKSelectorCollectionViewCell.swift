@@ -26,4 +26,9 @@ class RKSelectorCollectionViewCell: UICollectionViewCell {
     func setSelected() {
         backgroundImageView!.highlighted = true
     }
+    
+    func setDeselected() {
+        backgroundImageView!.highlighted = false
+    }
+    
 }

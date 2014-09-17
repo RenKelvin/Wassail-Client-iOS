@@ -23,6 +23,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         // Do any additional setup after loading the view.
         info.reloadData()
+        
+        // Highlight first category
+        self.selectCategory(0)
+        //        self.collectionView(selectorView!, didSelectItemAtIndexPath: NSIndexPath(forItem: 0, inSection: 0))
     }
     
     override func didReceiveMemoryWarning() {
@@ -49,7 +53,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         numbersView!.reload(header!)
     }
     
-    // MARK: - TableViewDataSource
+    // MARK: - UITableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
@@ -99,7 +103,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         return cell
     }
     
-    // MARK: - TableViewDataDelegate
+    // MARK: - UITableViewDataDelegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
@@ -121,6 +125,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
     }
     
     // MARK: - UICollectionViewDataSource
@@ -139,11 +144,11 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
-        // Highlight first category
-        if (indexPath.row == 0) {
+        if (indexPath.row == ci) {
             cell.setSelected()
-            
-            selectCategory(indexPath.row)
+        }
+        else {
+            cell.setDeselected()
         }
         
         // Configure the cell
@@ -159,12 +164,27 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     // MARK: - UICollectionViewDelegate
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        //
-        var cell = collectionView.cellForItemAtIndexPath(indexPath) as RKSelectorCollectionViewCell
+        
+        let number = info.numberOfCategories()
+        for i in 0...(number-1) {
+            
+            let index = NSIndexPath(forItem: i, inSection: 0)
+            var cell = self.collectionView(selectorView!, cellForItemAtIndexPath: index) as RKSelectorCollectionViewCell
+            
+            if (i == ci) {
+                cell.setSelected()
+            }
+            else {
+                cell.setDeselected()
+            }
+            
+        }
+        
+        var cell = self.collectionView(selectorView!, cellForItemAtIndexPath: indexPath) as RKSelectorCollectionViewCell
         cell.setSelected()
         
-        //
         self.selectCategory(indexPath.row)
+        
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout

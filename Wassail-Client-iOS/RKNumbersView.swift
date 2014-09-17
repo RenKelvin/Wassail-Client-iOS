@@ -9,15 +9,20 @@
 import UIKit
 
 class RKNumbersView: UITableView {
-
+    
     @IBOutlet var headerView: UIView?
     
     var labels: NSMutableArray = []
-
+    
     func generateLabels(num: Int) {
         
-        let cellWidth = Double(self.frame.size.width)
-        let labelWidth = (cellWidth - 30.0) / Double(num)
+        for label in labels {
+            label.removeFromSuperview()
+        }
+        labels.removeAllObjects()
+        
+        let headerWidth = Double(self.superview!.frame.size.width)
+        let labelWidth = (headerWidth - 30.0) / Double(num)
         
         var cur: Double = 15.0
         
@@ -37,9 +42,8 @@ class RKNumbersView: UITableView {
     }
     
     func reload(header: NSArray) {
-        if (labels.count == 0) {
-            self.generateLabels(header.count)
-        }
+        
+        self.generateLabels(header.count)
         
         for i in 1...header.count {
             var label = labels.objectAtIndex(i-1) as UILabel
