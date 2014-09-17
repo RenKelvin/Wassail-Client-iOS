@@ -27,7 +27,7 @@ class SizeConverterInfo: NSObject {
             return 0
         }
         
-        return self.getCategoryNames().count
+        return self.getNames()!.count
     }
     
     func getCategory(name: String) -> NSDictionary? {
@@ -38,12 +38,26 @@ class SizeConverterInfo: NSObject {
         return data!.objectForKey(name) as? NSDictionary
     }
     
-    func getCategoryNames() -> NSArray {
+    func getCategory(index: Int) -> NSDictionary? {
         if (data == nil) {
-            return []
+            return nil
         }
         
-        return data!.objectForKey("names") as NSArray
+        let names = self.getNames()
+        if (names == nil) {
+            return nil
+        }
+        
+        let name = names![index] as NSString
+        return data!.objectForKey(name) as? NSDictionary
+    }
+    
+    func getNames() -> NSArray? {
+        if (data == nil) {
+            return nil
+        }
+        
+        return data!.objectForKey("names") as? NSArray
     }
     
 }

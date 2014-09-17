@@ -27,7 +27,7 @@ class UnitConverterInfo: NSObject {
             return 0
         }
         
-        return self.getCategoryNames().count
+        return self.getNames()!.count
     }
     
     func getCategory(name: String) -> NSDictionary? {
@@ -38,12 +38,12 @@ class UnitConverterInfo: NSObject {
         return data!.objectForKey(name) as? NSDictionary
     }
     
-    func getCategoryNames() -> NSArray {
+    func getNames() -> NSArray? {
         if (data == nil) {
-            return []
+            return nil
         }
         
-        return data!.objectForKey("names") as NSArray
+        return data!.objectForKey("names") as? NSArray
     }
     
 }

@@ -27,15 +27,15 @@ class DefaultAccessor: NSObject {
         return HLItemBuilder.build(raw!)
     }
     
-    func getTools() -> NSDictionary {
+    func getTools() -> NSDictionary? {
         return DefaultMapper.instance.getTools()
     }
     
-    func getSizeConverter() -> NSDictionary {
+    func getSizeConverter() -> NSDictionary? {
         return DefaultMapper.instance.getSizeConverter()
     }
 
-    func getUnitConverter() -> NSDictionary {
+    func getUnitConverter() -> NSDictionary? {
         return DefaultMapper.instance.getUnitConverter()
     }
 }

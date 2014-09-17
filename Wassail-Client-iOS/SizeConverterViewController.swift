@@ -12,6 +12,8 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     let info: SizeConverterInfo = SizeConverterInfo.instance
     
+    var ci: Int = 0
+    
     @IBOutlet var selectorView: RKSelectorView?
     
     override func viewDidLoad() {
@@ -42,23 +44,35 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 2
+        let category = info.getCategory(ci) as NSDictionary?
+        if (category == nil) {
+            return 0
+        }
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        
+        return groups.count
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        switch section {
-        case 0:
-            return 8
-        case 1:
-            return 8
-        default:
+        
+        let category = info.getCategory(ci) as NSDictionary?
+        if (category == nil) {
             return 0
         }
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        let group = groups[section] as NSDictionary
+        
+        let rows = group.objectForKey("rows") as NSArray
+        
+        return rows.count
+        
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as RKNumbersViewCell
         
         // cell.configure()
         
@@ -70,16 +84,15 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
-        var title: String = ""
-        switch section {
-        case 0:
-            title = "男士"
-        case 1:
-            title = "女士"
-        default:
-            title = ""
+        let category = info.getCategory(ci) as NSDictionary?
+        if (category == nil) {
+            return headerView
         }
-        headerView.titleLabel?.text = title
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        let group = groups[section] as NSDictionary
+        
+        headerView.titleLabel?.text = group.objectForKey("title") as NSString
         
         return headerView
     }
@@ -114,8 +127,9 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         }
         
         // Configure the cell
-        let categoryNames = info.getCategoryNames()
-        let name = categoryNames.objectAtIndex(indexPath.row) as NSString
+        let names = info.getNames()
+        if (names == nil) { return cell }
+        let name = names!.objectAtIndex(indexPath.row) as NSString
         let dict = info.getCategory(name) as NSDictionary?
         cell.configure(dict)
         

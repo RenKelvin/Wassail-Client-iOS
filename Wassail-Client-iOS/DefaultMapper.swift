@@ -22,22 +22,22 @@ class DefaultMapper: NSObject {
         return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
 
-    func getTools() -> NSDictionary {
+    func getTools() -> NSDictionary? {
         var local = LocalAdapter.instance.get("Tools", type: "json")
         
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
     
-    func getSizeConverter() -> NSDictionary {
+    func getSizeConverter() -> NSDictionary? {
         var local = LocalAdapter.instance.get("Size Converter", type: "json")
         
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
 
-    func getUnitConverter() -> NSDictionary {
+    func getUnitConverter() -> NSDictionary? {
         var local = LocalAdapter.instance.get("Unit Converter", type: "json")
         
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary
+        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
 
 }

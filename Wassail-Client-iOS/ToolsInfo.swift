@@ -16,7 +16,7 @@ class ToolsInfo: NSObject {
     return _ToolsInfoSharedInstance
     }
     
-    func getTools() -> NSDictionary {
+    func getTools() -> NSDictionary? {
         return DefaultAccessor.instance.getTools()
     }
 }

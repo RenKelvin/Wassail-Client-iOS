@@ -91,9 +91,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        let number = info.numberOfCategories()
         
-        return number
+        return info.numberOfCategories()
+        
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -107,8 +107,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         }
         
         // Configure the cell
-        let categoryNames = info.getCategoryNames()
-        let name = categoryNames.objectAtIndex(indexPath.row) as NSString
+        let names = info.getNames()
+        if (names == nil) { return cell }
+        let name = names!.objectAtIndex(indexPath.row) as NSString
         let dict = info.getCategory(name) as NSDictionary?
         cell.configure(dict)
         

@@ -5,31 +5,47 @@
     "cloth": {
         "title": "衣服",
         "icon": "SizeConverterIconCloth",
-        "data": []
+        "header": ["US", "UK", "France", "Italy", "Korea", "Japan"],
+        "groups": [
+                   {
+                   "title": "男士",
+                   "rows": [
+                            ["~34(~XS, S)", "~34",  "~38",  "~44",  "85",   "~S"],
+                            ["36(~XS, S)",  "36",   "40",   "46",   "90",   "S"]
+                            ]
+                   },
+                   {
+                   "title": "女士",
+                   "rows": [
+                            ["~0(~XXXS)",   "~2",   "~32",  "~34",  "",         "3号(~XS)"],
+                            ["2(~XS, S)",   "4",    "34",   "36",   "44(85)",   "5号(S)"]
+                            ]
+                   }
+                   ]
     },
     "pants": {
         "title": "裤子",
         "icon": "SizeConverterIconPants",
-        "data": []
+        "groups": []
     },
     "shoes": {
         "title": "鞋子",
         "icon": "SizeConverterIconShoes",
-        "data": []
+        "groups": []
     },
     "hat": {
         "title": "帽子",
         "icon": "SizeConverterIconHat",
-        "data": []
+        "groups": []
     },
     "ring": {
         "title": "戒指",
         "icon": "SizeConverterIconRing",
-        "data": []
+        "groups": []
     },
     "bra": {
         "title": "内衣",
         "icon": "SizeConverterIconBra",
-        "data": []
+        "groups": []
     }
 }

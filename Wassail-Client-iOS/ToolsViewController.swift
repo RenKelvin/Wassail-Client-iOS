@@ -13,7 +13,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var _tableView: UITableView?
     @IBOutlet var _tableViewHeaderView: UIView?
     
-    var tools: NSDictionary = ToolsInfo.instance.getTools()
+    var tools: NSDictionary = ToolsInfo.instance.getTools()!
     
     override func viewDidLoad() {
         super.viewDidLoad()
