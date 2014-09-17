@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, RKPickerViewDelegate {
     
     let info: UnitConverterInfo = UnitConverterInfo.instance
     
@@ -46,7 +46,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
             return
         }
         
+        leftPickerView!.delegate = self
         leftPickerView!.reload(units!)
+        rightPickerView!.delegate = self
         rightPickerView!.reload(units!)
     }
     
@@ -148,6 +150,12 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         var width = selectorView!.bounds.size.width / number
         
         return CGSize(width: width, height: height)
+    }
+    
+    // MARK: - RKPickerViewDelegate
+    
+    func pickerView(#pickerView: RKPickerView, didselectedAtIndex i: Int) {
+        println(i)
     }
     
     /*
