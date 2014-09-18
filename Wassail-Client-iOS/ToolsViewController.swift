@@ -47,9 +47,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Return the number of rows in the section.
         switch section {
         case 0:
-            return 5
-        case 1:
             return 2
+        case 1:
+            return 5
         default:
             return 0
         }
@@ -59,41 +59,38 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
         
         // Configure the cell
+        
+        var dict: NSDictionary?
         switch indexPath.section {
         case 0:
             switch indexPath.row {
             case 0:
-                let dict = tools.objectForKey("World Clock") as NSDictionary
-                cell.configure(dict)
+                dict = tools.objectForKey("University Rankings") as? NSDictionary
             case 1:
-                let dict = tools.objectForKey("Tips Calculator") as NSDictionary
-                cell.configure(dict)
-            case 2:
-                let dict = tools.objectForKey("Unit Converter") as NSDictionary
-                cell.configure(dict)
-            case 3:
-                let dict = tools.objectForKey("Size Converter") as NSDictionary
-                cell.configure(dict)
-            case 4:
-                let dict = tools.objectForKey("Info Container") as NSDictionary
-                cell.configure(dict)
+                dict = tools.objectForKey("Credit Card") as? NSDictionary
             default:
                 return cell
             }
         case 1:
             switch indexPath.row {
             case 0:
-                let dict = tools.objectForKey("University Rankings") as NSDictionary
-                cell.configure(dict)
+                dict = tools.objectForKey("World Clock") as? NSDictionary
             case 1:
-                let dict = tools.objectForKey("Credit Card") as NSDictionary
-                cell.configure(dict)
+                dict = tools.objectForKey("Tips Calculator") as? NSDictionary
+            case 2:
+                dict = tools.objectForKey("Unit Converter") as? NSDictionary
+            case 3:
+                dict = tools.objectForKey("Size Converter") as? NSDictionary
+            case 4:
+                dict = tools.objectForKey("Info Container") as? NSDictionary
             default:
                 return cell
             }
         default:
             return cell
         }
+        
+        cell.configure(dict!)
         
         return cell
     }
@@ -106,9 +103,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         var title: String = ""
         switch section {
         case 0:
-            title = "常用工具"
+            title = "出国前工具"
         case 1:
-            title = "实用攻略"
+            title = "出国后工具"
         default:
             title = ""
         }
@@ -127,6 +124,15 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("大学排名"))
+            case 1:
+                ""
+            default:
+                ""
+            }
+        case 1:
+            switch indexPath.row {
+            case 0:
                 ""
             case 1:
                 self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
@@ -135,15 +141,6 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 3:
                 self.performSegueWithIdentifier("ToolsSizeConverterSegueIdentifier", sender: nil)
             case 4:
-                ""
-            default:
-                ""
-            }
-        case 1:
-            switch indexPath.row {
-            case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("大学排名"))
-            case 1:
                 ""
             default:
                 ""

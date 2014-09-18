@@ -10,16 +10,17 @@ import UIKit
 
 class TipsCalculatorViewController: UIViewController {
     
-    @IBOutlet var selectorScollView: UIScrollView?
+    @IBOutlet var scrollerView: RKScrollerView?
+    
+    var currentRate: Double = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.selectorScollView!.contentSize = CGSize(width: 600.0, height: 54)
-        self.selectorScollView!.contentInset = UIEdgeInsets(top: 0.0, left: 100.0, bottom: 0.0, right: 0.0)
-        
-        self.generateLabels()
+        scrollerView!.configure()
+        self.scrollerView!.scrollTo(Int(currentRate))
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -32,26 +33,21 @@ class TipsCalculatorViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func generateLabels() {
-        
-        var cur: Double = 0.0
-        for i in 0...100 {
-            var label = UILabel()
-            
-            label.font = UIFont.boldSystemFontOfSize(32.0)
-            label.textAlignment = NSTextAlignment.Center
-            label.textColor = UIColor.whiteColor()
-            label.text = String(i)
-            
-            label.frame = CGRect(origin: CGPoint(x: cur, y: 8), size: CGSize(width: 38.0, height: 38))
-            cur += 38.0
-            
-            selectorScollView!.addSubview(label)
-        }
-    }
     
     @IBAction func f() {
-        self.selectorScollView!.setContentOffset(CGPoint(x: 240.0, y: 0), animated: true)
+        self.scrollerView!.setContentOffset(CGPoint(x: -200.0, y: 0), animated: true)
+    }
+    
+    @IBAction func decRate() {
+        let d = Double(rand() % 10) + 1
+        self.scrollerView!.scrollTo(Int(currentRate - d))
+        currentRate += d
+    }
+    
+    @IBAction func incRate() {
+        let d = Double(rand() % 10) + 1
+        self.scrollerView!.scrollTo(Int(currentRate + d))
+        currentRate += d
     }
     
     /*

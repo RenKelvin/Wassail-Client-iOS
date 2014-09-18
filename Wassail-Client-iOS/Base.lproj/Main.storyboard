@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -818,12 +817,29 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLG-bG-sio" userLabel="Selector">
                                 <rect key="frame" x="0.0" y="228" width="600" height="96"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytR-0o-Be5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bZZ-Eh-nqz">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
+                                    </imageView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytR-0o-Be5" customClass="RKScrollerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="40" y="15" width="520" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="ec6-IS-fQo"/>
                                         </constraints>
                                     </scrollView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenCoverLeft" translatesAutoresizingMaskIntoConstraints="NO" id="d3W-9L-gPf">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="JF5-pm-gsr"/>
+                                            <constraint firstAttribute="height" constant="96" id="qxe-wO-xfr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenCoverRight" translatesAutoresizingMaskIntoConstraints="NO" id="dTr-yV-Tt9">
+                                        <rect key="frame" x="480" y="0.0" width="120" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="JRC-27-6wu"/>
+                                            <constraint firstAttribute="height" constant="96" id="r6F-py-ODw"/>
+                                        </constraints>
+                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="推荐小费 15%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KL-Jf-oRV">
                                         <rect key="frame" x="15" y="73" width="570" height="14.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -839,6 +855,9 @@
                                         <state key="normal" image="TriangleButtonLeft">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="decRate" destination="S7C-mv-WHf" eventType="touchUpInside" id="uab-Cp-biD"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gM-Nd-fwu">
                                         <rect key="frame" x="573" y="30" width="12" height="24"/>
@@ -849,22 +868,32 @@
                                         <state key="normal" image="TriangleButtonRight">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="incRate" destination="S7C-mv-WHf" eventType="touchUpInside" id="e9L-ao-6E2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.53333333329999999" green="0.7843137255" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="d3W-9L-gPf" firstAttribute="top" secondItem="RLG-bG-sio" secondAttribute="top" id="4Dc-Et-lEU"/>
                                     <constraint firstAttribute="bottom" secondItem="8KL-Jf-oRV" secondAttribute="bottom" constant="8" id="5hE-1x-gWC"/>
                                     <constraint firstItem="ytR-0o-Be5" firstAttribute="leading" secondItem="RLG-bG-sio" secondAttribute="leading" constant="40" id="6VD-xj-pIy"/>
                                     <constraint firstItem="ytR-0o-Be5" firstAttribute="centerY" secondItem="7k6-kr-kyB" secondAttribute="centerY" id="6hC-SF-GOb"/>
                                     <constraint firstAttribute="trailing" secondItem="8gM-Nd-fwu" secondAttribute="trailing" constant="15" id="6lJ-dL-EAN"/>
+                                    <constraint firstItem="bZZ-Eh-nqz" firstAttribute="leading" secondItem="RLG-bG-sio" secondAttribute="leading" id="7fH-AY-hRT"/>
+                                    <constraint firstItem="bZZ-Eh-nqz" firstAttribute="top" secondItem="RLG-bG-sio" secondAttribute="top" id="9BB-4O-vKU"/>
+                                    <constraint firstAttribute="bottom" secondItem="bZZ-Eh-nqz" secondAttribute="bottom" id="R8J-Ns-DE7"/>
+                                    <constraint firstItem="d3W-9L-gPf" firstAttribute="leading" secondItem="RLG-bG-sio" secondAttribute="leading" id="RnW-Ii-hxC"/>
                                     <constraint firstAttribute="height" constant="96" id="RsI-rf-vMH"/>
                                     <constraint firstItem="7k6-kr-kyB" firstAttribute="leading" secondItem="RLG-bG-sio" secondAttribute="leading" constant="15" id="SIw-Yk-nkw"/>
+                                    <constraint firstAttribute="trailing" secondItem="dTr-yV-Tt9" secondAttribute="trailing" id="dJp-KE-0q2"/>
                                     <constraint firstAttribute="trailing" secondItem="8KL-Jf-oRV" secondAttribute="trailing" constant="15" id="f2U-NM-kUD"/>
                                     <constraint firstAttribute="trailing" secondItem="ytR-0o-Be5" secondAttribute="trailing" constant="40" id="fRG-sP-8Ld"/>
+                                    <constraint firstItem="dTr-yV-Tt9" firstAttribute="top" secondItem="RLG-bG-sio" secondAttribute="top" id="fZQ-WQ-Zul"/>
                                     <constraint firstItem="ytR-0o-Be5" firstAttribute="top" secondItem="RLG-bG-sio" secondAttribute="top" constant="15" id="hVd-hg-L5c"/>
                                     <constraint firstAttribute="centerX" secondItem="8KL-Jf-oRV" secondAttribute="centerX" id="hma-Go-JIF"/>
                                     <constraint firstItem="8gM-Nd-fwu" firstAttribute="centerY" secondItem="ytR-0o-Be5" secondAttribute="centerY" id="jYR-i0-UjY"/>
                                     <constraint firstItem="8KL-Jf-oRV" firstAttribute="leading" secondItem="RLG-bG-sio" secondAttribute="leading" constant="15" id="kK3-cf-VRB"/>
+                                    <constraint firstAttribute="trailing" secondItem="bZZ-Eh-nqz" secondAttribute="trailing" id="l4c-Rl-Q6O"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEt-8g-Zgp">
@@ -1028,7 +1057,7 @@
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="selectorScollView" destination="ytR-0o-Be5" id="LWq-6M-aOc"/>
+                        <outlet property="scrollerView" destination="ytR-0o-Be5" id="9Su-gr-W4u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sh0-QV-Jrq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1151,6 +1180,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="GreenBackground" width="320" height="96"/>
+        <image name="GreenCoverLeft" width="130" height="54"/>
+        <image name="GreenCoverRight" width="138" height="54"/>
         <image name="LocationIndicator" width="12" height="12"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
         <image name="SizeConverterSelectedBackground" width="53" height="64"/>

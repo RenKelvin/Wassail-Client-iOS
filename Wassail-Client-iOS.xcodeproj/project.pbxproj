@@ -25,6 +25,7 @@
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
+		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
 		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
 		FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */; };
 		FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B019C44ADE00CE6174 /* ListTableView88Cell.swift */; };
@@ -99,6 +100,7 @@
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
 		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemPreview.swift; sourceTree = "<group>"; };
 		FE8D81B019C44ADE00CE6174 /* ListTableView88Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView88Cell.swift; sourceTree = "<group>"; };
@@ -288,6 +290,14 @@
 			name = "大学排名";
 			sourceTree = "<group>";
 		};
+		FE8C7BD319CB298D00F1C319 /* RKScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */,
+			);
+			name = RKScrollerView;
+			sourceTree = "<group>";
+		};
 		FE8D81AD19C448B900CE6174 /* Item */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +467,7 @@
 				FEC32A8E19C9D62F001E5015 /* RKPlayground.xib */,
 				FE5FB99819C6B60200F37192 /* RKSelectorView */,
 				FE1EBF2E19C807C4002C8F25 /* RKPickerView */,
+				FE8C7BD319CB298D00F1C319 /* RKScrollerView */,
 				FECBB60619BE094300115694 /* RKNumericLabel */,
 				FE0FBE5A19C9289700656E49 /* RKNumbersView */,
 				FECBB60319BDFE5C00115694 /* RKTableHeaderView */,
@@ -617,6 +628,7 @@
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
+				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
