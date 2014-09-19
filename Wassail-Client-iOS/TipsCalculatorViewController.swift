@@ -13,7 +13,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     var amount: Double = 64.0
     @IBOutlet var amountTextField: UITextField?
     
-    var rate: Double = 15.0
+    var rate: Double = 0.15
     @IBOutlet var scrollerView: RKScrollerView?
     @IBOutlet var rateLabel: UILabel?
     
@@ -55,11 +55,11 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     // MARK: -
     
     func getRateString() -> NSString{
-        if (rate == 15) {
-            return String(format: "推荐小费 %.0f%%", rate)
+        if (rate == 0.15) {
+            return String(format: "推荐小费 %.0f%%", rate*100)
         }
         else {
-            return String(format: "%.0f%%", rate)
+            return String(format: "%.0f%%", rate*100)
         }
     }
     
@@ -84,26 +84,39 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
     }
     
-    func updateNumbersByAmount() {
+    func roundUp(num: Double) -> Double {
+        let mid = (ceil(num)+floor(num)) / 2.0
         
-        tips = amount * rate / 100.0 / Double(num)
+        if (num >= mid) {
+            return ceil(num)
+        }
+        else {
+            return floor(num)
+        }
+    }
+    
+    func updateNumbers() {
+        
+        tips = amount * rate / Double(num)
         total = amount + tips / Double(num)
         
         self.updateViews()
     }
     
-    func updateNumbersByNum() {
+    func updateNumbersByTips() {
         
-        tips = amount * rate / 100.0 / Double(num)
+        rate = tips / amount
+        
         total = (amount + tips) / Double(num)
         
         self.updateViews()
     }
     
-    func updateNumbersByRate() {
+    func updateNumbersByTotal() {
         
-        tips = amount * rate / 100.0 / Double(num)
-        total = (amount + tips) / Double(num)
+        rate = total / amount - 1.0
+        
+        tips = amount * rate
         
         self.updateViews()
     }
@@ -111,29 +124,25 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     
     // MARK: -
     
-    @IBAction func f() {
-        self.scrollerView!.setContentOffset(CGPoint(x: -200.0, y: 0), animated: true)
-    }
-    
     @IBAction func decRate() {
-        scrollTag = false
         
         let d = Double(rand() % 10) + 1
-        rate -= d
+        rate -= d / 100.0
         
-        self.updateNumbersByRate()
+        self.updateNumbers()
         
+        scrollTag = false
         scrollerView!.scrollTo(rate)
     }
     
     @IBAction func incRate() {
-        scrollTag = false
         
         let d = Double(rand() % 10) + 1
-        rate += d
+        rate += d / 100.0
         
-        self.updateNumbersByRate()
+        self.updateNumbers()
         
+        scrollTag = false
         scrollerView!.scrollTo(rate)
     }
     
@@ -146,7 +155,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         num -= 1
         
-        self.updateNumbersByNum()
+        self.updateNumbers()
         
     }
     
@@ -159,17 +168,35 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         num += 1
         
-        self.updateNumbersByNum()
+        self.updateNumbers()
         
     }
     
+    @IBAction func roundTips() {
+        tips = self.roundUp(tips)
+        
+        self.updateNumbersByTips()
+        
+        scrollTag = false
+        scrollerView!.scrollTo(rate)
+   }
+    
+    @IBAction func roundTotal() {
+        total = self.roundUp(total)
+        
+        self.updateNumbersByTotal()
+        
+        scrollTag = false
+        scrollerView!.scrollTo(rate)
+    }
+
     // MARK: - UITextFieldDelegate
     
     func textFieldDidEndEditing(textField: UITextField) {
         
         amount = NSString(string: textField.text).doubleValue
         
-        self.updateNumbersByAmount()
+        self.updateNumbers()
         
     }
     
@@ -190,7 +217,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         rate = (scrollView as RKScrollerView).getRate()
         
-        self.updateNumbersByRate()
+        self.updateNumbers()
     }
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {

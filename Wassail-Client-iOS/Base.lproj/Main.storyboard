@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -928,7 +927,7 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="light" returnKeyType="done"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小费" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W9-G0-Mbk">
-                                        <rect key="frame" x="15" y="102" width="282" height="17"/>
+                                        <rect key="frame" x="15" y="102" width="278" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -980,11 +979,31 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总价" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2e-5V-d5s">
-                                        <rect key="frame" x="305" y="102" width="280" height="17"/>
+                                        <rect key="frame" x="309" y="102" width="276" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEc-Ek-nAL">
+                                        <rect key="frame" x="139" y="115" width="30" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="凑整">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="roundTips" destination="S7C-mv-WHf" eventType="touchUpInside" id="TRH-YN-JXH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXB-Tm-PKu">
+                                        <rect key="frame" x="432" y="115" width="30" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="凑整">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="roundTotal" destination="S7C-mv-WHf" eventType="touchUpInside" id="wDn-sY-oMr"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -996,17 +1015,21 @@
                                     <constraint firstItem="zkL-52-Uqk" firstAttribute="leading" secondItem="QNY-tj-ToH" secondAttribute="trailing" constant="2" id="DI2-mZ-rR3"/>
                                     <constraint firstAttribute="bottom" secondItem="hfK-ak-tjG" secondAttribute="bottom" id="JZq-Wa-TR0"/>
                                     <constraint firstItem="C2e-5V-d5s" firstAttribute="top" secondItem="rLj-Zu-5vx" secondAttribute="bottom" id="KVN-0Y-ZwV"/>
-                                    <constraint firstItem="C2e-5V-d5s" firstAttribute="leading" secondItem="hfK-ak-tjG" secondAttribute="trailing" constant="2" id="LVb-pS-CVt"/>
+                                    <constraint firstItem="aXB-Tm-PKu" firstAttribute="centerX" secondItem="C2e-5V-d5s" secondAttribute="centerX" id="LNL-xj-u6V"/>
+                                    <constraint firstItem="C2e-5V-d5s" firstAttribute="leading" secondItem="hfK-ak-tjG" secondAttribute="trailing" constant="6" id="LVb-pS-CVt"/>
                                     <constraint firstItem="hfK-ak-tjG" firstAttribute="leading" secondItem="zkL-52-Uqk" secondAttribute="trailing" constant="2" id="OY4-vs-upF"/>
                                     <constraint firstItem="U3h-1g-xjx" firstAttribute="leading" secondItem="hfK-ak-tjG" secondAttribute="trailing" constant="2" id="WL4-85-0Ku"/>
+                                    <constraint firstItem="aXB-Tm-PKu" firstAttribute="top" secondItem="C2e-5V-d5s" secondAttribute="bottom" constant="-4" id="WXw-TP-FH2"/>
                                     <constraint firstItem="hfK-ak-tjG" firstAttribute="top" secondItem="WEt-8g-Zgp" secondAttribute="top" id="ZnE-ak-yZI"/>
                                     <constraint firstItem="rLj-Zu-5vx" firstAttribute="centerY" secondItem="RnR-IK-Up8" secondAttribute="centerY" id="bcl-b0-Dc2"/>
+                                    <constraint firstItem="8W9-G0-Mbk" firstAttribute="centerX" secondItem="pEc-Ek-nAL" secondAttribute="centerX" id="dIF-06-eiC"/>
                                     <constraint firstItem="zkL-52-Uqk" firstAttribute="centerY" secondItem="QNY-tj-ToH" secondAttribute="centerY" id="dhW-cd-0zK"/>
                                     <constraint firstAttribute="centerX" secondItem="hfK-ak-tjG" secondAttribute="centerX" constant="-1" id="fyM-ry-qYK"/>
                                     <constraint firstItem="U3h-1g-xjx" firstAttribute="centerY" secondItem="QNY-tj-ToH" secondAttribute="centerY" id="hVC-vh-eme"/>
                                     <constraint firstItem="rLj-Zu-5vx" firstAttribute="leading" secondItem="hfK-ak-tjG" secondAttribute="trailing" constant="6" id="lAi-Ta-JRb"/>
                                     <constraint firstAttribute="centerY" secondItem="QNY-tj-ToH" secondAttribute="centerY" constant="-48" id="mGe-nR-bgM"/>
-                                    <constraint firstItem="hfK-ak-tjG" firstAttribute="leading" secondItem="8W9-G0-Mbk" secondAttribute="trailing" constant="2" id="qZI-cj-eDy"/>
+                                    <constraint firstItem="hfK-ak-tjG" firstAttribute="leading" secondItem="8W9-G0-Mbk" secondAttribute="trailing" constant="6" id="qZI-cj-eDy"/>
+                                    <constraint firstItem="pEc-Ek-nAL" firstAttribute="top" secondItem="8W9-G0-Mbk" secondAttribute="bottom" constant="-4" id="snK-RY-1rm"/>
                                     <constraint firstAttribute="centerY" secondItem="RnR-IK-Up8" secondAttribute="centerY" constant="24" id="w0j-xk-nEO"/>
                                     <constraint firstItem="QNY-tj-ToH" firstAttribute="leading" secondItem="WEt-8g-Zgp" secondAttribute="leading" constant="15" id="wb7-sd-80d"/>
                                     <constraint firstItem="8W9-G0-Mbk" firstAttribute="leading" secondItem="WEt-8g-Zgp" secondAttribute="leading" constant="15" id="yXM-N7-cSI"/>
@@ -1070,11 +1093,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="小费计算器" id="Xud-ml-QYg">
-                        <barButtonItem key="rightBarButtonItem" title="餐饮" id="Jsw-3c-jAk">
-                            <connections>
-                                <action selector="f" destination="S7C-mv-WHf" id="qfC-4D-d5X"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="餐饮" id="Jsw-3c-jAk"/>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>

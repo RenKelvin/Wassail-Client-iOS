@@ -50,12 +50,12 @@ class RKScrollerView: UIScrollView {
         let rate = (Double(self.contentOffset.x) + indent) / itemWidth
         
         // return Double(Int(rate))
-        return rate
+        return rate / 100.0
     }
     
-    func scrollTo(num: Double) {
+    func scrollTo(rate: Double) {
         
-        var x: Double = itemWidth * num - indent
+        var x: Double = itemWidth * rate * 100 - indent
         
         // TODO: > 99
         
