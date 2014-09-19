@@ -16,6 +16,14 @@ class RKPickerView: UIView {
     
     var delegate: RKPickerViewDelegate?
     
+    func setPicker(picker: UIImageView) {
+        self.picker = picker
+        
+        
+        
+        self.addSubview(self.picker!)
+    }
+    
     func generateButtons(num: Int) {
         
         for button in buttons {
@@ -34,7 +42,7 @@ class RKPickerView: UIView {
         var cur: Double = 0.0
         
         for i in 0...(num-1) {
-            //            var button = UIButton()
+
             var button = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).first as UIButton
             
             buttons.addObject(button)
@@ -68,7 +76,7 @@ class RKPickerView: UIView {
             button.setTitle(units.objectAtIndex(i) as NSString, forState: UIControlState.Normal)
         }
         
-        pickerMove(0)
+        self.pickerMove(0)
         
     }
     
@@ -77,6 +85,8 @@ class RKPickerView: UIView {
         UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseOut, animations: {
             
             let button = self.buttons.objectAtIndex(num) as UIButton
+            println(button.tag)
+            println(button.center)
             
             self.picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
             

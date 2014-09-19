@@ -14,6 +14,12 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     var ci: Int = 0
     
+    var input: Double = 0.0
+    @IBOutlet var inputTextField: UITextField?
+    
+    var output: Double = 0.0
+    @IBOutlet var outputTextField: UITextField?
+    
     @IBOutlet var selectorView: RKSelectorView?
     
     @IBOutlet var leftPickerView: RKPickerView?
@@ -23,6 +29,14 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         super.viewDidLoad()
         
         info.reloadData()
+        
+        self.updateViews()
+        
+        leftPickerView!.delegate = self
+        rightPickerView!.delegate = self
+        //        leftPickerView!.setPicker(NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView)
+        //        rightPickerView!.setPicker(NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView)
+        self.selectCategory(0)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -46,10 +60,22 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
             return
         }
         
-        leftPickerView!.delegate = self
         leftPickerView!.reload(units!)
-        rightPickerView!.delegate = self
         rightPickerView!.reload(units!)
+    }
+    
+    func updateViews() {
+        
+        inputTextField!.text = String(format: "%.2f", input)
+        outputTextField!.text = String(format: "%.2f", output)
+        
+    }
+    
+    func updateNumbersByInput() {
+        
+        output = input * 1.2
+        
+        self.updateViews()
     }
     
     // MARK: - TableViewDataSource
@@ -155,7 +181,24 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: - RKPickerViewDelegate
     
     func pickerView(#pickerView: RKPickerView, didselectedAtIndex i: Int) {
-        println(i)
+        let i = 0
+    }
+    
+    // MARK: - UITextFieldDelegate
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        
+        input = NSString(string: textField.text).doubleValue
+        
+        self.updateNumbersByInput()
+        
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        return true
     }
     
     /*

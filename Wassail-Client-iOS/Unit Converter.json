@@ -10,26 +10,26 @@
     "area": {
         "title": "面积",
         "icon": "UnitConverterIconArea",
-        "units": []
+        "units": ["平方米", "平方英尺", "平方英寸"]
     },
     "volume": {
         "title": "体积",
         "icon": "UnitConverterIconVolume",
-        "units": []
+        "units": ["升", "毫升", "品脱", "夸脱", "加仑"]
     },
     "weight": {
         "title": "重量",
         "icon": "UnitConverterIconWeight",
-        "units": []
+        "units": ["千克", "克", "磅", "盎司"]
     },
     "temp": {
         "title": "温度",
         "icon": "UnitConverterIconTemp",
-        "units": []
+        "units": ["摄氏度", "华氏度", "开尔文"]
     },
     "speed": {
         "title": "速度",
         "icon": "UnitConverterIconSpeed",
-        "units": []
+        "units": ["千米/时", "英里/时"]
     }
 }
