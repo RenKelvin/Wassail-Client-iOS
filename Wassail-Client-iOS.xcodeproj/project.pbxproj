@@ -404,7 +404,6 @@
 			children = (
 				FEC3BD5319C2987800184760 /* Item */,
 				FEA5A90A19BD56470048AF6A /* Tools */,
-				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -471,6 +470,7 @@
 				FECBB60619BE094300115694 /* RKNumericLabel */,
 				FE0FBE5A19C9289700656E49 /* RKNumbersView */,
 				FECBB60319BDFE5C00115694 /* RKTableHeaderView */,
+				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 			);
 			name = RKUIKit;
 			sourceTree = "<group>";

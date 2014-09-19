@@ -20,10 +20,12 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     var tips: Double = 0.0
     @IBOutlet var tipsTextField: UITextField?
     @IBOutlet var tipsLabel: UILabel?
+    @IBOutlet var tipsRoundUpButton: UIButton?
     
     var total: Double = 0.0
     @IBOutlet var totalTextField: UITextField?
     @IBOutlet var totalLabel: UILabel?
+    @IBOutlet var totalRoundUpButton: UIButton?
     
     var num: Int = 1
     @IBOutlet var numTextField: UITextField?
@@ -79,7 +81,20 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
             tipsLabel!.text = "人均小费"
             totalLabel!.text = "人均总价"
         }
-        
+
+        if (tips == Double(Int(tips))) {
+            tipsRoundUpButton!.hidden = true
+        }
+        else {
+            tipsRoundUpButton!.hidden = false
+        }
+        if (total == Double(Int(total))) {
+            totalRoundUpButton!.hidden = true
+        }
+        else {
+            totalRoundUpButton!.hidden = false
+        }
+
         numTextField!.text = String(format: "%i", num)
         
     }
@@ -98,25 +113,25 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     func updateNumbers() {
         
         tips = amount * rate / Double(num)
-        total = amount + tips / Double(num)
+        total = amount / Double(num) + tips
         
         self.updateViews()
     }
     
     func updateNumbersByTips() {
         
-        rate = tips / amount
+        rate = tips * Double(num) / amount
         
-        total = (amount + tips) / Double(num)
+        total = amount / Double(num) + tips
         
         self.updateViews()
     }
     
     func updateNumbersByTotal() {
         
-        rate = total / amount - 1.0
+        rate = total * Double(num) / amount - 1.0
         
-        tips = amount * rate
+        tips = amount * rate / Double(num)
         
         self.updateViews()
     }
