@@ -39,7 +39,6 @@ class RKScrollerView: UIScrollView {
         let width = itemWidth * 100
         self.contentSize = CGSize(width: width, height: 54)
         
-        self.indent = 240
         //        println(self.frame)
         //        self.indent = (Double(self.frame.size.width) - itemWidth) / 2.0
         self.indent = (295.0 - itemWidth) / 2.0
@@ -47,13 +46,19 @@ class RKScrollerView: UIScrollView {
         
     }
     
-    func scrollTo(num: Int) {
-
-        var x: Double = itemWidth * Double(num) - indent
+    func getRate() -> Double {
+        let rate = (Double(self.contentOffset.x) + indent) / itemWidth
+        
+        return rate
+    }
+    
+    func scrollTo(num: Double) {
+        
+        var x: Double = itemWidth * num - indent
         
         // TODO: > 99
         
         self.setContentOffset(CGPoint(x: x, y: 0), animated: true)
-
+        
     }
 }
