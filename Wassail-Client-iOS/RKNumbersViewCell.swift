@@ -14,6 +14,11 @@ class RKNumbersViewCell: UITableViewCell {
     
     func generateLabels(num: Int) {
         
+        for label in labels {
+            label.removeFromSuperview()
+        }
+        labels.removeAllObjects()
+        
         let cellWidth = Double(self.frame.size.width)
         let labelWidth = (cellWidth - 30.0) / Double(num)
         
@@ -35,9 +40,11 @@ class RKNumbersViewCell: UITableViewCell {
     }
     
     func configure(texts: NSArray) {
-        if (labels.count == 0) {
-            self.generateLabels(texts.count)
-        }
+        //        if (labels.count == 0) {
+        //            self.generateLabels(texts.count)
+        //        }
+        
+        self.generateLabels(texts.count)
         
         for i in 1...texts.count {
             var label = labels.objectAtIndex(i-1) as UILabel
