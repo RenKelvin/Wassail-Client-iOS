@@ -8,15 +8,15 @@
 
 import UIKit
 
-class TipsCalculatorViewController: UIViewController {
+class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITextFieldDelegate {
     
-    var amount: Double = 0.0
+    var amount: Double = 64.0
     @IBOutlet var amountTextField: UITextField?
     
     var rate: Double = 15.0
     @IBOutlet var scrollerView: RKScrollerView?
     @IBOutlet var rateLabel: UILabel?
-
+    
     var tips: Double = 0.0
     @IBOutlet var tipsTextField: UITextField?
     @IBOutlet var tipsLabel: UILabel?
@@ -28,15 +28,18 @@ class TipsCalculatorViewController: UIViewController {
     var num: Int = 1
     @IBOutlet var numTextField: UITextField?
     
+    var scrollTag: Bool = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        //        self.amountTextField!.becomeFirstResponder()
+        
         scrollerView!.configure()
-        
-        self.amountTextField!.becomeFirstResponder()
-        
         self.updateViews()
+        scrollerView!.scrollTo(rate)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -51,11 +54,19 @@ class TipsCalculatorViewController: UIViewController {
     
     // MARK: -
     
+    func getRateString() -> NSString{
+        if (rate == 15) {
+            return String(format: "推荐小费 %.0f%%", rate)
+        }
+        else {
+            return String(format: "%.0f%%", rate)
+        }
+    }
+    
     func updateViews() {
         amountTextField!.text = String(format: "%.2f", amount)
         
-        scrollerView!.scrollTo(rate)
-        rateLabel!.text = String(format: "%f", scrollerView!.getRate())
+        rateLabel!.text = self.getRateString()
         
         tipsTextField!.text = String(format: "%.2f", tips)
         totalTextField!.text = String(format: "%.2f", total)
@@ -105,19 +116,25 @@ class TipsCalculatorViewController: UIViewController {
     }
     
     @IBAction func decRate() {
+        scrollTag = false
+        
         let d = Double(rand() % 10) + 1
-        self.scrollerView!.scrollTo(rate - d)
         rate -= d
         
         self.updateNumbersByRate()
+        
+        scrollerView!.scrollTo(rate)
     }
     
     @IBAction func incRate() {
+        scrollTag = false
+        
         let d = Double(rand() % 10) + 1
-        self.scrollerView!.scrollTo(rate + d)
         rate += d
         
         self.updateNumbersByRate()
+        
+        scrollerView!.scrollTo(rate)
     }
     
     @IBAction func decNum() {
@@ -130,6 +147,7 @@ class TipsCalculatorViewController: UIViewController {
         num -= 1
         
         self.updateNumbersByNum()
+        
     }
     
     @IBAction func incNum() {
@@ -142,6 +160,7 @@ class TipsCalculatorViewController: UIViewController {
         num += 1
         
         self.updateNumbersByNum()
+        
     }
     
     // MARK: - UITextFieldDelegate
@@ -159,6 +178,23 @@ class TipsCalculatorViewController: UIViewController {
         textField.resignFirstResponder()
         
         return true
+    }
+    
+    // MARK: - UIScrollViewDelegate
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        
+        if (scrollTag == false) {
+            return
+        }
+        
+        rate = (scrollView as RKScrollerView).getRate()
+        
+        self.updateNumbersByRate()
+    }
+    
+    func scrollViewWillBeginDragging(scrollView: UIScrollView) {
+        scrollTag = true
     }
     
     /*

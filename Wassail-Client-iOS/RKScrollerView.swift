@@ -49,6 +49,7 @@ class RKScrollerView: UIScrollView {
     func getRate() -> Double {
         let rate = (Double(self.contentOffset.x) + indent) / itemWidth
         
+        // return Double(Int(rate))
         return rate
     }
     
