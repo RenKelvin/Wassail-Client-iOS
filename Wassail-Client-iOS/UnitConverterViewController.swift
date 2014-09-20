@@ -15,7 +15,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     var ci: Int = 0
     var iu: NSDictionary?
     var ou: NSDictionary?
-
+    
     var input: Double = 1.0
     @IBOutlet var inputTextField: UITextField?
     @IBOutlet var inputUnitLabel: UILabel?
@@ -43,14 +43,26 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         rightPickerView!.delegate = self
         rightPickerView!.tag = 1
         
-        self.selectCategory(0)
-        leftPickerView!.picker!.frame.origin = CGPoint(x: 0, y: 80)
-
     }
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
+        //        println("viewWillAppear")
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        self.selectCategory(0)
+        self.updateNumbersByInput()
+    }
+    
+    override func viewWillLayoutSubviews() {
+        //        println("viewWillLayoutSubviews")
+    }
+    
+    override func viewDidLayoutSubviews() {
+        //        println("viewDidLayoutSubviews")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        //        println("viewDidAppear")
     }
     
     override func didReceiveMemoryWarning() {
@@ -63,8 +75,10 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     func selectCategory(number: Int) {
         
         ci = number
-        
-        let units = info.getUnits(number)
+        iu = info.getUnit(ci, ui: 0)
+        ou = info.getUnit(ci, ui: 1)
+
+        let units = info.getUnits(ci)
         if (units == nil) {
             return
         }
@@ -193,6 +207,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
         self.selectCategory(indexPath.row)
+        self.updateNumbersByInput()
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout

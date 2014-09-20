@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -88,34 +87,18 @@
                                 </connections>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdx-9N-ruz" userLabel="Left" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="128" width="100" height="128"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TriangleIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="h94-Z5-9D5">
-                                        <rect key="frame" x="0.0" y="58" width="100" height="12"/>
-                                    </imageView>
-                                </subviews>
+                                <rect key="frame" x="0.0" y="128" width="64" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="h94-Z5-9D5" firstAttribute="top" secondItem="zdx-9N-ruz" secondAttribute="top" constant="25" id="2Wy-tM-tYW"/>
-                                    <constraint firstItem="h94-Z5-9D5" firstAttribute="leading" secondItem="zdx-9N-ruz" secondAttribute="leading" id="YBs-sz-4kK"/>
-                                    <constraint firstAttribute="trailing" secondItem="h94-Z5-9D5" secondAttribute="trailing" id="cPc-Tu-HRg"/>
+                                    <constraint firstAttribute="width" constant="64" id="Z2D-k8-JMB"/>
                                     <constraint firstAttribute="height" constant="128" id="gxO-p2-rZq"/>
-                                    <constraint firstAttribute="centerY" secondItem="h94-Z5-9D5" secondAttribute="centerY" id="nin-bH-tdr"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="2Wy-tM-tYW"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <outlet property="picker" destination="h94-Z5-9D5" id="9Xm-g6-1Dn"/>
-                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r54-86-QgL" userLabel="IO">
-                                <rect key="frame" x="100" y="128" width="400" height="128"/>
+                                <rect key="frame" x="64" y="128" width="472" height="128"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-Yc-jgy">
-                                        <rect key="frame" x="16" y="10" width="74" height="43"/>
+                                        <rect key="frame" x="24" y="10" width="74" height="43"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
@@ -124,22 +107,22 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="right" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
-                                        <rect key="frame" x="8" y="79" width="365" height="34"/>
+                                        <rect key="frame" x="8" y="74.5" width="421" height="43"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
                                         <connections>
                                             <outlet property="delegate" destination="WRg-lq-Ju5" id="tb1-9a-CVR"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sm-4W-hPv">
-                                        <rect key="frame" x="98" y="28" width="15" height="20.5"/>
+                                        <rect key="frame" x="106" y="28" width="15" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Lh-SC7">
-                                        <rect key="frame" x="381" y="92" width="11" height="20.5"/>
+                                        <rect key="frame" x="437" y="92" width="11" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -148,9 +131,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="dRi-Pk-tlh" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="8" id="0nK-Cs-sd6"/>
-                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="16" id="9xY-au-Nu2"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="24" id="9xY-au-Nu2"/>
                                     <constraint firstItem="E0p-Lh-SC7" firstAttribute="leading" secondItem="dRi-Pk-tlh" secondAttribute="trailing" constant="8" id="Mcf-6m-B7s"/>
-                                    <constraint firstAttribute="trailing" secondItem="E0p-Lh-SC7" secondAttribute="trailing" constant="8" id="c7U-xV-mzs"/>
+                                    <constraint firstAttribute="trailing" secondItem="E0p-Lh-SC7" secondAttribute="trailing" constant="24" id="c7U-xV-mzs"/>
                                     <constraint firstItem="I4G-Yc-jgy" firstAttribute="centerY" secondItem="5sm-4W-hPv" secondAttribute="centerY" constant="-6" id="nMt-WJ-hZ3"/>
                                     <constraint firstItem="dRi-Pk-tlh" firstAttribute="centerY" secondItem="E0p-Lh-SC7" secondAttribute="centerY" constant="-6" id="pGd-Lz-mp8"/>
                                     <constraint firstAttribute="centerY" secondItem="I4G-Yc-jgy" secondAttribute="centerY" constant="32" id="qDQ-QA-DMs"/>
@@ -159,22 +142,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocO-EA-PXa" userLabel="Right" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
-                                <rect key="frame" x="500" y="128" width="100" height="128"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TriangleIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="0Sg-9E-ti0">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="12"/>
-                                    </imageView>
-                                </subviews>
+                                <rect key="frame" x="536" y="128" width="64" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="0Sg-9E-ti0" secondAttribute="trailing" id="7P2-Xc-vrk"/>
                                     <constraint firstAttribute="height" constant="128" id="8VB-Sh-80p"/>
-                                    <constraint firstItem="0Sg-9E-ti0" firstAttribute="top" secondItem="ocO-EA-PXa" secondAttribute="top" id="G1U-zK-NoV"/>
-                                    <constraint firstItem="0Sg-9E-ti0" firstAttribute="leading" secondItem="ocO-EA-PXa" secondAttribute="leading" id="Sch-YT-dog"/>
                                 </constraints>
-                                <connections>
-                                    <outlet property="picker" destination="0Sg-9E-ti0" id="IPl-Md-ibs"/>
-                                </connections>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-pV-ycq">
                                 <rect key="frame" x="0.0" y="256" width="600" height="344"/>
@@ -217,10 +189,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="WRg-lq-Ju5" id="kgc-Ok-4my"/>
-                                    <outlet property="delegate" destination="WRg-lq-Ju5" id="t0k-JS-nkh"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -240,6 +208,7 @@
                             <constraint firstItem="r54-86-QgL" firstAttribute="top" secondItem="eTf-In-sok" secondAttribute="bottom" id="b3W-gj-c5D"/>
                             <constraint firstItem="8gv-X7-qpb" firstAttribute="top" secondItem="C2S-3r-gtX" secondAttribute="top" id="cLd-Qb-ezr"/>
                             <constraint firstItem="uIq-Yu-BSt" firstAttribute="top" secondItem="FGb-pV-ycq" secondAttribute="bottom" id="e6h-jK-Gal"/>
+                            <constraint firstItem="zdx-9N-ruz" firstAttribute="width" secondItem="C2S-3r-gtX" secondAttribute="width" multiplier="1/6" id="sbJ-fz-ZHr"/>
                             <constraint firstItem="ocO-EA-PXa" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="trailing" id="uAf-dt-StN"/>
                             <constraint firstItem="FGb-pV-ycq" firstAttribute="top" secondItem="8gv-X7-qpb" secondAttribute="bottom" id="uGg-aD-RQN"/>
                             <constraint firstItem="FGb-pV-ycq" firstAttribute="leading" secondItem="C2S-3r-gtX" secondAttribute="leading" id="w7m-sN-z3B"/>
@@ -247,6 +216,12 @@
                             <constraint firstItem="eTf-In-sok" firstAttribute="top" secondItem="PVD-Nm-XzG" secondAttribute="bottom" id="yY7-gT-ApJ"/>
                             <constraint firstAttribute="width" secondItem="8gv-X7-qpb" secondAttribute="width" id="zlO-Fr-pWc"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KUf-hE-Opx"/>
+                                <exclude reference="sbJ-fz-ZHr"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="单位换算" id="S7C-aD-ea8"/>
                     <connections>
@@ -1326,7 +1301,6 @@
         <image name="TriangleButtonLeft" width="44" height="44"/>
         <image name="TriangleButtonRight" width="44" height="44"/>
         <image name="TriangleButtonUp" width="44" height="33"/>
-        <image name="TriangleIndicator" width="53" height="12"/>
         <image name="UnitConverterNavigationBackground" width="320" height="256"/>
         <image name="UnitConverterSelectedBackground" width="53" height="64"/>
     </resources>

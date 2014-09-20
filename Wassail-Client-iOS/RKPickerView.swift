@@ -27,9 +27,9 @@ class RKPickerView: UIView {
             return
         }
         
-        let viewWidth = Double(self.frame.size.width)
-        let viewHeight = Double(self.frame.size.height)
-        let buttonHeight = viewHeight / Double(num)
+        let viewWidth = Double(self.frame.size.width) as Double
+        let viewHeight = Double(self.frame.size.height) as Double
+        let buttonHeight = viewHeight / Double(num) as Double
         
         var cur: Double = 0.0
         
@@ -55,11 +55,32 @@ class RKPickerView: UIView {
         delegate?.pickerView(pickerView: self, didselectedAtIndex: sender.tag)
     }
     
+    func generatePicker() {
+        
+        if (picker == nil) {
+            if (buttons.count == 0) {
+                return
+            }
+            
+            picker = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView
+            
+            let button = self.buttons.objectAtIndex(0) as UIButton
+            picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
+            self.addSubview(picker!)
+        }
+        
+        if (self.tag == 0) {
+            self.pickerMove(0)
+        }
+        else {
+            self.pickerMove(1)
+        }
+    }
+    
     func reload(units: NSArray) {
         
-        println("PickerView reload")
-        
         self.generateButtons(units.count)
+        self.generatePicker()
         
         if (units.count == 0) {
             return
@@ -71,9 +92,6 @@ class RKPickerView: UIView {
             button.setTitle(unitCN, forState: UIControlState.Normal)
         }
         
-        //        let button = self.buttons.objectAtIndex(0) as UIButton
-        //        picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
-        
     }
     
     func pickerMove(num: Int) {
@@ -81,8 +99,6 @@ class RKPickerView: UIView {
         UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseOut, animations: {
             
             let button = self.buttons.objectAtIndex(num) as UIButton
-            println(button.tag)
-            println(button.center)
             
             self.picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
             
