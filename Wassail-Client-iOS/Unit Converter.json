@@ -5,31 +5,59 @@
     "length": {
         "title": "长度",
         "icon": "UnitConverterIconLength",
-        "units": ["米", "千米", "英尺", "英寸", "英里"]
+        "units": [
+                  {"cn": "米",   "en": "meter",      "unit": "m",    "k": "1",       "b": "0"},
+                  {"cn": "千米",  "en": "kilometer",  "unit": "km",   "k": "1000",    "b": "0"},
+                  {"cn": "英尺",  "en": "foot",       "unit": "ft",   "k": "0.3048",  "b": "0"},
+                  {"cn": "英寸",  "en": "inch",       "unit": "in",   "k": "0.0254",  "b": "0"},
+                  {"cn": "英里",  "en": "mile",       "unit": "ml",   "k": "1609.34", "b": "0"}
+                  ]
     },
     "area": {
         "title": "面积",
         "icon": "UnitConverterIconArea",
-        "units": ["平方米", "平方英尺", "平方英寸"]
+        "units": [
+                  {"cn": "平方米",     "en": "meter",  "unit": "m",    "k": "1",           "b": "0"},
+                  {"cn": "平方英尺",    "en": "foot",   "unit": "ft2",   "k": "0.0929",      "b": "0"},
+                  {"cn": "平方英寸",    "en": "inch",   "unit": "in2",   "k": "0.0006452",   "b": "0"}
+                  ]
     },
     "volume": {
         "title": "体积",
         "icon": "UnitConverterIconVolume",
-        "units": ["升", "毫升", "品脱", "夸脱", "加仑"]
+        "units": [
+                  {"cn": "升",   "en": "leter",      "unit": "L",    "k": "0.001",       "b": "0"},
+                  {"cn": "毫升",  "en": "milileter",  "unit": "mL",   "k": "0.000001",    "b": "0"},
+                  {"cn": "加仑",  "en": "gallon",     "unit": "gl",   "k": "0.003785",    "b": "0"},
+                  {"cn": "夸脱",  "en": "quart",      "unit": "qt",   "k": "0.001136",    "b": "0"},
+                  {"cn": "品脱",  "en": "pint",       "unit": "pt",   "k": "0.000568",    "b": "0"}
+                  ]
     },
     "weight": {
         "title": "重量",
         "icon": "UnitConverterIconWeight",
-        "units": ["千克", "克", "磅", "盎司"]
+        "units": [
+                  {"cn": "千克",  "en": "kilogram",   "unit": "kg",    "k": "1",           "b": "0"},
+                  {"cn": "克",   "en": "gram",       "unit": "g",   "k": "0.001",       "b": "0"},
+                  {"cn": "磅",   "en": "pound",      "unit": "lb",   "k": "0.45359237",  "b": "0"},
+                  {"cn": "盎司",  "en": "ounce",      "unit": "oz",   "k": "0.0283495",    "b": "0"}
+                  ]
     },
     "temp": {
         "title": "温度",
         "icon": "UnitConverterIconTemp",
-        "units": ["摄氏度", "华氏度", "开尔文"]
+        "units": [
+                  {"cn": "摄氏度", "en": "Celsius",    "unit": "C",    "k": "1",   "b": "0"},
+                  {"cn": "华氏度", "en": "Fahrenheit", "unit": "F",    "k": "1.8", "b": "32"},
+                  {"cn": "开尔文", "en": "Kelvin",     "unit": "K",    "k": "1",   "b": "273.16"}
+                  ]
     },
     "speed": {
         "title": "速度",
         "icon": "UnitConverterIconSpeed",
-        "units": ["千米/时", "英里/时"]
+        "units": [
+                  {"cn": "千米/时", "en": "KPH",   "unit": "KPH",  "k": "1",           "b": "0"},
+                  {"cn": "英里/时", "en": "MPH",   "unit": "MPH",  "k": "1.609344",    "b": "0"}
+                  ]
     }
 }

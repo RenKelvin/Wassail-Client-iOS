@@ -13,12 +13,16 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     let info: UnitConverterInfo = UnitConverterInfo.instance
     
     var ci: Int = 0
-    
-    var input: Double = 0.0
+    var iu: NSDictionary?
+    var ou: NSDictionary?
+
+    var input: Double = 1.0
     @IBOutlet var inputTextField: UITextField?
+    @IBOutlet var inputUnitLabel: UILabel?
     
     var output: Double = 0.0
     @IBOutlet var outputTextField: UITextField?
+    @IBOutlet var outputUnitLabel: UILabel?
     
     @IBOutlet var selectorView: RKSelectorView?
     
@@ -30,11 +34,18 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         info.reloadData()
         
-        self.updateViews()
+        iu = info.getUnit(ci, ui: 0)
+        ou = info.getUnit(ci, ui: 0)
+        self.updateNumbersByInput()
         
         leftPickerView!.delegate = self
+        leftPickerView!.tag = 0
         rightPickerView!.delegate = self
+        rightPickerView!.tag = 1
+        
         self.selectCategory(0)
+        leftPickerView!.picker!.frame.origin = CGPoint(x: 0, y: 80)
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -66,16 +77,36 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     func updateViews() {
         
-        inputTextField!.text = String(format: "%.2f", input)
-        outputTextField!.text = String(format: "%.2f", output)
+        inputTextField!.text = String(format: "%g", input)
+        outputTextField!.text = String(format: "%g", output)
         
+        inputUnitLabel!.text = iu!.objectForKey("unit") as NSString
+        outputUnitLabel!.text = ou!.objectForKey("unit") as NSString
     }
     
     func updateNumbersByInput() {
         
-        output = input * 1.2
+        output = convert(input)
         
         self.updateViews()
+    }
+    
+    func convert(input: Double) -> Double {
+        if (iu == nil) {
+            return 0.0
+        }
+        if (ou == nil) {
+            return 0.0
+        }
+        
+        let k1: Double = (iu!.objectForKey("k") as NSString).doubleValue
+        let b1: Double = (iu!.objectForKey("b") as NSString).doubleValue
+        
+        let k2: Double = (ou!.objectForKey("k") as NSString).doubleValue
+        let b2: Double = (ou!.objectForKey("b") as NSString).doubleValue
+        
+        let output = (k1*input+b1-b2)/k2
+        return output
     }
     
     // MARK: - TableViewDataSource
@@ -177,7 +208,17 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: - RKPickerViewDelegate
     
     func pickerView(#pickerView: RKPickerView, didselectedAtIndex i: Int) {
-        let i = 0
+        
+        switch pickerView.tag {
+        case 0:
+            iu = info.getUnit(ci, ui: i)
+        case 1:
+            ou = info.getUnit(ci, ui: i)
+        default:
+            return
+        }
+        
+        self.updateNumbersByInput()
     }
     
     // MARK: - UITextFieldDelegate

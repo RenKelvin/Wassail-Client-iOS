@@ -57,6 +57,8 @@ class RKPickerView: UIView {
     
     func reload(units: NSArray) {
         
+        println("PickerView reload")
+        
         self.generateButtons(units.count)
         
         if (units.count == 0) {
@@ -65,11 +67,12 @@ class RKPickerView: UIView {
         
         for i in 0...(units.count-1) {
             var button = buttons.objectAtIndex(i) as UIButton
-            button.setTitle(units.objectAtIndex(i) as NSString, forState: UIControlState.Normal)
+            let unitCN = (units.objectAtIndex(i) as NSDictionary).objectForKey("cn") as NSString
+            button.setTitle(unitCN, forState: UIControlState.Normal)
         }
         
-        let button = self.buttons.objectAtIndex(0) as UIButton
-        self.picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
+        //        let button = self.buttons.objectAtIndex(0) as UIButton
+        //        picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
         
     }
     

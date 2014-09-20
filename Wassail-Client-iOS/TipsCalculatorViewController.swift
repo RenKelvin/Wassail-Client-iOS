@@ -10,7 +10,7 @@ import UIKit
 
 class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITextFieldDelegate {
     
-    var amount: Double = 64.0
+    var amount: Double = 50
     @IBOutlet var amountTextField: UITextField?
     
     var rate: Double = 0.15
@@ -40,7 +40,10 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         //        self.amountTextField!.becomeFirstResponder()
         
         scrollerView!.configure()
-        self.updateViews()
+        
+        self.updateNumbers()
+        
+        scrollTag = false
         scrollerView!.scrollTo(rate)
     }
     
@@ -81,7 +84,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
             tipsLabel!.text = "人均小费"
             totalLabel!.text = "人均总价"
         }
-
+        
         if (tips == Double(Int(tips))) {
             tipsRoundUpButton!.hidden = true
         }
@@ -94,7 +97,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         else {
             totalRoundUpButton!.hidden = false
         }
-
+        
         numTextField!.text = String(format: "%i", num)
         
     }
@@ -194,7 +197,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         scrollTag = false
         scrollerView!.scrollTo(rate)
-   }
+    }
     
     @IBAction func roundTotal() {
         total = self.roundUp(total)
@@ -204,7 +207,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         scrollTag = false
         scrollerView!.scrollTo(rate)
     }
-
+    
     // MARK: - UITextFieldDelegate
     
     func textFieldDidEndEditing(textField: UITextField) {
