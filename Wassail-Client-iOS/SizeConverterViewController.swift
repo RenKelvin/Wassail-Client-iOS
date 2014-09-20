@@ -26,7 +26,6 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         // Highlight first category
         self.selectCategory(0)
-        //        self.collectionView(selectorView!, didSelectItemAtIndexPath: NSIndexPath(forItem: 0, inSection: 0))
     }
     
     override func didReceiveMemoryWarning() {
@@ -66,19 +65,24 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         let groups = category!.objectForKey("groups") as NSArray
         
-        return groups.count
+        return groups.count + 1
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Return the number of rows in the section.
         
+        //
+        if (section == 0) {
+            return 1
+        }
+        
+        //
         let category = info.getCategory(ci) as NSDictionary?
         if (category == nil) {
             return 0
         }
         
         let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section] as NSDictionary
+        let group = groups[section-1] as NSDictionary
         
         let rows = group.objectForKey("rows") as NSArray
         
@@ -89,16 +93,27 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as RKNumbersViewCell
         
-        let category = info.getCategory(ci) as NSDictionary?
-        if (category == nil) {
+        //
+        if (indexPath.section == 0) {
+            let mySize = info.getMySize(ci) as NSDictionary?
+            
+            // No size yet
+            if (mySize == nil) {
+                cell.clear()
+                return cell
+            }
+            
+            let g = mySize!.objectForKey("group") as Int
+            let r = mySize!.objectForKey("row") as Int
+            
+            let row = info.getRow(ci, group: g, row: r) as NSArray?
+            
+            cell.configure(row)
+            
             return cell
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[indexPath.section] as NSDictionary
-        
-        let rows = group.objectForKey("rows") as NSArray
-        let row = rows[indexPath.row] as NSArray
+        let row = info.getRow(ci, group: indexPath.section-1, row: indexPath.row)
         
         cell.configure(row)
         
@@ -110,13 +125,21 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
+        //
+        if (section == 0) {
+            headerView.titleLabel?.text = "我的尺码"
+            
+            return headerView
+        }
+        
+        //
         let category = info.getCategory(ci) as NSDictionary?
         if (category == nil) {
             return headerView
         }
         
         let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section] as NSDictionary
+        let group = groups[section-1] as NSDictionary
         
         headerView.titleLabel?.text = group.objectForKey("title") as NSString
         
@@ -138,10 +161,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    
+        
         let number = info.numberOfCategories()
         return number
-
+        
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {

@@ -12,12 +12,17 @@ class RKNumbersViewCell: UITableViewCell {
     
     var labels: NSMutableArray = []
     
-    func generateLabels(num: Int) {
-        
+    func clear() {
         for label in labels {
             label.removeFromSuperview()
         }
         labels.removeAllObjects()
+        
+    }
+    
+    func generateLabels(num: Int) {
+        
+        self.clear()
         
         let cellWidth = Double(self.frame.size.width)
         let labelWidth = (cellWidth - 30.0) / Double(num)
@@ -39,16 +44,17 @@ class RKNumbersViewCell: UITableViewCell {
         }
     }
     
-    func configure(texts: NSArray) {
-        //        if (labels.count == 0) {
-        //            self.generateLabels(texts.count)
-        //        }
+    func configure(texts: NSArray?) {
         
-        self.generateLabels(texts.count)
+        if (texts == nil) {
+            return
+        }
         
-        for i in 1...texts.count {
+        self.generateLabels(texts!.count)
+        
+        for i in 1...texts!.count {
             var label = labels.objectAtIndex(i-1) as UILabel
-            label.text = texts.objectAtIndex(i-1) as NSString
+            label.text = texts!.objectAtIndex(i-1) as NSString
         }
     }
     

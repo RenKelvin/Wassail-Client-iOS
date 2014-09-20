@@ -11,6 +11,8 @@
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
+		FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */; };
+		FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */; };
 		FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0219C47D4C0003A29A /* DefaultInfo.swift */; };
 		FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0419C47E8F0003A29A /* ArticleViewController.swift */; };
 		FE496C0719C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */ = {isa = PBXBuildFile; fileRef = FE496C0619C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */; };
@@ -82,6 +84,8 @@
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
+		FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccessor.swift; sourceTree = "<group>"; };
+		FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		FE496C0219C47D4C0003A29A /* DefaultInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfo.swift; sourceTree = "<group>"; };
 		FE496C0419C47E8F0003A29A /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		FE496C0619C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1.4权威解读泰晤士报大学排名 （互联网）.json"; sourceTree = "<group>"; };
@@ -365,6 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */,
+				FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */,
 			);
 			name = Mapper;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD5419C298D100184760 /* DefaultAccessor.swift */,
+				FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */,
 			);
 			name = Accessor;
 			sourceTree = "<group>";
@@ -614,6 +620,7 @@
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */,
 				FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */,
+				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
 				FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */,
 				FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */,
 				FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */,
@@ -640,6 +647,7 @@
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
+				FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */,
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,

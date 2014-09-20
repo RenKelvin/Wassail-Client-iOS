@@ -17,6 +17,10 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //
+        let dict = UserAccessor.instance.getMySize()
+        println(dict)
     }
     
     override func viewWillAppear(animated: Bool) {

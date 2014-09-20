@@ -71,4 +71,25 @@ class SizeConverterInfo: NSObject {
         return category!.objectForKey("header") as NSArray?
     }
     
+    func getMySize(num: Int) -> NSDictionary? {
+        
+        
+        return nil  // TODO: return my size
+    }
+    
+    func getRow(category: Int, group: Int, row: Int) -> NSArray? {
+        let category = self.getCategory(category)
+        if (category == nil) {
+            return nil
+        }
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        let group = groups[group] as NSDictionary
+        
+        let rows = group.objectForKey("rows") as NSArray
+        let row = rows[row] as NSArray
+        
+        return row
+    }
+    
 }
