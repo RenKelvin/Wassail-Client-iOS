@@ -1,37 +1,37 @@
 {
-    "World Clock": {
-        "Note": "方便查看世界各地的时间及时差",
-        "Title": "世界时钟",
-        "Icon": "ToolsIconWorldClock"
+    "world clock": {
+        "note": "方便查看世界各地的时间及时差",
+        "title": "世界时钟",
+        "icon": "ToolsIconWorldClock"
     },
-    "Credit Card": {
-        "Note": "信用卡申请，额度，积分，省钱攻略",
-        "Title": "信用卡攻略",
-        "Icon": "ToolsIconCreditCard"
+    "credit card": {
+        "note": "信用卡申请，额度，积分，省钱攻略",
+        "title": "信用卡攻略",
+        "icon": "ToolsIconCreditCard"
     },
-    "Unit Converter": {
-        "Note": "长度，重量，温度等单位换算",
-        "Title": "单位换算",
-        "Icon": "ToolsIconUnitConverter"
+    "unit converter": {
+        "note": "长度，重量，温度等单位换算",
+        "title": "单位换算",
+        "icon": "ToolsIconUnitConverter"
     },
-    "Tips Calculator": {
-        "Note": "快速计算吃饭，打车，酒店等小费",
-        "Title": "小费计算器",
-        "Icon": "ToolsIconTipsCalculator"
+    "tips calculator": {
+        "note": "快速计算吃饭，打车，酒店等小费",
+        "title": "小费计算器",
+        "icon": "ToolsIconTipsCalculator"
     },
-    "Size Converter": {
-        "Note": "衣服，鞋子，戒指等尺码转换",
-        "Title": "尺码转换",
-        "Icon": "ToolsIconSizeConverter"
+    "size converter": {
+        "note": "衣服，鞋子，戒指等尺码转换",
+        "title": "尺码转换",
+        "icon": "ToolsIconSizeConverter"
     },
-    "Info Container": {
-        "Note": "重要信息快速查看，加密储存",
-        "Title": "信息保险箱",
-        "Icon": "ToolsIconInfoContainer"
+    "info container": {
+        "note": "重要信息快速查看，加密储存",
+        "title": "信息保险箱",
+        "icon": "ToolsIconInfoContainer"
     },
-    "University Rankings": {
-        "Note": "世界大学权威排名及分析",
-        "Title": "大学排名",
-        "Icon": "ToolsIconUniversityRankings"
+    "university rankings": {
+        "note": "世界大学权威排名及分析",
+        "title": "大学排名",
+        "icon": "ToolsIconUniversityRankings"
     }
 }

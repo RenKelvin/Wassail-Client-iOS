@@ -16,8 +16,14 @@ class UserAccessor: NSObject {
     return _UserAccessorSharedInstance
     }
     
-    func getMySize() -> NSDictionary? {
-        return UserMapper.instance.getMySize()
+    func getMySize(key: String) -> NSDictionary? {
+        
+        return LocalAdapter.instance.getMySize(key)
     }
 
+    func setMySize(key: NSString, value: NSDictionary) -> Bool {
+        
+        return LocalAdapter.instance.setMySize(key, value: value)
+    }
+    
 }

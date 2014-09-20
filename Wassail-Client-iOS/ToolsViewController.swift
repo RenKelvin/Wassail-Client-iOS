@@ -19,8 +19,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         //
-        let dict = UserAccessor.instance.getMySize()
-        println(dict)
+        let url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
+        println(url)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -69,24 +69,24 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                dict = tools.objectForKey("University Rankings") as? NSDictionary
+                dict = tools.objectForKey("university rankings") as? NSDictionary
             case 1:
-                dict = tools.objectForKey("Credit Card") as? NSDictionary
+                dict = tools.objectForKey("credit card") as? NSDictionary
             default:
                 return cell
             }
         case 1:
             switch indexPath.row {
             case 0:
-                dict = tools.objectForKey("World Clock") as? NSDictionary
+                dict = tools.objectForKey("world clock") as? NSDictionary
             case 1:
-                dict = tools.objectForKey("Tips Calculator") as? NSDictionary
+                dict = tools.objectForKey("tips calculator") as? NSDictionary
             case 2:
-                dict = tools.objectForKey("Unit Converter") as? NSDictionary
+                dict = tools.objectForKey("unit converter") as? NSDictionary
             case 3:
-                dict = tools.objectForKey("Size Converter") as? NSDictionary
+                dict = tools.objectForKey("size converter") as? NSDictionary
             case 4:
-                dict = tools.objectForKey("Info Container") as? NSDictionary
+                dict = tools.objectForKey("info container") as? NSDictionary
             default:
                 return cell
             }

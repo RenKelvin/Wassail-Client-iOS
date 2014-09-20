@@ -73,8 +73,28 @@ class SizeConverterInfo: NSObject {
     
     func getMySize(num: Int) -> NSDictionary? {
         
+        let names = self.getNames() as NSArray?
+        if (names == nil) {
+            return nil
+        }
         
-        return nil  // TODO: return my size
+        let key = NSString(format: "mysize\(names![num] as String)")
+        
+        return UserAccessor.instance.getMySize(key)
+
+    }
+    
+    func setMySize(ci: Int, group: Int, row: Int) -> Bool {
+        
+        let names = self.getNames() as NSArray?
+        if (names == nil) {
+            return false
+        }
+        
+        let key = NSString(format: "mysize\(names![ci] as String)")
+        let value = NSDictionary(dictionary: ["group": group, "row": row])
+        
+        return UserAccessor.instance.setMySize(key, value: value)
     }
     
     func getRow(category: Int, group: Int, row: Int) -> NSArray? {

@@ -42,17 +42,66 @@ class LocalAdapter: NSObject {
         return dict
     }
     
-    func getMySize() -> NSDictionary? {
+    func getMySize(key: String) -> NSDictionary? {
         
         let dict = self.getPlist("User", dir: .Document)
+        if (dict == nil) {
+            return nil
+        }
         
-        // TODO: get size
-        return dict
+        let size = dict!.objectForKey(key) as NSDictionary?
+        
+        return size
+    }
+    
+    func setMySize(key: NSString, value: NSDictionary) -> Bool {
+        
+        return self.writePlist("User", key: key, value: value)
     }
     
     ////////
     
+    func createPlist(file: String) -> Bool {
+        
+        var url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as NSURL
+        url = url.URLByAppendingPathComponent(String(format: "\(file).plist"))
+        
+        if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
+            
+            let dict = NSDictionary(dictionary: ["": ""])
+            
+            return dict.writeToURL(url, atomically: true)
+        }
+        
+        return true
+    }
+    
+    func writePlist(file: String, key: NSString, value: NSDictionary) -> Bool {
+        
+        let url = getURL(file, type: "plist", dir: .Document)
+        
+        if (!NSFileManager.defaultManager().fileExistsAtPath(url!.path!)) {
+            let b = self.createPlist(file)
+            if (b == false) {
+                return false
+            }
+        }
+        
+        let dict = self.getPlist(file, dir: .Document) as NSDictionary?
+        if (dict == nil) {
+            return false
+        }
+        
+        var mdict = NSMutableDictionary(dictionary: dict! as Dictionary)
+        mdict.setObject(value, forKey: key)
+        
+        mdict.writeToURL(url!, atomically: true)
+        
+        return true
+    }
+    
     func getPlist(file: String, dir: Directory) -> NSDictionary? {
+        
         let url = self.getURL(file, type: "plist", dir: dir)
         if (url == nil) {
             println("Local Adapter: \(file).plist in not found in \(dir)")

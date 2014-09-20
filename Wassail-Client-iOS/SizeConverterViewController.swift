@@ -151,6 +151,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
+        // Store my size
+        if (indexPath.section != 0) {
+            info.setMySize(ci, group: indexPath.section-1, row: indexPath.row)
+        }
     }
     
     // MARK: - UICollectionViewDataSource

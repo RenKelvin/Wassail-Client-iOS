@@ -30,9 +30,9 @@ class ToolsTableViewCell: UITableViewCell {
             return
         }
         
-        iconImageView!.image = UIImage(named: dict!.objectForKey("Icon") as String)
-        titleLabel!.text = dict!.objectForKey("Title") as String?
-        noteLabel!.text = dict!.objectForKey("Note") as String?
+        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as String)
+        titleLabel!.text = dict!.objectForKey("title") as String?
+        noteLabel!.text = dict!.objectForKey("note") as String?
     }
     
 }
