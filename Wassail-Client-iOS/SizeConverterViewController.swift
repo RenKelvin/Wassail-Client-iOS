@@ -138,9 +138,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    
         let number = info.numberOfCategories()
-        
         return number
+
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {

@@ -9,24 +9,24 @@
 import UIKit
 
 class UnitConverterTableViewCell: UITableViewCell {
-
+    
     @IBOutlet var leftLabel: UILabel?
     @IBOutlet var rightLabel: UILabel?
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
-    func configure() {
-        leftLabel!.text = "123m"
-        rightLabel!.text = "321ft"
+    
+    func configure(dict: NSDictionary) {
+        leftLabel!.text = dict.objectForKey("title") as NSString
+        rightLabel!.text = dict.objectForKey("description") as NSString
     }
-
+    
 }

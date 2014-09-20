@@ -136,7 +136,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         case 0:
             return 1
         case 1:
-            return 4
+            let knows = info.getKnows(ci)
+            return knows!.count
+            
         default:
             return 0
         }
@@ -145,7 +147,17 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UnitConverterTableViewCell
         
-        cell.configure()
+        switch indexPath.section {
+        case 0:
+            "" // TODO: get user favs
+            
+        case 1:
+            let knows = info.getKnows(ci)
+            cell.configure(knows![indexPath.row] as NSDictionary)
+            
+        default:
+            return cell
+        }
         
         return cell
     }
@@ -158,9 +170,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         var title: String = ""
         switch section {
         case 0:
-            title = "-"
+            title = "我的换算"
         case 1:
-            title = "-"
+            title = "常用换算"
         default:
             title = ""
         }

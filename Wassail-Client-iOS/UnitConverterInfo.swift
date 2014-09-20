@@ -70,6 +70,17 @@ class UnitConverterInfo: NSObject {
         
         return category!.objectForKey("units") as NSArray?
     }
+    
+    func getKnows(index: Int) -> NSArray? {
+        
+        let category = self.getCategory(index)
+        
+        if (category == nil) {
+            return nil
+        }
+        
+        return category!.objectForKey("knows") as NSArray?
+    }
 
     func getUnit(ci: Int, ui: Int) -> NSDictionary? {
         if (data == nil) {
