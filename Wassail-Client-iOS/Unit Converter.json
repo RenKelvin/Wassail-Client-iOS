@@ -17,7 +17,7 @@
         "title": "面积",
         "icon": "UnitConverterIconArea",
         "units": [
-                  {"cn": "平方米",     "en": "meter",  "unit": "m",    "k": "1",           "b": "0"},
+                  {"cn": "平方米",     "en": "meter",  "unit": "m2",    "k": "1",           "b": "0"},
                   {"cn": "平方英尺",    "en": "foot",   "unit": "ft2",   "k": "0.0929",      "b": "0"},
                   {"cn": "平方英寸",    "en": "inch",   "unit": "in2",   "k": "0.0006452",   "b": "0"}
                   ]
