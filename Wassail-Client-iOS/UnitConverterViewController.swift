@@ -77,7 +77,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         ci = number
         iu = info.getUnit(ci, ui: 0)
         ou = info.getUnit(ci, ui: 1)
-
+        
         let units = info.getUnits(ci)
         if (units == nil) {
             return
@@ -91,8 +91,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     func updateViews() {
         
-        inputTextField!.text = String(format: "%g", input)
-        outputTextField!.text = String(format: "%g", output)
+        inputTextField!.text = String(format: "%.2g", input)
+        outputTextField!.text = String(format: "%.2g", output)
         
         inputUnitLabel!.text = iu!.objectForKey("unit") as NSString
         outputUnitLabel!.text = ou!.objectForKey("unit") as NSString

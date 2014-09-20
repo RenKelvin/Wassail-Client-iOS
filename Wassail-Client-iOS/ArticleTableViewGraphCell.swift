@@ -11,7 +11,7 @@ import UIKit
 class ArticleTableViewGraphCell: ArticleTableViewCell {
     
     @IBOutlet var graphLabel: UILabel?
-    
+
     override func configure(item: NSDictionary) {
         graphLabel?.text = item.objectForKey("content") as NSString?
     }

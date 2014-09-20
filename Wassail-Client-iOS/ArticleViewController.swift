@@ -10,7 +10,8 @@ import UIKit
 
 class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet var _tableView: UITableView?
+    @IBOutlet var tableView: UITableView?
+    @IBOutlet var tableViewHeaderView: UIView?
     
     var article: HLArticle = HLArticle()
     
@@ -21,10 +22,22 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.title = article.title
         
         // Apply table view cell self sizing
-        self._tableView!.estimatedRowHeight = 88.0
-        self._tableView!.rowHeight = UITableViewAutomaticDimension
+        self.tableView!.estimatedRowHeight = 88.0
+        self.tableView!.rowHeight = UITableViewAutomaticDimension
     }
     
+    override func viewWillAppear(animated: Bool) {
+        // Configure Navigation Bar and Status Bar
+        self.setNavigationBarStyle(HLNavigationBarStyle.Default)
+        
+        //
+        self.tableView?.addSubview(self.tableViewHeaderView!)
+        
+        let width = self.tableView?.superview?.frame.size.width
+        self.tableViewHeaderView?.frame.size.width = width!
+        self.tableViewHeaderView?.frame.origin.y = -44.0
+    }
+
     // MARK: -
     
     override func setInfo(info: AnyObject?) {

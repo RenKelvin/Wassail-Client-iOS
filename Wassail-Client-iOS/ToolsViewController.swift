@@ -10,8 +10,8 @@ import UIKit
 
 class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet var _tableView: UITableView?
-    @IBOutlet var _tableViewHeaderView: UIView?
+    @IBOutlet var tableView: UITableView?
+    @IBOutlet var tableViewHeaderView: UIView?
     
     var tools: NSDictionary = ToolsInfo.instance.getTools()!
     
@@ -24,11 +24,11 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
         
         //
-        self._tableView?.addSubview(self._tableViewHeaderView!)
+        self.tableView?.addSubview(self.tableViewHeaderView!)
         
-        let width = self._tableView?.superview?.frame.size.width
-        self._tableViewHeaderView?.frame.size.width = width!
-        self._tableViewHeaderView?.frame.origin.y = -44.0
+        let width = self.tableView?.superview?.frame.size.width
+        self.tableViewHeaderView?.frame.size.width = width!
+        self.tableViewHeaderView?.frame.origin.y = -44.0
     }
     
     override func didReceiveMemoryWarning() {

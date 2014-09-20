@@ -10,6 +10,8 @@ import UIKit
 
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var tableView: UITableView?
+    
     var list: HLList = HLList()
     
     override func viewDidLoad() {
@@ -17,6 +19,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // Set article title
         self.title = list.title
+        
+        // Apply table view cell self sizing
+        self.tableView!.estimatedRowHeight = 88.0
+        self.tableView!.rowHeight = UITableViewAutomaticDimension
     }
     
     override func didReceiveMemoryWarning() {
@@ -72,10 +78,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
+        
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-
+        
         // Get source item
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
         let itemName = item.source.objectForKey("name") as NSString
