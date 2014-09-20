@@ -34,8 +34,6 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         leftPickerView!.delegate = self
         rightPickerView!.delegate = self
-        //        leftPickerView!.setPicker(NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView)
-        //        rightPickerView!.setPicker(NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView)
         self.selectCategory(0)
     }
     
@@ -59,6 +57,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         if (units == nil) {
             return
         }
+        
+        selectorView!.reloadData()
         
         leftPickerView!.reload(units!)
         rightPickerView!.reload(units!)
@@ -140,11 +140,11 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
-        // Highlight first category
-        if (indexPath.row == 0) {
+        if (indexPath.row == ci) {
             cell.setSelected()
-            
-            selectCategory(indexPath.row)
+        }
+        else {
+            cell.setDeselected()
         }
         
         // Configure the cell
@@ -160,11 +160,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: - UICollectionViewDelegate
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        //
-        var cell = collectionView.cellForItemAtIndexPath(indexPath) as RKSelectorCollectionViewCell
-        cell.setSelected()
         
-        //
         self.selectCategory(indexPath.row)
     }
     

@@ -50,6 +50,8 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             return
         }
         
+        selectorView!.reloadData()
+        
         numbersView!.reload(header!)
     }
     
@@ -165,26 +167,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
-        let number = info.numberOfCategories()
-        for i in 0...(number-1) {
-            
-            let index = NSIndexPath(forItem: i, inSection: 0)
-            var cell = self.collectionView(selectorView!, cellForItemAtIndexPath: index) as RKSelectorCollectionViewCell
-            
-            if (i == ci) {
-                cell.setSelected()
-            }
-            else {
-                cell.setDeselected()
-            }
-            
-        }
-        
-        var cell = self.collectionView(selectorView!, cellForItemAtIndexPath: indexPath) as RKSelectorCollectionViewCell
-        cell.setSelected()
-        
         self.selectCategory(indexPath.row)
-        
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout
