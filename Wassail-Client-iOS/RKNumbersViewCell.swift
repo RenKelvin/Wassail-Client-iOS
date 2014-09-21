@@ -12,8 +12,6 @@ class RKNumbersViewCell: UITableViewCell {
     
     var labels: NSMutableArray = []
     
-    @IBOutlet var backgroundImageView: UIImageView?
-    
     @IBOutlet var defaultMessageLabel: UILabel?
     
     func clear() {
@@ -35,13 +33,6 @@ class RKNumbersViewCell: UITableViewCell {
         
         self.clear()
         
-        if (highlight) {
-            backgroundImageView!.highlighted = true
-        }
-        else {
-            backgroundImageView!.highlighted = false
-        }
-        
         let cellWidth = Double(self.frame.size.width)
         let labelWidth = (cellWidth - 30.0) / Double(num)
         
@@ -53,8 +44,8 @@ class RKNumbersViewCell: UITableViewCell {
             
             label.textAlignment = NSTextAlignment.Center
             if (highlight) {
-                label.textColor = UIColor.whiteColor()
-                label.font = UIFont.boldSystemFontOfSize(14.0)
+                label.textColor = UIColor.HLTextBlack()
+                label.font = UIFont.boldSystemFontOfSize(12.0)
             }
             else {
                 label.textColor = UIColor.HLTextGray()
