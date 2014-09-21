@@ -28,14 +28,14 @@ class DefaultAccessor: NSObject {
     }
     
     func getTools() -> NSDictionary? {
-        return LocalAdapter.instance.getTools()
+        return LocalMediator.instance.getTools()
     }
     
     func getSizeConverter() -> NSDictionary? {
-        return LocalAdapter.instance.getSizeConverter()
+        return LocalMediator.instance.getSizeConverter()
     }
     
     func getUnitConverter() -> NSDictionary? {
-        return LocalAdapter.instance.getUnitConverter()
+        return LocalMediator.instance.getUnitConverter()
     }
 }

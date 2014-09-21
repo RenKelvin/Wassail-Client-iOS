@@ -37,7 +37,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         // Do any additional setup after loading the view.
         
-        //        self.amountTextField!.becomeFirstResponder()
+        self.amountTextField!.becomeFirstResponder()
         
         scrollerView!.configure()
         

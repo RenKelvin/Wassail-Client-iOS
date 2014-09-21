@@ -42,7 +42,8 @@
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
 		FE98698919C7F2DB00083FEE /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE98698819C7F2DB00083FEE /* Unit Converter.json */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
-		FEC32A8F19C9D62F001E5015 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC32A8E19C9D62F001E5015 /* RKPlayground.xib */; };
+		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
+		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -119,7 +120,8 @@
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
 		FE98698819C7F2DB00083FEE /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
-		FEC32A8E19C9D62F001E5015 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RKPlayground.xib; path = ../RKPlayground.xib; sourceTree = "<group>"; };
+		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
+		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerViewDelegate.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				FEC8649519BD3D06005087A3 /* Accessor */,
 				FEC3BD5619C29D1D00184760 /* Mapper */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
+				FEB1D7EE19CEB2E6002F7285 /* Mediator */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
 				FEC8649719BD3DF1005087A3 /* Resource */,
 				FE5B1F8D19B4033B00842C3D /* Supporting Files */,
@@ -340,6 +343,14 @@
 				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		FEB1D7EE19CEB2E6002F7285 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
+			);
+			name = Mediator;
 			sourceTree = "<group>";
 		};
 		FEC3BD4819C2896E00184760 /* Model */ = {
@@ -469,7 +480,7 @@
 		FECBB5FE19BDFDE200115694 /* RKUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				FEC32A8E19C9D62F001E5015 /* RKPlayground.xib */,
+				FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */,
 				FE5FB99819C6B60200F37192 /* RKSelectorView */,
 				FE1EBF2E19C807C4002C8F25 /* RKPickerView */,
 				FE8C7BD319CB298D00F1C319 /* RKScrollerView */,
@@ -585,7 +596,7 @@
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */,
-				FEC32A8F19C9D62F001E5015 /* RKPlayground.xib in Resources */,
+				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FE98698319C7DBFD00083FEE /* Size Converter.json in Resources */,
 				FE8D81B919C467E100CE6174 /* 1世界大学排名.json in Resources */,
 			);
@@ -605,6 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,

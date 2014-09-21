@@ -18,12 +18,12 @@ class UserAccessor: NSObject {
     
     func getMySize(key: String) -> NSDictionary? {
         
-        return LocalAdapter.instance.getMySize(key)
+        return LocalMediator.instance.getMySize(key)
     }
 
     func setMySize(key: NSString, value: NSDictionary) -> Bool {
         
-        return LocalAdapter.instance.setMySize(key, value: value)
+        return LocalMediator.instance.setMySize(key, value: value)
     }
     
 }

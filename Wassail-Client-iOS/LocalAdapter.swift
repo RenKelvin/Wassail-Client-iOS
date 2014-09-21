@@ -8,58 +8,19 @@
 
 import UIKit
 
-private let _LocalAdapterSharedInstance = LocalAdapter()
 
 enum Directory {
     case Bundle
     case Document
 }
 
+private let _LocalAdapterSharedInstance = LocalAdapter()
+
 class LocalAdapter: NSObject {
     
     class var instance : LocalAdapter {
     return _LocalAdapterSharedInstance
     }
-    
-    func getTools() -> NSDictionary? {
-        
-        let dict = self.getJson("Tools", dir: .Bundle)
-        
-        return dict
-    }
-    
-    func getSizeConverter() -> NSDictionary? {
-        
-        let dict = self.getJson("Size Converter", dir: .Bundle)
-        
-        return dict
-    }
-    
-    func getUnitConverter() -> NSDictionary? {
-        
-        let dict = self.getJson("Unit Converter", dir: .Bundle)
-        
-        return dict
-    }
-    
-    func getMySize(key: String) -> NSDictionary? {
-        
-        let dict = self.getPlist("User", dir: .Document)
-        if (dict == nil) {
-            return nil
-        }
-        
-        let size = dict!.objectForKey(key) as NSDictionary?
-        
-        return size
-    }
-    
-    func setMySize(key: NSString, value: NSDictionary) -> Bool {
-        
-        return self.writePlist("User", key: key, value: value)
-    }
-    
-    ////////
     
     func createPlist(file: String) -> Bool {
         
