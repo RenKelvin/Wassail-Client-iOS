@@ -19,4 +19,5 @@ class DefaultInfo: NSObject {
     func getItem(name: NSString) -> HLItem? {
         return DefaultAccessor.instance.getItem(name)
     }
+    
 }

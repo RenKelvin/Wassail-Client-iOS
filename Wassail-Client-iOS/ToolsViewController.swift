@@ -22,7 +22,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
         println(url)
         
-        AWSAdapter.instance.testpost()
+        Wassail_v1.instance.sendFeedback("tttt")
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -44,6 +44,12 @@
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
+		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
+		FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */; };
+		FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */; };
+		FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */; };
+		FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */; };
+		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
 		FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -122,6 +128,12 @@
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
+		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackInfo.swift; sourceTree = "<group>"; };
+		FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMediator.swift; sourceTree = "<group>"; };
+		FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAdapter.swift; sourceTree = "<group>"; };
+		FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMediator.swift; sourceTree = "<group>"; };
+		FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail_v1.swift; sourceTree = "<group>"; };
 		FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerViewDelegate.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
@@ -348,9 +360,37 @@
 		FEB1D7EE19CEB2E6002F7285 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */,
+				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
 				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
 			);
 			name = Mediator;
+			sourceTree = "<group>";
+		};
+		FEB1D7F319CEF6F4002F7285 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */,
+				FE98698619C7F26900083FEE /* UnitConverterInfo.swift */,
+				FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		FEB1D7F419CEFA97002F7285 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3BD5819C29DBA00184760 /* ListInfo.swift */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		FEB1D7FD19CF10E6002F7285 /* AWS */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+			);
+			name = AWS;
 			sourceTree = "<group>";
 		};
 		FEC3BD4819C2896E00184760 /* Model */ = {
@@ -389,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
+				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
 				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
 			);
 			name = Adapter;
@@ -418,8 +459,9 @@
 		FEC8649319BD3CDF005087A3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD5319C2987800184760 /* Item */,
 				FEA5A90A19BD56470048AF6A /* Tools */,
+				FEC3BD5319C2987800184760 /* Item */,
+				FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -428,10 +470,9 @@
 			isa = PBXGroup;
 			children = (
 				FE496C0219C47D4C0003A29A /* DefaultInfo.swift */,
-				FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */,
-				FE98698619C7F26900083FEE /* UnitConverterInfo.swift */,
-				FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */,
-				FEC3BD5819C29DBA00184760 /* ListInfo.swift */,
+				FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */,
+				FEB1D7F319CEF6F4002F7285 /* Tools */,
+				FEB1D7F419CEFA97002F7285 /* Item */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -456,7 +497,7 @@
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FEC8649919BD3DFB005087A3 /* AWS */,
+				FEB1D7FD19CF10E6002F7285 /* AWS */,
 				FEC8649819BD3DF4005087A3 /* Database */,
 				FE57619019BD499100574EE1 /* Local */,
 			);
@@ -468,13 +509,6 @@
 			children = (
 			);
 			name = Database;
-			sourceTree = "<group>";
-		};
-		FEC8649919BD3DFB005087A3 /* AWS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = AWS;
 			sourceTree = "<group>";
 		};
 		FECBB5FE19BDFDE200115694 /* RKUIKit */ = {
@@ -618,6 +652,8 @@
 			files = (
 				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
+				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
+				FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
@@ -635,6 +671,7 @@
 				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
 				FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */,
 				FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */,
+				FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */,
 				FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */,
 				FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */,
 				FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */,
@@ -644,8 +681,10 @@
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
+				FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
+				FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */,
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
 				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
@@ -666,6 +705,7 @@
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
 				FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */,
 				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
+				FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

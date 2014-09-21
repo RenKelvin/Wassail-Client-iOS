@@ -38,4 +38,9 @@ class DefaultAccessor: NSObject {
     func getUnitConverter() -> NSDictionary? {
         return LocalMediator.instance.getUnitConverter()
     }
+    
+    func sendFeedback(text: NSString) {
+        
+    }
+    
 }

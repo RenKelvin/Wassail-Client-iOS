@@ -19,4 +19,5 @@ class ToolsInfo: NSObject {
     func getTools() -> NSDictionary? {
         return DefaultAccessor.instance.getTools()
     }
+    
 }
