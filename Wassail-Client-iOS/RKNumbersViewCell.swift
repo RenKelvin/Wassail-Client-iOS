@@ -14,12 +14,21 @@ class RKNumbersViewCell: UITableViewCell {
     
     @IBOutlet var backgroundImageView: UIImageView?
     
+    @IBOutlet var defaultMessageLabel: UILabel?
+    
     func clear() {
         for label in labels {
             label.removeFromSuperview()
         }
         labels.removeAllObjects()
         
+        defaultMessageLabel!.hidden = true
+    }
+    
+    func showDefaultMessage() {
+        self.clear()
+        
+        defaultMessageLabel!.hidden = false
     }
     
     func generateLabels(num: Int, highlight: Bool) {

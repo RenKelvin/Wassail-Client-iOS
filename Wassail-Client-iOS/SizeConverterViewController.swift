@@ -99,7 +99,8 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             
             // No size yet
             if (mySize == nil) {
-                cell.clear()
+                cell.showDefaultMessage()
+                
                 return cell
             }
             
