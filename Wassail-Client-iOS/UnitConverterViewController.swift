@@ -198,10 +198,10 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
         if (indexPath.row == ci) {
-            cell.setSelected()
+            cell.setSelect()
         }
         else {
-            cell.setDeselected()
+            cell.setDeselect()
         }
         
         // Configure the cell

@@ -23,11 +23,11 @@ class RKSelectorCollectionViewCell: UICollectionViewCell {
         iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as NSString)
     }
     
-    func setSelected() {
+    func setSelect() {
         backgroundImageView!.highlighted = true
     }
     
-    func setDeselected() {
+    func setDeselect() {
         backgroundImageView!.highlighted = false
     }
     

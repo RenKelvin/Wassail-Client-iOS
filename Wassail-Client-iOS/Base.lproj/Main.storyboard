@@ -307,14 +307,28 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo" customClass="RKNumbersView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="172" width="600" height="428"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SizeConverterTableViewCellReuseIdentifier" id="cxa-2m-7mE" customClass="RKNumbersViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxa-2m-7mE" id="haz-xp-ghe">
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="SizeConverterSelectedCellBackground" translatesAutoresizingMaskIntoConstraints="NO" id="xXL-EJ-4uL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xXL-EJ-4uL" firstAttribute="leading" secondItem="haz-xp-ghe" secondAttribute="leading" id="L5F-lo-ba6"/>
+                                                <constraint firstAttribute="trailing" secondItem="xXL-EJ-4uL" secondAttribute="trailing" id="Mrc-tj-F1f"/>
+                                                <constraint firstAttribute="bottom" secondItem="xXL-EJ-4uL" secondAttribute="bottom" id="Uyn-Sc-5NT"/>
+                                                <constraint firstItem="xXL-EJ-4uL" firstAttribute="top" secondItem="haz-xp-ghe" secondAttribute="top" id="aDb-w2-zGK"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="backgroundImageView" destination="xXL-EJ-4uL" id="DCb-oJ-wGg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -1288,6 +1302,7 @@
         <image name="LocationIndicator" width="12" height="12"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
         <image name="SizeConverterSelectedBackground" width="53" height="64"/>
+        <image name="SizeConverterSelectedCellBackground" width="320" height="45"/>
         <image name="TipsCalculatorBackground" width="320" height="568"/>
         <image name="TriangleButtonDown" width="44" height="33"/>
         <image name="TriangleButtonLeft" width="44" height="44"/>

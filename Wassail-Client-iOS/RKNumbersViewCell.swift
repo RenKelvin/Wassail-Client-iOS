@@ -12,6 +12,8 @@ class RKNumbersViewCell: UITableViewCell {
     
     var labels: NSMutableArray = []
     
+    @IBOutlet var backgroundImageView: UIImageView?
+    
     func clear() {
         for label in labels {
             label.removeFromSuperview()
@@ -20,9 +22,16 @@ class RKNumbersViewCell: UITableViewCell {
         
     }
     
-    func generateLabels(num: Int) {
+    func generateLabels(num: Int, highlight: Bool) {
         
         self.clear()
+        
+        if (highlight) {
+            backgroundImageView!.highlighted = true
+        }
+        else {
+            backgroundImageView!.highlighted = false
+        }
         
         let cellWidth = Double(self.frame.size.width)
         let labelWidth = (cellWidth - 30.0) / Double(num)
@@ -31,10 +40,17 @@ class RKNumbersViewCell: UITableViewCell {
         
         for i in 1...num {
             var label = UILabel()
+            label.tag = 1
             
-            label.font = UIFont(name: "Helvetica Neue", size: 12.0)
             label.textAlignment = NSTextAlignment.Center
-            label.textColor = UIColor.HLTextGray()
+            if (highlight) {
+                label.textColor = UIColor.whiteColor()
+                label.font = UIFont.boldSystemFontOfSize(14.0)
+            }
+            else {
+                label.textColor = UIColor.HLTextGray()
+                label.font = UIFont(name: "Helvetica Neue", size: 12.0)
+            }
             
             label.frame = CGRect(origin: CGPoint(x: cur, y: 15), size: CGSize(width: labelWidth, height: 14.5))
             cur += labelWidth
@@ -44,13 +60,13 @@ class RKNumbersViewCell: UITableViewCell {
         }
     }
     
-    func configure(texts: NSArray?) {
+    func configure(texts: NSArray?, highlight: Bool) {
         
         if (texts == nil) {
             return
         }
         
-        self.generateLabels(texts!.count)
+        self.generateLabels(texts!.count, highlight: highlight)
         
         for i in 1...texts!.count {
             var label = labels.objectAtIndex(i-1) as UILabel

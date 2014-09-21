@@ -108,14 +108,27 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             
             let row = info.getRow(ci, group: g, row: r) as NSArray?
             
-            cell.configure(row)
+            cell.configure(row, highlight: true)
             
             return cell
         }
         
         let row = info.getRow(ci, group: indexPath.section-1, row: indexPath.row)
         
-        cell.configure(row)
+        let mySize = info.getMySize(ci) as NSDictionary?
+        if (mySize != nil) {
+            
+            let g = mySize!.objectForKey("group") as Int
+            let r = mySize!.objectForKey("row") as Int
+            
+            if (g == indexPath.section-1 && r == indexPath.row) {
+                cell.configure(row, highlight: true)
+                
+                return cell
+            }
+        }
+        
+        cell.configure(row, highlight: false)
         
         return cell
     }
@@ -149,11 +162,16 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         // Deselect
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        //        tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         // Store my size
         if (indexPath.section != 0) {
-            info.setMySize(ci, group: indexPath.section-1, row: indexPath.row)
+            
+            let b = info.setMySize(ci, group: indexPath.section-1, row: indexPath.row) as Bool
+            
+            if (b == true) {
+                tableView.reloadData()
+            }
         }
     }
     
@@ -175,10 +193,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
         
         if (indexPath.row == ci) {
-            cell.setSelected()
+            cell.setSelect()
         }
         else {
-            cell.setDeselected()
+            cell.setDeselect()
         }
         
         // Configure the cell
