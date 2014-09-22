@@ -39,17 +39,23 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         self.amountTextField!.becomeFirstResponder()
         
-        scrollerView!.configure()
-        
         self.updateNumbers()
         
-        scrollTag = false
-        scrollerView!.scrollTo(rate)
+        scrollerView!.configure()
     }
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        scrollerView!.setIndent()
+        
+        scrollTag = false
+        scrollerView!.scrollTo(rate)
+        
     }
     
     override func didReceiveMemoryWarning() {
