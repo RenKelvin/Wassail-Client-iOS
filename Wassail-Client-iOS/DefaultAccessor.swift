@@ -40,7 +40,7 @@ class DefaultAccessor: NSObject {
     }
     
     func sendFeedback(text: NSString) {
-        
+        AWSMediator.instance.sendFeedback(text)
     }
     
 }

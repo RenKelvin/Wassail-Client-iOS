@@ -24,7 +24,7 @@ class FeedbackViewController: UIViewController {
     }
     
     @IBAction func sendButtonClicked() {
-        
+        info.sendFeedback("feedback")
     }
 
     /*

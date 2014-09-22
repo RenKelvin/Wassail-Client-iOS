@@ -25,6 +25,7 @@ class Wassail_v1: NSObject {
         let api: NSString = "/others/feedback"
         
         let body: NSMutableDictionary = NSMutableDictionary()
+        
         body.setObject(text, forKey: "Msg")
         
         self.post(api, body: body)
@@ -33,22 +34,40 @@ class Wassail_v1: NSObject {
     
     func post(api: NSString, body: NSDictionary) {
         
+        // Create session
         var session = NSURLSession.sharedSession()
         
+        // Create URL
         var url = NSURL(scheme: scheme, host: host, path: "/api/v1/others/feedback")
         
-        var request = NSMutableURLRequest(URL: url)
+        // Create request
+        var request = NSMutableURLRequest()
+        request.URL = url
         request.HTTPMethod = "POST"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.HTTPBody = NSJSONSerialization.dataWithJSONObject(body, options: nil, error: nil)
-
+        
+        // Convert body
+        var bodyArray = NSMutableArray()
+        for key in body.allKeys {
+            let object = body.objectForKey(key as NSString) as NSString
+            bodyArray.addObject(NSString(format: "\(key as NSString)=\(object)"))
+        }
+        
+        var bodyString = bodyArray.componentsJoinedByString("&")
+        let bodyData = bodyString.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        // Add body
+        request.HTTPBody = bodyData
+        
+        // Create data task
         let task = session.dataTaskWithRequest(request, completionHandler:
             {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+                // TODO: response handler
                 println(data)
                 println(response)
                 println(error)
         })
         
+        // Do the task
         task.resume()
     }
     
