@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -403,13 +404,13 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多内容持续更新中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZa-YR-83P">
-                                            <rect key="frame" x="15" y="8" width="570" height="14.5"/>
+                                            <rect key="frame" x="15" y="4" width="570" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTU-iC-5tS">
-                                            <rect key="frame" x="276.5" y="19.5" width="48" height="27"/>
+                                            <rect key="frame" x="276.5" y="15.5" width="48" height="27"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <state key="normal" title="用户反馈">
                                                 <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -422,11 +423,11 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="centerY" secondItem="HTU-iC-5tS" secondAttribute="centerY" constant="-7" id="4Hv-vs-x1y"/>
+                                        <constraint firstAttribute="centerY" secondItem="HTU-iC-5tS" secondAttribute="centerY" constant="-3" id="4Hv-vs-x1y"/>
                                         <constraint firstItem="SZa-YR-83P" firstAttribute="leading" secondItem="2z4-YY-GpZ" secondAttribute="leading" constant="15" id="ao6-cY-MlW"/>
                                         <constraint firstAttribute="centerX" secondItem="HTU-iC-5tS" secondAttribute="centerX" constant="-0.5" id="m1J-rT-0ft"/>
                                         <constraint firstAttribute="trailing" secondItem="SZa-YR-83P" secondAttribute="trailing" constant="15" id="mI3-hI-7ub"/>
-                                        <constraint firstAttribute="centerY" secondItem="SZa-YR-83P" secondAttribute="centerY" constant="10.75" id="mrv-xx-cLg"/>
+                                        <constraint firstAttribute="centerY" secondItem="SZa-YR-83P" secondAttribute="centerY" constant="14.75" id="mrv-xx-cLg"/>
                                         <constraint firstAttribute="centerX" secondItem="SZa-YR-83P" secondAttribute="centerX" id="yju-Qc-hjk"/>
                                     </constraints>
                                 </view>
@@ -535,18 +536,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zxR-id-yXR">
-                                <rect key="frame" x="16" y="129" width="568" height="305"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="305" id="rta-Tm-DfD"/>
-                                </constraints>
-                                <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="感谢您参与测试，欢迎留下反馈意见" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="VaC-cT-fI3">
-                                <rect key="frame" x="16" y="96" width="568" height="17"/>
+                                <rect key="frame" x="16" y="80" width="568" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="I3U-Ti-VaA"/>
                                 </constraints>
@@ -559,16 +550,29 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9X-by-odp">
+                                <rect key="frame" x="16" y="105" width="568" height="176"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="176" id="vKA-2I-mfM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="VaC-cT-fI3" secondAttribute="trailing" constant="16" id="8hJ-M9-hZd"/>
-                            <constraint firstItem="zxR-id-yXR" firstAttribute="top" secondItem="VaC-cT-fI3" secondAttribute="bottom" constant="16" id="8wz-D3-XsQ"/>
                             <constraint firstItem="VaC-cT-fI3" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" constant="16" id="Nry-n3-sd0"/>
-                            <constraint firstAttribute="trailing" secondItem="zxR-id-yXR" secondAttribute="trailing" constant="16" id="m9C-rF-6sm"/>
-                            <constraint firstItem="VaC-cT-fI3" firstAttribute="top" secondItem="HA6-2f-YuL" secondAttribute="bottom" constant="32" id="miV-r0-qrm"/>
-                            <constraint firstItem="zxR-id-yXR" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" constant="16" id="shG-Qg-nSk"/>
+                            <constraint firstItem="x9X-by-odp" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" constant="16" id="ZrR-7g-PXj"/>
+                            <constraint firstItem="VaC-cT-fI3" firstAttribute="top" secondItem="HA6-2f-YuL" secondAttribute="bottom" constant="16" id="miV-r0-qrm"/>
+                            <constraint firstItem="x9X-by-odp" firstAttribute="top" secondItem="VaC-cT-fI3" secondAttribute="bottom" constant="8" id="rKB-XN-mc3"/>
+                            <constraint firstAttribute="trailing" secondItem="x9X-by-odp" secondAttribute="trailing" constant="16" id="wj5-bo-hCo"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="eb4-Vp-wXm" appends="YES" id="6qS-gj-Kgd"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="用户反馈" id="Q90-JB-8hm">
                         <barButtonItem key="rightBarButtonItem" title="发送" id="EQC-os-wve">
@@ -578,8 +582,16 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="x9X-by-odp" id="cyl-d5-IT0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C29-CP-i8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="eb4-Vp-wXm">
+                    <connections>
+                        <action selector="blankTapped" destination="Uyq-hx-WKz" id="2Xo-ae-zFM"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="387" y="862"/>
         </scene>
