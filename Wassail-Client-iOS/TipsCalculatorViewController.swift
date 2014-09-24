@@ -37,11 +37,11 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         // Do any additional setup after loading the view.
         
-        self.amountTextField!.becomeFirstResponder()
-        
-        self.updateNumbers()
+        //        self.amountTextField!.becomeFirstResponder()
         
         scrollerView!.configure()
+        
+        self.updateNumbers()
     }
     
     override func viewWillAppear(animated: Bool) {

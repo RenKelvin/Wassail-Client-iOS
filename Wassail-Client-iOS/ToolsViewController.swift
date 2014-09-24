@@ -24,17 +24,19 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
         
-        //
+        // Add table header
         self.tableView?.addSubview(self.tableViewHeaderView!)
         
         let width = self.tableView?.superview?.frame.size.width
         self.tableViewHeaderView?.frame.size.width = width!
         self.tableViewHeaderView?.frame.origin.y = -44.0
     }
-    
+        
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -107,9 +109,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         var title: String = ""
         switch section {
         case 0:
-            title = "出国前工具"
+            title = "申请工具"
         case 1:
-            title = "出国后工具"
+            title = "海外生活"
         default:
             title = ""
         }
