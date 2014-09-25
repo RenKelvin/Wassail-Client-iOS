@@ -423,9 +423,28 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="留学申请时间表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-tZ-hRX">
-                                            <rect key="frame" x="288.5" y="24" width="112" height="19.5"/>
+                                            <rect key="frame" x="284" y="24" width="112" height="19.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请阶段：选择学校，准备PS，CV等文书，提交网申" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7p-lV-ZP4">
+                                            <rect key="frame" x="94" y="76" width="498" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chevron" translatesAutoresizingMaskIntoConstraints="NO" id="ZfE-Sl-Py1">
+                                            <rect key="frame" x="577" y="57" width="8" height="13"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="8" id="hrg-oC-HRA"/>
+                                                <constraint firstAttribute="height" constant="13" id="oKC-AI-uLq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5大阶段，17个步骤全面解析" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6U-PB-hb0">
+                                            <rect key="frame" x="251" y="51" width="178" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -434,10 +453,17 @@
                                         <constraint firstItem="xsv-gW-iuo" firstAttribute="centerY" secondItem="Ge8-aV-TVz" secondAttribute="centerY" constant="12.5" id="2I7-hA-FdV"/>
                                         <constraint firstItem="YFy-Uf-ATG" firstAttribute="centerX" secondItem="xsv-gW-iuo" secondAttribute="centerX" constant="-0.5" id="60h-JJ-PwW"/>
                                         <constraint firstItem="YFy-Uf-ATG" firstAttribute="centerY" secondItem="xsv-gW-iuo" secondAttribute="centerY" constant="20.75" id="GdZ-HJ-NU5"/>
+                                        <constraint firstItem="D7p-lV-ZP4" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="8" id="HdN-9c-x9i"/>
                                         <constraint firstItem="xsv-gW-iuo" firstAttribute="centerX" secondItem="Ge8-aV-TVz" secondAttribute="centerX" constant="0.5" id="P66-6Q-xqo"/>
+                                        <constraint firstItem="D7p-lV-ZP4" firstAttribute="top" secondItem="w6U-PB-hb0" secondAttribute="bottom" constant="8" id="VFP-y9-4aG"/>
                                         <constraint firstAttribute="centerY" secondItem="xsv-gW-iuo" secondAttribute="centerY" id="X8M-qR-YW8"/>
+                                        <constraint firstAttribute="trailing" secondItem="D7p-lV-ZP4" secondAttribute="trailing" constant="8" id="ZMF-Kc-n1L"/>
+                                        <constraint firstAttribute="centerY" secondItem="ZfE-Sl-Py1" secondAttribute="centerY" id="brB-ie-9Qm"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZfE-Sl-Py1" secondAttribute="trailing" constant="15" id="f77-Tr-SB4"/>
                                         <constraint firstItem="xsv-gW-iuo" firstAttribute="leading" secondItem="ZVs-Xb-UQs" secondAttribute="leading" constant="15" id="g3a-ys-TK8"/>
-                                        <constraint firstAttribute="centerX" secondItem="W9E-tZ-hRX" secondAttribute="centerX" constant="-44.5" id="hjE-wS-cOt"/>
+                                        <constraint firstItem="w6U-PB-hb0" firstAttribute="top" secondItem="W9E-tZ-hRX" secondAttribute="bottom" constant="8" id="gSY-TP-wjr"/>
+                                        <constraint firstAttribute="centerX" secondItem="W9E-tZ-hRX" secondAttribute="centerX" constant="-40" id="hjE-wS-cOt"/>
+                                        <constraint firstItem="w6U-PB-hb0" firstAttribute="centerX" secondItem="W9E-tZ-hRX" secondAttribute="centerX" id="r8k-UN-65j"/>
                                         <constraint firstItem="W9E-tZ-hRX" firstAttribute="top" secondItem="ZVs-Xb-UQs" secondAttribute="top" constant="24" id="vM9-hT-pMD"/>
                                     </constraints>
                                 </view>
@@ -1335,6 +1361,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chevron" width="8" height="12"/>
         <image name="GraySectionBackground" width="320" height="46"/>
         <image name="GreenBackground" width="320" height="96"/>
         <image name="GreenCoverLeft" width="130" height="54"/>
