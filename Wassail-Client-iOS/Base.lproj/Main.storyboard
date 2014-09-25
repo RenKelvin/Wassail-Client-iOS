@@ -576,6 +576,7 @@
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ToolsListSegueIdentifier" id="r4f-h3-sd1"/>
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ToolsSizeConverterSegueIdentifier" id="BK5-dh-8Fc"/>
                         <segue destination="S7C-mv-WHf" kind="show" identifier="ToolsTipsCalculatorSegueIdentifier" id="sEN-DU-GIR"/>
+                        <segue destination="yEZ-CL-Iol" kind="show" identifier="ToolsBrowserSegueIdentifier" id="kkp-86-AQj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVq-hs-z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -908,6 +909,75 @@
                 </button>
             </objects>
             <point key="canvasLocation" x="1080" y="862"/>
+        </scene>
+        <!--Browser View Controller-->
+        <scene sceneID="H3g-Vn-7Ep">
+            <objects>
+                <viewController id="yEZ-CL-Iol" customClass="BrowserViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p0d-vb-OLz"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7b-xw-UT8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="REf-PR-2db">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0N-fb-xVY">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="yEZ-CL-Iol" id="7jB-Bo-Uir"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G7b-xw-UT8" firstAttribute="top" secondItem="S0N-fb-xVY" secondAttribute="bottom" id="44m-pf-yv8"/>
+                            <constraint firstItem="S0N-fb-xVY" firstAttribute="top" secondItem="REf-PR-2db" secondAttribute="top" id="L2j-3J-3zn"/>
+                            <constraint firstItem="S0N-fb-xVY" firstAttribute="leading" secondItem="REf-PR-2db" secondAttribute="leading" id="Uo7-ga-fu9"/>
+                            <constraint firstAttribute="trailing" secondItem="S0N-fb-xVY" secondAttribute="trailing" id="lMi-MN-a7a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dg7-Ue-WfF">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="P39-k9-MEo">
+                            <rect key="frame" x="180" y="5.5" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEe-qR-yrT">
+                                    <rect key="frame" x="8" y="0.0" width="224" height="19.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T55-fc-118">
+                                    <rect key="frame" x="8" y="18.5" width="224" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="T55-fc-118" firstAttribute="leading" secondItem="P39-k9-MEo" secondAttribute="leading" constant="8" id="38E-16-cCa"/>
+                                <constraint firstAttribute="trailing" secondItem="T55-fc-118" secondAttribute="trailing" constant="8" id="Ab3-0P-Jfk"/>
+                                <constraint firstAttribute="trailing" secondItem="tEe-qR-yrT" secondAttribute="trailing" constant="8" id="YPx-GW-stn"/>
+                                <constraint firstItem="tEe-qR-yrT" firstAttribute="top" secondItem="P39-k9-MEo" secondAttribute="top" id="fNw-Hq-hAv"/>
+                                <constraint firstAttribute="bottom" secondItem="T55-fc-118" secondAttribute="bottom" id="mgE-IQ-IyA"/>
+                                <constraint firstItem="tEe-qR-yrT" firstAttribute="leading" secondItem="P39-k9-MEo" secondAttribute="leading" constant="8" id="pO3-Xp-ouF"/>
+                            </constraints>
+                        </view>
+                        <barButtonItem key="rightBarButtonItem" image="MoreBarItem" id="wwd-xG-mXm"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="titleLabel" destination="tEe-qR-yrT" id="h53-zg-Bux"/>
+                        <outlet property="urlLabel" destination="T55-fc-118" id="BWR-C3-gJA"/>
+                        <outlet property="webView" destination="S0N-fb-xVY" id="EBs-pt-Bwo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BJk-nx-OeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="-550"/>
         </scene>
         <!--小费计算器-->
         <scene sceneID="Tp5-gv-vlo">
@@ -1376,6 +1446,7 @@
         <image name="GreenCoverLeft" width="130" height="54"/>
         <image name="GreenCoverRight" width="138" height="54"/>
         <image name="LocationIndicator" width="12" height="12"/>
+        <image name="MoreBarItem" width="20" height="4"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
         <image name="SizeConverterSelectedBackground" width="53" height="64"/>
         <image name="TipsCalculatorBackground" width="320" height="568"/>
