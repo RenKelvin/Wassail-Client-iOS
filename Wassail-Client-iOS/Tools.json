@@ -1,37 +1,66 @@
 {
-    "world clock": {
-        "note": "方便查看世界各地的时间及时差",
-        "title": "世界时钟",
-        "icon": "ToolsIconWorldClock"
-    },
-    "credit card": {
-        "note": "信用卡申请，额度，积分，省钱攻略",
-        "title": "信用卡攻略",
-        "icon": "ToolsIconCreditCard"
-    },
-    "unit converter": {
-        "note": "长度，重量，温度等单位换算",
-        "title": "单位换算",
-        "icon": "ToolsIconUnitConverter"
-    },
-    "tips calculator": {
-        "note": "快速计算吃饭，打车，酒店等小费",
-        "title": "小费计算器",
-        "icon": "ToolsIconTipsCalculator"
-    },
-    "size converter": {
-        "note": "衣服，鞋子，戒指等尺码转换",
-        "title": "尺码转换",
-        "icon": "ToolsIconSizeConverter"
-    },
-    "info container": {
-        "note": "重要信息快速查看，加密储存",
-        "title": "信息保险箱",
-        "icon": "ToolsIconInfoContainer"
-    },
-    "university rankings": {
-        "note": "世界大学权威排名及分析",
-        "title": "大学排名",
-        "icon": "ToolsIconUniversityRankings"
-    }
+    "apply tools": [
+                    {
+                    "note": "世界大学权威排名及分析",
+                    "title": "大学排名",
+                    "icon": "ToolsIconCreditCard",
+                    "identifier": "UniversityRankings"
+                    },
+                    {
+                    "note": "世界大学权威排名及分析",
+                    "title": "GPA计算机",
+                    "icon": "ToolsIconTipsCalculator",
+                    "identifier": "UniversityRankings"
+                    },
+                    {
+                    "note": "世界大学权威排名及分析",
+                    "title": "申请文书全解",
+                    "icon": "ToolsIconUniversityRankings",
+                    "identifier": "UniversityRankings"
+                    },
+                    {
+                    "note": "世界大学权威排名及分析",
+                    "title": "申请常用词汇",
+                    "icon": "ToolsIconInfoContainer",
+                    "identifier": "UniversityRankings"
+                    }
+                    ],
+    "aboard tools": [
+                     {
+                     "note": "方便查看世界各地的时间及时差",
+                     "title": "世界时钟",
+                     "icon": "ToolsIconWorldClock",
+                     "identifier": "WorldClock"
+                     },
+                     {
+                     "note": "信用卡申请，额度，积分，省钱攻略",
+                     "title": "信用卡攻略",
+                     "icon": "ToolsIconCreditCard",
+                     "identifier": "CreditCard"
+                     },
+                     {
+                     "note": "长度，重量，温度等单位换算",
+                     "title": "单位换算",
+                     "icon": "ToolsIconUnitConverter",
+                     "identifier": "UnitConverter"
+                     },
+                     {
+                     "note": "快速计算吃饭，打车，酒店等小费",
+                     "title": "小费计算器",
+                     "icon": "ToolsIconTipsCalculator",
+                     "identifier": "TipsCalculator"
+                     },
+                     {
+                     "note": "衣服，鞋子，戒指等尺码转换",
+                     "title": "尺码转换",
+                     "icon": "ToolsIconSizeConverter",
+                     "identifier": "SizeConverter"
+                     },
+                     {
+                     "note": "重要信息快速查看，加密储存",
+                     "title": "信息保险箱",
+                     "icon": "ToolsIconInfoContainer",
+                     "identifier": "InfoContainer"
+                     }
+                     ]
 }

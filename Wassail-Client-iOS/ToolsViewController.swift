@@ -13,7 +13,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
     
-    var tools: NSDictionary = ToolsInfo.instance.getTools()!
+    let info: ToolsInfo = ToolsInfo.instance
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +36,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.tableViewHeaderView?.frame.size.width = width!
         self.tableViewHeaderView?.frame.origin.y = -44.0
     }
-        
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -53,9 +53,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Return the number of rows in the section.
         switch section {
         case 0:
-            return 2
+            return info.getApplyTools()!.count
         case 1:
-            return 5
+            return info.getAboardTools()!.count
         default:
             return 0
         }
@@ -66,35 +66,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Configure the cell
         
-        var dict: NSDictionary?
-        switch indexPath.section {
-        case 0:
-            switch indexPath.row {
-            case 0:
-                dict = tools.objectForKey("university rankings") as? NSDictionary
-            case 1:
-                dict = tools.objectForKey("credit card") as? NSDictionary
-            default:
-                return cell
-            }
-        case 1:
-            switch indexPath.row {
-            case 0:
-                dict = tools.objectForKey("world clock") as? NSDictionary
-            case 1:
-                dict = tools.objectForKey("tips calculator") as? NSDictionary
-            case 2:
-                dict = tools.objectForKey("unit converter") as? NSDictionary
-            case 3:
-                dict = tools.objectForKey("size converter") as? NSDictionary
-            case 4:
-                dict = tools.objectForKey("info container") as? NSDictionary
-            default:
-                return cell
-            }
-        default:
-            return cell
-        }
+        var dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
         
         cell.configure(dict!)
         
@@ -115,6 +87,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         default:
             title = ""
         }
+        
         headerView.titleLabel?.text = title
         
         return headerView
@@ -163,6 +136,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        
         var controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
