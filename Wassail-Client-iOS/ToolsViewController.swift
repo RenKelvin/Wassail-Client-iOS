@@ -19,8 +19,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         //
-        let url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
-        println(url)
+        //        let url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
+        //        println(url)
     }
     
     override func viewWillAppear(animated: Bool) {
