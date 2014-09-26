@@ -95,8 +95,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     func updateViews() {
         
-        inputTextField!.text = String(format: "%.2g", input)
-        outputTextField!.text = String(format: "%.2g", output)
+        inputTextField!.text = String(format: "%g", input)
+        outputTextField!.text = String(format: "%g", output)
         
         inputUnitLabel!.text = iu!.objectForKey("unit") as NSString
         outputUnitLabel!.text = ou!.objectForKey("unit") as NSString
