@@ -166,16 +166,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmP-8J-itM">
-                                                    <rect key="frame" x="15" y="13" width="108" height="17"/>
+                                                    <rect key="frame" x="15" y="14.5" width="96" height="17"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="108" id="CfT-4k-pMh"/>
+                                                        <constraint firstAttribute="width" constant="96" id="CfT-4k-pMh"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUr-8T-vun">
-                                                    <rect key="frame" x="135" y="11" width="450" height="19.5"/>
+                                                    <rect key="frame" x="123" y="12" width="462" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -183,8 +183,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="xUr-8T-vun" secondAttribute="trailing" constant="15" id="9iL-01-aDh"/>
-                                                <constraint firstAttribute="centerY" secondItem="tmP-8J-itM" secondAttribute="centerY" constant="0.75" id="JKY-F2-nB5"/>
-                                                <constraint firstAttribute="centerY" secondItem="xUr-8T-vun" secondAttribute="centerY" constant="1.25" id="ZYk-rm-llk"/>
+                                                <constraint firstItem="xUr-8T-vun" firstAttribute="bottom" secondItem="tmP-8J-itM" secondAttribute="bottom" id="KIJ-YI-IsM"/>
+                                                <constraint firstAttribute="centerY" secondItem="xUr-8T-vun" secondAttribute="centerY" id="ZYk-rm-llk"/>
                                                 <constraint firstItem="xUr-8T-vun" firstAttribute="leading" secondItem="tmP-8J-itM" secondAttribute="trailing" constant="12" id="ZjD-PU-Yt1"/>
                                                 <constraint firstItem="tmP-8J-itM" firstAttribute="leading" secondItem="ZpU-5S-v3P" secondAttribute="leading" constant="15" id="Zre-ml-WRO"/>
                                             </constraints>
