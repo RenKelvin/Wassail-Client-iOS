@@ -126,7 +126,7 @@
     "ring": {
         "title": "戒指",
         "icon": "SizeConverterIconRing",
-        "header": ["美", "英", "欧/韩/日", "周长", "直径"],
+        "header": ["美", "英", "欧韩日", "周长", "直径"],
         "groups": [
                    {
                    "title": "",
@@ -165,7 +165,7 @@
     "bra": {
         "title": "内衣",
         "icon": "SizeConverterIconBra",
-        "header": ["美", "法", "欧/韩", "日", "cm"],
+        "header": ["美", "法", "欧韩", "日", "cm"],
         "groups": [
                    {
                    "title": "",

@@ -114,9 +114,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 0:
                 self.performSegueWithIdentifier("ToolsBrowserSegueIdentifier", sender: nil)
             case 1:
-                self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
-            case 2:
                 self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
+            case 2:
+                self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
             case 3:
                 self.performSegueWithIdentifier("ToolsSizeConverterSegueIdentifier", sender: nil)
             case 4:

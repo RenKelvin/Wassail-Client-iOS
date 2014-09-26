@@ -27,12 +27,6 @@
                     ],
     "aboard tools": [
                      {
-                     "note": "方便查看世界各地的时间及时差",
-                     "title": "世界时钟",
-                     "icon": "ToolsIconWorldClock",
-                     "identifier": "WorldClock"
-                     },
-                     {
                      "note": "信用卡申请，额度，积分，省钱攻略",
                      "title": "信用卡攻略",
                      "icon": "ToolsIconCreditCard",
@@ -55,6 +49,12 @@
                      "title": "尺码转换",
                      "icon": "ToolsIconSizeConverter",
                      "identifier": "SizeConverter"
+                     },
+                     {
+                     "note": "方便查看世界各地的时间及时差",
+                     "title": "世界时钟",
+                     "icon": "ToolsIconWorldClock",
+                     "identifier": "WorldClock"
                      },
                      {
                      "note": "重要信息快速查看，加密储存",
