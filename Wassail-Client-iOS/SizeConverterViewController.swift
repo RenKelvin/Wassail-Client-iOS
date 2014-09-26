@@ -65,15 +65,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         
         let groups = category!.objectForKey("groups") as NSArray
         
-        return groups.count + 1
+        return groups.count
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        //
-        if (section == 0) {
-            return 1
-        }
         
         //
         let category = info.getCategory(ci) as NSDictionary?
@@ -82,7 +77,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         }
         
         let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section-1] as NSDictionary
+        let group = groups[section] as NSDictionary
         
         let rows = group.objectForKey("rows") as NSArray
         
@@ -93,28 +88,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as RKNumbersViewCell
         
-        //
-        if (indexPath.section == 0) {
-            let mySize = info.getMySize(ci) as NSDictionary?
-            
-            // No size yet
-            if (mySize == nil) {
-                cell.showDefaultMessage()
-                
-                return cell
-            }
-            
-            let g = mySize!.objectForKey("group") as Int
-            let r = mySize!.objectForKey("row") as Int
-            
-            let row = info.getRow(ci, group: g, row: r) as NSArray?
-            
-            cell.configure(row, highlight: true)
-            
-            return cell
-        }
-        
-        let row = info.getRow(ci, group: indexPath.section-1, row: indexPath.row)
+        let row = info.getRow(ci, group: indexPath.section, row: indexPath.row)
         
         let mySize = info.getMySize(ci) as NSDictionary?
         if (mySize != nil) {
@@ -122,7 +96,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             let g = mySize!.objectForKey("group") as Int
             let r = mySize!.objectForKey("row") as Int
             
-            if (g == indexPath.section-1 && r == indexPath.row) {
+            if (g == indexPath.section && r == indexPath.row) {
                 cell.configure(row, highlight: true)
                 
                 return cell
@@ -140,20 +114,13 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
         //
-        if (section == 0) {
-            headerView.titleLabel?.text = "我的尺码"
-            
-            return headerView
-        }
-        
-        //
         let category = info.getCategory(ci) as NSDictionary?
         if (category == nil) {
             return headerView
         }
         
         let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section-1] as NSDictionary
+        let group = groups[section] as NSDictionary
         
         headerView.titleLabel?.text = group.objectForKey("title") as NSString
         
@@ -163,16 +130,14 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         // Deselect
-        //        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        // tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         // Store my size
-        if (indexPath.section != 0) {
-            
-            let b = info.setMySize(ci, group: indexPath.section-1, row: indexPath.row) as Bool
-            
-            if (b == true) {
-                tableView.reloadData()
-            }
+        
+        let b = info.setMySize(ci, group: indexPath.section, row: indexPath.row) as Bool
+        
+        if (b == true) {
+            tableView.reloadData()
         }
     }
     
