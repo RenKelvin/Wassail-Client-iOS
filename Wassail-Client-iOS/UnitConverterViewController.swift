@@ -29,6 +29,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet var leftPickerView: RKPickerView?
     @IBOutlet var rightPickerView: RKPickerView?
     
+    @IBOutlet var dataView: UITableView?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,7 +49,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        //        println("viewWillAppear")
+
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         self.selectCategory(0)
         self.updateNumbersByInput()
@@ -84,6 +86,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         }
         
         selectorView!.reloadData()
+        
+        dataView!.reloadData()
         
         leftPickerView!.reload(units!)
         rightPickerView!.reload(units!)
@@ -127,15 +131,13 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 2
+        return 1
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         switch section {
         case 0:
-            return 1
-        case 1:
             let knows = info.getKnows(ci)
             return knows!.count
             
@@ -149,9 +151,6 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         switch indexPath.section {
         case 0:
-            "" // TODO: get user favs
-            
-        case 1:
             let knows = info.getKnows(ci)
             cell.configure(knows![indexPath.row] as NSDictionary)
             
@@ -170,8 +169,6 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         var title: String = ""
         switch section {
         case 0:
-            title = "我的换算"
-        case 1:
             title = "常用换算"
         default:
             title = ""
@@ -206,7 +203,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         // Configure the cell
         let names = info.getNames()
-        if (names == nil) { return cell }
+        if (names == nil) {
+            return cell
+        }
         let name = names!.objectAtIndex(indexPath.row) as NSString
         let dict = info.getCategory(name) as NSDictionary?
         cell.configure(dict)

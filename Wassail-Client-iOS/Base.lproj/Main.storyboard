@@ -153,6 +153,11 @@
                                 <rect key="frame" x="0.0" y="256" width="600" height="344"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="gGo-EO-gGu">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UnitConverterTableViewCellReuseIdentifier" rowHeight="44" id="t5I-nk-WKp" customClass="UnitConverterTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -160,19 +165,29 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t5I-nk-WKp" id="ZpU-5S-v3P">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmP-8J-itM">
-                                                    <rect key="frame" x="15" y="14" width="63" height="14.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmP-8J-itM">
+                                                    <rect key="frame" x="15" y="13" width="108" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="108" id="CfT-4k-pMh"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUr-8T-vun">
-                                                    <rect key="frame" x="93" y="11" width="492" height="19.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUr-8T-vun">
+                                                    <rect key="frame" x="135" y="11" width="450" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="xUr-8T-vun" secondAttribute="trailing" constant="15" id="9iL-01-aDh"/>
+                                                <constraint firstAttribute="centerY" secondItem="tmP-8J-itM" secondAttribute="centerY" constant="0.75" id="JKY-F2-nB5"/>
+                                                <constraint firstAttribute="centerY" secondItem="xUr-8T-vun" secondAttribute="centerY" constant="1.25" id="ZYk-rm-llk"/>
+                                                <constraint firstItem="xUr-8T-vun" firstAttribute="leading" secondItem="tmP-8J-itM" secondAttribute="trailing" constant="12" id="ZjD-PU-Yt1"/>
+                                                <constraint firstItem="tmP-8J-itM" firstAttribute="leading" secondItem="ZpU-5S-v3P" secondAttribute="leading" constant="15" id="Zre-ml-WRO"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="leftLabel" destination="tmP-8J-itM" id="IUc-Ul-not"/>
@@ -212,6 +227,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="单位换算" id="S7C-aD-ea8"/>
                     <connections>
+                        <outlet property="dataView" destination="FGb-pV-ycq" id="MMV-DK-ffr"/>
                         <outlet property="inputTextField" destination="I4G-Yc-jgy" id="wm3-kO-1eT"/>
                         <outlet property="inputUnitLabel" destination="5sm-4W-hPv" id="MP7-Vs-Hgc"/>
                         <outlet property="leftPickerView" destination="zdx-9N-ruz" id="sq1-5R-RO7"/>
