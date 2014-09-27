@@ -13,6 +13,7 @@ class ToolsTableViewCell: UITableViewCell {
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
+    @IBOutlet var readyLabel: UILabel?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,6 +34,14 @@ class ToolsTableViewCell: UITableViewCell {
         iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as String)
         titleLabel!.text = dict!.objectForKey("title") as String?
         noteLabel!.text = dict!.objectForKey("note") as String?
+        
+        let ready = dict!.objectForKey("ready") as NSString?
+        if (ready == "false") {
+            readyLabel!.hidden = false
+        }
+        else {
+            readyLabel!.hidden = true
+        }
     }
     
 }
