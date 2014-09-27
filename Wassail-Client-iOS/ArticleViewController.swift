@@ -73,9 +73,6 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         case "Item":
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
             // TODO: Get tool from item
-            let tool = item.objectForKey("content") as NSDictionary
-            let toolBody = tool.objectForKey("body") as NSDictionary
-            item = toolBody
         default:
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         }

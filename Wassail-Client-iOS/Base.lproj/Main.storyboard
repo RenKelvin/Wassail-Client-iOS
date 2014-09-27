@@ -722,6 +722,7 @@
                         <segue destination="S7C-mv-WHf" kind="show" identifier="ToolsTipsCalculatorSegueIdentifier" id="sEN-DU-GIR"/>
                         <segue destination="yEZ-CL-Iol" kind="show" identifier="ToolsBrowserSegueIdentifier" id="kkp-86-AQj"/>
                         <segue destination="LBP-Ai-M6A" kind="show" identifier="ToolsGPACalculatorSegueIdentifier" id="TkG-Ai-5Ra"/>
+                        <segue destination="v6r-Fh-9PJ" kind="show" identifier="ToolsArticleSegueIdentifier" id="flF-XO-gRb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVq-hs-z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1811,7 +1812,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Article" id="Ld2-MX-9eH">
-                        <barButtonItem key="backBarButtonItem" title=" " id="iBw-Vf-5gW"/>
+                        <barButtonItem key="rightBarButtonItem" image="MoreBarItem" id="MSi-Yg-P46"/>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
@@ -1872,6 +1873,7 @@
         <image name="UnitConverterSelectedBackground" width="53" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="flF-XO-gRb"/>
         <segue reference="r4f-h3-sd1"/>
     </inferredMetricsTieBreakers>
 </document>

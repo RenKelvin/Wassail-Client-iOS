@@ -24,7 +24,15 @@
 		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
-		FE5BC06E19D71857007E63BC /* Local in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC06D19D71857007E63BC /* Local */; };
+		FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5BC06F19D71A73007E63BC /* ArticleInfo.swift */; };
+		FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07319D71BD4007E63BC /* Size Converter.json */; };
+		FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07419D71BD4007E63BC /* Tools.json */; };
+		FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07519D71BD4007E63BC /* Unit Converter.json */; };
+		FE5BC08019D71BD4007E63BC /* 留学时间表.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07719D71BD4007E63BC /* 留学时间表.json */; };
+		FE5BC08119D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07919D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */; };
+		FE5BC08219D71BD4007E63BC /* 1世界大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07A19D71BD4007E63BC /* 1世界大学排名.json */; };
+		FE5BC08319D71BD4007E63BC /* 大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07B19D71BD4007E63BC /* 大学排名.json */; };
+		FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -106,7 +114,15 @@
 		FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wassail-Client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
-		FE5BC06D19D71857007E63BC /* Local */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Local; sourceTree = "<group>"; };
+		FE5BC06F19D71A73007E63BC /* ArticleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleInfo.swift; sourceTree = "<group>"; };
+		FE5BC07319D71BD4007E63BC /* Size Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Size Converter.json"; sourceTree = "<group>"; };
+		FE5BC07419D71BD4007E63BC /* Tools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
+		FE5BC07519D71BD4007E63BC /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
+		FE5BC07719D71BD4007E63BC /* 留学时间表.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.json"; sourceTree = "<group>"; };
+		FE5BC07919D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1.4权威解读泰晤士报大学排名 （互联网）.json"; sourceTree = "<group>"; };
+		FE5BC07A19D71BD4007E63BC /* 1世界大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1世界大学排名.json"; sourceTree = "<group>"; };
+		FE5BC07B19D71BD4007E63BC /* 大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "大学排名.json"; sourceTree = "<group>"; };
+		FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学常用词汇.json"; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -277,6 +293,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE5BC07119D71BD4007E63BC /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BC07219D71BD4007E63BC /* Tools */,
+				FE5BC07819D71BD4007E63BC /* 大学排名 */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FE5BC07219D71BD4007E63BC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BC07319D71BD4007E63BC /* Size Converter.json */,
+				FE5BC07419D71BD4007E63BC /* Tools.json */,
+				FE5BC07519D71BD4007E63BC /* Unit Converter.json */,
+				FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */,
+				FE5BC07719D71BD4007E63BC /* 留学时间表.json */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE5BC07819D71BD4007E63BC /* 大学排名 */ = {
+			isa = PBXGroup;
+			children = (
+				FE5BC07919D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */,
+				FE5BC07A19D71BD4007E63BC /* 1世界大学排名.json */,
+				FE5BC07B19D71BD4007E63BC /* 大学排名.json */,
+			);
+			path = "大学排名";
+			sourceTree = "<group>";
+		};
 		FE5FB99819C6B60200F37192 /* RKSelectorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD5819C29DBA00184760 /* ListInfo.swift */,
+				FE5BC06F19D71A73007E63BC /* ArticleInfo.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -469,7 +517,7 @@
 			children = (
 				FEB1D7FD19CF10E6002F7285 /* AWS */,
 				FEC8649819BD3DF4005087A3 /* Database */,
-				FE5BC06D19D71857007E63BC /* Local */,
+				FE5BC07119D71BD4007E63BC /* Local */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -593,11 +641,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5BC08219D71BD4007E63BC /* 1世界大学排名.json in Resources */,
+				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
+				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
-				FE5BC06E19D71857007E63BC /* Local in Resources */,
+				FE5BC08019D71BD4007E63BC /* 留学时间表.json in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
+				FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */,
+				FE5BC08319D71BD4007E63BC /* 大学排名.json in Resources */,
+				FE5BC08119D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */,
+				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +714,7 @@
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
+				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
