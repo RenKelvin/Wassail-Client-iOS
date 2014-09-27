@@ -12,6 +12,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     
     var amount: Double = 50
     @IBOutlet var amountTextField: UITextField?
+    @IBOutlet var keyboardAccessoryView: UIView?
     
     var rate: Double = 0.15
     @IBOutlet var scrollerView: RKScrollerView?
@@ -37,7 +38,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         
         // Do any additional setup after loading the view.
         
-        //        self.amountTextField!.becomeFirstResponder()
+        amountTextField!.inputAccessoryView = keyboardAccessoryView
         
         scrollerView!.configure()
         
@@ -50,6 +51,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     }
     
     override func viewDidAppear(animated: Bool) {
+        amountTextField!.becomeFirstResponder()
         
         scrollerView!.setIndent()
         
@@ -146,7 +148,11 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     }
     
     
-    // MARK: -
+    // MARK: - IBAction
+    
+    @IBAction func doneButtonTapped() {
+        amountTextField!.resignFirstResponder()
+    }
     
     @IBAction func decRate() {
         
@@ -219,6 +225,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     func textFieldDidEndEditing(textField: UITextField) {
         
         amount = NSString(string: textField.text).doubleValue
+        textField.text = NSString(format: "%.2f", amount)
         
         self.updateNumbers()
         

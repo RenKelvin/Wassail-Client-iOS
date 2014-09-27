@@ -10,7 +10,14 @@ import UIKit
 
 class GPACalculatorViewController: UIViewController {
     
+    var input: Double = 88
     @IBOutlet var inputTextField: UITextField?
+    
+    var gpa: Double = 3.86
+    @IBOutlet var gpaLabel: UILabel?
+    
+    var ranking: Double = 0.9632
+    @IBOutlet var rankingLabel: UILabel?
     
     @IBOutlet var keyboardAccessoryView: UIView?
     
@@ -28,8 +35,12 @@ class GPACalculatorViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        inputTextField!.becomeFirstResponder()
     }
     
     // MARK: - TableViewDataSource
@@ -51,6 +62,23 @@ class GPACalculatorViewController: UIViewController {
     }
     
     // MARK: -
+    
+    func updateViews() {
+        
+        gpaLabel!.text = NSString(format: "%.2f", gpa)
+        
+        rankingLabel!.text = NSString(format: "恭喜！你的成绩超过了%.1f%%的申请者！", ranking*100)
+    }
+    
+    func updateNumbers() {
+        
+        gpa = 3.33
+        ranking = 0.1234
+        
+        self.updateViews()
+    }
+    
+    // MARK: - IBAction
     
     @IBAction func doneButtonTapped() {
         inputTextField!.resignFirstResponder()
@@ -84,9 +112,10 @@ class GPACalculatorViewController: UIViewController {
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-//        amount = NSString(string: textField.text).doubleValue
+        let amount = NSString(string: textField.text).doubleValue
+        textField.text = NSString(format: "%.1f", amount)
         
-//        self.updateNumbers()
+        self.updateNumbers()
         
     }
     
@@ -96,7 +125,7 @@ class GPACalculatorViewController: UIViewController {
         
         return true
     }
-
+    
     /*
     // MARK: - Navigation
     

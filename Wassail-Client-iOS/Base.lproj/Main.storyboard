@@ -421,20 +421,20 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ToolsCalendarBackground" translatesAutoresizingMaskIntoConstraints="NO" id="xsv-gW-iuo">
-                                            <rect key="frame" x="15" y="24" width="71" height="80"/>
+                                            <rect key="frame" x="8" y="8" width="86" height="112"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="71" id="7tF-4G-nVE"/>
-                                                <constraint firstAttribute="height" constant="80" id="AOh-Kx-KTA"/>
+                                                <constraint firstAttribute="width" constant="86" id="7tF-4G-nVE"/>
+                                                <constraint firstAttribute="height" constant="112" id="AOh-Kx-KTA"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge8-aV-TVz">
-                                            <rect key="frame" x="30" y="30" width="40" height="43"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                            <rect key="frame" x="23.5" y="23" width="53.5" height="57.5"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9月" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFy-Uf-ATG">
-                                            <rect key="frame" x="38" y="74" width="25" height="19.5"/>
+                                            <rect key="frame" x="38" y="80" width="25" height="19.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
@@ -447,16 +447,22 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5大阶段，22个步骤全面解析" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6U-PB-hb0">
-                                            <rect key="frame" x="98" y="55" width="471" height="17"/>
+                                            <rect key="frame" x="102" y="55" width="467" height="17"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="留学申请时间表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-tZ-hRX">
+                                            <rect key="frame" x="102" y="24" width="467" height="19.5"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKi-vZ-GRo">
-                                            <rect key="frame" x="102" y="80" width="474" height="29"/>
+                                            <rect key="frame" x="102" y="80" width="482" height="29"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUR-9l-zJ8">
-                                                    <rect key="frame" x="133.5" y="0.0" width="206" height="29"/>
+                                                    <rect key="frame" x="137" y="0.0" width="206" height="29"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="Zpa-AP-fsn">
                                                             <rect key="frame" x="0.0" y="10" width="8" height="8"/>
@@ -574,31 +580,25 @@
                                                 <constraint firstAttribute="centerY" secondItem="JUR-9l-zJ8" secondAttribute="centerY" id="wfE-VT-8Sc"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="留学申请时间表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-tZ-hRX">
-                                            <rect key="frame" x="98" y="24" width="471" height="19.5"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <gestureRecognizers/>
                                     <constraints>
                                         <constraint firstItem="xsv-gW-iuo" firstAttribute="centerY" secondItem="Ge8-aV-TVz" secondAttribute="centerY" constant="12" id="2I7-hA-FdV"/>
                                         <constraint firstItem="YFy-Uf-ATG" firstAttribute="centerX" secondItem="xsv-gW-iuo" secondAttribute="centerX" id="60h-JJ-PwW"/>
-                                        <constraint firstItem="w6U-PB-hb0" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="12" id="BIK-sn-6xG"/>
+                                        <constraint firstItem="w6U-PB-hb0" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="8" id="BIK-sn-6xG"/>
                                         <constraint firstItem="PKi-vZ-GRo" firstAttribute="top" secondItem="w6U-PB-hb0" secondAttribute="bottom" constant="8" id="BPH-kE-W7y"/>
-                                        <constraint firstItem="PKi-vZ-GRo" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="16" id="ElU-A6-rgr"/>
-                                        <constraint firstItem="YFy-Uf-ATG" firstAttribute="centerY" secondItem="xsv-gW-iuo" secondAttribute="centerY" constant="20" id="GdZ-HJ-NU5"/>
-                                        <constraint firstAttribute="trailing" secondItem="PKi-vZ-GRo" secondAttribute="trailing" constant="24" id="HFl-oT-PZS"/>
-                                        <constraint firstItem="W9E-tZ-hRX" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="12" id="IxC-St-uHF"/>
-                                        <constraint firstItem="xsv-gW-iuo" firstAttribute="centerX" secondItem="Ge8-aV-TVz" secondAttribute="centerX" id="P66-6Q-xqo"/>
+                                        <constraint firstItem="PKi-vZ-GRo" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="8" id="ElU-A6-rgr"/>
+                                        <constraint firstItem="YFy-Uf-ATG" firstAttribute="centerY" secondItem="xsv-gW-iuo" secondAttribute="centerY" constant="25.75" id="GdZ-HJ-NU5"/>
+                                        <constraint firstAttribute="trailing" secondItem="PKi-vZ-GRo" secondAttribute="trailing" constant="16" id="HFl-oT-PZS"/>
+                                        <constraint firstItem="W9E-tZ-hRX" firstAttribute="leading" secondItem="xsv-gW-iuo" secondAttribute="trailing" constant="8" id="IxC-St-uHF"/>
+                                        <constraint firstItem="xsv-gW-iuo" firstAttribute="centerX" secondItem="Ge8-aV-TVz" secondAttribute="centerX" constant="1" id="P66-6Q-xqo"/>
                                         <constraint firstItem="ZfE-Sl-Py1" firstAttribute="leading" secondItem="w6U-PB-hb0" secondAttribute="trailing" constant="8" id="UDx-cl-alU"/>
                                         <constraint firstItem="ZfE-Sl-Py1" firstAttribute="leading" secondItem="W9E-tZ-hRX" secondAttribute="trailing" constant="8" id="Vby-0E-YI4"/>
                                         <constraint firstAttribute="centerY" secondItem="xsv-gW-iuo" secondAttribute="centerY" id="X8M-qR-YW8"/>
                                         <constraint firstAttribute="centerY" secondItem="ZfE-Sl-Py1" secondAttribute="centerY" id="brB-ie-9Qm"/>
                                         <constraint firstAttribute="trailing" secondItem="ZfE-Sl-Py1" secondAttribute="trailing" constant="15" id="f77-Tr-SB4"/>
-                                        <constraint firstItem="xsv-gW-iuo" firstAttribute="leading" secondItem="ZVs-Xb-UQs" secondAttribute="leading" constant="15" id="g3a-ys-TK8"/>
+                                        <constraint firstItem="xsv-gW-iuo" firstAttribute="leading" secondItem="ZVs-Xb-UQs" secondAttribute="leading" constant="8" id="g3a-ys-TK8"/>
                                         <constraint firstItem="w6U-PB-hb0" firstAttribute="top" secondItem="W9E-tZ-hRX" secondAttribute="bottom" constant="11.5" id="gSY-TP-wjr"/>
                                         <constraint firstItem="W9E-tZ-hRX" firstAttribute="top" secondItem="ZVs-Xb-UQs" secondAttribute="top" constant="24" id="vM9-hT-pMD"/>
                                     </constraints>
@@ -1274,8 +1274,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="GPA计算器" id="36c-eC-eYG"/>
                     <connections>
+                        <outlet property="gpaLabel" destination="zIe-37-hYD" id="GPH-DD-DTd"/>
                         <outlet property="inputTextField" destination="hWY-oJ-Vyc" id="jh5-B0-EBT"/>
                         <outlet property="keyboardAccessoryView" destination="cih-Mk-qTN" id="22e-cy-8d8"/>
+                        <outlet property="rankingLabel" destination="8jL-XY-3cd" id="cC7-fY-PSH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xdk-ew-lRk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1313,7 +1315,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SLV-G2-k9A">
                                 <rect key="frame" x="0.0" y="64" width="600" height="164"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="消费金额" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" background="GPATextFieldBackground" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="voh-ao-Erm">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="消费金额" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="voh-ao-Erm">
                                         <rect key="frame" x="190" y="25" width="220" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="220" id="Nbd-ed-C6s"/>
@@ -1623,6 +1625,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="amountTextField" destination="voh-ao-Erm" id="xSo-Sc-6uS"/>
+                        <outlet property="keyboardAccessoryView" destination="11v-lJ-Ugm" id="0ej-Tw-jTR"/>
                         <outlet property="numTextField" destination="QNY-tj-ToH" id="yTy-PC-9pf"/>
                         <outlet property="rateLabel" destination="8KL-Jf-oRV" id="jUG-zk-sCl"/>
                         <outlet property="scrollerView" destination="ytR-0o-Be5" id="9Su-gr-W4u"/>
@@ -1643,7 +1646,7 @@
                         <barButtonItem style="done" systemItem="done" id="QPP-2t-W04">
                             <color key="tintColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="doneButtonTapped" destination="LBP-Ai-M6A" id="Ltz-Hv-oqC"/>
+                                <action selector="doneButtonTapped" destination="S7C-mv-WHf" id="NtX-RS-L8R"/>
                             </connections>
                         </barButtonItem>
                     </items>
