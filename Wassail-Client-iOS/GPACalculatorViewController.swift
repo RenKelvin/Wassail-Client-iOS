@@ -113,7 +113,7 @@ class GPACalculatorViewController: UIViewController {
     func textFieldDidEndEditing(textField: UITextField) {
         
         let amount = NSString(string: textField.text).doubleValue
-        textField.text = NSString(format: "%.1f", amount)
+        textField.text = NSString(format: "%.2f", amount)
         
         self.updateNumbers()
         
