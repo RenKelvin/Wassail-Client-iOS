@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ArticleTableViewCell: UITableViewCell {
+class ArticleTableViewCell: HLTableViewCell {
 
-    func configure(item: NSDictionary) {
+    override func configure(item: NSDictionary) {
         
     }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ToolsTableViewCell: UITableViewCell {
+class ToolsTableViewCell: HLTableViewCell {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
@@ -26,7 +26,7 @@ class ToolsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(dict: NSDictionary?) {
+    override func configure(dict: NSDictionary?) {
         if (dict == nil) {
             return
         }

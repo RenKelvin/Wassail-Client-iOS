@@ -37,7 +37,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.tableViewHeaderView?.frame.size.width = width!
         self.tableViewHeaderView?.frame.origin.y = -44.0
     }
-
+    
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
@@ -60,7 +60,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let item = article.item(indexPath.section, row: indexPath.row) as NSDictionary
+        var item = article.item(indexPath.section, row: indexPath.row) as NSDictionary
         
         var cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         
@@ -70,11 +70,17 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             cellReuseIdentifier = "ArticleTableViewSectionCellReuseIdentifier"
         case "Graph":
             cellReuseIdentifier = "ArticleTableViewGraphCellReuseIdentifier"
+        case "Item":
+            cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
+            // TODO: Get tool from item
+            let tool = item.objectForKey("content") as NSDictionary
+            let toolBody = tool.objectForKey("body") as NSDictionary
+            item = toolBody
         default:
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         }
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ArticleTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as HLTableViewCell
         cell.configure(item)
         
         return cell
