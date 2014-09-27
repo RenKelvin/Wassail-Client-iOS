@@ -30,7 +30,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet var rightPickerView: RKPickerView?
     
     @IBOutlet var dataView: UITableView?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,22 +49,10 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-
+        
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         self.selectCategory(0)
         self.updateNumbersByInput()
-    }
-    
-    override func viewWillLayoutSubviews() {
-        //        println("viewWillLayoutSubviews")
-    }
-    
-    override func viewDidLayoutSubviews() {
-        //        println("viewDidLayoutSubviews")
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        //        println("viewDidAppear")
     }
     
     override func didReceiveMemoryWarning() {
@@ -177,10 +165,18 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         return headerView
     }
+        
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        // Deselect
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+    }
     
     // MARK: - UICollectionViewDataSource
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+       
         return 1
     }
     

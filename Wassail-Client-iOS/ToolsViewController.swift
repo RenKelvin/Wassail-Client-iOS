@@ -109,7 +109,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 0:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("大学排名"))
             case 1:
-                ""
+                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             default:
                 ""
             }

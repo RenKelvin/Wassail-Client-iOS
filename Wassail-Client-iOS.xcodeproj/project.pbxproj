@@ -71,6 +71,7 @@
 		FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB60419BE093B00115694 /* RKNumericLabel.swift */; };
 		FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED339BB19D4600D0036F396 /* BrowserViewController.swift */; };
 		FED3D18019D687EF00418BFF /* HLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */; };
+		FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */; };
 		FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */; };
 		FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */; };
 		FEE0300219C878A80061201E /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0300119C878A80061201E /* HLItem.swift */; };
@@ -157,6 +158,7 @@
 		FECBB60419BE093B00115694 /* RKNumericLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumericLabel.swift; sourceTree = "<group>"; };
 		FED339BB19D4600D0036F396 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTableViewCell.swift; sourceTree = "<group>"; };
+		FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorViewController.swift; sourceTree = "<group>"; };
 		FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterTableViewCell.swift; sourceTree = "<group>"; };
 		FEE0300119C878A80061201E /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItem.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
+				FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */,
 				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
 				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
@@ -702,6 +705,7 @@
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
+				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
