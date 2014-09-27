@@ -15,7 +15,6 @@
 		FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */; };
 		FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0219C47D4C0003A29A /* DefaultInfo.swift */; };
 		FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0419C47E8F0003A29A /* ArticleViewController.swift */; };
-		FE496C0719C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */ = {isa = PBXBuildFile; fileRef = FE496C0619C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */; };
 		FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2AFE19C48F8E0096AD86 /* ArticleTableViewCell.swift */; };
 		FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2B0019C48FA40096AD86 /* ArticleTableViewSectionCell.swift */; };
 		FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2B0219C48FAF0096AD86 /* ArticleTableViewGraphCell.swift */; };
@@ -25,6 +24,7 @@
 		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
 		FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9619B4033B00842C3D /* Images.xcassets */; };
 		FE5B1FA319B4033B00842C3D /* Wassail_Client_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */; };
+		FE5BC06E19D71857007E63BC /* Local in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC06D19D71857007E63BC /* Local */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -34,13 +34,10 @@
 		FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */; };
 		FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */; };
 		FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */; };
-		FE8D81B919C467E100CE6174 /* 1世界大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8D81B819C467E100CE6174 /* 1世界大学排名.json */; };
 		FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BA19C476E200CE6174 /* HLArticle.swift */; };
 		FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */; };
-		FE98698319C7DBFD00083FEE /* Size Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE98698219C7DBFD00083FEE /* Size Converter.json */; };
 		FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */; };
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
-		FE98698919C7F2DB00083FEE /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE98698819C7F2DB00083FEE /* Unit Converter.json */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
@@ -53,7 +50,6 @@
 		FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
-		FEC3BD5019C2945800184760 /* 大学排名.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD4F19C2945800184760 /* 大学排名.json */; };
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
 		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
 		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
@@ -62,7 +58,6 @@
 		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
 		FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */; };
 		FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */; };
-		FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = FEC3BD6519C2CC5A00184760 /* Tools.json */; };
 		FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */; };
 		FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */; };
 		FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */; };
@@ -98,7 +93,6 @@
 		FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		FE496C0219C47D4C0003A29A /* DefaultInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfo.swift; sourceTree = "<group>"; };
 		FE496C0419C47E8F0003A29A /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
-		FE496C0619C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1.4权威解读泰晤士报大学排名 （互联网）.json"; sourceTree = "<group>"; };
 		FE4E2AFE19C48F8E0096AD86 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		FE4E2B0019C48FA40096AD86 /* ArticleTableViewSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewSectionCell.swift; sourceTree = "<group>"; };
 		FE4E2B0219C48FAF0096AD86 /* ArticleTableViewGraphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewGraphCell.swift; sourceTree = "<group>"; };
@@ -112,6 +106,7 @@
 		FE5B1F9C19B4033B00842C3D /* Wassail-Client-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wassail-Client-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1FA119B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5B1FA219B4033B00842C3D /* Wassail_Client_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wassail_Client_iOSTests.swift; sourceTree = "<group>"; };
+		FE5BC06D19D71857007E63BC /* Local */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Local; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -121,13 +116,10 @@
 		FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView64Cell.swift; sourceTree = "<group>"; };
 		FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView54Cell.swift; sourceTree = "<group>"; };
 		FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView44Cell.swift; sourceTree = "<group>"; };
-		FE8D81B819C467E100CE6174 /* 1世界大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1世界大学排名.json"; sourceTree = "<group>"; };
 		FE8D81BA19C476E200CE6174 /* HLArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticle.swift; sourceTree = "<group>"; };
 		FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticlePreview.swift; sourceTree = "<group>"; };
-		FE98698219C7DBFD00083FEE /* Size Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Size Converter.json"; sourceTree = "<group>"; };
 		FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterInfo.swift; sourceTree = "<group>"; };
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
-		FE98698819C7F2DB00083FEE /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
@@ -140,7 +132,6 @@
 		FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerViewDelegate.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
-		FEC3BD4F19C2945800184760 /* 大学排名.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "大学排名.json"; sourceTree = "<group>"; };
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
 		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
@@ -149,7 +140,6 @@
 		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInfo.swift; sourceTree = "<group>"; };
-		FEC3BD6519C2CC5A00184760 /* Tools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
 		FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKInfoSyncSystem.swift; sourceTree = "<group>"; };
 		FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLListPreview.swift; sourceTree = "<group>"; };
 		FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemBuilder.swift; sourceTree = "<group>"; };
@@ -225,15 +215,6 @@
 			name = List;
 			sourceTree = "<group>";
 		};
-		FE57619019BD499100574EE1 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-				FE98698119C7DB0600083FEE /* Tools */,
-				FE7EE12019C3F5A4008169D1 /* 大学排名 */,
-			);
-			name = Local;
-			sourceTree = "<group>";
-		};
 		FE5B1F8119B4033B00842C3D = {
 			isa = PBXGroup;
 			children = (
@@ -305,16 +286,6 @@
 			name = RKSelectorView;
 			sourceTree = "<group>";
 		};
-		FE7EE12019C3F5A4008169D1 /* 大学排名 */ = {
-			isa = PBXGroup;
-			children = (
-				FEC3BD4F19C2945800184760 /* 大学排名.json */,
-				FE8D81B819C467E100CE6174 /* 1世界大学排名.json */,
-				FE496C0619C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json */,
-			);
-			name = "大学排名";
-			sourceTree = "<group>";
-		};
 		FE8C7BD319CB298D00F1C319 /* RKScrollerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,16 +302,6 @@
 				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
 			);
 			name = Item;
-			sourceTree = "<group>";
-		};
-		FE98698119C7DB0600083FEE /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				FEC3BD6519C2CC5A00184760 /* Tools.json */,
-				FE98698819C7F2DB00083FEE /* Unit Converter.json */,
-				FE98698219C7DBFD00083FEE /* Size Converter.json */,
-			);
-			name = Tools;
 			sourceTree = "<group>";
 		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
@@ -508,7 +469,7 @@
 			children = (
 				FEB1D7FD19CF10E6002F7285 /* AWS */,
 				FEC8649819BD3DF4005087A3 /* Database */,
-				FE57619019BD499100574EE1 /* Local */,
+				FE5BC06D19D71857007E63BC /* Local */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -632,16 +593,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE98698919C7F2DB00083FEE /* Unit Converter.json in Resources */,
-				FEC3BD5019C2945800184760 /* 大学排名.json in Resources */,
-				FE496C0719C480AC0003A29A /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
+				FE5BC06E19D71857007E63BC /* Local in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
-				FEC3BD6619C2CC5A00184760 /* Tools.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
-				FE98698319C7DBFD00083FEE /* Size Converter.json in Resources */,
-				FE8D81B919C467E100CE6174 /* 1世界大学排名.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -657,8 +657,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="即将上线" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW9-nk-DBu">
-                                                    <rect key="frame" x="121" y="14" width="56" height="17"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <rect key="frame" x="121" y="14.5" width="48" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -674,6 +674,7 @@
                                                 <constraint firstItem="g0c-dM-Mbn" firstAttribute="bottom" secondItem="ayU-ny-96o" secondAttribute="bottom" id="9iK-QY-eUX"/>
                                                 <constraint firstItem="ayU-ny-96o" firstAttribute="leading" secondItem="xEq-l0-7NB" secondAttribute="leading" constant="15" id="Ccg-ny-T89"/>
                                                 <constraint firstAttribute="centerY" secondItem="ayU-ny-96o" secondAttribute="centerY" constant="-0.25" id="N7e-G3-HBF"/>
+                                                <constraint firstItem="nW9-nk-DBu" firstAttribute="centerY" secondItem="DbJ-2p-eGT" secondAttribute="centerY" id="UrP-T5-jie"/>
                                                 <constraint firstItem="g0c-dM-Mbn" firstAttribute="leading" secondItem="ayU-ny-96o" secondAttribute="trailing" constant="8" id="X98-94-4GP"/>
                                                 <constraint firstItem="DbJ-2p-eGT" firstAttribute="leading" secondItem="ayU-ny-96o" secondAttribute="trailing" constant="8" id="auY-aJ-KCP"/>
                                                 <constraint firstItem="DbJ-2p-eGT" firstAttribute="top" secondItem="ayU-ny-96o" secondAttribute="top" constant="4" id="j9H-V1-Cm4"/>
@@ -681,6 +682,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="g0c-dM-Mbn" secondAttribute="trailing" constant="15" id="xS9-kD-o9h"/>
                                                 <constraint firstItem="nW9-nk-DBu" firstAttribute="leading" secondItem="DbJ-2p-eGT" secondAttribute="trailing" constant="8" id="zTL-P2-a1H"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="jId-fk-tMJ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="iconImageView" destination="ayU-ny-96o" id="oUv-5R-V2g"/>

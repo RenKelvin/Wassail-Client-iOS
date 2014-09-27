@@ -18,8 +18,8 @@
                     "ready": "true",
                     "note": "世界大学权威排名及分析",
                     "title": "申请文书全解",
-                    "icon": "ToolsIconUniversityRankings",
-                    "identifier": "UniversityRankings"
+                    "icon": "ToolsIconApplyDocuments",
+                    "identifier": "ApplyDocuments"
                     },
                     {
                     "ready": "true",
@@ -39,17 +39,17 @@
                      },
                      {
                      "ready": "true",
-                     "note": "长度，重量，温度等单位换算",
-                     "title": "单位换算",
-                     "icon": "ToolsIconUnitConverter",
-                     "identifier": "UnitConverter"
-                     },
-                     {
-                     "ready": "true",
                      "note": "快速计算吃饭，打车，酒店等小费",
                      "title": "小费计算器",
                      "icon": "ToolsIconTipsCalculator",
                      "identifier": "TipsCalculator"
+                     },
+                     {
+                     "ready": "true",
+                     "note": "长度，重量，温度等单位换算",
+                     "title": "单位换算",
+                     "icon": "ToolsIconUnitConverter",
+                     "identifier": "UnitConverter"
                      },
                      {
                      "ready": "true",
