@@ -10,10 +10,15 @@ import UIKit
 
 class GPACalculatorViewController: UIViewController {
     
+    @IBOutlet var inputTextField: UITextField?
+    
+    @IBOutlet var keyboardAccessoryView: UIView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        inputTextField!.inputAccessoryView = keyboardAccessoryView
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,6 +50,12 @@ class GPACalculatorViewController: UIViewController {
         return cell
     }
     
+    // MARK: -
+    
+    @IBAction func doneButtonTapped() {
+        inputTextField!.resignFirstResponder()
+    }
+    
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
@@ -69,6 +80,23 @@ class GPACalculatorViewController: UIViewController {
         
     }
     
+    // MARK: - UITextFieldDelegate
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        
+//        amount = NSString(string: textField.text).doubleValue
+        
+//        self.updateNumbers()
+        
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        return true
+    }
+
     /*
     // MARK: - Navigation
     
