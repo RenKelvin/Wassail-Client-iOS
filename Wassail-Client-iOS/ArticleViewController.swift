@@ -86,10 +86,11 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).last as RKTableHeaderView
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
         
         let title: String = article.titleForChapter(section)
         headerView.setTitle(title)
+        headerView.setLeaderColor(section)
         
         return headerView
     }
