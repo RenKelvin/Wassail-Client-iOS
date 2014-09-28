@@ -129,7 +129,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsBrowserSegueIdentifier", sender: nil)
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("1.0信用卡"))
             case 1:
                 self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
             case 2:
