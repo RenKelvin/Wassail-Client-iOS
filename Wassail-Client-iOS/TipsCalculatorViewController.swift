@@ -156,8 +156,14 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     
     @IBAction func decRate() {
         
-        let d = Double(rand() % 10) + 1
+        //        let d = Double(rand() % 10) + 1
+        let d = 5.0
         rate -= d / 100.0
+        rate = Double(Int(rate*100)) / 100
+
+        if (rate < 0.0) {
+            rate = 0.0
+        }
         
         self.updateNumbers()
         
@@ -167,8 +173,14 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     
     @IBAction func incRate() {
         
-        let d = Double(rand() % 10) + 1
+        //        let d = Double(rand() % 10) + 1
+        let d = 5.0
         rate += d / 100.0
+        rate = Double(Int(rate*100)) / 100
+        
+        if (rate > 1.0) {
+            rate = 1.0
+        }
         
         self.updateNumbers()
         
