@@ -38,7 +38,7 @@
     "pants": {
         "title": "裤子",
         "icon": "SizeConverterIconPants",
-        "header": ["中", "国际", "腰围", "美国", "韩国"],
+        "header": ["中", "国际", "腰", "美", "韩"],
         "groups": [
                    {
                    "title": "男士",

@@ -33,7 +33,7 @@ class RKArticleHeaderView: UIView {
         case 4:
             leaderView!.backgroundColor! = UIColor.HLBlue(0)
         default:
-            leaderView!.backgroundColor! = UIColor.HLYellow(0)
+            leaderView!.backgroundColor! = UIColor.HLBlue(0)
         }
     }
     
