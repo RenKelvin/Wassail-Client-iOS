@@ -21,7 +21,7 @@
                                 },
                                 {
                                 "content": {
-                                "type": "HLToolPreview",
+                                "type": "HLLinkPreview",
                                 "name": "world clock",
                                 "body": {
                                 "source": {

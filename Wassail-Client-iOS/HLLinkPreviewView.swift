@@ -1,5 +1,5 @@
 //
-//  HLToolPreviewView.swift
+//  HLLinkPreviewView.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/28/14.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class HLToolPreviewView: UIView {
+class HLLinkPreviewView: UIView {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
-    @IBOutlet var readyLabel: UILabel?
     
     func configure(dict: NSDictionary?) {
         
@@ -25,13 +24,6 @@ class HLToolPreviewView: UIView {
         titleLabel!.text = dict!.objectForKey("title") as String?
         noteLabel!.text = dict!.objectForKey("note") as String?
         
-        let ready = dict!.objectForKey("ready") as NSString?
-        if (ready == "false") {
-            readyLabel!.hidden = false
-        }
-        else {
-            readyLabel!.hidden = true
-        }
     }
     
 }

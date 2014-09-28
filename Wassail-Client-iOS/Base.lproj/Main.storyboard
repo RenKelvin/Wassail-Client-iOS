@@ -1763,18 +1763,7 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LsD-fg-9JD">
                                                     <rect key="frame" x="15" y="8" width="570" height="64"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItemToolBackground" translatesAutoresizingMaskIntoConstraints="NO" id="yZQ-qj-J7H">
-                                                            <rect key="frame" x="0.0" y="0.0" width="570" height="64"/>
-                                                        </imageView>
-                                                    </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstItem="yZQ-qj-J7H" firstAttribute="leading" secondItem="LsD-fg-9JD" secondAttribute="leading" id="1Av-gj-vGp"/>
-                                                        <constraint firstItem="yZQ-qj-J7H" firstAttribute="top" secondItem="LsD-fg-9JD" secondAttribute="top" id="9XH-0e-128"/>
-                                                        <constraint firstAttribute="trailing" secondItem="yZQ-qj-J7H" secondAttribute="trailing" id="DzA-KO-6CS"/>
-                                                        <constraint firstAttribute="bottom" secondItem="yZQ-qj-J7H" secondAttribute="bottom" id="YCf-iW-vym"/>
-                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -1785,7 +1774,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="itemView" destination="LsD-fg-9JD" id="sej-Yf-zW7"/>
+                                            <outlet property="itemContainerView" destination="LsD-fg-9JD" id="RqL-QB-pHE"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1850,7 +1839,6 @@
         <image name="GreenBackground" width="320" height="96"/>
         <image name="GreenCoverLeft" width="130" height="54"/>
         <image name="GreenCoverRight" width="138" height="54"/>
-        <image name="ItemToolBackground" width="24" height="64"/>
         <image name="LocationIndicator" width="12" height="12"/>
         <image name="MoreBarItem" width="20" height="4"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>

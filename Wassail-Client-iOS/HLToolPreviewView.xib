@@ -6,10 +6,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view alpha="0.98000001907348633" contentMode="scaleToFill" id="1zC-du-Nsb" customClass="HLToolPreviewView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="1zC-du-Nsb" customClass="HLToolPreviewView" customModule="Wassail_Client_iOS" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItemToolBackground" translatesAutoresizingMaskIntoConstraints="NO" id="acM-wT-epe">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lDN-Bf-ehT">
                     <rect key="frame" x="10" y="8" width="48" height="48"/>
                     <constraints>
@@ -39,14 +42,18 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="3vx-om-tVO" firstAttribute="leading" secondItem="lDN-Bf-ehT" secondAttribute="trailing" constant="8" id="087-ao-kqy"/>
+                <constraint firstItem="acM-wT-epe" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" id="0mX-GP-YE6"/>
                 <constraint firstItem="ukz-ml-76i" firstAttribute="leading" secondItem="lDN-Bf-ehT" secondAttribute="trailing" constant="8" id="4Ml-eu-RXb"/>
                 <constraint firstAttribute="centerY" secondItem="lDN-Bf-ehT" secondAttribute="centerY" id="Bm1-fB-Wog"/>
                 <constraint firstItem="ukz-ml-76i" firstAttribute="bottom" secondItem="lDN-Bf-ehT" secondAttribute="bottom" id="FXF-Sk-UbP"/>
                 <constraint firstAttribute="trailing" secondItem="ukz-ml-76i" secondAttribute="trailing" constant="15" id="I2o-Wm-zMY"/>
+                <constraint firstItem="acM-wT-epe" firstAttribute="top" secondItem="1zC-du-Nsb" secondAttribute="top" id="L7c-Fy-O4z"/>
+                <constraint firstAttribute="bottom" secondItem="acM-wT-epe" secondAttribute="bottom" id="Mif-Ha-67R"/>
                 <constraint firstItem="M83-MH-iPi" firstAttribute="leading" secondItem="3vx-om-tVO" secondAttribute="trailing" constant="8" id="P0w-oO-B7y"/>
                 <constraint firstItem="3vx-om-tVO" firstAttribute="top" secondItem="lDN-Bf-ehT" secondAttribute="top" constant="4" id="UqP-EH-PFo"/>
                 <constraint firstItem="lDN-Bf-ehT" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" constant="10" id="ZGJ-g1-FFw"/>
                 <constraint firstItem="M83-MH-iPi" firstAttribute="baseline" secondItem="3vx-om-tVO" secondAttribute="baseline" id="jUD-C2-K8o"/>
+                <constraint firstAttribute="trailing" secondItem="acM-wT-epe" secondAttribute="trailing" id="yHQ-yA-cGj"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -56,7 +63,10 @@
                 <outlet property="readyLabel" destination="M83-MH-iPi" id="axV-x3-jXT"/>
                 <outlet property="titleLabel" destination="3vx-om-tVO" id="CQM-Kv-SP8"/>
             </connections>
-            <point key="canvasLocation" x="543" y="406.5"/>
+            <point key="canvasLocation" x="543" y="406"/>
         </view>
     </objects>
+    <resources>
+        <image name="ItemToolBackground" width="24" height="64"/>
+    </resources>
 </document>
