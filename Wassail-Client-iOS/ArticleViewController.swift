@@ -72,12 +72,12 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             cellReuseIdentifier = "ArticleTableViewGraphCellReuseIdentifier"
         case "Item":
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
-            // TODO: Get tool from item
+            item = item.objectForKey("content") as NSDictionary
         default:
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         }
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as HLTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ArticleTableViewCell
         cell.configure(item)
         
         return cell

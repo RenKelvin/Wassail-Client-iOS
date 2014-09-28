@@ -1,27 +1,21 @@
 //
-//  ToolsTableViewCell.swift
+//  HLToolPreviewView.swift
 //  Wassail-Client-iOS
 //
-//  Created by Chuan Ren on 9/8/14.
+//  Created by Chuan Ren on 9/28/14.
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
 import UIKit
 
-class ToolsTableViewCell: HLTableViewCell {
+class HLToolPreviewView: UIView {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var readyLabel: UILabel?
     
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
-    }
-    
-    override func configure(dict: NSDictionary?) {
+    func configure(dict: NSDictionary?) {
         if (dict == nil) {
             return
         }

@@ -14,6 +14,24 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
     
     override func configure(item: NSDictionary) {
         
+        var view: UIView?
+        
+        let type = item.objectForKey("type") as NSString
+        switch type {
+            
+        case "HLToolPreview":
+            view = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView
+            //            view.configure(item)
+            
+        default:
+            ""
+        }
+        
+        // Add constraints
+        
+        // Add subview
+        itemView!.addSubview(view!)
+        
     }
     
 }

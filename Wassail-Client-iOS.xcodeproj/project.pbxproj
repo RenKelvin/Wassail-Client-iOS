@@ -48,6 +48,8 @@
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
 		FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */; };
 		FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */; };
+		FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */; };
+		FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
@@ -140,6 +142,8 @@
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
 		FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKArticleHeaderView.swift; sourceTree = "<group>"; };
 		FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKArticleHeaderView.xib; sourceTree = "<group>"; };
+		FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLToolPreviewView.swift; sourceTree = "<group>"; };
+		FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLToolPreviewView.xib; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
@@ -351,6 +355,7 @@
 				FE4E2B0719C48FC90096AD86 /* List */,
 				FE4E2B0619C48FC00096AD86 /* Article */,
 				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
+				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -362,6 +367,15 @@
 				FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */,
 			);
 			name = RKArticleHeaderView;
+			sourceTree = "<group>";
+		};
+		FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */,
+				FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */,
+			);
+			name = HLToolPreviewView;
 			sourceTree = "<group>";
 		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
@@ -664,6 +678,7 @@
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
+				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */,
 				FE5BC08319D71BD4007E63BC /* 大学排名.json in Resources */,
 				FE5BC08119D71BD4007E63BC /* 1.1.4权威解读泰晤士报大学排名 （互联网）.json in Resources */,
@@ -726,6 +741,7 @@
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
 				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
+				FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */,
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
