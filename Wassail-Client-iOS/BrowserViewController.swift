@@ -10,6 +10,8 @@ import UIKit
 
 class BrowserViewController: UIViewController {
     
+    var address: NSString = ""
+    
     @IBOutlet var webView: UIWebView?
 
     @IBOutlet var titleLabel: UILabel?
@@ -19,7 +21,7 @@ class BrowserViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let url = NSURL(string: "http://www.baidu.com")
+        let url = NSURL(string: address)
         let request = NSURLRequest(URL: url)
         
         webView!.loadRequest(request)
@@ -35,6 +37,14 @@ class BrowserViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: -
+    
+    override func setInfo(info: AnyObject?) {
+        if (info != nil) {
+            address = info as NSString
+        }
+    }
+
     // MARK: - UIWebViewDelegate
     
     func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {

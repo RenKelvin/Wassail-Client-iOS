@@ -1,5 +1,5 @@
 //
-//  HLLinkPreviewView.swift
+//  HLLinkView.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 9/28/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLLinkPreviewView: UIView {
+class HLLinkView: UIView {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?

@@ -47,8 +47,8 @@
 		FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */; };
 		FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */; };
 		FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */; };
-		FEA0FB9A19D7F69700A24409 /* HLLinkPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9919D7F69700A24409 /* HLLinkPreviewView.swift */; };
-		FEA0FB9D19D7F6B400A24409 /* HLLinkPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */; };
+		FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9919D7F69700A24409 /* HLLinkView.swift */; };
+		FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9C19D7F6B400A24409 /* HLLinkView.xib */; };
 		FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9F19D7FFA100A24409 /* HLImageView.xib */; };
 		FEA0FBA219D7FFF400A24409 /* HLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FBA119D7FFF400A24409 /* HLImageView.swift */; };
 		FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FBA319D846A300A24409 /* 0大学排名.md.json */; };
@@ -103,6 +103,7 @@
 		FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FBD419D846A400A24409 /* 3.11.0医学院排名.md.json */; };
 		FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FBD519D846A400A24409 /* 3.12.0美术学院排名.md.json */; };
 		FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FBD619D846A400A24409 /* 3.13其他排名.md.json */; };
+		FEA0FC0C19D85EFC00A24409 /* HLLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FC0B19D85EFC00A24409 /* HLLink.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
@@ -194,8 +195,8 @@
 		FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKArticleHeaderView.xib; sourceTree = "<group>"; };
 		FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLToolPreviewView.swift; sourceTree = "<group>"; };
 		FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLToolPreviewView.xib; sourceTree = "<group>"; };
-		FEA0FB9919D7F69700A24409 /* HLLinkPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLinkPreviewView.swift; sourceTree = "<group>"; };
-		FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLLinkPreviewView.xib; sourceTree = "<group>"; };
+		FEA0FB9919D7F69700A24409 /* HLLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLinkView.swift; sourceTree = "<group>"; };
+		FEA0FB9C19D7F6B400A24409 /* HLLinkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLLinkView.xib; sourceTree = "<group>"; };
 		FEA0FB9F19D7FFA100A24409 /* HLImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLImageView.xib; sourceTree = "<group>"; };
 		FEA0FBA119D7FFF400A24409 /* HLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImageView.swift; sourceTree = "<group>"; };
 		FEA0FBA319D846A300A24409 /* 0大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0大学排名.md.json"; sourceTree = "<group>"; };
@@ -250,6 +251,7 @@
 		FEA0FBD419D846A400A24409 /* 3.11.0医学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.11.0医学院排名.md.json"; sourceTree = "<group>"; };
 		FEA0FBD519D846A400A24409 /* 3.12.0美术学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.12.0美术学院排名.md.json"; sourceTree = "<group>"; };
 		FEA0FBD619D846A400A24409 /* 3.13其他排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.13其他排名.md.json"; sourceTree = "<group>"; };
+		FEA0FC0B19D85EFC00A24409 /* HLLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLink.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
@@ -511,7 +513,7 @@
 				FE4E2B0619C48FC00096AD86 /* Article */,
 				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
 				FEA0FB9E19D7FF8D00A24409 /* HLImageView */,
-				FEA0FB9B19D7F69A00A24409 /* HLLinkPreviewView */,
+				FEA0FB9B19D7F69A00A24409 /* HLLinkView */,
 				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
 			);
 			name = Item;
@@ -535,13 +537,13 @@
 			name = HLToolPreviewView;
 			sourceTree = "<group>";
 		};
-		FEA0FB9B19D7F69A00A24409 /* HLLinkPreviewView */ = {
+		FEA0FB9B19D7F69A00A24409 /* HLLinkView */ = {
 			isa = PBXGroup;
 			children = (
-				FEA0FB9919D7F69700A24409 /* HLLinkPreviewView.swift */,
-				FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */,
+				FEA0FB9919D7F69700A24409 /* HLLinkView.swift */,
+				FEA0FB9C19D7F6B400A24409 /* HLLinkView.xib */,
 			);
-			name = HLLinkPreviewView;
+			name = HLLinkView;
 			sourceTree = "<group>";
 		};
 		FEA0FB9E19D7FF8D00A24409 /* HLImageView */ = {
@@ -615,12 +617,13 @@
 		FEC3BD4819C2896E00184760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FEE0300119C878A80061201E /* HLItem.swift */,
 				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
-				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
+				FEE0300119C878A80061201E /* HLItem.swift */,
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
-				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 				FE8D81BA19C476E200CE6174 /* HLArticle.swift */,
+				FEA0FC0B19D85EFC00A24409 /* HLLink.swift */,
+				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
+				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 				FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */,
 			);
 			name = Model;
@@ -895,7 +898,7 @@
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */,
-				FEA0FB9D19D7F6B400A24409 /* HLLinkPreviewView.xib in Resources */,
+				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
@@ -941,7 +944,8 @@
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
 				FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */,
 				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
-				FEA0FB9A19D7F69700A24409 /* HLLinkPreviewView.swift in Sources */,
+				FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */,
+				FEA0FC0C19D85EFC00A24409 /* HLLink.swift in Sources */,
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,

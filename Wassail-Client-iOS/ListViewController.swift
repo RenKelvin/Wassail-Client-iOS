@@ -58,7 +58,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
-        let cellReuseIdentifier = "ListTableView44CellReuseIdentifier"
+        let cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         
         cell.configure(item)
@@ -97,7 +97,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             self.performSegueWithIdentifier("ListListSegueIdentifier", sender: source)
             
-        case "HLArticle":
+        case "HLArticlePreview":
             let itemAddress = item.address
             let source = ArticleInfo.instance.getArticle(itemAddress) as HLArticle?
             
@@ -106,6 +106,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             }
             
             self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
+            
+        case "HLLink":
+            let itemAddress = item.address
+            
+            self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
+
         default:
             ""
         }

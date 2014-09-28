@@ -23,7 +23,9 @@ class HLItemBuilder: NSObject {
         case "HLArticle": return HLArticle(json: json)
             
         case "HLArticlePreview": return HLArticlePreview(json: json)
-            
+
+        case "HLLink": return HLLink(json: json)
+
         default: return HLItem()
         }
     }

@@ -24,8 +24,8 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             itemView!.frame.size.width = itemContainerView!.frame.width
             //            view.configure(item)
             
-        case "HLLinkPreview":
-            itemView = NSBundle.mainBundle().loadNibNamed("HLLinkPreviewView", owner: nil, options: nil).first as HLLinkPreviewView
+        case "HLLink":
+            itemView = NSBundle.mainBundle().loadNibNamed("HLLinkView", owner: nil, options: nil).first as HLLinkView
             itemView!.frame.size.width = itemContainerView!.frame.width
             //            view.configure(item)
             

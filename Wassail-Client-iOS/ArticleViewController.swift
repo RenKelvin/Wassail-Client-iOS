@@ -93,7 +93,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         let title: String = article.titleForChapter(section)
         headerView.setTitle(title)
-        headerView.setLeaderColor(section)
+//        headerView.setLeaderColor(section)
         
         return headerView
     }

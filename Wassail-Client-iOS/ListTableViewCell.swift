@@ -10,8 +10,10 @@ import UIKit
 
 class ListTableViewCell: UITableViewCell {
     
-    func configure(item: HLItemPreview) {
+    @IBOutlet var titleLabel: UILabel?
 
+    func configure(item: HLItemPreview) {
+        titleLabel?.text = item.titlePresent()
     }
 
 }

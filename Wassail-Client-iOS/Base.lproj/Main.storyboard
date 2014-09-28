@@ -1074,6 +1074,28 @@
                                             <outlet property="titleLabel" destination="Xx1-3v-yQH" id="Ooz-5G-aw0"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListTableViewSimpleCellReuseIdentifier" rowHeight="44" id="co9-dS-5oT" customClass="ListTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="co9-dS-5oT" id="Cfn-bX-XjN">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDR-me-hGi">
+                                                    <rect key="frame" x="15" y="12" width="570" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="YDR-me-hGi" firstAttribute="leading" secondItem="Cfn-bX-XjN" secondAttribute="leading" constant="15" id="2RB-wD-awM"/>
+                                                <constraint firstAttribute="centerY" secondItem="YDR-me-hGi" secondAttribute="centerY" id="7Kj-hG-aYv"/>
+                                                <constraint firstAttribute="trailing" secondItem="YDR-me-hGi" secondAttribute="trailing" constant="15" id="ZOf-8a-wWQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="YDR-me-hGi" id="lkC-gu-86f"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="gXd-Zp-d01" id="O8a-GQ-InZ"/>
@@ -1095,6 +1117,7 @@
                     <connections>
                         <outlet property="tableView" destination="Abn-bJ-5vA" id="lVz-eb-9bQ"/>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ListArticleSegueIdentifier" id="fYA-Od-fVe"/>
+                        <segue destination="yEZ-CL-Iol" kind="show" identifier="ListBrowserSegueIdentifier" id="vuL-hi-aIq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adn-ZM-kkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1887,7 +1910,8 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="flF-XO-gRb"/>
         <segue reference="r4f-h3-sd1"/>
+        <segue reference="vuL-hi-aIq"/>
+        <segue reference="fYA-Od-fVe"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -9,8 +9,6 @@
 import UIKit
 
 class ListTableView64Cell: ListTableViewCell {
-
-    @IBOutlet var titleLabel: UILabel?
     
     override func configure(item: HLItemPreview) {
         titleLabel?.text = item.titlePresent()
