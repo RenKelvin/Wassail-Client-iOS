@@ -21,12 +21,18 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
         case "HLToolPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView
+            itemView!.frame.size.width = itemContainerView!.frame.width
             itemView!.frame.size.height = 64.0
             //            view.configure(item)
             
         case "HLLinkPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLLinkPreviewView", owner: nil, options: nil).first as HLLinkPreviewView
+            itemView!.frame.size.width = itemContainerView!.frame.width
             itemView!.frame.size.height = 64.0
+            //            view.configure(item)
+            
+        case "HLImg":
+            itemView = NSBundle.mainBundle().loadNibNamed("HLImageView", owner: nil, options: nil).first as HLImageView
             //            view.configure(item)
             
         default:
@@ -41,7 +47,6 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
         //        itemView!.addConstraint(rightConstraint)
         
         // Add subview
-        itemView!.frame.size.width = itemContainerView!.frame.width
         itemContainerView!.addSubview(itemView!)
         
     }

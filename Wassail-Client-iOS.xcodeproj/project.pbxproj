@@ -52,6 +52,8 @@
 		FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */; };
 		FEA0FB9A19D7F69700A24409 /* HLLinkPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9919D7F69700A24409 /* HLLinkPreviewView.swift */; };
 		FEA0FB9D19D7F6B400A24409 /* HLLinkPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */; };
+		FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9F19D7FFA100A24409 /* HLImageView.xib */; };
+		FEA0FBA219D7FFF400A24409 /* HLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FBA119D7FFF400A24409 /* HLImageView.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
@@ -148,6 +150,8 @@
 		FEA0FB9719D7EF0800A24409 /* HLToolPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLToolPreviewView.xib; sourceTree = "<group>"; };
 		FEA0FB9919D7F69700A24409 /* HLLinkPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLLinkPreviewView.swift; sourceTree = "<group>"; };
 		FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLLinkPreviewView.xib; sourceTree = "<group>"; };
+		FEA0FB9F19D7FFA100A24409 /* HLImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLImageView.xib; sourceTree = "<group>"; };
+		FEA0FBA119D7FFF400A24409 /* HLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImageView.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
@@ -359,6 +363,7 @@
 				FE4E2B0719C48FC90096AD86 /* List */,
 				FE4E2B0619C48FC00096AD86 /* Article */,
 				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
+				FEA0FB9E19D7FF8D00A24409 /* HLImageView */,
 				FEA0FB9B19D7F69A00A24409 /* HLLinkPreviewView */,
 				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
 			);
@@ -390,6 +395,15 @@
 				FEA0FB9C19D7F6B400A24409 /* HLLinkPreviewView.xib */,
 			);
 			name = HLLinkPreviewView;
+			sourceTree = "<group>";
+		};
+		FEA0FB9E19D7FF8D00A24409 /* HLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0FBA119D7FFF400A24409 /* HLImageView.swift */,
+				FEA0FB9F19D7FFA100A24409 /* HLImageView.xib */,
+			);
+			name = HLImageView;
 			sourceTree = "<group>";
 		};
 		FEA5A90919BD563F0048AF6A /* Tools */ = {
@@ -685,6 +699,7 @@
 			files = (
 				FE5BC08219D71BD4007E63BC /* 1世界大学排名.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
+				FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
@@ -777,6 +792,7 @@
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
 				FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */,
 				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
+				FEA0FBA219D7FFF400A24409 /* HLImageView.swift in Sources */,
 				FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
