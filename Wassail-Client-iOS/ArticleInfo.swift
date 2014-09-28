@@ -17,6 +17,6 @@ class ArticleInfo: NSObject {
     }
     
     func getArticle(name: String) -> HLArticle? {
-        return DefaultAccessor.instance.getItem(name) as HLArticle?
+        return DefaultAccessor.instance.getItem(name+".md") as HLArticle?
     }
 }

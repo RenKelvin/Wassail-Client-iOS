@@ -84,18 +84,27 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // Get source item
         let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
-        let itemName = item.source.objectForKey("name") as NSString
-        let source = DefaultInfo.instance.getItem(itemName) as HLItem?
         
-        if (source == nil) {
-            return
-        }
-        
-        let type = source!.type
+        let type = item.type
         switch type {
-        case "HLList":
+        case "HLListPreview":
+            let itemAddress = item.address
+            let source = ListInfo.instance.getList(itemAddress) as HLList?
+            
+            if (source == nil) {
+                return
+            }
+            
             self.performSegueWithIdentifier("ListListSegueIdentifier", sender: source)
+            
         case "HLArticle":
+            let itemAddress = item.address
+            let source = ArticleInfo.instance.getArticle(itemAddress) as HLArticle?
+            
+            if (source == nil) {
+                return
+            }
+            
             self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
         default:
             ""

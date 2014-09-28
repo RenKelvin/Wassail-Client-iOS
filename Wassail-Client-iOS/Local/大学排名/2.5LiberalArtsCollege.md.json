@@ -1,0 +1,25 @@
+{
+    "body": {
+        "chapters": [
+            {
+                "graphs": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.5LiberalArtsCollege", 
+                                "title": ""
+                            }, 
+                            "name": "2.5LiberalArtsCollege", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "Liberal Arts College \uff08\u6587\u7406\u5b66\u9662\u6392\u540d\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

@@ -10,15 +10,14 @@ import UIKit
 
 class HLArticlePreview: HLItemPreview {
     
-    var title: NSString = ""
-    
     override init(json: NSDictionary) {
         super.init(json: json)
         
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
-        source = jsonBody.objectForKey("source") as NSDictionary
+        //        source = jsonBody.objectForKey("source") as NSDictionary
         title = jsonBody.objectForKey("title") as NSString
+        address = jsonBody.objectForKey("address") as NSString
     }
     
     // MARK: HLItemPreview Methods
