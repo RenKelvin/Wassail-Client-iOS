@@ -97,8 +97,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r54-86-QgL" userLabel="IO">
                                 <rect key="frame" x="64" y="128" width="472" height="128"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-Yc-jgy">
-                                        <rect key="frame" x="24" y="10" width="74" height="43"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" background="UnitTextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-Yc-jgy">
+                                        <rect key="frame" x="8" y="16" width="456" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="bOb-iw-sqj"/>
+                                        </constraints>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
@@ -106,23 +109,23 @@
                                             <outlet property="delegate" destination="WRg-lq-Ju5" id="zkX-Cg-XhT"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="right" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
-                                        <rect key="frame" x="8" y="74.5" width="421" height="43"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
+                                        <rect key="frame" x="8" y="79" width="456" height="34"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
                                         <connections>
                                             <outlet property="delegate" destination="WRg-lq-Ju5" id="tb1-9a-CVR"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sm-4W-hPv">
-                                        <rect key="frame" x="106" y="28" width="15" height="20.5"/>
+                                        <rect key="frame" x="445" y="43" width="15" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Lh-SC7">
-                                        <rect key="frame" x="437" y="92" width="11" height="20.5"/>
+                                        <rect key="frame" x="449" y="90" width="11" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -131,13 +134,12 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="dRi-Pk-tlh" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="8" id="0nK-Cs-sd6"/>
-                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="24" id="9xY-au-Nu2"/>
-                                    <constraint firstItem="E0p-Lh-SC7" firstAttribute="leading" secondItem="dRi-Pk-tlh" secondAttribute="trailing" constant="8" id="Mcf-6m-B7s"/>
-                                    <constraint firstAttribute="trailing" secondItem="E0p-Lh-SC7" secondAttribute="trailing" constant="24" id="c7U-xV-mzs"/>
-                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="centerY" secondItem="5sm-4W-hPv" secondAttribute="centerY" constant="-6" id="nMt-WJ-hZ3"/>
-                                    <constraint firstItem="dRi-Pk-tlh" firstAttribute="centerY" secondItem="E0p-Lh-SC7" secondAttribute="centerY" constant="-6" id="pGd-Lz-mp8"/>
-                                    <constraint firstAttribute="centerY" secondItem="I4G-Yc-jgy" secondAttribute="centerY" constant="32" id="qDQ-QA-DMs"/>
-                                    <constraint firstItem="5sm-4W-hPv" firstAttribute="leading" secondItem="I4G-Yc-jgy" secondAttribute="trailing" constant="8" id="quf-9h-bcl"/>
+                                    <constraint firstItem="E0p-Lh-SC7" firstAttribute="trailing" secondItem="5sm-4W-hPv" secondAttribute="trailing" id="8uT-xE-A3m"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="8" id="9xY-au-Nu2"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="top" secondItem="r54-86-QgL" secondAttribute="top" constant="16" id="JPO-CQ-C2f"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="trailing" secondItem="5sm-4W-hPv" secondAttribute="trailing" constant="4" id="PFw-8P-fzz"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="bottom" secondItem="5sm-4W-hPv" secondAttribute="bottom" id="aOB-8u-JxK"/>
+                                    <constraint firstItem="dRi-Pk-tlh" firstAttribute="centerY" secondItem="E0p-Lh-SC7" secondAttribute="centerY" constant="-4" id="pGd-Lz-mp8"/>
                                     <constraint firstAttribute="centerY" secondItem="dRi-Pk-tlh" secondAttribute="centerY" constant="-32" id="sFG-0s-aAr"/>
                                 </constraints>
                             </view>
@@ -148,7 +150,7 @@
                                     <constraint firstAttribute="height" constant="128" id="8VB-Sh-80p"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-pV-ycq">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="FGb-pV-ycq">
                                 <rect key="frame" x="0.0" y="256" width="600" height="344"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
@@ -165,7 +167,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmP-8J-itM">
-                                                    <rect key="frame" x="15" y="14.5" width="96" height="17"/>
+                                                    <rect key="frame" x="15" y="14" width="96" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="96" id="CfT-4k-pMh"/>
                                                     </constraints>
@@ -208,6 +210,7 @@
                             <constraint firstItem="zdx-9N-ruz" firstAttribute="top" secondItem="eTf-In-sok" secondAttribute="bottom" id="GO3-Hl-cPr"/>
                             <constraint firstAttribute="trailing" secondItem="FGb-pV-ycq" secondAttribute="trailing" id="LHT-4a-pIW"/>
                             <constraint firstAttribute="trailing" secondItem="8gv-X7-qpb" secondAttribute="trailing" id="MPz-vG-sdP"/>
+                            <constraint firstItem="ocO-EA-PXa" firstAttribute="leading" secondItem="dRi-Pk-tlh" secondAttribute="trailing" constant="8" id="NDr-CH-CYL"/>
                             <constraint firstItem="8gv-X7-qpb" firstAttribute="leading" secondItem="C2S-3r-gtX" secondAttribute="leading" id="NpP-S0-lhm"/>
                             <constraint firstItem="eTf-In-sok" firstAttribute="leading" secondItem="C2S-3r-gtX" secondAttribute="leading" id="QHc-Uf-8Ph"/>
                             <constraint firstItem="ocO-EA-PXa" firstAttribute="width" secondItem="zdx-9N-ruz" secondAttribute="width" id="Raf-Tq-gb0"/>
@@ -218,6 +221,7 @@
                             <constraint firstItem="uIq-Yu-BSt" firstAttribute="top" secondItem="FGb-pV-ycq" secondAttribute="bottom" id="e6h-jK-Gal"/>
                             <constraint firstItem="ocO-EA-PXa" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="trailing" id="uAf-dt-StN"/>
                             <constraint firstItem="FGb-pV-ycq" firstAttribute="top" secondItem="8gv-X7-qpb" secondAttribute="bottom" id="uGg-aD-RQN"/>
+                            <constraint firstItem="ocO-EA-PXa" firstAttribute="leading" secondItem="I4G-Yc-jgy" secondAttribute="trailing" constant="8" id="vcy-8p-r6o"/>
                             <constraint firstItem="FGb-pV-ycq" firstAttribute="leading" secondItem="C2S-3r-gtX" secondAttribute="leading" id="w7m-sN-z3B"/>
                             <constraint firstAttribute="trailing" secondItem="ocO-EA-PXa" secondAttribute="trailing" id="xgR-8W-WbK"/>
                             <constraint firstItem="eTf-In-sok" firstAttribute="top" secondItem="PVD-Nm-XzG" secondAttribute="bottom" id="yY7-gT-ApJ"/>
@@ -1169,14 +1173,14 @@
                                             <outlet property="delegate" destination="LBP-Ai-M6A" id="jd8-w8-g7f"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="说明：另外总平均绩点(Overall GPA)是将全部所修学科按上述方法计算出来的点数，最后两年平均绩点(GPA for the last two years)即将最后两年所修各科算出来的点数。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="说明：这里采用的是标准4.0制GPA与百分制的转换算法。由于各个学校的GPA算法不同，申请中最好使用百分制成绩，如有教务官方的GPA转换证明，也可使用转换后的GPA。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
                                         <rect key="frame" x="15" y="478" width="570" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请中请使用百分制GPA或标准4.0制GPA，其他算法往往会被换算为标准GPA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-Dy-xdL">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请中请使用百分制或标准4.0制GPA，其他算法往往会被换算为标准GPA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-Dy-xdL">
                                         <rect key="frame" x="15" y="163" width="570" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1870,6 +1874,7 @@
         <image name="TriangleButtonUp" width="44" height="33"/>
         <image name="UnitConverterNavigationBackground" width="320" height="256"/>
         <image name="UnitConverterSelectedBackground" width="53" height="64"/>
+        <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="flF-XO-gRb"/>
