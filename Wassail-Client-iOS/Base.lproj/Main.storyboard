@@ -157,7 +157,20 @@
                                 <view key="tableFooterView" contentMode="scaleToFill" id="gGo-EO-gGu">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多内容持续更新中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mi-oD-rSZ">
+                                            <rect key="frame" x="15" y="8" width="570" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="2Mi-oD-rSZ" firstAttribute="leading" secondItem="gGo-EO-gGu" secondAttribute="leading" constant="15" id="0RM-YL-9Tq"/>
+                                        <constraint firstAttribute="trailing" secondItem="2Mi-oD-rSZ" secondAttribute="trailing" constant="15" id="DPb-Ur-tyf"/>
+                                        <constraint firstItem="2Mi-oD-rSZ" firstAttribute="top" secondItem="gGo-EO-gGu" secondAttribute="top" constant="8" id="cKv-tY-fUF"/>
+                                    </constraints>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UnitConverterTableViewCellReuseIdentifier" rowHeight="44" id="t5I-nk-WKp" customClass="UnitConverterTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -343,6 +356,24 @@
                                 <rect key="frame" x="0.0" y="172" width="600" height="428"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="rqS-I6-wd1">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多内容持续更新中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wN-0a-DZO">
+                                            <rect key="frame" x="15" y="8" width="570" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="5wN-0a-DZO" firstAttribute="leading" secondItem="rqS-I6-wd1" secondAttribute="leading" constant="15" id="QHV-ZI-SNU"/>
+                                        <constraint firstAttribute="trailing" secondItem="5wN-0a-DZO" secondAttribute="trailing" constant="15" id="byp-AN-46q"/>
+                                        <constraint firstItem="5wN-0a-DZO" firstAttribute="top" secondItem="rqS-I6-wd1" secondAttribute="top" constant="8" id="f9J-TM-aqk"/>
+                                    </constraints>
+                                </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SizeConverterTableViewCellReuseIdentifier" id="cxa-2m-7mE" customClass="RKNumbersViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>

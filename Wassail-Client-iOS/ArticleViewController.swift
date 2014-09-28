@@ -24,6 +24,9 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         // Apply table view cell self sizing
         self.tableView!.estimatedRowHeight = 88.0
         self.tableView!.rowHeight = UITableViewAutomaticDimension
+        
+        // Force reload
+        self.tableView!.reloadData()
     }
     
     override func viewWillAppear(animated: Bool) {

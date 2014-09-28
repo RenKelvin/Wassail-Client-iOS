@@ -21,7 +21,33 @@
                                 },
                                 {
                                 "content": {
+                                "type": "HLImg",
+                                "name": "world clock",
+                                "body": {
+                                "source": {
+                                "source-type": "HLTool",
+                                "source-name": "world clock"
+                                }
+                                }
+                                },
+                                "kind": "Item"
+                                },
+                                {
+                                "content": {
                                 "type": "HLToolPreview",
+                                "name": "world clock",
+                                "body": {
+                                "source": {
+                                "source-type": "HLTool",
+                                "source-name": "world clock"
+                                }
+                                }
+                                },
+                                "kind": "Item"
+                                },
+                                {
+                                "content": {
+                                "type": "HLLinkPreview",
                                 "name": "world clock",
                                 "body": {
                                 "source": {

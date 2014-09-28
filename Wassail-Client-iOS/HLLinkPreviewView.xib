@@ -10,6 +10,9 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItemLinkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gm5-bP-B6E">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
+                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LinkIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5BI-4N-Kwb">
                     <rect key="frame" x="5" y="5" width="54" height="54"/>
                     <constraints>
@@ -30,23 +33,33 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" constant="5" id="5R8-sH-SwN"/>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="bottom" secondItem="e63-iL-lD2" secondAttribute="bottom" id="8Xn-bE-3LL"/>
                 <constraint firstItem="sW5-8c-efJ" firstAttribute="top" secondItem="5BI-4N-Kwb" secondAttribute="top" id="Lf8-fG-mag"/>
+                <constraint firstItem="gm5-bP-B6E" firstAttribute="top" secondItem="wKl-QF-ZlN" secondAttribute="top" id="PYV-zE-SsD"/>
                 <constraint firstItem="e63-iL-lD2" firstAttribute="leading" secondItem="5BI-4N-Kwb" secondAttribute="trailing" constant="8" id="Q3l-md-vM1"/>
                 <constraint firstAttribute="centerY" secondItem="5BI-4N-Kwb" secondAttribute="centerY" id="VFL-fe-J7w"/>
+                <constraint firstItem="gm5-bP-B6E" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" id="cml-Qf-pwa"/>
                 <constraint firstItem="sW5-8c-efJ" firstAttribute="leading" secondItem="5BI-4N-Kwb" secondAttribute="trailing" constant="8" id="d1q-Be-3VA"/>
+                <constraint firstAttribute="bottom" secondItem="gm5-bP-B6E" secondAttribute="bottom" id="joV-EU-5jB"/>
                 <constraint firstAttribute="trailing" secondItem="sW5-8c-efJ" secondAttribute="trailing" constant="15" id="jy8-JB-k7L"/>
                 <constraint firstAttribute="trailing" secondItem="e63-iL-lD2" secondAttribute="trailing" constant="15" id="rNV-xq-a8Q"/>
+                <constraint firstAttribute="trailing" secondItem="gm5-bP-B6E" secondAttribute="trailing" id="x9q-gw-iVw"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="543" y="406"/>
+            <connections>
+                <outlet property="iconImageView" destination="5BI-4N-Kwb" id="1MG-WA-bqb"/>
+                <outlet property="noteLabel" destination="e63-iL-lD2" id="IeW-dI-291"/>
+                <outlet property="titleLabel" destination="sW5-8c-efJ" id="7Bi-78-oly"/>
+            </connections>
+            <point key="canvasLocation" x="512" y="402"/>
         </view>
     </objects>
     <resources>
+        <image name="ItemLinkBackground" width="300" height="64"/>
         <image name="LinkIcon" width="54" height="54"/>
     </resources>
 </document>
