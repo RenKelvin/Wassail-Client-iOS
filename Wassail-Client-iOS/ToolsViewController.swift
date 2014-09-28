@@ -13,14 +13,13 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
     
+    @IBOutlet var monthLabel: UILabel?
+    @IBOutlet var dayLabel: UILabel?
+    
     let info: ToolsInfo = ToolsInfo.instance
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //
-        //        let url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
-        //        println(url)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -35,6 +34,16 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         let width = self.tableView?.superview?.frame.size.width
         self.tableViewHeaderView?.frame.size.width = width!
         self.tableViewHeaderView?.frame.origin.y = -44.0
+        
+        // Update date
+        let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
+        let components = calendar.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
+        
+        let month = components.month as Int
+        let day = components.day as Int
+        
+        monthLabel!.text = NSString(format: "\(month)月")
+        dayLabel!.text = String(day)
     }
     
     override func didReceiveMemoryWarning() {

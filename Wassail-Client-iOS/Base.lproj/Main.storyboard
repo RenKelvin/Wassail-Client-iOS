@@ -762,6 +762,8 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="90T-fz-97V"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="dayLabel" destination="Ge8-aV-TVz" id="lyR-YI-mDG"/>
+                        <outlet property="monthLabel" destination="YFy-Uf-ATG" id="QWI-Kd-2H3"/>
                         <outlet property="tableView" destination="HrX-Pq-H8U" id="DvP-eC-wt8"/>
                         <outlet property="tableViewHeaderView" destination="ZVs-Xb-UQs" id="0mZ-AX-ciV"/>
                         <segue destination="WRg-lq-Ju5" kind="show" identifier="ToolsUnitConverterSegueIdentifier" id="kVD-07-a4B"/>
