@@ -72,8 +72,22 @@ class GPACalculatorViewController: UIViewController {
     
     func updateNumbers() {
         
-        gpa = 3.33
-        ranking = 0.1234
+        // GPA
+        if (input > 93.0) {
+            gpa = 4.0
+        }
+        else if (input < 60.0) {
+            gpa = 0.0
+        }
+        else {
+            gpa = (1.0/11.0)*input - (49.0/11.0)
+        }
+        
+        // Ranking
+        ranking = (-1.0/30.0)*(gpa-1)*(gpa-14)
+        if (ranking < 0.01) {
+            ranking = 0.01
+        }
         
         self.updateViews()
     }
@@ -112,8 +126,8 @@ class GPACalculatorViewController: UIViewController {
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        let amount = NSString(string: textField.text).doubleValue
-        textField.text = NSString(format: "%.2f", amount)
+        input = NSString(string: textField.text).doubleValue
+        textField.text = NSString(format: "%.2f", input)
         
         self.updateNumbers()
         
