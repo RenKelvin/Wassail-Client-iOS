@@ -70,8 +70,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
-        let title: String = list.titleForGroup(section)
         
+        var title: String = list.titleForGroup(section)
+        if (title == "-") {
+            title = ""
+        }
+
         headerView.setTitle(title)
         
         return headerView

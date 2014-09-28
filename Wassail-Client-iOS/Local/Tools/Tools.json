@@ -9,22 +9,22 @@
                     },
                     {
                     "ready": "true",
-                    "note": "世界大学权威排名及分析",
+                    "note": "标准GPA转换，分数排名",
                     "title": "GPA计算器",
                     "icon": "ToolsIconTipsCalculator",
                     "identifier": "UniversityRankings"
                     },
                     {
-                    "ready": "true",
-                    "note": "世界大学权威排名及分析",
+                    "ready": "false",
+                    "note": "留学申请文书解析、范例",
                     "title": "申请文书全解",
                     "icon": "ToolsIconApplyDocuments",
                     "identifier": "ApplyDocuments"
                     },
                     {
                     "ready": "true",
-                    "note": "世界大学权威排名及分析",
-                    "title": "申请常用词汇",
+                    "note": "留学生活中常见的术语，单词，缩写",
+                    "title": "留学常用词汇",
                     "icon": "ToolsIconInfoContainer",
                     "identifier": "UniversityRankings"
                     }
@@ -39,7 +39,7 @@
                      },
                      {
                      "ready": "true",
-                     "note": "快速计算吃饭，打车，酒店等小费",
+                     "note": "快速计算吃饭小费，支持AA付款",
                      "title": "小费计算器",
                      "icon": "ToolsIconTipsCalculator",
                      "identifier": "TipsCalculator"

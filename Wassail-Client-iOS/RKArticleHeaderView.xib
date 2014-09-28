@@ -18,32 +18,44 @@
                     <size key="shadowOffset" width="0.0" height="1"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pez-AB-8VS">
-                    <rect key="frame" x="0.0" y="0.0" width="7" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="4" height="44"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="7" id="una-iK-KEZ"/>
+                        <constraint firstAttribute="width" constant="4" id="una-iK-KEZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cnh-aj-XyN">
+                    <rect key="frame" x="476" y="0.0" width="4" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="4" id="wF5-pP-cfq"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Ahv-X7-RsP" firstAttribute="leading" secondItem="Pez-AB-8VS" secondAttribute="trailing" constant="8" id="6yv-CV-HtZ"/>
+                <constraint firstItem="Cnh-aj-XyN" firstAttribute="top" secondItem="SsE-l3-ooT" secondAttribute="top" id="22G-7A-gk3"/>
+                <constraint firstItem="Cnh-aj-XyN" firstAttribute="leading" secondItem="Ahv-X7-RsP" secondAttribute="trailing" constant="11" id="2bb-7u-gjR"/>
+                <constraint firstItem="Ahv-X7-RsP" firstAttribute="leading" secondItem="Pez-AB-8VS" secondAttribute="trailing" constant="11" id="6yv-CV-HtZ"/>
+                <constraint firstAttribute="trailing" secondItem="Cnh-aj-XyN" secondAttribute="trailing" id="Prf-ee-n2P"/>
                 <constraint firstAttribute="centerY" secondItem="Ahv-X7-RsP" secondAttribute="centerY" id="Vrf-hm-3TQ"/>
                 <constraint firstAttribute="bottom" secondItem="Pez-AB-8VS" secondAttribute="bottom" id="coH-2U-sCn"/>
                 <constraint firstAttribute="trailing" secondItem="Ahv-X7-RsP" secondAttribute="trailing" constant="15" id="d5j-SJ-AUx"/>
                 <constraint firstItem="Ahv-X7-RsP" firstAttribute="leading" secondItem="SsE-l3-ooT" secondAttribute="leading" constant="15" id="nJs-iT-6dR"/>
                 <constraint firstItem="Pez-AB-8VS" firstAttribute="leading" secondItem="SsE-l3-ooT" secondAttribute="leading" id="rbI-cf-EWX"/>
+                <constraint firstAttribute="bottom" secondItem="Cnh-aj-XyN" secondAttribute="bottom" id="sn9-Lg-DgT"/>
                 <constraint firstItem="Pez-AB-8VS" firstAttribute="top" secondItem="SsE-l3-ooT" secondAttribute="top" id="xO4-wv-GBJ"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
+                    <exclude reference="d5j-SJ-AUx"/>
                     <exclude reference="nJs-iT-6dR"/>
                 </mask>
             </variation>
             <connections>
-                <outlet property="leaderView" destination="Pez-AB-8VS" id="Iye-Sd-3zJ"/>
+                <outlet property="leaderView" destination="Pez-AB-8VS" id="oPD-0s-nGe"/>
                 <outlet property="titleLabel" destination="Ahv-X7-RsP" id="Ewq-wL-38A"/>
             </connections>
             <point key="canvasLocation" x="402" y="355"/>

@@ -91,9 +91,14 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
         
-        let title: String = article.titleForChapter(section)
+        var title: String = article.titleForChapter(section)
+        if (title == "-") {
+            title = ""
+        }
+        
         headerView.setTitle(title)
-//        headerView.setLeaderColor(section)
+        
+        headerView.setLeaderColor(section)
         
         return headerView
     }
