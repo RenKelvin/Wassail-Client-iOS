@@ -28,8 +28,6 @@
 		FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07319D71BD4007E63BC /* Size Converter.json */; };
 		FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07419D71BD4007E63BC /* Tools.json */; };
 		FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07519D71BD4007E63BC /* Unit Converter.json */; };
-		FE5BC08019D71BD4007E63BC /* 留学时间表.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07719D71BD4007E63BC /* 留学时间表.json */; };
-		FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -119,6 +117,8 @@
 		FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC1A19D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json */; };
 		FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC1B19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json */; };
 		FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC1C19D8669000A24409 /* 1.5.9常用信用卡列表.md.json */; };
+		FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */; };
+		FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
@@ -191,8 +191,6 @@
 		FE5BC07319D71BD4007E63BC /* Size Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Size Converter.json"; sourceTree = "<group>"; };
 		FE5BC07419D71BD4007E63BC /* Tools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
 		FE5BC07519D71BD4007E63BC /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
-		FE5BC07719D71BD4007E63BC /* 留学时间表.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.json"; sourceTree = "<group>"; };
-		FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学常用词汇.json"; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -282,6 +280,8 @@
 		FEA0FC1A19D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5.7第一张信用卡如何选择.md.json"; sourceTree = "<group>"; };
 		FEA0FC1B19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5.8美国信用卡分类介绍.md.json"; sourceTree = "<group>"; };
 		FEA0FC1C19D8669000A24409 /* 1.5.9常用信用卡列表.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5.9常用信用卡列表.md.json"; sourceTree = "<group>"; };
+		FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学常用词汇.md.json"; sourceTree = "<group>"; };
+		FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.md.json"; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
@@ -455,8 +455,8 @@
 				FE5BC07319D71BD4007E63BC /* Size Converter.json */,
 				FE5BC07419D71BD4007E63BC /* Tools.json */,
 				FE5BC07519D71BD4007E63BC /* Unit Converter.json */,
-				FE5BC08419D71CAC007E63BC /* 留学常用词汇.json */,
-				FE5BC07719D71BD4007E63BC /* 留学时间表.json */,
+				FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */,
+				FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -903,6 +903,7 @@
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
+				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
@@ -920,6 +921,7 @@
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
+				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
 				FEA0FBDF19D846A400A24409 /* 1.3.0THE世界大学排名.md.json in Resources */,
 				FEA0FC2819D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json in Resources */,
@@ -943,7 +945,6 @@
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
-				FE5BC08019D71BD4007E63BC /* 留学时间表.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
@@ -963,7 +964,6 @@
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
-				FE5BC08519D71CAC007E63BC /* 留学常用词汇.json in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
