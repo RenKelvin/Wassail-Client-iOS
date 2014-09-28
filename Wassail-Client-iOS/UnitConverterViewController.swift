@@ -19,7 +19,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     var input: Double = 1.0
     @IBOutlet var inputTextField: UITextField?
     @IBOutlet var inputUnitLabel: UILabel?
-    
+    @IBOutlet var keyboardAccessoryView: UIView?
+
     var output: Double = 0.0
     @IBOutlet var outputTextField: UITextField?
     @IBOutlet var outputUnitLabel: UILabel?
@@ -45,6 +46,8 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         rightPickerView!.delegate = self
         rightPickerView!.tag = 1
         
+        inputTextField!.inputAccessoryView = keyboardAccessoryView
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -53,6 +56,10 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         self.selectCategory(0)
         self.updateNumbersByInput()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        inputTextField!.becomeFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {
@@ -115,6 +122,12 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         return output
     }
     
+    // MARK: - IBAction
+    
+    @IBAction func doneButtonTapped() {
+        inputTextField!.resignFirstResponder()
+    }
+
     // MARK: - TableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -165,7 +178,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         return headerView
     }
-        
+    
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         // Deselect
@@ -176,7 +189,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: - UICollectionViewDataSource
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-       
+        
         return 1
     }
     

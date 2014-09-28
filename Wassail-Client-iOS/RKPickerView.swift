@@ -105,7 +105,7 @@ class RKPickerView: UIView {
             },
             completion: {
                 finished in
-                println("Pick \(num) end")
+                let a = 1
             }
         )
         
