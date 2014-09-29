@@ -16,11 +16,11 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
     
     override func configure(item: NSDictionary?) {
         
+        if (itemView != nil) {
+            itemView!.removeFromSuperview()
+        }
+        
         if (item == nil) {
-            
-            if (itemView != nil) {
-                itemView!.removeFromSuperview()
-            }
             
             return
         }
@@ -44,14 +44,23 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             itemView!.frame.size.width = itemContainerView!.frame.width
             
             let linkBody = item!.objectForKey("body") as NSDictionary
-
+            
             itemView!.controller = controller
             itemView!.configure(linkBody)
             
         case "HLImg":
             itemView = NSBundle.mainBundle().loadNibNamed("HLImageView", owner: nil, options: nil).first as HLImageView
-            itemView!.frame.size.width = itemContainerView!.frame.width
-            //            view.configure(item)
+            
+            let imageBody = item!.objectForKey("body") as NSDictionary
+            
+            itemView!.configure(imageBody)
+            
+            itemView!.frame.size.width = DefaultInfo.instance.getScreenWidth() - 30.0
+            //            itemView!.frame.size = itemView!.sizeThatFits(itemView!.frame.size)
+            //            println("itemview \(itemView!.frame.size)")
+            //
+            //            itemContainerView!.frame.size = itemView!.frame.size
+            //            println("itemContainerView \(itemContainerView!.frame.size)")
             
         default:
             ""
@@ -60,18 +69,12 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
         itemContainerView!.addSubview(itemView!)
         
         // Add constraints
-        //        let leftConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Left, multiplier: 1.0, constant: 0.0)
-        //        itemContainerView!.addConstraint(leftConstraint)
-        //
-        //        let rightConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Right, multiplier: 1.0, constant: 0.0)
-        //        itemContainerView!.addConstraint(rightConstraint)
         
         let upConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Top, multiplier: 1.0, constant: 0.0)
         itemContainerView!.addConstraint(upConstraint)
         
         let downConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 0.0)
         itemContainerView!.addConstraint(downConstraint)
-        
     }
     
 }

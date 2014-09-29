@@ -94,6 +94,23 @@ class LocalAdapter: NSObject {
         return json
     }
     
+    func getImage(file: String, dir: Directory) -> UIImage? {
+        
+        var url = self.getURL(file, type: "png", dir: dir)
+        if (url == nil) {
+            url = self.getURL(file, type: "jpg", dir: dir)
+        }
+        
+        if (url == nil) {
+            println("Local Adapter: \(file).png in not found in \(dir)")
+            return nil
+        }
+        
+        let image = UIImage(contentsOfFile: url!.path!)
+        
+        return image
+    }
+    
     func getURL(file: String, type: String, dir: Directory) -> NSURL? {
         
         var url: NSURL?

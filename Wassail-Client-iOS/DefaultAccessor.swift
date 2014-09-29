@@ -27,6 +27,10 @@ class DefaultAccessor: NSObject {
         return HLItemBuilder.build(raw!)
     }
     
+    func getImage(name: NSString) -> UIImage? {
+        return LocalMediator.instance.getImage(name)
+    }
+    
     func getTools() -> NSDictionary? {
         return LocalMediator.instance.getTools()
     }

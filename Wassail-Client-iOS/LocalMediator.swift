@@ -16,6 +16,13 @@ class LocalMediator: NSObject {
     return _LocalMediatorSharedInstance
     }
     
+    func getImage(name: NSString) -> UIImage? {
+        
+        let image = LocalAdapter.instance.getImage(name, dir: .Bundle)
+        
+        return image
+    }
+
     func getTools() -> NSDictionary? {
         
         let dict = LocalAdapter.instance.getJson("Tools", dir: .Bundle)

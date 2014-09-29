@@ -12,13 +12,21 @@ class HLImageView: HLItemView {
     
     @IBOutlet var imageView: UIImageView?
     
+    var image: NSDictionary?
+    
     override func configure(dict: NSDictionary?) {
         
         if (dict == nil) {
             return
         }
         
-        // TODO: add image
+        self.image = dict
+        
+        let name = dict!.objectForKey("address") as NSString
+        self.imageView!.image = DefaultInfo.instance.getImage(name)
+        
+        self.sizeToFit()
+        println(self.sizeThatFits(self.frame.size))
     }
     
 }

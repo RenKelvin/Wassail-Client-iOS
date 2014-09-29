@@ -27,7 +27,7 @@
         "note": "标准GPA转换，分数排名",
         "title": "GPA计算器",
         "icon": "ToolsIconTipsCalculator",
-        "identifier": "UniversityRankings"
+        "identifier": "GPACalculator"
     },
     "apply documents": {
         "ready": "false",
@@ -46,7 +46,7 @@
     "credit card": {
         "ready": "true",
         "note": "信用卡申请，额度，积分，省钱攻略",
-        "title": "信用卡攻略",
+        "title": "信用卡",
         "icon": "ToolsIconCreditCard",
         "identifier": "CreditCard"
     },

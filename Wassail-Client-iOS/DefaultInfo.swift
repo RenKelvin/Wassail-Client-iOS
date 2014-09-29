@@ -20,4 +20,11 @@ class DefaultInfo: NSObject {
         return DefaultAccessor.instance.getItem(name)
     }
     
+    func getImage(name: NSString) -> UIImage? {
+        return DefaultAccessor.instance.getImage(name)
+    }
+    
+    func getScreenWidth() -> CGFloat {
+        return UIScreen.mainScreen().bounds.size.width
+    }
 }

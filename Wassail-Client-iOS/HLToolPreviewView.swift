@@ -41,12 +41,17 @@ class HLToolPreviewView: HLItemView {
     
     @IBAction func tapHandler() {
         
+        let ready = self.tool!.objectForKey("ready") as NSString
+        if (ready == "false") {
+            return
+        }
+        
         if (self.tool == nil || self.controller == nil) {
             return
         }
         
         //
-        let identifier = "Ariticle" + (tool!.objectForKey("identifier") as NSString) + "SegueIdentifier"
+        let identifier = "Article" + (tool!.objectForKey("identifier") as NSString) + "SegueIdentifier"
         
         //
         var sender: NSDictionary

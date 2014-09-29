@@ -154,6 +154,33 @@
 		FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */; };
 		FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */; };
 		FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1600919D8FB5E0022883E /* HLItemView.swift */; };
+		FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1600B19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg */; };
+		FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1600C19D925030022883E /* 1.2.1TOP20对比.png */; };
+		FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1600D19D925030022883E /* 1.2.2Top 200按国家统计对比.png */; };
+		FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1600E19D925030022883E /* 1.2.3领域学科排名对比.png */; };
+		FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1600F19D925030022883E /* 1.3.1THE评价标准.png */; };
+		FEE1602219D925030022883E /* 1.3.2.1THE2013-2014.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601019D925030022883E /* 1.3.2.1THE2013-2014.png */; };
+		FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601119D925030022883E /* 1.3.2.2THE2012-2013.png */; };
+		FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601219D925030022883E /* 1.4.1QS评价标准.png */; };
+		FEE1602519D925030022883E /* 1.4.2.1QS2015排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601319D925030022883E /* 1.4.2.1QS2015排名.png */; };
+		FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601419D925030022883E /* 1.4.2.2QS2014排名.png */; };
+		FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601519D925030022883E /* 1.5.1ARWU评价标准.png */; };
+		FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601619D925030022883E /* 1.5.2.1ARWU2014排名.png */; };
+		FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601719D925030022883E /* 1.5.2.2ARWU2013排名.png */; };
+		FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601819D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png */; };
+		FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601919D925030022883E /* 2.3USNews评价标准.png */; };
+		FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601A19D925030022883E /* 2.4NationalUniversity.png */; };
+		FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601B19D925030022883E /* 2.5LiberalArtsCollege.png */; };
+		FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE1601C19D925030022883E /* 2.11福布斯2014美国大学排行榜.png */; };
+		FEE1603519D9250C0022883E /* 1.3AmericanExpressLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1602F19D9250C0022883E /* 1.3AmericanExpressLogo.jpg */; };
+		FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603019D9250C0022883E /* 1.3Diner'sClubLogo.jpg */; };
+		FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603119D9250C0022883E /* 1.3JCBLogo.jpg */; };
+		FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603219D9250C0022883E /* 1.3MasterCardLogo.jpg */; };
+		FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603319D9250C0022883E /* 1.3VISALogo.jpg */; };
+		FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603419D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg */; };
+		FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603B19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json */; };
+		FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */; };
+		FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -318,6 +345,33 @@
 		FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterViewController.swift; sourceTree = "<group>"; };
 		FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterTableViewCell.swift; sourceTree = "<group>"; };
 		FEE1600919D8FB5E0022883E /* HLItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemView.swift; sourceTree = "<group>"; };
+		FEE1600B19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.1.4权威解读泰晤士报雪排名－照片.jpg"; sourceTree = "<group>"; };
+		FEE1600C19D925030022883E /* 1.2.1TOP20对比.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.2.1TOP20对比.png"; sourceTree = "<group>"; };
+		FEE1600D19D925030022883E /* 1.2.2Top 200按国家统计对比.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.2.2Top 200按国家统计对比.png"; sourceTree = "<group>"; };
+		FEE1600E19D925030022883E /* 1.2.3领域学科排名对比.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.2.3领域学科排名对比.png"; sourceTree = "<group>"; };
+		FEE1600F19D925030022883E /* 1.3.1THE评价标准.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.3.1THE评价标准.png"; sourceTree = "<group>"; };
+		FEE1601019D925030022883E /* 1.3.2.1THE2013-2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.3.2.1THE2013-2014.png"; sourceTree = "<group>"; };
+		FEE1601119D925030022883E /* 1.3.2.2THE2012-2013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.3.2.2THE2012-2013.png"; sourceTree = "<group>"; };
+		FEE1601219D925030022883E /* 1.4.1QS评价标准.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.4.1QS评价标准.png"; sourceTree = "<group>"; };
+		FEE1601319D925030022883E /* 1.4.2.1QS2015排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.4.2.1QS2015排名.png"; sourceTree = "<group>"; };
+		FEE1601419D925030022883E /* 1.4.2.2QS2014排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.4.2.2QS2014排名.png"; sourceTree = "<group>"; };
+		FEE1601519D925030022883E /* 1.5.1ARWU评价标准.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.5.1ARWU评价标准.png"; sourceTree = "<group>"; };
+		FEE1601619D925030022883E /* 1.5.2.1ARWU2014排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.5.2.1ARWU2014排名.png"; sourceTree = "<group>"; };
+		FEE1601719D925030022883E /* 1.5.2.2ARWU2013排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.5.2.2ARWU2013排名.png"; sourceTree = "<group>"; };
+		FEE1601819D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.2.2如何赢得“US News排名”这个游戏 照片.png"; sourceTree = "<group>"; };
+		FEE1601919D925030022883E /* 2.3USNews评价标准.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.3USNews评价标准.png"; sourceTree = "<group>"; };
+		FEE1601A19D925030022883E /* 2.4NationalUniversity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.4NationalUniversity.png; sourceTree = "<group>"; };
+		FEE1601B19D925030022883E /* 2.5LiberalArtsCollege.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.5LiberalArtsCollege.png; sourceTree = "<group>"; };
+		FEE1601C19D925030022883E /* 2.11福布斯2014美国大学排行榜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.11福布斯2014美国大学排行榜.png"; sourceTree = "<group>"; };
+		FEE1602F19D9250C0022883E /* 1.3AmericanExpressLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.3AmericanExpressLogo.jpg; sourceTree = "<group>"; };
+		FEE1603019D9250C0022883E /* 1.3Diner'sClubLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.3Diner'sClubLogo.jpg"; sourceTree = "<group>"; };
+		FEE1603119D9250C0022883E /* 1.3JCBLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.3JCBLogo.jpg; sourceTree = "<group>"; };
+		FEE1603219D9250C0022883E /* 1.3MasterCardLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.3MasterCardLogo.jpg; sourceTree = "<group>"; };
+		FEE1603319D9250C0022883E /* 1.3VISALogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.3VISALogo.jpg; sourceTree = "<group>"; };
+		FEE1603419D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.5.4信用分数影响因素比重.jpg"; sourceTree = "<group>"; };
+		FEE1603B19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.11福布斯美国大学排行榜.md.json"; sourceTree = "<group>"; };
+		FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.12更多榜单.md.json"; sourceTree = "<group>"; };
+		FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,39 +527,60 @@
 				FEA0FBA719D846A300A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json */,
 				FEA0FBA819D846A300A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json */,
 				FEA0FBA919D846A300A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json */,
+				FEE1600B19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg */,
 				FEA0FBAA19D846A300A24409 /* 1.2.0三大排名对比.md.json */,
+				FEE1600C19D925030022883E /* 1.2.1TOP20对比.png */,
+				FEE1600D19D925030022883E /* 1.2.2Top 200按国家统计对比.png */,
+				FEE1600E19D925030022883E /* 1.2.3领域学科排名对比.png */,
 				FEA0FBAB19D846A300A24409 /* 1.3.0THE世界大学排名.md.json */,
 				FEA0FBAC19D846A300A24409 /* 1.3.1THE评价标准.md.json */,
+				FEE1600F19D925030022883E /* 1.3.1THE评价标准.png */,
 				FEA0FBAD19D846A300A24409 /* 1.3.2.1THE2013-2014.md.json */,
+				FEE1601019D925030022883E /* 1.3.2.1THE2013-2014.png */,
 				FEA0FBAE19D846A300A24409 /* 1.3.2.2THE2012-2013.md.json */,
+				FEE1601119D925030022883E /* 1.3.2.2THE2012-2013.png */,
 				FEA0FBAF19D846A300A24409 /* 1.3.3THE其他排名.md.json */,
 				FEA0FBB019D846A300A24409 /* 1.4.0QS世界大学排名.md.json */,
 				FEA0FBB119D846A300A24409 /* 1.4.1QS评价标准.md.json */,
+				FEE1601219D925030022883E /* 1.4.1QS评价标准.png */,
 				FEA0FBB219D846A300A24409 /* 1.4.2.1QS2015排名.md.json */,
+				FEE1601319D925030022883E /* 1.4.2.1QS2015排名.png */,
 				FEA0FBB319D846A300A24409 /* 1.4.2.2QS2014排名.md.json */,
+				FEE1601419D925030022883E /* 1.4.2.2QS2014排名.png */,
 				FEA0FBB419D846A300A24409 /* 1.4.3QS其他排名.md.json */,
 				FEA0FBB519D846A300A24409 /* 1.5.0ARWU世界大学学术排名.md.json */,
 				FEA0FBB619D846A300A24409 /* 1.5.1ARWU评价标准.md.json */,
+				FEE1601519D925030022883E /* 1.5.1ARWU评价标准.png */,
 				FEA0FBB719D846A300A24409 /* 1.5.2.1ARWU2014排名.md.json */,
+				FEE1601619D925030022883E /* 1.5.2.1ARWU2014排名.png */,
 				FEA0FBB819D846A300A24409 /* 1.5.2.2ARWU2013排名.md.json */,
+				FEE1601719D925030022883E /* 1.5.2.2ARWU2013排名.png */,
 				FEA0FBB919D846A300A24409 /* 1.5.3ARWU其他排名.md.json */,
 				FEA0FBBA19D846A300A24409 /* 1.6其他排名.md.json */,
 				FEA0FBBB19D846A300A24409 /* 2.0美国本科排名.md.json */,
 				FEA0FBBC19D846A300A24409 /* 2.1美国大学类型简介.md.json */,
 				FEA0FBBD19D846A300A24409 /* 2.2.0如何看待排名.md.json */,
 				FEA0FBBE19D846A300A24409 /* 2.2.1教你如何看美国大学排名.md.json */,
+				FEE1601819D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png */,
 				FEA0FBBF19D846A300A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json */,
 				FEA0FBC019D846A300A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json */,
 				FEA0FBC119D846A300A24409 /* 2.2.4留学择校须防唯排名论.md.json */,
 				FEA0FBC219D846A300A24409 /* 2.3USNews评价标准.md.json */,
+				FEE1601919D925030022883E /* 2.3USNews评价标准.png */,
 				FEA0FBC319D846A300A24409 /* 2.4NationalUniversity.md.json */,
+				FEE1601A19D925030022883E /* 2.4NationalUniversity.png */,
 				FEA0FBC419D846A300A24409 /* 2.5LiberalArtsCollege.md.json */,
+				FEE1601B19D925030022883E /* 2.5LiberalArtsCollege.png */,
 				FEA0FBC519D846A300A24409 /* 2.7USNews其他排名.md.json */,
 				FEA0FBC619D846A300A24409 /* 2.8普林斯顿评论.md.json */,
 				FEA0FBC719D846A300A24409 /* 2.9耶鲁大学内部指导.md.json */,
 				FEA0FBC819D846A300A24409 /* 2.10菲斯克大学入学指南.md.json */,
+				FEE1601C19D925030022883E /* 2.11福布斯2014美国大学排行榜.png */,
+				FEE1603B19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json */,
+				FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */,
 				FEA0FBC919D846A300A24409 /* 2.62015最新排名解读.md.json */,
 				FEA0FBCA19D846A300A24409 /* 3.0美国研究生及博士排名.md.json */,
+				FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */,
 				FEA0FBCB19D846A300A24409 /* 3.2.0工程院排名.md.json */,
 				FEA0FBCC19D846A300A24409 /* 3.3.0理学院排名（Science）.md.json */,
 				FEA0FBCD19D846A300A24409 /* 3.4.0商学院排名（Business）.md.json */,
@@ -595,6 +670,11 @@
 				FEA0FC0E19D8669000A24409 /* 1.0信用卡.md.json */,
 				FEA0FC0F19D8669000A24409 /* 1.1产品种类.md.json */,
 				FEA0FC1019D8669000A24409 /* 1.2优缺点对比.md.json */,
+				FEE1602F19D9250C0022883E /* 1.3AmericanExpressLogo.jpg */,
+				FEE1603019D9250C0022883E /* 1.3Diner'sClubLogo.jpg */,
+				FEE1603119D9250C0022883E /* 1.3JCBLogo.jpg */,
+				FEE1603219D9250C0022883E /* 1.3MasterCardLogo.jpg */,
+				FEE1603319D9250C0022883E /* 1.3VISALogo.jpg */,
 				FEA0FC1119D8669000A24409 /* 1.3主要公司.md.json */,
 				FEA0FC1219D8669000A24409 /* 1.4中国信用卡境外服务.md.json */,
 				FEA0FC1319D8669000A24409 /* 1.5.0美国信用卡.md.json */,
@@ -602,6 +682,7 @@
 				FEA0FC1519D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json */,
 				FEA0FC1619D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json */,
 				FEA0FC1719D8669000A24409 /* 1.5.4FICOScore计算方法.md.json */,
+				FEE1603419D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg */,
 				FEA0FC1819D8669000A24409 /* 1.5.5信用卡词汇.md.json */,
 				FEA0FC1919D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json */,
 				FEA0FC1A19D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json */,
@@ -904,38 +985,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
+				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
+				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
+				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
+				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				FEA0FC0219D846A400A24409 /* 3.5.0社会科学与人文排名.md.json in Resources */,
 				FEA0FC0419D846A400A24409 /* 3.7.0图书咨询学排名.md.json in Resources */,
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
+				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
+				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
+				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */,
 				FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
+				FEE1603519D9250C0022883E /* 1.3AmericanExpressLogo.jpg in Resources */,
+				FEE1602519D925030022883E /* 1.4.2.1QS2015排名.png in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
 				FEA0FBDF19D846A400A24409 /* 1.3.0THE世界大学排名.md.json in Resources */,
 				FEA0FC2819D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json in Resources */,
 				FEA0FBED19D846A400A24409 /* 1.5.3ARWU其他排名.md.json in Resources */,
+				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
+				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
+				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
 				FEA0FBFA19D846A400A24409 /* 2.8普林斯顿评论.md.json in Resources */,
@@ -944,29 +1038,40 @@
 				FEA0FBF819D846A400A24409 /* 2.5LiberalArtsCollege.md.json in Resources */,
 				FEA0FBDE19D846A400A24409 /* 1.2.0三大排名对比.md.json in Resources */,
 				FEA0FBF619D846A400A24409 /* 2.3USNews评价标准.md.json in Resources */,
+				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
+				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
+				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
+				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
+				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
+				FEE1602219D925030022883E /* 1.3.2.1THE2013-2014.png in Resources */,
 				FEA0FBE219D846A400A24409 /* 1.3.2.2THE2012-2013.md.json in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
+				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
+				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
+				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
+				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
+				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
@@ -975,9 +1080,12 @@
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
+				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
+				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
+				FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */,
 				FEA0FBF519D846A400A24409 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
 				FEA0FBE319D846A400A24409 /* 1.3.3THE其他排名.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
