@@ -10,7 +10,7 @@
                                 "title": "\u7f8e\u672f\u5b66\u9662\u6392\u540d"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/fine-arts-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }
@@ -26,7 +26,7 @@
                                 "title": "\u5236\u9676\u672f"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/ceramics-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -37,7 +37,7 @@
                                 "title": "\u5e73\u9762\u8bbe\u8ba1"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/graphic-design-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -48,7 +48,7 @@
                                 "title": "\u5de5\u4e1a\u8bbe\u8ba1"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/industrial-design-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -59,7 +59,7 @@
                                 "title": "\u5ba4\u5185\u8bbe\u8ba1"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/interior-design-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -70,7 +70,7 @@
                                 "title": "\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/multimedia-visual-communications-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -81,7 +81,7 @@
                                 "title": "\u6cb9\u753b"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/painting-drawing-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -92,7 +92,7 @@
                                 "title": "\u6444\u5f71"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/photography-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -103,7 +103,7 @@
                                 "title": "\u7248\u753b"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/printmaking-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }, 
@@ -114,7 +114,7 @@
                                 "title": "\u96d5\u5851"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/sculpture-rankings", 
-                            "type": "HLList"
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }
