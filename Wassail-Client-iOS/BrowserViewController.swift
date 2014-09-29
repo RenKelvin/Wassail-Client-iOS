@@ -11,20 +11,29 @@ import UIKit
 class BrowserViewController: UIViewController {
     
     var address: NSString = ""
+    var url: NSURL?
+    var request: NSURLRequest?
+    
+    var connection: NSURLConnection?
+    var maxdata: Int = 0
+    var curdata: Int = 0
     
     @IBOutlet var webView: UIWebView?
-
+    
+    @IBOutlet var indicator: UIActivityIndicatorView?
+    
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var urlLabel: UILabel?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let url = NSURL(string: address)
-        let request = NSURLRequest(URL: url)
+        self.url = NSURL(string: address)
+        self.request = NSURLRequest(URL: self.url!)
         
-        webView!.loadRequest(request)
+        // Load request
+        webView!.loadRequest(self.request!)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -44,15 +53,74 @@ class BrowserViewController: UIViewController {
             address = info as NSString
         }
     }
-
+    
     // MARK: - UIWebViewDelegate
     
     func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
         
-        self.titleLabel!.text = webView.stringByEvaluatingJavaScriptFromString("document.title")
-        self.urlLabel!.text = request.URL.absoluteString!
+        //        println("Webview should start: \(request.URL)")
+        
+        //        self.connection = NSURLConnection(request: self.request!, delegate: self)
+        //        self.connection?.start()
         
         return true
+    }
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+        
+        //        println("Webview did start")
+        
+        self.urlLabel!.text = self.request!.URL.absoluteString!
+        
+        self.indicator!.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        
+        //        println("Webview did finish")
+        
+        self.titleLabel!.text = webView.stringByEvaluatingJavaScriptFromString("document.title")
+        
+        self.indicator!.stopAnimating()
+        self.indicator!.hidden = true
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
+        
+        println("Webview did failed: \(error)")
+        
+        self.indicator!.stopAnimating()
+        self.indicator!.hidden = true
+        
+        // TODO: Handle
+    }
+    
+    // MARK: - NSURLConnectionDataDelegate
+    
+    func connection(connection: NSURLConnection, didReceiveResponse response: NSURLResponse) {
+        
+        println("Connection did receive response")
+        
+        self.maxdata = Int(response.expectedContentLength)
+        self.curdata = 0
+    }
+    
+    func connection(connection: NSURLConnection, didReceiveData data: NSData) {
+        
+        println("Connection did receive data")
+        
+        self.curdata += data.length
+        
+        println("----------\(self.curdata)--------\(self.maxdata)")
+    }
+    
+    func connectionDidFinishLoading(connection: NSURLConnection) {
+        
+        println("Connection did finish")
+        
+        self.maxdata = 0
+        self.curdata = 0
+        
     }
     
     /*
