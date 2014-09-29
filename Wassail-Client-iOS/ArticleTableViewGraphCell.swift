@@ -23,7 +23,8 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
             graphLabel?.text = nil
         }
         else {
-            graphLabel?.text = "    " + text!
+            graphLabel?.text = text!
+            //            graphLabel?.text = "    " + text!
         }
     }
     

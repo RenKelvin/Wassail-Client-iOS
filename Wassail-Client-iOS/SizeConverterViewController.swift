@@ -113,7 +113,6 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
-        //
         let category = info.getCategory(ci) as NSDictionary?
         if (category == nil) {
             return headerView
@@ -127,6 +126,26 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         return headerView
     }
     
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        
+        let category = info.getCategory(ci) as NSDictionary?
+        if (category == nil) {
+            return 0.0
+        }
+        
+        let groups = category!.objectForKey("groups") as NSArray
+        let group = groups[section] as NSDictionary
+        
+        let title = group.objectForKey("title") as NSString
+        
+        if (title == "-") {
+            return 0.0
+        }
+        
+        return 20.0
+    }
+    
+
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         // Deselect
