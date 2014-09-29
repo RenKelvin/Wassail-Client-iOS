@@ -6,7 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view alpha="0.98000001907348633" contentMode="scaleToFill" id="SsE-l3-ooT" customClass="RKArticleHeaderView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+        <view alpha="0.97999999999999998" contentMode="scaleToFill" id="SsE-l3-ooT" customClass="RKArticleHeaderView" customModule="Wassail_Client_iOS" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="480" height="44"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -58,7 +58,7 @@
                 <outlet property="leaderView" destination="Pez-AB-8VS" id="oPD-0s-nGe"/>
                 <outlet property="titleLabel" destination="Ahv-X7-RsP" id="Ewq-wL-38A"/>
             </connections>
-            <point key="canvasLocation" x="402" y="355"/>
+            <point key="canvasLocation" x="250" y="143"/>
         </view>
     </objects>
 </document>

@@ -69,16 +69,25 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        
+        var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
         
         var title: String = list.titleForGroup(section)
-        if (title == "-") {
-            title = ""
-        }
-
+        
         headerView.setTitle(title)
         
         return headerView
+    }
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        
+        var title: String = list.titleForGroup(section)
+        
+        if (title == "-") {
+            return 0.0
+        }
+        
+        return 20.0
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -115,7 +124,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             let itemAddress = item.address
             
             self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
-
+            
         default:
             ""
         }

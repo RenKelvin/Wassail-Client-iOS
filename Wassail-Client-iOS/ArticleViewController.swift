@@ -93,12 +93,10 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+        
         var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
         
         var title: String = article.titleForChapter(section)
-        if (title == "-") {
-            title = ""
-        }
         
         headerView.setTitle(title)
         
@@ -110,7 +108,14 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40.0
+        
+        var title: String = article.titleForChapter(section)
+        
+        if (title == "-") {
+            return 0.0
+        }
+        
+        return 44.0
     }
     
     // MARK: - Navigation
