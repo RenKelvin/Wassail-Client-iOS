@@ -11,14 +11,20 @@ import UIKit
 class ArticleTableViewGraphCell: ArticleTableViewCell {
     
     @IBOutlet var graphLabel: UILabel?
-
+    
     override func configure(item: NSDictionary?) {
         
         if (item == nil) {
             return
         }
-
-        graphLabel?.text = item!.objectForKey("content") as NSString?
+        
+        let text = item!.objectForKey("content") as NSString?
+        if (text == nil) {
+            graphLabel?.text = nil
+        }
+        else {
+            graphLabel?.text = "    " + text!
+        }
     }
     
 }
