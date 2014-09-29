@@ -30,7 +30,7 @@ class DefaultAccessor: NSObject {
     func getTools() -> NSDictionary? {
         return LocalMediator.instance.getTools()
     }
-    
+        
     func getSizeConverter() -> NSDictionary? {
         return LocalMediator.instance.getSizeConverter()
     }

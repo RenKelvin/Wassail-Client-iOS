@@ -1124,6 +1124,7 @@
                     <navigationItem key="navigationItem" title="List" id="Nhe-kD-pbl">
                         <barButtonItem key="backBarButtonItem" title=" " id="maP-My-Ea6"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="tableView" destination="Abn-bJ-5vA" id="lVz-eb-9bQ"/>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ListArticleSegueIdentifier" id="fYA-Od-fVe"/>
@@ -1861,9 +1862,11 @@
                     <navigationItem key="navigationItem" title="Article" id="Ld2-MX-9eH">
                         <barButtonItem key="rightBarButtonItem" image="MoreBarItem" id="MSi-Yg-P46"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
                         <outlet property="tableViewHeaderView" destination="rHG-jg-0uj" id="wpX-w2-XiP"/>
+                        <segue destination="gXd-Zp-d01" kind="show" identifier="ArticleListSugueIdentifier" id="5Rv-FT-p8R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phs-DR-b3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1872,6 +1875,16 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TjH-48-Y1q">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <segue destination="v6r-Fh-9PJ" kind="show" identifier="ArticleArticleSugueIdentifier" id="Dfi-Wv-nKX"/>
+                    </connections>
+                </button>
             </objects>
             <point key="canvasLocation" x="1775" y="862"/>
         </scene>
@@ -1920,8 +1933,8 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="r4f-h3-sd1"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="vuL-hi-aIq"/>
     </inferredMetricsTieBreakers>
 </document>

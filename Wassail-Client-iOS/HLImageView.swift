@@ -8,11 +8,11 @@
 
 import UIKit
 
-class HLImageView: UIView {
+class HLImageView: HLItemView {
     
     @IBOutlet var imageView: UIImageView?
     
-    func configure(dict: NSDictionary?) {
+    override func configure(dict: NSDictionary?) {
         
         if (dict == nil) {
             return

@@ -8,13 +8,13 @@
 
 import UIKit
 
-class HLLinkView: UIView {
+class HLLinkView: HLItemView {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     
-    func configure(dict: NSDictionary?) {
+    override func configure(dict: NSDictionary?) {
         
         if (dict == nil) {
             return

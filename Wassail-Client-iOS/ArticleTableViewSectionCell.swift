@@ -12,8 +12,13 @@ class ArticleTableViewSectionCell: ArticleTableViewCell {
     
     @IBOutlet var sectionLabel: UILabel?
     
-    override func configure(item: NSDictionary) {
-        sectionLabel?.text = item.objectForKey("content") as NSString?
+    override func configure(item: NSDictionary?) {
+        
+        if (item == nil) {
+            return
+        }
+
+        sectionLabel?.text = item!.objectForKey("content") as NSString?
     }
     
 }

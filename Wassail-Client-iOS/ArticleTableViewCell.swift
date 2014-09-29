@@ -10,7 +10,9 @@ import UIKit
 
 class ArticleTableViewCell: HLTableViewCell {
 
-    override func configure(item: NSDictionary) {
+    var controller: UIViewController?
+
+    override func configure(item: NSDictionary?) {
         
     }
 

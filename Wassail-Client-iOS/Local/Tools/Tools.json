@@ -1,76 +1,88 @@
 {
-    "apply tools": [
-                    {
-                    "ready": "true",
-                    "note": "世界大学权威排名及分析",
-                    "title": "大学排名",
-                    "icon": "ToolsIconCreditCard",
-                    "identifier": "UniversityRankings"
-                    },
-                    {
-                    "ready": "true",
-                    "note": "标准GPA转换，分数排名",
-                    "title": "GPA计算器",
-                    "icon": "ToolsIconTipsCalculator",
-                    "identifier": "UniversityRankings"
-                    },
-                    {
-                    "ready": "false",
-                    "note": "留学申请文书解析、范例",
-                    "title": "申请文书全解",
-                    "icon": "ToolsIconApplyDocuments",
-                    "identifier": "ApplyDocuments"
-                    },
-                    {
-                    "ready": "true",
-                    "note": "留学生活中常见的术语，单词，缩写",
-                    "title": "留学常用词汇",
-                    "icon": "ToolsIconInfoContainer",
-                    "identifier": "UniversityRankings"
-                    }
-                    ],
-    "aboard tools": [
-                     {
-                     "ready": "true",
-                     "note": "信用卡申请，额度，积分，省钱攻略",
-                     "title": "信用卡攻略",
-                     "icon": "ToolsIconCreditCard",
-                     "identifier": "CreditCard"
-                     },
-                     {
-                     "ready": "true",
-                     "note": "快速计算吃饭小费，支持AA付款",
-                     "title": "小费计算器",
-                     "icon": "ToolsIconTipsCalculator",
-                     "identifier": "TipsCalculator"
-                     },
-                     {
-                     "ready": "true",
-                     "note": "长度，重量，温度等单位换算",
-                     "title": "单位换算",
-                     "icon": "ToolsIconUnitConverter",
-                     "identifier": "UnitConverter"
-                     },
-                     {
-                     "ready": "true",
-                     "note": "衣服，鞋子，戒指等尺码转换",
-                     "title": "尺码转换",
-                     "icon": "ToolsIconSizeConverter",
-                     "identifier": "SizeConverter"
-                     },
-                     {
-                     "ready": "false",
-                     "note": "方便查看世界各地的时间及时差",
-                     "title": "世界时钟",
-                     "icon": "ToolsIconWorldClock",
-                     "identifier": "WorldClock"
-                     },
-                     {
-                     "ready": "false",
-                     "note": "重要信息快速查看，加密储存",
-                     "title": "信息保险箱",
-                     "icon": "ToolsIconInfoContainer",
-                     "identifier": "InfoContainer"
-                     }
-                     ]
+    "names": [
+              [
+               "university rankings",
+               "gpa calculator",
+               "apply documents",
+               "aboard words"
+               ],
+              [
+               "credit card",
+               "tips calculator",
+               "unit converter",
+               "size converter",
+               "world clock",
+               "info container"
+               ],
+              ],
+    "university rankings": {
+        "ready": "true",
+        "note": "世界大学权威排名及分析",
+        "title": "大学排名",
+        "icon": "ToolsIconCreditCard",
+        "identifier": "UniversityRankings"
+    },
+    "gpa calculator": {
+        "ready": "true",
+        "note": "标准GPA转换，分数排名",
+        "title": "GPA计算器",
+        "icon": "ToolsIconTipsCalculator",
+        "identifier": "UniversityRankings"
+    },
+    "apply documents": {
+        "ready": "false",
+        "note": "留学申请文书解析、范例",
+        "title": "申请文书全解",
+        "icon": "ToolsIconApplyDocuments",
+        "identifier": "ApplyDocuments"
+    },
+    "aboard words": {
+        "ready": "true",
+        "note": "留学生活中常见的术语，单词，缩写",
+        "title": "留学常用词汇",
+        "icon": "ToolsIconInfoContainer",
+        "identifier": "AboardWords"
+    },
+    "credit card": {
+        "ready": "true",
+        "note": "信用卡申请，额度，积分，省钱攻略",
+        "title": "信用卡攻略",
+        "icon": "ToolsIconCreditCard",
+        "identifier": "CreditCard"
+    },
+    "tips calculator": {
+        "ready": "true",
+        "note": "快速计算吃饭小费，支持AA付款",
+        "title": "小费计算器",
+        "icon": "ToolsIconTipsCalculator",
+        "identifier": "TipsCalculator"
+    },
+    "unit converter": {
+        "ready": "true",
+        "note": "长度，重量，温度等单位换算",
+        "title": "单位换算",
+        "icon": "ToolsIconUnitConverter",
+        "identifier": "UnitConverter"
+    },
+    "size converter": {
+        "ready": "true",
+        "note": "衣服，鞋子，戒指等尺码转换",
+        "title": "尺码转换",
+        "icon": "ToolsIconSizeConverter",
+        "identifier": "SizeConverter"
+    },
+    "world clock": {
+        "ready": "false",
+        "note": "方便查看世界各地的时间及时差",
+        "title": "世界时钟",
+        "icon": "ToolsIconWorldClock",
+        "identifier": "WorldClock"
+    },
+    "info container": {
+        "ready": "false",
+        "note": "重要信息快速查看，加密储存",
+        "title": "信息保险箱",
+        "icon": "ToolsIconInfoContainer",
+        "identifier": "InfoContainer"
+    }
 }

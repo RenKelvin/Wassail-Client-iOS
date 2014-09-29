@@ -27,7 +27,7 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        let applyTools = tools!.objectForKey("apply tools") as NSArray
+        let applyTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(0) as NSArray
         
         return applyTools
     }
@@ -39,7 +39,7 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        let aboardTools = tools!.objectForKey("aboard tools") as NSArray
+        let aboardTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(1) as NSArray
         
         return aboardTools
     }
@@ -51,14 +51,19 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        if (section == 0) {
-            let toolsArray = tools!.objectForKey("apply tools") as NSArray
-            return toolsArray.objectAtIndex(row) as? NSDictionary
+        let name = ((tools!.objectForKey("names") as NSArray).objectAtIndex(section) as NSArray).objectAtIndex(row) as NSString
+        
+        return self.getTool(name)
+    }
+    
+    func getTool(name: NSString) -> NSDictionary? {
+        let tools = self.getTools()
+        
+        if (tools == nil) {
+            return nil
         }
-        else {
-            let toolsArray = tools!.objectForKey("aboard tools") as NSArray
-            return toolsArray.objectAtIndex(row) as? NSDictionary
-        }
+        
+        return tools!.objectForKey(name) as? NSDictionary
     }
     
 }

@@ -8,18 +8,22 @@
 
 import UIKit
 
-class HLToolPreviewView: UIView {
+class HLToolPreviewView: HLItemView {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var readyLabel: UILabel?
     
-    func configure(dict: NSDictionary?) {
+    var tool: NSDictionary?
+    
+    override func configure(dict: NSDictionary?) {
         
         if (dict == nil) {
             return
         }
+        
+        self.tool = dict
         
         iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as String)
         titleLabel!.text = dict!.objectForKey("title") as String?
@@ -31,6 +35,39 @@ class HLToolPreviewView: UIView {
         }
         else {
             readyLabel!.hidden = true
+        }
+        
+    }
+    
+    func setController(controller: UIViewController) {
+        self.controller = controller
+    }
+    
+    @IBAction func tapHandler() {
+        
+        if (self.tool == nil || self.controller == nil) {
+            return
+        }
+        
+        //
+        let identifier = "Ariticle" + (tool!.objectForKey("identifier") as NSString) + "SegueIdentifier"
+        
+        //
+        var sender: NSDictionary
+        let title = tool!.objectForKey("title") as NSString
+        
+        
+        if (title == "信用卡") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: ListInfo.instance.getList("1.0信用卡"))
+        }
+        else if (title == "大学排名") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: ListInfo.instance.getList("0大学排名"))
+        }
+        else if (title == "留学常用词汇") {
+            controller!.performSegueWithIdentifier("ArticleArticleSugueIdentifier", sender: ArticleInfo.instance.getArticle("留学常用词汇"))
+        }
+        else {
+            controller!.performSegueWithIdentifier(identifier, sender: nil)
         }
     }
     

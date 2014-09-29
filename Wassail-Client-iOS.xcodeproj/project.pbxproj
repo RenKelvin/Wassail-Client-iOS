@@ -153,6 +153,7 @@
 		FEE0300219C878A80061201E /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0300119C878A80061201E /* HLItem.swift */; };
 		FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */; };
 		FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */; };
+		FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1600919D8FB5E0022883E /* HLItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,6 +317,7 @@
 		FEE0300119C878A80061201E /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItem.swift; sourceTree = "<group>"; };
 		FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterViewController.swift; sourceTree = "<group>"; };
 		FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterTableViewCell.swift; sourceTree = "<group>"; };
+		FEE1600919D8FB5E0022883E /* HLItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,6 +545,7 @@
 				FE4E2B0719C48FC90096AD86 /* List */,
 				FE4E2B0619C48FC00096AD86 /* Article */,
 				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
+				FEE1600919D8FB5E0022883E /* HLItemView.swift */,
 				FEA0FB9E19D7FF8D00A24409 /* HLImageView */,
 				FEA0FB9B19D7F69A00A24409 /* HLLinkView */,
 				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
@@ -1042,6 +1045,7 @@
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */,
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
+				FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,

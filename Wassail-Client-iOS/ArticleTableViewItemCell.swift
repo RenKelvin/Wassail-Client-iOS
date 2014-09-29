@@ -12,17 +12,31 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
     
     @IBOutlet var itemContainerView: UIView?
     
-    override func configure(item: NSDictionary) {
+    var itemView: HLItemView?
+    
+    override func configure(item: NSDictionary?) {
         
-        var itemView: UIView?
+        if (item == nil) {
+            
+            if (itemView != nil) {
+                itemView!.removeFromSuperview()
+            }
+            
+            return
+        }
         
-        let type = item.objectForKey("type") as NSString
+        let type = item!.objectForKey("type") as NSString
         switch type {
             
         case "HLToolPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView
             itemView!.frame.size.width = itemContainerView!.frame.width
-            //            view.configure(item)
+            let toolPreviewBody = item!.objectForKey("body") as NSDictionary
+            let toolName = toolPreviewBody.objectForKey("address") as NSString
+            let tool = ToolsInfo.instance.getTool(toolName) as NSDictionary?
+            
+            itemView!.controller = controller
+            itemView!.configure(tool)
             
         case "HLLink":
             itemView = NSBundle.mainBundle().loadNibNamed("HLLinkView", owner: nil, options: nil).first as HLLinkView

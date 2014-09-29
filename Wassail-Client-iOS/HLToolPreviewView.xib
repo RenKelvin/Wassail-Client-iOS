@@ -40,6 +40,7 @@
                 </label>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="3vx-om-tVO" firstAttribute="leading" secondItem="lDN-Bf-ehT" secondAttribute="trailing" constant="8" id="087-ao-kqy"/>
                 <constraint firstItem="acM-wT-epe" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" id="0mX-GP-YE6"/>
@@ -62,9 +63,15 @@
                 <outlet property="noteLabel" destination="ukz-ml-76i" id="uQz-x2-oEd"/>
                 <outlet property="readyLabel" destination="M83-MH-iPi" id="axV-x3-jXT"/>
                 <outlet property="titleLabel" destination="3vx-om-tVO" id="CQM-Kv-SP8"/>
+                <outletCollection property="gestureRecognizers" destination="zdR-69-fkO" appends="YES" id="rFC-an-NMu"/>
             </connections>
             <point key="canvasLocation" x="543" y="406"/>
         </view>
+        <tapGestureRecognizer id="zdR-69-fkO">
+            <connections>
+                <action selector="tapHandler" destination="1zC-du-Nsb" id="ujw-wK-fj5"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="ItemToolBackground" width="24" height="64"/>

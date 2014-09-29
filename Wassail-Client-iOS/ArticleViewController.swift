@@ -63,24 +63,28 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var item = article.item(indexPath.section, row: indexPath.row) as NSDictionary
+        var item = article.item(indexPath.section, row: indexPath.row) as NSDictionary?
         
         var cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         
-        let type = item.objectForKey("kind") as NSString
+        let type = item!.objectForKey("kind") as NSString
         switch type {
         case "Section":
             cellReuseIdentifier = "ArticleTableViewSectionCellReuseIdentifier"
+            
         case "Graph":
             cellReuseIdentifier = "ArticleTableViewGraphCellReuseIdentifier"
+            
         case "Item":
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
-            item = item.objectForKey("content") as NSDictionary
+            item = item!.objectForKey("content") as? NSDictionary
+            
         default:
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         }
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ArticleTableViewCell
+        cell.controller = self
         cell.configure(item)
         
         return cell
@@ -107,14 +111,15 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         return 40.0
     }
     
-    /*
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
-    */
     
 }
