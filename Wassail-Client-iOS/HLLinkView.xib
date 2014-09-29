@@ -20,13 +20,13 @@
                         <constraint firstAttribute="height" constant="54" id="pUZ-Hh-6Gc"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW5-8c-efJ">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW5-8c-efJ">
                     <rect key="frame" x="67" y="5" width="398" height="19.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e63-iL-lD2">
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e63-iL-lD2">
                     <rect key="frame" x="67" y="44" width="398" height="14.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,6 +34,7 @@
                 </label>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" constant="5" id="5R8-sH-SwN"/>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="bottom" secondItem="e63-iL-lD2" secondAttribute="bottom" id="8Xn-bE-3LL"/>
@@ -54,9 +55,15 @@
                 <outlet property="iconImageView" destination="5BI-4N-Kwb" id="1MG-WA-bqb"/>
                 <outlet property="noteLabel" destination="e63-iL-lD2" id="IeW-dI-291"/>
                 <outlet property="titleLabel" destination="sW5-8c-efJ" id="7Bi-78-oly"/>
+                <outletCollection property="gestureRecognizers" destination="R1h-8e-XJJ" appends="YES" id="7wn-Ew-xIw"/>
             </connections>
             <point key="canvasLocation" x="512" y="402"/>
         </view>
+        <tapGestureRecognizer id="R1h-8e-XJJ">
+            <connections>
+                <action selector="tapHandler" destination="wKl-QF-ZlN" id="oH6-hJ-BUQ"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="ItemLinkBackground" width="300" height="64"/>

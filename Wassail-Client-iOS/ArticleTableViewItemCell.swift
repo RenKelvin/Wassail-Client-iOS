@@ -31,6 +31,7 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
         case "HLToolPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView
             itemView!.frame.size.width = itemContainerView!.frame.width
+            
             let toolPreviewBody = item!.objectForKey("body") as NSDictionary
             let toolName = toolPreviewBody.objectForKey("address") as NSString
             let tool = ToolsInfo.instance.getTool(toolName) as NSDictionary?
@@ -41,7 +42,11 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
         case "HLLink":
             itemView = NSBundle.mainBundle().loadNibNamed("HLLinkView", owner: nil, options: nil).first as HLLinkView
             itemView!.frame.size.width = itemContainerView!.frame.width
-            //            view.configure(item)
+            
+            let linkBody = item!.objectForKey("body") as NSDictionary
+
+            itemView!.controller = controller
+            itemView!.configure(linkBody)
             
         case "HLImg":
             itemView = NSBundle.mainBundle().loadNibNamed("HLImageView", owner: nil, options: nil).first as HLImageView

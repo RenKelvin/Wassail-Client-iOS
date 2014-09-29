@@ -1860,6 +1860,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Article" id="Ld2-MX-9eH">
+                        <barButtonItem key="backBarButtonItem" title=" " id="gvc-wl-DA9"/>
                         <barButtonItem key="rightBarButtonItem" image="MoreBarItem" id="MSi-Yg-P46"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -1867,6 +1868,11 @@
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
                         <outlet property="tableViewHeaderView" destination="rHG-jg-0uj" id="wpX-w2-XiP"/>
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ArticleListSugueIdentifier" id="5Rv-FT-p8R"/>
+                        <segue destination="yEZ-CL-Iol" kind="show" identifier="ArticleBrowserSegueIdentifier" id="ydz-Qv-haZ"/>
+                        <segue destination="LBP-Ai-M6A" kind="show" identifier="ArticleGPACalculatorSegueIdentifier" id="REv-SL-D0I"/>
+                        <segue destination="S7C-mv-WHf" kind="show" identifier="ArticleTipsCalculatorSegueIdentifier" id="Oab-mH-CQ6"/>
+                        <segue destination="WRg-lq-Ju5" kind="show" identifier="ArticleUnitConverterSegueIdentifier" id="R8b-dB-BNq"/>
+                        <segue destination="Uoc-r9-F8b" kind="show" identifier="ArticleSizeConverterSegueIdentifier" id="Bo5-kO-yCc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phs-DR-b3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1933,8 +1939,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="Bo5-kO-yCc"/>
         <segue reference="fYA-Od-fVe"/>
-        <segue reference="vuL-hi-aIq"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="ydz-Qv-haZ"/>
+        <segue reference="R8b-dB-BNq"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
 </document>

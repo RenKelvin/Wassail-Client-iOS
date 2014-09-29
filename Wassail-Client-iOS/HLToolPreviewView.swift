@@ -39,10 +39,6 @@ class HLToolPreviewView: HLItemView {
         
     }
     
-    func setController(controller: UIViewController) {
-        self.controller = controller
-    }
-    
     @IBAction func tapHandler() {
         
         if (self.tool == nil || self.controller == nil) {
