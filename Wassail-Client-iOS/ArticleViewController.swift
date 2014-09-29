@@ -102,7 +102,9 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         headerView.setTitle(title)
         
-        headerView.setLeaderColor(section)
+        if (self.article.title == "留学时间表") {
+            headerView.setLeaderColor(section)
+        }
         
         return headerView
     }
