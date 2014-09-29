@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="256" id="Jdd-WZ-lZb"/>
                                 </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eTf-In-sok" customClass="RKSelectorView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eTf-In-sok" customClass="RKSelectorView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="64"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -86,7 +86,7 @@
                                     <outlet property="delegate" destination="WRg-lq-Ju5" id="187-YT-nr9"/>
                                 </connections>
                             </collectionView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdx-9N-ruz" userLabel="Left" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zdx-9N-ruz" userLabel="Left" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="128" width="64" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -94,7 +94,7 @@
                                     <constraint firstAttribute="height" constant="128" id="gxO-p2-rZq"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r54-86-QgL" userLabel="IO">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r54-86-QgL" userLabel="IO">
                                 <rect key="frame" x="64" y="128" width="472" height="128"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" minimumFontSize="17" background="UnitTextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-Yc-jgy">
@@ -109,7 +109,7 @@
                                             <outlet property="delegate" destination="WRg-lq-Ju5" id="zkX-Cg-XhT"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
                                         <rect key="frame" x="8" y="79" width="456" height="34"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
@@ -124,7 +124,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Lh-SC7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ft" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Lh-SC7">
                                         <rect key="frame" x="449" y="90" width="11" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -143,7 +143,7 @@
                                     <constraint firstAttribute="centerY" secondItem="dRi-Pk-tlh" secondAttribute="centerY" constant="-32" id="sFG-0s-aAr"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocO-EA-PXa" userLabel="Right" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocO-EA-PXa" userLabel="Right" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="536" y="128" width="64" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -242,6 +242,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="单位换算" id="S7C-aD-ea8"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="dataView" destination="FGb-pV-ycq" id="MMV-DK-ffr"/>
                         <outlet property="inputTextField" destination="I4G-Yc-jgy" id="wm3-kO-1eT"/>
@@ -289,7 +290,7 @@
                                     <constraint firstAttribute="height" constant="128" id="iej-6U-bvm"/>
                                 </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SIS-rv-6WR" customClass="RKSelectorView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SIS-rv-6WR" customClass="RKSelectorView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="600" height="64"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -352,7 +353,7 @@
                                     <outlet property="delegate" destination="Uoc-r9-F8b" id="F94-i5-xt9"/>
                                 </connections>
                             </collectionView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo" customClass="RKNumbersView" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fce-yP-ATo" customClass="RKNumbersView" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="172" width="600" height="428"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -405,7 +406,7 @@
                                     <outlet property="headerView" destination="X7X-rf-sZa" id="JiZ-bI-OFN"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X7X-rf-sZa">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X7X-rf-sZa">
                                 <rect key="frame" x="0.0" y="128" width="600" height="44"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GraySectionBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mQk-hH-n9h">
@@ -439,6 +440,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="尺码转换" id="ZUm-yh-Rnf"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="numbersView" destination="fce-yP-ATo" id="Vpz-go-iya"/>
                         <outlet property="selectorView" destination="SIS-rv-6WR" id="IWc-1b-9VF"/>
@@ -1210,6 +1212,7 @@
                         </view>
                         <barButtonItem key="rightBarButtonItem" enabled="NO" image="MoreBarItem" id="wwd-xG-mXm"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="titleLabel" destination="tEe-qR-yrT" id="h53-zg-Bux"/>
                         <outlet property="urlLabel" destination="T55-fc-118" id="BWR-C3-gJA"/>
@@ -1235,13 +1238,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TipsCalculatorBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ujk-bq-mLN" userLabel="Background">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H4-7c-Hxa">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6H4-7c-Hxa">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GPANoteLabelBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ANO-Au-4eb">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="GPANoteLabelBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ANO-Au-4eb">
                                         <rect key="frame" x="0.0" y="454" width="600" height="81.5"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-oJ-Vyc">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-oJ-Vyc">
                                         <rect key="frame" x="188" y="102" width="108" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="aQL-cX-l6V"/>
@@ -1254,32 +1257,32 @@
                                             <outlet property="delegate" destination="LBP-Ai-M6A" id="jd8-w8-g7f"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="说明：这里采用的是标准4.0制GPA与百分制的转换算法。由于各个学校的GPA算法不同，申请中最好使用百分制成绩，如有教务官方的GPA转换证明，也可使用转换后的GPA。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="说明：这里采用的是标准4.0制GPA与百分制的转换算法。由于各个学校的GPA算法不同，申请中最好使用百分制成绩，如有教务官方的GPA转换证明，也可使用转换后的GPA。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
                                         <rect key="frame" x="15" y="478" width="570" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请中请使用百分制或标准4.0制GPA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-Dy-xdL">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="申请中请使用百分制或标准4.0制GPA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="TVa-Dy-xdL">
                                         <rect key="frame" x="15" y="169" width="570" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入你的百分制分数" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCD-kd-zTz">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="请输入你的百分制分数" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCD-kd-zTz">
                                         <rect key="frame" x="20" y="59" width="570" height="19.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标准GPA" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUp-5z-Smi">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="标准GPA" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUp-5z-Smi">
                                         <rect key="frame" x="227" y="270" width="64.5" height="19.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIe-37-hYD">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIe-37-hYD">
                                         <rect key="frame" x="309" y="259" width="144" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="51L-we-No7"/>
@@ -1289,20 +1292,20 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/ 100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXN-Lo-aOr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="/ 100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXN-Lo-aOr">
                                         <rect key="frame" x="305" y="102" width="82.5" height="43"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7SB-av-9Oi">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7SB-av-9Oi">
                                         <rect key="frame" x="300" y="12" width="1" height="512"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="4ME-AE-KTe"/>
                                             <constraint firstAttribute="height" constant="512" id="DuQ-cr-J8u"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜！你的成绩超过了   %的申请者！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jL-XY-3cd">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="恭喜！你的成绩超过了   %的申请者！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jL-XY-3cd">
                                         <rect key="frame" x="15" y="314" width="570" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1371,6 +1374,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="GPA计算器" id="36c-eC-eYG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="gpaLabel" destination="zIe-37-hYD" id="GPH-DD-DTd"/>
                         <outlet property="inputTextField" destination="hWY-oJ-Vyc" id="jh5-B0-EBT"/>
@@ -1410,10 +1414,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TipsCalculatorBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jHa-q9-AhX">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SLV-G2-k9A">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SLV-G2-k9A">
                                 <rect key="frame" x="0.0" y="64" width="600" height="164"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="消费金额" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="voh-ao-Erm">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="消费金额" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="voh-ao-Erm">
                                         <rect key="frame" x="190" y="25" width="220" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="220" id="Nbd-ed-C6s"/>
@@ -1425,7 +1429,7 @@
                                             <outlet property="delegate" destination="S7C-mv-WHf" id="2yZ-Dr-4hW"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入你的消费金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9B-R5-TM2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="请输入你的消费金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9B-R5-TM2">
                                         <rect key="frame" x="15" y="105" width="570" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -1720,6 +1724,7 @@
                     <navigationItem key="navigationItem" title="小费计算器" id="Xud-ml-QYg">
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="餐饮" id="Jsw-3c-jAk"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="amountTextField" destination="voh-ao-Erm" id="xSo-Sc-6uS"/>
