@@ -1786,7 +1786,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDP-UE-zcs">
-                                                    <rect key="frame" x="15" y="16" width="569.5" height="19.5"/>
+                                                    <rect key="frame" x="15" y="16" width="569.5" height="20"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1810,7 +1810,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
-                                                    <rect key="frame" x="15" y="4" width="570" height="55.5"/>
+                                                    <rect key="frame" x="15" y="8" width="570" height="52"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1819,7 +1819,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="9ct-MM-D8L" secondAttribute="bottom" constant="4" id="Q4X-et-QUI"/>
                                                 <constraint firstItem="9ct-MM-D8L" firstAttribute="leading" secondItem="D35-ir-ypG" secondAttribute="leading" constant="15" id="VmN-DA-EYf"/>
-                                                <constraint firstItem="9ct-MM-D8L" firstAttribute="top" secondItem="D35-ir-ypG" secondAttribute="top" constant="4" id="aUB-UL-F6q"/>
+                                                <constraint firstItem="9ct-MM-D8L" firstAttribute="top" secondItem="D35-ir-ypG" secondAttribute="top" constant="8" id="aUB-UL-F6q"/>
                                                 <constraint firstAttribute="trailing" secondItem="9ct-MM-D8L" secondAttribute="trailing" constant="15" id="wGq-Z8-ywI"/>
                                             </constraints>
                                         </tableViewCellContentView>
