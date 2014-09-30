@@ -57,7 +57,7 @@
                 <outlet property="titleLabel" destination="sW5-8c-efJ" id="7Bi-78-oly"/>
                 <outletCollection property="gestureRecognizers" destination="R1h-8e-XJJ" appends="YES" id="7wn-Ew-xIw"/>
             </connections>
-            <point key="canvasLocation" x="512" y="402"/>
+            <point key="canvasLocation" x="349" y="365"/>
         </view>
         <tapGestureRecognizer id="R1h-8e-XJJ">
             <connections>

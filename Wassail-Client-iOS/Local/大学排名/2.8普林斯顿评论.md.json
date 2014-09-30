@@ -8,6 +8,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "2.8Princeton Review", 
+                                "title": ""
+                            }, 
+                            "name": "2.8Princeton Review", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "\u666e\u6797\u65af\u987f\u8bc4\u8bba\u6bcf\u5e74\u4e5f\u5c06\u8fd9\u4e9b\u4fe1\u606f\u7f16\u8f91\u6210\u4e66\u3002\u300aThe Best 378 Colleges, 2014 Edition (College Admissions Guides)\u300b\u82f1\u6587\u7248\u53ef\u4ee5\u5728Amazon\u8d2d\u4e70\u3002", 
                         "kind": "Graph"
                     }

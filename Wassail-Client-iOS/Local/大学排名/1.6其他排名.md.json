@@ -4,10 +4,14 @@
             {
                 "graphs": [
                     {
+                        "content": "\u300a\u798f\u5e03\u65af\u4e16\u754c\u5927\u5b66\u6392\u540d\u300b\uff0d 2013", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": {
                             "body": {
                                 "address": "http://www.forbeschina.com/review/list/002102.shtml", 
-                                "title": "\u300a\u798f\u5e03\u65af\u4e16\u754c\u5927\u5b66\u6392\u540d2013\u300b"
+                                "title": "\u300a\u798f\u5e03\u65af\u4e16\u754c\u5927\u5b66\u6392\u540d\u300b"
                             }, 
                             "name": "http://www.forbeschina.com/review/list/002102.shtml", 
                             "type": "HLLink"
@@ -15,10 +19,14 @@
                         "kind": "Item"
                     }, 
                     {
+                        "content": "\u300a\u7ecf\u6d4e\u5b66\u4eba (The Economist) \u5168\u7403\u5546\u5b66\u9662\u6392\u540d\u300b\uff0d 2014\u6700\u65b0\u53d1\u5e03", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": {
                             "body": {
                                 "address": "http://www.economist.com/whichmba/full-time-mba-ranking", 
-                                "title": "\u300a\u7ecf\u6d4e\u5b66\u4eba\uff0dThe Economist\u5168\u7403\u5546\u5b66\u9662\u6392\u540d \uff082014\u6700\u65b0\u53d1\u5e03\uff09\u300b"
+                                "title": "\u300a\u7ecf\u6d4e\u5b66\u4eba\u5168\u7403\u5546\u5b66\u9662\u6392\u540d \u300b"
                             }, 
                             "name": "http://www.economist.com/whichmba/full-time-mba-ranking", 
                             "type": "HLLink"
@@ -26,10 +34,14 @@
                         "kind": "Item"
                     }, 
                     {
+                        "content": "\u300a\u5546\u4e1a\u5468\u520a (Bloomberg BusinessWeek) \u5168\u7403\u5546\u5b66\u9662\u6392\u540d\u300b", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": {
                             "body": {
                                 "address": "http://www.businessweek.com/bschools/rankings/international", 
-                                "title": "\u300aBloomberg BusinessWeek \u5168\u7403\u5546\u5b66\u9662\u6392\u540d\u300b"
+                                "title": "\u300a\u5546\u4e1a\u5468\u520a\u5168\u7403\u5546\u5b66\u9662\u6392\u540d\u300b"
                             }, 
                             "name": "http://www.businessweek.com/bschools/rankings/international", 
                             "type": "HLLink"

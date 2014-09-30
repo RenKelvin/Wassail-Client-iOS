@@ -24,7 +24,12 @@
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
-                    }, 
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -57,7 +62,12 @@
                             "type": "HLListPreview"
                         }, 
                         "kind": "Item"
-                    }, 
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
                     {
                         "content": {
                             "body": {
