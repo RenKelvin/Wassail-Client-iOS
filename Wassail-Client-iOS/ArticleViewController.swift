@@ -38,8 +38,10 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         // Force reload
         self.tableView!.reloadData()
         
-        if (article.title == "申请时间表" || article.title == "常用词汇") {
+        if (article.title == "留学时间表" || article.title == "常用词汇") {
             self.navigationItem.title = article.title
+            self.headerView!.hidden = true
+            self.tableView!.contentInset = UIEdgeInsets(top: -84.0, left: 0.0, bottom: 0.0, right: 0.0)
         }
         else {
             self.updateHeader()
