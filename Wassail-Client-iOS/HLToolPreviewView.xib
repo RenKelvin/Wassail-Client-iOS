@@ -65,7 +65,7 @@
                 <outlet property="titleLabel" destination="3vx-om-tVO" id="CQM-Kv-SP8"/>
                 <outletCollection property="gestureRecognizers" destination="zdR-69-fkO" appends="YES" id="rFC-an-NMu"/>
             </connections>
-            <point key="canvasLocation" x="543" y="406"/>
+            <point key="canvasLocation" x="554" y="700"/>
         </view>
         <tapGestureRecognizer id="zdR-69-fkO">
             <connections>

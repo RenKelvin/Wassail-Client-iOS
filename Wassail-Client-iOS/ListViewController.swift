@@ -76,10 +76,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 44.0
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-       
-        return 44.0
-    }
+    //    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    //
+    //        return 44.0
+    //    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         

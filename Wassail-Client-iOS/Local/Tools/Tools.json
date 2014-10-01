@@ -71,13 +71,6 @@
         "icon": "ToolsIconSizeConverter",
         "identifier": "SizeConverter"
     },
-    "world clock": {
-        "ready": "false",
-        "note": "方便查看世界各地的时间及时差",
-        "title": "世界时钟",
-        "icon": "ToolsIconWorldClock",
-        "identifier": "WorldClock"
-    },
     "info container": {
         "ready": "false",
         "note": "重要信息快速查看，加密储存",

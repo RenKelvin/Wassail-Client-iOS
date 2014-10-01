@@ -31,18 +31,19 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         super.viewDidLoad()
         
         // Apply table view cell self sizing
-        // DISABLED FOR ISO 7
+        // DISABLED FOR IOS 7
         //        self.tableView!.estimatedRowHeight = 88.0
         //        self.tableView!.rowHeight = UITableViewAutomaticDimension
         
         // Force reload
         self.tableView!.reloadData()
         
-        // Article header
-        self.titleLabel!.text = article.title
-        self.authorLabel!.text = article.author
-        self.dateLabel!.text = article.date
-        //        self.headerLabel!.text = nil
+        if (article.title == "申请时间表" || article.title == "常用词汇") {
+            self.navigationItem.title = article.title
+        }
+        else {
+            self.updateHeader()
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -55,10 +56,6 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
-        // TODO: adjust header height
-        self.headerView!.sizeToFit()
-        
     }
     
     // MARK: -
@@ -67,6 +64,15 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         if (info != nil) {
             article = info as HLArticle
         }
+    }
+    
+    func updateHeader() {
+        
+        self.titleLabel!.text = article.title
+        self.authorLabel!.text = article.author
+        self.dateLabel!.text = article.date
+        self.headerLabel!.text = article.header
+        
     }
     
     // MARK: - Table view data source
@@ -176,10 +182,10 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         return height
     }
     
-    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        
-        return UITableViewAutomaticDimension;
-    }
+    //    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    //
+    //        return UITableViewAutomaticDimension;
+    //    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         
