@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -265,7 +264,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <items>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="zEC-Te-Zzw"/>
-                        <barButtonItem style="done" systemItem="done" id="8RV-J9-DF2">
+                        <barButtonItem title="完成" id="8RV-J9-DF2">
                             <color key="tintColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="doneButtonTapped" destination="WRg-lq-Ju5" id="b72-h5-x6G"/>
@@ -1413,7 +1412,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <items>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="F3t-kD-Jsf"/>
-                        <barButtonItem style="done" systemItem="done" id="hzO-yB-Jzy">
+                        <barButtonItem title="完成" id="hzO-yB-Jzy">
                             <color key="tintColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="doneButtonTapped" destination="LBP-Ai-M6A" id="BuW-FH-Uue"/>
@@ -1771,7 +1770,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <items>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="jTS-gH-6RB"/>
-                        <barButtonItem style="done" systemItem="done" id="QPP-2t-W04">
+                        <barButtonItem title="完成" id="QPP-2t-W04">
                             <color key="tintColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="doneButtonTapped" destination="S7C-mv-WHf" id="NtX-RS-L8R"/>
