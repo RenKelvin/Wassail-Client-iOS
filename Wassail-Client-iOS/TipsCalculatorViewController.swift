@@ -68,11 +68,13 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     // MARK: -
     
     func getRateString() -> NSString{
+        var stringFormat: NSString = "%.1f%%"
+        
         if (rate == 0.15) {
-            return String(format: "推荐小费 %.0f%%", rate*100)
+            return "推荐小费" + String(format: stringFormat, rate*100)
         }
         else {
-            return String(format: "%.0f%%", rate*100)
+            return String(format: stringFormat, rate*100)
         }
     }
     
@@ -160,7 +162,7 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
         let d = 5.0
         rate -= d / 100.0
         rate = Double(Int(rate*100)) / 100
-
+        
         if (rate < 0.0) {
             rate = 0.0
         }
