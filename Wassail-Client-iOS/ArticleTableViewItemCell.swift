@@ -21,12 +21,19 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
         }
         
         if (item == nil) {
+            return
+        }
+        
+        let type = item!.objectForKey("type") as NSString?
+        
+        if (type == nil) {
+            
+            println("ArticleTableViewCell configure: type == nil")
             
             return
         }
         
-        let type = item!.objectForKey("type") as NSString
-        switch type {
+        switch type! {
             
         case "HLToolPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView

@@ -18,7 +18,7 @@ class ArticleTableViewSectionCell: ArticleTableViewCell {
             return
         }
 
-        sectionLabel?.text = item!.objectForKey("content") as NSString?
+        sectionLabel!.text = item!.objectForKey("content") as NSString?
     }
     
 }

@@ -20,10 +20,10 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
         
         let text = item!.objectForKey("content") as NSString?
         if (text == nil) {
-            graphLabel?.text = nil
+            graphLabel!.text = nil
         }
         else {
-            graphLabel?.text = text!
+            graphLabel!.text = text!
             //            graphLabel?.text = "    " + text!
         }
     }

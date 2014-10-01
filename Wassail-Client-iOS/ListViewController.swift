@@ -21,8 +21,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.title = list.title
         
         // Apply table view cell self sizing
-        self.tableView!.estimatedRowHeight = 88.0
-        self.tableView!.rowHeight = UITableViewAutomaticDimension
+        // DISABLED FOR ISO 7
+        //        self.tableView!.estimatedRowHeight = 88.0
+        //        self.tableView!.rowHeight = UITableViewAutomaticDimension
     }
     
     override func didReceiveMemoryWarning() {
@@ -67,6 +68,18 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     // MARK: - Table view delegate
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        // TODO: manaully adjust cell height
+        
+        return 44.0
+    }
+    
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+       
+        return 44.0
+    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -1266,7 +1267,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GPANoteLabelBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ANO-Au-4eb">
-                                        <rect key="frame" x="0.0" y="454" width="600" height="81.5"/>
+                                        <rect key="frame" x="0.0" y="421" width="600" height="115"/>
                                     </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-oJ-Vyc">
                                         <rect key="frame" x="188" y="102" width="108" height="43"/>
@@ -1281,8 +1282,8 @@
                                             <outlet property="delegate" destination="LBP-Ai-M6A" id="jd8-w8-g7f"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="说明：这里采用的是标准4.0制GPA与百分制的转换算法。由于各个学校的GPA算法不同，申请中最好使用百分制成绩，如有教务官方的GPA转换证明，也可使用转换后的GPA。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
-                                        <rect key="frame" x="15" y="478" width="570" height="33.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="说明：这里采用的是标准4.0制GPA与百分制的转换算法。由于各个学校的GPA算法不同，申请中最好使用百分制成绩，如有教务官方的GPA转换证明，也可使用转换后的GPA。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="j4w-GC-pZx">
+                                        <rect key="frame" x="15" y="445" width="570" height="67"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1784,7 +1785,7 @@
         <!--Article View Controller-->
         <scene sceneID="w0Q-IW-IVM">
             <objects>
-                <viewController id="v6r-Fh-9PJ" customClass="ArticleViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ArticleViewController" id="v6r-Fh-9PJ" customClass="ArticleViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2NJ-Nj-Y23"/>
                         <viewControllerLayoutGuide type="bottom" id="QWx-FY-Nd0"/>
@@ -1814,13 +1815,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9月12日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOy-IZ-Jqv">
-                                            <rect key="frame" x="109" y="45.5" width="45" height="14.5"/>
+                                            <rect key="frame" x="109" y="45" width="45" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-L8-95D">
-                                            <rect key="frame" x="15" y="71" width="570" height="50.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语导语" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-L8-95D">
+                                            <rect key="frame" x="15" y="71" width="570" height="33.5"/>
                                             <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1841,6 +1842,11 @@
                                         <constraint firstAttribute="trailing" secondItem="d88-dP-cQA" secondAttribute="trailing" constant="15" id="rpk-eE-1k6"/>
                                         <constraint firstItem="AXe-L8-95D" firstAttribute="leading" secondItem="rHG-jg-0uj" secondAttribute="leading" constant="15" id="tqh-ac-z00"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="fE7-oi-Ubf"/>
+                                        </mask>
+                                    </variation>
                                 </view>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="EWd-Zk-ngr">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -1875,10 +1881,10 @@
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewGraphCellReuseIdentifier" rowHeight="64" id="aMI-gE-yiV" customClass="ArticleTableViewGraphCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aMI-gE-yiV" id="D35-ir-ypG">
+                                        <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aMI-gE-yiV" id="D35-ir-ypG">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
                                                     <rect key="frame" x="15" y="8" width="570" height="52"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -1941,8 +1947,11 @@
                     <connections>
                         <outlet property="authorLabel" destination="krC-hx-Lx0" id="6OK-aC-6Bk"/>
                         <outlet property="dateLabel" destination="NOy-IZ-Jqv" id="dDL-bl-XcO"/>
+                        <outlet property="graphCell" destination="thw-jc-Irz" id="xVB-mE-dT7"/>
                         <outlet property="headerLabel" destination="AXe-L8-95D" id="gK9-ke-9wW"/>
                         <outlet property="headerView" destination="rHG-jg-0uj" id="RSh-6G-Q9z"/>
+                        <outlet property="itemCell" destination="SGj-5k-0TW" id="V8J-r1-rMw"/>
+                        <outlet property="sectionCell" destination="GHi-Xy-Adf" id="xpF-7y-J2v"/>
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
                         <outlet property="titleLabel" destination="d88-dP-cQA" id="1dq-2g-cYt"/>
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ArticleListSugueIdentifier" id="5Rv-FT-p8R"/>
@@ -1953,6 +1962,76 @@
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ArticleSizeConverterSegueIdentifier" id="Bo5-kO-yCc"/>
                     </connections>
                 </viewController>
+                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewItemCellReuseIdentifier" rowHeight="80" id="SGj-5k-0TW" customClass="ArticleTableViewItemCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SGj-5k-0TW" id="gaR-lw-OnU">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igG-os-jZE">
+                                <rect key="frame" x="15" y="8" width="570" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="igG-os-jZE" firstAttribute="leading" secondItem="gaR-lw-OnU" secondAttribute="leading" constant="15" id="cgg-by-vBG"/>
+                            <constraint firstAttribute="bottom" secondItem="igG-os-jZE" secondAttribute="bottom" constant="8" id="g3h-KS-qMc"/>
+                            <constraint firstItem="igG-os-jZE" firstAttribute="top" secondItem="gaR-lw-OnU" secondAttribute="top" constant="8" id="sni-X8-LgS"/>
+                            <constraint firstAttribute="trailing" secondItem="igG-os-jZE" secondAttribute="trailing" constant="15" id="wJT-Ds-fED"/>
+                        </constraints>
+                    </tableViewCellContentView>
+                    <connections>
+                        <outlet property="itemContainerView" destination="igG-os-jZE" id="teU-mm-Lhr"/>
+                    </connections>
+                </tableViewCell>
+                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewGraphCellReuseIdentifier" rowHeight="64" id="thw-jc-Irz" customClass="ArticleTableViewGraphCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="thw-jc-Irz" id="mOG-1a-GQf">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="X6c-oX-8l4">
+                                <rect key="frame" x="15" y="8" width="570" height="52"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="X6c-oX-8l4" secondAttribute="bottom" constant="4" id="9eP-58-bfd"/>
+                            <constraint firstAttribute="trailing" secondItem="X6c-oX-8l4" secondAttribute="trailing" constant="15" id="cji-MH-Ix2"/>
+                            <constraint firstItem="X6c-oX-8l4" firstAttribute="leading" secondItem="mOG-1a-GQf" secondAttribute="leading" constant="15" id="qYI-sk-yYd"/>
+                            <constraint firstItem="X6c-oX-8l4" firstAttribute="top" secondItem="mOG-1a-GQf" secondAttribute="top" constant="8" id="vJA-Ue-4n6"/>
+                        </constraints>
+                    </tableViewCellContentView>
+                    <connections>
+                        <outlet property="graphLabel" destination="X6c-oX-8l4" id="BVU-A6-wAm"/>
+                    </connections>
+                </tableViewCell>
+                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewSectionCellReuseIdentifier" rowHeight="40" id="GHi-Xy-Adf" customClass="ArticleTableViewSectionCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GHi-Xy-Adf" id="5TF-Wr-zT4">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNi-tm-UwD">
+                                <rect key="frame" x="15" y="16" width="569.5" height="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="XNi-tm-UwD" firstAttribute="top" secondItem="5TF-Wr-zT4" secondAttribute="top" constant="16" id="6nq-s9-1Ej"/>
+                            <constraint firstItem="XNi-tm-UwD" firstAttribute="leading" secondItem="5TF-Wr-zT4" secondAttribute="leading" constant="15" id="Sun-on-9eD"/>
+                            <constraint firstAttribute="trailing" secondItem="XNi-tm-UwD" secondAttribute="trailing" constant="15" id="dzC-ib-myX"/>
+                            <constraint firstAttribute="bottom" secondItem="XNi-tm-UwD" secondAttribute="bottom" constant="4" id="ngh-TE-jad"/>
+                        </constraints>
+                    </tableViewCellContentView>
+                    <connections>
+                        <outlet property="sectionLabel" destination="XNi-tm-UwD" id="9LE-lY-ZN0"/>
+                    </connections>
+                </tableViewCell>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phs-DR-b3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TjH-48-Y1q">
                     <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
@@ -2012,12 +2091,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ydz-Qv-haZ"/>
         <segue reference="fYA-Od-fVe"/>
         <segue reference="5Rv-FT-p8R"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="ydz-Qv-haZ"/>
         <segue reference="Oab-mH-CQ6"/>
         <segue reference="R8b-dB-BNq"/>
         <segue reference="Bo5-kO-yCc"/>
-        <segue reference="REv-SL-D0I"/>
     </inferredMetricsTieBreakers>
 </document>

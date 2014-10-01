@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ArticleTableViewCell: HLTableViewCell {
+class ArticleTableViewCell: UITableViewCell {
 
     var controller: UIViewController?
 
-    override func configure(item: NSDictionary?) {
+    func configure(item: NSDictionary?) {
         
     }
 
