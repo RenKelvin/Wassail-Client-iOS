@@ -10,7 +10,11 @@ import UIKit
 
 class HLArticle: HLItem {
     
-    var title: NSString = ""
+    var title: NSString?
+    var author: NSString?
+    var date: NSString?
+    var header: NSString?
+    
     var chapters: NSArray = []
     
     override init() {
@@ -22,7 +26,11 @@ class HLArticle: HLItem {
         
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
-        title = jsonBody.objectForKey("title") as NSString
+        
+        title = jsonBody.objectForKey("title") as NSString?
+        author = jsonBody.objectForKey("author") as NSString?
+        date = jsonBody.objectForKey("date") as NSString?
+        
         chapters = jsonBody.objectForKey("chapters") as NSArray
         
         //        // Chapters
@@ -52,12 +60,12 @@ class HLArticle: HLItem {
         
         return title
     }
- 
+    
     func item(chapter: Int, row: Int) -> NSDictionary {
         let chapter = chapters.objectAtIndex(chapter) as NSDictionary
         let items = chapter.objectForKey("graphs") as NSArray
         
         return items.objectAtIndex(row) as NSDictionary
     }
-
+    
 }

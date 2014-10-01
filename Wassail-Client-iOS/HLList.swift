@@ -10,7 +10,12 @@ import UIKit
 
 class HLList: HLItem {
     
-    var title: NSString = ""
+    var title: NSString?
+    
+    var author: NSString?
+    var date: NSString?
+    var header: NSString?
+    
     var groups: NSArray = []
     
     override init() {
@@ -19,10 +24,14 @@ class HLList: HLItem {
     
     override init(json: NSDictionary) {
         super.init(json: json)
-                
+        
         // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
-        title = jsonBody.objectForKey("title") as NSString
+        
+        title = jsonBody.objectForKey("title") as NSString?
+        author = jsonBody.objectForKey("author") as NSString?
+        date = jsonBody.objectForKey("date") as NSString?
+        
         groups = jsonBody.objectForKey("groups") as NSArray
         
         // Groups

@@ -11,7 +11,13 @@ import UIKit
 class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
-    @IBOutlet var tableViewHeaderView: UIView?
+    
+    @IBOutlet var headerView: UIView?
+    
+    @IBOutlet var titleLabel: UILabel?
+    @IBOutlet var authorLabel: UILabel?
+    @IBOutlet var dateLabel: UILabel?
+    @IBOutlet var headerLabel: UILabel?
     
     var article: HLArticle = HLArticle()
     
@@ -19,7 +25,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         super.viewDidLoad()
         
         // Set article title
-        self.title = article.title
+        //        self.title = article.title
         
         // Apply table view cell self sizing
         self.tableView!.estimatedRowHeight = 88.0
@@ -27,18 +33,35 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         // Force reload
         self.tableView!.reloadData()
+        
+        // Article header
+        self.titleLabel!.text = article.title
+        self.authorLabel!.text = article.author
+        self.dateLabel!.text = article.date
+        //        self.headerLabel!.text = nil
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Default)
         
         //
-        self.tableView?.addSubview(self.tableViewHeaderView!)
+        //        self.tableView?.addSubview(self.tableViewHeaderView!)
+        //
+        //        let width = self.tableView?.superview?.frame.size.width
+        //        self.tableViewHeaderView?.frame.size.width = width!
+        //        self.tableViewHeaderView?.frame.origin.y = -44.0
         
-        let width = self.tableView?.superview?.frame.size.width
-        self.tableViewHeaderView?.frame.size.width = width!
-        self.tableViewHeaderView?.frame.origin.y = -44.0
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+//        println(self.headerView!.sizeThatFits(self.headerView!.frame.size))
+        self.headerView!.sizeToFit()
+        
     }
     
     // MARK: -
