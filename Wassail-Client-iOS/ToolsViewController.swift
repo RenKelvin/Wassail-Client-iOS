@@ -81,6 +81,10 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         var dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
         
+        if (dict == nil) {
+            return cell
+        }
+        
         cell.configure(dict!)
         
         return cell
