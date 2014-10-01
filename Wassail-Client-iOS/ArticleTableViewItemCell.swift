@@ -10,9 +10,8 @@ import UIKit
 
 class ArticleTableViewItemCell: ArticleTableViewCell {
     
-    @IBOutlet var itemContainerView: UIView?
-    
     var itemView: HLItemView?
+    @IBOutlet var containerView: UIView?
     
     override func configure(item: NSDictionary?) {
         
@@ -37,7 +36,6 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
         case "HLToolPreview":
             itemView = NSBundle.mainBundle().loadNibNamed("HLToolPreviewView", owner: nil, options: nil).first as HLToolPreviewView
-            itemView!.frame.size.width = itemContainerView!.frame.width
             
             let toolPreviewBody = item!.objectForKey("body") as NSDictionary
             let toolName = toolPreviewBody.objectForKey("address") as NSString
@@ -48,7 +46,6 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
         case "HLLink":
             itemView = NSBundle.mainBundle().loadNibNamed("HLLinkView", owner: nil, options: nil).first as HLLinkView
-            itemView!.frame.size.width = itemContainerView!.frame.width
             
             let linkBody = item!.objectForKey("body") as NSDictionary
             
@@ -62,26 +59,38 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
             itemView!.configure(imageBody)
             
-            itemView!.frame.size.width = DefaultInfo.instance.getScreenWidth() - 30.0
-            //            itemView!.frame.size = itemView!.sizeThatFits(itemView!.frame.size)
-            //            println("itemview \(itemView!.frame.size)")
-            //
-            //            itemContainerView!.frame.size = itemView!.frame.size
-            //            println("itemContainerView \(itemContainerView!.frame.size)")
-            
         default:
             ""
         }
+        
         // Add subview
-        itemContainerView!.addSubview(itemView!)
+        containerView!.addSubview(itemView!)
+        
+        // Disable TranslatesAutoresizingMaskIntoConstraints
+        containerView!.setTranslatesAutoresizingMaskIntoConstraints(false)
+        itemView!.setTranslatesAutoresizingMaskIntoConstraints(false)
         
         // Add constraints
+        let upConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.Top, multiplier: 1.0, constant: 0.0)
+        containerView!.addConstraint(upConstraint)
         
-        let upConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Top, multiplier: 1.0, constant: 0.0)
-        itemContainerView!.addConstraint(upConstraint)
+        let downConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 0.0)
+        containerView!.addConstraint(downConstraint)
         
-        let downConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: itemContainerView!, attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 0.0)
-        itemContainerView!.addConstraint(downConstraint)
+        let leftConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.Left, multiplier: 1.0, constant: 0.0)
+        containerView!.addConstraint(leftConstraint)
+        
+        let rightConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.Right, multiplier: 1.0, constant: 0.0)
+        containerView!.addConstraint(rightConstraint)
+        
+        //        let midXConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.CenterX, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.CenterX, multiplier: 1.0, constant: 0.0)
+        //        containerView!.addConstraint(midXConstraint)
+        
+        //        let midYConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.CenterY, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.CenterY, multiplier: 1.0, constant: 0.0)
+        //        containerView!.addConstraint(midYConstraint)
+        
+        //        let heightConstraint = NSLayoutConstraint(item: itemView!, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.Equal, toItem: containerView!, attribute: NSLayoutAttribute.Top, multiplier: 1.0, constant: 0.0)
+        //        containerView!.addConstraint(upConstraint)
     }
     
 }

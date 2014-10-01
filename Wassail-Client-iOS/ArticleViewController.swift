@@ -162,6 +162,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         cell!.setNeedsUpdateConstraints()
         cell!.updateConstraintsIfNeeded()
         
+        // Set width
         cell!.bounds = CGRectMake(0.0, 0.0, CGRectGetWidth(tableView.bounds), CGRectGetHeight(cell!.bounds))
         
         // Do the layout pass on the cell, which will calculate the frames for all the views based on the constraints
@@ -177,7 +178,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return 88.0
+        return UITableViewAutomaticDimension;
     }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {

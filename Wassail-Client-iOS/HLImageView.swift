@@ -12,21 +12,24 @@ class HLImageView: HLItemView {
     
     @IBOutlet var imageView: UIImageView?
     
-    var image: NSDictionary?
-    
     override func configure(dict: NSDictionary?) {
         
         if (dict == nil) {
             return
         }
         
-        self.image = dict
-        
         let name = dict!.objectForKey("address") as NSString
-        self.imageView!.image = DefaultInfo.instance.getImage(name)
+        let image = DefaultInfo.instance.getImage(name) as UIImage?
+        if (image == nil) {
+            return
+        }
         
-        self.sizeToFit()
-        println(self.sizeThatFits(self.frame.size))
+        let scale = image!.size.width / image!.size.height
+        let width = DefaultInfo.instance.getScreenWidth() - 30.0
+        let height = width / scale
+        
+        imageView!.image = image!.scaledToSize(CGSizeMake(width, height))
+        
     }
     
 }

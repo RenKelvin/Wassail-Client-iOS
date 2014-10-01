@@ -37,6 +37,9 @@ class HLToolPreviewView: HLItemView {
             readyLabel!.hidden = true
         }
         
+        //
+//        self.frame.size.width = DefaultInfo.instance.getScreenWidth() - 30.0
+//        self.frame.size.height = 64.0
     }
     
     @IBAction func tapHandler() {

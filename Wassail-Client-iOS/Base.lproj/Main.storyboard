@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -1884,14 +1885,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
-                                                    <rect key="frame" x="15" y="8" width="570" height="52"/>
+                                                    <rect key="frame" x="15" y="8" width="570" height="48"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="9ct-MM-D8L" secondAttribute="bottom" constant="4" id="Q4X-et-QUI"/>
+                                                <constraint firstAttribute="bottom" secondItem="9ct-MM-D8L" secondAttribute="bottom" constant="8" id="Q4X-et-QUI"/>
                                                 <constraint firstItem="9ct-MM-D8L" firstAttribute="leading" secondItem="D35-ir-ypG" secondAttribute="leading" constant="15" id="VmN-DA-EYf"/>
                                                 <constraint firstItem="9ct-MM-D8L" firstAttribute="top" secondItem="D35-ir-ypG" secondAttribute="top" constant="8" id="aUB-UL-F6q"/>
                                                 <constraint firstAttribute="trailing" secondItem="9ct-MM-D8L" secondAttribute="trailing" constant="15" id="wGq-Z8-ywI"/>
@@ -1907,20 +1908,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eLm-HX-N2d" id="MvQ-xh-sHH">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LsD-fg-9JD">
-                                                    <rect key="frame" x="15" y="8" width="570" height="64"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4TI-af-BGm">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="80"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="LsD-fg-9JD" secondAttribute="trailing" constant="15" id="DUj-6a-0XD"/>
-                                                <constraint firstItem="LsD-fg-9JD" firstAttribute="top" secondItem="MvQ-xh-sHH" secondAttribute="top" constant="8" id="Psi-XE-R1i"/>
-                                                <constraint firstAttribute="bottom" secondItem="LsD-fg-9JD" secondAttribute="bottom" constant="8" id="V24-oI-4nX"/>
-                                                <constraint firstItem="LsD-fg-9JD" firstAttribute="leading" secondItem="MvQ-xh-sHH" secondAttribute="leading" constant="15" id="XEt-8x-0vZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="4TI-af-BGm" secondAttribute="bottom" id="VJ8-2d-Cpg"/>
+                                                <constraint firstItem="4TI-af-BGm" firstAttribute="leading" secondItem="MvQ-xh-sHH" secondAttribute="leading" constant="15" id="X92-bf-gHu"/>
+                                                <constraint firstAttribute="trailing" secondItem="4TI-af-BGm" secondAttribute="trailing" constant="15" id="rao-Mh-nDC"/>
+                                                <constraint firstItem="4TI-af-BGm" firstAttribute="top" secondItem="MvQ-xh-sHH" secondAttribute="top" id="toy-QC-AsB"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="itemContainerView" destination="LsD-fg-9JD" id="RqL-QB-pHE"/>
+                                            <outlet property="containerView" destination="4TI-af-BGm" id="NsR-hU-BOn"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1949,7 +1950,7 @@
                         <outlet property="graphCell" destination="thw-jc-Irz" id="xVB-mE-dT7"/>
                         <outlet property="headerLabel" destination="AXe-L8-95D" id="gK9-ke-9wW"/>
                         <outlet property="headerView" destination="rHG-jg-0uj" id="RSh-6G-Q9z"/>
-                        <outlet property="itemCell" destination="SGj-5k-0TW" id="V8J-r1-rMw"/>
+                        <outlet property="itemCell" destination="ISs-v0-z4T" id="vkL-mP-lYE"/>
                         <outlet property="sectionCell" destination="GHi-Xy-Adf" id="xpF-7y-J2v"/>
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
                         <outlet property="titleLabel" destination="d88-dP-cQA" id="1dq-2g-cYt"/>
@@ -1961,26 +1962,26 @@
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ArticleSizeConverterSegueIdentifier" id="Bo5-kO-yCc"/>
                     </connections>
                 </viewController>
-                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewItemCellReuseIdentifier" rowHeight="80" id="SGj-5k-0TW" customClass="ArticleTableViewItemCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewItemCellReuseIdentifier" rowHeight="80" id="ISs-v0-z4T" customClass="ArticleTableViewItemCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SGj-5k-0TW" id="gaR-lw-OnU">
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ISs-v0-z4T" id="Sau-ft-NN3">
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igG-os-jZE">
-                                <rect key="frame" x="15" y="8" width="570" height="64"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hln-bQ-7QT">
+                                <rect key="frame" x="15" y="0.0" width="570" height="79.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="igG-os-jZE" firstAttribute="leading" secondItem="gaR-lw-OnU" secondAttribute="leading" constant="15" id="cgg-by-vBG"/>
-                            <constraint firstAttribute="bottom" secondItem="igG-os-jZE" secondAttribute="bottom" constant="8" id="g3h-KS-qMc"/>
-                            <constraint firstItem="igG-os-jZE" firstAttribute="top" secondItem="gaR-lw-OnU" secondAttribute="top" constant="8" id="sni-X8-LgS"/>
-                            <constraint firstAttribute="trailing" secondItem="igG-os-jZE" secondAttribute="trailing" constant="15" id="wJT-Ds-fED"/>
+                            <constraint firstAttribute="trailing" secondItem="hln-bQ-7QT" secondAttribute="trailing" constant="15" id="LgW-mS-137"/>
+                            <constraint firstAttribute="bottom" secondItem="hln-bQ-7QT" secondAttribute="bottom" id="Z74-DJ-BOR"/>
+                            <constraint firstItem="hln-bQ-7QT" firstAttribute="leading" secondItem="Sau-ft-NN3" secondAttribute="leading" constant="15" id="cYe-EE-tnz"/>
+                            <constraint firstItem="hln-bQ-7QT" firstAttribute="top" secondItem="Sau-ft-NN3" secondAttribute="top" id="gaX-9G-jUM"/>
                         </constraints>
                     </tableViewCellContentView>
                     <connections>
-                        <outlet property="itemContainerView" destination="igG-os-jZE" id="teU-mm-Lhr"/>
+                        <outlet property="containerView" destination="hln-bQ-7QT" id="qGA-QX-rtz"/>
                     </connections>
                 </tableViewCell>
                 <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewGraphCellReuseIdentifier" rowHeight="64" id="thw-jc-Irz" customClass="ArticleTableViewGraphCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -1990,14 +1991,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="X6c-oX-8l4">
-                                <rect key="frame" x="15" y="8" width="570" height="52"/>
+                                <rect key="frame" x="15" y="8" width="570" height="47.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="X6c-oX-8l4" secondAttribute="bottom" constant="4" id="9eP-58-bfd"/>
+                            <constraint firstAttribute="bottom" secondItem="X6c-oX-8l4" secondAttribute="bottom" constant="8" id="9eP-58-bfd"/>
                             <constraint firstAttribute="trailing" secondItem="X6c-oX-8l4" secondAttribute="trailing" constant="15" id="cji-MH-Ix2"/>
                             <constraint firstItem="X6c-oX-8l4" firstAttribute="leading" secondItem="mOG-1a-GQf" secondAttribute="leading" constant="15" id="qYI-sk-yYd"/>
                             <constraint firstItem="X6c-oX-8l4" firstAttribute="top" secondItem="mOG-1a-GQf" secondAttribute="top" constant="8" id="vJA-Ue-4n6"/>

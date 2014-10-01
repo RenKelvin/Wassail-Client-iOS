@@ -19,6 +19,7 @@
 		FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2B0019C48FA40096AD86 /* ArticleTableViewSectionCell.swift */; };
 		FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2B0219C48FAF0096AD86 /* ArticleTableViewGraphCell.swift */; };
 		FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E2B0419C48FBD0096AD86 /* ArticleTableViewItemCell.swift */; };
+		FE51847719DC79340057082C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51847619DC79340057082C /* UIImageExtension.swift */; };
 		FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */; };
 		FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */; };
 		FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B1F9319B4033B00842C3D /* Main.storyboard */; };
@@ -222,6 +223,7 @@
 		FE4E2B0019C48FA40096AD86 /* ArticleTableViewSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewSectionCell.swift; sourceTree = "<group>"; };
 		FE4E2B0219C48FAF0096AD86 /* ArticleTableViewGraphCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewGraphCell.swift; sourceTree = "<group>"; };
 		FE4E2B0419C48FBD0096AD86 /* ArticleTableViewItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewItemCell.swift; sourceTree = "<group>"; };
+		FE51847619DC79340057082C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
 		FE5B1F8A19B4033B00842C3D /* Wassail-Client-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wassail-Client-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B1F8E19B4033B00842C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -667,11 +669,11 @@
 			children = (
 				FE4E2B0719C48FC90096AD86 /* List */,
 				FE4E2B0619C48FC00096AD86 /* Article */,
-				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
-				FEE1600919D8FB5E0022883E /* HLItemView.swift */,
 				FEA0FB9E19D7FF8D00A24409 /* HLImageView */,
 				FEA0FB9B19D7F69A00A24409 /* HLLinkView */,
 				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
+				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
+				FEE1600919D8FB5E0022883E /* HLItemView.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -848,6 +850,7 @@
 			children = (
 				FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */,
 				FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */,
+				FE51847619DC79340057082C /* UIImageExtension.swift */,
 			);
 			name = "Cocoa Touch Externsion";
 			sourceTree = "<group>";
@@ -1223,6 +1226,7 @@
 				FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */,
 				FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */,
 				FED3D18019D687EF00418BFF /* HLTableViewCell.swift in Sources */,
+				FE51847719DC79340057082C /* UIImageExtension.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
