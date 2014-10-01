@@ -20,7 +20,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet var inputTextField: UITextField?
     @IBOutlet var inputUnitLabel: UILabel?
     @IBOutlet var keyboardAccessoryView: UIView?
-
+    
     var output: Double = 0.0
     @IBOutlet var outputTextField: UITextField?
     @IBOutlet var outputUnitLabel: UILabel?
@@ -47,10 +47,12 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         rightPickerView!.tag = 1
         
         inputTextField!.inputAccessoryView = keyboardAccessoryView
-
+        
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
         // Configure Navigation Bar and Status Bar
         
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
@@ -59,7 +61,9 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     override func viewDidAppear(animated: Bool) {
-        inputTextField!.becomeFirstResponder()
+        super.viewDidAppear(animated)
+        
+        // inputTextField!.becomeFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {
@@ -127,7 +131,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     @IBAction func doneButtonTapped() {
         inputTextField!.resignFirstResponder()
     }
-
+    
     // MARK: - TableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
