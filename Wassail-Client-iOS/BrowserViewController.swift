@@ -34,6 +34,9 @@ class BrowserViewController: UIViewController {
         
         // Load request
         webView!.loadRequest(self.request!)
+        
+        //
+        webView!.scalesPageToFit = true
     }
     
     override func viewWillAppear(animated: Bool) {
