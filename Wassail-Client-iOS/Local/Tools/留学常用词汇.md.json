@@ -12,7 +12,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "AAS/AASc(Associate of Applied Science)", 
+                        "content": "AAS/AASc(Associate of Science)", 
                         "kind": "Section"
                     }, 
                     {
@@ -330,11 +330,11 @@
             {
                 "graphs": [
                     {
-                        "content": "GMAT (Graduate Management Admission Test)", 
+                        "content": "GMAT", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u9762\u5411\u5e0c\u671b\u8fdb\u5165\u5546\u5b66\u9662\u7684\u5b66\u5458\u7684\u8003\u8bd5\u3002", 
+                        "content": "Graduate Management Admission Test, \u9762\u5411\u5e0c\u671b\u8fdb\u5165\u5546\u5b66\u9662\u7684\u5b66\u5458\u7684\u8003\u8bd5\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -396,11 +396,11 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "IELTS (International English Language Testing System)", 
+                        "content": "IELTS", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u548cTOEFL\u7c7b\u4f3c\u7684\u82f1\u8bed\u6c34\u5e73\u8003\u8bd5\uff0c\u5206\u4e3a\u5b66\u672f\u7c7b\u548c\u57f9\u8bad\u7c7b\u4e24\u79cd\uff0c\u5206\u522b\u9488\u5bf9\u7533\u8bf7\u7559\u5b66\u7684\u5b66\u751f\u548c\u8ba1\u5212\u5728\u82f1\u8bed\u8bed\u8a00\u56fd\u5bb6\u53c2\u52a0\u5de5\u4f5c\u548c\u79fb\u6c11\u7684\u4eba\u3002\u8003\u8bd5\u5206\u542c\u3001\u8bf4\u3001\u8bfb\u3001\u5199\u56db\u4e2a\u90e8\u5206\uff0c\u603b\u52069\u5206\u3002", 
+                        "content": "International English Language Testing System\u662f\u548cTOEFL\u7c7b\u4f3c\u7684\u82f1\u8bed\u6c34\u5e73\u8003\u8bd5\uff0c\u5206\u4e3a\u5b66\u672f\u7c7b\u548c\u57f9\u8bad\u7c7b\u4e24\u79cd\uff0c\u5206\u522b\u9488\u5bf9\u7533\u8bf7\u7559\u5b66\u7684\u5b66\u751f\u548c\u8ba1\u5212\u5728\u82f1\u8bed\u8bed\u8a00\u56fd\u5bb6\u53c2\u52a0\u5de5\u4f5c\u548c\u79fb\u6c11\u7684\u4eba\u3002\u8003\u8bd5\u5206\u542c\u3001\u8bf4\u3001\u8bfb\u3001\u5199\u56db\u4e2a\u90e8\u5206\uff0c\u603b\u52069\u5206\u3002", 
                         "kind": "Graph"
                     }
                 ], 
@@ -454,11 +454,11 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "MCAT (Medical College Administration Test)", 
+                        "content": "MCAT", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u533b\u5b66\u7814\u7a76\u751f\u9662\u5165\u5b66\u8003\u8bd5\u3002", 
+                        "content": "Medical College Administration Test\uff0c\u533b\u5b66\u7814\u7a76\u751f\u9662\u5165\u5b66\u8003\u8bd5\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -524,11 +524,11 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "PS/SOP (Personal Statement/Statement of Purpose)", 
+                        "content": "PS/SOP", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u4e2a\u4eba\u9648\u8ff0\uff0c\u7533\u8bf7\u7814\u7a76\u751f\u6216\u535a\u58eb\u65f6\u9700\u8981\u3002", 
+                        "content": "Personal Statement/Statement of Purpose\u662f\u6307\u4e2a\u4eba\u9648\u8ff0\uff0c\u7533\u8bf7\u7814\u7a76\u751f\u6216\u535a\u58eb\u65f6\u9700\u8981\u3002", 
                         "kind": "Graph"
                     }
                 ], 
@@ -656,11 +656,11 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "TOEFL (Test of English as a Foreign Language)", 
+                        "content": "TOEFL", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u7533\u8bf7\u7f8e\u56fd\u5b66\u6821\u65f6\u9700\u8981\u7684\u8bed\u8a00\u8003\u8bd5\uff0c\u5206\u542c\u3001\u8bf4\u3001\u8bfb\u3001\u5199\u56db\u4e2a\u90e8\u5206\u3002\u5728\u7f8e\u56fd\u4e0a\u672c\u79d1\u7533\u8bf7\u7814\u7a76\u751f\u53ef\u4ee5\u514d\u8003\u3002", 
+                        "content": "Test of English as a Foreign Language\uff0c\u7533\u8bf7\u7f8e\u56fd\u5b66\u6821\u65f6\u9700\u8981\u7684\u8bed\u8a00\u8003\u8bd5\uff0c\u5206\u542c\u3001\u8bf4\u3001\u8bfb\u3001\u5199\u56db\u4e2a\u90e8\u5206\u3002\u5728\u7f8e\u56fd\u4e0a\u672c\u79d1\u7533\u8bf7\u7814\u7a76\u751f\u53ef\u4ee5\u514d\u8003\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -751,7 +751,7 @@
                         "kind": "Graph"
                     }
                 ], 
-                "title": "-"
+                "title": "\u4e2d\u6587"
             }
         ], 
         "title": "\u5e38\u7528\u8bcd\u6c47"

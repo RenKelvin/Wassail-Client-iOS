@@ -63,7 +63,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u4fe1\u7528\u5386\u53f2\u7684\u957f\u77ed (Length of Credit History) - 15%", 
+                        "content": "\u4fe1\u7528\u5386\u53f2\u7684\u957f\u77ed - 15%", 
                         "kind": "Section"
                     }, 
                     {
@@ -80,7 +80,7 @@
                     }, 
                     {
                         "content": "\u65b0\u8d26\u6237 (New Credit) - 10%", 
-                        "kind": "Graph"
+                        "kind": "Section"
                     }, 
                     {
                         "content": "\u5177\u6709\u591a\u5c11\u65b0\u7684\u5e10\u6237\u3002\u5206\u6570\u65e2\u8981\u770b\u6709\u591a\u5c11\u4fe1\u7528\u5361\uff0c\u540c\u65f6\u770b\u6709\u591a\u5c11\u65b0\u7684\u5e10\u6237\u3002", 
@@ -103,7 +103,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u4f7f\u7528\u4fe1\u7528\u7684\u7c7b\u578b (Types of Credit in Use) - 10%", 
+                        "content": "\u4f7f\u7528\u4fe1\u7528\u7684\u7c7b\u578b  - 10%", 
                         "kind": "Section"
                     }, 
                     {

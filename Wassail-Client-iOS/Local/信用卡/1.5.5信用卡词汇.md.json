@@ -12,12 +12,23 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u8d26\u5355\u65e5\u548c\u8fd8\u6b3e\u65e5 - Statement\uff08Closing\uff09Date & Due Date", 
+                        "content": "\u8d26\u5355\u65e5\u548c\u8fd8\u6b3e\u65e5", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u8d26\u5355\u65e5\u662f\u6307\u53d1\u5361\u94f6\u884c\u6bcf\u6708\u5b9a\u671f\u5bf9\u6301\u5361\u4eba\u7684\u4fe1\u7528\u5361\u8d26\u6237\u5f53\u671f\u53d1\u751f\u7684\u5404\u9879\u4ea4\u6613\u3001\u8d39\u7528\u7b49\u8fdb\u884c\u6c47\u603b\uff0c\u5e76\u7ed3\u8ba1\u5229\u606f\u3001\u8ba1\u7b97\u6301\u5361\u4eba\u5f53\u671f\u5e94\u8fd8\u6b3e\u9879\u7684\u65e5\u671f\u3002", 
+                        "content": "\u8d26\u5355\u65e5(Statement/Closing Date) \u662f\u6307\u53d1\u5361\u94f6\u884c\u6bcf\u6708\u5b9a\u671f\u5bf9\u6301\u5361\u4eba\u7684\u4fe1\u7528\u5361\u8d26\u6237\u5f53\u671f\u53d1\u751f\u7684\u5404\u9879\u4ea4\u6613\u3001\u8d39\u7528\u7b49\u8fdb\u884c\u6c47\u603b\uff0c\u5e76\u7ed3\u8ba1\u5229\u606f\u3001\u8ba1\u7b97\u6301\u5361\u4eba\u5f53\u671f\u5e94\u8fd8\u6b3e\u9879\u7684\u65e5\u671f\u3002\u8fd8\u6b3e\u65e5(Due Date)  \u5219\u662f\u8fd8\u6b3e\u7ed9\u94f6\u884c\u7684\u671f\u9650\u3002", 
                         "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.5.5KnowBeforeYouOwe", 
+                                "title": ""
+                            }, 
+                            "name": "1.5.5KnowBeforeYouOwe", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u5bbd\u9650\u671f - Grace Period", 
@@ -40,8 +51,19 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u7533\u8bf7\u4fe1\u7528\u5361\uff0c\u65f6\u673a\u662f\u5f88\u91cd\u8981\u7684\u3002\u94f6\u884c\u4f1a\u5728\u4e0d\u5b9a\u65f6\u6709\u597d\u7684Offer\uff0c\u6240\u4ee5\u5982\u679c\u4f60\u60f3\u529e\u67d0\u5f20\u5361\u7684\u65f6\u5019\uff0c\u5982\u679c\u4f60\u4e0d\u786e\u5b9a\u8fd9\u5f20\u5361\u4e00\u5b9a\u6ca1\u6709\u5f00\u5361\u6d3b\u52a8\uff0c\u90a3\u4e48\u5c31\u53ef\u4ee5\u5148\u89c2\u671b\u4e00\u9635\u5b50\uff0c\u4e00\u822c\u5728\u611f\u6069\u5723\u8bde\u8d2d\u7269\u5b63\uff0cBack To School\u8d2d\u7269\u5b63\uff0c\u4ee5\u53ca\u5404\u5927\u8282\u65e5\u524d\u5915\uff0c\u53ea\u8981\u662f\u94f6\u884c\u8ba4\u4e3a\u4eba\u4eec\u8981\u5f00\u59cb\u5927\u91cf\u82b1\u94b1\u4e4b\u524d\uff0c\u90fd\u4f1a\u6709\u4e00\u4e9b\u6d3b\u52a8\u7684\u3002\u6709\u4e9bBonus\u662f\u5f00\u5361\u5956\u52b1$50-$150\uff0c\u6709\u4e9b\u662f\u5956\u52b1\u76f8\u5e94\u7684\u70b9\u6570\u3002\u8fd9\u4e9b\u70b9\u6570\u8981\u5f00\u5361\u4e00\u6bb5\u65f6\u95f4\u540e\u624d\u4f1a\u5151\u73b0\uff0c\u9632\u6b62\u6709\u4e9b\u4eba\u75af\u72c2\u5f00\u5361\u5173\u5361\u5c31\u4e3a\u4e86\u62ffbonus\u3002\u53e6\u5916\u4e00\u79cdbonus\u662f\u4ecb\u7ecd\u8d39\uff0c\u6bd4\u5982Discover\u6301\u5361\u8005\u63a8\u8350\u65b0\u4eba\u5165Discover\u5c31\u53ef\u4ee5\u62ff\u523050\u5200\u7684\u5956\u52b1\u3002", 
+                        "content": "\u7533\u8bf7\u4fe1\u7528\u5361\uff0c\u65f6\u673a\u662f\u5f88\u91cd\u8981\u7684\u3002\u94f6\u884c\u4f1a\u5728\u4e0d\u5b9a\u65f6\u6709\u597d\u7684Offer\uff0c\u6240\u4ee5\u5982\u679c\u4f60\u60f3\u529e\u67d0\u5f20\u5361\u7684\u65f6\u5019\uff0c\u5982\u679c\u4f60\u4e0d\u786e\u5b9a\u8fd9\u5f20\u5361\u4e00\u5b9a\u6ca1\u6709\u5f00\u5361\u6d3b\u52a8\uff0c\u90a3\u4e48\u5c31\u53ef\u4ee5\u5148\u89c2\u671b\u4e00\u9635\u5b50\uff0c\u4e00\u822c\u5728\u611f\u6069\u5723\u8bde\u8d2d\u7269\u5b63\uff0cBack To School\u8d2d\u7269\u5b63\uff0c\u4ee5\u53ca\u5404\u5927\u8282\u65e5\u524d\u5915\uff0c\u53ea\u8981\u662f\u94f6\u884c\u8ba4\u4e3a\u4eba\u4eec\u8981\u5f00\u59cb\u5927\u91cf\u82b1\u94b1\u4e4b\u524d\uff0c\u90fd\u4f1a\u6709\u4e00\u4e9b\u6d3b\u52a8\u7684\u3002", 
                         "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.5.5CreditcardSurprise", 
+                                "title": "\u6709\u4e9bBonus\u662f\u5f00\u5361\u5956\u52b1$50-$150\uff0c\u6709\u4e9b\u662f\u5956\u52b1\u76f8\u5e94\u7684\u70b9\u6570\u3002\u8fd9\u4e9b\u70b9\u6570\u8981\u5f00\u5361\u4e00\u6bb5\u65f6\u95f4\u540e\u624d\u4f1a\u5151\u73b0\uff0c\u9632\u6b62\u6709\u4e9b\u4eba\u75af\u72c2\u5f00\u5361\u5173\u5361\u5c31\u4e3a\u4e86\u62ffbonus\u3002\u53e6\u5916\u4e00\u79cdbonus\u662f\u4ecb\u7ecd\u8d39\uff0c\u6bd4\u5982Discover\u6301\u5361\u8005\u63a8\u8350\u65b0\u4eba\u5165Discover\u5c31\u53ef\u4ee5\u62ff\u523050\u5200\u7684\u5956\u52b1\u3002"
+                            }, 
+                            "name": "1.5.5CreditcardSurprise", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u8fd4\u73b0\u53ca\u8fd4\u73b0\u65b9\u5f0f - Cash Back", 
@@ -68,6 +90,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "1.5.5GoldenKey", 
+                                "title": ""
+                            }, 
+                            "name": "1.5.5GoldenKey", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "Balance Transfer\uff08BT\uff09", 
                         "kind": "Section"
                     }, 
@@ -86,6 +119,17 @@
                     {
                         "content": "\u8fd8\u6b3e\u65f6\uff0c\u94f6\u884c\u4f1a\u6839\u636eClosing Date\u5f53\u65e5\u7684\u4fe1\u7528\u5361\u6b20\u6b3e\u91d1\u989d\uff08Statement Balance\uff09\u6765\u786e\u5b9a\u6700\u4f4e\u8fd8\u6b3e\u989d\uff08Minimum Payment\uff09\u3002\u6700\u4f4e\u8fd8\u6b3e\u989d\u5404\u94f6\u884c\u7b97\u6cd5\u7565\u6709\u4e0d\u540c\uff0c\u5927\u81f4\u4e3aStatement Balance\u76842%\u4f46\u4e0d\u5c0f\u4e8e$20\uff08\u82e5\u6b20\u989d\u4f4e\u4e8e$20\u5219\u4e3a\u6b20\u989d\u672c\u8eab)\u3002Minimum Payment\u662f\u4f60\u5f53\u6708\u81f3\u5c11\u8981\u4ed8\u7684\u91d1\u989d\uff08\u53ea\u8981\u5728Due Date\u524d\u652f\u4ed8\u4e86Minimum Amount\uff0c\u5c31\u4e0d\u7b97Late Payment\uff0cLate Payment\u4e00\u5b9a\u8981\u907f\u514d\uff0c\u9664\u4e86\u4f1a\u88ab\u6536Late Payment Fee\u4ee5\u5916\uff0c\u5bf9\u4f60\u7684\u4fe1\u7528\u8bb0\u5f55\u66f4\u662f\u975e\u5e38\u4e0d\u597d\u3002\u5269\u4e0b\u6ca1\u8fd8\u6e05\u7684\u90e8\u5206\u5c31\u8981\u6309\u4fe1\u7528\u5361\u7684APR\u8ba1\u7b97\u5229\u606f\uff0c\u901a\u5e38\u4f1a\u9ad8\u8fbe15%\u201030%\uff08\u9ad8\u5229\u8d37\uff09\u3002", 
                         "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.5.5POS", 
+                                "title": ""
+                            }, 
+                            "name": "1.5.5POS", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u6240\u4ee5\u5269\u4e0b\u6ca1\u8fd8\u6e05\u7684\u90e8\u5206\u771f\u7684\u662f\u9ad8\u5229\u8d37\u5e76\u4e14\u5229\u6eda\u5229\u4e86\u3002\u56e0\u6b64\u4e00\u822c\u60c5\u51b5\u4e0b\uff0c\u9700\u8981\u4ed8\u6389Statement Balance\u4e0a\u7684\u6240\u6709\u91d1\u989d\uff0c\u4ee5\u514d\u652f\u4ed8\u9ad8\u989d\u5229\u606f\u3002\u5982\u679c\u4f60\u56e0\u4e3a\u624b\u5934\u62ee\u636e\u53ea\u4ed8\u4e86Minimum Payment\uff0c\u867d\u7136\u4e0d\u7b97Late Payment\uff0c\u4e0d\u4f1a\u5f71\u54cd\u4f60\u7684\u4fe1\u7528\u8bb0\u5f55\uff0c\u4f46\u4f60\u4f1a\u4e27\u5931Grace Period\uff0c\u4e4b\u540e\u4efb\u4f55\u4ea4\u6613\u90fd\u4f1a\u4ece\u4ea4\u6613\u4e4b\u65e5\u5c31\u5f00\u59cb\u8ba1\u7b97\u5229\u606f\uff0c\u4e4b\u524d\u6ca1\u6709\u8fd8\u6e05\u7684\u4ea4\u6613\u4e5f\u90fd\u4f1a\u8ffd\u6eaf\u5230\u4ea4\u6613\u5f53\u65e5\u5f00\u59cb\u8865\u6536\u5229\u606f\u3002", 
