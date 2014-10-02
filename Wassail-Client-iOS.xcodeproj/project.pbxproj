@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */; };
+		ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */; };
+		ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */; };
+		ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C319DD025300DFC311 /* 1.3UnionPay.jpg */; };
+		ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C419DD025300DFC311 /* 1.4RodeoDrive.jpg */; };
+		ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C519DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg */; };
+		ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C619DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg */; };
+		ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C719DD025300DFC311 /* 1.5.3CreditReport.jpg */; };
+		ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C819DD025300DFC311 /* 1.5.3CreditScore.jpg */; };
+		ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C919DD025300DFC311 /* 1.5.3FICO.jpeg */; };
+		ADC907E419DD025300DFC311 /* 1.5.3Goodcredit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CA19DD025300DFC311 /* 1.5.3Goodcredit.jpeg */; };
+		ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CB19DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg */; };
+		ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CC19DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg */; };
+		ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CD19DD025300DFC311 /* 1.5.5GoldenKey.jpeg */; };
+		ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CE19DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg */; };
+		ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907CF19DD025300DFC311 /* 1.5.5POS.jpeg */; };
+		ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D019DD025300DFC311 /* 1.5.6CreditCardScam.jpg */; };
+		ADC907EB19DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D119DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg */; };
+		ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D219DD025300DFC311 /* 1.5.8AmericanExpress.jpeg */; };
+		ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D319DD025300DFC311 /* 1.5.8CashBack.jpg */; };
+		ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D419DD025300DFC311 /* 1.5.8Discover.jpg */; };
+		ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D519DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg */; };
+		ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D619DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg */; };
+		ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D719DD025300DFC311 /* 1.5.9Chase Freedom.jpg */; };
+		ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D819DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg */; };
+		ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D919DD025300DFC311 /* 1.5.9SPGAMEX.jpg */; };
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
@@ -211,6 +237,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.1Credit Card.jpg"; sourceTree = "<group>"; };
+		ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2creditcardsafe.jpg; sourceTree = "<group>"; };
+		ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2Overconsumption.jpg; sourceTree = "<group>"; };
+		ADC907C319DD025300DFC311 /* 1.3UnionPay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.3UnionPay.jpg; sourceTree = "<group>"; };
+		ADC907C419DD025300DFC311 /* 1.4RodeoDrive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.4RodeoDrive.jpg; sourceTree = "<group>"; };
+		ADC907C519DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.1AmericanCreditCard.jpg; sourceTree = "<group>"; };
+		ADC907C619DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.2SocialSecurityCard.jpg; sourceTree = "<group>"; };
+		ADC907C719DD025300DFC311 /* 1.5.3CreditReport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.3CreditReport.jpg; sourceTree = "<group>"; };
+		ADC907C819DD025300DFC311 /* 1.5.3CreditScore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.3CreditScore.jpg; sourceTree = "<group>"; };
+		ADC907C919DD025300DFC311 /* 1.5.3FICO.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.3FICO.jpeg; sourceTree = "<group>"; };
+		ADC907CA19DD025300DFC311 /* 1.5.3Goodcredit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.3Goodcredit.jpeg; sourceTree = "<group>"; };
+		ADC907CB19DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.3ThreeReportingAgency.jpeg; sourceTree = "<group>"; };
+		ADC907CC19DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.5CreditcardSurprise.jpeg; sourceTree = "<group>"; };
+		ADC907CD19DD025300DFC311 /* 1.5.5GoldenKey.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.5GoldenKey.jpeg; sourceTree = "<group>"; };
+		ADC907CE19DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.5KnowBeforeYouOwe.jpeg; sourceTree = "<group>"; };
+		ADC907CF19DD025300DFC311 /* 1.5.5POS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.5POS.jpeg; sourceTree = "<group>"; };
+		ADC907D019DD025300DFC311 /* 1.5.6CreditCardScam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.6CreditCardScam.jpg; sourceTree = "<group>"; };
+		ADC907D119DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.6RoadtoGoodCredit.jpg; sourceTree = "<group>"; };
+		ADC907D219DD025300DFC311 /* 1.5.8AmericanExpress.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.8AmericanExpress.jpeg; sourceTree = "<group>"; };
+		ADC907D319DD025300DFC311 /* 1.5.8CashBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.8CashBack.jpg; sourceTree = "<group>"; };
+		ADC907D419DD025300DFC311 /* 1.5.8Discover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.8Discover.jpg; sourceTree = "<group>"; };
+		ADC907D519DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9AMEXBlueCash.jpeg; sourceTree = "<group>"; };
+		ADC907D619DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.5.9BankAmericard Cash Rewards.jpeg"; sourceTree = "<group>"; };
+		ADC907D719DD025300DFC311 /* 1.5.9Chase Freedom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.5.9Chase Freedom.jpg"; sourceTree = "<group>"; };
+		ADC907D819DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9ChaseSapphire.jpeg; sourceTree = "<group>"; };
+		ADC907D919DD025300DFC311 /* 1.5.9SPGAMEX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9SPGAMEX.jpg; sourceTree = "<group>"; };
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
@@ -717,6 +769,32 @@
 		FEA0FC0D19D8669000A24409 /* 信用卡 */ = {
 			isa = PBXGroup;
 			children = (
+				ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */,
+				ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */,
+				ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */,
+				ADC907C319DD025300DFC311 /* 1.3UnionPay.jpg */,
+				ADC907C419DD025300DFC311 /* 1.4RodeoDrive.jpg */,
+				ADC907C519DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg */,
+				ADC907C619DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg */,
+				ADC907C719DD025300DFC311 /* 1.5.3CreditReport.jpg */,
+				ADC907C819DD025300DFC311 /* 1.5.3CreditScore.jpg */,
+				ADC907C919DD025300DFC311 /* 1.5.3FICO.jpeg */,
+				ADC907CA19DD025300DFC311 /* 1.5.3Goodcredit.jpeg */,
+				ADC907CB19DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg */,
+				ADC907CC19DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg */,
+				ADC907CD19DD025300DFC311 /* 1.5.5GoldenKey.jpeg */,
+				ADC907CE19DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg */,
+				ADC907CF19DD025300DFC311 /* 1.5.5POS.jpeg */,
+				ADC907D019DD025300DFC311 /* 1.5.6CreditCardScam.jpg */,
+				ADC907D119DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg */,
+				ADC907D219DD025300DFC311 /* 1.5.8AmericanExpress.jpeg */,
+				ADC907D319DD025300DFC311 /* 1.5.8CashBack.jpg */,
+				ADC907D419DD025300DFC311 /* 1.5.8Discover.jpg */,
+				ADC907D519DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg */,
+				ADC907D619DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg */,
+				ADC907D719DD025300DFC311 /* 1.5.9Chase Freedom.jpg */,
+				ADC907D819DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg */,
+				ADC907D919DD025300DFC311 /* 1.5.9SPGAMEX.jpg */,
 				FEA0FC0E19D8669000A24409 /* 1.0信用卡.md.json */,
 				FEA0FC0F19D8669000A24409 /* 1.1产品种类.md.json */,
 				FEA0FC1019D8669000A24409 /* 1.2优缺点对比.md.json */,
@@ -1039,28 +1117,36 @@
 			files = (
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
+				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
+				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
 				FEB211EA19DA940C00647560 /* 2.9Yale Insider.jpeg in Resources */,
 				FEB211DE19DA940C00647560 /* 1.1.2ARWU.png in Resources */,
 				FEB211E119DA940C00647560 /* 1.2.2Top200按国家统计对比.png in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
+				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
+				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
 				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
+				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
+				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				FEA0FC0219D846A400A24409 /* 3.5.0社会科学与人文排名.md.json in Resources */,
 				FEA0FC0419D846A400A24409 /* 3.7.0图书咨询学排名.md.json in Resources */,
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
+				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
+				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
@@ -1070,11 +1156,14 @@
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */,
 				FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */,
+				ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */,
+				ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
 				FEE1603519D9250C0022883E /* 1.3AmericanExpressLogo.jpg in Resources */,
+				ADC907E419DD025300DFC311 /* 1.5.3Goodcredit.jpeg in Resources */,
 				FEE1602519D925030022883E /* 1.4.2.1QS2015排名.png in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
 				FEA0FBDF19D846A400A24409 /* 1.3.0THE世界大学排名.md.json in Resources */,
@@ -1096,11 +1185,15 @@
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
 				FEA0FBFA19D846A400A24409 /* 2.8普林斯顿评论.md.json in Resources */,
 				FEA0FBDA19D846A400A24409 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json in Resources */,
+				ADC907EB19DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
+				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				FEA0FBF819D846A400A24409 /* 2.5LiberalArtsCollege.md.json in Resources */,
 				FEA0FBDE19D846A400A24409 /* 1.2.0三大排名对比.md.json in Resources */,
 				FEA0FBF619D846A400A24409 /* 2.3USNews评价标准.md.json in Resources */,
 				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
+				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
+				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
@@ -1108,14 +1201,17 @@
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
+				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
+				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
+				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
@@ -1126,23 +1222,30 @@
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
+				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
+				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
+				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
+				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
+				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
+				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
+				ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
@@ -1151,6 +1254,7 @@
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
+				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
 				FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */,
 				FEA0FBF519D846A400A24409 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
