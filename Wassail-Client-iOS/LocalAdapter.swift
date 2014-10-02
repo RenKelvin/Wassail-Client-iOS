@@ -100,9 +100,12 @@ class LocalAdapter: NSObject {
         if (url == nil) {
             url = self.getURL(file, type: "jpg", dir: dir)
         }
+        if (url == nil) {
+            url = self.getURL(file, type: "jpeg", dir: dir)
+        }
         
         if (url == nil) {
-            println("Local Adapter: \(file).png in not found in \(dir)")
+            println("Local Adapter: \(file) not found in \(dir)")
             return nil
         }
         
