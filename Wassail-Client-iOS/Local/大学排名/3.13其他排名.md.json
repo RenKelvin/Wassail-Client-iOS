@@ -4,7 +4,7 @@
             {
                 "graphs": [
                     {
-                        "content": "\u300a\u5546\u4e1a\u5468\u520a (Bloomberg Business Week) \u5546\u5b66\u9662\u6392\u540d\u300b", 
+                        "content": "Bloomberg Business Week", 
                         "kind": "Section"
                     }, 
                     {
@@ -19,7 +19,7 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u300a\u91d1\u878d\u65f6\u62a5 (Financial Times) \u91d1\u878d\u7855\u58eb\u6392\u540d\u300b", 
+                        "content": "Financial Times", 
                         "kind": "Section"
                     }, 
                     {
@@ -34,7 +34,7 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u300a\u91d1\u878d\u65f6\u62a5 (Financial Times) \u5546\u5b66\u9662\u6392\u540d\u300b", 
+                        "content": "Financial Times", 
                         "kind": "Section"
                     }, 
                     {
@@ -49,7 +49,7 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u300a\u666e\u6797\u65af\u987f\u8bc4\u8bba(Princeton Review)\u7814\u7a76\u751f\u9662\u6392\u540d\u300b", 
+                        "content": "Princeton Review", 
                         "kind": "Section"
                     }, 
                     {
@@ -68,7 +68,7 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u300a\u666e\u6797\u65af\u987f\u8bc4\u8bba(Princeton Review)\u5546\u5b66\u9662\u6392\u540d\u300b", 
+                        "content": "Princeton Review", 
                         "kind": "Section"
                     }, 
                     {
@@ -87,7 +87,7 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u300a\u666e\u6797\u65af\u987f\u8bc4\u8bba(Princeton Review)\u6cd5\u5b66\u9662\u6392\u540d\u300b", 
+                        "content": "Princeton Review", 
                         "kind": "Section"
                     }, 
                     {

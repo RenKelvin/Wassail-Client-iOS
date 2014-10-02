@@ -6,22 +6,6 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.1\u7533\u8bf7\u81ea\u8d39\u7855\u58eb\u5e94\u8be5\u5982\u4f55\u9009\u6821\u3001\u5982\u4f55\u770b\u5f85\u5b66\u6821\u6392\u540d?", 
-                                "title": "\u7533\u8bf7\u81ea\u8d39\u7855\u58eb\u5e94\u8be5\u5982\u4f55\u770b\u5f85\u5b66\u6821\u6392\u540d\uff1f"
-                            }, 
-                            "name": "3.1\u7533\u8bf7\u81ea\u8d39\u7855\u58eb\u5e94\u8be5\u5982\u4f55\u9009\u6821\u3001\u5982\u4f55\u770b\u5f85\u5b66\u6821\u6392\u540d?", 
-                            "type": "HLArticlePreview"
-                        }, 
-                        "kind": "Item"
-                    }
-                ], 
-                "title": "-"
-            }, 
-            {
-                "items": [
-                    {
-                        "content": {
-                            "body": {
                                 "address": "3.2.0\u5de5\u7a0b\u9662\u6392\u540d", 
                                 "title": "\u5de5\u7a0b\u9662\u6392\u540d \uff08Engineering\uff09"
                             }, 
@@ -78,7 +62,7 @@
                         "content": {
                             "body": {
                                 "address": "3.7.0\u56fe\u4e66\u54a8\u8be2\u5b66\u6392\u540d", 
-                                "title": "\u56fe\u4e66\u54a8\u8be2\u5b66\u6392\u540d\uff08Information Science\uff09"
+                                "title": "\u56fe\u4e66\u5b66\u6392\u540d\uff08Information Science\uff09"
                             }, 
                             "name": "3.7.0\u56fe\u4e66\u54a8\u8be2\u5b66\u6392\u540d", 
                             "type": "HLListPreview"

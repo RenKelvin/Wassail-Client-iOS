@@ -33,6 +33,16 @@
 		ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D719DD025300DFC311 /* 1.5.9Chase Freedom.jpg */; };
 		ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D819DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg */; };
 		ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907D919DD025300DFC311 /* 1.5.9SPGAMEX.jpg */; };
+		ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */; };
+		ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */; };
+		ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */; };
+		ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC019DD6058005E4FD4 /* 游学.jpg */; };
+		ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC119DD6058005E4FD4 /* 申请住宿.jpg */; };
+		ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */; };
+		ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */; };
+		ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */; };
+		ADCF1ECE19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */; };
+		ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */; };
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
@@ -263,6 +273,16 @@
 		ADC907D719DD025300DFC311 /* 1.5.9Chase Freedom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.5.9Chase Freedom.jpg"; sourceTree = "<group>"; };
 		ADC907D819DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9ChaseSapphire.jpeg; sourceTree = "<group>"; };
 		ADC907D919DD025300DFC311 /* 1.5.9SPGAMEX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9SPGAMEX.jpg; sourceTree = "<group>"; };
+		ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flight.jpg; sourceTree = "<group>"; };
+		ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "决定学校.jpg"; sourceTree = "<group>"; };
+		ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "安全问题.jpg"; sourceTree = "<group>"; };
+		ADCF1EC019DD6058005E4FD4 /* 游学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "游学.jpg"; sourceTree = "<group>"; };
+		ADCF1EC119DD6058005E4FD4 /* 申请住宿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "申请住宿.jpg"; sourceTree = "<group>"; };
+		ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0美国国旗.jpg"; sourceTree = "<group>"; };
+		ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.0.0如何看待排名.md.json"; sourceTree = "<group>"; };
+		ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.3.2.0THE2014-2015.md.json"; sourceTree = "<group>"; };
+		ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.3.2.0THE2014-2015.png"; sourceTree = "<group>"; };
+		ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.0美国国旗.jpg"; sourceTree = "<group>"; };
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
@@ -594,6 +614,11 @@
 		FE5BC07219D71BD4007E63BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */,
+				ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */,
+				ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */,
+				ADCF1EC019DD6058005E4FD4 /* 游学.jpg */,
+				ADCF1EC119DD6058005E4FD4 /* 申请住宿.jpg */,
 				FE5BC07319D71BD4007E63BC /* Size Converter.json */,
 				FE5BC07419D71BD4007E63BC /* Tools.json */,
 				FE5BC07519D71BD4007E63BC /* Unit Converter.json */,
@@ -606,6 +631,10 @@
 		FE5BC07819D71BD4007E63BC /* 大学排名 */ = {
 			isa = PBXGroup;
 			children = (
+				ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */,
+				ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */,
+				ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */,
+				ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */,
 				FEB211CC19DA940C00647560 /* 0大学排名.jpg */,
 				FEA0FBA319D846A300A24409 /* 0大学排名.md.json */,
 				FEA0FBA419D846A300A24409 /* 1.0世界大学排名.md.json */,
@@ -769,6 +798,7 @@
 		FEA0FC0D19D8669000A24409 /* 信用卡 */ = {
 			isa = PBXGroup;
 			children = (
+				ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */,
 				ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */,
 				ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */,
 				ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */,
@@ -1115,6 +1145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
@@ -1122,6 +1153,7 @@
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
+				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
 				FEB211EA19DA940C00647560 /* 2.9Yale Insider.jpeg in Resources */,
 				FEB211DE19DA940C00647560 /* 1.1.2ARWU.png in Resources */,
@@ -1131,10 +1163,13 @@
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
+				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
+				ADCF1ECE19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png in Resources */,
 				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
 				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
+				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				FEA0FC0219D846A400A24409 /* 3.5.0社会科学与人文排名.md.json in Resources */,
@@ -1144,6 +1179,7 @@
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
+				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
@@ -1209,6 +1245,8 @@
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
 				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
+				ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */,
+				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
@@ -1229,6 +1267,7 @@
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
+				ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
@@ -1250,6 +1289,7 @@
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
+				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,

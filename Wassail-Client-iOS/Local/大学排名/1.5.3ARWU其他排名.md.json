@@ -18,7 +18,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/FieldSCI2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u7406\u79d1\u300b"
+                                "title": "\u300a\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u7406\u79d1\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/FieldSCI2014.html", 
                             "type": "HLLink"
@@ -29,7 +29,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/FieldENG2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u5de5\u79d1\u300b"
+                                "title": "\u300a\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u5de5\u79d1\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/FieldENG2014.html", 
                             "type": "HLLink"
@@ -40,7 +40,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/FieldLIFE2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u751f\u547d\u300b"
+                                "title": "\u300a\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u751f\u547d\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/FieldLIFE2014.html", 
                             "type": "HLLink"
@@ -51,7 +51,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/FieldMED2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u533b\u79d1\u300b"
+                                "title": "\u300a\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u533b\u79d1\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/FieldMED2014.html", 
                             "type": "HLLink"
@@ -62,7 +62,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/FieldSOC2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u793e\u79d1\u300b"
+                                "title": "\u300a\u5b66\u79d1\u9886\u57df\u6392\u540d\uff0d\u793e\u79d1\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/FieldSOC2014.html", 
                             "type": "HLLink"
@@ -73,7 +73,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/SubjectMathematics2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u6392\u540d\uff0d\u6570\u5b66\u300b"
+                                "title": "\u300a\u5b66\u79d1\u6392\u540d\uff0d\u6570\u5b66\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/SubjectMathematics2014.html", 
                             "type": "HLLink"
@@ -84,7 +84,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/SubjectPhysics2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u6392\u540d\uff0d\u7269\u7406\u300b"
+                                "title": "\u300a\u5b66\u79d1\u6392\u540d\uff0d\u7269\u7406\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/SubjectPhysics2014.html", 
                             "type": "HLLink"
@@ -95,7 +95,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/SubjectChemistry2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u6392\u540d\uff0d\u5316\u5b66\u300b"
+                                "title": "\u300a\u5b66\u79d1\u6392\u540d\uff0d\u5316\u5b66\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/SubjectChemistry2014.html", 
                             "type": "HLLink"
@@ -106,7 +106,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/SubjectCS2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u6392\u540d\uff0d\u8ba1\u7b97\u673a\u300b"
+                                "title": "\u300a\u5b66\u79d1\u6392\u540d\uff0d\u8ba1\u7b97\u673a\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/SubjectCS2014.html", 
                             "type": "HLLink"
@@ -117,7 +117,7 @@
                         "content": {
                             "body": {
                                 "address": "http://www.shanghairanking.cn/SubjectEcoBus2014.html", 
-                                "title": "\u300a\u4e16\u754c\u5927\u5b66\u5b66\u79d1\u6392\u540d\uff0d\u7ecf\u6d4e\u5b66\uff0f\u5546\u5b66\u300b"
+                                "title": "\u300a\u5b66\u79d1\u6392\u540d\uff0d\u7ecf\u6d4e\u5b66\uff0f\u5546\u5b66\u300b"
                             }, 
                             "name": "http://www.shanghairanking.cn/SubjectEcoBus2014.html", 
                             "type": "HLLink"
