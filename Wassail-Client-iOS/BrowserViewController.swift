@@ -10,6 +10,8 @@ import UIKit
 
 class BrowserViewController: UIViewController {
     
+    @IBOutlet var navigationView: UIView?
+   
     var address: NSString = ""
     var url: NSURL?
     var request: NSURLRequest?
@@ -41,7 +43,7 @@ class BrowserViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        self.setNavigationBarStyle(HLNavigationBarStyle.Default)
+        self.setNavigationBarStyle(HLNavigationBarStyle.TransparentWithDarkText)
     }
     
     override func didReceiveMemoryWarning() {
