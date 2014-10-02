@@ -21,17 +21,17 @@ extension UIColor {
     class func HLBlue(level: Int) -> UIColor {
         switch level {
         case -2:
-            return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+            return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         case -1:
-            return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+            return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         case 0:
             return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         case 1:
-            return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+            return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         case 2:
-            return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+            return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         default:
-            return UIColor(red: 0.27, green: 0.66, blue: 1.0, alpha: 1.0)
+            return UIColor(red: 0.270, green: 0.663, blue: 1.000, alpha: 1.000)
         }
     }
     
