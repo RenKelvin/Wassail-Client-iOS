@@ -4,6 +4,7 @@
                "university rankings",
                "gpa calculator",
                "apply documents",
+               "offer broadcast",
                "aboard words"
                ],
               [
@@ -18,8 +19,85 @@
         "ready": "true",
         "note": "世界大学权威排名及分析",
         "title": "大学排名",
-        "icon": "ToolsIconCreditCard",
+        "icon": "ToolsIconUniversityRankings",
         "identifier": "UniversityRankings"
+    },
+    "aboard exams": {
+        "ready": "false",
+        "note": "语言考试、入学考试、资格考试介绍",
+        "title": "出国考试",
+        "icon": "ToolsIconAboardExams",
+        "identifier": "AboardExams"
+    },
+    "apply manager": {
+        "ready": "false",
+        "note": "管理申请事项，提醒截止日期",
+        "title": "申请管理器",
+        "icon": "ToolsIconApplyManager",
+        "identifier": "ApplyManager"
+    },
+    "offer broadcast": {
+        "ready": "false",
+        "note": "录取结果提醒，实时更新录取进展",
+        "title": "录取结果播报",
+        "icon": "ToolsIconOfferBroadcast",
+        "identifier": "ApplyManager"
+    },
+    "luggage list": {
+        "ready": "false",
+        "note": "出国必备行李清单，装包攻略",
+        "title": "行李清单",
+        "icon": "ToolsIconLuggageList",
+        "identifier": "LuggageList"
+    },
+    "airline tickets": {
+        "ready": "false",
+        "note": "机票价格趋势，省钱、积分攻略",
+        "title": "机票攻略",
+        "icon": "ToolsIconAirlineTickets",
+        "identifier": "AirlineTickets"
+    },
+    "aboard expense": {
+        "ready": "false",
+        "note": "出国留学费用介绍、分析及规划，",
+        "title": "留学费用",
+        "icon": "ToolsIconAboardExpense",
+        "identifier": "AboardExpense"
+    },
+    "visa introduction": {
+        "ready": "false",
+        "note": "办理签证准备材料，办理流程，注意事项",
+        "title": "签证攻略",
+        "icon": "ToolsIconVisaIntroduction",
+        "identifier": "VisaIntroduction"
+    },
+    "student files": {
+        "ready": "false",
+        "note": "学生身份文件详解，注意事项",
+        "title": "学生文件",
+        "icon": "ToolsIconStudentFiles",
+        "identifier": "StudentFiles"
+    },
+    "financial aid": {
+        "ready": "false",
+        "note": "",
+        "title": "奖学金",
+        "icon": "ToolsIconFinancialAid",
+        "identifier": "FinancialAid"
+    },
+    "online application": {
+        "ready": "false",
+        "note": "网申准备材料，使用步骤及注意事项",
+        "title": "网申流程",
+        "icon": "ToolsIconOnlineApplication",
+        "identifier": "OnlineApplication"
+    },
+    "admission interview": {
+        "ready": "false",
+        "note": "录取面试的常见问题及面试流程",
+        "title": "面试攻略",
+        "icon": "ToolsIconInterviewGuide",
+        "identifier": "AdmissionInterview"
     },
     "gpa calculator": {
         "ready": "true",
@@ -31,7 +109,7 @@
     "apply documents": {
         "ready": "false",
         "note": "留学申请文书解析、范例",
-        "title": "申请文书全解",
+        "title": "申请文书",
         "icon": "ToolsIconApplyDocuments",
         "identifier": "ApplyDocuments"
     },
@@ -39,7 +117,7 @@
         "ready": "true",
         "note": "留学生活中常见的术语，单词，缩写",
         "title": "留学常用词汇",
-        "icon": "ToolsIconInfoContainer",
+        "icon": "ToolsIconAboardWords",
         "identifier": "AboardWords"
     },
     "credit card": {
