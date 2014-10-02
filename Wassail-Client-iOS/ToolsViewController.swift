@@ -126,6 +126,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 2:
                 ""
             case 3:
+                ""
+            case 4:
                 self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: ArticleInfo.instance.getArticle("留学常用词汇"))
             default:
                 ""
