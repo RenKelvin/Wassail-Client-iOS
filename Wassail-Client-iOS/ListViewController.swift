@@ -12,6 +12,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet var tableView: UITableView?
     
+    @IBOutlet var navigationView: UIView?
+
     var list: HLList = HLList()
     
     override func viewDidLoad() {
@@ -33,8 +35,9 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     override func viewWillAppear(animated: Bool) {
         // Configure Navigation Bar and Status Bar
-        self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
-    }
+        self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        navigationView!.backgroundColor! = UIColor.HLBlue(0)
+ }
     
     // MARK: -
     

@@ -13,6 +13,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
     
+    @IBOutlet var navigationView: UIView?
+
     @IBOutlet var monthLabel: UILabel?
     @IBOutlet var dayLabel: UILabel?
     
@@ -26,7 +28,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewWillAppear(animated)
         
         // Configure Navigation Bar and Status Bar
-        self.setNavigationBarStyle(HLNavigationBarStyle.Blue)
+        self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        navigationView!.backgroundColor! = UIColor.HLBlue(0)
         
         // Add table header
         self.tableView?.addSubview(self.tableViewHeaderView!)

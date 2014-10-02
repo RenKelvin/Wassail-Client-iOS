@@ -10,6 +10,8 @@ import UIKit
 
 class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var navigationView: UIView?
+    
     @IBOutlet var tableView: UITableView?
     
     @IBOutlet var headerView: UIView?
@@ -52,7 +54,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         super.viewWillAppear(animated)
         
         // Configure Navigation Bar and Status Bar
-        self.setNavigationBarStyle(HLNavigationBarStyle.Default)
+        self.setNavigationBarStyle(HLNavigationBarStyle.TransparentWithDarkText)
         
     }
     
