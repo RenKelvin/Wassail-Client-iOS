@@ -59,8 +59,15 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
             itemView!.configure(imageBody)
             
+        case "HLImage":
+            itemView = NSBundle.mainBundle().loadNibNamed("HLImageView", owner: nil, options: nil).first as HLImageView
+            
+            let imageBody = item!.objectForKey("body") as NSDictionary
+            
+            itemView!.configure(imageBody)
+
         default:
-            ""
+            return
         }
         
         // Add subview
