@@ -498,6 +498,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE08E0ED19DD9B720016A1A2 /* 留学时间表 */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */,
+				ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */,
+				ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */,
+				ADCF1EC019DD6058005E4FD4 /* 游学.jpg */,
+				ADCF1EC119DD6058005E4FD4 /* 申请住宿.jpg */,
+				FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */,
+			);
+			name = "留学时间表";
+			sourceTree = "<group>";
+		};
 		FE0FBE5A19C9289700656E49 /* RKNumbersView */ = {
 			isa = PBXGroup;
 			children = (
@@ -614,16 +627,11 @@
 		FE5BC07219D71BD4007E63BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */,
-				ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */,
-				ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */,
-				ADCF1EC019DD6058005E4FD4 /* 游学.jpg */,
-				ADCF1EC119DD6058005E4FD4 /* 申请住宿.jpg */,
 				FE5BC07319D71BD4007E63BC /* Size Converter.json */,
 				FE5BC07419D71BD4007E63BC /* Tools.json */,
 				FE5BC07519D71BD4007E63BC /* Unit Converter.json */,
 				FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */,
-				FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */,
+				FE08E0ED19DD9B720016A1A2 /* 留学时间表 */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
