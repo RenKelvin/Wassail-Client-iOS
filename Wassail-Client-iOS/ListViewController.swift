@@ -58,11 +58,16 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
         let cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         
-        cell.configure(item)
+        let item = list.item(indexPath.section, row: indexPath.row)
+        if (!item.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item)")
+            return cell
+        }
+
+        cell.configure(item as HLItemPreview)
         
         return cell
     }
