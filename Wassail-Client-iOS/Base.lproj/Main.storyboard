@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -2087,12 +2086,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="REv-SL-D0I"/>
-        <segue reference="fYA-Od-fVe"/>
-        <segue reference="5Rv-FT-p8R"/>
-        <segue reference="Oab-mH-CQ6"/>
-        <segue reference="Bo5-kO-yCc"/>
-        <segue reference="ydz-Qv-haZ"/>
-        <segue reference="R8b-dB-BNq"/>
+        <segue reference="kVD-07-a4B"/>
+        <segue reference="sEN-DU-GIR"/>
+        <segue reference="flF-XO-gRb"/>
+        <segue reference="TkG-Ai-5Ra"/>
+        <segue reference="r4f-h3-sd1"/>
+        <segue reference="kkp-86-AQj"/>
+        <segue reference="BK5-dh-8Fc"/>
     </inferredMetricsTieBreakers>
 </document>
