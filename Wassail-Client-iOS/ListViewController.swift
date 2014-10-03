@@ -36,10 +36,6 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Set article title
         self.title = list!.title
         
-        // Apply table view cell self sizing
-        // DISABLED FOR ISO 7
-        //        self.tableView!.estimatedRowHeight = 88.0
-        //        self.tableView!.rowHeight = UITableViewAutomaticDimension
     }
     
     override func didReceiveMemoryWarning() {
@@ -83,19 +79,23 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
-        
         if (list == nil) {
-            return cell
+            return UITableViewCell()
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
         if (!item.isKindOfClass(HLItemPreview)) {
             println("Wrong list item: \(item)")
-            return cell
+            return UITableViewCell()
         }
         
+        var cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
+        
+        if (((item as HLItemPreview).icon) != nil) {
+            cellReuseIdentifier = "ListTableView54CellReuseIdentifier"
+        }
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         cell.configure(item as HLItemPreview)
         
         return cell
@@ -106,6 +106,24 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
         // TODO: manaully adjust cell height
+        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        if (h != nil) {
+            return h!
+        }
+        
+        if (list == nil) {
+            return 0.0
+        }
+        
+        let item = list!.item(indexPath.section, row: indexPath.row)
+        if (!item.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item)")
+            return 0.0
+        }
+        
+        if (((item as HLItemPreview).icon) != nil) {
+            return 54.0
+        }
         
         return 44.0
     }
@@ -143,7 +161,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         var title: String = list!.titleForGroup(section)
         
-        if (title == "-") {
+        if (title == "-" || title == "~") {
             return 0.0
         }
         
@@ -166,27 +184,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         switch type {
         case "HLListPreview":
             let itemAddress = item.address
-            //            let source = ListInfo.instance.getList(itemAddress) as HLList?
-            //
-            //            if (source == nil) {
-            //                return
-            //            }
-            
             self.performSegueWithIdentifier("ListListSegueIdentifier", sender: itemAddress)
             
         case "HLArticlePreview":
             let itemAddress = item.address
-            //            let source = ArticleInfo.instance.getArticle(itemAddress) as HLArticle?
-            //
-            //            if (source == nil) {
-            //                return
-            //            }
-            
             self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: itemAddress)
             
         case "HLLink":
             let itemAddress = item.address
-            
             self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
             
         default:

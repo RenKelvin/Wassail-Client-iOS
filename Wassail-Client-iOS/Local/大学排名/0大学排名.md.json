@@ -39,16 +39,13 @@
                             "name": "2.0\u7f8e\u56fd\u672c\u79d1\u6392\u540d", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
-                    }, 
-                    {
-                        "content": {
+                        "icon": {
                             "body": {
                                 "address": "0\u7f8e\u56fd\u56fd\u65d7", 
                                 "title": ""
                             }, 
                             "name": "0\u7f8e\u56fd\u56fd\u65d7", 
-                            "type": "icon>[HLImage"
+                            "type": "HLImage"
                         }, 
                         "kind": "Item"
                     }, 
@@ -61,16 +58,13 @@
                             "name": "3.0\u7f8e\u56fd\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
-                    }, 
-                    {
-                        "content": {
+                        "icon": {
                             "body": {
                                 "address": "0\u7f8e\u56fd\u56fd\u65d7", 
                                 "title": ""
                             }, 
                             "name": "0\u7f8e\u56fd\u56fd\u65d7", 
-                            "type": "icon>[HLImage"
+                            "type": "HLImage"
                         }, 
                         "kind": "Item"
                     }

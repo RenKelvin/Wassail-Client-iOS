@@ -26,6 +26,8 @@ class HLItemBuilder: NSObject {
 
         case "HLLink": return HLLink(json: json)
 
+        case "HLImage": return HLImage(json: json)
+
         default: return HLItem()
         }
     }

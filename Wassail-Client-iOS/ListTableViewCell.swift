@@ -11,9 +11,11 @@ import UIKit
 class ListTableViewCell: UITableViewCell {
     
     @IBOutlet var titleLabel: UILabel?
+    @IBOutlet var noteLabel: UILabel?
+    @IBOutlet var iconImageView: UIImageView?
 
     func configure(item: HLItemPreview) {
-        titleLabel?.text = item.titlePresent()
+        titleLabel?.text = item.title
     }
 
 }

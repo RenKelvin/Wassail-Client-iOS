@@ -38,9 +38,27 @@ class HLList: HLItem {
         for group in groups {
             var items = group.objectForKey("items") as NSMutableArray
             for item in items {
-                let content = (item as NSDictionary).objectForKey("content") as NSDictionary
-                let model = HLItemBuilder.build(content as NSDictionary)
-                items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                
+                let kind = (item as NSDictionary).objectForKey("kind") as NSString
+                
+                if (kind == "Item") {
+                    let content = (item as NSDictionary).objectForKey("content") as NSMutableDictionary
+                    let body = content.objectForKey("body") as NSMutableDictionary
+                    
+                    // Add attributes
+                    let keys = (item as NSDictionary).allKeys
+                    for key in keys {
+                        if (key as NSString != "kind" && key as NSString != "content") {
+                            let object: AnyObject! = (item as NSDictionary).objectForKey((key as NSString)) as AnyObject!
+                            body.setObject(object, forKey: (key as NSString))
+                        }
+                    }
+                    
+                    content.setObject(body, forKey: "body")
+                    
+                    let model = HLItemBuilder.build(content as NSDictionary)
+                    items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                }
             }
         }
     }
