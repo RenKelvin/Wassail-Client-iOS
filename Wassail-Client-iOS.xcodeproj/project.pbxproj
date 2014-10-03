@@ -46,6 +46,7 @@
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
+		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
 		FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */; };
 		FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */; };
@@ -287,6 +288,7 @@
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
+		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
 		FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccessor.swift; sourceTree = "<group>"; };
 		FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 		FE08E0ED19DD9B720016A1A2 /* 留学时间表 */ = {
 			isa = PBXGroup;
 			children = (
+				FE2463F719DEC8400042F3F0 /* 工作许可.jpg */,
 				ADCF1EBD19DD6058005E4FD4 /* Flight.jpg */,
 				ADCF1EBE19DD6058005E4FD4 /* 决定学校.jpg */,
 				ADCF1EBF19DD6058005E4FD4 /* 安全问题.jpg */,
@@ -1219,6 +1222,7 @@
 				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
 				FEB211E919DA940C00647560 /* 2.8Princeton Review.jpeg in Resources */,
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
+				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				FEB211E619DA940C00647560 /* 2.2.4剑桥.jpg in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,

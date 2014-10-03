@@ -50,8 +50,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7559\u5b66\u8003\u8bd5\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "aboard exams", 
+                                "title": "\u51fa\u56fd\u8003\u8bd5"
+                            }, 
+                            "name": "aboard exams", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u7efc\u5408\u7d20\u8d28\u63d0\u9ad8", 
@@ -78,12 +85,19 @@
             {
                 "graphs": [
                     {
-                        "content": "\u7533\u8bf7\u662f\u4e00\u4e2a\u4e0d\u592a\u590d\u6742\u4f46\u8d85\u7e41\u7410\u7684\u6d3b\u513f\u3002\u867d\u7136\u6bcf\u4e2a\u5b66\u6821\u5199\u7684\u5f88\u6e05\u695a\u81ea\u5df1\u7684\u7533\u8bf7\u8981\u6c42\u662f\u4ec0\u4e48\uff0c\u91cc\u9762\u4e5f\u65e0\u5916\u4e4e\u662f\u90a3\u4e48\u51e0\u9879\uff0c\u4f46\u662f\u8981\u7ba1\u7406\u597d\u81ea\u5df1\u5341\u51e0\u4efd\u4e0d\u540c\u5b66\u6821\u7684\u7533\u8bf7\u4e5f\u5f88\u4e0d\u5bb9\u6613\u3002", 
+                        "content": "\u7533\u8bf7\u662f\u4e00\u4e2a\u4e0d\u592a\u590d\u6742\u4f46\u8d85\u7e41\u7410\u7684\u6d3b\u513f\u3002\u867d\u7136\u6bcf\u4e2a\u5b66\u6821\u5199\u7684\u5f88\u6e05\u695a\u81ea\u5df1\u7684\u7533\u8bf7\u8981\u6c42\u662f\u4ec0\u4e48\uff0c\u91cc\u9762\u4e5f\u65e0\u5916\u4e4e\u662f\u90a3\u4e48\u51e0\u9879\uff0c\u4f46\u662f\u8981\u7ba1\u7406\u597d\u81ea\u5df1\u5341\u51e0\u4efd\u4e0d\u540c\u5b66\u6821\u7684\u7533\u8bf7\u4e5f\u5f88\u4e0d\u5bb9\u6613\uff0c\u4f7f\u7528\u201d\u7533\u8bf7\u7ba1\u7406\u5668\u201c\u6765\u5e2e\u52a9\u4f60\u81ea\u52a8\u7ba1\u7406\u7533\u8bf7\u4fe1\u606f\u3002", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u6b22\u8fce\u4f7f\u7528\u201d\u7533\u8bf7\u7ba1\u7406\u5668\u201c\u6765\u5e2e\u52a9\u4f60\u81ea\u52a8\u7ba1\u7406\u7533\u8bf7\u4fe1\u606f", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "apply manager", 
+                                "title": "\u7533\u8bf7\u7ba1\u7406\u5668"
+                            }, 
+                            "name": "apply manager", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u5b9a\u4f4d\u9009\u6821", 
@@ -128,14 +142,14 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u6587\u4e66\u662f\u7533\u8bf7\u8fc7\u7a0b\u4e2d\u6700\u8d39\u65f6\u95f4\u7684\u4e00\u9879\u5185\u5bb9\uff0c\u672c\u79d1\u548c\u7814\u7a76\u751f\u7533\u8bf7\u90fd\u8981\u6c422-3\u5c01\u63a8\u8350\u4fe1\u3002\u8981\u62ff\u5230\u63a8\u8350\u4fe1\u9996\u5148\u8981\u5728\u622a\u6b62\u65e5\u671f\u81f3\u5c111\uff0d2\u4e2a\u6708\u524d\u548c\u63a8\u8350\u8005\u5546\u91cf\u597d\u3002\u53e6\u5916\uff0c\u7533\u8bf7\u672c\u79d1\u4f1a\u8981\u6c42\u5199\u4e00\u4e2a\u5c0f\u8bba\u6587(Essay)\uff0c\u6709\u4e9b\u5b66\u6821\u4f1a\u7ed9\u9898\u76ee\u3002\u7814\u7a76\u751f\u4e00\u822c\u8981\u6c42\u4e2a\u4eba\u9648\u8ff0(PS/SOP) \u548c\u7b80\u5386(CV/Resume)\u3002\u5982\u679c\u7533\u8bf7\u7684\u662f\u827a\u672f\u9886\u57df\u7684\u5b66\u6821\u5219\u4f1a\u8981\u6c42\u63d0\u4f9b\u4f5c\u54c1\u9009\u96c6(Portfolio)\u3002", 
+                        "content": "\u6587\u4e66\u662f\u7533\u8bf7\u8fc7\u7a0b\u4e2d\u6700\u8d39\u65f6\u95f4\u7684\u4e00\u9879\u5185\u5bb9\uff0c\u672c\u79d1\u548c\u7814\u7a76\u751f\u7533\u8bf7\u90fd\u8981\u6c422-3\u5c01\u63a8\u8350\u4fe1\u3002\u8981\u62ff\u5230\u63a8\u8350\u4fe1\u9996\u5148\u8981\u5728\u622a\u6b62\u65e5\u671f\u81f3\u5c112\uff0d3\u4e2a\u6708\u524d\u548c\u63a8\u8350\u8005\u5546\u91cf\u597d\u3002\u53e6\u5916\uff0c\u7533\u8bf7\u672c\u79d1\u4f1a\u8981\u6c42\u5199\u4e00\u4e2a\u5c0f\u8bba\u6587(Essay)\uff0c\u6709\u4e9b\u5b66\u6821\u4f1a\u7ed9\u9898\u76ee\u3002\u7814\u7a76\u751f\u4e00\u822c\u8981\u6c42\u4e2a\u4eba\u9648\u8ff0(PS/SOP) \u548c\u7b80\u5386(CV/Resume)\u3002\u5982\u679c\u7533\u8bf7\u7684\u662f\u827a\u672f\u9886\u57df\u7684\u5b66\u6821\u5219\u4f1a\u8981\u6c42\u63d0\u4f9b\u4f5c\u54c1\u9009\u96c6(Portfolio)\u3002", 
                         "kind": "Graph"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "apply documents", 
-                                "title": "\u7533\u8bf7\u6587\u4e66\u5168\u89e3"
+                                "title": "\u7533\u8bf7\u6587\u4e66"
                             }, 
                             "name": "apply documents", 
                             "type": "HLToolPreview"
@@ -151,8 +165,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7559\u5b66\u8d39\u7528\u89e3\u6790\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "aboard expense", 
+                                "title": "\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "aboard expense", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u7533\u8bf7\u8d44\u91d1", 
@@ -163,8 +184,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7559\u5b66\u8d39\u7528\u89e3\u6790\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "financial aid", 
+                                "title": "\u5956\u5b66\u91d1"
+                            }, 
+                            "name": "financial aid", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u8003\u8bd5\u6210\u7ee9\u9001\u5206", 
@@ -183,8 +211,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7f51\u7533\u8d44\u6599\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "online application", 
+                                "title": "\u7f51\u7533\u6d41\u7a0b"
+                            }, 
+                            "name": "online application", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u5bc4\u9001\u6750\u6599", 
@@ -212,6 +247,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "offer broadcast", 
+                                "title": "\u5f55\u53d6\u7ed3\u679c\u64ad\u62a5"
+                            }, 
+                            "name": "offer broadcast", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "\u9762\u8bd5", 
                         "kind": "Section"
                     }, 
@@ -220,8 +266,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u9762\u8bd5\u653b\u7565\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "admission interview", 
+                                "title": "\u9762\u8bd5\u653b\u7565"
+                            }, 
+                            "name": "admission interview", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u51b3\u5b9a\u5b66\u6821", 
@@ -260,8 +313,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u5b66\u751f\u6587\u4ef6\u201c", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "student files", 
+                                "title": "\u5b66\u751f\u6587\u4ef6"
+                            }, 
+                            "name": "student files", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u7b7e\u8bc1", 
@@ -272,8 +332,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7b7e\u8bc1\u653b\u7565\u201c", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "visa introduction", 
+                                "title": "\u7b7e\u8bc1\u653b\u7565"
+                            }, 
+                            "name": "visa introduction", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u4f53\u68c0\u75ab\u82d7", 
@@ -292,8 +359,15 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u7559\u5b66\u8d39\u7528\u89e3\u6790\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "aboard expense", 
+                                "title": "\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "aboard expense", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u7533\u8bf7\u4f4f\u5bbf", 
@@ -319,18 +393,6 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u51fa\u56fd\u673a\u7968\u57288\uff0c9\u6708\u4efd\u4e00\u822c\u6bd4\u8f83\u6602\u8d35\uff0c\u53ea\u6709\u63d0\u524d\u5b9a\u624d\u80fd\u62ff\u5230\u5ec9\u4ef7\u7684\u673a\u7968\u3002\u4e70\u673a\u7968\u65f6\uff0c\u4e5f\u8981\u8003\u8651\u4ece\u7f8e\u56fd\u673a\u573a\u5230\u76ee\u7684\u5730\u7684\u4ea4\u901a\u60c5\u51b5\u3002\u5982\u679c\u8981\u8f6c\u673a\uff0c\u8981\u4e86\u89e3\u6e05\u695a\u8f6c\u4e58\u673a\u573a\u7684\u60c5\u51b5\u3002\u51fa\u53d1\u524d\u4e00\u5b9a\u8981\u786e\u5b9a\u62a4\u7167\u8fd8\u6709\u534a\u5e74\u4ee5\u4e0a\u7684\u6709\u6548\u671f\uff0c\u5426\u5219\u673a\u573a\u4e0d\u4f1a\u8ba9\u4f60\u51fa\u5883\u7684\u3002", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "\u53c2\u8003\u201c\u673a\u7968\u4ef7\u683c\u201d", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "\u6536\u62fe\u884c\u88c5", 
-                        "kind": "Section"
-                    }, 
-                    {
                         "content": {
                             "body": {
                                 "address": "Flight", 
@@ -342,12 +404,38 @@
                         "kind": "Item"
                     }, 
                     {
+                        "content": "\u51fa\u56fd\u673a\u7968\u57288\uff0c9\u6708\u4efd\u4e00\u822c\u6bd4\u8f83\u6602\u8d35\uff0c\u53ea\u6709\u63d0\u524d\u5b9a\u624d\u80fd\u62ff\u5230\u5ec9\u4ef7\u7684\u673a\u7968\u3002\u4e70\u673a\u7968\u65f6\uff0c\u4e5f\u8981\u8003\u8651\u4ece\u7f8e\u56fd\u673a\u573a\u5230\u76ee\u7684\u5730\u7684\u4ea4\u901a\u60c5\u51b5\u3002\u5982\u679c\u8981\u8f6c\u673a\uff0c\u8981\u4e86\u89e3\u6e05\u695a\u8f6c\u4e58\u673a\u573a\u7684\u60c5\u51b5\u3002\u51fa\u53d1\u524d\u4e00\u5b9a\u8981\u786e\u5b9a\u62a4\u7167\u8fd8\u6709\u534a\u5e74\u4ee5\u4e0a\u7684\u6709\u6548\u671f\uff0c\u5426\u5219\u673a\u573a\u4e0d\u4f1a\u8ba9\u4f60\u51fa\u5883\u7684\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "airline tickets", 
+                                "title": "\u673a\u7968\u653b\u7565"
+                            }, 
+                            "name": "airline tickets", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u6536\u62fe\u884c\u88c5", 
+                        "kind": "Section"
+                    }, 
+                    {
                         "content": "\u968f\u8eab\u643a\u5e26\u7684\u884c\u674e\u4e0d\u5b9c\u592a\u591a\u3002\u56fd\u5916\u5f88\u591a\u4e1c\u897f\u90fd\u4e0d\u6bd4\u4e2d\u56fd\u8d35\uff0c\u751a\u81f3\u66f4\u4fbf\u5b9c\u3002\u5c31\u7b97\u5728\u6751\u5b50\u91cc\u7684\u5b66\u6821\u51fa\u95e8\u4e0d\u65b9\u4fbf\uff0c\u7f51\u4e0a\u8d2d\u7269\u4e5f\u65b9\u4fbf\u7684\u5f88\u3002\u4e00\u5b9a\u8981\u5e26\u7684\u6709\u62a4\u7167\uff0c\u673a\u7968\uff0c\u73b0\u91d1\uff08\u5c11\u91cf\u7f8e\u5143\u548c\u4eba\u6c11\u5e01\uff09\uff0cI-20\u8868\uff0c\u8d44\u91d1\u8bc1\u660e\uff0c\u5b66\u6821\u6216\u76ee\u7684\u5730\u8054\u7cfb\u7535\u8bdd\u3002", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u53c2\u8003\u201c\u884c\u674e\u6e05\u5355\u201d", 
-                        "kind": "Graph"
+                        "content": {
+                            "body": {
+                                "address": "luggage list", 
+                                "title": "\u884c\u674e\u6e05\u5355"
+                            }, 
+                            "name": "luggage list", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u4e34\u884c\u51c6\u5907"
