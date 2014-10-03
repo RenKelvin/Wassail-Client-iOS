@@ -25,29 +25,17 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet var graphCell: ArticleTableViewCell?
     @IBOutlet var itemCell: ArticleTableViewCell?
     
-    var article: HLArticle = HLArticle()
+    var articleName: NSString?
+    var article: HLArticle?
     
     var offscreenCells: NSMutableDictionary = NSMutableDictionary()
+    var cellHeights: NSMutableDictionary = NSMutableDictionary()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Apply table view cell self sizing
-        // DISABLED FOR IOS 7
-        //        self.tableView!.estimatedRowHeight = 88.0
-        //        self.tableView!.rowHeight = UITableViewAutomaticDimension
-        
-        // Force reload
-        self.tableView!.reloadData()
-        
-        if (article.title == "留学时间表" || article.title == "常用词汇") {
-            self.navigationItem.title = article.title
-            self.headerView!.hidden = true
-            self.tableView!.contentInset = UIEdgeInsets(top: -84.0, left: 0.0, bottom: 0.0, right: 0.0)
-        }
-        else {
-            self.updateHeader()
-        }
+        // LoadData
+        self.reloadData()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -58,24 +46,56 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
     }
     
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
-            article = info as HLArticle
+            articleName = info as? NSString
         }
+    }
+    
+    func reloadData() {
+        
+        if (articleName == nil) {
+            return
+        }
+        
+        article = ArticleInfo.instance.getArticle(articleName!)
+        println("get article done!")
+        
+        if (article == nil) {
+            return
+        }
+        
+        if (article!.title == "留学时间表" || article!.title == "常用词汇") {
+            self.navigationItem.title = article!.title
+            self.headerView!.hidden = true
+            //            self.tableView!.contentInset = UIEdgeInsets(top: -84.0, left: 0.0, bottom: 0.0, right: 0.0)
+        }
+        else {
+            self.updateHeader()
+        }
+        
+        // Force reload
+        self.tableView!.reloadData()
+        
     }
     
     func updateHeader() {
         
-        self.titleLabel!.text = article.title
-        self.authorLabel!.text = article.author
-        self.dateLabel!.text = article.date
-        self.headerLabel!.text = article.header
+        if (article == nil) {
+            return
+        }
+        
+        self.titleLabel!.text = article!.title
+        self.authorLabel!.text = article!.author
+        self.dateLabel!.text = article!.date
+        self.headerLabel!.text = article!.header
         
     }
     
@@ -83,17 +103,29 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return article.numberOfChapters()
+        if (article == nil) {
+            return 0
+        }
+        
+        return article!.numberOfChapters()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return article.numberOfGraphsInChapter(section)
+        if (article == nil) {
+            return 0
+        }
+        
+        return article!.numberOfGraphsInChapter(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var item = article.item(indexPath.section, row: indexPath.row) as NSDictionary?
+        if (article == nil) {
+            return UITableViewCell()
+        }
+        
+        var item = article!.item(indexPath.section, row: indexPath.row) as NSDictionary?
         
         var cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         
@@ -125,11 +157,20 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
+        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        if (h != nil) {
+            return h!
+        }
+        
+        if (article == nil) {
+            return 0.0
+        }
+        
         // Get cell identifier
         var cellReuseIdentifier: NSString = ""
         var cell: ArticleTableViewCell?
         
-        var item = article.item(indexPath.section, row: indexPath.row) as NSDictionary?
+        var item = article!.item(indexPath.section, row: indexPath.row) as NSDictionary?
         let type = item!.objectForKey("kind") as NSString
         let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as ArticleViewController
         
@@ -182,24 +223,34 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         cell!.layoutIfNeeded()
         
         let height = cell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height as CGFloat
+        self.cellHeights.setObject(height, forKey: indexPath)
         
         return height
     }
     
-    //    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-    //
-    //        return UITableViewAutomaticDimension;
-    //    }
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        if (h != nil) {
+            return h!
+        }
+        
+        return 44.0
+    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         
         var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
         
-        var title: String = article.titleForChapter(section)
+        if (article == nil) {
+            return headerView
+        }
+        
+        var title: String = article!.titleForChapter(section)
         
         headerView.setTitle(title)
         
-        if (self.article.title == "留学时间表") {
+        if (self.article!.title == "留学时间表") {
             headerView.setLeaderColor(section)
         }
         
@@ -208,7 +259,11 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
-        var title: String = article.titleForChapter(section)
+        if (article == nil) {
+            return 0.0
+        }
+        
+        var title: String = article!.titleForChapter(section)
         
         if (title == "-") {
             return 0.0

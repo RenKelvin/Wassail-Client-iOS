@@ -55,7 +55,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     @IBAction func tablewHeaderTapped() {
-        self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: ArticleInfo.instance.getArticle("留学时间表"))
+        self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学时间表")
     }
     
     // MARK: - Table view data source
@@ -123,7 +123,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("0大学排名"))
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 1:
                 self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             case 2:
@@ -131,14 +131,14 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 3:
                 ""
             case 4:
-                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: ArticleInfo.instance.getArticle("留学常用词汇"))
+                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
                 ""
             }
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: ListInfo.instance.getList("1.0信用卡"))
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "1.0信用卡")
             case 1:
                 self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
             case 2:

@@ -62,13 +62,13 @@ class HLToolPreviewView: HLItemView {
         
         
         if (title == "信用卡") {
-            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: ListInfo.instance.getList("1.0信用卡"))
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "1.0信用卡")
         }
         else if (title == "大学排名") {
-            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: ListInfo.instance.getList("0大学排名"))
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0大学排名")
         }
         else if (title == "留学常用词汇") {
-            controller!.performSegueWithIdentifier("ArticleArticleSugueIdentifier", sender: ArticleInfo.instance.getArticle("留学常用词汇"))
+            controller!.performSegueWithIdentifier("ArticleArticleSugueIdentifier", sender: "留学常用词汇")
         }
         else {
             controller!.performSegueWithIdentifier(identifier, sender: nil)

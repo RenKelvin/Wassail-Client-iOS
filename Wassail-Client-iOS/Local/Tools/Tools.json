@@ -38,7 +38,7 @@
     },
     "offer broadcast": {
         "ready": "false",
-        "note": "录取结果提醒，实时更新录取进展",
+        "note": "获取最新录取信息，实时更新录取进展",
         "title": "录取结果播报",
         "icon": "ToolsIconOfferBroadcast",
         "identifier": "ApplyManager"

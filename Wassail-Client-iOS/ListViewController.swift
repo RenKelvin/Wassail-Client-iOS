@@ -13,14 +13,28 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet var tableView: UITableView?
     
     @IBOutlet var navigationView: UIView?
-
-    var list: HLList = HLList()
+    
+    var listName: NSString?
+    var list: HLList?
+    
+    var offscreenCells: NSMutableDictionary = NSMutableDictionary()
+    var cellHeights: NSMutableDictionary = NSMutableDictionary()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if (listName == nil) {
+            return
+        }
+        
+        list = ListInfo.instance.getList(listName!)
+        
+        if (list == nil) {
+            return
+        }
+        
         // Set article title
-        self.title = list.title
+        self.title = list!.title
         
         // Apply table view cell self sizing
         // DISABLED FOR ISO 7
@@ -37,13 +51,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
- }
+    }
     
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
-            list = info as HLList
+            listName = info as? NSString
         }
     }
     
@@ -51,12 +65,20 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return list.numberOfGroups()
+        if (list == nil) {
+            return 0
+        }
+        
+        return list!.numberOfGroups()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return list.numberOfItemsInGroup(section)
+        if (list == nil) {
+            return 0
+        }
+        
+        return list!.numberOfItemsInGroup(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -64,12 +86,16 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
         
-        let item = list.item(indexPath.section, row: indexPath.row)
+        if (list == nil) {
+            return cell
+        }
+        
+        let item = list!.item(indexPath.section, row: indexPath.row)
         if (!item.isKindOfClass(HLItemPreview)) {
             println("Wrong list item: \(item)")
             return cell
         }
-
+        
         cell.configure(item as HLItemPreview)
         
         return cell
@@ -84,16 +110,25 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 44.0
     }
     
-    //    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-    //
-    //        return 44.0
-    //    }
+    func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        if (h != nil) {
+            return h!
+        }
+        
+        return 44.0
+    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
-        var title: String = list.titleForGroup(section)
+        if (list == nil) {
+            return headerView
+        }
+        
+        var title: String = list!.titleForGroup(section)
         
         headerView.setTitle(title)
         
@@ -102,7 +137,11 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
-        var title: String = list.titleForGroup(section)
+        if (list == nil) {
+            return 0.0
+        }
+        
+        var title: String = list!.titleForGroup(section)
         
         if (title == "-") {
             return 0.0
@@ -117,29 +156,33 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         // Get source item
-        let item = list.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        if (list == nil) {
+            return
+        }
+        
+        let item = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
         
         let type = item.type
         switch type {
         case "HLListPreview":
             let itemAddress = item.address
-            let source = ListInfo.instance.getList(itemAddress) as HLList?
+            //            let source = ListInfo.instance.getList(itemAddress) as HLList?
+            //
+            //            if (source == nil) {
+            //                return
+            //            }
             
-            if (source == nil) {
-                return
-            }
-            
-            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: source)
+            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: itemAddress)
             
         case "HLArticlePreview":
             let itemAddress = item.address
-            let source = ArticleInfo.instance.getArticle(itemAddress) as HLArticle?
+            //            let source = ArticleInfo.instance.getArticle(itemAddress) as HLArticle?
+            //
+            //            if (source == nil) {
+            //                return
+            //            }
             
-            if (source == nil) {
-                return
-            }
-            
-            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: source)
+            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: itemAddress)
             
         case "HLLink":
             let itemAddress = item.address
