@@ -66,7 +66,6 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         article = ArticleInfo.instance.getArticle(articleName!)
-        println("get article done!")
         
         if (article == nil) {
             return

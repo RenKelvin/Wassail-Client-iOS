@@ -11,9 +11,15 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItemToolBackground" translatesAutoresizingMaskIntoConstraints="NO" id="acM-wT-epe">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9T-Ps-H5X">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
-                </imageView>
+                    <state key="normal" backgroundImage="ItemToolBackground">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapHandler" destination="1zC-du-Nsb" eventType="touchUpInside" id="tRy-u4-7D4"/>
+                    </connections>
+                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lDN-Bf-ehT">
                     <rect key="frame" x="10" y="8" width="48" height="48"/>
                     <constraints>
@@ -44,18 +50,18 @@
             <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="3vx-om-tVO" firstAttribute="leading" secondItem="lDN-Bf-ehT" secondAttribute="trailing" constant="8" id="087-ao-kqy"/>
-                <constraint firstItem="acM-wT-epe" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" id="0mX-GP-YE6"/>
+                <constraint firstItem="o9T-Ps-H5X" firstAttribute="top" secondItem="1zC-du-Nsb" secondAttribute="top" id="4Gy-yH-lO7"/>
                 <constraint firstItem="ukz-ml-76i" firstAttribute="leading" secondItem="lDN-Bf-ehT" secondAttribute="trailing" constant="8" id="4Ml-eu-RXb"/>
+                <constraint firstAttribute="bottom" secondItem="o9T-Ps-H5X" secondAttribute="bottom" id="Am7-3i-NfE"/>
                 <constraint firstAttribute="centerY" secondItem="lDN-Bf-ehT" secondAttribute="centerY" id="Bm1-fB-Wog"/>
                 <constraint firstItem="ukz-ml-76i" firstAttribute="bottom" secondItem="lDN-Bf-ehT" secondAttribute="bottom" id="FXF-Sk-UbP"/>
                 <constraint firstAttribute="trailing" secondItem="ukz-ml-76i" secondAttribute="trailing" constant="15" id="I2o-Wm-zMY"/>
-                <constraint firstItem="acM-wT-epe" firstAttribute="top" secondItem="1zC-du-Nsb" secondAttribute="top" id="L7c-Fy-O4z"/>
-                <constraint firstAttribute="bottom" secondItem="acM-wT-epe" secondAttribute="bottom" id="Mif-Ha-67R"/>
+                <constraint firstItem="o9T-Ps-H5X" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" id="LTa-Bl-ClA"/>
                 <constraint firstItem="M83-MH-iPi" firstAttribute="leading" secondItem="3vx-om-tVO" secondAttribute="trailing" constant="8" id="P0w-oO-B7y"/>
                 <constraint firstItem="3vx-om-tVO" firstAttribute="top" secondItem="lDN-Bf-ehT" secondAttribute="top" constant="4" id="UqP-EH-PFo"/>
                 <constraint firstItem="lDN-Bf-ehT" firstAttribute="leading" secondItem="1zC-du-Nsb" secondAttribute="leading" constant="10" id="ZGJ-g1-FFw"/>
                 <constraint firstItem="M83-MH-iPi" firstAttribute="baseline" secondItem="3vx-om-tVO" secondAttribute="baseline" id="jUD-C2-K8o"/>
-                <constraint firstAttribute="trailing" secondItem="acM-wT-epe" secondAttribute="trailing" id="yHQ-yA-cGj"/>
+                <constraint firstAttribute="trailing" secondItem="o9T-Ps-H5X" secondAttribute="trailing" id="lLR-gl-par"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -64,15 +70,9 @@
                 <outlet property="noteLabel" destination="ukz-ml-76i" id="uQz-x2-oEd"/>
                 <outlet property="readyLabel" destination="M83-MH-iPi" id="axV-x3-jXT"/>
                 <outlet property="titleLabel" destination="3vx-om-tVO" id="CQM-Kv-SP8"/>
-                <outletCollection property="gestureRecognizers" destination="zdR-69-fkO" appends="YES" id="rFC-an-NMu"/>
             </connections>
-            <point key="canvasLocation" x="554" y="700"/>
+            <point key="canvasLocation" x="438" y="618"/>
         </view>
-        <tapGestureRecognizer id="zdR-69-fkO">
-            <connections>
-                <action selector="tapHandler" destination="1zC-du-Nsb" id="ujw-wK-fj5"/>
-            </connections>
-        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="ItemToolBackground" width="24" height="64"/>

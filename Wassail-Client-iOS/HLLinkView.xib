@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
@@ -10,9 +11,15 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ItemLinkBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gm5-bP-B6E">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bc3-5u-uas">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
-                </imageView>
+                    <state key="normal" backgroundImage="ItemLinkBackground">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tapHandler" destination="wKl-QF-ZlN" eventType="touchUpInside" id="bfY-Zt-SlI"/>
+                    </connections>
+                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LinkIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5BI-4N-Kwb">
                     <rect key="frame" x="5" y="5" width="54" height="54"/>
                     <constraints>
@@ -37,17 +44,17 @@
             <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" constant="5" id="5R8-sH-SwN"/>
+                <constraint firstAttribute="trailing" secondItem="bc3-5u-uas" secondAttribute="trailing" id="6qR-Mp-ynS"/>
                 <constraint firstItem="5BI-4N-Kwb" firstAttribute="bottom" secondItem="e63-iL-lD2" secondAttribute="bottom" id="8Xn-bE-3LL"/>
                 <constraint firstItem="sW5-8c-efJ" firstAttribute="top" secondItem="5BI-4N-Kwb" secondAttribute="top" id="Lf8-fG-mag"/>
-                <constraint firstItem="gm5-bP-B6E" firstAttribute="top" secondItem="wKl-QF-ZlN" secondAttribute="top" id="PYV-zE-SsD"/>
                 <constraint firstItem="e63-iL-lD2" firstAttribute="leading" secondItem="5BI-4N-Kwb" secondAttribute="trailing" constant="8" id="Q3l-md-vM1"/>
                 <constraint firstAttribute="centerY" secondItem="5BI-4N-Kwb" secondAttribute="centerY" id="VFL-fe-J7w"/>
-                <constraint firstItem="gm5-bP-B6E" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" id="cml-Qf-pwa"/>
+                <constraint firstItem="bc3-5u-uas" firstAttribute="top" secondItem="wKl-QF-ZlN" secondAttribute="top" id="b6u-cx-TeI"/>
                 <constraint firstItem="sW5-8c-efJ" firstAttribute="leading" secondItem="5BI-4N-Kwb" secondAttribute="trailing" constant="8" id="d1q-Be-3VA"/>
-                <constraint firstAttribute="bottom" secondItem="gm5-bP-B6E" secondAttribute="bottom" id="joV-EU-5jB"/>
                 <constraint firstAttribute="trailing" secondItem="sW5-8c-efJ" secondAttribute="trailing" constant="15" id="jy8-JB-k7L"/>
+                <constraint firstItem="bc3-5u-uas" firstAttribute="leading" secondItem="wKl-QF-ZlN" secondAttribute="leading" id="ksY-q9-5O5"/>
                 <constraint firstAttribute="trailing" secondItem="e63-iL-lD2" secondAttribute="trailing" constant="15" id="rNV-xq-a8Q"/>
-                <constraint firstAttribute="trailing" secondItem="gm5-bP-B6E" secondAttribute="trailing" id="x9q-gw-iVw"/>
+                <constraint firstAttribute="bottom" secondItem="bc3-5u-uas" secondAttribute="bottom" id="u3v-pd-p4w"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -55,15 +62,9 @@
                 <outlet property="iconImageView" destination="5BI-4N-Kwb" id="1MG-WA-bqb"/>
                 <outlet property="noteLabel" destination="e63-iL-lD2" id="IeW-dI-291"/>
                 <outlet property="titleLabel" destination="sW5-8c-efJ" id="7Bi-78-oly"/>
-                <outletCollection property="gestureRecognizers" destination="R1h-8e-XJJ" appends="YES" id="7wn-Ew-xIw"/>
             </connections>
             <point key="canvasLocation" x="422" y="338"/>
         </view>
-        <tapGestureRecognizer id="R1h-8e-XJJ">
-            <connections>
-                <action selector="tapHandler" destination="wKl-QF-ZlN" id="oH6-hJ-BUQ"/>
-            </connections>
-        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="ItemLinkBackground" width="300" height="64"/>
