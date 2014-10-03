@@ -1291,7 +1291,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GPANoteLabelBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ANO-Au-4eb">
                                         <rect key="frame" x="0.0" y="404" width="600" height="132"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-oJ-Vyc">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" background="GPATextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hWY-oJ-Vyc">
                                         <rect key="frame" x="188" y="102" width="108" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="aQL-cX-l6V"/>
