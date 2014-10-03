@@ -152,6 +152,16 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         return cell
     }
     
+    func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject]! {
+        
+        if (article != nil && article!.title == "常用词汇") {
+            return ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "#"]
+        }
+        else {
+            return []
+        }
+    }
+    
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
