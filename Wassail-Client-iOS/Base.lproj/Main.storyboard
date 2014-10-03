@@ -834,6 +834,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWX-IV-aUe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <gestureRecognizers/>
@@ -845,9 +849,6 @@
                             <constraint firstItem="x9X-by-odp" firstAttribute="top" secondItem="VaC-cT-fI3" secondAttribute="bottom" constant="12" id="rKB-XN-mc3"/>
                             <constraint firstAttribute="trailing" secondItem="x9X-by-odp" secondAttribute="trailing" id="wj5-bo-hCo"/>
                         </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="eb4-Vp-wXm" appends="YES" id="6qS-gj-Kgd"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="用户反馈" id="Q90-JB-8hm">
                         <barButtonItem key="rightBarButtonItem" title="发送" id="EQC-os-wve">
@@ -858,15 +859,24 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="keyboardAccessoryView" destination="qc0-QR-10V" id="Aar-m4-Pfb"/>
+                        <outlet property="navigationView" destination="nWX-IV-aUe" id="rfd-Hs-DNE"/>
                         <outlet property="textView" destination="x9X-by-odp" id="cyl-d5-IT0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C29-CP-i8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="eb4-Vp-wXm">
-                    <connections>
-                        <action selector="blankTapped" destination="Uyq-hx-WKz" id="2Xo-ae-zFM"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="qc0-QR-10V">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="IG9-sd-ElY"/>
+                        <barButtonItem title="完成" id="oNf-yA-I1w">
+                            <connections>
+                                <action selector="blankTapped" destination="Uyq-hx-WKz" id="jco-T0-VQa"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
             </objects>
             <point key="canvasLocation" x="387" y="862"/>
         </scene>
@@ -1758,9 +1768,7 @@
                             <constraint firstAttribute="trailing" secondItem="RLG-bG-sio" secondAttribute="trailing" id="zes-pk-5ek"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="小费计算器" id="Xud-ml-QYg">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="餐饮" id="Jsw-3c-jAk"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="小费计算器" id="Xud-ml-QYg"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -1954,9 +1962,7 @@
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="top" secondItem="2NJ-Nj-Y23" secondAttribute="bottom" constant="-64" id="a66-ga-XHI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Ld2-MX-9eH">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="MoreBarItem" id="MSi-Yg-P46"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Ld2-MX-9eH"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="authorLabel" destination="krC-hx-Lx0" id="6OK-aC-6Bk"/>
@@ -2092,7 +2098,6 @@
         <image name="GreenCoverLeft" width="130" height="54"/>
         <image name="GreenCoverRight" width="138" height="54"/>
         <image name="LocationIndicator" width="12" height="12"/>
-        <image name="MoreBarItem" width="20" height="4"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
         <image name="SizeConverterSelectedBackground" width="53" height="64"/>
         <image name="TipsCalculatorBackground" width="320" height="568"/>
@@ -2106,12 +2111,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r4f-h3-sd1"/>
-        <segue reference="BK5-dh-8Fc"/>
-        <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="sEN-DU-GIR"/>
+        <segue reference="vuL-hi-aIq"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="Oab-mH-CQ6"/>
+        <segue reference="Bo5-kO-yCc"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="R8b-dB-BNq"/>
     </inferredMetricsTieBreakers>
 </document>

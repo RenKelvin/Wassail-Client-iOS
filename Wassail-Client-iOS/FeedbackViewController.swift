@@ -10,6 +10,10 @@ import UIKit
 
 class FeedbackViewController: UIViewController {
     
+    @IBOutlet var navigationView: UIView?
+
+    @IBOutlet var keyboardAccessoryView: UIView?
+
     let info: FeedbackInfo = FeedbackInfo.instance
     
     @IBOutlet var textView: UITextView?
@@ -18,9 +22,22 @@ class FeedbackViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        textView!.becomeFirstResponder()
     }
     
+    override func viewWillAppear(animated: Bool) {
+
+        // Configure Navigation Bar and Status Bar
+        self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        navigationView!.backgroundColor! = UIColor.HLBlue(0)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        textView!.inputAccessoryView = keyboardAccessoryView
+        textView!.becomeFirstResponder()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
