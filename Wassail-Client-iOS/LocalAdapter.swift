@@ -37,7 +37,7 @@ class LocalAdapter: NSObject {
         return true
     }
     
-    func writePlist(file: String, key: NSString, value: NSDictionary) -> Bool {
+    func writePlist(file: String, key: NSString, value: AnyObject) -> Bool {
         
         let url = getURL(file, type: "plist", dir: .Document)
         

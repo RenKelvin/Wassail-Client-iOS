@@ -26,4 +26,14 @@ class UserAccessor: NSObject {
         return LocalMediator.instance.setMySize(key, value: value)
     }
     
+    func getMyGPA() -> Double? {
+        
+        return LocalMediator.instance.getMyGPA()
+    }
+    
+    func setMyGPA(gpa: Double?) -> Bool {
+        
+        return LocalMediator.instance.setMyGPA(gpa)
+    }
+
 }

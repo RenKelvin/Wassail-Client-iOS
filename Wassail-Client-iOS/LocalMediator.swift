@@ -22,7 +22,7 @@ class LocalMediator: NSObject {
         
         return image
     }
-
+    
     func getTools() -> NSDictionary? {
         
         let dict = LocalAdapter.instance.getJson("Tools", dir: .Bundle)
@@ -60,4 +60,26 @@ class LocalMediator: NSObject {
         
         return LocalAdapter.instance.writePlist("User", key: key, value: value)
     }
+    
+    func getMyGPA() -> Double? {
+        
+        let dict = LocalAdapter.instance.getPlist("User", dir: .Document)
+        if (dict == nil) {
+            return nil
+        }
+        
+        let gpa = dict!.objectForKey("mygpa") as Double?
+        
+        return gpa
+    }
+    
+    func setMyGPA(gpa: Double?) -> Bool {
+        
+        if (gpa == nil) {
+            return false
+        }
+        
+        return LocalAdapter.instance.writePlist("User", key: "mygpa", value: gpa!)
+    }
+    
 }

@@ -10,6 +10,8 @@ import UIKit
 
 class GPACalculatorViewController: UIViewController {
     
+    let info: GPACalculatorInfo = GPACalculatorInfo.instance
+    
     var input: Double = 88
     @IBOutlet var inputTextField: UITextField?
     
@@ -26,7 +28,14 @@ class GPACalculatorViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         inputTextField!.inputAccessoryView = keyboardAccessoryView
-    }
+  
+        let mygpa = info.getMyGPA() as Double?
+        
+        if (mygpa != nil) {
+            inputTextField!.text = NSString(format: "%.2f", mygpa!)
+            self.updateNumbers()
+        }
+}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -40,7 +49,12 @@ class GPACalculatorViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        inputTextField!.becomeFirstResponder()
+        
+        let mygpa = info.getMyGPA() as Double?
+        
+        if (mygpa == nil) {
+            inputTextField!.becomeFirstResponder()
+        }
     }
     
     // MARK: - TableViewDataSource
@@ -128,6 +142,8 @@ class GPACalculatorViewController: UIViewController {
         
         input = NSString(string: textField.text).doubleValue
         textField.text = NSString(format: "%.2f", input)
+        
+        info.setMyGPA(input)
         
         self.updateNumbers()
         
