@@ -1819,7 +1819,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="rHG-jg-0uj">
-                                    <rect key="frame" x="0.0" y="64" width="600" height="83.5"/>
+                                    <rect key="frame" x="0.0" y="64" width="600" height="72"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d88-dP-cQA">
@@ -1840,32 +1840,16 @@
                                             <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-L8-95D">
-                                            <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="d88-dP-cQA" firstAttribute="top" secondItem="rHG-jg-0uj" secondAttribute="top" constant="20" id="4u8-NV-WYJ"/>
-                                        <constraint firstAttribute="bottom" secondItem="AXe-L8-95D" secondAttribute="bottom" constant="12" id="A9D-jr-aYO"/>
                                         <constraint firstItem="d88-dP-cQA" firstAttribute="leading" secondItem="rHG-jg-0uj" secondAttribute="leading" constant="15" id="BMj-pA-LGy"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="top" secondItem="NOy-IZ-Jqv" secondAttribute="top" id="G5o-NA-TVP"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="top" secondItem="d88-dP-cQA" secondAttribute="bottom" constant="2" id="IRg-Lu-Am4"/>
-                                        <constraint firstAttribute="trailing" secondItem="AXe-L8-95D" secondAttribute="trailing" constant="15" id="OPB-IP-skR"/>
-                                        <constraint firstItem="AXe-L8-95D" firstAttribute="top" secondItem="krC-hx-Lx0" secondAttribute="bottom" constant="12" id="Wmq-Vd-jxe"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="leading" secondItem="d88-dP-cQA" secondAttribute="leading" id="ajk-jA-W9M"/>
-                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="AXe-L8-95D" secondAttribute="bottom" constant="19.5" id="fE7-oi-Ubf"/>
                                         <constraint firstItem="NOy-IZ-Jqv" firstAttribute="leading" secondItem="krC-hx-Lx0" secondAttribute="trailing" constant="8" id="gCZ-rR-W2B"/>
                                         <constraint firstAttribute="trailing" secondItem="d88-dP-cQA" secondAttribute="trailing" constant="15" id="rpk-eE-1k6"/>
-                                        <constraint firstItem="AXe-L8-95D" firstAttribute="leading" secondItem="rHG-jg-0uj" secondAttribute="leading" constant="15" id="tqh-ac-z00"/>
                                     </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="fE7-oi-Ubf"/>
-                                        </mask>
-                                    </variation>
                                 </view>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="EWd-Zk-ngr">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -1968,7 +1952,6 @@
                         <outlet property="authorLabel" destination="krC-hx-Lx0" id="6OK-aC-6Bk"/>
                         <outlet property="dateLabel" destination="NOy-IZ-Jqv" id="dDL-bl-XcO"/>
                         <outlet property="graphCell" destination="thw-jc-Irz" id="xVB-mE-dT7"/>
-                        <outlet property="headerLabel" destination="AXe-L8-95D" id="gK9-ke-9wW"/>
                         <outlet property="headerView" destination="rHG-jg-0uj" id="RSh-6G-Q9z"/>
                         <outlet property="itemCell" destination="ISs-v0-z4T" id="vkL-mP-lYE"/>
                         <outlet property="navigationView" destination="Dhh-Vd-GXz" id="EgL-Af-jc4"/>
@@ -2111,9 +2094,9 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vuL-hi-aIq"/>
-        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="ydz-Qv-haZ"/>
         <segue reference="fYA-Od-fVe"/>
+        <segue reference="5Rv-FT-p8R"/>
         <segue reference="Oab-mH-CQ6"/>
         <segue reference="Bo5-kO-yCc"/>
         <segue reference="REv-SL-D0I"/>

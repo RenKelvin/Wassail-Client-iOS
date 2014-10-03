@@ -30,6 +30,7 @@ class HLArticle: HLItem {
         title = jsonBody.objectForKey("title") as NSString?
         author = jsonBody.objectForKey("author") as NSString?
         date = jsonBody.objectForKey("date") as NSString?
+        header = jsonBody.objectForKey("header") as NSString?
         
         chapters = jsonBody.objectForKey("chapters") as NSArray
         

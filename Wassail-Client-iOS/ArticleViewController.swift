@@ -73,8 +73,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         if (article!.title == "留学时间表" || article!.title == "常用词汇") {
             self.navigationItem.title = article!.title
-            self.headerView!.hidden = true
-            //            self.tableView!.contentInset = UIEdgeInsets(top: -84.0, left: 0.0, bottom: 0.0, right: 0.0)
+            self.tableView!.tableHeaderView = nil
         }
         else {
             self.updateHeader()
@@ -94,7 +93,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.titleLabel!.text = article!.title
         self.authorLabel!.text = article!.author
         self.dateLabel!.text = article!.date
-        self.headerLabel!.text = article!.header
+        //        self.headerLabel!.text = article!.header
         
     }
     
