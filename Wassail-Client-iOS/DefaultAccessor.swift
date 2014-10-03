@@ -12,6 +12,8 @@ private let _DefaultAccessorSharedInstance = DefaultAccessor()
 
 class DefaultAccessor: NSObject {
     
+    var imageCache: NSMutableDictionary = NSMutableDictionary()
+    
     class var instance : DefaultAccessor {
     return _DefaultAccessorSharedInstance
     }
@@ -28,13 +30,26 @@ class DefaultAccessor: NSObject {
     }
     
     func getImage(name: NSString) -> UIImage? {
-        return LocalMediator.instance.getImage(name)
+        
+        // Cache image
+        let img = self.imageCache.objectForKey(name) as UIImage?
+        if (img != nil) {
+            return img
+        }
+        
+        let image = LocalMediator.instance.getImage(name) as UIImage?
+        // FIXME: If no image for name, update it
+        if (image != nil) {
+            self.imageCache.setObject(image!, forKey: name)
+        }
+        
+        return image
     }
     
     func getTools() -> NSDictionary? {
         return LocalMediator.instance.getTools()
     }
-        
+    
     func getSizeConverter() -> NSDictionary? {
         return LocalMediator.instance.getSizeConverter()
     }

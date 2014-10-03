@@ -20,6 +20,7 @@ class HLImageView: HLItemView {
         
         let name = dict!.objectForKey("address") as NSString
         let image = DefaultInfo.instance.getImage(name) as UIImage?
+        println("get iamge done")
         if (image == nil) {
             return
         }
