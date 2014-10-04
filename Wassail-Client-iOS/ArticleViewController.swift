@@ -14,12 +14,13 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     @IBOutlet var tableView: UITableView?
     
-    @IBOutlet var headerView: UIView?
-    
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var authorLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
+    
     @IBOutlet var headerLabel: UILabel?
+    @IBOutlet var headerContainer: UIView?
+    @IBOutlet var headerLabelPrototype: UILabel?
     
     @IBOutlet var sectionCell: ArticleTableViewCell?
     @IBOutlet var graphCell: ArticleTableViewCell?
@@ -76,7 +77,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             self.tableView!.tableHeaderView = nil
         }
         else {
-            self.updateHeader()
+            self.updateTableHeader()
         }
         
         // Force reload
@@ -84,7 +85,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
     }
     
-    func updateHeader() {
+    func updateTableHeader() {
         
         if (article == nil) {
             return
@@ -101,8 +102,35 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         self.dateLabel!.text = article!.date
         
-        //        self.headerLabel!.text = article!.header
+        // headerLable
+        self.headerLabel!.text = article!.header
         
+        let height: CGFloat = self.getHeaderHeight(article!.header)
+        if (height == 0) {
+            // self.headerContainer!.hidden = true
+            self.headerContainer!.removeFromSuperview()
+            self.tableView!.tableHeaderView!.frame.size.height = 88.0
+        }
+        else {
+            self.tableView!.tableHeaderView!.frame.size.height = height + 108.0
+        }
+        
+    }
+    
+    func getHeaderHeight(text: NSString?) -> CGFloat {
+        
+        if (text == nil) {
+            return 0.0
+        }
+        
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as ArticleViewController
+        var label = controller.headerLabelPrototype!
+        label.frame.size.width = DefaultInfo.instance.getScreenWidth() - 50.0
+        label.text = text!
+        
+        label.sizeToFit()
+        
+        return label.frame.height
     }
     
     // MARK: - Table view data source

@@ -594,7 +594,7 @@
 			children = (
 				FE5B1F8F19B4033B00842C3D /* AppDelegate.swift */,
 				FEC8649119BD3C98005087A3 /* View */,
-				FEC8649319BD3CDF005087A3 /* View Controller */,
+				FEC8649319BD3CDF005087A3 /* Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
 				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
@@ -659,18 +659,14 @@
 			isa = PBXGroup;
 			children = (
 				ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */,
-				ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */,
-				ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */,
-				ADBF2CD819DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg */,
-				ADBF2CD919DF9EDF0029A327 /* 3.1申请自费硕士应该如何选校、如何看待学校排名_.md.json */,
-				ADBF2CDA19DF9EDF0029A327 /* 4.0LinkedIn排名.md.json */,
-				ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */,
-				ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */,
-				ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */,
-				ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */,
 				FEB211CC19DA940C00647560 /* 0大学排名.jpg */,
 				FEA0FBA319D846A300A24409 /* 0大学排名.md.json */,
+				ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */,
+				ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */,
+				ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */,
+				ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */,
 				FEA0FBA419D846A300A24409 /* 1.0世界大学排名.md.json */,
+				ADBF2CD819DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg */,
 				FEA0FBA519D846A300A24409 /* 1.1.0如何看待排名.md.json */,
 				FEA0FBA619D846A300A24409 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json */,
 				FEB211CD19DA940C00647560 /* 1.1.1鲍林格.jpg */,
@@ -689,6 +685,8 @@
 				FEA0FBAB19D846A300A24409 /* 1.3.0THE世界大学排名.md.json */,
 				FEA0FBAC19D846A300A24409 /* 1.3.1THE评价标准.md.json */,
 				FEE1600F19D925030022883E /* 1.3.1THE评价标准.png */,
+				ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */,
+				ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */,
 				FEA0FBAD19D846A300A24409 /* 1.3.2.1THE2013-2014.md.json */,
 				FEE1601019D925030022883E /* 1.3.2.1THE2013-2014.png */,
 				FEA0FBAE19D846A300A24409 /* 1.3.2.2THE2012-2013.md.json */,
@@ -744,6 +742,7 @@
 				FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */,
 				FEA0FBC919D846A300A24409 /* 2.62015最新排名解读.md.json */,
 				FEA0FBCA19D846A300A24409 /* 3.0美国研究生及博士排名.md.json */,
+				ADBF2CD919DF9EDF0029A327 /* 3.1申请自费硕士应该如何选校、如何看待学校排名_.md.json */,
 				FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */,
 				FEA0FBCB19D846A300A24409 /* 3.2.0工程院排名.md.json */,
 				FEA0FBCC19D846A300A24409 /* 3.3.0理学院排名（Science）.md.json */,
@@ -757,6 +756,7 @@
 				FEA0FBD419D846A400A24409 /* 3.11.0医学院排名.md.json */,
 				FEA0FBD519D846A400A24409 /* 3.12.0美术学院排名.md.json */,
 				FEA0FBD619D846A400A24409 /* 3.13其他排名.md.json */,
+				ADBF2CDA19DF9EDF0029A327 /* 4.0LinkedIn排名.md.json */,
 			);
 			path = "大学排名";
 			sourceTree = "<group>";
@@ -1010,14 +1010,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		FEC8649319BD3CDF005087A3 /* View Controller */ = {
+		FEC8649319BD3CDF005087A3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				FEA5A90A19BD56470048AF6A /* Tools */,
 				FEC3BD5319C2987800184760 /* Item */,
 				FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */,
 			);
-			name = "View Controller";
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		FEC8649419BD3CF4005087A3 /* Info */ = {

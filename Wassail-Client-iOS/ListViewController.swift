@@ -14,12 +14,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet var navigationView: UIView?
     
-    @IBOutlet var headerView: UIView?
-    
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var authorLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
+    
     @IBOutlet var headerLabel: UILabel?
+    @IBOutlet var headerContainer: UIView?
+    @IBOutlet var headerLabelPrototype: UILabel?
     
     var listName: NSString?
     var list: HLList?
@@ -69,29 +70,43 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Set list title
         self.title = list!.title
         
-        self.updateHeader()
+        self.updateTableHeader()
         
     }
     
-    func updateHeader() {
+    func updateTableHeader() {
         
         if (list == nil) {
             return
         }
         
         self.headerLabel!.text = list!.header
-        println(self.headerLabel!.frame.size)
         
-        //        self.tableView!.tableHeaderView!.frame.size.height = 300.0
+        let height: CGFloat = self.getHeaderHeight(list!.header)
+        
+        if (height == 0) {
+            self.tableView!.tableHeaderView = nil
+        }
+        else {
+            self.tableView!.tableHeaderView!.frame.size.height = height + 52.0
+        }
         
     }
     
-    func getHeaderHeight(text: NSString) -> CGFloat {
+    func getHeaderHeight(text: NSString?) -> CGFloat {
         
-        var label = UILabel()
-//        label.frame.width = DefaultInfo.instance.getScreenWidth()
+        if (text == nil) {
+            return 0.0
+        }
         
-        return 0
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ListViewController") as ListViewController
+        var label = controller.headerLabelPrototype!
+        label.frame.size.width = DefaultInfo.instance.getScreenWidth() - 50.0
+        label.text = text!
+        
+        label.sizeToFit()
+        
+        return label.frame.height
     }
     
     // MARK: - Table view data source
@@ -158,11 +173,17 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return 0.0
         }
         
+        var height: CGFloat = 0.0
+        
         if (((item as HLItemPreview).icon) != nil) {
-            return 54.0
+            height = 54.0
+        }
+        else {
+            height = 44.0
         }
         
-        return 44.0
+        self.cellHeights.setObject(height, forKey: indexPath)
+        return height
     }
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
