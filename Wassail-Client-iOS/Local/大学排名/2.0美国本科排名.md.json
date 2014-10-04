@@ -82,6 +82,17 @@
                     {
                         "content": {
                             "body": {
+                                "address": "4.0LinkedIn\u6392\u540d", 
+                                "title": "LinkedIn\u804c\u4e1a\u53d1\u5c55\u5927\u5b66\u6392\u540d (\u65b0\u9c9c\u51fa\u7089)"
+                            }, 
+                            "name": "4.0LinkedIn\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
                                 "address": "2.8\u666e\u6797\u65af\u987f\u8bc4\u8bba", 
                                 "title": "\u666e\u6797\u65af\u987f\u8bc4\u8bba"
                             }, 

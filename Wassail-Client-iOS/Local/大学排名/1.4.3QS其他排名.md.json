@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -62,7 +62,7 @@
                 "title": "-"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -73,10 +73,6 @@
                             "type": "HLLink"
                         }, 
                         "kind": "Item"
-                    }, 
-                    {
-                        "content": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a", 
-                        "kind": "Graph"
                     }, 
                     {
                         "content": {
@@ -134,10 +130,10 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "-"
+                "title": "\u6b64\u9886\u57df\u8fd8\u6709\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -148,10 +144,6 @@
                             "type": "HLLink"
                         }, 
                         "kind": "Item"
-                    }, 
-                    {
-                        "content": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a", 
-                        "kind": "Graph"
                     }, 
                     {
                         "content": {
@@ -209,10 +201,10 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "-"
+                "title": "\u6b64\u9886\u57df\u8fd8\u6709\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -223,10 +215,6 @@
                             "type": "HLLink"
                         }, 
                         "kind": "Item"
-                    }, 
-                    {
-                        "content": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a", 
-                        "kind": "Graph"
                     }, 
                     {
                         "content": {
@@ -284,10 +272,10 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "-"
+                "title": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e94\u79cd\u4e13\u4e1a\u6392\u540d\uff1a"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -298,10 +286,6 @@
                             "type": "HLLink"
                         }, 
                         "kind": "Item"
-                    }, 
-                    {
-                        "content": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e03\u79cd\u4e13\u4e1a\u6392\u540d\uff1a", 
-                        "kind": "Graph"
                     }, 
                     {
                         "content": {
@@ -381,10 +365,10 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "-"
+                "title": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u4e03\u79cd\u4e13\u4e1a\u6392\u540d\uff1a"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -395,10 +379,6 @@
                             "type": "HLLink"
                         }, 
                         "kind": "Item"
-                    }, 
-                    {
-                        "content": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u516b\u79cd\u4e13\u4e1a\u6392\u540d\uff1a", 
-                        "kind": "Graph"
                     }, 
                     {
                         "content": {
@@ -500,7 +480,7 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "-"
+                "title": "\u6b64\u9886\u57df\u8fd8\u6709\u4e0b\u5217\u516b\u79cd\u4e13\u4e1a\u6392\u540d\uff1a"
             }
         ], 
         "title": "QS\u5176\u4ed6\u6392\u540d"

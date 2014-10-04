@@ -1,10 +1,10 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
-                        "content": "AA(Associate of Arts)", 
+                        "content": "AA (Associate of Arts)", 
                         "kind": "Section"
                     }, 
                     {
@@ -12,7 +12,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "AAS/AASc(Associate of Science)", 
+                        "content": "AAS/AASc (Associate of Science)", 
                         "kind": "Section"
                     }, 
                     {
@@ -60,7 +60,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "AO(Admission Officer)", 
+                        "content": "AO (Admission Officer)", 
                         "kind": "Section"
                     }, 
                     {
@@ -79,7 +79,7 @@
                 "title": "A"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "BA (Bachelor of Arts)", 
                         "kind": "Section"
@@ -97,7 +97,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "BS/BSc(Bachelor of Science)", 
+                        "content": "BS/BSc (Bachelor of Science)", 
                         "kind": "Section"
                     }, 
                     {
@@ -116,7 +116,7 @@
                 "title": "B"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Citizenship", 
                         "kind": "Section"
@@ -134,7 +134,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "Coed(Coeducation)", 
+                        "content": "Coed (Coeducation)", 
                         "kind": "Section"
                     }, 
                     {
@@ -154,7 +154,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u9644\u5e26\u6761\u4ef6\u5165\u5b66\uff0c\u88ab\u5f88\u591a\u4e2d\u4ecb\u7f8e\u79f0\u4e3a\u53cc\u5f55\u53d6\u3002\u662f\u6307\u5728\u67d0\u4e9b\u65b9\u9762\u6ca1\u6709\u8fbe\u5230\u5165\u5b66\u8981\u6c42\u4f46\u5177\u5907\u4f18\u79c0\u8d44\u8d28\u7684\u7533\u8bf7\u4eba\uff0c\u5141\u8bb8\u9644\u5e26\u4e00\u5b9a\u6761\u4ef6\u5165\u5b66\uff0c\u4e00\u822c\u4e3a\u8bed\u8a00\u57f9\u8bad(ESL Course)\u3002", 
+                        "content": "\u9644\u5e26\u6761\u4ef6\u5165\u5b66\uff0c\u88ab\u5f88\u591a\u4e2d\u4ecb\u7f8e\u79f0\u4e3a\u53cc\u5f55\u53d6\u3002\u662f\u6307\u5728\u67d0\u4e9b\u65b9\u9762\u6ca1\u6709\u8fbe\u5230\u5165\u5b66\u8981\u6c42\u4f46\u5177\u5907\u4f18\u79c0\u8d44\u8d28\u7684\u7533\u8bf7\u4eba\uff0c\u5141\u8bb8\u9644\u5e26\u4e00\u5b9a\u6761\u4ef6\u5165\u5b66\uff0c\u4e00\u822c\u4e3a\u8bed\u8a00\u57f9\u8bad (ESL Course) \u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -193,13 +193,13 @@
                 "title": "C"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Deposit", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u9884\u4ed8\u91d1\uff0c\u5206\u4e3a\u53ef\u9000(Refundable)\u548c\u4e0d\u53ef\u9000(non-refundable)\u3002", 
+                        "content": "\u9884\u4ed8\u91d1\uff0c\u5206\u4e3a\u53ef\u9000 (Refundable) \u548c\u4e0d\u53ef\u9000 (non-refundable) \u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -207,7 +207,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u6587\u51ed \uff08\u6bd5\u4e1a\u8bc1\uff0c\u7ed3\u4e1a\u8bc1\uff09", 
+                        "content": "\u6587\u51ed (\u6bd5\u4e1a\u8bc1\uff0c\u7ed3\u4e1a\u8bc1)\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -223,7 +223,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u535a\u58eb\u5b66\u4f4d\u3002\u5305\u62ecPh.D(Doctor of Philosophy)\u7b49\u3002", 
+                        "content": "\u535a\u58eb\u5b66\u4f4d\u3002\u5305\u62ecPh.D (Doctor of Philosophy) \u7b49\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -254,13 +254,13 @@
                 "title": "D"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Enrollment", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\uff08\u5728\u6821\uff09\u4eba\u6570\u3002\u5f97\u5230\u5165\u5b66\u901a\u77e5\u540e\u5b9e\u9645\u5230\u6821\u5b66\u4e60\u7684\u5b66\u751f\u4eba\u6570\u3002", 
+                        "content": "(\u5728\u6821)\u4eba\u6570\u3002\u5f97\u5230\u5165\u5b66\u901a\u77e5\u540e\u5b9e\u9645\u5230\u6821\u5b66\u4e60\u7684\u5b66\u751f\u4eba\u6570\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -291,13 +291,13 @@
                 "title": "E"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "F-1 Visa", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u5b66\u751f\u7b7e\u8bc1", 
+                        "content": "\u5b66\u751f\u7b7e\u8bc1\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -328,7 +328,7 @@
                 "title": "F"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "GMAT", 
                         "kind": "Section"
@@ -350,7 +350,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u76f8\u5bf9\u4e8e\u672c\u79d1\u9662\u7cfb(Undergraduate)\u800c\u8a00\u7684\u7814\u7a76\u751f\u9662\u3002", 
+                        "content": "\u76f8\u5bf9\u4e8e\u672c\u79d1\u9662\u7cfb (Undergraduate) \u800c\u8a00\u7684\u7814\u7a76\u751f\u9662\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -365,7 +365,7 @@
                 "title": "G"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Health Report", 
                         "kind": "Section"
@@ -378,7 +378,7 @@
                 "title": "H"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "I-20", 
                         "kind": "Section"
@@ -407,15 +407,15 @@
                 "title": "I"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "J"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "K"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "LAC (Liberal Arts College)", 
                         "kind": "Section"
@@ -436,7 +436,7 @@
                 "title": "L"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "MA (Master of Arts)", 
                         "kind": "Section"
@@ -489,11 +489,11 @@
                 "title": "M"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "N"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Offer", 
                         "kind": "Section"
@@ -506,7 +506,7 @@
                 "title": "O"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Portfolio", 
                         "kind": "Section"
@@ -535,7 +535,7 @@
                 "title": "P"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Quarter", 
                         "kind": "Section"
@@ -548,7 +548,7 @@
                 "title": "Q"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "RA (Research Assistant)", 
                         "kind": "Section"
@@ -585,7 +585,7 @@
                 "title": "R"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "SAT I (Scholastic Assessment Test I)", 
                         "kind": "Section"
@@ -607,7 +607,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "\u5956\u5b66\u91d1\uff0c\u662fFinancial Aid\u7684\u4e00\u79cd\u3002\u5206Need-Based\uff08\u8003\u8651\u7533\u8bf7\u8005\u7ecf\u6d4e\u60c5\u51b5\uff09\u548cMerit-Based\uff08\u53ea\u8003\u8651\u7533\u8bf7\u8005\u662f\u5426\u4f18\u79c0\uff0c\u4e0d\u8003\u8651\u7ecf\u6d4e\u60c5\u51b5\uff09\u3002", 
+                        "content": "\u5956\u5b66\u91d1\uff0c\u662fFinancial Aid\u7684\u4e00\u79cd\u3002\u5206Need-Based (\u8003\u8651\u7533\u8bf7\u8005\u7ecf\u6d4e\u60c5\u51b5) \u548cMerit-Based (\u53ea\u8003\u8651\u7533\u8bf7\u8005\u662f\u5426\u4f18\u79c0\uff0c\u4e0d\u8003\u8651\u7ecf\u6d4e\u60c5\u51b5) \u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -638,7 +638,7 @@
                 "title": "S"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "TA (Teaching Assistant)", 
                         "kind": "Section"
@@ -691,7 +691,7 @@
                 "title": "T"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Undergraduate", 
                         "kind": "Section"
@@ -704,11 +704,11 @@
                 "title": "U"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "V"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "Waiver", 
                         "kind": "Section"
@@ -721,19 +721,19 @@
                 "title": "W"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "X"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "Y"
             }, 
             {
-                "graphs": [], 
+                "items": [], 
                 "title": "Z"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u5927U", 
                         "kind": "Section"

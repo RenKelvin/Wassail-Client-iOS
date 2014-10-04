@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -22,7 +22,7 @@
                 "title": "\u4e2d\u56fd\u94f6\u8054"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -50,7 +50,7 @@
                 "title": "\u5a01\u58eb\u5361\uff08VISA\uff09"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -70,7 +70,7 @@
                 "title": "\u4e07\u4e8b\u8fbe\u5361\uff08MasterCard\uff09"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -90,7 +90,7 @@
                 "title": "\u7f8e\u56fd\u8fd0\u901a\u5361 \uff08American Express)"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -110,7 +110,7 @@
                 "title": "\u5927\u83b1\u4fe1\u7528\u5361 (Diner\u2019s Club)"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
