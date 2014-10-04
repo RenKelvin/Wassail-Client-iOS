@@ -4,32 +4,81 @@
             {
                 "items": [
                     {
-                        "content": "Resume\u5185\u5bb9", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.1Resume\u5185\u5bb9", 
+                                "title": "Resume\u5185\u5bb9"
+                            }, 
+                            "name": "3.1Resume\u5185\u5bb9", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "Resume\u6837\u672c", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.2Resume\u6837\u672c", 
+                                "title": "Resume\u6837\u672c"
+                            }, 
+                            "name": "3.2Resume\u6837\u672c", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "CV\u5185\u5bb9", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.3CV\u5185\u5bb9", 
+                                "title": "CV\u5185\u5bb9"
+                            }, 
+                            "name": "3.3CV\u5185\u5bb9", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "CV\u6837\u672c", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.4CV\u6837\u672c", 
+                                "title": "CV\u6837\u672c"
+                            }, 
+                            "name": "3.4CV\u6837\u672c", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "\u7f16\u8f91\u683c\u5f0f", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.5\u7b80\u5386\u683c\u5f0f", 
+                                "title": "\u7b80\u5386\u683c\u5f0f"
+                            }, 
+                            "name": "3.5\u7b80\u5386\u683c\u5f0f", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "\u6ce8\u610f\u4e8b\u9879", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.6\u6ce8\u610f\u4e8b\u9879", 
+                                "title": "\u6ce8\u610f\u4e8b\u9879"
+                            }, 
+                            "name": "3.6\u6ce8\u610f\u4e8b\u9879", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
-                        "content": "\u5e38\u7528\u52a8\u8bcd", 
-                        "kind": "Section"
+                        "content": {
+                            "body": {
+                                "address": "3.7\u5e38\u7528\u52a8\u8bcd", 
+                                "title": "\u5e38\u7528\u52a8\u8bcd"
+                            }, 
+                            "name": "3.7\u5e38\u7528\u52a8\u8bcd", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
                     }
                 ], 
                 "title": "-"

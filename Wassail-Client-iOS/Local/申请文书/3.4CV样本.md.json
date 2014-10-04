@@ -4,20 +4,72 @@
             {
                 "items": [
                     {
-                        "content": "CONTACT INFORMATION\u2028Name\u2028Address\u2028Telephone\u2028Cell Phone\u2028Email", 
+                        "content": "CONTACT INFORMATION", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "EDUCATION \u2028Include dates, majors, and details of degrees, training and certification \u2028High School\u2028University\u2028Graduate School\u2028Post-Doctoral Training", 
+                        "content": "Name", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Address", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Telephone", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Cell Phone", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Email", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "EDUCATION", 
                         "kind": "Section"
+                    }, 
+                    {
+                        "content": "Include dates, majors, and details of degrees, training and certification", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "High School", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Graduate School", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Post-Doctoral Training", 
+                        "kind": "Graph"
                     }, 
                     {
                         "content": "DISSERTATION", 
                         "kind": "Section"
                     }, 
                     {
-                        "content": "EXPERIENCE\u2028List in chronological order, include position details and dates\u2028Work History\u2028Academic Positions\u2028Research and Training", 
+                        "content": "EXPERIENCE\u2028List in chronological order, include position details and dates", 
                         "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work History", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Academic Positions", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Research and Training", 
+                        "kind": "Graph"
                     }, 
                     {
                         "content": "AWARDS", 
@@ -28,8 +80,12 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "PROFESSIONAL QUALIFICATIONS\u2028Certifications and Accreditations\u2028Computer Skills", 
+                        "content": "PROFESSIONAL QUALIFICATIONS\u2028Certifications and Accreditations", 
                         "kind": "Section"
+                    }, 
+                    {
+                        "content": "Computer Skills", 
+                        "kind": "Graph"
                     }, 
                     {
                         "content": "PROFESSIONAL MEMBERSHIPS", 

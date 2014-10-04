@@ -67,7 +67,7 @@
                         "content": {
                             "body": {
                                 "address": "4.0\u5176\u4ed6\u6587\u4e66", 
-                                "title": ""
+                                "title": "\u5176\u4ed6\u6587\u4e66"
                             }, 
                             "name": "4.0\u5176\u4ed6\u6587\u4e66", 
                             "type": "HLArticlePreview"
@@ -80,7 +80,8 @@
                             "name": "0Portfolio2", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Portfolio, Writing Sample, etc"
                     }
                 ], 
                 "title": "-"
