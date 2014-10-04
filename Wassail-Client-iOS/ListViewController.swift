@@ -23,7 +23,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet var headerLabelPrototype: UILabel?
     
     @IBOutlet var footerLabel: UILabel?
-
+    
     var listName: NSString?
     var list: HLList?
     
@@ -196,7 +196,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return h!
         }
         
-        return 45.0
+        return 54.0
     }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
