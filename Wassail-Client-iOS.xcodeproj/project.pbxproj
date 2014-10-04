@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */; };
+		AD1EBB2819E0733E00515F5B /* 2.1格式要求.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */; };
+		AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */; };
+		AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1D19E0733E00515F5B /* 2.2注意事项.md.json */; };
+		AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1E19E0733E00515F5B /* 2.3个人陈述.jpg */; };
+		AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1F19E0733E00515F5B /* 2.3写作结构.md.json */; };
+		AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2019E0733E00515F5B /* 2.4素材2.jpg */; };
+		AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2119E0733E00515F5B /* 2.4素材3.jpg */; };
+		AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2219E0733E00515F5B /* 2.4素材选择.md.json */; };
+		AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2319E0733E00515F5B /* 2.5范文.md.json */; };
+		AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2419E0733E00515F5B /* 2.6素材.jpg */; };
+		AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2519E0733E00515F5B /* 2.6素材选择.md.json */; };
+		AD1EBB3319E0733E00515F5B /* 2.7小论文范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB2619E0733E00515F5B /* 2.7小论文范文.md.json */; };
 		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
 		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
 		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
@@ -289,6 +302,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.0个人陈述.md.json"; sourceTree = "<group>"; };
+		AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.1格式要求.md.json"; sourceTree = "<group>"; };
+		AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.2RL2.jpg; sourceTree = "<group>"; };
+		AD1EBB1D19E0733E00515F5B /* 2.2注意事项.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.2注意事项.md.json"; sourceTree = "<group>"; };
+		AD1EBB1E19E0733E00515F5B /* 2.3个人陈述.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2.3个人陈述.jpg"; sourceTree = "<group>"; };
+		AD1EBB1F19E0733E00515F5B /* 2.3写作结构.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.3写作结构.md.json"; sourceTree = "<group>"; };
+		AD1EBB2019E0733E00515F5B /* 2.4素材2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2.4素材2.jpg"; sourceTree = "<group>"; };
+		AD1EBB2119E0733E00515F5B /* 2.4素材3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2.4素材3.jpg"; sourceTree = "<group>"; };
+		AD1EBB2219E0733E00515F5B /* 2.4素材选择.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.4素材选择.md.json"; sourceTree = "<group>"; };
+		AD1EBB2319E0733E00515F5B /* 2.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.5范文.md.json"; sourceTree = "<group>"; };
+		AD1EBB2419E0733E00515F5B /* 2.6素材.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2.6素材.jpg"; sourceTree = "<group>"; };
+		AD1EBB2519E0733E00515F5B /* 2.6素材选择.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.6素材选择.md.json"; sourceTree = "<group>"; };
+		AD1EBB2619E0733E00515F5B /* 2.7小论文范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.7小论文范文.md.json"; sourceTree = "<group>"; };
 		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
 		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
 		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
@@ -842,6 +868,19 @@
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
+				AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */,
+				AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */,
+				AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */,
+				AD1EBB1D19E0733E00515F5B /* 2.2注意事项.md.json */,
+				AD1EBB1E19E0733E00515F5B /* 2.3个人陈述.jpg */,
+				AD1EBB1F19E0733E00515F5B /* 2.3写作结构.md.json */,
+				AD1EBB2019E0733E00515F5B /* 2.4素材2.jpg */,
+				AD1EBB2119E0733E00515F5B /* 2.4素材3.jpg */,
+				AD1EBB2219E0733E00515F5B /* 2.4素材选择.md.json */,
+				AD1EBB2319E0733E00515F5B /* 2.5范文.md.json */,
+				AD1EBB2419E0733E00515F5B /* 2.6素材.jpg */,
+				AD1EBB2519E0733E00515F5B /* 2.6素材选择.md.json */,
+				AD1EBB2619E0733E00515F5B /* 2.7小论文范文.md.json */,
 				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
 				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
 				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
@@ -1305,6 +1344,7 @@
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
+				AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
@@ -1321,6 +1361,7 @@
 				FEA0FC0419D846A400A24409 /* 3.7.0图书咨询学排名.md.json in Resources */,
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
+				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
@@ -1338,10 +1379,12 @@
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
 				FEB211E219DA940C00647560 /* 2.2.2Northeastern U.jpg in Resources */,
+				AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */,
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
+				AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */,
 				FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */,
 				FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */,
 				ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */,
@@ -1371,6 +1414,7 @@
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
+				AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */,
 				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
 				FEB211E719DA940C00647560 /* 2.2.4剑桥4.jpg in Resources */,
@@ -1379,6 +1423,7 @@
 				FEA0FBDA19D846A400A24409 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json in Resources */,
 				FE7262EB19DFEA11005739D0 /* 1.1选择推荐人.md.json in Resources */,
 				ADC907EB19DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg in Resources */,
+				AD1EBB2819E0733E00515F5B /* 2.1格式要求.md.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				FEA0FBF819D846A400A24409 /* 2.5LiberalArtsCollege.md.json in Resources */,
@@ -1400,6 +1445,7 @@
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
+				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
@@ -1415,6 +1461,7 @@
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
+				AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */,
 				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
@@ -1424,6 +1471,7 @@
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
+				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
 				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
@@ -1442,6 +1490,7 @@
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
 				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
+				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
 				FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */,
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
@@ -1453,17 +1502,20 @@
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FE72630819E013C3005739D0 /* 0地球.png in Resources */,
+				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
 				FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */,
+				AD1EBB3319E0733E00515F5B /* 2.7小论文范文.md.json in Resources */,
 				ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
+				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
