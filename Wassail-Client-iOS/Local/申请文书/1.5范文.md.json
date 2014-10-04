@@ -1,0 +1,222 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "Writer's Name or Company Letterhead\u2028Street  City  State  Zip Code\u2028Phone #  Fax phone # Email", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Date today", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Recipient's address block - optional\u2028Address\u2028Address", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Dear (Recipient's name) or To Whom it May Concern:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Start by identifying your relationship with the person for whom you're writing the letter. Are you the person's manager, co-worker or professor? How long have you known or worked with the person?", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Picture the person in his or her job role. Point out a variety of positive traits while focusing on work ethics, accomplishments, skills, and significant contributions (use specific examples). If you draw a blank, ask the person to refresh your memory. If you have access to the person's merit reviews, refer to them for hints. If for business reasons you're sorry to see this person go, say so.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Avoid vague, powerless words such as nice, good, fine and reasonable. Use words such as excellent, superior, instrumental, creative, innovative, efficient, dependable, articulate, meticulous, self-starter and confident.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Wrap it up with a recommendation to admit or hire. Close by offering to provide more information. Include your contact information if it's not in the letterhead.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Sincerely,", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Sign here", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-\u2028Your name\u2028Your title", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u63a8\u8350\u4fe1\u683c\u5f0f\u6837\u4f8b"
+            }, 
+            {
+                "author": "http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
+                "items": [
+                    {
+                        "content": "Dr. Petr P. Petrov", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "XXX Titles", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Moscow Institute of Physics and Technology", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "9 Institutsky per., Dolgoprudny, 141700 Russia", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "tel. 7-095-408-00-00", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "LETTER OF EVALUATION", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "for Ivan Ivanov", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "I have known Ivan Ivanov for approximately four years. During first two years he was attending my lectures and seminars in XX, XX and XX. Ivan is very active and sociable. We used to discuss different mathematical problems several times a week. During our discussions Ivan displayed great ingenuity and profound knowledge of mathematics far above the scope of MIPT program.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Ivan is one of the best students of his year. Two times he won highly competitive Mathematics Olympiad among MIPT students and Math Problems Solving Contest. He has always been a hard-working student. He attended many advanced lectures on modern mathematics at MIPT as well as at the Independent University of Moscow, a very strong Russian mathematical institution.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Ivan has excellent research abilities. He is extremely strong in solving non-standard problems in various areas. During his undergraduate studies he himself explored a scientific problem connected with XX problem. His solution of the problem was very elegant and I wasn't surprised when his article was accepted for publication in Mathematical Notes.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "I consider Ivan as one of the top 2% MIPT students. He proved himself to be an organized and responsible person. Besides, Ivan is a very pleasant person to communicate with. I believe these qualities along with brilliant intellectual capacity guarantee Ivan's success in his future work. I highly recommend Ivan Ivanov and strongly support his application to Massachusetts Institute of Technology.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Sincerely yours,", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Petr P. Petrov", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u6559\u6388\u63a8\u8350\u4fe1\u6837\u4f8b"
+            }, 
+            {
+                "author": "\u4e92\u8054\u7f51", 
+                "items": [
+                    {
+                        "content": "DearAdmissions Officer:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "I am writing this letter to support the admission of XXX to the Harvard GraduateSchool, Statistic. I was Mr. X's internship Referral and advisor for several years between 2010 and 2011. We have met and talked several times since.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Mr. X's academic credentials are truly exceptional. He not only knows how to reason with numbers and data, but how to render incisive and imaginative practices in mathematic.He performed perfectly in all his tasks. Whether rendering a spread sheet analysis, making a model or writing a report, XXX always demonstrated uncanny mastery combined with critical wit. While many of the staff members I have met performed very well in the company, X alone has completed work that meets with tastes of senior managers. Even more importantly he offered new ideas which we could comprehend and even assimilate.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Unlike most of his colleagues I have talked in the XXXXX, Mr. X immersed himself in American culture. He composed a joke as part of his first presentation analyzing a current plan. It worked. His colleagues laughed and I was witness to masterful culture spanning. X came to us a confident individualist uniquely suited to cultural cross fertilization.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "X has a deep reservoir of talent and ambition. He has already accomplished a great deal in the face of considerable challenge. He has worked hard making use of each opportunity for improvement, and produced an impressive record for one who has enjoyed no special privilege. Tan possesses and uses an easygoing manner and spirited conviviality to put people at ease. He can easily make people to believe him. In addition, X has special self-study and is experienced in programming, especially in C/C++, as well as his intelligent judgment. He learned early on the painful lessons of C language, and has learned how to write the pointer and algorithm to make \u201caccepting\u201d. I have every confidence that he will use this considerable knowledge to tackle completed problems and study on a larger scale.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "While as an internship member in our company, X took a lot of tasks under the help of the director of the Financial Analyst. Financial Analysis, a cumbersome and stressful job correlated with technical analysis and XXXX in stock market. X showed wonderful digital sensitivity for graphic grasp and analysis.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "X is smart.But more important he has acquired wisdom in the statistic and programming. He wants to expand his considerable fund of wisdom and use it to provide statistic improvement from the U.S. to China. XXX's ambitions and abilities are in sync.He is poised and prepared to take this next step in an exciting journey. Not only will managers and staff thank you for admitting such a fine candidate, but so too will those employees, customers and citizens who will benefit from his future employment.", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Sincerely,", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Name:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Position:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Company:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Del:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "E-mail:", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5b9e\u4e60\u63a8\u8350\u4fe1\u6837\u4f8b"
+            }
+        ], 
+        "title": "\u8303\u6587"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

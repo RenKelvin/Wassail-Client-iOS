@@ -47,6 +47,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "3.1Resume1", 
+                                "title": ""
+                            }, 
+                            "name": "3.1Resume1", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "\u63cf\u8ff0\u804c\u8d23\u4e0e\u6210\u5c31\u7684\u6bcf\u4e00\u53e5\u8bdd\u8981\u7528\u52a8\u8bcd\u5f00\u5934 (Begin with action verbs and avoid phrase such as \u201cduties included\u201d)\uff0c\u8fd9\u4e9b\u6210\u5c31\u8981\u53ef\u4fe1\u5e76\u4e14\u53ef\u4ee5\u88ab\u786e\u8ba4\u3002\u5982\u679c\u6210\u5c31\u53ef\u4ee5\u88ab\u91cf\u5316\u5219\u66f4\u6709\u8bf4\u670d\u529b\uff0c\u6bd4\u5982\u201c\u5e2e\u52a9\u516c\u53f8\u5229\u6da6\u589e\u52a05%\u201d\u6bd4\u201c\u5e2e\u52a9\u516c\u53f8\u5229\u6da6\u589e\u957f\u201d\u8981\u6709\u529b\u5730\u591a\u3002", 
                         "kind": "Graph"
                     }, 

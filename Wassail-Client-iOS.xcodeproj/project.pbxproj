@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
+		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
+		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
 		ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */; };
 		ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */; };
 		ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */; };
@@ -286,6 +289,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
+		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
+		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
 		ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0剑桥2.jpg"; sourceTree = "<group>"; };
 		ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0ARWU.jpg; sourceTree = "<group>"; };
 		ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0QS.jpg; sourceTree = "<group>"; };
@@ -836,10 +842,13 @@
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
+				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
+				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
 				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
 				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
 				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
 				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
+				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
 				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
 				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
 				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
@@ -1279,6 +1288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
+				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
@@ -1328,6 +1338,7 @@
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
 				FEB211E219DA940C00647560 /* 2.2.2Northeastern U.jpg in Resources */,
+				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
@@ -1336,6 +1347,7 @@
 				ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */,
 				ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
+				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
