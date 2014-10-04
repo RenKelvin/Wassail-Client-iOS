@@ -1,28 +1,9 @@
 {
     "body": {
+        "footer": "\u66f4\u591a\u56fd\u5bb6\u6392\u540d\u6301\u7eed\u66f4\u65b0\u4e2d", 
         "groups": [
             {
                 "items": [
-                    {
-                        "content": {
-                            "body": {
-                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                                "title": "\u4e16\u754c\u5927\u5b66\u6392\u540d"
-                            }, 
-                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLListPreview"
-                        }, 
-                        "icon": {
-                            "body": {
-                                "address": "0\u5927\u5b66\u6392\u540d", 
-                                "title": ""
-                            }, 
-                            "name": "0\u5927\u5b66\u6392\u540d", 
-                            "type": "HLImage"
-                        }, 
-                        "kind": "Item", 
-                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
-                    }, 
                     {
                         "content": {
                             "body": {
@@ -44,6 +25,31 @@
                     }
                 ], 
                 "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u5927\u5b66\u6392\u540d", 
+                                "title": ""
+                            }, 
+                            "name": "0\u5927\u5b66\u6392\u540d", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }
+                ], 
+                "title": "\u4e16\u754c"
             }, 
             {
                 "items": [

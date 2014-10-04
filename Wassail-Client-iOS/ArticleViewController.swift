@@ -22,6 +22,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet var headerContainer: UIView?
     @IBOutlet var headerLabelPrototype: UILabel?
     
+    @IBOutlet var footerLabel: UILabel?
+
     @IBOutlet var sectionCell: ArticleTableViewCell?
     @IBOutlet var graphCell: ArticleTableViewCell?
     @IBOutlet var itemCell: ArticleTableViewCell?

@@ -15,6 +15,8 @@ class HLArticle: HLItem {
     var date: NSString?
     var header: NSString?
     
+    var footer: NSString?
+
     var groups: NSArray = []
     
     override init() {

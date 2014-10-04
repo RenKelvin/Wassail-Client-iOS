@@ -15,7 +15,9 @@ class HLList: HLItem {
     var author: NSString?
     var date: NSString?
     var header: NSString?
-    
+
+    var footer: NSString?
+
     var groups: NSArray = []
     
     override init() {
@@ -32,6 +34,8 @@ class HLList: HLItem {
         author = jsonBody.objectForKey("author") as NSString?
         date = jsonBody.objectForKey("date") as NSString?
         header = jsonBody.objectForKey("header") as NSString?
+        
+        footer = jsonBody.objectForKey("footer") as NSString?
         
         groups = jsonBody.objectForKey("groups") as NSArray
         

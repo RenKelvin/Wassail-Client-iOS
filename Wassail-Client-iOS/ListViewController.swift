@@ -22,6 +22,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet var headerContainer: UIView?
     @IBOutlet var headerLabelPrototype: UILabel?
     
+    @IBOutlet var footerLabel: UILabel?
+
     var listName: NSString?
     var list: HLList?
     
@@ -91,6 +93,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             self.tableView!.tableHeaderView!.frame.size.height = height + 52.0
         }
         
+        self.footerLabel!.text = list!.footer
     }
     
     func getHeaderHeight(text: NSString?) -> CGFloat {
