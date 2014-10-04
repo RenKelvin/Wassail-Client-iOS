@@ -115,7 +115,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.dateLabel!.text = article!.date
         self.dateLabel!.hidden = false
         
-        // headerLable
+        // headerLabel
         self.headerLabel!.text = article!.header
         // FIXME: Manually modified preferredMaxLayoutWidth for different devices
         headerLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
@@ -129,7 +129,6 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             self.headerContainer!.hidden = false
             self.tableView!.tableHeaderView!.frame.size.height = height + 108.0
         }
-        
     }
     
     func getHeaderHeight(text: NSString?) -> CGFloat {

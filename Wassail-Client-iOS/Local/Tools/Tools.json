@@ -107,7 +107,7 @@
         "identifier": "GPACalculator"
     },
     "apply documents": {
-        "ready": "false",
+        "ready": "true",
         "note": "留学申请文书解析、范例",
         "title": "申请文书",
         "icon": "ToolsIconApplyDocuments",

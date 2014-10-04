@@ -1,0 +1,62 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "CONTACT INFORMATION\u2028Name\u2028Address\u2028Telephone\u2028Cell Phone\u2028Email", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "EDUCATION \u2028Include dates, majors, and details of degrees, training and certification \u2028High School\u2028University\u2028Graduate School\u2028Post-Doctoral Training", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "DISSERTATION", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "EXPERIENCE\u2028List in chronological order, include position details and dates\u2028Work History\u2028Academic Positions\u2028Research and Training", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "AWARDS", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "PUBLICATIONS", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "PROFESSIONAL QUALIFICATIONS\u2028Certifications and Accreditations\u2028Computer Skills", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "PROFESSIONAL MEMBERSHIPS", 
+                        "kind": "Section"
+                    }
+                ], 
+                "title": "CV\u683c\u5f0f\u6837\u672c"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4CV\u6837\u672c", 
+                                "title": ""
+                            }, 
+                            "name": "3.4CV\u6837\u672c", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "CV\u6837\u672c"
+            }
+        ], 
+        "title": "CV\u6837\u672c"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

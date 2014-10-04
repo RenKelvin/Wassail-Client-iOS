@@ -74,6 +74,34 @@
 		FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07519D71BD4007E63BC /* Unit Converter.json */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
+		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
+		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
+		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
+		FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */; };
+		FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */; };
+		FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */; };
+		FE7262EB19DFEA11005739D0 /* 1.1选择推荐人.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */; };
+		FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */; };
+		FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */; };
+		FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */; };
+		FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */; };
+		FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D519DFEA11005739D0 /* 3.0个人简历.md.json */; };
+		FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D619DFEA11005739D0 /* 3.1Resume3.jpg */; };
+		FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D719DFEA11005739D0 /* 3.1Resume内容.md.json */; };
+		FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D819DFEA11005739D0 /* 3.2Resume.png */; };
+		FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262D919DFEA11005739D0 /* 3.2Resume样本.md.json */; };
+		FE7262F519DFEA11005739D0 /* 3.2推荐信格式.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DA19DFEA11005739D0 /* 3.2推荐信格式.png */; };
+		FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DB19DFEA11005739D0 /* 3.3CV.jpg */; };
+		FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DC19DFEA11005739D0 /* 3.3CV内容.md.json */; };
+		FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DD19DFEA11005739D0 /* 3.4CV样本.md.json */; };
+		FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DE19DFEA11005739D0 /* 3.4CV样本.png */; };
+		FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262DF19DFEA11005739D0 /* 3.5简历格式.md.json */; };
+		FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E019DFEA11005739D0 /* 3.6注意事项.md.json */; };
+		FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E119DFEA11005739D0 /* 3.7常用动词.md.json */; };
+		FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E219DFEA11005739D0 /* 3.7常用动词.png */; };
+		FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */; };
+		FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */; };
+		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -327,6 +355,34 @@
 		FE5BC07519D71BD4007E63BC /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
+		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
+		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
+		FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0申请文书.md.json"; sourceTree = "<group>"; };
+		FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.0推荐信.md.json"; sourceTree = "<group>"; };
+		FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.1RL2.jpg; sourceTree = "<group>"; };
+		FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1选择推荐人.md.json"; sourceTree = "<group>"; };
+		FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.2推荐信结构.md.json"; sourceTree = "<group>"; };
+		FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.3素材选择.md.json"; sourceTree = "<group>"; };
+		FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.4注意事项.md.json"; sourceTree = "<group>"; };
+		FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.6推荐信提交.md.json"; sourceTree = "<group>"; };
+		FE7262D519DFEA11005739D0 /* 3.0个人简历.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.0个人简历.md.json"; sourceTree = "<group>"; };
+		FE7262D619DFEA11005739D0 /* 3.1Resume3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume3.jpg; sourceTree = "<group>"; };
+		FE7262D719DFEA11005739D0 /* 3.1Resume内容.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1Resume内容.md.json"; sourceTree = "<group>"; };
+		FE7262D819DFEA11005739D0 /* 3.2Resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.2Resume.png; sourceTree = "<group>"; };
+		FE7262D919DFEA11005739D0 /* 3.2Resume样本.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.2Resume样本.md.json"; sourceTree = "<group>"; };
+		FE7262DA19DFEA11005739D0 /* 3.2推荐信格式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3.2推荐信格式.png"; sourceTree = "<group>"; };
+		FE7262DB19DFEA11005739D0 /* 3.3CV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.3CV.jpg; sourceTree = "<group>"; };
+		FE7262DC19DFEA11005739D0 /* 3.3CV内容.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.3CV内容.md.json"; sourceTree = "<group>"; };
+		FE7262DD19DFEA11005739D0 /* 3.4CV样本.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.4CV样本.md.json"; sourceTree = "<group>"; };
+		FE7262DE19DFEA11005739D0 /* 3.4CV样本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3.4CV样本.png"; sourceTree = "<group>"; };
+		FE7262DF19DFEA11005739D0 /* 3.5简历格式.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.5简历格式.md.json"; sourceTree = "<group>"; };
+		FE7262E019DFEA11005739D0 /* 3.6注意事项.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.6注意事项.md.json"; sourceTree = "<group>"; };
+		FE7262E119DFEA11005739D0 /* 3.7常用动词.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.7常用动词.md.json"; sourceTree = "<group>"; };
+		FE7262E219DFEA11005739D0 /* 3.7常用动词.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3.7常用动词.png"; sourceTree = "<group>"; };
+		FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.0Portfolio1.png; sourceTree = "<group>"; };
+		FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4.0其他文书.md.json"; sourceTree = "<group>"; };
+		FE72630019DFED10005739D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -637,8 +693,9 @@
 			isa = PBXGroup;
 			children = (
 				FE5BC07219D71BD4007E63BC /* Tools */,
-				FE5BC07819D71BD4007E63BC /* 大学排名 */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
+				FE5BC07819D71BD4007E63BC /* 大学排名 */,
+				FE7262C919DFEA11005739D0 /* 申请文书 */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -768,6 +825,40 @@
 				FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */,
 			);
 			name = RKSelectorView;
+			sourceTree = "<group>";
+		};
+		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
+				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
+				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
+				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
+				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
+				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
+				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
+				FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */,
+				FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */,
+				FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */,
+				FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */,
+				FE7262D519DFEA11005739D0 /* 3.0个人简历.md.json */,
+				FE7262D619DFEA11005739D0 /* 3.1Resume3.jpg */,
+				FE7262D719DFEA11005739D0 /* 3.1Resume内容.md.json */,
+				FE7262D819DFEA11005739D0 /* 3.2Resume.png */,
+				FE7262D919DFEA11005739D0 /* 3.2Resume样本.md.json */,
+				FE7262DA19DFEA11005739D0 /* 3.2推荐信格式.png */,
+				FE7262DB19DFEA11005739D0 /* 3.3CV.jpg */,
+				FE7262DC19DFEA11005739D0 /* 3.3CV内容.md.json */,
+				FE7262DD19DFEA11005739D0 /* 3.4CV样本.md.json */,
+				FE7262DE19DFEA11005739D0 /* 3.4CV样本.png */,
+				FE7262DF19DFEA11005739D0 /* 3.5简历格式.md.json */,
+				FE7262E019DFEA11005739D0 /* 3.6注意事项.md.json */,
+				FE7262E119DFEA11005739D0 /* 3.7常用动词.md.json */,
+				FE7262E219DFEA11005739D0 /* 3.7常用动词.png */,
+				FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */,
+				FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */,
+			);
+			path = "申请文书";
 			sourceTree = "<group>";
 		};
 		FE8C7BD319CB298D00F1C319 /* RKScrollerView */ = {
@@ -946,8 +1037,9 @@
 		FEC3BD4819C2896E00184760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
+				FE72630019DFED10005739D0 /* Item.swift */,
 				FEE0300119C878A80061201E /* HLItem.swift */,
+				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
 				FEC3BD4919C289AD00184760 /* HLList.swift */,
 				FE8D81BA19C476E200CE6174 /* HLArticle.swift */,
 				FE83076019DF07DC000B025A /* HLImage.swift */,
@@ -1187,6 +1279,7 @@
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
+				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
@@ -1207,6 +1300,7 @@
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
+				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
 				FEA0FC0219D846A400A24409 /* 3.5.0社会科学与人文排名.md.json in Resources */,
 				FEA0FC0419D846A400A24409 /* 3.7.0图书咨询学排名.md.json in Resources */,
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
@@ -1214,18 +1308,22 @@
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
+				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
+				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
 				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
 				ADBF2CE019DF9EDF0029A327 /* 4.0LinkedIn排名.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
+				FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */,
 				ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
 				FEB211E219DA940C00647560 /* 2.2.2Northeastern U.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
+				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */,
 				FEA0FBA019D7FFA100A24409 /* HLImageView.xib in Resources */,
@@ -1243,6 +1341,7 @@
 				FEA0FC2819D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json in Resources */,
 				FEA0FBED19D846A400A24409 /* 1.5.3ARWU其他排名.md.json in Resources */,
 				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
+				FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */,
 				FEB211E919DA940C00647560 /* 2.8Princeton Review.jpeg in Resources */,
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
@@ -1260,6 +1359,7 @@
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
 				FEA0FBFA19D846A400A24409 /* 2.8普林斯顿评论.md.json in Resources */,
 				FEA0FBDA19D846A400A24409 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json in Resources */,
+				FE7262EB19DFEA11005739D0 /* 1.1选择推荐人.md.json in Resources */,
 				ADC907EB19DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
@@ -1276,8 +1376,11 @@
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
+				FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */,
+				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
+				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
@@ -1286,11 +1389,14 @@
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
 				ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */,
 				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
+				FE7262F519DFEA11005739D0 /* 3.2推荐信格式.png in Resources */,
+				FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
+				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FEE1602219D925030022883E /* 1.3.2.1THE2013-2014.png in Resources */,
@@ -1299,10 +1405,12 @@
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
+				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
+				FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				ADBF2CDF19DF9EDF0029A327 /* 3.1申请自费硕士应该如何选校、如何看待学校排名_.md.json in Resources */,
@@ -1310,11 +1418,15 @@
 				ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
+				FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */,
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
+				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
+				FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */,
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
+				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
@@ -1323,14 +1435,18 @@
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
+				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
+				FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */,
 				ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
+				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
+				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
 				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
@@ -1343,8 +1459,11 @@
 				FEA0FBE319D846A400A24409 /* 1.3.3THE其他排名.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 				FEB211E319DA940C00647560 /* 2.2.2Northeastern.jpg in Resources */,
+				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
+				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FEA0FBF319D846A400A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
 				FEA0FBFD19D846A400A24409 /* 2.62015最新排名解读.md.json in Resources */,
+				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 				FEA0FBFF19D846A400A24409 /* 3.2.0工程院排名.md.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1439,6 +1558,7 @@
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */,
+				FE72630119DFED10005739D0 /* Item.swift in Sources */,
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,

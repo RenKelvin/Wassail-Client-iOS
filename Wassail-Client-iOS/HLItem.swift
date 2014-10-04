@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLItem: NSObject {
+class HLItem: Item {
     
     var name: NSString = ""
     var type: NSString = "HLItem"
@@ -18,7 +18,9 @@ class HLItem: NSObject {
     }
 
     // Virtual method
-    init(json: NSDictionary) {
+    override init(json: NSDictionary) {
+        super.init(json: json)
+        
         // Header
         name = json.objectForKey("name") as NSString
         type = json.objectForKey("type") as NSString

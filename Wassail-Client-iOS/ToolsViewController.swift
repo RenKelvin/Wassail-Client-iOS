@@ -127,7 +127,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 1:
                 self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             case 2:
-                ""
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 3:
                 ""
             case 4:

@@ -42,6 +42,7 @@ class HLList: HLItem {
                 
                 let kind = (item as NSDictionary).objectForKey("kind") as NSString
                 
+                // HLItem
                 if (kind == "Item") {
                     let content = (item as NSDictionary).objectForKey("content") as NSMutableDictionary
                     let body = content.objectForKey("body") as NSMutableDictionary
@@ -58,6 +59,12 @@ class HLList: HLItem {
                     content.setObject(body, forKey: "body")
                     
                     let model = HLItemBuilder.build(content as NSDictionary)
+                    items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                }
+                
+                // NOHLItem
+                else {
+                    let model: Item = Item(json: item as NSDictionary)
                     items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
                 }
             }
@@ -82,10 +89,10 @@ class HLList: HLItem {
         return title
     }
     
-    func item(group: Int, row: Int) -> HLItem {
+    func item(group: Int, row: Int) -> Item {
         let group = groups.objectAtIndex(group) as NSDictionary
         let items = group.objectForKey("items") as NSArray
         
-        return items.objectAtIndex(row) as HLItem
+        return items.objectAtIndex(row) as Item
     }
 }

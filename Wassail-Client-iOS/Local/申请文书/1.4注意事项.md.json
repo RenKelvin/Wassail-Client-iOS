@@ -1,0 +1,75 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u786e\u5b9a\u63a8\u8350\u4fe1\u4e2d\u7684\u5185\u5bb9\u4e0d\u548c\u5176\u4ed6\u7533\u8bf7\u6750\u6599\u76f8\u51b2\u7a81\uff0c\u4e5f\u4e0d\u662f\u7167\u6284\u5176\u4ed6\u6750\u6599\u4e2d\u7684\u5185\u5bb9\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5728\u5f62\u5bb9\u7533\u8bf7\u4eba\u7684\u4f18\u79c0\u54c1\u8d28\u65f6\uff0c\u8981\u7528\u5177\u4f53\u7684\u4f8b\u5b50\u6765\u652f\u6301\u8bba\u70b9\uff0c\u7ec6\u8282\u8d8a\u591a\u8d8a\u597d\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5c06\u7533\u8bf7\u4eba\u7684\u54c1\u8d28\u6570\u5b57\u5316\uff0c\u53ef\u4ee5\u548c\u5176\u4ed6\u7533\u8bf7\u4eba\u8fdb\u884c\u6bd4\u8f83\u6216\u63d0\u4f9b\u6392\u540d\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u7528\u8f83\u5f3a\u70c8\u7684\u5f62\u5bb9\u8bcd\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982articulate, effective, sophisticated, intelligent, observant, significant, expressive, creative, efficient, cooperative, imaginative, assertive, dependable, mature, innovative\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5f88\u6e29\u548c\u5730\u63d0\u53ca\u7533\u8bf7\u8005\u7684\u7f3a\u70b9\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u653e\u5f03\u67e5\u770b\u63a8\u8350\u4fe1\u7684\u6743\u529b\u3002", 
+                        "kind": "Section"
+                    }
+                ], 
+                "title": "Dos"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e0d\u8981\u63d0\u53ca\u903b\u8f91\u63a8\u7406\u4e0b\u63a8\u8350\u4eba\u4e0d\u53ef\u80fd\u77e5\u9053\u7684\u4fe1\u606f", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e0d\u7528\u5e73\u5eb8\u7684\u5f62\u5bb9\u8bcd\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982nice, good, fairly, reasonable, decent, satisfactory, I hope, for sure", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u7528\u53ef\u80fd\u5f15\u8d77\u6b67\u89c6\u95ee\u9898\u7684\u7279\u8d28\u3002", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u79cd\u65cf\uff0c\u6027\u522b\uff0c\u5b97\u6559\uff0c\u5e74\u9f84\u7b49", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u7528\u5197\u4f59\u7684\u5f62\u5bb9\u8bcd", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982really, very\u7b49", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Don\u2019ts"
+            }
+        ], 
+        "title": "\u6ce8\u610f\u4e8b\u9879"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
