@@ -61,24 +61,22 @@
                             "name": "1.5.0\u7f8e\u56fd\u4fe1\u7528\u5361", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
-                    }, 
-                    {
-                        "content": {
+                        "icon": {
                             "body": {
                                 "address": "1.0\u7f8e\u56fd\u56fd\u65d7", 
                                 "title": ""
                             }, 
                             "name": "1.0\u7f8e\u56fd\u56fd\u65d7", 
-                            "type": "note>[HLImg"
+                            "type": "HLImg"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "\u529e\u7406\u7f8e\u56fd\u4fe1\u7528\u5361\u7684\u8981\u6c42\u53ca\u6ce8\u610f\u4e8b\u9879"
                     }
                 ], 
                 "title": "\u5916\u56fd\u4fe1\u7528\u5361"
             }
         ], 
-        "header": "\u4fe1\u7528\u5361\uff08\u82f1\u8bed\uff1aCredit Card\uff09\uff0c\u53c8\u53eb\u8d37\u8bb0\u5361\u3002\u662f\u4e00\u79cd\u975e\u73b0\u91d1\u4ea4\u6613\u4ed8\u6b3e\u7684\u65b9\u5f0f\uff0c\u662f\u7b80\u5355\u7684\u4fe1\u8d37\u670d\u52a1\u3002", 
+        "header": "\u4fe1\u7528\u5361(\u82f1\u8bed\uff1aCredit Card) \uff0c\u53c8\u53eb\u8d37\u8bb0\u5361\u3002\u662f\u4e00\u79cd\u975e\u73b0\u91d1\u4ea4\u6613\u4ed8\u6b3e\u7684\u65b9\u5f0f\uff0c\u662f\u7b80\u5355\u7684\u4fe1\u8d37\u670d\u52a1\u3002", 
         "title": "\u4fe1\u7528\u5361"
     }, 
     "name": "<\u6587\u4ef6\u540d>", 

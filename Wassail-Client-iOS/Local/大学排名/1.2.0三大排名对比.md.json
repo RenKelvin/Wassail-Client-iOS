@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -18,7 +18,7 @@
                 "title": "Top20\u5bf9\u6bd4"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -34,7 +34,7 @@
                 "title": "Top 200\u6309\u56fd\u5bb6\u7edf\u8ba1\u5bf9\u6bd4"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {

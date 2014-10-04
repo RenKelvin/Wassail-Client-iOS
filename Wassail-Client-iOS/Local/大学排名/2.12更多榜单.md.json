@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u65b0\u95fb\u5468\u520a (Newsweek)", 
                         "kind": "Section"

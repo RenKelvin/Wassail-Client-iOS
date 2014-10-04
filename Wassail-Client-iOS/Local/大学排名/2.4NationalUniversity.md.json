@@ -1,9 +1,10 @@
 {
     "body": {
         "author": "\u5b66\u7f8e\u7559\u5b66", 
-        "chapters": [
+        "date": "2014/9/10", 
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": {
                             "body": {
@@ -19,7 +20,6 @@
                 "title": "-"
             }
         ], 
-        "date": "2014/9/10", 
         "title": "National University  \uff08\u5927U\u6392\u540d\uff09"
     }, 
     "name": "<\u6587\u4ef6\u540d>", 

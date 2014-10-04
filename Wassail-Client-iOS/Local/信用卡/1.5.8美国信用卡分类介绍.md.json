@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u6309\u516c\u53f8\uff0c\u7f8e\u56fd\u4fe1\u7528\u5361\u53ef\u4ee5\u5206\u4e3aVisa\uff0cMasterCard\uff0cAmerican Express\uff0cDiscover\u7b49\u3002\u5927\u5bb6\u5bf9Visa\u548cMasterCard\u6bd4\u8f83\u719f\u6089\uff0c\u56e0\u4e3a\u5728\u4e2d\u56fd\u7684\u53cc\u5e01\u5361\u6216\u8005\u53cc\u54c1\u724c\u5361\u5927\u90fd\u662f\u8fd9\u4e24\u79cd\u3002\u5f88\u591a\u7f8e\u56fd\u7684\u5927\u94f6\u884c\u90fd\u4f7f\u7528Visa\u548cMasterCard\uff0c\u6bd4\u5982\u7f8e\u56fd\u94f6\u884c(Bank of America)\u3001\u82b1\u65d7\u94f6\u884c(Citi) \u548c\u5927\u901a\u94f6\u884c(Chase)\u3002American Express\u548cDiscover\u6bd4\u8f83\u72ec\u7279\u4e9b\uff0c\u4e0b\u9762\u5355\u72ec\u4ecb\u7ecd\u3002", 
                         "kind": "Graph"
@@ -49,7 +49,7 @@
                 "title": "\u6309\u516c\u53f8\u5206"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u65e5\u5e38\u6d88\u8d39\u8fd4\u73b0 - Everyday Cashback", 
                         "kind": "Section"

@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u4fe1\u7528\u989d\u5ea6 - Credit Line, Credit Limit", 
                         "kind": "Section"

@@ -1,8 +1,8 @@
 {
     "body": {
-        "chapters": [
+        "groups": [
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u5404\u79cd\u8d26\u6237\u7684\u8fd8\u6b3e\u8bb0\u5f55", 
                         "kind": "Section"
@@ -88,7 +88,7 @@
                 "title": "\u4fe1\u7528\u8bb0\u5f55\u7684\u5185\u5bb9\u662f\u4ec0\u4e48"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u4fe1\u7528\u5206\u6570", 
                         "kind": "Section"
@@ -112,7 +112,7 @@
                 "title": "\u4fe1\u7528\u8bb0\u5f55\u5982\u4f55\u4f53\u73b0"
             }, 
             {
-                "graphs": [
+                "items": [
                     {
                         "content": "\u4e00\u822c\u4fe1\u7528\u62a5\u544a\u9700\u8981\u5411\u4fe1\u7528\u673a\u6784\u8d2d\u4e70\uff0c\u4f46\u6839\u636eFair Credit Reporting Act\uff0c\u6240\u6709\u5c45\u6c11\u53ef\u4ee5\u6bcf\u5e74\u5411\u6bcf\u4e2a\u4fe1\u7528\u673a\u6784\u514d\u8d39\u7d22\u53d6\u4e00\u4efd\u4fe1\u7528\u62a5\u544a\uff0c\u53ef\u4ee5\u901a\u8fc7\u767b\u5f55\u7f51\u7ad9annualcreditreport.com\uff0c\u6253\u7535\u8bdd\u52301-877-322-8228\uff0c\u6216\u8005\u586b\u5199\u8868\u683cAnnual Credit Report Request Form\u540e\u5bc4\u5230Annual Credit Report Request Service, P.O. Box 105281, Atlanta, GA 30348-5281\u3002\u4e0d\u8981\u76f4\u63a5\u8054\u7cfb\u4fe1\u7528\u8bc4\u4f30\u673a\u6784\u3002\u66f4\u591a\u7ec6\u8282\u53ef\u4ee5\u767b\u5f55\u7f8e\u56fdFederal Trade Commission\u7f51\u7ad9http://www.consumer.ftc.gov/articles/0155-free-credit-reports\u3002", 
                         "kind": "Graph"
