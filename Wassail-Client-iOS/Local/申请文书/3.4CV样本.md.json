@@ -56,7 +56,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "EXPERIENCE\u2028List in chronological order, include position details and dates", 
+                        "content": "EXPERIENCE", 
                         "kind": "Section"
                     }, 
                     {
@@ -72,6 +72,10 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": "List in chronological order, include position details and dates", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "AWARDS", 
                         "kind": "Section"
                     }, 
@@ -80,7 +84,7 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "PROFESSIONAL QUALIFICATIONS\u2028Certifications and Accreditations", 
+                        "content": "PROFESSIONAL QUALIFICATION\u2028Certifications and Accreditations", 
                         "kind": "Section"
                     }, 
                     {

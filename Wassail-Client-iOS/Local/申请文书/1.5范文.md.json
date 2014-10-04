@@ -4,7 +4,15 @@
             {
                 "items": [
                     {
-                        "content": "Writer's Name or Company Letterhead\u2028Street  City  State  Zip Code\u2028Phone #  Fax phone # Email", 
+                        "content": "\u6765\u6e90:http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Writer's Name or Company Letterhead", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Street/City/State/Zip Code\u2028Phone #/Fax #/Email", 
                         "kind": "Graph"
                     }, 
                     {
@@ -28,15 +36,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "-", 
-                        "kind": "Graph"
-                    }, 
-                    {
                         "content": "Dear (Recipient's name) or To Whom it May Concern:", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "-", 
                         "kind": "Graph"
                     }, 
                     {
@@ -56,33 +56,28 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "-", 
-                        "kind": "Graph"
-                    }, 
-                    {
                         "content": "Sincerely,", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "Sign here", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "-\u2028Your name\u2028Your title", 
+                        "content": "Sign here\u2028Your name\u2028Your title", 
                         "kind": "Graph"
                     }
                 ], 
                 "title": "\u63a8\u8350\u4fe1\u683c\u5f0f\u6837\u4f8b"
             }, 
             {
-                "author": "http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
                 "items": [
+                    {
+                        "content": "\u6765\u6e90:http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
+                        "kind": "Graph"
+                    }, 
                     {
                         "content": "Dr. Petr P. Petrov", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "XXX Titles", 
+                        "content": "Titles", 
                         "kind": "Graph"
                     }, 
                     {
@@ -145,30 +140,29 @@
                 "title": "\u6559\u6388\u63a8\u8350\u4fe1\u6837\u4f8b"
             }, 
             {
-                "author": "\u4e92\u8054\u7f51", 
                 "items": [
                     {
-                        "content": "DearAdmissions Officer:", 
+                        "content": "\u6765\u6e90:\u4e92\u8054\u7f51", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "-", 
+                        "content": "Dear Admissions Officer:", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "I am writing this letter to support the admission of XXX to the Harvard GraduateSchool, Statistic. I was Mr. X's internship Referral and advisor for several years between 2010 and 2011. We have met and talked several times since.", 
+                        "content": "I am writing this letter to support the admission of X to the Harvard GraduateSchool, Statistic. I was Mr. X's internship referral and advisor for several years between 2010 and 2011. We have met and talked several times since.", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "Mr. X's academic credentials are truly exceptional. He not only knows how to reason with numbers and data, but how to render incisive and imaginative practices in mathematic.He performed perfectly in all his tasks. Whether rendering a spread sheet analysis, making a model or writing a report, XXX always demonstrated uncanny mastery combined with critical wit. While many of the staff members I have met performed very well in the company, X alone has completed work that meets with tastes of senior managers. Even more importantly he offered new ideas which we could comprehend and even assimilate.", 
+                        "content": "Mr. X's academic credentials are truly exceptional. He not only knows how to reason with numbers and data, but how to render incisive and imaginative practices in mathematic. He performed perfectly in all his tasks. Whether rendering a spread sheet analysis, making a model or writing a report, X always demonstrated uncanny mastery combined with critical wit. While many of the staff members I have met performed very well in the company, X alone has completed work that meets with tastes of senior managers. Even more importantly he offered new ideas which we could comprehend and even assimilate.", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "Unlike most of his colleagues I have talked in the XXXXX, Mr. X immersed himself in American culture. He composed a joke as part of his first presentation analyzing a current plan. It worked. His colleagues laughed and I was witness to masterful culture spanning. X came to us a confident individualist uniquely suited to cultural cross fertilization.", 
+                        "content": "Unlike most of his colleagues, Mr. X immersed himself in American culture. He composed a joke as part of his first presentation analyzing a current plan. It worked. His colleagues laughed and I was witness to masterful culture spanning. X came to us a confident individualist uniquely suited to cultural cross fertilization.", 
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "X has a deep reservoir of talent and ambition. He has already accomplished a great deal in the face of considerable challenge. He has worked hard making use of each opportunity for improvement, and produced an impressive record for one who has enjoyed no special privilege. Tan possesses and uses an easygoing manner and spirited conviviality to put people at ease. He can easily make people to believe him. In addition, X has special self-study and is experienced in programming, especially in C/C++, as well as his intelligent judgment. He learned early on the painful lessons of C language, and has learned how to write the pointer and algorithm to make \u201caccepting\u201d. I have every confidence that he will use this considerable knowledge to tackle completed problems and study on a larger scale.", 
+                        "content": "X has a deep reservoir of talent and ambition. He has already accomplished a great deal in the face of considerable challenge. He has worked hard making use of each opportunity for improvement, and produced an impressive record for one who has enjoyed no special privilege. X possesses and uses an easygoing manner and spirited conviviality to put people at ease. He can easily make people to believe him. In addition, X has special self-study and is experienced in programming, especially in C/C++, as well as his intelligent judgment. He learned early on the painful lessons of C language, and has learned how to write the pointer and algorithm to make \u201caccepting\u201d. I have every confidence that he will use this considerable knowledge to tackle completed problems and study on a larger scale.", 
                         "kind": "Graph"
                     }, 
                     {
@@ -176,11 +170,7 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "X is smart.But more important he has acquired wisdom in the statistic and programming. He wants to expand his considerable fund of wisdom and use it to provide statistic improvement from the U.S. to China. XXX's ambitions and abilities are in sync.He is poised and prepared to take this next step in an exciting journey. Not only will managers and staff thank you for admitting such a fine candidate, but so too will those employees, customers and citizens who will benefit from his future employment.", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "-", 
+                        "content": "X is smart. But more importantly he has acquired wisdom in the statistic and programming. He wants to expand his considerable fund of wisdom and use it to provide statistic improvement from the U.S. to China. X's ambitions and abilities are in sync. He is poised and prepared to take this next step in an exciting journey. Not only will managers and staff thank you for admitting such a fine candidate, but so too will those employees, customers and citizens who will benefit from his future employment.", 
                         "kind": "Graph"
                     }, 
                     {

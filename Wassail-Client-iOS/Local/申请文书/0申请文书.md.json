@@ -6,26 +6,6 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.0\u63a8\u8350\u4fe1", 
-                                "title": "\u63a8\u8350\u4fe1"
-                            }, 
-                            "name": "1.0\u63a8\u8350\u4fe1", 
-                            "type": "HLListPreview"
-                        }, 
-                        "icon": {
-                            "body": {
-                                "address": "0RL1", 
-                                "title": ""
-                            }, 
-                            "name": "0RL1", 
-                            "type": "HLImage"
-                        }, 
-                        "kind": "Item", 
-                        "note": "Recommendation (Reference) Letters"
-                    }, 
-                    {
-                        "content": {
-                            "body": {
                                 "address": "2.0\u4e2a\u4eba\u9648\u8ff0", 
                                 "title": "\u4e2a\u4eba\u9648\u8ff0\uff0f\u5c0f\u8bba\u6587"
                             }, 
@@ -42,6 +22,26 @@
                         }, 
                         "kind": "Item", 
                         "note": "Personal Statement/SOP/Essay"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u63a8\u8350\u4fe1", 
+                                "title": "\u63a8\u8350\u4fe1"
+                            }, 
+                            "name": "1.0\u63a8\u8350\u4fe1", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0RL1", 
+                                "title": ""
+                            }, 
+                            "name": "0RL1", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Recommendation (Reference) Letters"
                     }, 
                     {
                         "content": {
