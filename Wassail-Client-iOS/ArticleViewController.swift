@@ -28,6 +28,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet var graphCell: ArticleTableViewCell?
     @IBOutlet var itemCell: ArticleTableViewCell?
     
+    @IBOutlet var indicator: UIActivityIndicatorView?
+
     var articleName: NSString?
     var article: HLArticle?
     
