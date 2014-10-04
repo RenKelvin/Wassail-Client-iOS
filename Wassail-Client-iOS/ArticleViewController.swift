@@ -91,13 +91,16 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         self.titleLabel!.text = article!.title
+        
         if (article!.author != nil) {
             self.authorLabel!.text = article!.author!+"  "
         }
         else {
             self.authorLabel!.text = article!.author
         }
+        
         self.dateLabel!.text = article!.date
+        
         //        self.headerLabel!.text = article!.header
         
     }

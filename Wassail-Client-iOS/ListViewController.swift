@@ -14,6 +14,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var headerView: UIView?
+    
+    @IBOutlet var titleLabel: UILabel?
+    @IBOutlet var authorLabel: UILabel?
+    @IBOutlet var dateLabel: UILabel?
+    @IBOutlet var headerLabel: UILabel?
+    
     var listName: NSString?
     var list: HLList?
     
@@ -23,19 +30,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if (listName == nil) {
-            return
-        }
-        
-        list = ListInfo.instance.getList(listName!)
-        
-        if (list == nil) {
-            return
-        }
-        
-        // Set article title
-        self.title = list!.title
-        
+        // Reload data
+        self.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -47,6 +43,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
+        
     }
     
     // MARK: -
@@ -55,6 +52,46 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if (info != nil) {
             listName = info as? NSString
         }
+    }
+    
+    func reloadData() {
+        
+        if (listName == nil) {
+            return
+        }
+        
+        list = ListInfo.instance.getList(listName!)
+        
+        if (list == nil) {
+            return
+        }
+        
+        // Set list title
+        self.title = list!.title
+        
+        self.updateHeader()
+        
+    }
+    
+    func updateHeader() {
+        
+        if (list == nil) {
+            return
+        }
+        
+        self.headerLabel!.text = list!.header
+        println(self.headerLabel!.frame.size)
+        
+        //        self.tableView!.tableHeaderView!.frame.size.height = 300.0
+        
+    }
+    
+    func getHeaderHeight(text: NSString) -> CGFloat {
+        
+        var label = UILabel()
+        label.frame.width = DefaultInfo.instance.getScreenWidth()
+        
+        return 0
     }
     
     // MARK: - Table view data source

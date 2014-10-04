@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -897,6 +896,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="10" maxY="0.0"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="0nQ-j8-tpr">
+                                    <rect key="frame" x="0.0" y="64" width="600" height="66"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="zkZ-8b-0sC">
+                                            <rect key="frame" x="15" y="8" width="570" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="zkZ-8b-0sC" secondAttribute="trailing" constant="15" id="NUs-kQ-gfM"/>
+                                        <constraint firstItem="zkZ-8b-0sC" firstAttribute="top" secondItem="0nQ-j8-tpr" secondAttribute="top" constant="8" id="TPu-Y3-FlU"/>
+                                        <constraint firstItem="zkZ-8b-0sC" firstAttribute="leading" secondItem="0nQ-j8-tpr" secondAttribute="leading" constant="15" id="aEy-Cq-9mK"/>
+                                        <constraint firstAttribute="bottom" secondItem="zkZ-8b-0sC" secondAttribute="bottom" constant="8" id="x0J-XA-9Du"/>
+                                    </constraints>
+                                </view>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="hh8-CF-dfG">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1151,6 +1169,8 @@
                     <navigationItem key="navigationItem" title="List" id="Nhe-kD-pbl"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="headerLabel" destination="zkZ-8b-0sC" id="IKs-dR-68d"/>
+                        <outlet property="headerView" destination="0nQ-j8-tpr" id="0Cf-o7-Fmk"/>
                         <outlet property="navigationView" destination="d7L-hd-kRo" id="6wR-aN-rz7"/>
                         <outlet property="tableView" destination="Abn-bJ-5vA" id="lVz-eb-9bQ"/>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ListArticleSegueIdentifier" id="fYA-Od-fVe"/>
@@ -1158,11 +1178,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adn-ZM-kkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="0nQ-j8-tpr">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Lj-fX-JL1">
                     <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2100,8 +2115,8 @@
         <segue reference="Bo5-kO-yCc"/>
         <segue reference="fYA-Od-fVe"/>
         <segue reference="5Rv-FT-p8R"/>
+        <segue reference="vuL-hi-aIq"/>
         <segue reference="REv-SL-D0I"/>
-        <segue reference="ydz-Qv-haZ"/>
         <segue reference="R8b-dB-BNq"/>
         <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
