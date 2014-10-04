@@ -12,13 +12,13 @@ class GPACalculatorViewController: UIViewController {
     
     let info: GPACalculatorInfo = GPACalculatorInfo.instance
     
-    var input: Double = 88
+    var input: Double = 0
     @IBOutlet var inputTextField: UITextField?
     
-    var gpa: Double = 3.86
+    var gpa: Double = 0
     @IBOutlet var gpaLabel: UILabel?
     
-    var ranking: Double = 0.9632
+    var ranking: Double = 0
     @IBOutlet var rankingLabel: UILabel?
     
     @IBOutlet var keyboardAccessoryView: UIView?
@@ -28,14 +28,13 @@ class GPACalculatorViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         inputTextField!.inputAccessoryView = keyboardAccessoryView
-  
-        let mygpa = info.getMyGPA() as Double?
         
+        let mygpa = info.getMyGPA() as Double?
         if (mygpa != nil) {
-            inputTextField!.text = NSString(format: "%.2f", mygpa!)
+            input = mygpa!
             self.updateNumbers()
         }
-}
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -78,6 +77,7 @@ class GPACalculatorViewController: UIViewController {
     // MARK: -
     
     func updateViews() {
+        inputTextField!.text = NSString(format: "%.2f", input)
         
         gpaLabel!.text = NSString(format: "%.2f", gpa)
         
@@ -94,7 +94,9 @@ class GPACalculatorViewController: UIViewController {
             gpa = 0.0
         }
         else {
-            gpa = (1.0/11.0)*input - (49.0/11.0)
+            let k = 1.0 / 13.0
+            let b = -41.0 / 13.0
+            gpa = k*input + b
         }
         
         // Ranking
