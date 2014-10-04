@@ -117,7 +117,9 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         // headerLable
         self.headerLabel!.text = article!.header
-        
+        // FIXME: Manually modified preferredMaxLayoutWidth for different devices
+        headerLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
+
         let height: CGFloat = self.getHeaderHeight(article!.header)
         if (height == 0) {
             self.headerContainer!.removeFromSuperview()

@@ -24,8 +24,9 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
         }
         else {
             graphLabel!.text = text!
-            //            graphLabel?.text = "    " + text!
         }
+        // FIXME: Manually modified preferredMaxLayoutWidth for different devices
+        graphLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
     }
     
 }
