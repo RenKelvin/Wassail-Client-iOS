@@ -70,6 +70,9 @@ class HLToolPreviewView: HLItemView {
         else if (title == "留学常用词汇") {
             controller!.performSegueWithIdentifier("ArticleArticleSugueIdentifier", sender: "留学常用词汇")
         }
+        else if (title == "申请文书") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0申请文书")
+        }
         else {
             controller!.performSegueWithIdentifier(identifier, sender: nil)
         }
