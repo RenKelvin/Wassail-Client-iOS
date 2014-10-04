@@ -17,7 +17,7 @@
               ],
     "university rankings": {
         "ready": "true",
-        "note": "世界大学权威排名及分析",
+        "note": "世界大学权威排名，深度分析",
         "title": "大学排名",
         "icon": "ToolsIconUniversityRankings",
         "identifier": "UniversityRankings"
@@ -31,14 +31,14 @@
     },
     "apply manager": {
         "ready": "false",
-        "note": "管理申请事项，提醒截止日期",
+        "note": "申请事项管理，截止日期提醒",
         "title": "申请管理器",
         "icon": "ToolsIconApplyManager",
         "identifier": "ApplyManager"
     },
     "offer broadcast": {
         "ready": "false",
-        "note": "获取最新录取信息，实时更新录取进展",
+        "note": "实时发布最新录取结果及录取进展",
         "title": "录取结果播报",
         "icon": "ToolsIconOfferBroadcast",
         "identifier": "ApplyManager"
@@ -66,7 +66,7 @@
     },
     "visa introduction": {
         "ready": "false",
-        "note": "办理签证准备材料，办理流程，注意事项",
+        "note": "办理签证材料，流程，注意事项",
         "title": "签证攻略",
         "icon": "ToolsIconVisaIntroduction",
         "identifier": "VisaIntroduction"
@@ -80,7 +80,7 @@
     },
     "financial aid": {
         "ready": "false",
-        "note": "",
+        "note": "各学校奖学金种类及申请方法",
         "title": "奖学金",
         "icon": "ToolsIconFinancialAid",
         "identifier": "FinancialAid"
@@ -101,7 +101,7 @@
     },
     "gpa calculator": {
         "ready": "true",
-        "note": "标准GPA转换，分数排名",
+        "note": "计算标准GPA，查看GPA排名",
         "title": "GPA计算器",
         "icon": "ToolsIconTipsCalculator",
         "identifier": "GPACalculator"
@@ -115,7 +115,7 @@
     },
     "aboard words": {
         "ready": "true",
-        "note": "留学生活中常见的术语，单词，缩写",
+        "note": "留学常见的术语，单词，缩写",
         "title": "留学常用词汇",
         "icon": "ToolsIconAboardWords",
         "identifier": "AboardWords"
@@ -129,7 +129,7 @@
     },
     "tips calculator": {
         "ready": "true",
-        "note": "快速计算吃饭小费，支持AA付款",
+        "note": "快速计算小费，支持AA付款",
         "title": "小费计算器",
         "icon": "ToolsIconTipsCalculator",
         "identifier": "TipsCalculator"
