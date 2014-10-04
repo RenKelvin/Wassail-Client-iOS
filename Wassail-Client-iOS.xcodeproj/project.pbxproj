@@ -120,6 +120,7 @@
 		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
 		FE72630819E013C3005739D0 /* 0地球.png in Resources */ = {isa = PBXBuildFile; fileRef = FE72630619E013C3005739D0 /* 0地球.png */; };
 		FE72630919E013C3005739D0 /* 0排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FE72630719E013C3005739D0 /* 0排名.png */; };
+		FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE72630A19E07A0D005739D0 /* 0斯坦佛.jpg */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -419,6 +420,7 @@
 		FE72630019DFED10005739D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FE72630619E013C3005739D0 /* 0地球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0地球.png"; sourceTree = "<group>"; };
 		FE72630719E013C3005739D0 /* 0排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0排名.png"; sourceTree = "<group>"; };
+		FE72630A19E07A0D005739D0 /* 0斯坦佛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0斯坦佛.jpg"; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -756,6 +758,7 @@
 				FEB211CC19DA940C00647560 /* 0大学排名.jpg */,
 				FEA0FBA319D846A300A24409 /* 0大学排名.md.json */,
 				FE72630719E013C3005739D0 /* 0排名.png */,
+				FE72630A19E07A0D005739D0 /* 0斯坦佛.jpg */,
 				ADCF1EC719DD6068005E4FD4 /* 0美国国旗.jpg */,
 				ADCF1EC819DD6068005E4FD4 /* 1.0.0如何看待排名.md.json */,
 				ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */,
@@ -1489,6 +1492,7 @@
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
 				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
+				FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
