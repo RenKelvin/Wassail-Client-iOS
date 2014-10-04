@@ -113,7 +113,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             return 0
         }
         
-        return article!.numberOfChapters()
+        return article!.numberOfGroups()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -122,7 +122,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             return 0
         }
         
-        return article!.numberOfGraphsInChapter(section)
+        return article!.numberOfItemsInChapter(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

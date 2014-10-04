@@ -15,7 +15,7 @@ class HLArticle: HLItem {
     var date: NSString?
     var header: NSString?
     
-    var chapters: NSArray = []
+    var groups: NSArray = []
     
     override init() {
         super.init()
@@ -32,39 +32,30 @@ class HLArticle: HLItem {
         date = jsonBody.objectForKey("date") as NSString?
         header = jsonBody.objectForKey("header") as NSString?
         
-        chapters = jsonBody.objectForKey("chapters") as NSArray
-        
-        //        // Chapters
-        //        for chapter in chapters {
-        //            var sections = chapter.objectForKey("sections") as NSMutableArray
-        //            for section in sections {
-        //                let model = HLItemBuilder.build(section as NSDictionary)
-        //                sections.replaceObjectAtIndex(sections.indexOfObject(section), withObject: model)
-        //            }
-        //        }
+        groups = jsonBody.objectForKey("groups") as NSArray
     }
     
-    func numberOfChapters() -> Int {
-        return chapters.count
+    func numberOfGroups() -> Int {
+        return groups.count
     }
     
-    func numberOfGraphsInChapter(chapter: Int) -> Int {
-        let chapterDict = chapters[chapter] as NSDictionary
-        let graphsArray = chapterDict.objectForKey("graphs") as NSArray
+    func numberOfItemsInChapter(chapter: Int) -> Int {
+        let groupDict = groups[chapter] as NSDictionary
+        let itemsArray = groupDict.objectForKey("items") as NSArray
         
-        return graphsArray.count
+        return itemsArray.count
     }
     
     func titleForChapter(chapter: Int) -> NSString {
-        let chapterDict = chapters[chapter] as NSDictionary
+        let chapterDict = groups[chapter] as NSDictionary
         let title = chapterDict.objectForKey("title") as NSString
         
         return title
     }
     
     func item(chapter: Int, row: Int) -> NSDictionary {
-        let chapter = chapters.objectAtIndex(chapter) as NSDictionary
-        let items = chapter.objectForKey("graphs") as NSArray
+        let chapter = groups.objectAtIndex(chapter) as NSDictionary
+        let items = chapter.objectForKey("items") as NSArray
         
         return items.objectAtIndex(row) as NSDictionary
     }
