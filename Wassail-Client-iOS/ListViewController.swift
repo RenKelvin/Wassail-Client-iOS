@@ -185,8 +185,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             height = 44.0
         }
         
-        self.cellHeights.setObject(height, forKey: indexPath)
-        return height
+        self.cellHeights.setObject(height+1, forKey: indexPath)
+        return height+1
     }
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -196,7 +196,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return h!
         }
         
-        return 44.0
+        return 45.0
     }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
