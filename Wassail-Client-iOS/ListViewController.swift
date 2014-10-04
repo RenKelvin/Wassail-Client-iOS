@@ -89,7 +89,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func getHeaderHeight(text: NSString) -> CGFloat {
         
         var label = UILabel()
-        label.frame.width = DefaultInfo.instance.getScreenWidth()
+//        label.frame.width = DefaultInfo.instance.getScreenWidth()
         
         return 0
     }
