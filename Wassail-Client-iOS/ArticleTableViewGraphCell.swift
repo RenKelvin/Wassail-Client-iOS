@@ -22,6 +22,9 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
         if (text == nil) {
             graphLabel!.text = nil
         }
+        else if (text! == "-") {
+            graphLabel!.text = ""
+        }
         else {
             graphLabel!.text = text!
         }
