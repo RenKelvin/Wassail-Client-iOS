@@ -23,7 +23,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet var headerLabelPrototype: UILabel?
     
     @IBOutlet var footerLabel: UILabel?
-
+    
     @IBOutlet var sectionCell: ArticleTableViewCell?
     @IBOutlet var graphCell: ArticleTableViewCell?
     @IBOutlet var itemCell: ArticleTableViewCell?
@@ -43,7 +43,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             if (!delayArticles.containsObject(articleName!)) {
                 self.reloadData()
                 
-                self.tableView!.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 2), atScrollPosition: .Top, animated: false)
+                // self.tableView!.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 2), atScrollPosition: .Top, animated: false)
             }
         }
     }
@@ -123,7 +123,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.headerLabel!.text = article!.header
         // FIXME: Manually modified preferredMaxLayoutWidth for different devices
         headerLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
-
+        
         let height: CGFloat = self.getHeaderHeight(article!.header)
         if (height == 0) {
             self.headerContainer!.removeFromSuperview()
