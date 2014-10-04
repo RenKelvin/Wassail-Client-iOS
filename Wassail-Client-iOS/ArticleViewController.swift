@@ -32,11 +32,16 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     var offscreenCells: NSMutableDictionary = NSMutableDictionary()
     var cellHeights: NSMutableDictionary = NSMutableDictionary()
     
+    var delayArticles: NSArray = ["1.3.2.0THE2014-2015", "1.3.2.1THE2013-2014", "1.4.2.1QS2015排名", "1.4.2.2QS2014排名", "1.5.2.1ARWU2014排名", "1.5.2.2ARWU2013排名"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // LoadData
-        self.reloadData()
+        if (articleName != nil) {
+            if (!delayArticles.containsObject(articleName!)) {
+                self.reloadData()
+            }
+        }
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -50,6 +55,11 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
+        if (articleName != nil) {
+            if (delayArticles.containsObject(articleName!)) {
+                self.reloadData()
+            }
+        }
     }
     
     // MARK: -
@@ -92,6 +102,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         self.titleLabel!.text = article!.title
+        self.titleLabel!.hidden = false
         
         if (article!.author != nil) {
             self.authorLabel!.text = article!.author!+"  "
@@ -99,19 +110,21 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         else {
             self.authorLabel!.text = article!.author
         }
+        self.authorLabel!.hidden = false
         
         self.dateLabel!.text = article!.date
+        self.dateLabel!.hidden = false
         
         // headerLable
         self.headerLabel!.text = article!.header
         
         let height: CGFloat = self.getHeaderHeight(article!.header)
         if (height == 0) {
-            // self.headerContainer!.hidden = true
             self.headerContainer!.removeFromSuperview()
             self.tableView!.tableHeaderView!.frame.size.height = 88.0
         }
         else {
+            self.headerContainer!.hidden = false
             self.tableView!.tableHeaderView!.frame.size.height = height + 108.0
         }
         
