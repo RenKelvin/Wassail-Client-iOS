@@ -54,6 +54,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - IBAction
+
     @IBAction func tablewHeaderTapped() {
         self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学时间表")
     }

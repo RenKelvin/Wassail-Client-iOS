@@ -42,6 +42,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         if (articleName != nil) {
             if (!delayArticles.containsObject(articleName!)) {
                 self.reloadData()
+                
+                self.tableView!.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 2), atScrollPosition: .Top, animated: false)
             }
         }
     }
