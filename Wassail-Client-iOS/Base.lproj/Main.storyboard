@@ -1936,7 +1936,7 @@
                                         <constraint firstAttribute="trailing" secondItem="d88-dP-cQA" secondAttribute="trailing" constant="15" id="rpk-eE-1k6"/>
                                     </constraints>
                                 </view>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="EWd-Zk-ngr">
+                                <view key="tableFooterView" hidden="YES" contentMode="scaleToFill" id="EWd-Zk-ngr">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
@@ -2224,9 +2224,9 @@
         <segue reference="Bo5-kO-yCc"/>
         <segue reference="fYA-Od-fVe"/>
         <segue reference="5Rv-FT-p8R"/>
-        <segue reference="vuL-hi-aIq"/>
+        <segue reference="Oab-mH-CQ6"/>
         <segue reference="REv-SL-D0I"/>
         <segue reference="R8b-dB-BNq"/>
-        <segue reference="Oab-mH-CQ6"/>
+        <segue reference="ydz-Qv-haZ"/>
     </inferredMetricsTieBreakers>
 </document>
