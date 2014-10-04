@@ -15,14 +15,14 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0\u5251\u68652", 
+                                "address": "0\u65af\u5766\u4f5b", 
                                 "title": ""
                             }, 
-                            "name": "0\u5251\u68652", 
+                            "name": "0\u65af\u5766\u4f5b", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
-                        "note": "\u6392\u540d\u4e0d\u5e94\u76f2\u4fe1"
+                        "note": "\u5927\u5b66\u6392\u540d\u7684\u4ef7\u503c\u3001\u53ef\u4fe1\u5ea6\u53ca\u5408\u7406\u6027"
                     }
                 ], 
                 "title": "-"
