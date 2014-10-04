@@ -1,0 +1,102 @@
+{
+    "names": [
+              "length", "area", "volume", "weight", "temp", "speed"
+              ],
+    "length": {
+        "title": "长度",
+        "icon": "UnitConverterIconLength",
+        "units": [
+                  {"cn": "米",   "en": "meter",      "unit": "m",    "k": "1",       "b": "0"},
+                  {"cn": "英尺",  "en": "foot",       "unit": "ft",   "k": "0.3048",  "b": "0"},
+                  {"cn": "英寸",  "en": "inch",       "unit": "in",   "k": "0.0254",  "b": "0"},
+                  {"cn": "千米",  "en": "kilometer",  "unit": "km",   "k": "1000",    "b": "0"},
+                  {"cn": "英里",  "en": "mile",       "unit": "ml",   "k": "1609.34", "b": "0"}
+                  ],
+        "knows": [
+                  {"title": "1米", "description": "1米 = 3.28英尺"},
+                  {"title": "1英尺", "description": "1英尺 = 0.3048米"},
+                  {"title": "1英寸", "description": "1英寸 = 2.54厘米"},
+                  {"title": "英尺英寸", "description": "1英尺 = 12英寸"},
+                  {"title": "郭敬明身高", "description": "1.55米 = 5英尺1英寸"},
+                  {"title": "成年人身高", "description": "1.75米 = 5英尺9英寸"},
+                  {"title": "姚明身高", "description": "2.27米 = 7英尺5英寸"}
+                  ]
+    },
+    "area": {
+        "title": "面积",
+        "icon": "UnitConverterIconArea",
+        "units": [
+                  {"cn": "平方米",     "en": "meter",  "unit": "m2",    "k": "1",           "b": "0"},
+                  {"cn": "平方英尺",    "en": "foot",   "unit": "ft2",   "k": "0.0929",      "b": "0"},
+                  {"cn": "平方英寸",    "en": "inch",   "unit": "in2",   "k": "0.0006452",   "b": "0"}
+                  ],
+        "knows": [
+                  {"title": "1平方米", "description": "1平方米 = 10.8平方英尺"},
+                  {"title": "1平方英尺", "description": "1平方英尺 = 0.09平方米"},
+                  {"title": "房屋面积", "description": "100平方米 = 1076平方英尺"}
+                  ]
+    },
+    "volume": {
+        "title": "体积",
+        "icon": "UnitConverterIconVolume",
+        "units": [
+                  {"cn": "加仑",  "en": "gallon",     "unit": "gl",   "k": "0.00378541",    "b": "0"},
+                  {"cn": "夸脱",  "en": "quart",      "unit": "qt",   "k": "0.000946",    "b": "0"},
+                  {"cn": "品脱",  "en": "pint",       "unit": "pt",   "k": "0.00047318",    "b": "0"},
+                  {"cn": "升",   "en": "leter",      "unit": "L",    "k": "0.001",       "b": "0"},
+                  {"cn": "毫升",  "en": "milileter",  "unit": "mL",   "k": "0.000001",    "b": "0"}
+                  ],
+        "knows": [
+                  {"title": "1升", "description": "1升 = 0.264加仑"},
+                  {"title": "1加仑", "description": "1加仑 = 3.8升"},
+                  {"title": "加仑夸脱品脱", "description": "1加仑 = 4夸脱 = 8品脱"}
+                  ]
+    },
+    "weight": {
+        "title": "重量",
+        "icon": "UnitConverterIconWeight",
+        "units": [
+                  {"cn": "千克",  "en": "kilogram",   "unit": "kg",    "k": "1",           "b": "0"},
+                  {"cn": "磅",   "en": "pound",      "unit": "lb",   "k": "0.45359237",  "b": "0"},
+                  {"cn": "克",   "en": "gram",       "unit": "g",   "k": "0.001",       "b": "0"},
+                  {"cn": "盎司",  "en": "ounce",      "unit": "oz",   "k": "0.0283495",    "b": "0"}
+                  ],
+        "knows": [
+                  {"title": "1千克", "description": "1千克 = 2.2磅"},
+                  {"title": "1磅", "description": "1磅 = 0.45千克"},
+                  {"title": "1克", "description": "1克 = 0.035盎司"},
+                  {"title": "1盎司", "description": "1盎司 = 28.3克"},
+                  {"title": "成年人体重", "description": "60千克 = 132磅"}
+                  ]
+    },
+    "temp": {
+        "title": "温度",
+        "icon": "UnitConverterIconTemp",
+        "units": [
+                  {"cn": "摄氏度", "en": "Celsius",    "unit": "C",    "k": "1",   "b": "0"},
+                  {"cn": "华氏度", "en": "Fahrenheit", "unit": "F",    "k": "0.555556", "b": "-17.7777778"},
+                  {"cn": "开尔文", "en": "Kelvin",     "unit": "K",    "k": "1",   "b": "273.16"}
+                  ],
+        "knows": [
+                  {"title": "0摄氏度", "description": "0摄氏度 = 32华氏度"},
+                  {"title": "100摄氏度", "description": "100摄氏度 = 212华氏度"},
+                  {"title": "舒适气温", "description": "25摄氏度 = 77华氏度"},
+                  {"title": "人体温度", "description": "36.8摄氏度 = 98华氏度"}
+                  ]
+    },
+    "speed": {
+        "title": "速度",
+        "icon": "UnitConverterIconSpeed",
+        "units": [
+                  {"cn": "千米/时", "en": "KPH",   "unit": "KPH",  "k": "1",           "b": "0"},
+                  {"cn": "英里/时",   "en": "MPH",   "unit": "MPH",  "k": "1.609344",    "b": "0"},
+                  {"cn": "节",       "en": "kt",   "unit": "kt",  "k": "1.852",    "b": "0"}
+                  ],
+        "knows": [
+                  {"title": "1千米/时", "description": "1千米/时 = 0.62英里/时"},
+                  {"title": "1英里/时", "description": "1英里/时 = 1.6千米/时"},
+                  {"title": "国内高速", "description": "100千米/时 = 62英里/时"},
+                  {"title": "国外高速", "description": "80英里/时 = 129千米/时"}
+                  ]
+    }
+}

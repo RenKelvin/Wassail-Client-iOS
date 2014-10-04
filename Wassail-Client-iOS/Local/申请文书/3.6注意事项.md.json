@@ -1,0 +1,67 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u4e2a\u4eba\u7b80\u5386\u53ef\u4ee5\u9075\u5faaS-A-R\u5199\u6cd5\uff1aSituation, Action, Results\u6765\u5c55\u793a\u6210\u5c31\uff0c\u4e0d\u662f\u7b80\u5355\u5730\u63cf\u8ff0\u4e8b\u4ef6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6839\u636e\u7533\u8bf7\u9879\u76ee\u7684\u8981\u6c42\u9009\u62e9\u76f8\u5173\u7684\u7ecf\u5386\u8be6\u7ec6\u63cf\u8ff0\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e2a\u4eba\u7b80\u5386\u8981\u4f7f\u7528\u8272\u5f69\u5f3a\u70c8\u7684\u52a8\u8bcd\uff0c\u4e0d\u5e94\u662f\u88ab\u52a8\u7684\u8bcd\u8bed\uff0c\u5982 \u201cResponsible for\u201d\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8bed\u8a00\u5e94\u8be5\u80fd\u8ba9\u975e\u4e13\u4e1a\u4eba\u58eb\u770b\u61c2\uff0c\u540c\u65f6\u9700\u8981\u8ba9\u672c\u4e13\u4e1a\u7684\u4e13\u5bb6\u80fd\u5bf9\u4f60\u7684\u5b66\u672f\u6210\u5c31\u611f\u5174\u8da3\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5c06\u6240\u63cf\u5199\u7684\u6210\u5c31\u91cf\u5316\u624d\u66f4\u6709\u8bf4\u670d\u529b\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u63d0\u4ea4\u524d\u8bf7\u51e0\u4e2a\u670b\u53cbproofread\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Dos"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5f88\u591a\u7279\u8d28\u4e0d\u662f\u5439\u51fa\u6765\u7684\uff0c\u8981\u7528\u7ecf\u5386\u6765\u8868\u73b0\uff0c\u4e2a\u4eba\u7b80\u5386\u4e2d\u4e0d\u8981\u76f4\u63a5\u51fa\u73b0\u201dTeam player\u201d, \u201cDetail-oriented\u201d, \u201cSuccessful\u201d, \u201cExperienced\u201d, \u201cExcellent communication skills\u201d \u7b49\u8bcd\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u8981\u5199References available upon request\u3002\u5982\u679c\u613f\u610f\u53ef\u4ee5\u63d0\u4f9breferences\u4f9b\u62db\u751f\u4eba\u5458\u8054\u7cfb\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Resume\u7684\u957f\u5ea6\u4e0d\u8981\u8d85\u8fc71\u9875\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u80fd\u6709\u9519\u522b\u5b57\u6216\u8bed\u6cd5\u9519\u8bef\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u80fd\u6709\u7b2c\u4e00\u4eba\u79f0\u51fa\u73b0\uff0c\u6bd4\u5982I,me,we\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e0d\u8981\u63d0\u4f9b\u4e2a\u4eba\u4fe1\u606f\uff0c\u6bd4\u5982\u5e74\u9f84\uff0c\u79cd\u65cf\uff0c\u5a5a\u59fb\u60c5\u51b5\u6216\u7167\u7247\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Don\u2019ts"
+            }
+        ], 
+        "title": "\u6ce8\u610f\u4e8b\u9879"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

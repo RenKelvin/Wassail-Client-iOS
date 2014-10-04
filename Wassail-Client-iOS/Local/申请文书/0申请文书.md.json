@@ -1,0 +1,94 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.0\u4e2a\u4eba\u9648\u8ff0", 
+                                "title": "\u4e2a\u4eba\u9648\u8ff0\uff0f\u5c0f\u8bba\u6587"
+                            }, 
+                            "name": "2.0\u4e2a\u4eba\u9648\u8ff0", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0PS1", 
+                                "title": ""
+                            }, 
+                            "name": "0PS1", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Personal Statement/SOP/Essay"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u63a8\u8350\u4fe1", 
+                                "title": "\u63a8\u8350\u4fe1"
+                            }, 
+                            "name": "1.0\u63a8\u8350\u4fe1", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0RL1", 
+                                "title": ""
+                            }, 
+                            "name": "0RL1", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Recommendation (Reference) Letters"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.0\u4e2a\u4eba\u7b80\u5386", 
+                                "title": "\u4e2a\u4eba\u7b80\u5386"
+                            }, 
+                            "name": "3.0\u4e2a\u4eba\u7b80\u5386", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0Resume2", 
+                                "title": ""
+                            }, 
+                            "name": "0Resume2", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "CV/Resume"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "4.0\u5176\u4ed6\u6587\u4e66", 
+                                "title": "\u5176\u4ed6\u6587\u4e66"
+                            }, 
+                            "name": "4.0\u5176\u4ed6\u6587\u4e66", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0Portfolio2", 
+                                "title": ""
+                            }, 
+                            "name": "0Portfolio2", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Portfolio, Writing Sample, etc"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7533\u8bf7\u6587\u4e66"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

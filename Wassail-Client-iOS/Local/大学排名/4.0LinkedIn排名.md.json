@@ -1,0 +1,102 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "https://www.linkedin.com/edu/rankings/us/undergraduate-accounting?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u4f1a\u8ba1\u5e08 (Accounting)"
+                            }, 
+                            "name": "https://www.linkedin.com/edu/rankings/us/undergraduate-accounting?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-design?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u8bbe\u8ba1\u5e08 (Designers)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-design?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-finance?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u91d1\u878d\u884c\u4e1a (Finance)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-finance?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-investment-banking?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u6295\u8d44\u94f6\u884c (Investment Bank)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-investment-banking?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-marketing?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u5e02\u573a\u8425\u9500 (Martketers)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-marketing?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-media?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u4f20\u5a92 (Media)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-media?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-software-engineering?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u8f6f\u4ef6\u5de5\u7a0b (Software)"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-software-engineering?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.linkedin.com/edu/rankings/us/undergraduate-software-engineering-small?trk=edu-rankings-flt-ctg-dd", 
+                                "title": "\u521d\u521b\u516c\u53f8\u8f6f\u4ef6\u5de5\u7a0b"
+                            }, 
+                            "name": "http://www.linkedin.com/edu/rankings/us/undergraduate-software-engineering-small?trk=edu-rankings-flt-ctg-dd", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "LinkedIn\u804c\u4e1a\u53d1\u5c55\u5927\u5b66\u6392\u540d (\u65b0\u9c9c\u51fa\u7089)"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

@@ -1,0 +1,102 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.1Resume\u5185\u5bb9", 
+                                "title": "Resume\u5185\u5bb9"
+                            }, 
+                            "name": "3.1Resume\u5185\u5bb9", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.2Resume\u6837\u672c", 
+                                "title": "Resume\u6837\u672c"
+                            }, 
+                            "name": "3.2Resume\u6837\u672c", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "Resume"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.3CV\u5185\u5bb9", 
+                                "title": "CV\u5185\u5bb9"
+                            }, 
+                            "name": "3.3CV\u5185\u5bb9", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4CV\u6837\u672c", 
+                                "title": "CV\u6837\u672c"
+                            }, 
+                            "name": "3.4CV\u6837\u672c", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "CV"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5\u7b80\u5386\u683c\u5f0f", 
+                                "title": "\u7b80\u5386\u683c\u5f0f"
+                            }, 
+                            "name": "3.5\u7b80\u5386\u683c\u5f0f", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.6\u6ce8\u610f\u4e8b\u9879", 
+                                "title": "\u6ce8\u610f\u4e8b\u9879"
+                            }, 
+                            "name": "3.6\u6ce8\u610f\u4e8b\u9879", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.7\u5e38\u7528\u52a8\u8bcd", 
+                                "title": "\u5e38\u7528\u52a8\u8bcd"
+                            }, 
+                            "name": "3.7\u5e38\u7528\u52a8\u8bcd", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u7b80\u5386\u5199\u4f5c"
+            }
+        ], 
+        "header": "Resume\u8f83\u77ed\uff0c\u4e00\u822c1\u9875\uff0c\u6700\u591a2\u9875\uff0c\u800cCV\u5219\u5f3a\u8c03\u7533\u8bf7\u4eba\u7684\u5168\u9762\u6027\uff0c\u56e0\u4e3a\u8981\u5305\u542b\u6240\u6709\u79d1\u7814\u7ecf\u5386\uff0c\u8bba\u6587\u53d1\u5e03\uff0c\u5956\u9879\u53ca\u8363\u8a89\u7b49\uff0c\u6240\u4ee5\u53ef\u4ee5\u957f\u8fbe20\u9875\u3002", 
+        "title": "\u4e2a\u4eba\u7b80\u5386"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

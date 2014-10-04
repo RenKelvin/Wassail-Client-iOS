@@ -1,0 +1,25 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.5LiberalArtsCollege", 
+                                "title": ""
+                            }, 
+                            "name": "2.5LiberalArtsCollege", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u6587\u7406\u5b66\u9662\u6392\u540d (LAC)"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

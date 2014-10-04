@@ -1,0 +1,41 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f", 
+                                "title": ""
+                            }, 
+                            "name": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "Resume\u683c\u5f0f\u6837\u672c"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.2Resume", 
+                                "title": ""
+                            }, 
+                            "name": "3.2Resume", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u65f6\u95f4\u987a\u5e8fResume\u6837\u672c"
+            }
+        ], 
+        "title": "Resume\u6837\u672c"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

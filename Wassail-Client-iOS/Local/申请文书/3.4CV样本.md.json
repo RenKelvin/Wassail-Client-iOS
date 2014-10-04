@@ -1,0 +1,122 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "CONTACT INFORMATION", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Name", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Address", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Telephone", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Cell Phone", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Email", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "EDUCATION", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Include dates, majors, and details of degrees, training and certification", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "High School", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Graduate School", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Post-Doctoral Training", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "DISSERTATION", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "EXPERIENCE", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work History", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Academic Positions", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Research and Training", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "List in chronological order, include position details and dates", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "AWARDS", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "PUBLICATIONS", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "PROFESSIONAL QUALIFICATION\u2028Certifications and Accreditations", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Computer Skills", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "PROFESSIONAL MEMBERSHIPS", 
+                        "kind": "Section"
+                    }
+                ], 
+                "title": "CV\u683c\u5f0f\u6837\u672c"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4CV\u6837\u672c", 
+                                "title": ""
+                            }, 
+                            "name": "3.4CV\u6837\u672c", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "CV\u6837\u672c"
+            }
+        ], 
+        "title": "CV\u6837\u672c"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

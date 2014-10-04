@@ -1,0 +1,129 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/fine-arts-rankings", 
+                                "title": "\u7f8e\u672f\u5b66\u9662\u6392\u540d"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/fine-arts-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/ceramics-rankings", 
+                                "title": "\u5236\u9676\u672f"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/ceramics-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/graphic-design-rankings", 
+                                "title": "\u5e73\u9762\u8bbe\u8ba1"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/graphic-design-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/industrial-design-rankings", 
+                                "title": "\u5de5\u4e1a\u8bbe\u8ba1"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/industrial-design-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/interior-design-rankings", 
+                                "title": "\u5ba4\u5185\u8bbe\u8ba1"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/interior-design-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/multimedia-visual-communications-rankings", 
+                                "title": "\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/multimedia-visual-communications-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/painting-drawing-rankings", 
+                                "title": "\u6cb9\u753b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/painting-drawing-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/photography-rankings", 
+                                "title": "\u6444\u5f71"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/photography-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/printmaking-rankings", 
+                                "title": "\u7248\u753b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/printmaking-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/sculpture-rankings", 
+                                "title": "\u96d5\u5851"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-fine-arts-schools/sculpture-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7f8e\u672f\u7c7b\uff08Fine Arts\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

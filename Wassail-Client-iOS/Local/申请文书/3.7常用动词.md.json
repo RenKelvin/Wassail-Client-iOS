@@ -1,0 +1,103 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "administered analyzed assigned attained chaired consolidated contracted coordinated delegated developed directed evaluated executed improved increased organized oversaw planned prioritized produced recommended reviewed scheduled strengthened supervised", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Management Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "addressed arbitrated arranged authored collaborated convinced corresponded developed directed drafted edited enlisted formulated influenced interpreted lectured mediated moderated negotiated persuaded promoted publicized reconciled recruited spoke translated wrote", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Communication Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "clarified collected critiqued diagnosed evaluated examined extracted identified inspected interpreted interviewed investigated organized reviewed summarized surveyed systematized", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Research Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "assembled built calculated computed designed devised engineered fabricated", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "maintained operated overhauled programmed remodeled repaired solved upgraded", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Technical Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "adapted advised clarified coached communicated coordinated demystified developed enabled encouraged evaluated explained facilitated guided informed instructed persuaded set goals stimulated trained", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Teaching Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "administered allocated analyzed appraised audited balanced budgeted calculated computed developed forecasted managed marketed planned projected researched", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Financial Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "acted conceptualized created customized designed directed established fashioned founded illustrated initiated instituted integrated introduced invented originated performed planned revitalized shaped", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Creative Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "assessed assisted clarified coached counseled demonstrated diagnosed educated expedited facilitated familiarized guided motivated referred rehabilitated represented", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Helping Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "approved arranged catalogued classified collected compiled dispatched executed generated implemented inspected monitored operated organized prepared processed purchased recorded retrieved screened specified systematized tabulated validated", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "Clerical or Detail Skills"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "achieved expanded improved pioneered reduced (losses) resolved (problems) restored spearheaded transformed", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "More Verbs for Accomplishments"
+            }
+        ], 
+        "title": "Resume Action Verbs"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

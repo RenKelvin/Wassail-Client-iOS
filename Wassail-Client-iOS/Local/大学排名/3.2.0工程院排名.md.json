@@ -1,0 +1,162 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/eng-rankings?int=9a1f08", 
+                                "title": "\u5de5\u7a0b\u5b66\u9662\u6392\u540d"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/eng-rankings?int=9a1f08", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/aerospace-rankings?int=9a0108", 
+                                "title": "\u822a\u7a7a\u822a\u5929\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/aerospace-rankings?int=9a0108", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biological-agricultural-rankings", 
+                                "title": "\u751f\u7269\u4e0e\u519c\u4e1a\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biological-agricultural-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings", 
+                                "title": "\u751f\u7269\u533b\u5b66\u4e0e\u751f\u7269\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/biomedical-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/chemical-engineering-rankings", 
+                                "title": "\u5316\u5b66\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/chemical-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/civil-engineering-rankings", 
+                                "title": "\u571f\u6728\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/civil-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/computer-engineering-rankings", 
+                                "title": "\u8ba1\u7b97\u673a\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/computer-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/electrical-engineering-rankings?int=9a0108", 
+                                "title": "\u7535\u5b50\u7535\u6c14\u4e0e\u901a\u8baf\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/electrical-engineering-rankings?int=9a0108", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/environmental-engineering-rankings", 
+                                "title": "\u73af\u5883\u4e0e\u73af\u5883\u536b\u751f\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/environmental-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/industrial-engineering-rankings", 
+                                "title": "\u5de5\u4e1a\u4e0e\u5236\u9020\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/industrial-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/material-engineering-rankings", 
+                                "title": "\u6750\u6599\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/material-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/mechanical-engineering-rankings", 
+                                "title": "\u673a\u68b0\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/mechanical-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/nuclear-engineering-rankings", 
+                                "title": "\u6838\u80fd\u5de5\u7a0b"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-engineering-schools/nuclear-engineering-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u5de5\u7a0b\u7c7b\uff08Engineering\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}
