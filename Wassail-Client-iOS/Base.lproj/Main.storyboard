@@ -1952,6 +1952,11 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="SsQ-EJ-jnq"/>
+                                                </mask>
+                                            </variation>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1959,6 +1964,7 @@
                                         <constraint firstItem="89D-Oq-zLz" firstAttribute="top" secondItem="EWd-Zk-ngr" secondAttribute="top" constant="8" id="WlG-Xl-pG3"/>
                                         <constraint firstItem="89D-Oq-zLz" firstAttribute="leading" secondItem="EWd-Zk-ngr" secondAttribute="leading" constant="15" id="cL3-4H-Ph4"/>
                                         <constraint firstAttribute="trailing" secondItem="89D-Oq-zLz" secondAttribute="trailing" constant="15" id="cMw-dW-H90"/>
+                                        <constraint firstAttribute="bottom" secondItem="89D-Oq-zLz" secondAttribute="bottom" constant="21" id="heR-ah-JQW"/>
                                     </constraints>
                                 </view>
                                 <prototypes>
@@ -2229,12 +2235,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Bo5-kO-yCc"/>
+        <segue reference="REv-SL-D0I"/>
         <segue reference="fYA-Od-fVe"/>
         <segue reference="5Rv-FT-p8R"/>
-        <segue reference="Oab-mH-CQ6"/>
-        <segue reference="REv-SL-D0I"/>
         <segue reference="R8b-dB-BNq"/>
+        <segue reference="Bo5-kO-yCc"/>
         <segue reference="ydz-Qv-haZ"/>
+        <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
 </document>
