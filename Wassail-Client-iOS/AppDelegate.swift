@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+        let t = CognitoAdapter()
+        t.docognito()
+//        println(t.identityId)
+        
         return true
     }
 
