@@ -90,6 +90,31 @@
 		FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07519D71BD4007E63BC /* Unit Converter.json */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
+		FE60E67719E56C4F00147EF9 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */; };
+		FE60E67B19E56D0500147EF9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67A19E56D0500147EF9 /* libz.dylib */; };
+		FE60E67C19E56D3500147EF9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67819E56CD200147EF9 /* libsqlite3.dylib */; };
+		FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67D19E56DBA00147EF9 /* Bolts.framework */; };
+		FE60E68519E56DBA00147EF9 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67E19E56DBA00147EF9 /* GZIP.framework */; };
+		FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67F19E56DBA00147EF9 /* Mantle.framework */; };
+		FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68019E56DBA00147EF9 /* Reachability.framework */; };
+		FE60E68819E56DBA00147EF9 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68119E56DBA00147EF9 /* TMCache.framework */; };
+		FE60E68919E56DBA00147EF9 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */; };
+		FE60E68A19E56DBA00147EF9 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */; };
+		FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */; };
+		FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */; };
+		FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */; };
+		FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */; };
+		FE60E6A019E56E1F00147EF9 /* ec2-2014-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */; };
+		FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */; };
+		FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */; };
+		FE60E6A319E56E1F00147EF9 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */; };
+		FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */; };
+		FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */; };
+		FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */; };
+		FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */; };
+		FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */; };
+		FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */; };
+		FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -390,6 +415,31 @@
 		FE5BC07519D71BD4007E63BC /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		FE60E67819E56CD200147EF9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FE60E67A19E56D0500147EF9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FE60E67D19E56DBA00147EF9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FE60E67E19E56DBA00147EF9 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GZIP.framework; sourceTree = "<group>"; };
+		FE60E67F19E56DBA00147EF9 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = "<group>"; };
+		FE60E68019E56DBA00147EF9 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		FE60E68119E56DBA00147EF9 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMCache.framework; sourceTree = "<group>"; };
+		FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLDictionary.framework; sourceTree = "<group>"; };
+		FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cib-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "css-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ec2-2014-06-15.json"; sourceTree = "<group>"; };
+		FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "email-2010-12-01.json"; sourceTree = "<group>"; };
+		FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "s3-2006-03-01.json"; sourceTree = "<group>"; };
+		FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sns-2010-03-31.json"; sourceTree = "<group>"; };
+		FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -597,6 +647,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE60E67B19E56D0500147EF9 /* libz.dylib in Frameworks */,
+				FE60E67C19E56D3500147EF9 /* libsqlite3.dylib in Frameworks */,
+				FE60E68819E56DBA00147EF9 /* TMCache.framework in Frameworks */,
+				FE60E68919E56DBA00147EF9 /* UICKeyChainStore.framework in Frameworks */,
+				FE60E68519E56DBA00147EF9 /* GZIP.framework in Frameworks */,
+				FE60E67719E56C4F00147EF9 /* AWSiOSSDKv2.framework in Frameworks */,
+				FE60E68A19E56DBA00147EF9 /* XMLDictionary.framework in Frameworks */,
+				FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */,
+				FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */,
+				FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +928,60 @@
 			name = RKSelectorView;
 			sourceTree = "<group>";
 		};
+		FE60E67519E56B0900147EF9 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E67D19E56DBA00147EF9 /* Bolts.framework */,
+				FE60E67E19E56DBA00147EF9 /* GZIP.framework */,
+				FE60E67F19E56DBA00147EF9 /* Mantle.framework */,
+				FE60E68019E56DBA00147EF9 /* Reachability.framework */,
+				FE60E68119E56DBA00147EF9 /* TMCache.framework */,
+				FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */,
+				FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		FE60E68B19E56DD300147EF9 /* Official */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E67819E56CD200147EF9 /* libsqlite3.dylib */,
+				FE60E67A19E56D0500147EF9 /* libz.dylib */,
+			);
+			name = Official;
+			sourceTree = "<group>";
+		};
+		FE60E68C19E56E1F00147EF9 /* service-definitions */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */,
+				FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */,
+				FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */,
+				FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */,
+				FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */,
+				FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */,
+				FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */,
+				FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */,
+				FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */,
+				FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */,
+				FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */,
+				FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */,
+				FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */,
+				FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */,
+				FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */,
+			);
+			path = "service-definitions";
+			sourceTree = "<group>";
+		};
+		FE60E6AB19E56F5B00147EF9 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+				FEB1D7FD19CF10E6002F7285 /* AWS */,
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1086,7 +1200,8 @@
 		FEB1D7FD19CF10E6002F7285 /* AWS */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+				FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */,
+				FE60E68C19E56E1F00147EF9 /* service-definitions */,
 			);
 			name = AWS;
 			sourceTree = "<group>";
@@ -1200,9 +1315,11 @@
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FD19CF10E6002F7285 /* AWS */,
+				FE60E67519E56B0900147EF9 /* 3rd Party */,
+				FE60E6AB19E56F5B00147EF9 /* Cloud */,
 				FEC8649819BD3DF4005087A3 /* Database */,
 				FE5BC07119D71BD4007E63BC /* Local */,
+				FE60E68B19E56DD300147EF9 /* Official */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -1337,8 +1454,10 @@
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
+				FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */,
 				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
+				FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
 				FEB211EA19DA940C00647560 /* 2.9Yale Insider.jpeg in Resources */,
@@ -1393,6 +1512,7 @@
 				ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */,
 				ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
+				FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */,
 				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
@@ -1435,6 +1555,7 @@
 				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
+				FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
@@ -1442,13 +1563,17 @@
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
+				FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */,
 				FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */,
+				FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */,
 				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
+				FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
+				FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
@@ -1461,6 +1586,7 @@
 				FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
+				FE60E6A019E56E1F00147EF9 /* ec2-2014-06-15.json in Resources */,
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
@@ -1472,6 +1598,7 @@
 				FEA0FBE219D846A400A24409 /* 1.3.2.2THE2012-2013.md.json in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
+				FE60E6A319E56E1F00147EF9 /* kinesis-2013-12-02.json in Resources */,
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
 				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
@@ -1492,6 +1619,7 @@
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
 				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
+				FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
@@ -1500,6 +1628,7 @@
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
+				FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
@@ -1521,12 +1650,14 @@
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
+				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
 				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
+				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
@@ -1538,6 +1669,7 @@
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
 				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FEA0FBF319D846A400A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
+				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				FEA0FBFD19D846A400A24409 /* 2.62015最新排名解读.md.json in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 				FEA0FBFF19D846A400A24409 /* 3.2.0工程院排名.md.json in Resources */,
@@ -1761,9 +1893,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1777,9 +1914,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
