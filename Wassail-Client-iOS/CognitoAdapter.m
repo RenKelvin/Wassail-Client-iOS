@@ -10,7 +10,16 @@
 
 @implementation CognitoAdapter
 
-- (void)docognito {
+static CognitoAdapter * _CognitoAdapterSharedInstance = nil;    // static instance variable
+
++ (CognitoAdapter *)instance {
+    if (_CognitoAdapterSharedInstance == nil) {
+        _CognitoAdapterSharedInstance = [[super allocWithZone:NULL] init];
+    }
+    return _CognitoAdapterSharedInstance;
+}
+
+- (void)initCredentialProvider {
     
     _credentialsProvider = [AWSCognitoCredentialsProvider
                             credentialsWithRegionType:AWSRegionUSEast1
@@ -23,7 +32,14 @@
     
     [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
     
-    printf("%s", _credentialsProvider.identityId);
+    [[_credentialsProvider getIdentityId] continueWithSuccessBlock: ^id(BFTask *task) {
+        NSString* cognitoId = _credentialsProvider.identityId;
+        NSLog(@"cognitoId: %@", cognitoId);
+        return nil;
+    }];
+    
+    //
+    //AWSMobileAnalytics* analytics = [AWSMobileAnalytics mobileAnalyticsForAppId:@"7a9e6aac52f24ee984cbead1c4e74766"];
 }
 
 @end

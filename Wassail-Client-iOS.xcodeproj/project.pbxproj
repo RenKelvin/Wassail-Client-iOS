@@ -117,6 +117,7 @@
 		FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */; };
 		FE60E6AF19E58BE300147EF9 /* CognitoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6AE19E58BE300147EF9 /* CognitoAdapter.m */; };
 		FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */; };
+		FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -244,7 +245,7 @@
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
 		FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */; };
-		FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */; };
+		FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */; };
 		FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */; };
 		FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */; };
 		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
@@ -446,6 +447,7 @@
 		FE60E6AD19E58BE300147EF9 /* CognitoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CognitoAdapter.h; sourceTree = "<group>"; };
 		FE60E6AE19E58BE300147EF9 /* CognitoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CognitoAdapter.m; sourceTree = "<group>"; };
 		FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoSync.framework; sourceTree = "<group>"; };
+		FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAdapter.swift; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -573,7 +575,7 @@
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackInfo.swift; sourceTree = "<group>"; };
-		FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMediator.swift; sourceTree = "<group>"; };
+		FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAdapter.swift; sourceTree = "<group>"; };
 		FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMediator.swift; sourceTree = "<group>"; };
 		FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail_v1.swift; sourceTree = "<group>"; };
@@ -940,18 +942,19 @@
 			isa = PBXGroup;
 			children = (
 				FEB1D7FD19CF10E6002F7285 /* AWS */,
-				FE60E6B319E596CE00147EF9 /* Resource */,
+				FE60E68B19E56DD300147EF9 /* Cocoa */,
+				FE60E6B319E596CE00147EF9 /* Others */,
 			);
 			name = "3rd Party";
 			sourceTree = "<group>";
 		};
-		FE60E68B19E56DD300147EF9 /* Official */ = {
+		FE60E68B19E56DD300147EF9 /* Cocoa */ = {
 			isa = PBXGroup;
 			children = (
 				FE60E67819E56CD200147EF9 /* libsqlite3.dylib */,
 				FE60E67A19E56D0500147EF9 /* libz.dylib */,
 			);
-			name = Official;
+			name = Cocoa;
 			sourceTree = "<group>";
 		};
 		FE60E68C19E56E1F00147EF9 /* service-definitions */ = {
@@ -994,7 +997,7 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
-		FE60E6B319E596CE00147EF9 /* Resource */ = {
+		FE60E6B319E596CE00147EF9 /* Others */ = {
 			isa = PBXGroup;
 			children = (
 				FE60E67D19E56DBA00147EF9 /* Bolts.framework */,
@@ -1005,7 +1008,7 @@
 				FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */,
 				FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */,
 			);
-			name = Resource;
+			name = Others;
 			sourceTree = "<group>";
 		};
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
@@ -1196,9 +1199,9 @@
 		FEB1D7EE19CEB2E6002F7285 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */,
-				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
+				FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */,
 				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
+				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
 			);
 			name = Mediator;
 			sourceTree = "<group>";
@@ -1272,9 +1275,10 @@
 		FEC3BD5719C29D5B00184760 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
-				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
+				FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */,
 				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
+				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
+				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
 			);
 			name = Adapter;
 			sourceTree = "<group>";
@@ -1345,7 +1349,6 @@
 				FE60E6AB19E56F5B00147EF9 /* Cloud */,
 				FE5BC07119D71BD4007E63BC /* Local */,
 				FEC8649819BD3DF4005087A3 /* Database */,
-				FE60E68B19E56DD300147EF9 /* Official */,
 				FE60E67519E56B0900147EF9 /* 3rd Party */,
 			);
 			name = Resource;
@@ -1736,7 +1739,7 @@
 				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
-				FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */,
+				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
 				FE60E6AF19E58BE300147EF9 /* CognitoAdapter.m in Sources */,
@@ -1754,6 +1757,7 @@
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,
+				FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */,
 				FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */,
 				FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */,
 				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
