@@ -28,7 +28,7 @@ class Wassail_v1: NSObject {
         
         let body: NSMutableDictionary = NSMutableDictionary()
         
-        body.setObject(text, forKey: "Msg")
+        body.setObject(text, forKey: "message")
         
         self.post(api, body: body)
     }
