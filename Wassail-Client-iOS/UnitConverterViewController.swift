@@ -20,6 +20,7 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet var inputTextField: UITextField?
     @IBOutlet var inputUnitLabel: UILabel?
     @IBOutlet var keyboardAccessoryView: UIView?
+    @IBOutlet var zeroBarButtonItem: UIBarButtonItem?
     
     var output: Double = 0.0
     @IBOutlet var outputTextField: UITextField?
@@ -90,6 +91,19 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
         
         leftPickerView!.reload(units!)
         rightPickerView!.reload(units!)
+        
+        //
+        let string = inputTextField!.text as NSString
+        if (string.length > 1 && string.substringToIndex(1) == "-") {
+            inputTextField!.text = string.substringFromIndex(1)
+            input = NSString(string: inputTextField!.text).doubleValue
+        }
+        
+        //
+        zeroBarButtonItem!.title = nil
+        if (number == 4) {
+            zeroBarButtonItem!.title = "零下"
+        }
     }
     
     func updateViews() {
@@ -130,6 +144,21 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     
     @IBAction func doneButtonTapped() {
         inputTextField!.resignFirstResponder()
+    }
+    
+    @IBAction func zeroButtonTapped() {
+        
+        input = NSString(string: inputTextField!.text).doubleValue * (-1.0)
+        
+        if (input > 0) {
+            zeroBarButtonItem!.title = "零下"
+        }
+        else if (input < 0) {
+            zeroBarButtonItem!.title = "零上"
+        }
+        
+        self.updateNumbersByInput()
+        
     }
     
     // MARK: - TableViewDataSource

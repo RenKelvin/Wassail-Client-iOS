@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A386a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -98,7 +98,7 @@
                                 <rect key="frame" x="64" y="128" width="472" height="128"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="center" minimumFontSize="17" background="UnitTextFieldBackground" translatesAutoresizingMaskIntoConstraints="NO" id="I4G-Yc-jgy">
-                                        <rect key="frame" x="8" y="16" width="456" height="48"/>
+                                        <rect key="frame" x="24" y="16" width="424" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="bOb-iw-sqj"/>
                                         </constraints>
@@ -110,7 +110,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="11.2" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRi-Pk-tlh">
-                                        <rect key="frame" x="8" y="79" width="428" height="34"/>
+                                        <rect key="frame" x="8" y="79" width="440" height="34"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="done"/>
@@ -118,14 +118,17 @@
                                             <outlet property="delegate" destination="WRg-lq-Ju5" id="tb1-9a-CVR"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sm-4W-hPv">
-                                        <rect key="frame" x="445" y="43" width="15" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sm-4W-hPv">
+                                        <rect key="frame" x="448" y="43.5" width="24" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="E1k-RL-7xJ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ft" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0p-Lh-SC7">
-                                        <rect key="frame" x="436" y="90" width="24" height="21"/>
+                                        <rect key="frame" x="448" y="90.5" width="24" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="24" id="KOE-uI-Uos"/>
                                         </constraints>
@@ -138,13 +141,14 @@
                                 <constraints>
                                     <constraint firstItem="dRi-Pk-tlh" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="8" id="0nK-Cs-sd6"/>
                                     <constraint firstItem="E0p-Lh-SC7" firstAttribute="trailing" secondItem="5sm-4W-hPv" secondAttribute="trailing" id="8uT-xE-A3m"/>
-                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="8" id="9xY-au-Nu2"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="leading" secondItem="r54-86-QgL" secondAttribute="leading" constant="24" id="9xY-au-Nu2"/>
                                     <constraint firstItem="I4G-Yc-jgy" firstAttribute="top" secondItem="r54-86-QgL" secondAttribute="top" constant="16" id="JPO-CQ-C2f"/>
-                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="trailing" secondItem="5sm-4W-hPv" secondAttribute="trailing" constant="4" id="PFw-8P-fzz"/>
+                                    <constraint firstItem="I4G-Yc-jgy" firstAttribute="trailing" secondItem="5sm-4W-hPv" secondAttribute="trailing" constant="-24" id="PFw-8P-fzz"/>
                                     <constraint firstItem="E0p-Lh-SC7" firstAttribute="leading" secondItem="dRi-Pk-tlh" secondAttribute="trailing" id="a7i-uv-sWN"/>
                                     <constraint firstItem="I4G-Yc-jgy" firstAttribute="bottom" secondItem="5sm-4W-hPv" secondAttribute="bottom" id="aOB-8u-JxK"/>
                                     <constraint firstItem="dRi-Pk-tlh" firstAttribute="centerY" secondItem="E0p-Lh-SC7" secondAttribute="centerY" constant="-4" id="pGd-Lz-mp8"/>
                                     <constraint firstAttribute="centerY" secondItem="dRi-Pk-tlh" secondAttribute="centerY" constant="-32" id="sFG-0s-aAr"/>
+                                    <constraint firstAttribute="trailing" secondItem="I4G-Yc-jgy" secondAttribute="trailing" constant="24" id="yji-A9-jhY"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocO-EA-PXa" userLabel="Right" customClass="RKPickerView" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -243,6 +247,11 @@
                             <constraint firstItem="eTf-In-sok" firstAttribute="top" secondItem="PVD-Nm-XzG" secondAttribute="bottom" id="yY7-gT-ApJ"/>
                             <constraint firstAttribute="width" secondItem="8gv-X7-qpb" secondAttribute="width" id="zlO-Fr-pWc"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="vcy-8p-r6o"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="单位换算" id="S7C-aD-ea8"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -257,6 +266,7 @@
                         <outlet property="outputUnitLabel" destination="E0p-Lh-SC7" id="bFl-oW-5Yq"/>
                         <outlet property="rightPickerView" destination="ocO-EA-PXa" id="qUr-I0-tsH"/>
                         <outlet property="selectorView" destination="eTf-In-sok" id="rFw-2b-uGz"/>
+                        <outlet property="zeroBarButtonItem" destination="aax-uX-ISH" id="QVh-x0-6Wl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz4-Yj-fIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -264,6 +274,11 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <items>
+                        <barButtonItem title="零" id="aax-uX-ISH">
+                            <connections>
+                                <action selector="zeroButtonTapped" destination="WRg-lq-Ju5" id="t62-MT-cx3"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="zEC-Te-Zzw"/>
                         <barButtonItem title="完成" id="8RV-J9-DF2">
                             <color key="tintColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
