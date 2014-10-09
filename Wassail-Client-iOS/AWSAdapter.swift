@@ -16,4 +16,13 @@ class AWSAdapter: NSObject, NSURLSessionTaskDelegate {
     return _AWSAdapterSharedInstance
     }
     
+    func initialize() {
+        
+        // Cognito
+        AWSCognitoAdapter.instance().initCredentialProvider()
+        
+        // Mobile Analytics
+        AWSMobileAnalyticsAdapter.instance().initAnalytics()
+    }
+    
 }

@@ -115,9 +115,10 @@
 		FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */; };
 		FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */; };
 		FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */; };
-		FE60E6AF19E58BE300147EF9 /* CognitoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6AE19E58BE300147EF9 /* CognitoAdapter.m */; };
+		FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */; };
 		FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */; };
 		FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */; };
+		FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -444,10 +445,12 @@
 		FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
 		FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
 		FE60E6AC19E58BE200147EF9 /* Wassail-Client-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wassail-Client-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		FE60E6AD19E58BE300147EF9 /* CognitoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CognitoAdapter.h; sourceTree = "<group>"; };
-		FE60E6AE19E58BE300147EF9 /* CognitoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CognitoAdapter.m; sourceTree = "<group>"; };
+		FE60E6AD19E58BE300147EF9 /* AWSCognitoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoAdapter.h; sourceTree = "<group>"; };
+		FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCognitoAdapter.m; sourceTree = "<group>"; };
 		FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoSync.framework; sourceTree = "<group>"; };
 		FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAdapter.swift; sourceTree = "<group>"; };
+		FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMobileAnalyticsAdapter.h; sourceTree = "<group>"; };
+		FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMobileAnalyticsAdapter.m; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -759,9 +762,9 @@
 				FEC8649119BD3C98005087A3 /* View */,
 				FEC8649319BD3CDF005087A3 /* Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
-				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
 				FEC3BD5619C29D1D00184760 /* Mapper */,
+				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
 				FEB1D7EE19CEB2E6002F7285 /* Mediator */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
@@ -1229,8 +1232,10 @@
 		FEB1D7FD19CF10E6002F7285 /* AWS */ = {
 			isa = PBXGroup;
 			children = (
-				FE60E6AD19E58BE300147EF9 /* CognitoAdapter.h */,
-				FE60E6AE19E58BE300147EF9 /* CognitoAdapter.m */,
+				FE60E6AD19E58BE300147EF9 /* AWSCognitoAdapter.h */,
+				FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */,
+				FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */,
+				FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */,
 				FE60E6B219E596BA00147EF9 /* Resource */,
 			);
 			name = AWS;
@@ -1742,7 +1747,7 @@
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
-				FE60E6AF19E58BE300147EF9 /* CognitoAdapter.m in Sources */,
+				FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
@@ -1793,6 +1798,7 @@
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
+				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,

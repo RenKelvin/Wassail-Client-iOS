@@ -11,15 +11,15 @@
 #import <AWSiOSSDKv2/AWSCore.h>
 #import <AWSCognitoSync/Cognito.h>
 
-#import <AWSiOSSDKv2/AWSMobileAnalytics.h>
-
-@interface CognitoAdapter : NSObject {
+@interface AWSCognitoAdapter : NSObject {
+    
+    NSString* _cognitoId;
     
     AWSCognitoCredentialsProvider* _credentialsProvider;
     
 }
 
-+ (CognitoAdapter *)instance;
++ (AWSCognitoAdapter *)instance;
 
 - (void)initCredentialProvider;
 

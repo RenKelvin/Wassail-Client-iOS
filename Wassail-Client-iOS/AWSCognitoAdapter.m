@@ -6,17 +6,18 @@
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
-#import "CognitoAdapter.h"
+#import "AWSCognitoAdapter.h"
 
-@implementation CognitoAdapter
+@implementation AWSCognitoAdapter
 
-static CognitoAdapter * _CognitoAdapterSharedInstance = nil;    // static instance variable
+static AWSCognitoAdapter * _AWSCognitoAdapterSharedInstance = nil;    // static instance variable
 
-+ (CognitoAdapter *)instance {
-    if (_CognitoAdapterSharedInstance == nil) {
-        _CognitoAdapterSharedInstance = [[super allocWithZone:NULL] init];
++ (AWSCognitoAdapter *)instance {
+    
+    if (_AWSCognitoAdapterSharedInstance == nil) {
+        _AWSCognitoAdapterSharedInstance = [[super allocWithZone:NULL] init];
     }
-    return _CognitoAdapterSharedInstance;
+    return _AWSCognitoAdapterSharedInstance;
 }
 
 - (void)initCredentialProvider {
@@ -33,13 +34,11 @@ static CognitoAdapter * _CognitoAdapterSharedInstance = nil;    // static instan
     [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
     
     [[_credentialsProvider getIdentityId] continueWithSuccessBlock: ^id(BFTask *task) {
-        NSString* cognitoId = _credentialsProvider.identityId;
-        NSLog(@"cognitoId: %@", cognitoId);
+        _cognitoId = _credentialsProvider.identityId;
+        NSLog(@"cognitoId: %@", _cognitoId);
         return nil;
     }];
     
-    //
-    //AWSMobileAnalytics* analytics = [AWSMobileAnalytics mobileAnalyticsForAppId:@"7a9e6aac52f24ee984cbead1c4e74766"];
 }
 
 @end
