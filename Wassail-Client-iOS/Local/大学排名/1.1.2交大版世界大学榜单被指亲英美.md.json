@@ -21,10 +21,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1.2ARWU.png", 
+                                "address": "1.1.2ARWU", 
                                 "title": ""
                             }, 
-                            "name": "1.1.2ARWU.png", 
+                            "name": "1.1.2ARWU", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -62,10 +62,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1.2\u82f1\u7f8e\u540d\u6821.jpg", 
+                                "address": "1.1.2\u82f1\u7f8e\u540d\u6821", 
                                 "title": ""
                             }, 
-                            "name": "1.1.2\u82f1\u7f8e\u540d\u6821.jpg", 
+                            "name": "1.1.2\u82f1\u7f8e\u540d\u6821", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

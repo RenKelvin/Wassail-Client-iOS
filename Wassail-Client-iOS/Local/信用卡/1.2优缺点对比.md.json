@@ -18,10 +18,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.2creditcardsafe.jpg", 
+                                "address": "1.2creditcardsafe", 
                                 "title": ""
                             }, 
-                            "name": "1.2creditcardsafe.jpg", 
+                            "name": "1.2creditcardsafe", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -82,10 +82,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.2Overconsumption.jpg", 
+                                "address": "1.2Overconsumption", 
                                 "title": ""
                             }, 
-                            "name": "1.2Overconsumption.jpg", 
+                            "name": "1.2Overconsumption", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

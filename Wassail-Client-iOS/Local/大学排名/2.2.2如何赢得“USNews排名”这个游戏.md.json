@@ -12,10 +12,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.2.2\u5982\u4f55\u8d62\u5f97\u201cUS News\u6392\u540d\u201d\u8fd9\u4e2a\u6e38\u620f \u7167\u7247.png", 
+                                "address": "2.2.2\u5982\u4f55\u8d62\u5f97\u201cUS News\u6392\u540d\u201d\u8fd9\u4e2a\u6e38\u620f \u7167\u7247", 
                                 "title": ""
                             }, 
-                            "name": "2.2.2\u5982\u4f55\u8d62\u5f97\u201cUS News\u6392\u540d\u201d\u8fd9\u4e2a\u6e38\u620f \u7167\u7247.png", 
+                            "name": "2.2.2\u5982\u4f55\u8d62\u5f97\u201cUS News\u6392\u540d\u201d\u8fd9\u4e2a\u6e38\u620f \u7167\u7247", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -40,10 +40,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.2.2Northeastern.jpg", 
+                                "address": "2.2.2Northeastern", 
                                 "title": ""
                             }, 
-                            "name": "2.2.2Northeastern.jpg", 
+                            "name": "2.2.2Northeastern", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -72,10 +72,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.2.2Northeastern U.jpg", 
+                                "address": "2.2.2Northeastern U", 
                                 "title": ""
                             }, 
-                            "name": "2.2.2Northeastern U.jpg", 
+                            "name": "2.2.2Northeastern U", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

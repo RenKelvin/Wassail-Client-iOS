@@ -26,10 +26,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.2SocialSecurityCard.jpg", 
+                                "address": "1.5.2SocialSecurityCard", 
                                 "title": ""
                             }, 
-                            "name": "1.5.2SocialSecurityCard.jpg", 
+                            "name": "1.5.2SocialSecurityCard", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

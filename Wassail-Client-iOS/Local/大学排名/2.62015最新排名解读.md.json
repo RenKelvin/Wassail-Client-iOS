@@ -39,10 +39,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.6BostonU.jpg", 
+                                "address": "2.6BostonU", 
                                 "title": ""
                             }, 
-                            "name": "2.6BostonU.jpg", 
+                            "name": "2.6BostonU", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

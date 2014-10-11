@@ -8,10 +8,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.4NationalUniversity.png", 
+                                "address": "2.4NationalUniversity", 
                                 "title": ""
                             }, 
-                            "name": "2.4NationalUniversity.png", 
+                            "name": "2.4NationalUniversity", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

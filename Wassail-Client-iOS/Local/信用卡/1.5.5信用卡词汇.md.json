@@ -22,10 +22,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.5KnowBeforeYouOwe.jpeg", 
+                                "address": "1.5.5KnowBeforeYouOwe", 
                                 "title": ""
                             }, 
-                            "name": "1.5.5KnowBeforeYouOwe.jpeg", 
+                            "name": "1.5.5KnowBeforeYouOwe", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
@@ -57,10 +57,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.5CreditcardSurprise.jpeg", 
+                                "address": "1.5.5CreditcardSurprise", 
                                 "title": "\u6709\u4e9bBonus\u662f\u5f00\u5361\u5956\u52b1$50-$150\uff0c\u6709\u4e9b\u662f\u5956\u52b1\u76f8\u5e94\u7684\u70b9\u6570\u3002\u8fd9\u4e9b\u70b9\u6570\u8981\u5f00\u5361\u4e00\u6bb5\u65f6\u95f4\u540e\u624d\u4f1a\u5151\u73b0\uff0c\u9632\u6b62\u6709\u4e9b\u4eba\u75af\u72c2\u5f00\u5361\u5173\u5361\u5c31\u4e3a\u4e86\u62ffbonus\u3002\u53e6\u5916\u4e00\u79cdbonus\u662f\u4ecb\u7ecd\u8d39\uff0c\u6bd4\u5982Discover\u6301\u5361\u8005\u63a8\u8350\u65b0\u4eba\u5165Discover\u5c31\u53ef\u4ee5\u62ff\u523050\u5200\u7684\u5956\u52b1\u3002"
                             }, 
-                            "name": "1.5.5CreditcardSurprise.jpeg", 
+                            "name": "1.5.5CreditcardSurprise", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -92,10 +92,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.5GoldenKey.jpeg", 
+                                "address": "1.5.5GoldenKey", 
                                 "title": ""
                             }, 
-                            "name": "1.5.5GoldenKey.jpeg", 
+                            "name": "1.5.5GoldenKey", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -123,10 +123,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.5POS.jpeg", 
+                                "address": "1.5.5POS", 
                                 "title": ""
                             }, 
-                            "name": "1.5.5POS.jpeg", 
+                            "name": "1.5.5POS", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

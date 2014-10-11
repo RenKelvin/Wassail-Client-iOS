@@ -26,10 +26,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.1AmericanCreditCard.jpg", 
+                                "address": "1.5.1AmericanCreditCard", 
                                 "title": ""
                             }, 
-                            "name": "1.5.1AmericanCreditCard.jpg", 
+                            "name": "1.5.1AmericanCreditCard", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

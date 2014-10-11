@@ -56,10 +56,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1Credit Card.jpg", 
+                                "address": "1.1Credit Card", 
                                 "title": ""
                             }, 
-                            "name": "1.1Credit Card.jpg", 
+                            "name": "1.1Credit Card", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

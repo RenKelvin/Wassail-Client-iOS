@@ -7,7 +7,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/statistics-rankings?int=983508", 
-                                "title": "\u7edf\u8ba1\u5b66 Statistics"
+                                "title": "\u7edf\u8ba1\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/statistics-rankings?int=983508", 
                             "type": "HLLink"
@@ -18,7 +18,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/biological-sciences-rankings", 
-                                "title": "\u751f\u7269\u79d1\u5b66 Biological Sciences"
+                                "title": "\u751f\u7269\u79d1\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/biological-sciences-rankings", 
                             "type": "HLLink"
@@ -29,7 +29,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/chemistry-rankings", 
-                                "title": "\u5316\u5b66 Chemistry"
+                                "title": "\u5316\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/chemistry-rankings", 
                             "type": "HLLink"
@@ -40,7 +40,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/computer-science-rankings", 
-                                "title": "\u8ba1\u7b97\u673a\u79d1\u5b66 Computer Science"
+                                "title": "\u8ba1\u7b97\u673a\u79d1\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/computer-science-rankings", 
                             "type": "HLLink"
@@ -51,7 +51,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/earth-sciences-rankings", 
-                                "title": "\u5730\u7403\u79d1\u5b66 Earth Sciences"
+                                "title": "\u5730\u7403\u79d1\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/earth-sciences-rankings", 
                             "type": "HLLink"
@@ -62,7 +62,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/mathematics-rankings", 
-                                "title": "\u6570\u5b66 Mathematics"
+                                "title": "\u6570\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/mathematics-rankings", 
                             "type": "HLLink"
@@ -73,7 +73,7 @@
                         "content": {
                             "body": {
                                 "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/physics-rankings", 
-                                "title": "\u7269\u7406\u5b66 Physics"
+                                "title": "\u7269\u7406\u5b66"
                             }, 
                             "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-science-schools/physics-rankings", 
                             "type": "HLLink"

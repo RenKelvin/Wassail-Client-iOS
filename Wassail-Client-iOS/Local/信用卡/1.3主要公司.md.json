@@ -6,10 +6,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3UnionPay.jpg", 
+                                "address": "1.3UnionPay", 
                                 "title": ""
                             }, 
-                            "name": "1.3UnionPay.jpg", 
+                            "name": "1.3UnionPay", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -26,10 +26,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3VISALogo.jpg", 
+                                "address": "1.3VISALogo", 
                                 "title": ""
                             }, 
-                            "name": "1.3VISALogo.jpg", 
+                            "name": "1.3VISALogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -54,10 +54,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3MasterCardLogo.jpg", 
+                                "address": "1.3MasterCardLogo", 
                                 "title": ""
                             }, 
-                            "name": "1.3MasterCardLogo.jpg", 
+                            "name": "1.3MasterCardLogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -74,10 +74,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3AmericanExpressLogo.jpg", 
+                                "address": "1.3AmericanExpressLogo", 
                                 "title": ""
                             }, 
-                            "name": "1.3AmericanExpressLogo.jpg", 
+                            "name": "1.3AmericanExpressLogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -94,10 +94,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3Diner'sClubLogo.jpg", 
+                                "address": "1.3Diner'sClubLogo", 
                                 "title": "\u3000"
                             }, 
-                            "name": "1.3Diner'sClubLogo.jpg", 
+                            "name": "1.3Diner'sClubLogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -114,10 +114,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3JCBLogo.jpg", 
+                                "address": "1.3JCBLogo", 
                                 "title": ""
                             }, 
-                            "name": "1.3JCBLogo.jpg", 
+                            "name": "1.3JCBLogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

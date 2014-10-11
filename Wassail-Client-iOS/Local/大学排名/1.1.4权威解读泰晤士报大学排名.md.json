@@ -12,10 +12,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1.4\u6743\u5a01\u89e3\u8bfb\u6cf0\u6664\u58eb\u62a5\u96ea\u6392\u540d\uff0d\u7167\u7247.jpg", 
+                                "address": "1.1.4\u6743\u5a01\u89e3\u8bfb\u6cf0\u6664\u58eb\u62a5\u96ea\u6392\u540d\uff0d\u7167\u7247", 
                                 "title": ""
                             }, 
-                            "name": "1.1.4\u6743\u5a01\u89e3\u8bfb\u6cf0\u6664\u58eb\u62a5\u96ea\u6392\u540d\uff0d\u7167\u7247.jpg", 
+                            "name": "1.1.4\u6743\u5a01\u89e3\u8bfb\u6cf0\u6664\u58eb\u62a5\u96ea\u6392\u540d\uff0d\u7167\u7247", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -99,10 +99,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1.4THELogo.jpg", 
+                                "address": "1.1.4THELogo", 
                                 "title": ""
                             }, 
-                            "name": "1.1.4THELogo.jpg", 
+                            "name": "1.1.4THELogo", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
