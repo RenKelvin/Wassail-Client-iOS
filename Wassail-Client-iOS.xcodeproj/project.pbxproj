@@ -1303,8 +1303,8 @@
 			children = (
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
-				FE8D81AD19C448B900CE6174 /* Item */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
+				FE8D81AD19C448B900CE6174 /* Item */,
 				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 			);
 			name = View;

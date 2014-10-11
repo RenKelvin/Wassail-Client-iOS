@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -1990,7 +1989,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5sV-7f-Tdg" id="lYf-dX-9uG">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="uDP-UE-zcs">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="uDP-UE-zcs">
                                                     <rect key="frame" x="15" y="16" width="570" height="20"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -2014,7 +2013,7 @@
                                         <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aMI-gE-yiV" id="D35-ir-ypG">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-MM-D8L">
                                                     <rect key="frame" x="15" y="8" width="570" height="48"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -2105,7 +2104,7 @@
                         <outlet property="indicator" destination="w38-TL-hpx" id="tuj-Mc-9be"/>
                         <outlet property="itemCell" destination="ISs-v0-z4T" id="vkL-mP-lYE"/>
                         <outlet property="navigationView" destination="Dhh-Vd-GXz" id="EgL-Af-jc4"/>
-                        <outlet property="sectionCell" destination="GHi-Xy-Adf" id="xpF-7y-J2v"/>
+                        <outlet property="sectionCell" destination="qQe-o3-P67" id="c65-Vi-kT0"/>
                         <outlet property="tableView" destination="qhw-vp-XwO" id="giU-qU-RCf"/>
                         <outlet property="titleLabel" destination="d88-dP-cQA" id="1dq-2g-cYt"/>
                         <segue destination="gXd-Zp-d01" kind="show" identifier="ArticleListSugueIdentifier" id="5Rv-FT-p8R"/>
@@ -2123,6 +2122,30 @@
                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewSectionCellReuseIdentifier" rowHeight="40" id="qQe-o3-P67" customClass="ArticleTableViewSectionCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qQe-o3-P67" id="zg9-2I-Ko8">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-ny-WFp">
+                                <rect key="frame" x="15" y="16" width="570" height="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3pH-ny-WFp" secondAttribute="bottom" constant="4" id="2Li-bA-gqH"/>
+                            <constraint firstItem="3pH-ny-WFp" firstAttribute="leading" secondItem="zg9-2I-Ko8" secondAttribute="leading" constant="15" id="Q11-8w-vy6"/>
+                            <constraint firstAttribute="trailing" secondItem="3pH-ny-WFp" secondAttribute="trailing" constant="15" id="Zfc-jz-kjJ"/>
+                            <constraint firstItem="3pH-ny-WFp" firstAttribute="top" secondItem="zg9-2I-Ko8" secondAttribute="top" constant="16" id="pnc-N6-mMB"/>
+                        </constraints>
+                    </tableViewCellContentView>
+                    <connections>
+                        <outlet property="sectionLabel" destination="3pH-ny-WFp" id="56a-ue-thm"/>
+                    </connections>
+                </tableViewCell>
                 <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewItemCellReuseIdentifier" rowHeight="80" id="ISs-v0-z4T" customClass="ArticleTableViewItemCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
                     <autoresizingMask key="autoresizingMask"/>
@@ -2167,30 +2190,6 @@
                     </tableViewCellContentView>
                     <connections>
                         <outlet property="graphLabel" destination="X6c-oX-8l4" id="BVU-A6-wAm"/>
-                    </connections>
-                </tableViewCell>
-                <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewSectionCellReuseIdentifier" rowHeight="40" id="GHi-Xy-Adf" customClass="ArticleTableViewSectionCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GHi-Xy-Adf" id="5TF-Wr-zT4">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNi-tm-UwD">
-                                <rect key="frame" x="15" y="16" width="569.5" height="20"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="XNi-tm-UwD" firstAttribute="top" secondItem="5TF-Wr-zT4" secondAttribute="top" constant="16" id="6nq-s9-1Ej"/>
-                            <constraint firstItem="XNi-tm-UwD" firstAttribute="leading" secondItem="5TF-Wr-zT4" secondAttribute="leading" constant="15" id="Sun-on-9eD"/>
-                            <constraint firstAttribute="trailing" secondItem="XNi-tm-UwD" secondAttribute="trailing" constant="15" id="dzC-ib-myX"/>
-                            <constraint firstAttribute="bottom" secondItem="XNi-tm-UwD" secondAttribute="bottom" constant="4" id="ngh-TE-jad"/>
-                        </constraints>
-                    </tableViewCellContentView>
-                    <connections>
-                        <outlet property="sectionLabel" destination="XNi-tm-UwD" id="9LE-lY-ZN0"/>
                     </connections>
                 </tableViewCell>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TjH-48-Y1q">
@@ -2251,12 +2250,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sEN-DU-GIR"/>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="kkp-86-AQj"/>
+        <segue reference="R8b-dB-BNq"/>
         <segue reference="flF-XO-gRb"/>
-        <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="r4f-h3-sd1"/>
-        <segue reference="BK5-dh-8Fc"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="Bo5-kO-yCc"/>
+        <segue reference="ydz-Qv-haZ"/>
+        <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
 </document>

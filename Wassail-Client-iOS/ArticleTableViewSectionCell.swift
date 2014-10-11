@@ -17,8 +17,19 @@ class ArticleTableViewSectionCell: ArticleTableViewCell {
         if (item == nil) {
             return
         }
-
-        sectionLabel!.text = item!.objectForKey("content") as NSString?
+        
+        let text = item!.objectForKey("content") as NSString?
+        if (text == nil) {
+            sectionLabel!.text = nil
+        }
+        else if (text! == "-") {
+            sectionLabel!.text = ""
+        }
+        else {
+            sectionLabel!.text = text!
+        }
+        // FIXME: Manually modified preferredMaxLayoutWidth for different devices
+        sectionLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
     }
     
 }
