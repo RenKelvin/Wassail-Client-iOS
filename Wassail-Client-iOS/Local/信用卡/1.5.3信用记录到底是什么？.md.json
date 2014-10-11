@@ -14,10 +14,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.3CreditReport", 
+                                "address": "1.5.3CreditReport.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.3CreditReport", 
+                            "name": "1.5.3CreditReport.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -37,10 +37,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.3Goodcredit", 
+                                "address": "1.5.3Goodcredit.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.3Goodcredit", 
+                            "name": "1.5.3Goodcredit.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -64,10 +64,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.3CreditScore", 
+                                "address": "1.5.3CreditScore.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.3CreditScore", 
+                            "name": "1.5.3CreditScore.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -100,10 +100,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.3FICO", 
+                                "address": "1.5.3FICO.jpeg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.3FICO", 
+                            "name": "1.5.3FICO.jpeg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -120,10 +120,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.3ThreeReportingAgency", 
+                                "address": "1.5.3ThreeReportingAgency.jpeg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.3ThreeReportingAgency", 
+                            "name": "1.5.3ThreeReportingAgency.jpeg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

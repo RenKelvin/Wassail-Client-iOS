@@ -23,6 +23,10 @@
 		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
 		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
 		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
+		AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */; };
+		AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */; };
+		AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */; };
+		AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */; };
 		ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */; };
 		ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */; };
 		ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */; };
@@ -348,6 +352,10 @@
 		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
 		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
 		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
+		AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14哥大校徽.jpg"; sourceTree = "<group>"; };
+		AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14诺贝尔奖.jpg"; sourceTree = "<group>"; };
+		AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.14诺贝尔奖.md.json"; sourceTree = "<group>"; };
+		AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9AMEXBlueCash.jpg; sourceTree = "<group>"; };
 		ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0剑桥2.jpg"; sourceTree = "<group>"; };
 		ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0ARWU.jpg; sourceTree = "<group>"; };
 		ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0QS.jpg; sourceTree = "<group>"; };
@@ -826,6 +834,9 @@
 		FE5BC07819D71BD4007E63BC /* 大学排名 */ = {
 			isa = PBXGroup;
 			children = (
+				AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */,
+				AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */,
+				AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */,
 				ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */,
 				FE72630619E013C3005739D0 /* 0地球.png */,
 				FEB211CC19DA940C00647560 /* 0大学排名.jpg */,
@@ -1125,6 +1136,7 @@
 		FEA0FC0D19D8669000A24409 /* 信用卡 */ = {
 			isa = PBXGroup;
 			children = (
+				AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */,
 				ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */,
 				ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */,
 				ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */,
@@ -1511,6 +1523,7 @@
 				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
+				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
@@ -1671,11 +1684,13 @@
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FE72630819E013C3005739D0 /* 0地球.png in Resources */,
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
+				AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
+				AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */,
 				FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */,
 				AD1EBB3319E0733E00515F5B /* 2.7小论文范文.md.json in Resources */,
 				ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */,
@@ -1693,6 +1708,7 @@
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
+				AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,

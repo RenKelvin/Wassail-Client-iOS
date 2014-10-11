@@ -14,10 +14,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.8AmericanExpress", 
+                                "address": "1.5.8AmericanExpress.jpeg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.8AmericanExpress", 
+                            "name": "1.5.8AmericanExpress.jpeg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -33,10 +33,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.8Discover", 
+                                "address": "1.5.8Discover.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.8Discover", 
+                            "name": "1.5.8Discover.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
@@ -61,10 +61,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.5.8CashBack", 
+                                "address": "1.5.8CashBack.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.5.8CashBack", 
+                            "name": "1.5.8CashBack.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"
