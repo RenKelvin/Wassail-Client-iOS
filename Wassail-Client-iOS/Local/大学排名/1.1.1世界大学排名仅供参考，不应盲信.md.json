@@ -1,5 +1,6 @@
 {
     "body": {
+        "author": "\u4e92\u8054\u7f51", 
         "date": "2014/9/11", 
         "groups": [
             {
@@ -11,10 +12,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1.1\u9c8d\u6797\u683c", 
+                                "address": "1.1.1\u9c8d\u6797\u683c.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.1.1\u9c8d\u6797\u683c", 
+                            "name": "1.1.1\u9c8d\u6797\u683c.jpg", 
                             "type": "HLImg"
                         }, 
                         "kind": "Item"

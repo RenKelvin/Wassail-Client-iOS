@@ -15,10 +15,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0\u65af\u5766\u4f5b", 
+                                "address": "0\u65af\u5766\u4f5b.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0\u65af\u5766\u4f5b", 
+                            "name": "0\u65af\u5766\u4f5b.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -40,10 +40,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0\u5927\u5b66\u6392\u540d", 
+                                "address": "0\u5927\u5b66\u6392\u540d.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0\u5927\u5b66\u6392\u540d", 
+                            "name": "0\u5927\u5b66\u6392\u540d.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -65,10 +65,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0\u7f8e\u56fd\u56fd\u65d7", 
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0\u7f8e\u56fd\u56fd\u65d7", 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -85,10 +85,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0\u7f8e\u56fd\u56fd\u65d7", 
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0\u7f8e\u56fd\u56fd\u65d7", 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 

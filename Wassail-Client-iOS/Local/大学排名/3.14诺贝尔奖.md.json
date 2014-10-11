@@ -1,0 +1,446 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/9/10", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u53c8\u5230\u4e86\u4e00\u5e74\u8bfa\u8d1d\u5c14\u9881\u5956\u5b63\uff0c\u62e5\u6709\u591a\u5c11\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u662f\u4e00\u6240\u5927\u5b66\u662f\u5426\u6709\u5f3a\u5927\u5b9e\u529b\u7684\u4e00\u4e2a\u8861\u91cf\u6807\u51c6\u3002\u8bfa\u8d1d\u5c14\u5956\u9881\u5e03109\u5e74\u6765\uff0c\u5404\u7f8e\u56fd\u5927\u5b66\u4e2d\u8bfa\u8d1d\u5c14\u5956\u83b7\u5f97\u8005\u4eba\u6570\u7684\u6392\u540d\u7edf\u8ba1\uff0c\u4ee5\u6700\u9ad8\u5b66\u5386\u4e3a\u51c6 (\u535a\u58eb\uff0c\u4e0d\u5305\u62ec\u535a\u58eb\u540e\uff0c\u4e00\u822c\u535a\u58eb\u5177\u6709\u81ea\u4e3b\u7814\u53d1\u80fd\u529b)\u3002\u90a3\u4e48\u54ea\u4e9b\u5927\u5b66\u62e5\u6709\u6700\u591a\u7684\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u5462\uff1f\u8ba9\u6211\u4eec\u6765\u770b\u770b\uff1a", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.14\u54e5\u5927\u6821\u5fbd.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.14\u54e5\u5927\u6821\u5fbd.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "1.Columbia University \u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66\u3002\u54e5\u5927\u57f9\u517b\u51fa\u4e8637\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "(\u4e0e\u54e5\u5927\u6709\u5173\u7684\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u603b\u6570\u670975\u4f4d\uff0c\u4ee5\u4e0b\u7b80\u79f0\u201c\u603b\u6570\u201d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "2.Harvard Univ. \u54c8\u4f5b\u5927\u5b66\u3002\u54c8\u4f5b\u5927\u5b66\u57f9\u517b\u51fa\u4e8636\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657063\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "3.University of Chicago \u829d\u52a0\u54e5\u5927\u5b66\u3002\u829d\u5927\u57f9\u517b\u51fa\u4e8629\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657067\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "4.Univ. of California at Berkeley \u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821\u3002\u4f2f\u514b\u5229\u57f9\u517b\u51fa\u4e8625\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657046\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "5.MIT \u9ebb\u7701\u7406\u5de5\u5b66\u9662\u3002\u9ebb\u7701\u7406\u5de5\u57f9\u517b\u51fa\u4e8623\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657049\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "6.California Institute of Technology \u52a0\u5dde\u7406\u5de5\u5b66\u9662\u3002\u52a0\u5dde\u7406\u5de5\u57f9\u517b\u51fa\u4e8617\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657026\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "7.Yale Univ. \u8036\u9c81\u5927\u5b66\u3002\u8036\u9c81\u5927\u5b66\u57f9\u517b\u51fa\u4e8616\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657027\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "8.Princeton Univ. \u666e\u6797\u65af\u987f\u5927\u5b66\u3002\u666e\u5927\u57f9\u517b\u51fa\u4e8615\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657029\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "9.Cornell University \u5eb7\u4e43\u5c14\u5927\u5b66\u3002\u5eb7\u4e43\u5c14\u57f9\u517b\u51fa\u4e8612\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657033\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "10.Johns Hopkins University \u7ea6\u7ff0\u970d\u666e\u91d1\u65af\u5927\u5b66\u3002\u7ea6\u7ff0\u970d\u666e\u91d1\u65af\u57f9\u517b\u51fa\u4e8612\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657032\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "11.City University of New York \u7ebd\u7ea6\u5e02\u7acb\u5927\u5b66\u3002\u7ebd\u7ea6\u5e02\u7acb\u57f9\u517b\u51fa\u7684\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u670912\u4f4d(\u603b\u657013\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "12.University of Wisconsin at Madison \u5a01\u65af\u5eb7\u661f\u5927\u5b66\u3002\u5a01\u5927\u57f9\u517b\u51fa\u4e8611\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657017\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "13.Univ. of Illinois at Urbana-Champaign \u4f0a\u5229\u8bfa\u5927\u5b66\u9999\u69df\u5206\u6821\u3002\u4f0a\u5229\u8bfa\u5927\u5b66\u9999\u69df\u5206\u6821\u57f9\u517b\u51fa\u4e8610\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657017\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "14.University of Minnesota \u660e\u5c3c\u82cf\u8fbe\u5927\u5b66\u3002\u660e\u5927\u57f9\u517b\u51fa\u4e868\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657019\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "15.N Y U \u7ebd\u7ea6\u5927\u5b66\u57f9\u517b\u3002\u7ebd\u5927\u51fa\u4e868\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657017\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "16.Stanford Univ. \u65af\u5766\u798f\u5927\u5b66\u3002\u65af\u5766\u798f\u57f9\u517b\u51fa\u4e867\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657042\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "17.Case Western Reserve University\u3002 Case\u57f9\u517b\u51fa\u4e867\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657015\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "18.Univ. of Michigan (Ann Arbor) \u5bc6\u6b47\u6839\u5927\u5b66\u3002\u5bc6\u5927\u57f9\u517b\u51fa\u4e867\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u65707\u4f4d)\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "19.University of Pennsylvania \u5bbe\u897f\u6cd5\u5c3c\u4e9a\u5927\u5b66\u3002\u5bbe\u5927\u57f9\u517b\u51fa\u4e865\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657017\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "20.Carnegie Mellon University \u5361\u5185\u57fa\u7f8e\u9686\u3002\u5361\u5927\u57f9\u517b\u51fa\u4e865\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657013\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "21.Swarthmore College \u65af\u6c83\u601d\u83ab\u5b66\u9662\u3002\u57f9\u517b\u51fa\u4e865\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u65705\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "22.Washington University \u534e\u76db\u987f\u5927\u5b66-\u5723\u8def\u6613\u65af\u3002\u534e\u5723\u57f9\u517b\u51fa\u4e864\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u657023\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "23.Univ. of California at Los Angeles \u52a0\u5dde\u5927\u5b66\u6d1b\u6749\u77f6\u5206\u6821\u3002UCLA\u57f9\u517b\u51fa\u4e864\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u65708\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "24.University of Washington \u534e\u76db\u987f\u5927\u5b66-\u897f\u96c5\u56fe\u3002\u534e\u897f\u57f9\u517b\u51fa\u4e864\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b(\u603b\u65707\u4f4d)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u57f9\u517b\u51fa4\u4f4d\u4ee5\u4e0a\u7684\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u7684\u5927\u5b66\u4e2d\u67098\u6240\u5927\u5b66\u662f\u5dde\u7acb\u5927\u5b66\uff1a", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u4f2f\u514b\u5229", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ebd\u7ea6\u5e02\u7acb\u5927\u5b66", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f0a\u5229\u8bfa\u9999\u69df", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5a01\u65af\u5eb7\u661f", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u660e\u5c3c\u82cf\u8fbe\u5927\u5b66", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u6b47\u6839\u5927\u5b66", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u534e\u76db\u987f\u5927\u5b66-\u897f\u96c5\u56fe", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6d1b\u6749\u77f6\u52a0\u5927", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5dde\u7acb\u5927\u5b66"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4ece\u4e0a\u9762\u53ef\u4ee5\u770b\u51fa\uff1a\u540d\u724c\u5927\u5b66\u4e2d\u4e00\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u90fd\u6ca1\u6709\u57f9\u517b\u51fa\u6765\u7684\u5927\u5b66\u6392\u540d\u6bd4\u8f83\u9760\u524d\u7684UVA\u3001\u897f\u5317\u5927\u5b66\u3001EMORY\u3001\u4e54\u6cbb\u57ce", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5176\u5b83\u5927\u5b66\u7684\u6392\u540d\u4e0e\u57f9\u517b\u51fa\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u7684\u6570\u91cf\u4e0d\u592a\u7b26\u5408\u7684\u6709\uff1a", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u65af\u5766\u798f(\u57f9\u517b\u51fa\u4e867\u4f4d\u8bfa\u8d1d\u5c14\u5f97\u4e3b;\u8fc7\u53bb\u51e0\u5e74\u4e2d\u5927\u5b66\u6392\u540d\u7b2c4-6\u4f4d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b(\u57f9\u517b\u51fa\u4e862\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b;\u5927\u5b66\u6392\u540d\u524d10\u540d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8fbe\u7279\u8305\u65af(3\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b;\u5927\u5b66\u6392\u540d\u524d10\u540d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u897f\u5317\u5927\u5b66(\u6ca1\u6709\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b;\u5927\u5b66\u6392\u540d\u524d15\u540d)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717(\u57f9\u517b\u51fa\u4e862\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b;\u5927\u5b66\u6392\u540d\u7b2c15\u540d\u5de6\u53f3)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u4e0e\u6392\u540d\u4e0d\u592a\u76f8\u7b26"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.14\u8bfa\u8d1d\u5c14\u5956.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.14\u8bfa\u8d1d\u5c14\u5956.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u8fd8\u6709\u6392\u540d\u572815-30\u540d\u7684\u5927\u5b66\u5982\uff1a RICE\uff0cEMORY\uff0cVANDERBILT\uff0c\u4e54\u6cbb\u57ce\u7b49\uff0c\u7531\u4e8e\u5b66\u6821\u5b66\u751f\u89c4\u6a21\u5dee\u5f02\u592a\u5927\uff0c\u6309\u7167\u57f9\u517b\u51fa\u7684\u8bfa\u8d1d\u5c14\u5956\u4eba\u6570\u4e0e\u5728\u6821\u5b66\u751f\u4eba\u6570\u7684\u6bd4\u503c\u8ba1\u7b97\u5e94\u8be5\u66f4\u5408\u7406\u4e00\u4e9b\u3002\u6309\u7167\u57f9\u517b\u51fa\u4e00\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u9700\u8981\u7684\u5b66\u751f\u6570(K)\u8ba1\u7b97\uff0c\u5f97\u51fa\u4e00\u4e2a\u7cfb\u6570\u3002\u7cfb\u6570\u8ba1\u7b97\u6bd4\u8f83\u7c97\u7cd9\uff0c\u56e0\u4e3a\u5728\u6821\u5b66\u751f\u6570\u662f\u6309\u7167\u6700\u8fd110\u5e74\u7684\u6570\u5b57\uff0c\u4ec5\u4ec5\u6709\u53c2\u8003\u4ef7\u503c\u3002 \u7cfb\u6570\u8d8a\u5c0f\uff0c\u8868\u660e\u57f9\u517b\u51fa\u8bfa\u8d1d\u5c14\u5956\u7684\u6548\u7387\u8d8a\u9ad8\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "1.\u52a0\u5dde\u7406\u5de5 \u7cfb\u6570 28 \u5982\u679c\u628a\u8be5\u6570\u8c03\u65741\u7684\u8bdd\uff0c\u54c8\u4f5b\u5c31\u662f2\uff0c\u89c1\u62ec\u53f7\u5185\u6570\u5b57", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "2.\u54e5\u4f26\u6bd4\u4e9a 47 (1.7)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "3.\u54c8\u4f5b 58 (2)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "4.MIT 75 (2.7)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "5.\u829d\u52a0\u54e5\u5927\u5b66 112 (4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "6.\u666e\u6797\u65af\u987f 113 (4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "7.\u8036\u9c81\u5927\u5b66 130 (4.6)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "8.Swarthmore 186 (6.6)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "9.\u7ea6\u7ff0\u970d\u666e\u91d1\u65af 252 (9)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "10.\u65af\u5766\u798f 346 (12.4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "11.\u4f2f\u514b\u5229 349 (12.4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "12.Case Western Reserve 483 (17.3)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "13.\u5eb7\u5948\u5c14\u5927\u5b66 514 (18.4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "14.\u8fbe\u7279\u8305\u65af\u5b66\u9662 727 (26)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "15.\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 863 (30.8)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "16.\u5361\u8010\u57fa\u6885\u9686\u5927\u5b66 1050 (37.5)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "17.\u7ebd\u7ea6\u5927\u5b66 1130 (40.4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "18.\u9999\u69df 1212 (43.3)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "19.\u534e\u76db\u987f\u5927\u5b66\u5723\u8def\u6613\u65af 1414 (50.5)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "20.\u5a01\u65af\u5eb7\u661f 1580 (56.4)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "21.\u5723\u6bcd\u5927\u5b66 1721 (61.5)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "22.\u5bc6\u6b47\u6839\u5927\u5b66 1850 (66)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "23.\u660e\u5c3c\u82cf\u8fbe\u5927\u5b66 1880 (67)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "24.\u897f\u96c5\u56fe 2692 (96)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "25.UCLA 2736 (98)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u6309\u5b66\u6821\u89c4\u6a21\u7b97"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u7f8e\u56fd\u8fd8\u6709\u4e00\u4e9b\u57f9\u517b\u51fa3\u4f4d\u62162\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u7684\u5927\u5b66\uff1a", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Rutgers 3\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Pittsburgh 3\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Vanderbilt 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Purdue 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Maryland College Park 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The University of Texas at Austin 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Ohio State University 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Duke Univ \u675c\u514b\u5927\u5b66] 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Rice University 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "United States Naval Academy 2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Geogia Tech [\u4e54\u6cbb\u4e9a\u7406\u5de5]2\u4f4d", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u57f9\u517b\u51fa1\u4f4d\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u7684\u5927\u5b66\u6709\uff1a", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Tennessee", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Kansas", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Tufts", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Wisconsin-Milwaukee", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Virginia Commonwealth University", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Brandies", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of California Riverside", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Vermont", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Penn State", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Wesleyan", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Michigan Tech", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of New Mexico", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UT Southwestern", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of California San Diego", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5176\u4ed6"
+            }
+        ], 
+        "title": "\u8bfa\u8d1d\u5c14\u5956\u5f97\u4e3b\u5927\u5b66\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
