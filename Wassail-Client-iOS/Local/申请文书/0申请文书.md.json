@@ -14,10 +14,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0PS1", 
+                                "address": "0PS1.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0PS1", 
+                            "name": "0PS1.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -34,10 +34,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0RL1", 
+                                "address": "0RL1.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0RL1", 
+                            "name": "0RL1.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -54,10 +54,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0Resume2", 
+                                "address": "0Resume2.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0Resume2", 
+                            "name": "0Resume2.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 
@@ -74,10 +74,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0Portfolio2", 
+                                "address": "0Portfolio2.jpg", 
                                 "title": ""
                             }, 
-                            "name": "0Portfolio2", 
+                            "name": "0Portfolio2.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 

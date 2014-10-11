@@ -4,6 +4,10 @@
             {
                 "items": [
                     {
+                        "content": "\u6765\u6e90: http://jobsearch.about.com/od/cvsamples/a/cvtemplate.htm", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "CONTACT INFORMATION", 
                         "kind": "Section"
                     }, 
@@ -84,8 +88,12 @@
                         "kind": "Section"
                     }, 
                     {
-                        "content": "PROFESSIONAL QUALIFICATION\u2028Certifications and Accreditations", 
+                        "content": "PROFESSIONAL QUALIFICATION", 
                         "kind": "Section"
+                    }, 
+                    {
+                        "content": "Certifications and Accreditations", 
+                        "kind": "Graph"
                     }, 
                     {
                         "content": "Computer Skills", 
@@ -101,12 +109,16 @@
             {
                 "items": [
                     {
+                        "content": "\u6765\u6e90: \u65af\u5766\u798f\u5927\u5b66", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": {
                             "body": {
-                                "address": "3.4CV\u6837\u672c", 
+                                "address": "3.4CV\u6837\u672c.png", 
                                 "title": ""
                             }, 
-                            "name": "3.4CV\u6837\u672c", 
+                            "name": "3.4CV\u6837\u672c.png", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"

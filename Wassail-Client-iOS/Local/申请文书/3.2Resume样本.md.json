@@ -6,10 +6,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f", 
+                                "address": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f.png", 
                                 "title": ""
                             }, 
-                            "name": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f", 
+                            "name": "3.2\u63a8\u8350\u4fe1\u683c\u5f0f.png", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
@@ -22,10 +22,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2Resume", 
+                                "address": "3.2Resume.png", 
                                 "title": ""
                             }, 
-                            "name": "3.2Resume", 
+                            "name": "3.2Resume.png", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
