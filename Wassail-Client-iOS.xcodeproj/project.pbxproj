@@ -23,6 +23,39 @@
 		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
 		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
 		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
+		AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112919EB7A610088194C /* 0出国考试.md.json */; };
+		AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112A19EB7A610088194C /* 10GRE Subject.md.json */; };
+		AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */; };
+		AD40114D19EB7A610088194C /* 1托福.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112C19EB7A610088194C /* 1托福.md.json */; };
+		AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */; };
+		AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */; };
+		AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */; };
+		AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */; };
+		AD40115219EB7A610088194C /* 2雅思.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113119EB7A610088194C /* 2雅思.md.json */; };
+		AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */; };
+		AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */; };
+		AD40115519EB7A610088194C /* 3SAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113419EB7A610088194C /* 3SAT.md.json */; };
+		AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */; };
+		AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */; };
+		AD40115819EB7A610088194C /* 4ACT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113719EB7A610088194C /* 4ACT.md.json */; };
+		AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113819EB7A610088194C /* 4Barron'sACT.jpg */; };
+		AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113919EB7A610088194C /* 4The Real ACT.jpg */; };
+		AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113A19EB7A610088194C /* 5GRE.md.json */; };
+		AD40115C19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */; };
+		AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */; };
+		AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */; };
+		AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113E19EB7A610088194C /* 6GMAT.md.json */; };
+		AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */ = {isa = PBXBuildFile; fileRef = AD40113F19EB7A610088194C /* 6GMAT官方指南.png */; };
+		AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */; };
+		AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114119EB7A610088194C /* 7LSAT.md.json */; };
+		AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */; };
+		AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */; };
+		AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */; };
+		AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114519EB7A610088194C /* 8MCAT.md.json */; };
+		AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */; };
+		AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */; };
+		AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */; };
+		AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114919EB7A610088194C /* 9SAT Subject.md.json */; };
 		AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */; };
 		AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */; };
 		AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */; };
@@ -352,6 +385,39 @@
 		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
 		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
 		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
+		AD40112919EB7A610088194C /* 0出国考试.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0出国考试.md.json"; sourceTree = "<group>"; };
+		AD40112A19EB7A610088194C /* 10GRE Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10GRE Subject.md.json"; sourceTree = "<group>"; };
+		AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1全真模考题与精解.jpg"; sourceTree = "<group>"; };
+		AD40112C19EB7A610088194C /* 1托福.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1托福.md.json"; sourceTree = "<group>"; };
+		AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试冲刺试题.jpg"; sourceTree = "<group>"; };
+		AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试备考策略与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2剑桥雅思考试全真试题解析.jpeg"; sourceTree = "<group>"; };
+		AD40113119EB7A610088194C /* 2雅思.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2雅思.md.json"; sourceTree = "<group>"; };
+		AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2雅思考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3Practice Tests for the SAT & PSAT.jpg"; sourceTree = "<group>"; };
+		AD40113419EB7A610088194C /* 3SAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3SAT.md.json; sourceTree = "<group>"; };
+		AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3SAT综合指导与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3美国SAT考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113719EB7A610088194C /* 4ACT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4ACT.md.json; sourceTree = "<group>"; };
+		AD40113819EB7A610088194C /* 4Barron'sACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4Barron'sACT.jpg"; sourceTree = "<group>"; };
+		AD40113919EB7A610088194C /* 4The Real ACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4The Real ACT.jpg"; sourceTree = "<group>"; };
+		AD40113A19EB7A610088194C /* 5GRE.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5GRE.md.json; sourceTree = "<group>"; };
+		AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE备考策略与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE词汇精选.jpeg"; sourceTree = "<group>"; };
+		AD40113E19EB7A610088194C /* 6GMAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6GMAT.md.json; sourceTree = "<group>"; };
+		AD40113F19EB7A610088194C /* 6GMAT官方指南.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6GMAT官方指南.png"; sourceTree = "<group>"; };
+		AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6GMAT词汇精选.jpg"; sourceTree = "<group>"; };
+		AD40114119EB7A610088194C /* 7LSAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7LSAT.md.json; sourceTree = "<group>"; };
+		AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7LSAT全真题汇编.jpg"; sourceTree = "<group>"; };
+		AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7Official LSAT Preptest.jpeg"; sourceTree = "<group>"; };
+		AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8Kaplan MCAT Review.jpg"; sourceTree = "<group>"; };
+		AD40114519EB7A610088194C /* 8MCAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8MCAT.md.json; sourceTree = "<group>"; };
+		AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 化学.jpg"; sourceTree = "<group>"; };
+		AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 数学.jpg"; sourceTree = "<group>"; };
+		AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 物理.jpg"; sourceTree = "<group>"; };
+		AD40114919EB7A610088194C /* 9SAT Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9SAT Subject.md.json"; sourceTree = "<group>"; };
 		AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14哥大校徽.jpg"; sourceTree = "<group>"; };
 		AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14诺贝尔奖.jpg"; sourceTree = "<group>"; };
 		AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.14诺贝尔奖.md.json"; sourceTree = "<group>"; };
@@ -690,6 +756,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD40112819EB7A610088194C /* 出国考试 */ = {
+			isa = PBXGroup;
+			children = (
+				AD40112919EB7A610088194C /* 0出国考试.md.json */,
+				AD40112A19EB7A610088194C /* 10GRE Subject.md.json */,
+				AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */,
+				AD40112C19EB7A610088194C /* 1托福.md.json */,
+				AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */,
+				AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */,
+				AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */,
+				AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */,
+				AD40113119EB7A610088194C /* 2雅思.md.json */,
+				AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */,
+				AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */,
+				AD40113419EB7A610088194C /* 3SAT.md.json */,
+				AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */,
+				AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */,
+				AD40113719EB7A610088194C /* 4ACT.md.json */,
+				AD40113819EB7A610088194C /* 4Barron'sACT.jpg */,
+				AD40113919EB7A610088194C /* 4The Real ACT.jpg */,
+				AD40113A19EB7A610088194C /* 5GRE.md.json */,
+				AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */,
+				AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */,
+				AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */,
+				AD40113E19EB7A610088194C /* 6GMAT.md.json */,
+				AD40113F19EB7A610088194C /* 6GMAT官方指南.png */,
+				AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */,
+				AD40114119EB7A610088194C /* 7LSAT.md.json */,
+				AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */,
+				AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */,
+				AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */,
+				AD40114519EB7A610088194C /* 8MCAT.md.json */,
+				AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */,
+				AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */,
+				AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */,
+				AD40114919EB7A610088194C /* 9SAT Subject.md.json */,
+			);
+			path = "出国考试";
+			sourceTree = "<group>";
+		};
 		FE08E0ED19DD9B720016A1A2 /* 留学时间表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -811,6 +917,7 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				FE5BC07819D71BD4007E63BC /* 大学排名 */,
@@ -1495,6 +1602,7 @@
 			files = (
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
+				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
@@ -1510,6 +1618,7 @@
 				FEB211EA19DA940C00647560 /* 2.9Yale Insider.jpeg in Resources */,
 				FEB211DE19DA940C00647560 /* 1.1.2ARWU.png in Resources */,
 				FEB211E119DA940C00647560 /* 1.2.2Top200按国家统计对比.png in Resources */,
+				AD40114D19EB7A610088194C /* 1托福.md.json in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
@@ -1517,11 +1626,13 @@
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
+				AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
 				ADCF1ECE19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png in Resources */,
 				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
 				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
+				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
 				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
@@ -1532,18 +1643,22 @@
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
+				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
 				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
+				AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */,
 				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
 				ADBF2CE019DF9EDF0029A327 /* 4.0LinkedIn排名.md.json in Resources */,
+				AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
 				FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */,
+				AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */,
 				ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
@@ -1552,6 +1667,7 @@
 				AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */,
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
+				AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */,
@@ -1562,6 +1678,7 @@
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
 				FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */,
 				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
+				AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
@@ -1578,13 +1695,17 @@
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
+				AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */,
 				FEB211E619DA940C00647560 /* 2.2.4剑桥.jpg in Resources */,
+				AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */,
 				ADBF2CDE19DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
+				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
+				AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */,
 				AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */,
 				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
@@ -1606,6 +1727,7 @@
 				FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
+				AD40115219EB7A610088194C /* 2雅思.md.json in Resources */,
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
@@ -1622,12 +1744,18 @@
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
 				FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */,
+				AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
 				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
+				AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
+				AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */,
 				ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */,
+				AD40115819EB7A610088194C /* 4ACT.md.json in Resources */,
+				AD40115519EB7A610088194C /* 3SAT.md.json in Resources */,
+				AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */,
 				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
 				FE72630919E013C3005739D0 /* 0排名.png in Resources */,
 				FE7262F519DFEA11005739D0 /* 3.2推荐信格式.png in Resources */,
@@ -1641,6 +1769,7 @@
 				AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */,
 				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
+				AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FEE1602219D925030022883E /* 1.3.2.1THE2013-2014.png in Resources */,
 				FEA0FBE219D846A400A24409 /* 1.3.2.2THE2012-2013.md.json in Resources */,
@@ -1654,13 +1783,16 @@
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
+				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
 				FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				ADBF2CDF19DF9EDF0029A327 /* 3.1申请自费硕士应该如何选校、如何看待学校排名_.md.json in Resources */,
+				AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
 				ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */,
+				AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */,
@@ -1678,6 +1810,8 @@
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
 				FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
+				AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */,
+				AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
@@ -1686,8 +1820,10 @@
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
 				AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
+				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
+				AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
 				AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */,
@@ -1697,15 +1833,18 @@
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
+				AD40115C19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
+				AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */,
 				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
+				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
 				AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */,
@@ -1718,6 +1857,7 @@
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 				FEB211E319DA940C00647560 /* 2.2.2Northeastern.jpg in Resources */,
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
+				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FEA0FBF319D846A400A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
 				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
