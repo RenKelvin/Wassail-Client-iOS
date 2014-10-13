@@ -37,9 +37,6 @@ class HLToolPreviewView: HLItemView {
             readyLabel!.hidden = true
         }
         
-        //
-        //        self.frame.size.width = DefaultInfo.instance.getScreenWidth() - 30.0
-        //        self.frame.size.height = 64.0
     }
     
     @IBAction func tapHandler() {
@@ -72,6 +69,9 @@ class HLToolPreviewView: HLItemView {
         }
         else if (title == "申请文书") {
             controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0申请文书")
+        }
+        else if (title == "出国考试") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0出国考试")
         }
         else {
             controller!.performSegueWithIdentifier(identifier, sender: nil)

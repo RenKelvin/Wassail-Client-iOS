@@ -5,7 +5,8 @@
                "gpa calculator",
                "apply documents",
                "offer broadcast",
-               "aboard words"
+               "aboard words",
+               "aboard exams"
                ],
               [
                "credit card",
@@ -23,7 +24,7 @@
         "identifier": "UniversityRankings"
     },
     "aboard exams": {
-        "ready": "false",
+        "ready": "true",
         "note": "语言考试、入学考试等介绍",
         "title": "出国考试",
         "icon": "ToolsIconAboardExams",

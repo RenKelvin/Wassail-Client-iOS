@@ -760,7 +760,6 @@
 			isa = PBXGroup;
 			children = (
 				AD40112919EB7A610088194C /* 0出国考试.md.json */,
-				AD40112A19EB7A610088194C /* 10GRE Subject.md.json */,
 				AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */,
 				AD40112C19EB7A610088194C /* 1托福.md.json */,
 				AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */,
@@ -792,6 +791,7 @@
 				AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */,
 				AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */,
 				AD40114919EB7A610088194C /* 9SAT Subject.md.json */,
+				AD40112A19EB7A610088194C /* 10GRE Subject.md.json */,
 			);
 			path = "出国考试";
 			sourceTree = "<group>";
@@ -917,9 +917,9 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
+				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07819D71BD4007E63BC /* 大学排名 */,
 				FE7262C919DFEA11005739D0 /* 申请文书 */,
 			);
@@ -941,9 +941,6 @@
 		FE5BC07819D71BD4007E63BC /* 大学排名 */ = {
 			isa = PBXGroup;
 			children = (
-				AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */,
-				AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */,
-				AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */,
 				ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */,
 				FE72630619E013C3005739D0 /* 0地球.png */,
 				FEB211CC19DA940C00647560 /* 0大学排名.jpg */,
@@ -1045,6 +1042,9 @@
 				FEA0FBD419D846A400A24409 /* 3.11.0医学院排名.md.json */,
 				FEA0FBD519D846A400A24409 /* 3.12.0美术学院排名.md.json */,
 				FEA0FBD619D846A400A24409 /* 3.13其他排名.md.json */,
+				AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */,
+				AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */,
+				AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */,
 				ADBF2CDA19DF9EDF0029A327 /* 4.0LinkedIn排名.md.json */,
 			);
 			path = "大学排名";
@@ -1135,6 +1135,19 @@
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
+				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
+				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
+				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
+				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
+				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
+				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
+				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
+				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
+				FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */,
+				FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */,
+				FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */,
+				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
+				FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */,
 				AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */,
 				AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */,
 				AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */,
@@ -1148,21 +1161,8 @@
 				AD1EBB2419E0733E00515F5B /* 2.6素材.jpg */,
 				AD1EBB2519E0733E00515F5B /* 2.6素材选择.md.json */,
 				AD1EBB2619E0733E00515F5B /* 2.7小论文范文.md.json */,
-				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
-				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
-				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
-				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
-				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
-				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
-				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
-				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
-				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
-				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
-				FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */,
-				FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */,
-				FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */,
-				FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */,
 				FE7262D519DFEA11005739D0 /* 3.0个人简历.md.json */,
+				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
 				FE7262D619DFEA11005739D0 /* 3.1Resume3.jpg */,
 				FE7262D719DFEA11005739D0 /* 3.1Resume内容.md.json */,
 				FE7262D819DFEA11005739D0 /* 3.2Resume.png */,
