@@ -12,7 +12,7 @@ private let _DefaultAccessorSharedInstance = DefaultAccessor()
 
 class DefaultAccessor: NSObject {
     
-    var imageCache: NSMutableDictionary = NSMutableDictionary()
+    var imageCache: NSMutableDictionary = NSMutableDictionary(capacity: 5)
     
     class var instance : DefaultAccessor {
     return _DefaultAccessorSharedInstance
