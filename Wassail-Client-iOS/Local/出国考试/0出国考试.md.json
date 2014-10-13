@@ -1,0 +1,139 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1\u6258\u798f", 
+                                "title": "\u6258\u798f (TOEFL)"
+                            }, 
+                            "name": "1\u6258\u798f", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2\u96c5\u601d", 
+                                "title": "\u96c5\u601d (IELTS)"
+                            }, 
+                            "name": "2\u96c5\u601d", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u8bed\u8a00\u8003\u8bd5"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3SAT", 
+                                "title": "\u7f8e\u56fd\u9ad8\u8003SAT"
+                            }, 
+                            "name": "3SAT", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "4ACT", 
+                                "title": "\u7f8e\u56fd\u9ad8\u8003ACT"
+                            }, 
+                            "name": "4ACT", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u672c\u79d1\u7efc\u5408\u8003\u8bd5"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "5GRE", 
+                                "title": "\u7f8e\u56fd\u7814\u7a76\u751f\u5165\u5b66\u8003\u8bd5GRE"
+                            }, 
+                            "name": "5GRE", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "6GMAT", 
+                                "title": "\u7f8e\u56fd\u5546\u5b66\u9662\u5165\u5b66\u8003\u8bd5GMAT"
+                            }, 
+                            "name": "6GMAT", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "7LSAT", 
+                                "title": "\u7f8e\u56fd\u6cd5\u5b66\u9662\u5165\u5b66\u8003\u8bd5LSAT"
+                            }, 
+                            "name": "7LSAT", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "8MCAT", 
+                                "title": "\u7f8e\u56fd\u533b\u5b66\u9662\u5165\u5b66\u8003\u8bd5MCAT"
+                            }, 
+                            "name": "8MCAT", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u7814\u7a76\u751f\u7efc\u5408\u8003\u8bd5"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "9SAT Subject", 
+                                "title": "SAT Subject Test"
+                            }, 
+                            "name": "9SAT Subject", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "10GRE Subject", 
+                                "title": "GRE Subject Test"
+                            }, 
+                            "name": "10GRE Subject", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u79d1\u76ee\u8003\u8bd5"
+            }
+        ], 
+        "title": "\u51fa\u56fd\u8003\u8bd5"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}
