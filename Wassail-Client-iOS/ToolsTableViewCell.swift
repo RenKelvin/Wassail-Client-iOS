@@ -33,9 +33,11 @@ class ToolsTableViewCell: HLTableViewCell {
         let ready = dict!.objectForKey("ready") as NSString?
         if (ready == "false") {
             readyLabel!.hidden = false
+            titleLabel!.textColor = UIColor.HLTextGray()
         }
         else {
             readyLabel!.hidden = true
+            titleLabel!.textColor = UIColor.HLTextBlack()
         }
     }
     

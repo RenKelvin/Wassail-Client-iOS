@@ -20,17 +20,20 @@ class Wassail_v1: NSObject {
     let host: NSString = "haile.elasticbeanstalk.com"
     let path: NSString = "/api/v1"
     
+    // MARK: -
+    
     func sendFeedback(text: NSString) {
         
         let api: NSString = "/others/feedback"
         
         let body: NSMutableDictionary = NSMutableDictionary()
         
-        body.setObject(text, forKey: "Msg")
+        body.setObject(text, forKey: "message")
         
         self.post(api, body: body)
     }
     
+    // MARK: -
     
     func post(api: NSString, body: NSDictionary) {
         

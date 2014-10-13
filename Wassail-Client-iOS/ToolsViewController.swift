@@ -14,7 +14,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var tableViewHeaderView: UIView?
     
     @IBOutlet var navigationView: UIView?
-
+    
     @IBOutlet var monthLabel: UILabel?
     @IBOutlet var dayLabel: UILabel?
     
@@ -55,7 +55,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     // MARK: - IBAction
-
+    
     @IBAction func tablewHeaderTapped() {
         self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学时间表")
     }
@@ -134,6 +134,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
                 ""
             case 4:
                 self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
+            case 5:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
             default:
                 ""
             }

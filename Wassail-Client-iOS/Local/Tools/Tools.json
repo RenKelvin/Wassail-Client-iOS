@@ -23,8 +23,8 @@
         "identifier": "UniversityRankings"
     },
     "aboard exams": {
-        "ready": "false",
-        "note": "语言考试、入学考试、资格考试介绍",
+        "ready": "true",
+        "note": "语言考试、入学考试等介绍",
         "title": "出国考试",
         "icon": "ToolsIconAboardExams",
         "identifier": "AboardExams"

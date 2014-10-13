@@ -23,6 +23,43 @@
 		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
 		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
 		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
+		AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112919EB7A610088194C /* 0出国考试.md.json */; };
+		AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112A19EB7A610088194C /* 10GRE Subject.md.json */; };
+		AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */; };
+		AD40114D19EB7A610088194C /* 1托福.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112C19EB7A610088194C /* 1托福.md.json */; };
+		AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */; };
+		AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */; };
+		AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */; };
+		AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */; };
+		AD40115219EB7A610088194C /* 2雅思.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113119EB7A610088194C /* 2雅思.md.json */; };
+		AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */; };
+		AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */; };
+		AD40115519EB7A610088194C /* 3SAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113419EB7A610088194C /* 3SAT.md.json */; };
+		AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */; };
+		AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */; };
+		AD40115819EB7A610088194C /* 4ACT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113719EB7A610088194C /* 4ACT.md.json */; };
+		AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113819EB7A610088194C /* 4Barron'sACT.jpg */; };
+		AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113919EB7A610088194C /* 4The Real ACT.jpg */; };
+		AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113A19EB7A610088194C /* 5GRE.md.json */; };
+		AD40115C19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */; };
+		AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */; };
+		AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */; };
+		AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40113E19EB7A610088194C /* 6GMAT.md.json */; };
+		AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */ = {isa = PBXBuildFile; fileRef = AD40113F19EB7A610088194C /* 6GMAT官方指南.png */; };
+		AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */; };
+		AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114119EB7A610088194C /* 7LSAT.md.json */; };
+		AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */; };
+		AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */; };
+		AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */; };
+		AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114519EB7A610088194C /* 8MCAT.md.json */; };
+		AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */; };
+		AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */; };
+		AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */; };
+		AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114919EB7A610088194C /* 9SAT Subject.md.json */; };
+		AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */; };
+		AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */; };
+		AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */; };
+		AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */; };
 		ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */; };
 		ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */; };
 		ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */; };
@@ -90,6 +127,35 @@
 		FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5BC07519D71BD4007E63BC /* Unit Converter.json */; };
 		FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */; };
 		FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */; };
+		FE60E67719E56C4F00147EF9 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */; };
+		FE60E67B19E56D0500147EF9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67A19E56D0500147EF9 /* libz.dylib */; };
+		FE60E67C19E56D3500147EF9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67819E56CD200147EF9 /* libsqlite3.dylib */; };
+		FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67D19E56DBA00147EF9 /* Bolts.framework */; };
+		FE60E68519E56DBA00147EF9 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67E19E56DBA00147EF9 /* GZIP.framework */; };
+		FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E67F19E56DBA00147EF9 /* Mantle.framework */; };
+		FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68019E56DBA00147EF9 /* Reachability.framework */; };
+		FE60E68819E56DBA00147EF9 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68119E56DBA00147EF9 /* TMCache.framework */; };
+		FE60E68919E56DBA00147EF9 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */; };
+		FE60E68A19E56DBA00147EF9 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */; };
+		FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */; };
+		FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */; };
+		FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */; };
+		FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */; };
+		FE60E6A019E56E1F00147EF9 /* ec2-2014-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */; };
+		FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */; };
+		FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */; };
+		FE60E6A319E56E1F00147EF9 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */; };
+		FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */; };
+		FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */; };
+		FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */; };
+		FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */; };
+		FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */; };
+		FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */; };
+		FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */; };
+		FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */; };
+		FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */; };
+		FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */; };
+		FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -217,7 +283,7 @@
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
 		FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */; };
-		FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */; };
+		FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */; };
 		FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */; };
 		FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */; };
 		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
@@ -319,6 +385,43 @@
 		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
 		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
 		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
+		AD40112919EB7A610088194C /* 0出国考试.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0出国考试.md.json"; sourceTree = "<group>"; };
+		AD40112A19EB7A610088194C /* 10GRE Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10GRE Subject.md.json"; sourceTree = "<group>"; };
+		AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1全真模考题与精解.jpg"; sourceTree = "<group>"; };
+		AD40112C19EB7A610088194C /* 1托福.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1托福.md.json"; sourceTree = "<group>"; };
+		AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试冲刺试题.jpg"; sourceTree = "<group>"; };
+		AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试备考策略与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1新托福考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2剑桥雅思考试全真试题解析.jpeg"; sourceTree = "<group>"; };
+		AD40113119EB7A610088194C /* 2雅思.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2雅思.md.json"; sourceTree = "<group>"; };
+		AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2雅思考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3Practice Tests for the SAT & PSAT.jpg"; sourceTree = "<group>"; };
+		AD40113419EB7A610088194C /* 3SAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3SAT.md.json; sourceTree = "<group>"; };
+		AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3SAT综合指导与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3美国SAT考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113719EB7A610088194C /* 4ACT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4ACT.md.json; sourceTree = "<group>"; };
+		AD40113819EB7A610088194C /* 4Barron'sACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4Barron'sACT.jpg"; sourceTree = "<group>"; };
+		AD40113919EB7A610088194C /* 4The Real ACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4The Real ACT.jpg"; sourceTree = "<group>"; };
+		AD40113A19EB7A610088194C /* 5GRE.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5GRE.md.json; sourceTree = "<group>"; };
+		AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE备考策略与模拟试题.jpg"; sourceTree = "<group>"; };
+		AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE考试官方指南.jpg"; sourceTree = "<group>"; };
+		AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5GRE词汇精选.jpeg"; sourceTree = "<group>"; };
+		AD40113E19EB7A610088194C /* 6GMAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6GMAT.md.json; sourceTree = "<group>"; };
+		AD40113F19EB7A610088194C /* 6GMAT官方指南.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6GMAT官方指南.png"; sourceTree = "<group>"; };
+		AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6GMAT词汇精选.jpg"; sourceTree = "<group>"; };
+		AD40114119EB7A610088194C /* 7LSAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7LSAT.md.json; sourceTree = "<group>"; };
+		AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7LSAT全真题汇编.jpg"; sourceTree = "<group>"; };
+		AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7Official LSAT Preptest.jpeg"; sourceTree = "<group>"; };
+		AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8Kaplan MCAT Review.jpg"; sourceTree = "<group>"; };
+		AD40114519EB7A610088194C /* 8MCAT.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8MCAT.md.json; sourceTree = "<group>"; };
+		AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 化学.jpg"; sourceTree = "<group>"; };
+		AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 数学.jpg"; sourceTree = "<group>"; };
+		AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 物理.jpg"; sourceTree = "<group>"; };
+		AD40114919EB7A610088194C /* 9SAT Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9SAT Subject.md.json"; sourceTree = "<group>"; };
+		AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14哥大校徽.jpg"; sourceTree = "<group>"; };
+		AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14诺贝尔奖.jpg"; sourceTree = "<group>"; };
+		AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.14诺贝尔奖.md.json"; sourceTree = "<group>"; };
+		AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.5.9AMEXBlueCash.jpg; sourceTree = "<group>"; };
 		ADBF2CD519DF9EDF0029A327 /* 0剑桥2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0剑桥2.jpg"; sourceTree = "<group>"; };
 		ADBF2CD619DF9EDF0029A327 /* 1.0ARWU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0ARWU.jpg; sourceTree = "<group>"; };
 		ADBF2CD719DF9EDF0029A327 /* 1.0QS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.0QS.jpg; sourceTree = "<group>"; };
@@ -390,6 +493,38 @@
 		FE5BC07519D71BD4007E63BC /* Unit Converter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Unit Converter.json"; sourceTree = "<group>"; };
 		FE5FB99919C6B63A00F37192 /* RKSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorView.swift; sourceTree = "<group>"; };
 		FE5FB9A319C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		FE60E67819E56CD200147EF9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FE60E67A19E56D0500147EF9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FE60E67D19E56DBA00147EF9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FE60E67E19E56DBA00147EF9 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GZIP.framework; sourceTree = "<group>"; };
+		FE60E67F19E56DBA00147EF9 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = "<group>"; };
+		FE60E68019E56DBA00147EF9 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		FE60E68119E56DBA00147EF9 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMCache.framework; sourceTree = "<group>"; };
+		FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLDictionary.framework; sourceTree = "<group>"; };
+		FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cib-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "css-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ec2-2014-06-15.json"; sourceTree = "<group>"; };
+		FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "email-2010-12-01.json"; sourceTree = "<group>"; };
+		FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "s3-2006-03-01.json"; sourceTree = "<group>"; };
+		FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sns-2010-03-31.json"; sourceTree = "<group>"; };
+		FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
+		FE60E6AC19E58BE200147EF9 /* Wassail-Client-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wassail-Client-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE60E6AD19E58BE300147EF9 /* AWSCognitoAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSCognitoAdapter.h; sourceTree = "<group>"; };
+		FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCognitoAdapter.m; sourceTree = "<group>"; };
+		FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoSync.framework; sourceTree = "<group>"; };
+		FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAdapter.swift; sourceTree = "<group>"; };
+		FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMobileAnalyticsAdapter.h; sourceTree = "<group>"; };
+		FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMobileAnalyticsAdapter.m; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -517,7 +652,7 @@
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackInfo.swift; sourceTree = "<group>"; };
-		FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMediator.swift; sourceTree = "<group>"; };
+		FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAdapter.swift; sourceTree = "<group>"; };
 		FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMediator.swift; sourceTree = "<group>"; };
 		FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail_v1.swift; sourceTree = "<group>"; };
@@ -597,6 +732,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE60E67B19E56D0500147EF9 /* libz.dylib in Frameworks */,
+				FE60E67C19E56D3500147EF9 /* libsqlite3.dylib in Frameworks */,
+				FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */,
+				FE60E68819E56DBA00147EF9 /* TMCache.framework in Frameworks */,
+				FE60E68919E56DBA00147EF9 /* UICKeyChainStore.framework in Frameworks */,
+				FE60E68519E56DBA00147EF9 /* GZIP.framework in Frameworks */,
+				FE60E67719E56C4F00147EF9 /* AWSiOSSDKv2.framework in Frameworks */,
+				FE60E68A19E56DBA00147EF9 /* XMLDictionary.framework in Frameworks */,
+				FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */,
+				FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */,
+				FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +756,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD40112819EB7A610088194C /* 出国考试 */ = {
+			isa = PBXGroup;
+			children = (
+				AD40112919EB7A610088194C /* 0出国考试.md.json */,
+				AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */,
+				AD40112C19EB7A610088194C /* 1托福.md.json */,
+				AD40112D19EB7A610088194C /* 1新托福考试冲刺试题.jpg */,
+				AD40112E19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg */,
+				AD40112F19EB7A610088194C /* 1新托福考试官方指南.jpg */,
+				AD40113019EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg */,
+				AD40113119EB7A610088194C /* 2雅思.md.json */,
+				AD40113219EB7A610088194C /* 2雅思考试官方指南.jpg */,
+				AD40113319EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg */,
+				AD40113419EB7A610088194C /* 3SAT.md.json */,
+				AD40113519EB7A610088194C /* 3SAT综合指导与模拟试题.jpg */,
+				AD40113619EB7A610088194C /* 3美国SAT考试官方指南.jpg */,
+				AD40113719EB7A610088194C /* 4ACT.md.json */,
+				AD40113819EB7A610088194C /* 4Barron'sACT.jpg */,
+				AD40113919EB7A610088194C /* 4The Real ACT.jpg */,
+				AD40113A19EB7A610088194C /* 5GRE.md.json */,
+				AD40113B19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg */,
+				AD40113C19EB7A610088194C /* 5GRE考试官方指南.jpg */,
+				AD40113D19EB7A610088194C /* 5GRE词汇精选.jpeg */,
+				AD40113E19EB7A610088194C /* 6GMAT.md.json */,
+				AD40113F19EB7A610088194C /* 6GMAT官方指南.png */,
+				AD40114019EB7A610088194C /* 6GMAT词汇精选.jpg */,
+				AD40114119EB7A610088194C /* 7LSAT.md.json */,
+				AD40114219EB7A610088194C /* 7LSAT全真题汇编.jpg */,
+				AD40114319EB7A610088194C /* 7Official LSAT Preptest.jpeg */,
+				AD40114419EB7A610088194C /* 8Kaplan MCAT Review.jpg */,
+				AD40114519EB7A610088194C /* 8MCAT.md.json */,
+				AD40114619EB7A610088194C /* 9Barron's SAT 2 化学.jpg */,
+				AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */,
+				AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */,
+				AD40114919EB7A610088194C /* 9SAT Subject.md.json */,
+				AD40112A19EB7A610088194C /* 10GRE Subject.md.json */,
+			);
+			path = "出国考试";
+			sourceTree = "<group>";
+		};
 		FE08E0ED19DD9B720016A1A2 /* 留学时间表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -690,9 +876,9 @@
 				FEC8649119BD3C98005087A3 /* View */,
 				FEC8649319BD3CDF005087A3 /* Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
-				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
 				FEC3BD5619C29D1D00184760 /* Mapper */,
+				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
 				FEB1D7EE19CEB2E6002F7285 /* Mediator */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
@@ -705,6 +891,7 @@
 		FE5B1F8D19B4033B00842C3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE60E6AC19E58BE200147EF9 /* Wassail-Client-iOS-Bridging-Header.h */,
 				FE5B1F8E19B4033B00842C3D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -732,6 +919,7 @@
 			children = (
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
+				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07819D71BD4007E63BC /* 大学排名 */,
 				FE7262C919DFEA11005739D0 /* 申请文书 */,
 			);
@@ -854,6 +1042,9 @@
 				FEA0FBD419D846A400A24409 /* 3.11.0医学院排名.md.json */,
 				FEA0FBD519D846A400A24409 /* 3.12.0美术学院排名.md.json */,
 				FEA0FBD619D846A400A24409 /* 3.13其他排名.md.json */,
+				AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */,
+				AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */,
+				AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */,
 				ADBF2CDA19DF9EDF0029A327 /* 4.0LinkedIn排名.md.json */,
 			);
 			path = "大学排名";
@@ -868,9 +1059,95 @@
 			name = RKSelectorView;
 			sourceTree = "<group>";
 		};
+		FE60E67519E56B0900147EF9 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D7FD19CF10E6002F7285 /* AWS */,
+				FE60E68B19E56DD300147EF9 /* Cocoa */,
+				FE60E6B319E596CE00147EF9 /* Others */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		FE60E68B19E56DD300147EF9 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E67819E56CD200147EF9 /* libsqlite3.dylib */,
+				FE60E67A19E56D0500147EF9 /* libz.dylib */,
+			);
+			name = Cocoa;
+			sourceTree = "<group>";
+		};
+		FE60E68C19E56E1F00147EF9 /* service-definitions */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E68D19E56E1F00147EF9 /* autoscaling-2011-01-01.json */,
+				FE60E68E19E56E1F00147EF9 /* cib-2014-06-30.json */,
+				FE60E68F19E56E1F00147EF9 /* css-2014-06-30.json */,
+				FE60E69019E56E1F00147EF9 /* dynamodb-2012-08-10.json */,
+				FE60E69119E56E1F00147EF9 /* ec2-2014-06-15.json */,
+				FE60E69219E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json */,
+				FE60E69319E56E1F00147EF9 /* email-2010-12-01.json */,
+				FE60E69419E56E1F00147EF9 /* kinesis-2013-12-02.json */,
+				FE60E69519E56E1F00147EF9 /* mobileanalytics-2014-06-30.json */,
+				FE60E69619E56E1F00147EF9 /* monitoring-2010-08-01.json */,
+				FE60E69719E56E1F00147EF9 /* s3-2006-03-01.json */,
+				FE60E69819E56E1F00147EF9 /* sdb-2009-04-15.json */,
+				FE60E69919E56E1F00147EF9 /* sns-2010-03-31.json */,
+				FE60E69A19E56E1F00147EF9 /* sqs-2012-11-05.json */,
+				FE60E69B19E56E1F00147EF9 /* sts-2011-06-15.json */,
+			);
+			path = "service-definitions";
+			sourceTree = "<group>";
+		};
+		FE60E6AB19E56F5B00147EF9 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
+		FE60E6B219E596BA00147EF9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E68C19E56E1F00147EF9 /* service-definitions */,
+				FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */,
+				FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FE60E6B319E596CE00147EF9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FE60E67D19E56DBA00147EF9 /* Bolts.framework */,
+				FE60E67E19E56DBA00147EF9 /* GZIP.framework */,
+				FE60E67F19E56DBA00147EF9 /* Mantle.framework */,
+				FE60E68019E56DBA00147EF9 /* Reachability.framework */,
+				FE60E68119E56DBA00147EF9 /* TMCache.framework */,
+				FE60E68219E56DBA00147EF9 /* UICKeyChainStore.framework */,
+				FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
+				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
+				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
+				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
+				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
+				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
+				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
+				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
+				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
+				FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */,
+				FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */,
+				FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */,
+				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
+				FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */,
 				AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */,
 				AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */,
 				AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */,
@@ -884,21 +1161,8 @@
 				AD1EBB2419E0733E00515F5B /* 2.6素材.jpg */,
 				AD1EBB2519E0733E00515F5B /* 2.6素材选择.md.json */,
 				AD1EBB2619E0733E00515F5B /* 2.7小论文范文.md.json */,
-				AD3249B219E0448300796A5D /* 1.5范文.md.json */,
-				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
-				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
-				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
-				FE7262CC19DFEA11005739D0 /* 0RL1.jpg */,
-				FE7262CD19DFEA11005739D0 /* 0申请文书.md.json */,
-				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
-				FE7262CE19DFEA11005739D0 /* 1.0推荐信.md.json */,
-				FE7262CF19DFEA11005739D0 /* 1.1RL2.jpg */,
-				FE7262D019DFEA11005739D0 /* 1.1选择推荐人.md.json */,
-				FE7262D119DFEA11005739D0 /* 1.2推荐信结构.md.json */,
-				FE7262D219DFEA11005739D0 /* 1.3素材选择.md.json */,
-				FE7262D319DFEA11005739D0 /* 1.4注意事项.md.json */,
-				FE7262D419DFEA11005739D0 /* 1.6推荐信提交.md.json */,
 				FE7262D519DFEA11005739D0 /* 3.0个人简历.md.json */,
+				AD3249B319E0448300796A5D /* 3.1Resume1.jpg */,
 				FE7262D619DFEA11005739D0 /* 3.1Resume3.jpg */,
 				FE7262D719DFEA11005739D0 /* 3.1Resume内容.md.json */,
 				FE7262D819DFEA11005739D0 /* 3.2Resume.png */,
@@ -979,6 +1243,7 @@
 		FEA0FC0D19D8669000A24409 /* 信用卡 */ = {
 			isa = PBXGroup;
 			children = (
+				AD8C2C2F19E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg */,
 				ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */,
 				ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */,
 				ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */,
@@ -1056,9 +1321,9 @@
 		FEB1D7EE19CEB2E6002F7285 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7F719CEFD1B002F7285 /* AWSMediator.swift */,
-				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
+				FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */,
 				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
+				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
 			);
 			name = Mediator;
 			sourceTree = "<group>";
@@ -1086,7 +1351,11 @@
 		FEB1D7FD19CF10E6002F7285 /* AWS */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+				FE60E6AD19E58BE300147EF9 /* AWSCognitoAdapter.h */,
+				FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */,
+				FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */,
+				FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */,
+				FE60E6B219E596BA00147EF9 /* Resource */,
 			);
 			name = AWS;
 			sourceTree = "<group>";
@@ -1130,9 +1399,10 @@
 		FEC3BD5719C29D5B00184760 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
-				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
+				FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */,
 				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
+				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
+				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
 			);
 			name = Adapter;
 			sourceTree = "<group>";
@@ -1152,8 +1422,8 @@
 			children = (
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
-				FE8D81AD19C448B900CE6174 /* Item */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
+				FE8D81AD19C448B900CE6174 /* Item */,
 				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 			);
 			name = View;
@@ -1200,9 +1470,10 @@
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FD19CF10E6002F7285 /* AWS */,
-				FEC8649819BD3DF4005087A3 /* Database */,
+				FE60E6AB19E56F5B00147EF9 /* Cloud */,
 				FE5BC07119D71BD4007E63BC /* Local */,
+				FEC8649819BD3DF4005087A3 /* Database */,
+				FE60E67519E56B0900147EF9 /* 3rd Party */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -1331,19 +1602,23 @@
 			files = (
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
+				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
+				FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */,
 				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
+				FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
 				FEB211EA19DA940C00647560 /* 2.9Yale Insider.jpeg in Resources */,
 				FEB211DE19DA940C00647560 /* 1.1.2ARWU.png in Resources */,
 				FEB211E119DA940C00647560 /* 1.2.2Top200按国家统计对比.png in Resources */,
+				AD40114D19EB7A610088194C /* 1托福.md.json in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
@@ -1351,12 +1626,15 @@
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
+				AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */,
 				FEA0FC0919D846A400A24409 /* 3.12.0美术学院排名.md.json in Resources */,
 				ADCF1ECE19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png in Resources */,
 				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
 				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
+				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
+				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
@@ -1365,18 +1643,22 @@
 				FEA0FBE419D846A400A24409 /* 1.4.0QS世界大学排名.md.json in Resources */,
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
+				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
 				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
+				AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */,
 				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
 				ADBF2CE019DF9EDF0029A327 /* 4.0LinkedIn排名.md.json in Resources */,
+				AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
 				FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */,
+				AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */,
 				ADBF2CDD19DF9EDF0029A327 /* 1.0QS.jpg in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FEA0FBFE19D846A400A24409 /* 3.0美国研究生及博士排名.md.json in Resources */,
@@ -1385,6 +1667,7 @@
 				AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */,
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
+				AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */,
@@ -1393,7 +1676,9 @@
 				ADC907E819DD025300DFC311 /* 1.5.5KnowBeforeYouOwe.jpeg in Resources */,
 				ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
+				FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */,
 				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
+				AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
@@ -1410,13 +1695,17 @@
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
+				AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */,
 				FEB211E619DA940C00647560 /* 2.2.4剑桥.jpg in Resources */,
+				AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */,
 				ADBF2CDE19DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
+				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
+				AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */,
 				AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */,
 				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
@@ -1435,43 +1724,58 @@
 				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
+				FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
+				AD40115219EB7A610088194C /* 2雅思.md.json in Resources */,
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
+				FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */,
 				FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */,
+				FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */,
 				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
+				FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
+				FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */,
+				AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
 				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
+				AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
+				AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */,
 				ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */,
+				AD40115819EB7A610088194C /* 4ACT.md.json in Resources */,
+				AD40115519EB7A610088194C /* 3SAT.md.json in Resources */,
+				AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */,
 				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
 				FE72630919E013C3005739D0 /* 0排名.png in Resources */,
 				FE7262F519DFEA11005739D0 /* 3.2推荐信格式.png in Resources */,
 				FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */,
 				FEA0FBDB19D846A400A24409 /* 1.1.2交大版世界大学榜单被指亲英美.md.json in Resources */,
 				FEA0FBE719D846A400A24409 /* 1.4.2.2QS2014排名.md.json in Resources */,
+				FE60E6A019E56E1F00147EF9 /* ec2-2014-06-15.json in Resources */,
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
 				AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */,
 				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
+				AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
 				FEE1602219D925030022883E /* 1.3.2.1THE2013-2014.png in Resources */,
 				FEA0FBE219D846A400A24409 /* 1.3.2.2THE2012-2013.md.json in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
 				FEA0FBE919D846A400A24409 /* 1.5.0ARWU世界大学学术排名.md.json in Resources */,
+				FE60E6A319E56E1F00147EF9 /* kinesis-2013-12-02.json in Resources */,
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
 				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
@@ -1479,19 +1783,23 @@
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
+				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
 				FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				ADBF2CDF19DF9EDF0029A327 /* 3.1申请自费硕士应该如何选校、如何看待学校排名_.md.json in Resources */,
+				AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
 				ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */,
+				AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */,
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
 				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
+				FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
@@ -1500,33 +1808,46 @@
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
+				FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
+				AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */,
+				AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FE72630819E013C3005739D0 /* 0地球.png in Resources */,
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
+				AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
+				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
+				AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
+				AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */,
 				FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */,
 				AD1EBB3319E0733E00515F5B /* 2.7小论文范文.md.json in Resources */,
 				ADC907E319DD025300DFC311 /* 1.5.3FICO.jpeg in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
+				AD40115C19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg in Resources */,
 				FEA0FBD919D846A400A24409 /* 1.1.0如何看待排名.md.json in Resources */,
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
+				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
+				AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */,
 				FEE1602B19D925030022883E /* 2.3USNews评价标准.png in Resources */,
 				ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
+				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
+				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
+				AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
@@ -1536,8 +1857,10 @@
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 				FEB211E319DA940C00647560 /* 2.2.2Northeastern.jpg in Resources */,
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
+				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FEA0FBF319D846A400A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
+				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				FEA0FBFD19D846A400A24409 /* 2.62015最新排名解读.md.json in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 				FEA0FBFF19D846A400A24409 /* 3.2.0工程院排名.md.json in Resources */,
@@ -1577,9 +1900,10 @@
 				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
-				FEB1D7F819CEFD1B002F7285 /* AWSMediator.swift in Sources */,
+				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
+				FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
@@ -1594,6 +1918,7 @@
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,
+				FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */,
 				FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */,
 				FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */,
 				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
@@ -1629,6 +1954,7 @@
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,
 				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
+				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
@@ -1759,13 +2085,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wassail-Client-iOS/Wassail-Client-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1775,13 +2109,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wassail-Client-iOS/Wassail-Client-iOS-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

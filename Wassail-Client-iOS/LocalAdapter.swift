@@ -22,6 +22,8 @@ class LocalAdapter: NSObject {
     return _LocalAdapterSharedInstance
     }
     
+    // MARK: -
+    
     func createPlist(file: String) -> Bool {
         
         var url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as NSURL
@@ -74,6 +76,8 @@ class LocalAdapter: NSObject {
         return dict
     }
     
+    // MARK: -
+    
     func getJson(file: String, dir: Directory) -> NSDictionary? {
         
         let url = self.getURL(file, type: "json", dir: dir)
@@ -94,15 +98,13 @@ class LocalAdapter: NSObject {
         return json
     }
     
+    // MARK: -
+    
     func getImage(file: String, dir: Directory) -> UIImage? {
         
-        var url = self.getURL(file, type: "png", dir: dir)
-        if (url == nil) {
-            url = self.getURL(file, type: "jpg", dir: dir)
-        }
-        if (url == nil) {
-            url = self.getURL(file, type: "jpeg", dir: dir)
-        }
+        let path = file.stringByDeletingPathExtension as NSString
+        let type = file.pathExtension as NSString
+        let url = self.getURL(path, type: type, dir: dir)
         
         if (url == nil) {
             println("Local Adapter: \(file) not found in \(dir)")
@@ -114,17 +116,19 @@ class LocalAdapter: NSObject {
         return image
     }
     
-    func getURL(file: String, type: String, dir: Directory) -> NSURL? {
+    // MARK: -
+    
+    func getURL(path: String, type: String, dir: Directory) -> NSURL? {
         
         var url: NSURL?
         
         switch dir {
         case .Bundle:
-            url = NSBundle.mainBundle().URLForResource(file, withExtension: type)
+            url = NSBundle.mainBundle().URLForResource(path, withExtension: type)
             
         case .Document:
             url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
-            url = url?.URLByAppendingPathComponent(String(format: "\(file).\(type)"))
+            url = url?.URLByAppendingPathComponent(String(format: "\(path).\(type)"))
             
         default:
             url = nil

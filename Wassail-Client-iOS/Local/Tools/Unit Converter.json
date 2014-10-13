@@ -73,8 +73,8 @@
         "title": "温度",
         "icon": "UnitConverterIconTemp",
         "units": [
-                  {"cn": "摄氏度", "en": "Celsius",    "unit": "C",    "k": "1",   "b": "0"},
-                  {"cn": "华氏度", "en": "Fahrenheit", "unit": "F",    "k": "0.555556", "b": "-17.7777778"},
+                  {"cn": "摄氏度", "en": "Celsius",    "unit": "℃",    "k": "1",   "b": "0"},
+                  {"cn": "华氏度", "en": "Fahrenheit", "unit": "℉",    "k": "0.555556", "b": "-17.7777778"},
                   {"cn": "开尔文", "en": "Kelvin",     "unit": "K",    "k": "1",   "b": "273.16"}
                   ],
         "knows": [

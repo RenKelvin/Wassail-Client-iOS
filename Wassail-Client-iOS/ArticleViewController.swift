@@ -29,7 +29,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet var itemCell: ArticleTableViewCell?
     
     @IBOutlet var indicator: UIActivityIndicatorView?
-
+    
     var articleName: NSString?
     var article: HLArticle?
     
@@ -44,8 +44,6 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         if (articleName != nil) {
             if (!delayArticles.containsObject(articleName!)) {
                 self.reloadData()
-                
-                // self.tableView!.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 2), atScrollPosition: .Top, animated: false)
             }
         }
     }
@@ -290,6 +288,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         self.cellHeights.setObject(height, forKey: indexPath)
         
         return height
+        
+        //        return 44.0
     }
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
