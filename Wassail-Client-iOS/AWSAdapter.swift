@@ -11,7 +11,7 @@ import UIKit
 private let _AWSAdapterSharedInstance = AWSAdapter()
 
 class AWSAdapter: NSObject, NSURLSessionTaskDelegate {
-        
+    
     class var instance : AWSAdapter {
     return _AWSAdapterSharedInstance
     }
@@ -19,7 +19,7 @@ class AWSAdapter: NSObject, NSURLSessionTaskDelegate {
     func initialize() {
         
         // Cognito
-        AWSCognitoAdapter.instance().initCredentialProvider()
+        // AWSCognitoAdapter.instance().initCredentialProvider()
         
         // Mobile Analytics
         AWSMobileAnalyticsAdapter.instance().initAnalytics()
