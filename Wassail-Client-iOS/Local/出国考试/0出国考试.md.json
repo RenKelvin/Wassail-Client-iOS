@@ -34,7 +34,7 @@
                         "content": {
                             "body": {
                                 "address": "3SAT", 
-                                "title": "\u7f8e\u56fd\u9ad8\u8003SAT"
+                                "title": "\u7f8e\u56fd\u9ad8\u8003 (SAT)"
                             }, 
                             "name": "3SAT", 
                             "type": "HLArticlePreview"
@@ -45,7 +45,7 @@
                         "content": {
                             "body": {
                                 "address": "4ACT", 
-                                "title": "\u7f8e\u56fd\u9ad8\u8003ACT"
+                                "title": "\u7f8e\u56fd\u9ad8\u8003 (ACT)"
                             }, 
                             "name": "4ACT", 
                             "type": "HLArticlePreview"
@@ -61,7 +61,7 @@
                         "content": {
                             "body": {
                                 "address": "5GRE", 
-                                "title": "\u7f8e\u56fd\u7814\u7a76\u751f\u5165\u5b66\u8003\u8bd5GRE"
+                                "title": "\u7f8e\u56fd\u7814\u7a76\u751f\u5165\u5b66\u8003\u8bd5 (GRE)"
                             }, 
                             "name": "5GRE", 
                             "type": "HLArticlePreview"
@@ -72,7 +72,7 @@
                         "content": {
                             "body": {
                                 "address": "6GMAT", 
-                                "title": "\u7f8e\u56fd\u5546\u5b66\u9662\u5165\u5b66\u8003\u8bd5GMAT"
+                                "title": "\u7f8e\u56fd\u5546\u5b66\u9662\u5165\u5b66\u8003\u8bd5 (GMAT)"
                             }, 
                             "name": "6GMAT", 
                             "type": "HLArticlePreview"
@@ -83,7 +83,7 @@
                         "content": {
                             "body": {
                                 "address": "7LSAT", 
-                                "title": "\u7f8e\u56fd\u6cd5\u5b66\u9662\u5165\u5b66\u8003\u8bd5LSAT"
+                                "title": "\u7f8e\u56fd\u6cd5\u5b66\u9662\u5165\u5b66\u8003\u8bd5 (LSAT )"
                             }, 
                             "name": "7LSAT", 
                             "type": "HLArticlePreview"
@@ -94,7 +94,7 @@
                         "content": {
                             "body": {
                                 "address": "8MCAT", 
-                                "title": "\u7f8e\u56fd\u533b\u5b66\u9662\u5165\u5b66\u8003\u8bd5MCAT"
+                                "title": "\u7f8e\u56fd\u533b\u5b66\u9662\u5165\u5b66\u8003\u8bd5 (MCAT)"
                             }, 
                             "name": "8MCAT", 
                             "type": "HLArticlePreview"

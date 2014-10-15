@@ -2,11 +2,9 @@
     "body": {
         "groups": [
             {
+                "author": "Alison Doyle", 
+                "date": "2014/10/6", 
                 "items": [
-                    {
-                        "content": "\u6765\u6e90: http://jobsearch.about.com/od/cvsamples/a/cvtemplate.htm", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "CONTACT INFORMATION", 
                         "kind": "Section"
@@ -107,11 +105,9 @@
                 "title": "CV\u683c\u5f0f\u6837\u672c"
             }, 
             {
+                "author": "\u65af\u5766\u798f\u5927\u5b66", 
+                "date": "2014/10/6", 
                 "items": [
-                    {
-                        "content": "\u6765\u6e90: \u65af\u5766\u798f\u5927\u5b66", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": {
                             "body": {

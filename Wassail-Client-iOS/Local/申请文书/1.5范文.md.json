@@ -1,12 +1,10 @@
 {
     "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/5", 
         "groups": [
             {
                 "items": [
-                    {
-                        "content": "\u6765\u6e90:http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "Writer's Name or Company Letterhead", 
                         "kind": "Graph"
@@ -68,10 +66,6 @@
             }, 
             {
                 "items": [
-                    {
-                        "content": "\u6765\u6e90:http://alumnus.caltech.edu/~natalia/studyinus/guide/recom/samples.htm", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "Dr. Petr P. Petrov", 
                         "kind": "Graph"
@@ -141,10 +135,6 @@
             }, 
             {
                 "items": [
-                    {
-                        "content": "\u6765\u6e90:\u4e92\u8054\u7f51", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "Dear Admissions Officer:", 
                         "kind": "Graph"
