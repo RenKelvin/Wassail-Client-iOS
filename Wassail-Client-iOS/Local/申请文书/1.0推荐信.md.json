@@ -73,6 +73,17 @@
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://careers.tufts.edu/faculty/Writing_recommendations.pdf", 
+                                "title": "Tufts University\u63a8\u8350\u4fe1\u5199\u4f5c\u5b98\u65b9\u5efa\u8bae"
+                            }, 
+                            "name": "http://careers.tufts.edu/faculty/Writing_recommendations.pdf", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u63a8\u8350\u4fe1\u5199\u4f5c"
