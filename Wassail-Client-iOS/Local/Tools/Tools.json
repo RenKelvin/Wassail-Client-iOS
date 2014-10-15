@@ -24,7 +24,7 @@
     },
     "aboard exams": {
         "ready": "true",
-        "note": "语言考试、入学考试等介绍",
+        "note": "语言考试、综合考试等介绍",
         "title": "出国考试",
         "icon": "ToolsIconAboardExams",
         "identifier": "AboardExams"

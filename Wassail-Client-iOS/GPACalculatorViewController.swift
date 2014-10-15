@@ -102,7 +102,7 @@ class GPACalculatorViewController: UIViewController {
         // Ranking
         ranking = (-1.0/30.0)*(gpa-1)*(gpa-14)
         if (ranking < 0.01) {
-            ranking = 0.01
+            ranking = 0.00
         }
         
         self.updateViews()
