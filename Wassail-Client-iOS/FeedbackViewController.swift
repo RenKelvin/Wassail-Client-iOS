@@ -8,12 +8,12 @@
 
 import UIKit
 
-class FeedbackViewController: UIViewController {
+class FeedbackViewController: UIViewController, UIAlertViewDelegate {
     
     @IBOutlet var navigationView: UIView?
-
+    
     @IBOutlet var keyboardAccessoryView: UIView?
-
+    
     let info: FeedbackInfo = FeedbackInfo.instance
     
     @IBOutlet var textView: UITextView?
@@ -25,7 +25,7 @@ class FeedbackViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
@@ -37,25 +37,37 @@ class FeedbackViewController: UIViewController {
         textView!.inputAccessoryView = keyboardAccessoryView
         textView!.becomeFirstResponder()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - IBAction
+    
     @IBAction func sendButtonClicked() {
-
-        textView!.resignFirstResponder()
-        
-        self.navigationController?.popViewControllerAnimated(true)
         
         info.sendFeedback(textView!.text)
+        
+        // Show alert
+        let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+        alert.show()
     }
     
     @IBAction func blankTapped() {
-
+        
         textView!.resignFirstResponder()
-
+        
+    }
+    
+    // MARK: - UIAlertViewDelegate
+    
+    //    func alertViewCancel(alertView: UIAlertView) {
+    //    self.navigationController?.popViewControllerAnimated(true)
+    //    }
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        self.navigationController?.popViewControllerAnimated(true)
     }
     
     /*
