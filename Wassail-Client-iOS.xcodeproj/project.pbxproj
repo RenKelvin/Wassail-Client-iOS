@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C819F37695006F433C /* 3.10education.jpg */; };
+		AD0E75E319F37695006F433C /* 3.11education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C919F37695006F433C /* 3.11education.jpg */; };
+		AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CA19F37695006F433C /* 3.12education.jpg */; };
+		AD0E75E519F37695006F433C /* 3.13languages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CB19F37695006F433C /* 3.13languages.jpg */; };
+		AD0E75E619F37695006F433C /* 3.14testGRE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CC19F37695006F433C /* 3.14testGRE.jpg */; };
+		AD0E75E719F37695006F433C /* 3.15testGRESubject.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CD19F37695006F433C /* 3.15testGRESubject.jpg */; };
+		AD0E75E819F37695006F433C /* 3.16testTOEFL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CE19F37695006F433C /* 3.16testTOEFL.jpg */; };
+		AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CF19F37695006F433C /* 3.17testIELTS.jpg */; };
+		AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D019F37695006F433C /* 3.18intl.jpg */; };
+		AD0E75EB19F37695006F433C /* 3.19intlFJVisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D119F37695006F433C /* 3.19intlFJVisa.jpg */; };
+		AD0E75EC19F37695006F433C /* 3.1AY_Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D219F37695006F433C /* 3.1AY_Login.jpg */; };
+		AD0E75ED19F37695006F433C /* 3.20I-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D319F37695006F433C /* 3.20I-20.jpg */; };
+		AD0E75EE19F37695006F433C /* 3.21dependent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D419F37695006F433C /* 3.21dependent.jpg */; };
+		AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D519F37695006F433C /* 3.22TA.jpg */; };
+		AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D619F37695006F433C /* 3.23transcript.jpg */; };
+		AD0E75F119F37695006F433C /* 3.24Passport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D719F37695006F433C /* 3.24Passport.jpg */; };
+		AD0E75F219F37695006F433C /* 3.25recommendation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D819F37695006F433C /* 3.25recommendation.jpg */; };
+		AD0E75F319F37695006F433C /* 3.2Personal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75D919F37695006F433C /* 3.2Personal.jpg */; };
+		AD0E75F419F37695006F433C /* 3.3background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DA19F37695006F433C /* 3.3background.jpg */; };
+		AD0E75F519F37695006F433C /* 3.4Citizenship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DB19F37695006F433C /* 3.4Citizenship.jpg */; };
+		AD0E75F619F37695006F433C /* 3.5contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DC19F37695006F433C /* 3.5contact.jpg */; };
+		AD0E75F719F37695006F433C /* 3.6contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DD19F37695006F433C /* 3.6contact.jpg */; };
+		AD0E75F819F37695006F433C /* 3.7contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DE19F37695006F433C /* 3.7contact.jpg */; };
+		AD0E75F919F37695006F433C /* 3.8applicationinfo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */; };
+		AD0E75FA19F37695006F433C /* 3.9applicationifo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */; };
+		AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */; };
 		AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */; };
 		AD1EBB2819E0733E00515F5B /* 2.1格式要求.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */; };
 		AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */; };
@@ -369,6 +395,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0E75C819F37695006F433C /* 3.10education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.10education.jpg; sourceTree = "<group>"; };
+		AD0E75C919F37695006F433C /* 3.11education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.11education.jpg; sourceTree = "<group>"; };
+		AD0E75CA19F37695006F433C /* 3.12education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.12education.jpg; sourceTree = "<group>"; };
+		AD0E75CB19F37695006F433C /* 3.13languages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.13languages.jpg; sourceTree = "<group>"; };
+		AD0E75CC19F37695006F433C /* 3.14testGRE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.14testGRE.jpg; sourceTree = "<group>"; };
+		AD0E75CD19F37695006F433C /* 3.15testGRESubject.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.15testGRESubject.jpg; sourceTree = "<group>"; };
+		AD0E75CE19F37695006F433C /* 3.16testTOEFL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.16testTOEFL.jpg; sourceTree = "<group>"; };
+		AD0E75CF19F37695006F433C /* 3.17testIELTS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.17testIELTS.jpg; sourceTree = "<group>"; };
+		AD0E75D019F37695006F433C /* 3.18intl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.18intl.jpg; sourceTree = "<group>"; };
+		AD0E75D119F37695006F433C /* 3.19intlFJVisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.19intlFJVisa.jpg; sourceTree = "<group>"; };
+		AD0E75D219F37695006F433C /* 3.1AY_Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1AY_Login.jpg; sourceTree = "<group>"; };
+		AD0E75D319F37695006F433C /* 3.20I-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.20I-20.jpg"; sourceTree = "<group>"; };
+		AD0E75D419F37695006F433C /* 3.21dependent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.21dependent.jpg; sourceTree = "<group>"; };
+		AD0E75D519F37695006F433C /* 3.22TA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.22TA.jpg; sourceTree = "<group>"; };
+		AD0E75D619F37695006F433C /* 3.23transcript.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.23transcript.jpg; sourceTree = "<group>"; };
+		AD0E75D719F37695006F433C /* 3.24Passport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.24Passport.jpg; sourceTree = "<group>"; };
+		AD0E75D819F37695006F433C /* 3.25recommendation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.25recommendation.jpg; sourceTree = "<group>"; };
+		AD0E75D919F37695006F433C /* 3.2Personal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.2Personal.jpg; sourceTree = "<group>"; };
+		AD0E75DA19F37695006F433C /* 3.3background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.3background.jpg; sourceTree = "<group>"; };
+		AD0E75DB19F37695006F433C /* 3.4Citizenship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.4Citizenship.jpg; sourceTree = "<group>"; };
+		AD0E75DC19F37695006F433C /* 3.5contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.5contact.jpg; sourceTree = "<group>"; };
+		AD0E75DD19F37695006F433C /* 3.6contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.6contact.jpg; sourceTree = "<group>"; };
+		AD0E75DE19F37695006F433C /* 3.7contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.7contact.jpg; sourceTree = "<group>"; };
+		AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.8applicationinfo.jpg; sourceTree = "<group>"; };
+		AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.9applicationifo.jpg; sourceTree = "<group>"; };
+		AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3ApplyYourself.md.json; sourceTree = "<group>"; };
 		AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.0个人陈述.md.json"; sourceTree = "<group>"; };
 		AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.1格式要求.md.json"; sourceTree = "<group>"; };
 		AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.2RL2.jpg; sourceTree = "<group>"; };
@@ -756,6 +808,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD0E75C719F37695006F433C /* 网申流程 */ = {
+			isa = PBXGroup;
+			children = (
+				AD0E75C819F37695006F433C /* 3.10education.jpg */,
+				AD0E75C919F37695006F433C /* 3.11education.jpg */,
+				AD0E75CA19F37695006F433C /* 3.12education.jpg */,
+				AD0E75CB19F37695006F433C /* 3.13languages.jpg */,
+				AD0E75CC19F37695006F433C /* 3.14testGRE.jpg */,
+				AD0E75CD19F37695006F433C /* 3.15testGRESubject.jpg */,
+				AD0E75CE19F37695006F433C /* 3.16testTOEFL.jpg */,
+				AD0E75CF19F37695006F433C /* 3.17testIELTS.jpg */,
+				AD0E75D019F37695006F433C /* 3.18intl.jpg */,
+				AD0E75D119F37695006F433C /* 3.19intlFJVisa.jpg */,
+				AD0E75D219F37695006F433C /* 3.1AY_Login.jpg */,
+				AD0E75D319F37695006F433C /* 3.20I-20.jpg */,
+				AD0E75D419F37695006F433C /* 3.21dependent.jpg */,
+				AD0E75D519F37695006F433C /* 3.22TA.jpg */,
+				AD0E75D619F37695006F433C /* 3.23transcript.jpg */,
+				AD0E75D719F37695006F433C /* 3.24Passport.jpg */,
+				AD0E75D819F37695006F433C /* 3.25recommendation.jpg */,
+				AD0E75D919F37695006F433C /* 3.2Personal.jpg */,
+				AD0E75DA19F37695006F433C /* 3.3background.jpg */,
+				AD0E75DB19F37695006F433C /* 3.4Citizenship.jpg */,
+				AD0E75DC19F37695006F433C /* 3.5contact.jpg */,
+				AD0E75DD19F37695006F433C /* 3.6contact.jpg */,
+				AD0E75DE19F37695006F433C /* 3.7contact.jpg */,
+				AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */,
+				AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */,
+				AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */,
+			);
+			path = "网申流程";
+			sourceTree = "<group>";
+		};
 		AD40112819EB7A610088194C /* 出国考试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -917,6 +1002,7 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				AD0E75C719F37695006F433C /* 网申流程 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				AD40112819EB7A610088194C /* 出国考试 */,
@@ -1605,13 +1691,18 @@
 				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
+				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
+				AD0E75F219F37695006F433C /* 3.25recommendation.jpg in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				FEB211E019DA940C00647560 /* 1.1.4THELogo.jpg in Resources */,
+				AD0E75EB19F37695006F433C /* 3.19intlFJVisa.jpg in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
 				FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */,
 				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
+				AD0E75E819F37695006F433C /* 3.16testTOEFL.jpg in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
+				AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */,
 				FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
@@ -1622,6 +1713,7 @@
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
+				AD0E75EE19F37695006F433C /* 3.21dependent.jpg in Resources */,
 				AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
@@ -1635,6 +1727,7 @@
 				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
 				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
+				AD0E75E519F37695006F433C /* 3.13languages.jpg in Resources */,
 				FEE1601E19D925030022883E /* 1.2.1TOP20对比.png in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
@@ -1647,6 +1740,7 @@
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
+				AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */,
 				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
 				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
 				AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */,
@@ -1682,16 +1776,21 @@
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
+				AD0E75F819F37695006F433C /* 3.7contact.jpg in Resources */,
 				FEE1603519D9250C0022883E /* 1.3AmericanExpressLogo.jpg in Resources */,
 				ADC907E419DD025300DFC311 /* 1.5.3Goodcredit.jpeg in Resources */,
 				FEE1602519D925030022883E /* 1.4.2.1QS2015排名.png in Resources */,
+				AD0E75F919F37695006F433C /* 3.8applicationinfo.jpg in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
 				FEA0FBDF19D846A400A24409 /* 1.3.0THE世界大学排名.md.json in Resources */,
 				FEA0FC2819D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json in Resources */,
+				AD0E75E319F37695006F433C /* 3.11education.jpg in Resources */,
 				FEA0FBED19D846A400A24409 /* 1.5.3ARWU其他排名.md.json in Resources */,
 				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
 				FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */,
+				AD0E75F519F37695006F433C /* 3.4Citizenship.jpg in Resources */,
 				FEB211E919DA940C00647560 /* 2.8Princeton Review.jpeg in Resources */,
+				AD0E75FA19F37695006F433C /* 3.9applicationifo.jpg in Resources */,
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
@@ -1702,6 +1801,7 @@
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
 				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
+				AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
@@ -1710,6 +1810,7 @@
 				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
 				FEB211E719DA940C00647560 /* 2.2.4剑桥4.jpg in Resources */,
+				AD0E75F419F37695006F433C /* 3.3background.jpg in Resources */,
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
 				FEA0FBFA19D846A400A24409 /* 2.8普林斯顿评论.md.json in Resources */,
 				FEA0FBDA19D846A400A24409 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json in Resources */,
@@ -1720,7 +1821,9 @@
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				FEA0FBF819D846A400A24409 /* 2.5LiberalArtsCollege.md.json in Resources */,
 				FEA0FBDE19D846A400A24409 /* 1.2.0三大排名对比.md.json in Resources */,
+				AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */,
 				FEA0FBF619D846A400A24409 /* 2.3USNews评价标准.md.json in Resources */,
+				AD0E75E719F37695006F433C /* 3.15testGRESubject.jpg in Resources */,
 				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
@@ -1739,6 +1842,7 @@
 				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
 				FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */,
+				AD0E75EC19F37695006F433C /* 3.1AY_Login.jpg in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
@@ -1766,6 +1870,7 @@
 				ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */,
 				FEA0FC0619D846A400A24409 /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
+				AD0E75E619F37695006F433C /* 3.14testGRE.jpg in Resources */,
 				AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */,
 				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
@@ -1779,6 +1884,7 @@
 				FEB211E519DA940C00647560 /* 2.2.3留学美国.jpg in Resources */,
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
 				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
+				AD0E75F619F37695006F433C /* 3.5contact.jpg in Resources */,
 				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
@@ -1802,9 +1908,12 @@
 				FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
+				AD0E75F719F37695006F433C /* 3.6contact.jpg in Resources */,
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
 				FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */,
+				AD0E75ED19F37695006F433C /* 3.20I-20.jpg in Resources */,
+				AD0E75F119F37695006F433C /* 3.24Passport.jpg in Resources */,
 				FEA0FC0519D846A400A24409 /* 3.8.0教育学院排名.md.json in Resources */,
 				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
 				FEA0FC0119D846A400A24409 /* 3.4.0商学院排名（Business）.md.json in Resources */,
@@ -1812,9 +1921,11 @@
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */,
 				AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */,
+				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
+				AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				FE72630819E013C3005739D0 /* 0地球.png in Resources */,
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
@@ -1862,6 +1973,7 @@
 				FEA0FBF319D846A400A24409 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
 				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				FEA0FBFD19D846A400A24409 /* 2.62015最新排名解读.md.json in Resources */,
+				AD0E75F319F37695006F433C /* 3.2Personal.jpg in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 				FEA0FBFF19D846A400A24409 /* 3.2.0工程院排名.md.json in Resources */,
 			);
