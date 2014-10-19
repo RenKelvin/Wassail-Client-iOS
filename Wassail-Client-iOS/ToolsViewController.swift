@@ -125,7 +125,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                ""
+                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "3ApplyYourself")
             case 1:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 2:

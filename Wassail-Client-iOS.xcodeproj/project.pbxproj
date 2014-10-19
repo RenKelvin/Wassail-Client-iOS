@@ -811,6 +811,15 @@
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
 			isa = PBXGroup;
 			children = (
+				AD0E75D219F37695006F433C /* 3.1AY_Login.jpg */,
+				AD0E75D919F37695006F433C /* 3.2Personal.jpg */,
+				AD0E75DA19F37695006F433C /* 3.3background.jpg */,
+				AD0E75DB19F37695006F433C /* 3.4Citizenship.jpg */,
+				AD0E75DC19F37695006F433C /* 3.5contact.jpg */,
+				AD0E75DD19F37695006F433C /* 3.6contact.jpg */,
+				AD0E75DE19F37695006F433C /* 3.7contact.jpg */,
+				AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */,
+				AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */,
 				AD0E75C819F37695006F433C /* 3.10education.jpg */,
 				AD0E75C919F37695006F433C /* 3.11education.jpg */,
 				AD0E75CA19F37695006F433C /* 3.12education.jpg */,
@@ -821,21 +830,12 @@
 				AD0E75CF19F37695006F433C /* 3.17testIELTS.jpg */,
 				AD0E75D019F37695006F433C /* 3.18intl.jpg */,
 				AD0E75D119F37695006F433C /* 3.19intlFJVisa.jpg */,
-				AD0E75D219F37695006F433C /* 3.1AY_Login.jpg */,
 				AD0E75D319F37695006F433C /* 3.20I-20.jpg */,
 				AD0E75D419F37695006F433C /* 3.21dependent.jpg */,
 				AD0E75D519F37695006F433C /* 3.22TA.jpg */,
 				AD0E75D619F37695006F433C /* 3.23transcript.jpg */,
 				AD0E75D719F37695006F433C /* 3.24Passport.jpg */,
 				AD0E75D819F37695006F433C /* 3.25recommendation.jpg */,
-				AD0E75D919F37695006F433C /* 3.2Personal.jpg */,
-				AD0E75DA19F37695006F433C /* 3.3background.jpg */,
-				AD0E75DB19F37695006F433C /* 3.4Citizenship.jpg */,
-				AD0E75DC19F37695006F433C /* 3.5contact.jpg */,
-				AD0E75DD19F37695006F433C /* 3.6contact.jpg */,
-				AD0E75DE19F37695006F433C /* 3.7contact.jpg */,
-				AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */,
-				AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */,
 				AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */,
 			);
 			path = "网申流程";
@@ -1002,12 +1002,12 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				AD0E75C719F37695006F433C /* 网申流程 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07819D71BD4007E63BC /* 大学排名 */,
 				FE7262C919DFEA11005739D0 /* 申请文书 */,
+				AD0E75C719F37695006F433C /* 网申流程 */,
 			);
 			path = Local;
 			sourceTree = "<group>";
