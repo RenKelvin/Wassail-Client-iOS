@@ -73,7 +73,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             return info.getApplyTools()!.count
         case 1:
-            return info.getAboardTools()!.count
+            return info.getAbroadTools()!.count
         default:
             return 0
         }
@@ -125,17 +125,19 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
-            case 1:
-                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
-            case 2:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
-            case 3:
                 ""
+            case 1:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+            case 2:
+                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
+            case 3:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 4:
-                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
+                ""
             case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
+            case 6:
+                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
                 ""
             }

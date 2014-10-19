@@ -61,10 +61,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "aboard exams", 
+                                "address": "abroad exams",
                                 "title": "\u51fa\u56fd\u8003\u8bd5"
                             }, 
-                            "name": "aboard exams", 
+                            "name": "abroad exams",
                             "type": "HLToolPreview"
                         }, 
                         "kind": "Item"
@@ -176,10 +176,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "aboard expense", 
+                                "address": "abroad expense",
                                 "title": "\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "aboard expense", 
+                            "name": "abroad expense",
                             "type": "HLToolPreview"
                         }, 
                         "kind": "Item"
@@ -370,10 +370,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "aboard expense", 
+                                "address": "abroad expense",
                                 "title": "\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "aboard expense", 
+                            "name": "abroad expense", 
                             "type": "HLToolPreview"
                         }, 
                         "kind": "Item"
