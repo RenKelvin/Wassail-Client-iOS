@@ -1,0 +1,48 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u8fd9\u4e2a\u7f51\u7533\u7cfb\u7edf\u6709\u4e00\u4e9b\u7f8e\u56fd\u5b66\u6821\u548c\u51e0\u4e2a\u82f1\u56fd\u540d\u6821\u4f7f\u7528\u3002\u548cApplyYourself\u7684\u529f\u80fd\u5341\u5206\u63a5\u8fd1\uff0c\u53ea\u662f\u754c\u9762\u4e0a\u6709\u5dee\u522b\uff0c\u5bf9\u4e8e\u63a8\u8350\u4fe1\u7684\u5904\u7406\u4e5f\u51e0\u4e4e\u662f\u5b8c\u5168\u4e00\u6837\u7684\uff0c\u800c\u4e14\u63a8\u8350\u4eba\u4fe1\u606f\u7684\u586b\u5199\u66f4\u7b80\u6d01\u3002\u4e0eApplyYourself\u4e0d\u540c\u7684\u662f\uff0c\u4e0d\u540c\u5b66\u6821\u53ef\u4ee5\u7528\u540c\u4e00\u4e2aEmbark\u8d26\u53f7\u8fdb\u884c\u7533\u8bf7\u3002\u5728\u6b64\u5c31\u4e0d\u628a\u6574\u4e2a\u8fc7\u7a0b\u505a\u8be6\u7ec6\u89e3\u91ca\u4e86\uff0c\u53ea\u628a\u4e0d\u540c\u7684\u5730\u65b9\u62ff\u51fa\u6765\u8bb2\u4e00\u4e0b\uff0c\u4ee5Binghamton University\u548cOxford University\u7684\u7533\u8bf7\u4e3a\u4f8b\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u66f4\u591a\u95ee\u9898 (Supplemental Questions)", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "6.1Supplemental.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "6.1Supplemental.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u7b2c\u4e09\u65b9\u59d4\u6258\u4eba (Nominated Third Party)", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "6.2ThirdParty.jpg", 
+                                "title": "6.2ThirdParty.jpg"
+                            }, 
+                            "name": "6.2ThirdParty.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "Embark"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
