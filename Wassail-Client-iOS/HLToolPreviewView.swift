@@ -73,6 +73,9 @@ class HLToolPreviewView: HLItemView {
         else if (title == "出国考试") {
             controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0出国考试")
         }
+        else if (title == "网申流程") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0网申流程")
+        }
         else {
             controller!.performSegueWithIdentifier(identifier, sender: nil)
         }
