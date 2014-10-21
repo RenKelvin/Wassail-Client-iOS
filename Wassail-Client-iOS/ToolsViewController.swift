@@ -40,7 +40,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Update date
         let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
-        let components = calendar.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
+        let components = calendar!.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
         
         let month = components.month as Int
         let day = components.day as Int

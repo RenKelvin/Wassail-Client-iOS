@@ -88,7 +88,7 @@ class LocalAdapter: NSObject {
         
         let data = NSData(contentsOfFile: url!.path!)
         var error: NSError? = NSError()
-        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
+        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
         if (json == nil) {
             println("Local Adapter: \(file).json in \(dir) error")
             return nil
