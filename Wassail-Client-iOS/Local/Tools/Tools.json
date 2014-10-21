@@ -89,7 +89,7 @@
     },
     "online application": {
         "ready": "true",
-        "note": "网申准备材料，使用步骤及注意事项",
+        "note": "准备材料，使用步骤及注意事项",
         "title": "网申流程",
         "icon": "ToolsIconOnlineApplication",
         "identifier": "OnlineApplication"
