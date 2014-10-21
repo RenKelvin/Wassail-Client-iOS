@@ -5,7 +5,7 @@
                "university rankings",
                "gpa calculator",
                "apply documents",
-               "offer broadcast",
+               "apply manager",
                "abroad exams",
                "abroad words"
                ],
@@ -61,7 +61,7 @@
     },
     "abroad expense": {
         "ready": "false",
-        "note": "出国留学费用介绍、分析及规划，",
+        "note": "出国留学费用介绍、分析及规划",
         "title": "留学费用",
         "icon": "ToolsIconAbroadExpense",
         "identifier": "AbroadExpense"

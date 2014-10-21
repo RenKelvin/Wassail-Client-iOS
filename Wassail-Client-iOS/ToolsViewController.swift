@@ -133,7 +133,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             case 3:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 4:
-                ""
+                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
             case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
             case 6:
