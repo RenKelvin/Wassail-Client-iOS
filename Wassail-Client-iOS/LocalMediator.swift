@@ -23,6 +23,13 @@ class LocalMediator: NSObject {
         return image
     }
     
+    func getImageURL(name: NSString) -> NSURL? {
+        
+        let url = LocalAdapter.instance.getImageURL(name, dir: .Bundle)
+        
+        return url
+    }
+    
     func getTools() -> NSDictionary? {
         
         let dict = LocalAdapter.instance.getJson("Tools", dir: .Bundle)

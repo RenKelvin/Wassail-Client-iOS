@@ -46,6 +46,13 @@ class DefaultAccessor: NSObject {
         return image
     }
     
+    func getImageURL(name: NSString) -> NSURL? {
+        
+        let image = LocalMediator.instance.getImageURL(name) as NSURL?
+
+        return image
+    }
+    
     func getTools() -> NSDictionary? {
         return LocalMediator.instance.getTools()
     }

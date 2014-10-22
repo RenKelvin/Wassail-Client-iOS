@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import QuickLook
 
-class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, QLPreviewControllerDataSource {
     
     @IBOutlet var navigationView: UIView?
     
@@ -32,6 +33,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     var articleName: NSString?
     var article: HLArticle?
+    
+    var imagesArray: NSArray = NSArray()
     
     var offscreenCells: NSMutableDictionary = NSMutableDictionary()
     var cellHeights: NSMutableDictionary = NSMutableDictionary()
@@ -64,6 +67,8 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
                 self.reloadData()
             }
         }
+        
+        imagesArray = article!.imagesArray()
     }
     
     // MARK: -
@@ -335,6 +340,17 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
         
         return 40.0
     }
+    
+    // MARK: - QLPreviewControllerDatasource
+    
+    func numberOfPreviewItemsInPreviewController(controller: QLPreviewController!) -> Int {
+        return imagesArray.count
+    }
+    
+    func previewController(controller: QLPreviewController!, previewItemAtIndex index: Int) -> QLPreviewItem! {
+        return imagesArray[index] as NSURL
+    }
+    
     
     // MARK: - Navigation
     

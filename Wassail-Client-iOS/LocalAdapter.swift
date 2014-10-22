@@ -116,6 +116,20 @@ class LocalAdapter: NSObject {
         return image
     }
     
+    func getImageURL(file: String, dir: Directory) -> NSURL? {
+        
+        let path = file.stringByDeletingPathExtension as NSString
+        let type = file.pathExtension as NSString
+        let url = self.getURL(path, type: type, dir: dir)
+        
+        if (url == nil) {
+            println("Local Adapter: \(file) not found in \(dir)")
+            return nil
+        }
+        
+        return url
+    }
+    
     // MARK: -
     
     func getURL(path: String, type: String, dir: Directory) -> NSURL? {

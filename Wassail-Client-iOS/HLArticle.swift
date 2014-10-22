@@ -16,7 +16,7 @@ class HLArticle: HLItem {
     var header: NSString?
     
     var footer: NSString?
-
+    
     var groups: NSArray = []
     
     override init() {
@@ -60,6 +60,38 @@ class HLArticle: HLItem {
         let items = chapter.objectForKey("items") as NSArray
         
         return items.objectAtIndex(row) as NSDictionary
+    }
+    
+    func imagesArray() -> NSArray {
+        var container = NSMutableArray()
+        
+        let m = groups.count
+        for i in 1...groups.count {
+            let group = groups[i-1] as NSDictionary
+            let items = group.objectForKey("items") as NSArray
+            for j in 1...items.count {
+                let item = items[j-1] as NSDictionary
+                let kind = item.objectForKey("kind") as NSString
+                if (kind == "Item") {
+                    let content = item.objectForKey("content") as NSDictionary
+                    let type = content.objectForKey("type") as NSString
+                    if (type == "HLImg" || type == "HLImage") {
+                        let body = content.objectForKey("body") as NSDictionary
+                        let address = body.objectForKey("address") as NSString
+                        
+                        let url = DefaultAccessor.instance.getImageURL(address)
+                        if (url != nil) {
+                        container.addObject(url!)
+}
+                        else {
+                            println(address)
+                        }
+                    }
+                }
+            }
+        }
+        
+        return container
     }
     
 }
