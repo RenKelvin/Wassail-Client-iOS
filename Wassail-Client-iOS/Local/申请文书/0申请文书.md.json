@@ -7,7 +7,7 @@
                         "content": {
                             "body": {
                                 "address": "2.0\u4e2a\u4eba\u9648\u8ff0", 
-                                "title": "\u4e2a\u4eba\u9648\u8ff0\uff0f\u5c0f\u8bba\u6587"
+                                "title": "\u4e2a\u4eba\u9648\u8ff0 / \u5c0f\u8bba\u6587"
                             }, 
                             "name": "2.0\u4e2a\u4eba\u9648\u8ff0", 
                             "type": "HLListPreview"
@@ -74,10 +74,10 @@
                         }, 
                         "icon": {
                             "body": {
-                                "address": "0Portfolio2.jpg", 
+                                "address": "0Portfolio2.jpeg", 
                                 "title": ""
                             }, 
-                            "name": "0Portfolio2.jpg", 
+                            "name": "0Portfolio2.jpeg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item", 

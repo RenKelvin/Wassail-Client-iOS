@@ -4,7 +4,7 @@
             {
                 "items": [
                     {
-                        "content": "\u8fd9\u4e2a\u7f51\u7533\u7cfb\u7edf\u4f7f\u7528\u7684\u4e5f\u6bd4\u8f83\u591a\uff0c\u4ec5\u6b21\u4e8eApplyYourself, \u4f46\u8bbf\u95ee\u901f\u5ea6\u8f83\u6162\u3002\u4f18\u70b9\u662f\u5982\u679c\u540c\u65f6\u6709\u51e0\u6240\u8fd9\u4e2a\u7cfb\u7edf\u7684\u5b66\u6821\uff0c\u5c31\u53ef\u4ee5\u5728\u7edf\u4e00\u754c\u9762\u4e0b\u7ba1\u7406\uff0c\u4e0d\u9700\u8981\u9891\u7e41\u5730\u767b\u9646\u5e10\u53f7\u548c\u5bc6\u7801\u3002\u63a8\u8350\u4eba\u4e5f\u5fc5\u987b\u7528\u540c\u4e00\u4e2a\u8d26\u53f7 ( \u5373\u63a8\u8350\u4eba\u7684Email\u5730\u5740) \u6765\u5b8c\u6210\u591a\u4efd\u63a8\u8350\u3002\u9002\u7528\u7684\u5b66\u6821\u5305\u62ecStanford,  Georgia Tech, Cornell, UMichigan\u7b49\u3002", 
+                        "content": "\u8fd9\u4e2a\u7f51\u7533\u7cfb\u7edf\u4f7f\u7528\u7684\u4e5f\u6bd4\u8f83\u591a\uff0c\u4ec5\u6b21\u4e8eApplyYourself, \u4f46\u8bbf\u95ee\u901f\u5ea6\u8f83\u6162\u3002\u4f18\u70b9\u662f\u5982\u679c\u540c\u65f6\u6709\u51e0\u6240\u8fd9\u4e2a\u7cfb\u7edf\u7684\u5b66\u6821\uff0c\u5c31\u53ef\u4ee5\u5728\u7edf\u4e00\u754c\u9762\u4e0b\u7ba1\u7406\uff0c\u4e0d\u9700\u8981\u9891\u7e41\u5730\u767b\u9646\u5e10\u53f7\u548c\u5bc6\u7801\u3002\u63a8\u8350\u4eba\u4e5f\u5fc5\u987b\u7528\u540c\u4e00\u4e2a\u8d26\u53f7 (\u5373\u63a8\u8350\u4eba\u7684Email\u5730\u5740) \u6765\u5b8c\u6210\u591a\u4efd\u63a8\u8350\u3002\u9002\u7528\u7684\u5b66\u6821\u5305\u62ecStanford,  Georgia Tech, Cornell, UMichigan\u7b49\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -208,6 +208,17 @@
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "abroad exams", 
+                                "title": "\u51fa\u56fd\u8003\u8bd5"
+                            }, 
+                            "name": "abroad exams", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u5b66\u672f\u4fe1\u606f (Academic Information)"
@@ -234,7 +245,7 @@
                         "kind": "Item"
                     }
                 ], 
-                "title": "\u63a8\u8350\u4eba\u4fe1\u606f (Recommender Information)"
+                "title": "\u63a8\u8350\u4eba\u4fe1\u606f (Recommender Info)"
             }, 
             {
                 "items": [
@@ -250,6 +261,17 @@
                             }, 
                             "name": "4.12file.jpg", 
                             "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "apply documents", 
+                                "title": "\u7533\u8bf7\u6587\u4e66"
+                            }, 
+                            "name": "apply documents", 
+                            "type": "HLToolPreview"
                         }, 
                         "kind": "Item"
                     }
