@@ -82,6 +82,25 @@
 		AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */; };
 		AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */; };
 		AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40114919EB7A610088194C /* 9SAT Subject.md.json */; };
+		AD47692C19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD47692B19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg */; };
+		AD47693619F7E9C700811C7E /* 0Portfolio2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47692D19F7E9C700811C7E /* 0Portfolio2.jpeg */; };
+		AD47693719F7E9C700811C7E /* 1.1RL2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47692E19F7E9C700811C7E /* 1.1RL2.jpeg */; };
+		AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47692F19F7E9C700811C7E /* 1.2Writing.jpeg */; };
+		AD47693919F7E9C700811C7E /* 1.5.1范文2.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD47693019F7E9C700811C7E /* 1.5.1范文2.md.json */; };
+		AD47693A19F7E9C700811C7E /* 1.5.2范文3.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD47693119F7E9C700811C7E /* 1.5.2范文3.md.json */; };
+		AD47693B19F7E9C700811C7E /* 2.3个人陈述.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693219F7E9C700811C7E /* 2.3个人陈述.jpeg */; };
+		AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */; };
+		AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693419F7E9C700811C7E /* 3.6resume.jpeg */; };
+		AD47693E19F7E9C700811C7E /* 4.0Portfolio1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */; };
+		AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2C19F803B50088E19C /* 0ApplyTexas.png */; };
+		AD548A3219F803B50088E19C /* 0ApplyWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2D19F803B50088E19C /* 0ApplyWeb.png */; };
+		AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2E19F803B50088E19C /* 0ApplyYourself.png */; };
+		AD548A3419F803B50088E19C /* 0CA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2F19F803B50088E19C /* 0CA.jpg */; };
+		AD548A3519F803B50088E19C /* 0Embark.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A3019F803B50088E19C /* 0Embark.png */; };
+		AD548A3A19F803FC0088E19C /* 2.5.1范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD548A3619F803FC0088E19C /* 2.5.1范文.md.json */; };
+		AD548A3B19F803FC0088E19C /* 2.5.2范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD548A3719F803FC0088E19C /* 2.5.2范文.md.json */; };
+		AD548A3C19F803FC0088E19C /* 2.7.1小论文范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD548A3819F803FC0088E19C /* 2.7.1小论文范文.md.json */; };
+		AD548A3D19F803FC0088E19C /* 2.7.2小论文范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD548A3919F803FC0088E19C /* 2.7.2小论文范文.md.json */; };
 		AD8C2C2C19E900B400A5A4A7 /* 3.14哥大校徽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */; };
 		AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */; };
 		AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */; };
@@ -504,6 +523,25 @@
 		AD40114719EB7A610088194C /* 9Barron's SAT 2 数学.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 数学.jpg"; sourceTree = "<group>"; };
 		AD40114819EB7A610088194C /* 9Barron's SAT 2 物理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9Barron's SAT 2 物理.jpg"; sourceTree = "<group>"; };
 		AD40114919EB7A610088194C /* 9SAT Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9SAT Subject.md.json"; sourceTree = "<group>"; };
+		AD47692B19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2剑桥雅思考试全真试题解析.jpg"; sourceTree = "<group>"; };
+		AD47692D19F7E9C700811C7E /* 0Portfolio2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpeg; sourceTree = "<group>"; };
+		AD47692E19F7E9C700811C7E /* 1.1RL2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.1RL2.jpeg; sourceTree = "<group>"; };
+		AD47692F19F7E9C700811C7E /* 1.2Writing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2Writing.jpeg; sourceTree = "<group>"; };
+		AD47693019F7E9C700811C7E /* 1.5.1范文2.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5.1范文2.md.json"; sourceTree = "<group>"; };
+		AD47693119F7E9C700811C7E /* 1.5.2范文3.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5.2范文3.md.json"; sourceTree = "<group>"; };
+		AD47693219F7E9C700811C7E /* 2.3个人陈述.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2.3个人陈述.jpeg"; sourceTree = "<group>"; };
+		AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpeg; sourceTree = "<group>"; };
+		AD47693419F7E9C700811C7E /* 3.6resume.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.6resume.jpeg; sourceTree = "<group>"; };
+		AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.0Portfolio1.jpeg; sourceTree = "<group>"; };
+		AD548A2C19F803B50088E19C /* 0ApplyTexas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyTexas.png; sourceTree = "<group>"; };
+		AD548A2D19F803B50088E19C /* 0ApplyWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyWeb.png; sourceTree = "<group>"; };
+		AD548A2E19F803B50088E19C /* 0ApplyYourself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyYourself.png; sourceTree = "<group>"; };
+		AD548A2F19F803B50088E19C /* 0CA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0CA.jpg; sourceTree = "<group>"; };
+		AD548A3019F803B50088E19C /* 0Embark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0Embark.png; sourceTree = "<group>"; };
+		AD548A3619F803FC0088E19C /* 2.5.1范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.5.1范文.md.json"; sourceTree = "<group>"; };
+		AD548A3719F803FC0088E19C /* 2.5.2范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.5.2范文.md.json"; sourceTree = "<group>"; };
+		AD548A3819F803FC0088E19C /* 2.7.1小论文范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.7.1小论文范文.md.json"; sourceTree = "<group>"; };
+		AD548A3919F803FC0088E19C /* 2.7.2小论文范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.7.2小论文范文.md.json"; sourceTree = "<group>"; };
 		AD8C2C2919E900B400A5A4A7 /* 3.14哥大校徽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14哥大校徽.jpg"; sourceTree = "<group>"; };
 		AD8C2C2A19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.14诺贝尔奖.jpg"; sourceTree = "<group>"; };
 		AD8C2C2B19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.14诺贝尔奖.md.json"; sourceTree = "<group>"; };
@@ -879,6 +917,11 @@
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
 			isa = PBXGroup;
 			children = (
+				AD548A2C19F803B50088E19C /* 0ApplyTexas.png */,
+				AD548A2D19F803B50088E19C /* 0ApplyWeb.png */,
+				AD548A2E19F803B50088E19C /* 0ApplyYourself.png */,
+				AD548A2F19F803B50088E19C /* 0CA.jpg */,
+				AD548A3019F803B50088E19C /* 0Embark.png */,
 				ADF2468319F4FF1C005BA7E5 /* 0网申流程.md.json */,
 				ADF2468419F4FF1C005BA7E5 /* 1.1Login.jpg */,
 				ADF2468519F4FF1C005BA7E5 /* 1.2LoginAddress.jpg */,
@@ -946,6 +989,7 @@
 		AD40112819EB7A610088194C /* 出国考试 */ = {
 			isa = PBXGroup;
 			children = (
+				AD47692B19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg */,
 				AD40112919EB7A610088194C /* 0出国考试.md.json */,
 				AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */,
 				AD40112C19EB7A610088194C /* 1托福.md.json */,
@@ -1323,6 +1367,19 @@
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
 			isa = PBXGroup;
 			children = (
+				AD548A3619F803FC0088E19C /* 2.5.1范文.md.json */,
+				AD548A3719F803FC0088E19C /* 2.5.2范文.md.json */,
+				AD548A3819F803FC0088E19C /* 2.7.1小论文范文.md.json */,
+				AD548A3919F803FC0088E19C /* 2.7.2小论文范文.md.json */,
+				AD47692D19F7E9C700811C7E /* 0Portfolio2.jpeg */,
+				AD47692E19F7E9C700811C7E /* 1.1RL2.jpeg */,
+				AD47692F19F7E9C700811C7E /* 1.2Writing.jpeg */,
+				AD47693019F7E9C700811C7E /* 1.5.1范文2.md.json */,
+				AD47693119F7E9C700811C7E /* 1.5.2范文3.md.json */,
+				AD47693219F7E9C700811C7E /* 2.3个人陈述.jpeg */,
+				AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */,
+				AD47693419F7E9C700811C7E /* 3.6resume.jpeg */,
+				AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */,
 				AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */,
 				FE7262CA19DFEA11005739D0 /* 0PS1.jpg */,
 				FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */,
@@ -1795,6 +1852,7 @@
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
+				AD47693919F7E9C700811C7E /* 1.5.1范文2.md.json in Resources */,
 				AD0E75F219F37695006F433C /* 3.25recommendation.jpg in Resources */,
 				ADF246A819F4FF1C005BA7E5 /* 1.3Personal.jpg in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
@@ -1804,6 +1862,7 @@
 				FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */,
 				ADF246C019F4FF1C005BA7E5 /* 4ApplyWeb.md.json in Resources */,
 				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
+				AD548A3C19F803FC0088E19C /* 2.7.1小论文范文.md.json in Resources */,
 				ADF246B819F4FF1C005BA7E5 /* 4.6academicinfo.jpg in Resources */,
 				AD0E75E819F37695006F433C /* 3.16testTOEFL.jpg in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
@@ -1818,6 +1877,7 @@
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
+				AD47692C19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg in Resources */,
 				AD0E75EE19F37695006F433C /* 3.21dependent.jpg in Resources */,
 				AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
@@ -1871,6 +1931,7 @@
 				AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */,
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
+				AD47693719F7E9C700811C7E /* 1.1RL2.jpeg in Resources */,
 				ADF246A519F4FF1C005BA7E5 /* 0网申流程.md.json in Resources */,
 				ADF246B419F4FF1C005BA7E5 /* 4.2Preliminary.jpg in Resources */,
 				AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */,
@@ -1885,6 +1946,7 @@
 				FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */,
 				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
 				AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */,
+				AD548A3219F803B50088E19C /* 0ApplyWeb.png in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				ADF246C119F4FF1C005BA7E5 /* 5.1login.jpg in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
@@ -1925,7 +1987,10 @@
 				AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */,
 				AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */,
 				FEE1602019D925030022883E /* 1.2.3领域学科排名对比.png in Resources */,
+				AD47693619F7E9C700811C7E /* 0Portfolio2.jpeg in Resources */,
 				FEA0FBE519D846A400A24409 /* 1.4.1QS评价标准.md.json in Resources */,
+				AD548A3519F803B50088E19C /* 0Embark.png in Resources */,
+				AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */,
 				FEB211E719DA940C00647560 /* 2.2.4剑桥4.jpg in Resources */,
 				AD0E75F419F37695006F433C /* 3.3background.jpg in Resources */,
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
@@ -1937,6 +2002,7 @@
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				FEA0FBF819D846A400A24409 /* 2.5LiberalArtsCollege.md.json in Resources */,
+				AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */,
 				FEA0FBDE19D846A400A24409 /* 1.2.0三大排名对比.md.json in Resources */,
 				AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */,
 				FEA0FBF619D846A400A24409 /* 2.3USNews评价标准.md.json in Resources */,
@@ -1951,10 +2017,12 @@
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
+				AD47693A19F7E9C700811C7E /* 1.5.2范文3.md.json in Resources */,
 				ADF246AF19F4FF1C005BA7E5 /* 1.10Grades.jpg in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
 				FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */,
+				AD47693B19F7E9C700811C7E /* 2.3个人陈述.jpeg in Resources */,
 				FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */,
 				FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */,
 				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
@@ -2010,6 +2078,7 @@
 				AD0E75F619F37695006F433C /* 3.5contact.jpg in Resources */,
 				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
+				AD47693E19F7E9C700811C7E /* 4.0Portfolio1.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
 				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
@@ -2032,6 +2101,7 @@
 				FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */,
 				ADBF2CDC19DF9EDF0029A327 /* 1.0ARWU.jpg in Resources */,
+				AD548A3419F803B50088E19C /* 0CA.jpg in Resources */,
 				AD0E75F719F37695006F433C /* 3.6contact.jpg in Resources */,
 				ADF246BE19F4FF1C005BA7E5 /* 4.12file.jpg in Resources */,
 				ADF246BB19F4FF1C005BA7E5 /* 4.9honors.jpg in Resources */,
@@ -2048,10 +2118,12 @@
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */,
 				AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */,
+				AD548A3A19F803FC0088E19C /* 2.5.1范文.md.json in Resources */,
 				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
+				AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */,
 				ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */,
@@ -2074,6 +2146,7 @@
 				ADF246C419F4FF1C005BA7E5 /* 6.1Supplemental.jpg in Resources */,
 				FEA0FBF719D846A400A24409 /* 2.4NationalUniversity.md.json in Resources */,
 				FEB211E419DA940C00647560 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
+				AD548A3B19F803FC0088E19C /* 2.5.2范文.md.json in Resources */,
 				ADF246B719F4FF1C005BA7E5 /* 4.5internationalinfo.jpg in Resources */,
 				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
 				ADF246AC19F4FF1C005BA7E5 /* 1.7Education.jpg in Resources */,
@@ -2082,6 +2155,7 @@
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				ADF246B619F4FF1C005BA7E5 /* 4.4otherinfo.jpg in Resources */,
+				AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */,
 				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
@@ -2092,6 +2166,7 @@
 				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
+				AD548A3D19F803FC0088E19C /* 2.7.2小论文范文.md.json in Resources */,
 				AD8C2C2E19E900B400A5A4A7 /* 3.14诺贝尔奖.md.json in Resources */,
 				FEA0FC0719D846A400A24409 /* 3.10.0法学院排名.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
@@ -2110,6 +2185,7 @@
 				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				FEA0FBFD19D846A400A24409 /* 2.62015最新排名解读.md.json in Resources */,
 				AD0E75F319F37695006F433C /* 3.2Personal.jpg in Resources */,
+				AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 				FEA0FBFF19D846A400A24409 /* 3.2.0工程院排名.md.json in Resources */,
 			);

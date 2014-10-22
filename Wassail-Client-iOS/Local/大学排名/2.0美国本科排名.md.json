@@ -34,7 +34,7 @@
                         "content": {
                             "body": {
                                 "address": "2.4NationalUniversity", 
-                                "title": "National University  \uff08\u5927U\u6392\u540d\uff09"
+                                "title": "\u5927U\u6392\u540d"
                             }, 
                             "name": "2.4NationalUniversity", 
                             "type": "HLArticlePreview"
@@ -45,7 +45,7 @@
                         "content": {
                             "body": {
                                 "address": "2.5LiberalArtsCollege", 
-                                "title": "Liberal Arts College \uff08\u6587\u7406\u5b66\u9662\u6392\u540d\uff09"
+                                "title": "\u6587\u7406\u5b66\u9662\u6392\u540d"
                             }, 
                             "name": "2.5LiberalArtsCollege", 
                             "type": "HLArticlePreview"
@@ -83,7 +83,7 @@
                         "content": {
                             "body": {
                                 "address": "4.0LinkedIn\u6392\u540d", 
-                                "title": "LinkedIn\u804c\u4e1a\u53d1\u5c55\u5927\u5b66\u6392\u540d (\u65b0\u9c9c\u51fa\u7089)"
+                                "title": "LinkedIn\u804c\u4e1a\u53d1\u5c55\u5927\u5b66\u6392\u540d (\u6700\u65b0\u53d1\u5e03)"
                             }, 
                             "name": "4.0LinkedIn\u6392\u540d", 
                             "type": "HLListPreview"

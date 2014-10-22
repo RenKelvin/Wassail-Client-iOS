@@ -230,6 +230,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "abroad exams", 
+                                "title": "\u51fa\u56fd\u8003\u8bd5"
+                            }, 
+                            "name": "abroad exams", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "GRE", 
                         "kind": "Section"
                     }, 
@@ -329,6 +340,17 @@
                     {
                         "content": "\u5728\u8fd9\u4e00\u9875\u4e0a\u4f20\u7b80\u5386\uff0c\u4e2a\u4eba\u9648\u8ff0 (PS/SOP)\u3002\u6587\u4ef6\u683c\u5f0f\u53ef\u4ee5\u662f.pdf, .doc, .txt\u7b49\uff0c\u5927\u5c0f\u4e0d\u80fd\u8d85\u8fc74096KB\u3002\u6839\u636e\u9879\u76ee\u8981\u6c42\u4e0d\u540c\uff0c\u5982\u679c\u8981\u6c42\u5199\u6587\u7ae0\u56de\u7b54\u66f4\u591a\u7684\u95ee\u9898\uff0c\u6216\u8005\u8981\u6c42\u63d0\u4ea4\u5199\u4f5c\u6837\u672c\uff0c\u4e5f\u5728\u6b64\u9875\u63d0\u4ea4\u3002", 
                         "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "apply documents", 
+                                "title": "\u7533\u8bf7\u6587\u4e66"
+                            }, 
+                            "name": "apply documents", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u4e2a\u4eba\u6587\u4ef6 (Statements)"
@@ -451,6 +473,17 @@
                             }, 
                             "name": "3.23transcript.jpg", 
                             "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "gpa calculator", 
+                                "title": "GPA\u8ba1\u7b97\u5668"
+                            }, 
+                            "name": "gpa calculator", 
+                            "type": "HLToolPreview"
                         }, 
                         "kind": "Item"
                     }, 

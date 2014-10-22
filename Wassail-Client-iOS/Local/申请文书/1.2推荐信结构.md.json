@@ -20,6 +20,17 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": {
+                            "body": {
+                                "address": "1.2Writing.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "1.2Writing.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "\u7533\u8bf7\u4eba\u7684\u7efc\u5408\u8868\u73b0", 
                         "kind": "Section"
                     }, 
