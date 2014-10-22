@@ -45,6 +45,7 @@ class HLImageView: HLItemView {
         let index = (self.controller! as ArticleViewController).imagesArray.indexOfObject(address!)
         previewController.currentPreviewItemIndex = index
         
-        self.controller!.navigationController!.presentViewController(previewController, animated: true, completion: nil)
+        self.controller!.presentViewController(previewController, animated: true, completion: nil)
+        // self.controller!.navigationController!.pushViewController(previewController, animated: true)
     }
 }
