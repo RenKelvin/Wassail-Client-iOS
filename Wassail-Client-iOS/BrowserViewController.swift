@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BrowserViewController: UIViewController {
+class BrowserViewController: GAITrackedViewController {
     
     @IBOutlet var navigationView: UIView?
     
@@ -41,6 +41,11 @@ class BrowserViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Browser Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.TransparentWithDarkText)
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedbackViewController: UIViewController, UIAlertViewDelegate {
+class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     
     @IBOutlet var navigationView: UIView?
     
@@ -25,6 +25,10 @@ class FeedbackViewController: UIViewController, UIAlertViewDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Feedback Screen"
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)

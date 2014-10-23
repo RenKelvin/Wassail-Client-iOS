@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SizeConverterViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class SizeConverterViewController: GAITrackedViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     let info: SizeConverterInfo = SizeConverterInfo.instance
     
@@ -34,6 +34,11 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Size Converter Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }

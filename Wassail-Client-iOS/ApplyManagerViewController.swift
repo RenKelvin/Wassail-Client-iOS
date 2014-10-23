@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ApplyManagerViewController: UIViewController {
+class ApplyManagerViewController: GAITrackedViewController {
 
     @IBOutlet var navigationView: UIView?
 
@@ -24,6 +24,10 @@ class ApplyManagerViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Apply Manager Screen"
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)

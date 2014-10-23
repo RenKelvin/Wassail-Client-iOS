@@ -9,7 +9,7 @@
 import UIKit
 import QuickLook
 
-class ArticleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, QLPreviewControllerDataSource {
+class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate, QLPreviewControllerDataSource {
     
     @IBOutlet var navigationView: UIView?
     
@@ -53,6 +53,9 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Article Screen"
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.TransparentWithDarkText)
