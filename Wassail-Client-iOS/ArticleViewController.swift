@@ -304,7 +304,7 @@ class ArticleViewController: UIViewController, UITableViewDataSource, UITableVie
             return h!
         }
         
-        return 44.0
+        return 256.0
     }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
