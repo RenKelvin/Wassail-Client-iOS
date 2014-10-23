@@ -14,6 +14,7 @@ class ToolsTableViewCell: HLTableViewCell {
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var readyLabel: UILabel?
+    @IBOutlet var badgeImageView: UIImageView?
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -39,6 +40,8 @@ class ToolsTableViewCell: HLTableViewCell {
             readyLabel!.hidden = true
             titleLabel!.textColor = UIColor.HLTextBlack()
         }
+        
+        badgeImageView!.image = UIImage(named: "BadgeRed")
     }
     
 }

@@ -734,8 +734,15 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y1N-B8-xUZ" id="xEq-l0-7NB">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayU-ny-96o">
+                                                    <rect key="frame" x="15" y="8" width="48" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="48" id="ZRU-HK-2S0"/>
+                                                        <constraint firstAttribute="width" constant="48" id="tH2-HC-1LX"/>
+                                                    </constraints>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbJ-2p-eGT">
-                                                    <rect key="frame" x="71" y="12" width="42" height="20"/>
+                                                    <rect key="frame" x="71" y="12" width="42" height="19.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -747,28 +754,30 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="即将上线" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW9-nk-DBu">
-                                                    <rect key="frame" x="121" y="15" width="48" height="15"/>
+                                                    <rect key="frame" x="121" y="15" width="48" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayU-ny-96o">
-                                                    <rect key="frame" x="15" y="8" width="48" height="48"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yp5-XX-kh8">
+                                                    <rect key="frame" x="576" y="0.0" width="24" height="24"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="48" id="ZRU-HK-2S0"/>
-                                                        <constraint firstAttribute="width" constant="48" id="tH2-HC-1LX"/>
+                                                        <constraint firstAttribute="width" constant="24" id="EuY-MM-fOT"/>
+                                                        <constraint firstAttribute="height" constant="24" id="iPC-K6-HMh"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="g0c-dM-Mbn" firstAttribute="bottom" secondItem="ayU-ny-96o" secondAttribute="bottom" id="9iK-QY-eUX"/>
                                                 <constraint firstItem="ayU-ny-96o" firstAttribute="leading" secondItem="xEq-l0-7NB" secondAttribute="leading" constant="15" id="Ccg-ny-T89"/>
+                                                <constraint firstAttribute="trailing" secondItem="yp5-XX-kh8" secondAttribute="trailing" id="H89-7d-tRt"/>
                                                 <constraint firstAttribute="centerY" secondItem="ayU-ny-96o" secondAttribute="centerY" constant="-0.25" id="N7e-G3-HBF"/>
                                                 <constraint firstItem="nW9-nk-DBu" firstAttribute="centerY" secondItem="DbJ-2p-eGT" secondAttribute="centerY" id="UrP-T5-jie"/>
                                                 <constraint firstItem="g0c-dM-Mbn" firstAttribute="leading" secondItem="ayU-ny-96o" secondAttribute="trailing" constant="8" id="X98-94-4GP"/>
                                                 <constraint firstItem="DbJ-2p-eGT" firstAttribute="leading" secondItem="ayU-ny-96o" secondAttribute="trailing" constant="8" id="auY-aJ-KCP"/>
                                                 <constraint firstItem="DbJ-2p-eGT" firstAttribute="top" secondItem="ayU-ny-96o" secondAttribute="top" constant="4" id="j9H-V1-Cm4"/>
                                                 <constraint firstItem="nW9-nk-DBu" firstAttribute="baseline" secondItem="DbJ-2p-eGT" secondAttribute="baseline" id="jId-fk-tMJ"/>
+                                                <constraint firstItem="yp5-XX-kh8" firstAttribute="top" secondItem="xEq-l0-7NB" secondAttribute="top" id="mcY-hd-d0s"/>
                                                 <constraint firstAttribute="trailing" secondItem="g0c-dM-Mbn" secondAttribute="trailing" constant="15" id="xS9-kD-o9h"/>
                                                 <constraint firstItem="nW9-nk-DBu" firstAttribute="leading" secondItem="DbJ-2p-eGT" secondAttribute="trailing" constant="8" id="zTL-P2-a1H"/>
                                             </constraints>
@@ -779,6 +788,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="badgeImageView" destination="yp5-XX-kh8" id="hnv-oS-ObR"/>
                                             <outlet property="iconImageView" destination="ayU-ny-96o" id="oUv-5R-V2g"/>
                                             <outlet property="noteLabel" destination="g0c-dM-Mbn" id="StD-Gd-jyz"/>
                                             <outlet property="readyLabel" destination="nW9-nk-DBu" id="mhd-VV-II2"/>
@@ -2301,12 +2311,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Bo5-kO-yCc"/>
-        <segue reference="fYA-Od-fVe"/>
-        <segue reference="5Rv-FT-p8R"/>
-        <segue reference="vuL-hi-aIq"/>
-        <segue reference="Oab-mH-CQ6"/>
-        <segue reference="REv-SL-D0I"/>
-        <segue reference="R8b-dB-BNq"/>
+        <segue reference="BK5-dh-8Fc"/>
+        <segue reference="TkG-Ai-5Ra"/>
+        <segue reference="kVD-07-a4B"/>
+        <segue reference="kkp-86-AQj"/>
+        <segue reference="flF-XO-gRb"/>
+        <segue reference="sEN-DU-GIR"/>
+        <segue reference="r4f-h3-sd1"/>
     </inferredMetricsTieBreakers>
 </document>
