@@ -208,10 +208,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "[HLImage](3.10education.jpg", 
-                                "title": ")"
+                                "address": "3.10education.jpg", 
+                                "title": ""
                             }, 
-                            "name": "[HLImage](3.10education.jpg", 
+                            "name": "3.10education.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
