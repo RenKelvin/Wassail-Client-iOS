@@ -48,6 +48,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         monthLabel!.text = NSString(format: "\(month)月")
         dayLabel!.text = String(day)
+        
+        // Force reload
+        tableView?.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
