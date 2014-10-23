@@ -33,6 +33,7 @@
 		AD0E75F919F37695006F433C /* 3.8applicationinfo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */; };
 		AD0E75FA19F37695006F433C /* 3.9applicationifo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */; };
 		AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */; };
+		AD1386DB19F8A7D400F8B82D /* 1.6Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1386DA19F8A7D400F8B82D /* 1.6Family.jpg */; };
 		AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */; };
 		AD1EBB2819E0733E00515F5B /* 2.1格式要求.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */; };
 		AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */; };
@@ -474,6 +475,7 @@
 		AD0E75DF19F37695006F433C /* 3.8applicationinfo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.8applicationinfo.jpg; sourceTree = "<group>"; };
 		AD0E75E019F37695006F433C /* 3.9applicationifo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.9applicationifo.jpg; sourceTree = "<group>"; };
 		AD0E75E119F37695006F433C /* 3ApplyYourself.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3ApplyYourself.md.json; sourceTree = "<group>"; };
+		AD1386DA19F8A7D400F8B82D /* 1.6Family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.6Family.jpg; sourceTree = "<group>"; };
 		AD1EBB1A19E0733E00515F5B /* 2.0个人陈述.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.0个人陈述.md.json"; sourceTree = "<group>"; };
 		AD1EBB1B19E0733E00515F5B /* 2.1格式要求.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.1格式要求.md.json"; sourceTree = "<group>"; };
 		AD1EBB1C19E0733E00515F5B /* 2.2RL2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.2RL2.jpg; sourceTree = "<group>"; };
@@ -917,6 +919,7 @@
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
 			isa = PBXGroup;
 			children = (
+				AD1386DA19F8A7D400F8B82D /* 1.6Family.jpg */,
 				AD548A2C19F803B50088E19C /* 0ApplyTexas.png */,
 				AD548A2D19F803B50088E19C /* 0ApplyWeb.png */,
 				AD548A2E19F803B50088E19C /* 0ApplyYourself.png */,
@@ -2128,6 +2131,7 @@
 				AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */,
 				ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
+				AD1386DB19F8A7D400F8B82D /* 1.6Family.jpg in Resources */,
 				FE72630819E013C3005739D0 /* 0地球.png in Resources */,
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
 				AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */,
