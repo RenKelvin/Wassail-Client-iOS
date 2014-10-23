@@ -124,10 +124,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.6Household.jpg", 
+                                "address": "1.6Family.jpg", 
                                 "title": ""
                             }, 
-                            "name": "1.6Household.jpg", 
+                            "name": "1.6Family.jpg", 
                             "type": "HLImage"
                         }, 
                         "kind": "Item"
