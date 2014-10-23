@@ -791,14 +791,20 @@
                                     <outlet property="delegate" destination="hjl-Qf-suY" id="neA-yZ-pTp"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laM-pH-ygP">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laM-pH-ygP">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="v45-Jb-OgD"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="leading" secondItem="AIv-sg-X4D" secondAttribute="leading" id="Gux-wH-1G5"/>
+                            <constraint firstAttribute="trailing" secondItem="laM-pH-ygP" secondAttribute="trailing" id="Yz9-fg-FMp"/>
+                            <constraint firstItem="laM-pH-ygP" firstAttribute="top" secondItem="AIv-sg-X4D" secondAttribute="top" id="aAN-4q-Pwq"/>
+                            <constraint firstItem="laM-pH-ygP" firstAttribute="leading" secondItem="AIv-sg-X4D" secondAttribute="leading" id="aRv-jQ-4uK"/>
                             <constraint firstItem="dsl-3H-IMb" firstAttribute="top" secondItem="HrX-Pq-H8U" secondAttribute="bottom" id="g9s-W6-4pg"/>
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="width" secondItem="AIv-sg-X4D" secondAttribute="width" id="kUQ-38-eQT"/>
                             <constraint firstItem="HrX-Pq-H8U" firstAttribute="top" secondItem="JGf-i3-cXH" secondAttribute="bottom" constant="-64" id="qwe-WK-PGx"/>
@@ -862,17 +868,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWX-IV-aUe">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWX-IV-aUe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="TTq-hD-IdE"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="VaC-cT-fI3" secondAttribute="trailing" constant="16" id="8hJ-M9-hZd"/>
+                            <constraint firstItem="nWX-IV-aUe" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" id="9aX-lR-oh1"/>
                             <constraint firstItem="VaC-cT-fI3" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" constant="16" id="Nry-n3-sd0"/>
+                            <constraint firstItem="nWX-IV-aUe" firstAttribute="top" secondItem="9uV-Ri-sVD" secondAttribute="top" id="VQz-xT-Rwr"/>
                             <constraint firstItem="x9X-by-odp" firstAttribute="leading" secondItem="9uV-Ri-sVD" secondAttribute="leading" id="ZrR-7g-PXj"/>
+                            <constraint firstAttribute="trailing" secondItem="nWX-IV-aUe" secondAttribute="trailing" id="cWb-2h-TR7"/>
                             <constraint firstItem="VaC-cT-fI3" firstAttribute="top" secondItem="HA6-2f-YuL" secondAttribute="bottom" constant="16" id="miV-r0-qrm"/>
                             <constraint firstItem="x9X-by-odp" firstAttribute="top" secondItem="VaC-cT-fI3" secondAttribute="bottom" constant="12" id="rKB-XN-mc3"/>
                             <constraint firstAttribute="trailing" secondItem="x9X-by-odp" secondAttribute="trailing" id="wj5-bo-hCo"/>
@@ -1208,17 +1220,23 @@
                                     <outlet property="delegate" destination="gXd-Zp-d01" id="gFD-6V-vo3"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7L-hd-kRo">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7L-hd-kRo">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="BhZ-qk-xjt"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="leading" secondItem="54R-DX-u2Y" secondAttribute="leading" id="EdM-Sl-wb1"/>
+                            <constraint firstAttribute="trailing" secondItem="d7L-hd-kRo" secondAttribute="trailing" id="H2U-rW-THd"/>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="top" secondItem="X6I-IW-k4f" secondAttribute="bottom" constant="-64" id="HJY-Qz-txO"/>
                             <constraint firstItem="Abn-bJ-5vA" firstAttribute="width" secondItem="54R-DX-u2Y" secondAttribute="width" id="O8L-zu-YeH"/>
                             <constraint firstItem="Yxd-oc-dcr" firstAttribute="top" secondItem="Abn-bJ-5vA" secondAttribute="bottom" id="X74-Wg-VDU"/>
+                            <constraint firstItem="d7L-hd-kRo" firstAttribute="leading" secondItem="54R-DX-u2Y" secondAttribute="leading" id="jwk-Sp-n2c"/>
+                            <constraint firstItem="d7L-hd-kRo" firstAttribute="top" secondItem="54R-DX-u2Y" secondAttribute="top" id="mhC-hl-SJ1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="List" id="Nhe-kD-pbl"/>
@@ -1275,9 +1293,12 @@
                                     <outlet property="delegate" destination="yEZ-CL-Iol" id="7jB-Bo-Uir"/>
                                 </connections>
                             </webView>
-                            <view alpha="0.98000001907348633" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHJ-Ob-E2X">
+                            <view alpha="0.98000001907348633" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rHJ-Ob-E2X">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="GlM-ms-9Dm"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1285,7 +1306,10 @@
                             <constraint firstItem="G7b-xw-UT8" firstAttribute="top" secondItem="S0N-fb-xVY" secondAttribute="bottom" id="44m-pf-yv8"/>
                             <constraint firstItem="S0N-fb-xVY" firstAttribute="top" secondItem="REf-PR-2db" secondAttribute="top" id="L2j-3J-3zn"/>
                             <constraint firstItem="S0N-fb-xVY" firstAttribute="leading" secondItem="REf-PR-2db" secondAttribute="leading" id="Uo7-ga-fu9"/>
+                            <constraint firstItem="rHJ-Ob-E2X" firstAttribute="top" secondItem="REf-PR-2db" secondAttribute="top" id="ic7-Ni-lYk"/>
                             <constraint firstAttribute="trailing" secondItem="S0N-fb-xVY" secondAttribute="trailing" id="lMi-MN-a7a"/>
+                            <constraint firstAttribute="trailing" secondItem="rHJ-Ob-E2X" secondAttribute="trailing" id="oTc-0M-q1l"/>
+                            <constraint firstItem="rHJ-Ob-E2X" firstAttribute="leading" secondItem="REf-PR-2db" secondAttribute="leading" id="qX5-Bf-BU8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dg7-Ue-WfF">
@@ -2080,15 +2104,21 @@
                                     <outlet property="delegate" destination="v6r-Fh-9PJ" id="DVZ-Vi-bRF"/>
                                 </connections>
                             </tableView>
-                            <view alpha="0.97999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dhh-Vd-GXz">
+                            <view alpha="0.97999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dhh-Vd-GXz">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Dje-Q2-SlJ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QWx-FY-Nd0" firstAttribute="top" secondItem="qhw-vp-XwO" secondAttribute="bottom" id="1VC-6O-flN"/>
+                            <constraint firstAttribute="trailing" secondItem="Dhh-Vd-GXz" secondAttribute="trailing" id="3JM-hT-FfR"/>
+                            <constraint firstItem="Dhh-Vd-GXz" firstAttribute="leading" secondItem="b1c-yE-H7w" secondAttribute="leading" id="BiY-1M-ay9"/>
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="leading" secondItem="b1c-yE-H7w" secondAttribute="leading" id="LxP-Kk-1lP"/>
+                            <constraint firstItem="Dhh-Vd-GXz" firstAttribute="top" secondItem="b1c-yE-H7w" secondAttribute="top" id="QSg-3H-Dcn"/>
                             <constraint firstAttribute="trailing" secondItem="qhw-vp-XwO" secondAttribute="trailing" id="XWZ-Le-O8c"/>
                             <constraint firstItem="qhw-vp-XwO" firstAttribute="top" secondItem="2NJ-Nj-Y23" secondAttribute="bottom" constant="-64" id="a66-ga-XHI"/>
                         </constraints>
@@ -2271,12 +2301,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="r4f-h3-sd1"/>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="BK5-dh-8Fc"/>
-        <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="sEN-DU-GIR"/>
+        <segue reference="Bo5-kO-yCc"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="vuL-hi-aIq"/>
+        <segue reference="Oab-mH-CQ6"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="R8b-dB-BNq"/>
     </inferredMetricsTieBreakers>
 </document>
