@@ -66,11 +66,11 @@ class HLArticle: HLItem {
         var container = NSMutableArray()
         
         let m = groups.count
-        for i in 1...groups.count {
-            let group = groups[i-1] as NSDictionary
+        for var i = 0; i < groups.count; i++ {
+            let group = groups[i] as NSDictionary
             let items = group.objectForKey("items") as NSArray
-            for j in 1...items.count {
-                let item = items[j-1] as NSDictionary
+            for var j = 0; j < items.count; j++ {
+                let item = items[j] as NSDictionary
                 let kind = item.objectForKey("kind") as NSString
                 if (kind == "Item") {
                     let content = item.objectForKey("content") as NSDictionary
