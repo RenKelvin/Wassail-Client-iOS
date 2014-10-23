@@ -9,7 +9,7 @@
 import UIKit
 import QuickLook
 
-class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
@@ -28,6 +28,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+        // GAITrackedViewController name
+        self.screenName = "Tools Screen"
+
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
