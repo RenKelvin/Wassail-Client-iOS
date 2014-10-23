@@ -57,6 +57,7 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
             let imageBody = item!.objectForKey("body") as NSDictionary
             
+            itemView!.controller = controller
             itemView!.configure(imageBody)
             
         case "HLImage":
@@ -64,8 +65,9 @@ class ArticleTableViewItemCell: ArticleTableViewCell {
             
             let imageBody = item!.objectForKey("body") as NSDictionary
             
+            itemView!.controller = controller
             itemView!.configure(imageBody)
-
+            
         default:
             return
         }

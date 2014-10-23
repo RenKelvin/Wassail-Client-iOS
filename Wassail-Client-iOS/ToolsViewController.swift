@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuickLook
 
 class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -40,13 +41,16 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Update date
         let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
-        let components = calendar.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
+        let components = calendar!.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
         
         let month = components.month as Int
         let day = components.day as Int
         
         monthLabel!.text = NSString(format: "\(month)月")
         dayLabel!.text = String(day)
+        
+        // Force reload
+        tableView?.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -73,7 +77,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             return info.getApplyTools()!.count
         case 1:
-            return info.getAboardTools()!.count
+            return info.getAbroadTools()!.count
         default:
             return 0
         }
@@ -125,30 +129,34 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 0:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0网申流程")
+                UserAccessor.instance.setBool("isToolUsed" + "OnlineApplication", value: true)
             case 1:
-                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
-            case 2:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
+            case 2:
+                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             case 3:
-                ""
-            case 4:
-                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
-            case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
+                UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
+            case 4:
+                ""
+            case 5:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+            case 6:
+                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
                 ""
             }
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "1.0信用卡")
-            case 1:
                 self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
-            case 2:
-                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
-            case 3:
+            case 1:
                 self.performSegueWithIdentifier("ToolsSizeConverterSegueIdentifier", sender: nil)
+            case 2:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "1.0信用卡")
+            case 3:
+                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
             case 4:
                 ""
             default:

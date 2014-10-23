@@ -88,7 +88,7 @@ class LocalAdapter: NSObject {
         
         let data = NSData(contentsOfFile: url!.path!)
         var error: NSError? = NSError()
-        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
+        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
         if (json == nil) {
             println("Local Adapter: \(file).json in \(dir) error")
             return nil
@@ -114,6 +114,20 @@ class LocalAdapter: NSObject {
         let image = UIImage(contentsOfFile: url!.path!)
         
         return image
+    }
+    
+    func getImageURL(file: String, dir: Directory) -> NSURL? {
+        
+        let path = file.stringByDeletingPathExtension as NSString
+        let type = file.pathExtension as NSString
+        let url = self.getURL(path, type: type, dir: dir)
+        
+        if (url == nil) {
+            println("Local Adapter: \(file) not found in \(dir)")
+            return nil
+        }
+        
+        return url
     }
     
     // MARK: -

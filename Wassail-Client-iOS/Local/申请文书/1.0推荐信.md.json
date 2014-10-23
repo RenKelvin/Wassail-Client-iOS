@@ -67,10 +67,43 @@
                         "content": {
                             "body": {
                                 "address": "1.5\u8303\u6587", 
-                                "title": "\u8303\u6587"
+                                "title": "\u63a8\u8350\u4fe1\u683c\u5f0f\u6837\u4f8b"
                             }, 
                             "name": "1.5\u8303\u6587", 
                             "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.5.1\u8303\u65872", 
+                                "title": "\u6559\u6388\u63a8\u8350\u4fe1\u6837\u4f8b"
+                            }, 
+                            "name": "1.5.1\u8303\u65872", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.5.2\u8303\u65873", 
+                                "title": "\u5b9e\u4e60\u63a8\u8350\u4fe1\u6837\u4f8b"
+                            }, 
+                            "name": "1.5.2\u8303\u65873", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://careers.tufts.edu/faculty/Writing_recommendations.pdf", 
+                                "title": "Tufts University\u5b98\u65b9\u5efa\u8bae"
+                            }, 
+                            "name": "http://careers.tufts.edu/faculty/Writing_recommendations.pdf", 
+                            "type": "HLLink"
                         }, 
                         "kind": "Item"
                     }

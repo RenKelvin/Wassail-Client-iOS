@@ -11,7 +11,7 @@ import UIKit
 private let _AWSAdapterSharedInstance = AWSAdapter()
 
 class AWSAdapter: NSObject, NSURLSessionTaskDelegate {
-        
+    
     class var instance : AWSAdapter {
     return _AWSAdapterSharedInstance
     }

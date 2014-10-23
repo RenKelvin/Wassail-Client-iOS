@@ -1,12 +1,10 @@
 {
     "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/5", 
         "groups": [
             {
                 "items": [
-                    {
-                        "content": "\u6765\u6e90: \u4e92\u8054\u7f51 \u4f5c\u8005: Sameer Doshi", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "My aim is creation. I love the idea of giving life to nothingness. Were I another person in another time, I might spend my whole life tilling the land. Just like the earliest farmers, the sight of dirt giving rise to carrots and tomatoes at my whim feels like a miracle. I like to randomly burst out in song. I like to shake my body. If I could I would be a pianist and a poet and a painter and a politician. Unfortunately, in all these disciplines my ability can't meet my enthusiasm. Where I can create, and break tired codes, is in the kitchen. With unlimited time and resources I would become the best pastry baker and the finest chef in all of the eastern seaboard.", 
                         "kind": "Graph"
@@ -24,14 +22,10 @@
                         "kind": "Graph"
                     }
                 ], 
-                "title": "Harvard Undergraduate"
+                "title": "Harvard Undergraduate (Sameer Doshi)"
             }, 
             {
                 "items": [
-                    {
-                        "content": "\u6765\u6e90: \u4e92\u8054\u7f51 \u4f5c\u8005: Jason Y. Shah", 
-                        "kind": "Graph"
-                    }, 
                     {
                         "content": "At my age, few people can genuinely claim that they have had a life-changing experience. After attending Leadership in the Business World \uff08LBW\uff09 at the Wharton School last summer, I became one of those fortunate people to have experienced a life-changing academic program. Four weeks of meeting business executives, working with teammates through the night perfecting our professional business plan, experiencing the independence and responsibility that will come with college . . . none of this was advertised in the brochure for LBW, but all of this is what made it uniquely meaningful to me.", 
                         "kind": "Graph"
@@ -49,7 +43,7 @@
                         "kind": "Graph"
                     }
                 ], 
-                "title": "Harvard Admissions Sample Essay"
+                "title": "Harvard Admissions Sample Essay (Jason Y. Shah)"
             }
         ], 
         "title": "\u5c0f\u8bba\u6587\u8303\u6587"

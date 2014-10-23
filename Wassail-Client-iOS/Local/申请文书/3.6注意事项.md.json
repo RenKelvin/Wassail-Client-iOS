@@ -4,6 +4,17 @@
             {
                 "items": [
                     {
+                        "content": {
+                            "body": {
+                                "address": "3.6resume.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "3.6resume.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
                         "content": "\u4e2a\u4eba\u7b80\u5386\u53ef\u4ee5\u9075\u5faaS-A-R\u5199\u6cd5\uff1aSituation, Action, Results\u6765\u5c55\u793a\u6210\u5c31\uff0c\u4e0d\u662f\u7b80\u5355\u5730\u63cf\u8ff0\u4e8b\u4ef6\u3002", 
                         "kind": "Graph"
                     }, 

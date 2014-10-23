@@ -35,13 +35,10 @@ class HLLinkView: HLItemView {
             return
         }
         
-        //
         let identifier = "Article" + "Browser" + "SegueIdentifier"
         
-        //
         let address = link!.objectForKey("address") as NSString
         
-        //
         self.controller!.performSegueWithIdentifier(identifier, sender: address)
     }
 }

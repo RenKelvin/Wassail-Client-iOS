@@ -1,0 +1,553 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "ApplyYourself (AY) \u662f\u76ee\u524d\u6700\u5e38\u7528\u7684\u7f8e\u56fd\u7559\u5b66\u7f51\u7533\u7cfb\u7edf\uff0c\u51e0\u4e4e\u6709\u4e00\u591a\u534a\u7684\u5b66\u6821\u90fd\u662f\u4f7f\u7528\u7684\u8fd9\u4e2a\u7cfb\u7edf\u3002\u754c\u9762\u7b80\u5355\u6e05\u6670\uff0c\u4efb\u4f55\u586b\u9519\u586b\u6f0f\u7684\u4fe1\u606f\u5728\u4e0b\u4e00\u6b65\u4e4b\u524d\u4f1a\u663e\u793a\u7684\u5b9a\u4f4d\u94fe\u63a5\u63d0\u793a\u3002\u5728\u63d0\u4ea4\u7533\u8bf7\u4ed8\u7533\u8bf7\u8d39\u4e4b\u524d\u5c31\u53ef\u4ee5\u53d1\u51fa\u94fe\u63a5\u5230\u63a8\u8350\u4eba\u6307\u5b9a\u7684\u4fe1\u7bb1\u3002\u9002\u7528\u5b66\u6821\u5305\u62ecUIUC, Columbia, CMU, Harvard, Yale, Duke\u7b49\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4ee5\u4e0b\u5185\u5bb9\u4ee5University of Illinois at Urbana-Champaign\u7684\u7533\u8bf7\u9875\u9762\u4e3a\u4f8b\u3002\u5982\u679c\u4f60\u8fd8\u6ca1\u6709\u8be5\u5b66\u6821\u7684\u7533\u8bf7\u8d26\u6237\uff0c\u5219\u9700\u8981\u5728\u4e0b\u9762\u8fd9\u4e2a\u754c\u9762\u6ce8\u518c\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.1AY_Login.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.1AY_Login.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u6ce8\u518c\u540e\u4f60\u4f1a\u6536\u5230\u4e00\u5c01\u90ae\u4ef6\u786e\u8ba4\u8d26\u6237\u5bc6\u7801\uff0c\u7136\u540e\u70b9\u51fb\u90ae\u4ef6\u4e2d\u7684\u94fe\u63a5\u767b\u5f55\u3002\u6709\u4e9b\u5b66\u6821\u5982Carnegie Mellon University\u4f1a\u7ed9\u7533\u8bf7\u8005\u751f\u6210\u4e00\u4e2a\u72ec\u7279\u7684PIN\uff0c\u4e4b\u540e\u767b\u5f55\u4e0d\u7528\u7528\u6237\u540d\u800c\u7528PIN\u53f7\u7801\u6765\u767b\u5f55\u3002\u4e3a\u4e86\u7533\u8bf7\u5b66\u6821\uff0c\u5f53\u7136\u8981\u540c\u610f\u90a3\u4e9b\u6ca1\u4eba\u770b\u7684\u4f7f\u7528\u6761\u6b3e\u5566\uff0c\u540c\u610f\u540e\u5c31\u53ef\u4ee5\u5f00\u59cb\u586b\u5199\u7533\u8bf7\u8868\u4e86\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u7528\u6237\u6ce8\u518c"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.2Personal.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.2Personal.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.3background.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.3background.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4Citizenship.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.4Citizenship.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u586b\u5199\u597d\u8fd9\u4e00\u90e8\u5206\u540e\u70b9\u51fb \u201cSave and Continue\u201d \u6309\u94ae\u8fdb\u5165\u4e0b\u4e00\u90e8\u5206\uff0c\u5982\u679c\u5fc5\u586b\u9879\u6ca1\u6709\u586b\u5b8c\uff0c\u5219\u65e0\u6cd5\u8fdb\u5165\u4e0b\u4e00\u90e8\u5206\u3002\u5728\u5185\u5bb9\u6ca1\u6709\u586b\u5199\u3001\u68c0\u67e5\u597d\u7684\u65f6\u5019\uff0c\u5343\u4e07\u4e0d\u8981\u70b9\u51fb \u201cSubmit Application\u201d \u6309\u94ae\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u4e2a\u4eba\u4fe1\u606f (Personal Information)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u8fd9\u9875\u7684\u4fe1\u606f\u5b66\u6821\u7528\u6765\u548c\u7533\u8bf7\u8005\u8054\u7cfb\uff0c\u5305\u62ec\u901a\u77e5\u7533\u8bf7\u8005\u8865\u5145\u6750\u6599\u6216\u53d1\u5e03\u5f55\u53d6\u4fe1\u606f\u3002\u90ae\u7bb1\u4e00\u5b9a\u8981\u662f\u7ecf\u5e38\u7528\u7ecf\u5e38\u67e5\u7684\u3002\u5982\u679c\u4efb\u4f55\u8054\u7cfb\u4fe1\u606f\u6709\u66f4\u6539\uff0c\u9700\u53ca\u65f6\u5728\u6b64\u9875\u9762\u66f4\u65b0\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5contact.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.5contact.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.6contact.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.6contact.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.7contact.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.7contact.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u8054\u7cfb\u4fe1\u606f (Contact Information)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.8applicationinfo.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.8applicationinfo.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u5956\u5b66\u91d1\u4fe1\u606f\u586b\u5199\u5927\u5bb6\u8981\u6ce8\u610f\uff0c\u56fd\u9645\u751f\u5c31\u7b97\u7533\u8bf7\u5956\u5b66\u91d1\u4e5f\u8981\u63d0\u4f9b\u8d44\u91d1\u8bc1\u660e\uff0c\u56e0\u4e3a\u7533\u8bf7\u7b7e\u8bc1\u65f6\u9700\u8981\u8bc1\u660e\u4f60\u6709\u80fd\u529b\u5b8c\u6210\u5b66\u4e1a\u3002\u5728\u9009\u62e9\u5956\u5b66\u91d1\u662f\u5426\u662f\u4f60\u5165\u5b66\u7684\u5fc5\u8981\u6761\u4ef6\u65f6\u4e00\u5b9a\u8981\u8c28\u614e\uff0c\u5b66\u6821\u53ef\u80fd\u4f1a\u4f18\u5148\u5f55\u53d6\u4e0d\u9700\u8981\u5956\u5b66\u91d1\u7684\u540c\u5b66\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.9applicationifo.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.9applicationifo.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u8fd9\u9875\u6700\u540eFee Waiver\u7684\u90e8\u5206\u4e0d\u7528\u586b\u5199\uff0c\u56e0\u4e3a\u4e00\u822c\u60c5\u51b5\u4e0b\u56fd\u9645\u751f\u4e0d\u80fd\u7533\u8bf7\u51cf\u514d\u7533\u8bf7\u8d39\u6216\u5b66\u8d39 (Fee Waiver)\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u7533\u8bf7\u4fe1\u606f (Application Information)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5217\u51fa\u6709\u4e0a\u8fc7\u7684\u6240\u6709\u5927\u5b66(\u5305\u62ec\u4ea4\u6362\u7684\u5b66\u6821)\uff0c\u5148\u5217\u5373\u5c06\u83b7\u5f97\u6700\u9ad8\u5b66\u4f4d\u7684\uff0c\u8ddd\u4eca\u6700\u8fd1\u7684\uff0c\u518d\u5217\u4e0d\u4f1a\u83b7\u5f97\u5b66\u4f4d\u7684\u3001\u8f83\u65e9\u7684\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.10education.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.10education.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.11education.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.11education.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.12education.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.12education.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u5176\u4ed6\u5b66\u6821\u7684\u4fe1\u606f\u90fd\u53ef\u4ee5\u7167\u7740\u8fd9\u4e2a\u6a21\u7248\u586b\u5199\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u6559\u80b2\u80cc\u666f (Education History)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5728\u8fd9\u4e00\u9875\u8981\u586b\u7533\u8bf7\u8005\u638c\u63e1\u7684\u5404\u79cd\u8bed\u8a00\u80fd\u529b\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.10education.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.10education.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u9664\u4e86\u4e2d\u6587\uff0c\u8fd8\u8981\u6c42\u586b\u5199\u6cd5\u8bed (French)\uff0c\u5fb7\u8bed (German)\uff0c\u5370\u5ea6\u8bed (Hindi)\uff0c\u97e9\u8bed (Korean)\uff0c \u4fc4\u8bed (Russian)\u548c\u897f\u73ed\u7259\u8bed (Spanish)\u3002\u5982\u679c\u4f60\u8fd8\u4f1a\u5176\u4ed6\u975e\u82f1\u8bed\u7684\u8bed\u8a00\uff0c\u5982\u65e5\u8bed (Japanese)\uff0c\u5e0c\u4f2f\u6765\u8bed (Hebrew)\u7b49\uff0c\u4e5f\u53ef\u6dfb\u52a0\u5728\u8fd9\u9875\u5185\u3002\u6ce8\u610f\uff1a\u8fd9\u9875\u4e0d\u7528\u586b\u5199\u82f1\u6587\u7684\u638c\u63e1\u60c5\u51b5\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u8bed\u8a00\u80fd\u529b (Languages)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5728\u8fd9\u4e00\u9875\u8981\u586b\u5165\u8003\u8fc7\u6216\u5373\u5c06\u8003\u7684\u5404\u7c7b\u8003\u8bd5\u4fe1\u606f\uff0c\u56fd\u9645\u751f\u8981\u6839\u636e\u7533\u8bf7Department\u7684\u8981\u6c42\u63d0\u4ea4\u6258\u798f\u6216\u96c5\u601d\u6210\u7ee9\u3002\u8fd9\u91cc\u586b\u7684\u5206\u6570\u90fd\u662f\u975e\u5b98\u65b9\u7684\uff0c\u5fc5\u987b\u8981\u8ba9ETS\u6216\u76f8\u5e94\u8003\u8bd5\u673a\u6784\u9001\u5206\u624d\u7b97\u6b63\u5f0f\u6210\u7ee9\uff0c\u8fd9\u4e00\u9875\u4f1a\u63d0\u4f9b\u7533\u8bf7\u5b66\u6821\u7684\u9001\u5206\u53f7\uff0c\u6bd4\u5982UIUC\u9001\u5206\u53f7\u4e3a1836 \u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "abroad exams", 
+                                "title": "\u51fa\u56fd\u8003\u8bd5"
+                            }, 
+                            "name": "abroad exams", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "GRE", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u8fd9\u4e00\u90e8\u5206\u53ef\u4ee5\u586b\u5199\u4e24\u6b21GRE\u7684\u5206\u6570\uff0c\u4f46\u6700\u7ec8\u4ee5ETS\u9001\u5206\u4e3a\u51c6\u3002\u73b0\u5728GRE\u53ef\u4ee5\u7528ScoreSelect\u529f\u80fd\u9009\u62e9\u9001\u54ea\u4e00\u6b21\u8003\u8bd5\u7684\u5206\u6570\uff0c\u6240\u4ee5\u4e0d\u5fc5\u5c06\u6bcf\u6b21\u8003\u8bd5\u7684\u5206\u6570\u90fd\u586b\u5728\u7f51\u4e0a\u3002\u5982\u679c\u4e24\u6b21\u8003\u8bd5\u603b\u5206\u5dee\u4e0d\u591a\uff0c\u6bcf\u4e2asection\u76f8\u5dee\u8f83\u5927\uff0c\u53ef\u4ee5\u8003\u8651\u586b\u5199\u4e24\u6b21\u8003\u8bd5\u6765\u663e\u793a\u81ea\u5df1\u6bcf\u4e2asection\u7684\u6700\u9ad8\u5206\uff0c\u5426\u5219\u586b\u5206\u6570\u8f83\u9ad8\u7684\u4e00\u6b21\u5c31\u597d\u4e86\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.14testGRE.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.14testGRE.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "GRE Subject", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6b64\u9875\u9700\u8981\u63d0\u4f9b\u7684\u8003\u8bd5\u4fe1\u606f\u5728\u7533\u8bf7\u8005\u7684Score Report\u91cc\u9762\u90fd\u6709\uff0c\u76f4\u63a5\u6284\u8fc7\u6765\u5c31\u53ef\u4ee5\u4e86\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.15testGRESubject.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.15testGRESubject.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "GRE Writing Assessment", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u65b0GRE\u5df2\u7ecf\u6ca1\u6709\u5355\u72ec\u7684Writing Assessment\u4e86\uff0c\u4e0d\u7528\u586b\u5199\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "GMAT\uff0cMAT\uff0cMCAT", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u7533\u8bf7\u7684\u9879\u76ee\u4e0d\u8981\u6c42GRE\uff0c\u800c\u8981\u6c42\u5176\u4ed6\u8003\u8bd5\uff0c\u5219\u586b\u5199\u76f8\u5e94\u7684\u90e8\u5206\u3002\u4fe1\u606f\u8981\u6c42\u548cGRE\u57fa\u672c\u4e00\u81f4\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6258\u798f  TOEFL", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u8fd9\u4e00\u90e8\u5206\u53ef\u4ee5\u586b\u5199\u4e24\u6b21TOEFL\u7684\u5206\u6570\uff0cETS\u9001\u5206\u4e5f\u4f1a\u628a\u6240\u6709\u8003\u8bd5\u5206\u6570\u90fd\u9001\u5230\u5b66\u6821\u3002\u53ef\u4ee5\u586b\u5199\u8f83\u597d\u7684\u4e24\u6b21\uff0c\u5982\u679c\u53ea\u6709\u4e00\u6b21\u8f83\u597d\uff0c\u4e5f\u53ef\u4ee5\u53ea\u586b\u5199\u4e00\u6b21\u7684\u5206\u6570\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.16testTOEFL.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.16testTOEFL.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u96c5\u601d IELTS", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u96c5\u601d\u6210\u7ee9\u4e0d\u7528\u8003\u8bd5\u673a\u6784\u63d0\u4ea4\uff0c\u76f4\u63a5\u5c06\u6210\u7ee9\u62a5\u544a\u7684\u7535\u5b50\u7248\u4e0a\u4f20\u5230ApplyYourself\u7cfb\u7edf\u5373\u53ef\u3002\u4e0a\u4f20\u7684\u6587\u4ef6\u4e0d\u80fd\u8d85\u8fc74096KB\uff0c\u4e0d\u8981\u4e0a\u4f20\u52a0\u5bc6\u7684\u6587\u4ef6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.17testIELTS.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.17testIELTS.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u8003\u8bd5\u4fe1\u606f (Test Information)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5728\u8fd9\u4e00\u9875\u4e0a\u4f20\u7b80\u5386\uff0c\u4e2a\u4eba\u9648\u8ff0 (PS/SOP)\u3002\u6587\u4ef6\u683c\u5f0f\u53ef\u4ee5\u662f.pdf, .doc, .txt\u7b49\uff0c\u5927\u5c0f\u4e0d\u80fd\u8d85\u8fc74096KB\u3002\u6839\u636e\u9879\u76ee\u8981\u6c42\u4e0d\u540c\uff0c\u5982\u679c\u8981\u6c42\u5199\u6587\u7ae0\u56de\u7b54\u66f4\u591a\u7684\u95ee\u9898\uff0c\u6216\u8005\u8981\u6c42\u63d0\u4ea4\u5199\u4f5c\u6837\u672c\uff0c\u4e5f\u5728\u6b64\u9875\u63d0\u4ea4\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "apply documents", 
+                                "title": "\u7533\u8bf7\u6587\u4e66"
+                            }, 
+                            "name": "apply documents", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u4e2a\u4eba\u6587\u4ef6 (Statements)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u7f8e\u56fd\u6709\u6548\u7b7e\u8bc1", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u73b0\u5728\u6301\u6709\u6709\u6548\u7f8e\u56fd\u7b7e\u8bc1\uff0c\u5219\u53c2\u8003\u4e0b\u9762\u4e24\u5f20\u56fe\u586b\u5199\u3002\u5982\u679c\u6ca1\u6709\uff0c\u76f4\u63a5\u770b\u7b2c\u4e09\u5f20\u56fe\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.18intl.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.18intl.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u6301\u6709\u6709\u6548\u7684F-1, F-2, J-1, J-2\u7b7e\u8bc1\uff0c\u53c2\u8003\u4e0b\u56fe\u6839\u636e\u4f60\u7684I-20/DS2019\u586b\u8868\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.19intlFJVisa.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.19intlFJVisa.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u7533\u8bf7I-20/DS2019\u6587\u4ef6", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.20I-20.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.20I-20.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "Dependent", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u9700\u8981\u4e3a\u914d\u5076\u6216\u5b69\u5b50\u7533\u8bf7F-2/J-2\u7b7e\u8bc1\u53bb\u966a\u8bfb\uff0c\u586b\u5199\u4e0b\u9762Dependent\u4fe1\u606f\u3002\u6700\u591a\u53ef\u4ee5\u6dfb\u52a05\u4e2adependent\u7684\u4fe1\u606f\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.21dependent.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.21dependent.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u66f4\u591a\u6559\u80b2\u7ecf\u5386", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u8981\u7533\u8bf7\u505a\u52a9\u6559\uff0c\u5219\u9700\u8981\u53c2\u8003\u4e0b\u56fe\u586b\u5199\u66f4\u8be6\u7ec6\u7684\u6559\u80b2\u7ecf\u5386\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.22TA.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.22TA.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u56fd\u9645\u751f (International Applicants)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e0a\u4f20\u8981\u6c42", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5206\u8fa8\u7387\u5efa\u8bae\u4f4e\u4e8e200 dpi\uff0c\u6587\u4ef6\u683c\u5f0f\u4e3a.doc\u6216.pdf\uff0c\u626b\u63cf\u4e3a\u7070\u5ea6\u6216\u9ed1\u767d\uff0c\u6587\u4ef6\u5c0f\u4e8e4MB\uff0c\u7eb8\u5f20\u5927\u5c0f\u4e3a8.5 * 11 inch\uff0c\u68c0\u67e5\u786e\u4fdd\u4fe1\u606f\u626b\u63cf\u540e\u6ca1\u6709\u9057\u6f0f\u3002\u5982\u679c\u591a\u9875\u6587\u4ef6\u4e00\u4e2a\u6587\u4ef6\u65e0\u6cd5\u538b\u7f29\u52304MB\u4e00\u4e0b\uff0c\u53ef\u4ee5\u5206\u4e3a\u591a\u4e2a\u6587\u4ef6\u4e0a\u4f20\u3002\u4e0a\u4f20\u6587\u4ef6\u662f\u975e\u5b98\u65b9\u7684\uff0c\u5b98\u65b9\u539f\u4ef6\u5728\u5f55\u53d6\u540e\u9700\u8981\u5411\u5b66\u6821\u63d0\u4ea4\uff0c\u6709\u4e9b\u9662\u7cfb\u53ef\u80fd\u8981\u6c42\u5728\u7533\u8bf7\u65f6\u63d0\u4ea4\u539f\u4ef6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6210\u7ee9\u5355&\u5b66\u4f4d\u8ba4\u8bc1", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e0a\u4f20\u7684\u8bc1\u4e66\u5fc5\u987b\u542b\u6709\u7533\u8bf7\u8005\u7684\u540d\u79f0\u548c\u5b66\u6821\u540d\u79f0\u548c\u56fe\u4f8b\u89e3\u91ca\u3002\u56fd\u9645\u751f\u9700\u8981\u4e0a\u4f20\u6210\u7ee9\u5355\u3001\u5b66\u4f4d\u8ba4\u8bc1\u7684\u4e2d\u6587\u539f\u7248\u548c\u82f1\u6587\u7ffb\u8bd1\u7248\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.23transcript.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.23transcript.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "gpa calculator", 
+                                "title": "GPA\u8ba1\u7b97\u5668"
+                            }, 
+                            "name": "gpa calculator", 
+                            "type": "HLToolPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u96c5\u601d\u6210\u7ee9\u5355", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u63d0\u4ea4\u7684\u8bed\u8a00\u8003\u8bd5\u6210\u7ee9\u4e3a\u96c5\u601d\u6210\u7ee9\uff0c\u5219\u4e0d\u9700\u8981\u8ba9\u8003\u8bd5\u673a\u6784\u5bc4\u9001\u6210\u7ee9\uff0c\u5728\u6b64\u9875\u4e0a\u4f20\u6210\u7ee9\u62a5\u544a\u626b\u63cf\u5373\u53ef\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79fb\u6c11\u8ba4\u8bc1\u8d44\u6599", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u6b63\u5728\u7533\u8bf7\u7eff\u5361\uff0c\u4e0a\u4f20USCIS\u901a\u77e5\u5355\uff1b\u5982\u679c\u6709\u7eff\u5361\uff0c\u4e0a\u4f20\u7eff\u5361\u626b\u63cf\uff1b\u5982\u679c\u6301\u6709\u6709\u6548\u7684\u975eF\uff0cJ\u7b7e\u8bc1\uff0c\u5e76\u6253\u7b97\u5ef6\u7528\u6b64\u7b7e\u8bc1\u5165\u5b66\uff0c\u4e0a\u4f20\u7b7e\u8bc1\u626b\u63cf\uff1b\u5982\u679c\u522b\u7684\u673a\u6784\u9881\u53d1\u4e86DS-2019\u6587\u4ef6\uff0c\u4e0a\u4f20\u9881\u53d1\u6587\u4ef6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u62a4\u7167\u548c\u8d44\u91d1\u8bc1\u660e", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u5982\u679c\u4f60\u9700\u8981\u5b66\u6821\u9881\u53d1 I-20\u6216DS-2019 (\u4e00\u822c\u60c5\u51b5\u4e0b\u90fd\u9700\u8981\uff0c\u56e0\u4e3a\u6709\u8fd9\u4e2a\u6587\u4ef6\u624d\u80fd\u7533\u8bf7\u7b7e\u8bc1), \u5219\u9700\u8981\u63d0\u4ea4\u62a4\u7167\u8d44\u6599\u9875\u590d\u5370\u4ef6\u548c\u8d44\u91d1\u8bc1\u660e\u3002\u4e00\u822c\u8d44\u91d1\u8bc1\u660e\u5305\u62ec\u8d44\u52a9\u4eba\u94f6\u884c\u63d0\u4f9b\u7684\u4f59\u989d\u8bc1\u660e (Bank Statement) \u548c\u201c\u8d1f\u62c5\u7533\u8bf7\u4eba\u7559\u5b66\u8d39\u8bc1\u660e\u201d\u4fe1\u4ef6 (Letter of Sponsorship)\u3002Letter of Sponsorship\u5fc5\u987b\u6709\u7533\u8bf7\u4eba\u59d3\u540d\uff0c\u8d44\u52a9\u4eba\u59d3\u540d\u548c\u8d44\u52a9\u4eba\u7b7e\u540d\u3002Bank Statement\u5305\u542b\u94f6\u884c\u540d\u79f0\uff0c\u5f00\u6237\u4eba\u59d3\u540d\u548c\u8d26\u6237\u4f59\u989d\u3002\u5982\u679c\u4f60\u60f3\u8981\u5f55\u53d6\u540e\u518d\u63d0\u4ea4\u8d44\u91d1\u8bc1\u660e\u4fe1\u606f\uff0c\u53ef\u4ee5\u5411\u7533\u8bf7\u9879\u76ee\u7684department\u7533\u8bf7\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.24Passport.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.24Passport.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u4e0a\u4f20\u8bc1\u4e66"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u73b0\u5728\u63a8\u8350\u4fe1\u4e3b\u8981\u662f\u7f51\u4e0a\u63d0\u4ea4\uff0c\u5728\u7cfb\u7edf\u4e2d\u586b\u5199\u63a8\u8350\u4eba\u4fe1\u606f\uff0c\u7533\u8bf7\u7cfb\u7edf\u5c31\u4f1a\u81ea\u52a8email\u4e00\u4e2a\u94fe\u63a5\u7ed9\u63a8\u8350\u4eba\u586b\u5199\u5e76\u63d0\u4ea4\u3002\u7cfb\u7edf\u5728\u751f\u6210\u7533\u8bf7\u8868\u65f6\u5019\u53ea\u663e\u793a\u524d\u4e09\u5c01\u63a8\u8350\u4fe1\uff0c\u5982\u679c\u7533\u8bf7\u7684\u9879\u76ee\u8981\u6c42\u8d85\u8fc7\u4e09\u5c01\u63a8\u8350\u4fe1\uff0c\u62db\u751f\u5b98\u53ef\u4ee5\u8fdb\u5165ApplyYourself\u7cfb\u7edf\u67e5\u770b\u3002\u6bcf\u6b21\u767b\u5f55\u7533\u8bf7\u4eba\u53ef\u4ee5\u67e5\u770b\u63a8\u8350\u4eba\u662f\u5426\u5df2\u7ecf\u63d0\u4ea4\u63a8\u8350\u4fe1\u3002\u8bb0\u4f4f\uff0c\u7533\u8bf7\u4eba\u4e0d\u7528\u7b49\u5f85\u63a8\u8350\u4eba\u63d0\u4ea4\u63a8\u8350\u4fe1\u518d\u63d0\u4ea4\u7533\u8bf7\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.25recommendation.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.25recommendation.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u63a8\u8350\u4eba\u4fe1\u606f"
+            }
+        ], 
+        "title": "ApplyYourself\u7f51\u7533\u7cfb\u7edf"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

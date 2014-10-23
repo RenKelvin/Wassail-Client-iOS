@@ -13,14 +13,14 @@ private let _UserAccessorSharedInstance = UserAccessor()
 class UserAccessor: NSObject {
     
     class var instance : UserAccessor {
-    return _UserAccessorSharedInstance
+        return _UserAccessorSharedInstance
     }
     
     func getMySize(key: String) -> NSDictionary? {
         
         return LocalMediator.instance.getMySize(key)
     }
-
+    
     func setMySize(key: NSString, value: NSDictionary) -> Bool {
         
         return LocalMediator.instance.setMySize(key, value: value)
@@ -35,5 +35,17 @@ class UserAccessor: NSObject {
         
         return LocalMediator.instance.setMyGPA(gpa)
     }
-
+    
+    // MARK: -
+    
+    func getBool(key: String) -> Bool? {
+        
+        return LocalMediator.instance.getBool(key)
+    }
+    
+    func setBool(key: String, value: Bool) -> Bool {
+        
+        return LocalMediator.instance.setBool(key, value: value)
+    }
+    
 }

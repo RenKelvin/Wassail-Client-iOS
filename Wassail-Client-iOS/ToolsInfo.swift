@@ -32,16 +32,16 @@ class ToolsInfo: NSObject {
         return applyTools
     }
     
-    func getAboardTools() -> NSArray? {
+    func getAbroadTools() -> NSArray? {
         let tools = self.getTools()
         
         if (tools == nil) {
             return nil
         }
         
-        let aboardTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(1) as NSArray
+        let abroadTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(1) as NSArray
         
-        return aboardTools
+        return abroadTools
     }
     
     func getTool(section: Int, row: Int) -> NSDictionary? {
