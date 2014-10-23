@@ -184,6 +184,7 @@
 		ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF246A419F4FF1C005BA7E5 /* 6Embark.md.json */; };
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
+		FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
@@ -626,6 +627,7 @@
 		ADF246A419F4FF1C005BA7E5 /* 6Embark.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6Embark.md.json; sourceTree = "<group>"; };
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
+		FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerViewController.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -1562,6 +1564,7 @@
 				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
 				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
+				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -2263,6 +2266,7 @@
 				FE51847719DC79340057082C /* UIImageExtension.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
+				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,

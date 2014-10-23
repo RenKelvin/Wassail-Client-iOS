@@ -1391,7 +1391,7 @@
         <!--申请管理器-->
         <scene sceneID="V7H-ST-Slb">
             <objects>
-                <viewController id="sj0-j9-YFw" sceneMemberID="viewController">
+                <viewController id="sj0-j9-YFw" customClass="ApplyManagerViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M6G-Pr-5lv"/>
                         <viewControllerLayoutGuide type="bottom" id="H4T-W9-3iE"/>
@@ -1399,9 +1399,28 @@
                     <view key="view" contentMode="scaleToFill" id="ki4-RW-BEo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LhX-Nu-86m">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Ipk-xm-z1E"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LhX-Nu-86m" firstAttribute="leading" secondItem="ki4-RW-BEo" secondAttribute="leading" id="188-zP-cyu"/>
+                            <constraint firstItem="LhX-Nu-86m" firstAttribute="top" secondItem="ki4-RW-BEo" secondAttribute="top" id="AX5-By-6aB"/>
+                            <constraint firstAttribute="trailing" secondItem="LhX-Nu-86m" secondAttribute="trailing" id="rSp-z0-Q8n"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="申请管理器" id="eGc-9M-mKp"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="navigationView" destination="LhX-Nu-86m" id="Njv-cf-RrN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGA-yT-hrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2311,12 +2330,12 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="r4f-h3-sd1"/>
         <segue reference="BK5-dh-8Fc"/>
         <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="flF-XO-gRb"/>
         <segue reference="sEN-DU-GIR"/>
-        <segue reference="r4f-h3-sd1"/>
+        <segue reference="kVD-07-a4B"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="vuL-hi-aIq"/>
     </inferredMetricsTieBreakers>
 </document>
