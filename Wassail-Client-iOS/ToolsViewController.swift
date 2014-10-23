@@ -127,17 +127,18 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
             switch indexPath.row {
             case 0:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0网申流程")
+                UserAccessor.instance.setBool("isToolUsed" + "OnlineApplication", value: true)
             case 1:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 2:
                 self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             case 3:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
-            case 4:
-//                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
-                let vc = QLPreviewController()
-            case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
+                UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
+            case 4:
+                ""
+            case 5:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 6:
                 self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
@@ -146,13 +147,13 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         case 1:
             switch indexPath.row {
             case 0:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "1.0信用卡")
-            case 1:
                 self.performSegueWithIdentifier("ToolsTipsCalculatorSegueIdentifier", sender: nil)
-            case 2:
-                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
-            case 3:
+            case 1:
                 self.performSegueWithIdentifier("ToolsSizeConverterSegueIdentifier", sender: nil)
+            case 2:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "1.0信用卡")
+            case 3:
+                self.performSegueWithIdentifier("ToolsUnitConverterSegueIdentifier", sender: nil)
             case 4:
                 ""
             default:

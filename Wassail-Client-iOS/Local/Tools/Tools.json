@@ -4,7 +4,7 @@
                "online application",
                "apply documents",
                "gpa calculator",
-              "abroad exams",
+               "abroad exams",
                "offer broadcast",
                "university rankings",
                "abroad words"
@@ -29,7 +29,8 @@
         "note": "语言考试、综合考试等介绍",
         "title": "出国考试",
         "icon": "ToolsIconAbroadExams",
-        "identifier": "AbroadExams"
+        "identifier": "AbroadExams",
+        "new": "true"
     },
     "apply manager": {
         "ready": "false",
@@ -92,7 +93,8 @@
         "note": "准备材料，使用步骤及注意事项",
         "title": "网申流程",
         "icon": "ToolsIconOnlineApplication",
-        "identifier": "OnlineApplication"
+        "identifier": "OnlineApplication",
+        "new": "true"
     },
     "admission interview": {
         "ready": "false",

@@ -89,4 +89,22 @@ class LocalMediator: NSObject {
         return LocalAdapter.instance.writePlist("User", key: "mygpa", value: gpa!)
     }
     
+    func getBool(key: String) -> Bool? {
+        
+        let dict = LocalAdapter.instance.getPlist("User", dir: .Document)
+        if (dict == nil) {
+            return nil
+        }
+        
+        let b = dict!.objectForKey(key) as Bool?
+        
+        return b
+
+    }
+    
+    func setBool(key: String, value: Bool) -> Bool {
+        
+        return LocalAdapter.instance.writePlist("User", key: key, value: value)
+    }
+
 }

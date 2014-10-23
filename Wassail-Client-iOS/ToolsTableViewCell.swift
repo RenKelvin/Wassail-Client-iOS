@@ -41,7 +41,19 @@ class ToolsTableViewCell: HLTableViewCell {
             titleLabel!.textColor = UIColor.HLTextBlack()
         }
         
-        badgeImageView!.image = UIImage(named: "BadgeRed")
+        let isNew = dict!.objectForKey("new") as NSString?
+        let n = (isNew != nil && isNew! == "true")
+        
+        let identifier = dict!.objectForKey("identifier") as String?
+        let isUsed = UserAccessor.instance.getBool("isToolUsed" + identifier!) as Bool?
+        let u = (isUsed != nil && isUsed! == true)
+
+        if (n && !u){
+            badgeImageView!.image = UIImage(named: "BadgeRed")
+        }
+        else {
+            badgeImageView!.image = UIImage()
+        }
     }
     
 }
