@@ -142,7 +142,7 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
                 UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
             case 4:
-                ""
+                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
             case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 6:

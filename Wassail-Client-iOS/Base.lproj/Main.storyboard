@@ -1997,16 +1997,16 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注释" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geS-sT-Qjz">
-                                            <rect key="frame" x="63" y="45" width="24" height="14.5"/>
+                                            <rect key="frame" x="15" y="61.5" width="24" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OHX-vh-xas">
-                                            <rect key="frame" x="15" y="64" width="570" height="40"/>
+                                            <rect key="frame" x="15" y="78" width="570" height="32"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="c9B-7q-jcF">
-                                                    <rect key="frame" x="10" y="10" width="550" height="20"/>
+                                                    <rect key="frame" x="10" y="10" width="550" height="12"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -2023,18 +2023,19 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="d88-dP-cQA" firstAttribute="top" secondItem="rHG-jg-0uj" secondAttribute="top" constant="20" id="4u8-NV-WYJ"/>
-                                        <constraint firstItem="geS-sT-Qjz" firstAttribute="top" secondItem="NOy-IZ-Jqv" secondAttribute="top" id="61W-Tt-a3H"/>
-                                        <constraint firstAttribute="bottom" secondItem="OHX-vh-xas" secondAttribute="bottom" constant="24" id="7Wa-rE-iYo"/>
+                                        <constraint firstAttribute="bottom" secondItem="OHX-vh-xas" secondAttribute="bottom" constant="18" id="7Wa-rE-iYo"/>
                                         <constraint firstItem="OHX-vh-xas" firstAttribute="leading" secondItem="rHG-jg-0uj" secondAttribute="leading" constant="15" id="9hx-7f-jIc"/>
                                         <constraint firstItem="d88-dP-cQA" firstAttribute="leading" secondItem="rHG-jg-0uj" secondAttribute="leading" constant="15" id="BMj-pA-LGy"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="top" secondItem="NOy-IZ-Jqv" secondAttribute="top" id="G5o-NA-TVP"/>
-                                        <constraint firstItem="OHX-vh-xas" firstAttribute="top" secondItem="rHG-jg-0uj" secondAttribute="top" constant="64" id="GBJ-8P-mjL"/>
+                                        <constraint firstItem="OHX-vh-xas" firstAttribute="top" secondItem="rHG-jg-0uj" secondAttribute="top" constant="78" id="GBJ-8P-mjL"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="top" secondItem="d88-dP-cQA" secondAttribute="bottom" constant="2" id="IRg-Lu-Am4"/>
-                                        <constraint firstItem="geS-sT-Qjz" firstAttribute="leading" secondItem="NOy-IZ-Jqv" secondAttribute="trailing" id="OVw-O4-G64"/>
+                                        <constraint firstItem="geS-sT-Qjz" firstAttribute="top" secondItem="NOy-IZ-Jqv" secondAttribute="bottom" constant="2" id="aBG-4z-nbF"/>
                                         <constraint firstItem="krC-hx-Lx0" firstAttribute="leading" secondItem="d88-dP-cQA" secondAttribute="leading" id="ajk-jA-W9M"/>
                                         <constraint firstAttribute="trailing" secondItem="OHX-vh-xas" secondAttribute="trailing" constant="15" id="g3z-A1-MeR"/>
                                         <constraint firstItem="NOy-IZ-Jqv" firstAttribute="leading" secondItem="krC-hx-Lx0" secondAttribute="trailing" id="gCZ-rR-W2B"/>
                                         <constraint firstAttribute="trailing" secondItem="d88-dP-cQA" secondAttribute="trailing" constant="15" id="rpk-eE-1k6"/>
+                                        <constraint firstItem="geS-sT-Qjz" firstAttribute="top" secondItem="krC-hx-Lx0" secondAttribute="bottom" constant="2" id="sV7-U9-eAd"/>
+                                        <constraint firstItem="geS-sT-Qjz" firstAttribute="leading" secondItem="krC-hx-Lx0" secondAttribute="leading" id="znp-fZ-cwe"/>
                                     </constraints>
                                 </view>
                                 <view key="tableFooterView" hidden="YES" contentMode="scaleToFill" id="EWd-Zk-ngr">

@@ -125,14 +125,9 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         }
         self.authorLabel!.hidden = false
         
-        if (article!.date != nil) {
-            self.dateLabel!.text = article!.date!+"  "
-        }
-        else {
-            self.dateLabel!.text = article!.date
-        }
+        self.dateLabel!.text = article!.date
         self.dateLabel!.hidden = false
-
+        
         self.noteLabel!.text = article!.note
         self.noteLabel!.hidden = false
         
