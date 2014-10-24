@@ -953,7 +953,6 @@
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
 			isa = PBXGroup;
 			children = (
-				AD1386DA19F8A7D400F8B82D /* 1.6Family.jpg */,
 				AD548A2C19F803B50088E19C /* 0ApplyTexas.png */,
 				AD548A2D19F803B50088E19C /* 0ApplyWeb.png */,
 				AD548A2E19F803B50088E19C /* 0ApplyYourself.png */,
@@ -965,6 +964,7 @@
 				ADF2468619F4FF1C005BA7E5 /* 1.3Personal.jpg */,
 				ADF2468719F4FF1C005BA7E5 /* 1.4Demographics.jpg */,
 				ADF2468819F4FF1C005BA7E5 /* 1.5languages.jpg */,
+				AD1386DA19F8A7D400F8B82D /* 1.6Family.jpg */,
 				ADF2468919F4FF1C005BA7E5 /* 1.6household.jpg */,
 				ADF2468A19F4FF1C005BA7E5 /* 1.7Education.jpg */,
 				ADF2468B19F4FF1C005BA7E5 /* 1.8otherschool.jpg */,
@@ -1198,12 +1198,12 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				ADD68A8619FA4C1100B88199 /* 留学费用 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				AD40112819EB7A610088194C /* 出国考试 */,
 				FE5BC07819D71BD4007E63BC /* 大学排名 */,
 				FE7262C919DFEA11005739D0 /* 申请文书 */,
+				ADD68A8619FA4C1100B88199 /* 留学费用 */,
 				AD0E75C719F37695006F433C /* 网申流程 */,
 			);
 			path = Local;
