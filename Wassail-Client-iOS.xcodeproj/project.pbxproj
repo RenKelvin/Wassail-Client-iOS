@@ -1637,11 +1637,8 @@
 			isa = PBXGroup;
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
-				FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */,
-				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
-				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
-				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
-				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
+				FED3E82719FA8E47001838B0 /* Apply */,
+				FED3E82619FA8E3E001838B0 /* Ultilities */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -1843,6 +1840,25 @@
 				FECBB60419BE093B00115694 /* RKNumericLabel.swift */,
 			);
 			name = RKNumericLabel;
+			sourceTree = "<group>";
+		};
+		FED3E82619FA8E3E001838B0 /* Ultilities */ = {
+			isa = PBXGroup;
+			children = (
+				FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */,
+				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
+				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
+				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
+			);
+			name = Ultilities;
+			sourceTree = "<group>";
+		};
+		FED3E82719FA8E47001838B0 /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
+			);
+			name = Apply;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
