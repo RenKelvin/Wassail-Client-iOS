@@ -148,6 +148,12 @@
 		ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */; };
 		ADCF1ECE19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */; };
 		ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */; };
+		ADD68A8D19FA4C1100B88199 /* 0留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8719FA4C1100B88199 /* 0留学费用.md.json */; };
+		ADD68A8E19FA4C1100B88199 /* 1美国留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8819FA4C1100B88199 /* 1美国留学费用.md.json */; };
+		ADD68A8F19FA4C1100B88199 /* 2澳大利亚留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8919FA4C1100B88199 /* 2澳大利亚留学费用.md.json */; };
+		ADD68A9019FA4C1100B88199 /* 3英国留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */; };
+		ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */; };
+		ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */; };
 		ADF246A519F4FF1C005BA7E5 /* 0网申流程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468319F4FF1C005BA7E5 /* 0网申流程.md.json */; };
 		ADF246A619F4FF1C005BA7E5 /* 1.1Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468419F4FF1C005BA7E5 /* 1.1Login.jpg */; };
 		ADF246A719F4FF1C005BA7E5 /* 1.2LoginAddress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468519F4FF1C005BA7E5 /* 1.2LoginAddress.jpg */; };
@@ -590,6 +596,12 @@
 		ADCF1EC919DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.3.2.0THE2014-2015.md.json"; sourceTree = "<group>"; };
 		ADCF1ECA19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.3.2.0THE2014-2015.png"; sourceTree = "<group>"; };
 		ADCF1ECF19DD6079005E4FD4 /* 1.0美国国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.0美国国旗.jpg"; sourceTree = "<group>"; };
+		ADD68A8719FA4C1100B88199 /* 0留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0留学费用.md.json"; sourceTree = "<group>"; };
+		ADD68A8819FA4C1100B88199 /* 1美国留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1美国留学费用.md.json"; sourceTree = "<group>"; };
+		ADD68A8919FA4C1100B88199 /* 2澳大利亚留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2澳大利亚留学费用.md.json"; sourceTree = "<group>"; };
+		ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3英国留学费用.md.json"; sourceTree = "<group>"; };
+		ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4日本留学费用.md.json"; sourceTree = "<group>"; };
+		ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5加拿大留学费用.md.json"; sourceTree = "<group>"; };
 		ADF2468319F4FF1C005BA7E5 /* 0网申流程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0网申流程.md.json"; sourceTree = "<group>"; };
 		ADF2468419F4FF1C005BA7E5 /* 1.1Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.1Login.jpg; sourceTree = "<group>"; };
 		ADF2468519F4FF1C005BA7E5 /* 1.2LoginAddress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2LoginAddress.jpg; sourceTree = "<group>"; };
@@ -1030,6 +1042,19 @@
 			path = "出国考试";
 			sourceTree = "<group>";
 		};
+		ADD68A8619FA4C1100B88199 /* 留学费用 */ = {
+			isa = PBXGroup;
+			children = (
+				ADD68A8719FA4C1100B88199 /* 0留学费用.md.json */,
+				ADD68A8819FA4C1100B88199 /* 1美国留学费用.md.json */,
+				ADD68A8919FA4C1100B88199 /* 2澳大利亚留学费用.md.json */,
+				ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */,
+				ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */,
+				ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */,
+			);
+			path = "留学费用";
+			sourceTree = "<group>";
+		};
 		FE08E0ED19DD9B720016A1A2 /* 留学时间表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1151,6 +1176,7 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				ADD68A8619FA4C1100B88199 /* 留学费用 */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				AD40112819EB7A610088194C /* 出国考试 */,
@@ -1935,9 +1961,11 @@
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				AD47693719F7E9C700811C7E /* 1.1RL2.jpeg in Resources */,
+				ADD68A8D19FA4C1100B88199 /* 0留学费用.md.json in Resources */,
 				ADF246A519F4FF1C005BA7E5 /* 0网申流程.md.json in Resources */,
 				ADF246B419F4FF1C005BA7E5 /* 4.2Preliminary.jpg in Resources */,
 				AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */,
+				ADD68A9019FA4C1100B88199 /* 3英国留学费用.md.json in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */,
@@ -1979,6 +2007,7 @@
 				FEB211E619DA940C00647560 /* 2.2.4剑桥.jpg in Resources */,
 				AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */,
 				ADBF2CDE19DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg in Resources */,
+				ADD68A8E19FA4C1100B88199 /* 1美国留学费用.md.json in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
 				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
@@ -2120,11 +2149,13 @@
 				FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
 				AD40116419EB7A610088194C /* 7Official LSAT Preptest.jpeg in Resources */,
+				ADD68A8F19FA4C1100B88199 /* 2澳大利亚留学费用.md.json in Resources */,
 				AD40115919EB7A610088194C /* 4Barron'sACT.jpg in Resources */,
 				AD548A3A19F803FC0088E19C /* 2.5.1范文.md.json in Resources */,
 				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
+				ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
@@ -2177,6 +2208,7 @@
 				ADF246B919F4FF1C005BA7E5 /* 4.7academicinfo2.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
 				FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */,
+				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
 				FEA0FBF519D846A400A24409 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
 				FEA0FBE319D846A400A24409 /* 1.3.3THE其他排名.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,

@@ -1,0 +1,268 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u9ad8\u4e2d\u5b66\u8d39\uff0d 3\u5e74", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u516c\u7acb\u9ad8\u4e2d: \u6bcf\u5e74\u7ea61-2\u4e07\u7f8e\u5143\uff0c6-12\u4e07\u4eba\u6c11\u5e01, \u4f46\u53ea\u80fd\u4ee5\u4ea4\u6362\u751f\u8eab\u4efd\u8bfb\u4e00\u5e74\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Rye Brook School District (New York): $21,500", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Riverdale School District (Oregon): $11,900", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u9ad8\u4e2d: \u6bcf\u5e74\u7ea63-4\u4e07\u7f8e\u5143\uff0c18-24\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Harker School (California): $40,500", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Trinity College (New York): $42,820", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Princeton Day School (New Jersey): $32,300", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u672c\u79d1\u5b66\u8d39 \uff0d 4\u5e74", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u516c\u7acb\u5927\u5b66:\u6bcf\u5e74\u7ea62-3.5\u4e07\u7f8e\u5143\uff0c12-21\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota (Minnesota): $19,310", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UT - Austin (Texas): $36,012", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UCLA (California): $35,740", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u5927\u5b66: \u6bcf\u5e74\u7ea63.5-4.5\u4e07\u7f8e\u5143\uff0c21-27\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "USC (California): $37,096", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University (Massachusetts): $43,938", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University (New York): $45,028", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u793e\u533a\u5927\u5b66: \u6bcf\u5e74\u7ea66000-8000\u7f8e\u5143\uff0c3.7-4.9\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Santa Monica College (California): $7,800", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7855\u58eb\u5b66\u8d39 \uff0d 1.5-2\u5e74", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u516c\u7acb\u5927\u5b66 (Public Schools)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u9879\u76ee: \u6bcf\u5e74\u7ea62-3\u4e07\u7f8e\u5143\uff0c12-18\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota (Minnesota): $23,680", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UT - Austin (Texas): $24,798", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UCLA (California): $30,764", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5546\u5b66\u9662: \u6bcf\u5e744.5-5\u4e07\u7f8e\u5143\uff0c27-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota (Minnesota): $45,000", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UT - Austin (Texas): $46,514", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UCLA (California): $49,891", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6cd5\u5b66\u9662: \u6bcf\u5e744-5\u4e07\u7f8e\u5143\uff0c24-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "UT - Austin (Texas): $44,620", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota (Minnesota): $46,680", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u5927\u5b66 (Private Schools)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u9879\u76ee: \u6bcf\u5e74\u7ea63.5-5\u4e07\u7f8e\u5143\uff0c21-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "USC (California): $37,096", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University (Massachusetts): $40,416", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University (New York): $48,646", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5546\u5b66\u9662: \u6bcf\u5e745.5-6.5\u4e07\u7f8e\u5143\uff0c33-40\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "USC (California): $54,252", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University (Massachusetts): $58,875", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University (New York): $63,148", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6cd5\u5b66\u9662: \u6bcf\u5e745.5-6\u4e07\u7f8e\u5143\uff0c33-36\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "USC (California): $55,023", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University (Massachusetts): $54,850", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University (New York): $58,292", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u535a\u58eb \uff0d 5-7\u5e74", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u60c5\u51b5\u4e0b\u62ff\u5168\u5956\uff0c\u514d\u5b66\u6742\u8d39\u5e76\u7ed9\u751f\u6d3b\u8865\u52a9\uff0c\u6cd5\u5b66\u535a\u58eb\u548c\u533b\u5b66\u535a\u58eb\u9664\u5916\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5b66\u8d39 (Tuition)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e00\u7ea7\u57ce\u5e02 (\u7f8e\u56fd\u7279\u5927\u57ce\u5e02): \u6bcf\u67081000-2000\u7f8e\u5143\uff0c6000-1.2\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e8c\u7ea7\u57ce\u5e02 (\u7f8e\u56fd\u5927\u57ce\u5e02): \u6bcf\u6708800-1000\u7f8e\u5143\uff0c5000-6000\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e09\u7ea7\u57ce\u5e02 (\u7f8e\u56fd\u5357\u90e8\u3001\u4e2d\u897f\u90e8\u3001\u4e1c\u5357\u90e8): \u6bcf\u6708600-800\u7f8e\u5143\uff0c4000-5000\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u56db\u7ea7\u57ce\u5e02\u00a0(OK,MI, LA): \u6bcf\u6708450-600\u7f8e\u5143\uff0c3000-4000\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u751f\u6d3b\u8d39"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u535a\u58eb\u4e00\u822c\u60c5\u51b5\u4e0b\u662f\u514d\u5b66\u8d39\u5e76\u83b7\u5f97\u751f\u6d3b\u8865\u52a9\u7684\uff0c\u5206Fellowship, Research Assistant (RA) \u548c Teaching Assistant (TA) \u4e09\u79cd\u3002Fellowship\u6700\u597d\uff0c\u4e0d\u7528\u4e3a\u5b66\u6821\u5de5\u4f5c\u5c31\u53ef\u4ee5\u62ff\u94b1\uff0cRA\u8981\u534f\u52a9\u6559\u6388\u4ece\u4e8b\u7814\u7a76\u5de5\u4f5c\uff0cTA\u8981\u534f\u52a9\u6559\u6388\u7684\u6559\u5b66\u5de5\u4f5c\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7814\u7a76\u751f\u4e00\u822c\u60c5\u51b5\u4e0b\u62ff\u4e0d\u5230\u5956\u5b66\u91d1\uff0c\u9664\u975e\u6709\u7279\u6b8a\u7814\u7a76\u7ecf\u8d39\u6216\u8fd9\u4e2a\u9662\u7cfb\u91cc\u9762\u6ca1\u6709\u535a\u58eb\u751f\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u672c\u79d1\u751f\u62ff\u5956\u7684\u56fd\u9645\u751f\u8d8a\u6765\u8d8a\u5c11\u4e86\u3002\u56fd\u9645\u751f\u4e0d\u80fd\u62ff\u7f8e\u56fd\u653f\u5e9c\u53d1\u653e\u7684\u52a9\u5b66\u91d1(Financial Aid)\uff0c\u4f46\u53ef\u4ee5\u83b7\u5956\u5b66\u91d1 (Scholarship)\u3002\u6839\u636e\u5b66\u6821\u8981\u6c42\u4e0d\u540c\uff0c\u6709\u4e9b\u662f\u6839\u636e\u5b66\u751f\u7684\u6210\u7ee9\u53d1\u653e\u7684\uff0c\u53ebMerit-based Scholarship, \u6709\u4e9b\u662f\u6839\u636e\u5b66\u751f\u7684\u7ecf\u6d4e\u80fd\u529b\u53d1\u653e\u7684\uff0c\u53ebNeed-based Scholarship\u3002\u6587\u7406\u5b66\u9662\u76f8\u5bf9\u6765\u8bf4\u7ed9\u56fd\u9645\u751f\u5956\u5b66\u91d1\u66f4\u591a\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u9ad8\u4e2d\u7684\u5956\u5b66\u91d1\u4e2d\u56fd\u5b66\u751f\u4e5f\u53ef\u4ee5\u7533\u8bf7\uff0c\u4f46\u6570\u91cf\u548c\u53ef\u80fd\u6027\u6bd4\u672c\u79d1\u8fd8\u8981\u5c11\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5956\u5b66\u91d1"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u6821\u5185\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0on-campus\u6307\u5728\u81ea\u5df1\u5c31\u8bfb\u7684\u9662\u6821\u5de5\u4f5c\uff0c\u4e0d\u9700\u8981\u7533\u8bf7\u5de5\u4f5c\u7b7e\u8bc1\u3002\u6761\u4ef6\u662f\u5fc5\u987b\u662f\u5168\u65e5\u5236 \u5b66\u751f(Full-time\u00a0Student)\u3002\u6bcf\u5468\u4e0d\u53ef\u4ee5\u8d85\u8fc720\u5c0f\u65f6\uff0c\u6691\u5047\u4e0d\u53ef\u4ee5\u8d85\u8fc740\u5c0f\u65f6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6821\u5916\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0off-campus\u6307\u5141\u8bb8\u56fd\u9645\u5b66\u751f\u5b66\u4e60\u671f\u95f4\u5728\u6821\u5916\u5de5\u4f5c\uff0c\u5165\u5b669\u4e2a\u6708\u4ee5\u4e0a (\u4e24\u4e2a\u5b66\u671f) \u540e\u53ef\u4ee5\u7533\u8bf7CPT (Curricular Practical Training) \u5230\u6821\u5916\u6253\u5de5\uff0c\u6bcf\u5468\u4e0d\u80fd\u8d85\u8fc720\u5c0f\u65f6\uff0c\u6691\u5047\u4e0d\u53ef\u4ee5\u8d85\u8fc740\u4e2a\u5c0f\u65f6\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u6253\u5de5"
+            }
+        ], 
+        "note": "1\u7f8e\u5143\uff1d6.12\u4eba\u6c11\u5e01", 
+        "title": "\u7f8e\u56fd\u7559\u5b66\u8d39\u7528"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
