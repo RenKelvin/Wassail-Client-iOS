@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UnitConverterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, RKPickerViewDelegate {
+class UnitConverterViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate, RKPickerViewDelegate {
     
     let info: UnitConverterInfo = UnitConverterInfo.instance
     
@@ -54,8 +54,10 @@ class UnitConverterViewController: UIViewController, UITableViewDataSource, UITa
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Configure Navigation Bar and Status Bar
+        // GAITrackedViewController name
+        self.screenName = "Unit Converter Screen"
         
+        // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         self.selectCategory(0)
         self.updateNumbersByInput()

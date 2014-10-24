@@ -190,6 +190,7 @@
 		ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF246A419F4FF1C005BA7E5 /* 6Embark.md.json */; };
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
+		FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
@@ -242,6 +243,10 @@
 		FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */; };
 		FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */; };
 		FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */; };
+		FE669BB519F939E600906F2E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE669BB419F939E600906F2E /* CoreData.framework */; };
+		FE669BB719F939F500906F2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE669BB619F939F500906F2E /* SystemConfiguration.framework */; };
+		FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE669BBA19F93AC600906F2E /* GAIAdapter.m */; };
+		FE669BBD19F93D0700906F2E /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -396,7 +401,6 @@
 		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
 		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
 		FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */; };
-		FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */; };
 		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
 		FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */; };
 		FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */; };
@@ -638,6 +642,7 @@
 		ADF246A419F4FF1C005BA7E5 /* 6Embark.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6Embark.md.json; sourceTree = "<group>"; };
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
+		FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerViewController.swift; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -697,6 +702,21 @@
 		FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAdapter.swift; sourceTree = "<group>"; };
 		FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMobileAnalyticsAdapter.h; sourceTree = "<group>"; };
 		FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMobileAnalyticsAdapter.m; sourceTree = "<group>"; };
+		FE669BAA19F9394A00906F2E /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		FE669BAB19F9394A00906F2E /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		FE669BAC19F9394A00906F2E /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		FE669BAD19F9394A00906F2E /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		FE669BAE19F9394A00906F2E /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		FE669BAF19F9394A00906F2E /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		FE669BB019F9394A00906F2E /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		FE669BB119F9394A00906F2E /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		FE669BB219F9394A00906F2E /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		FE669BB319F9394A00906F2E /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		FE669BB419F939E600906F2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FE669BB619F939F500906F2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE669BB919F93AC600906F2E /* GAIAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIAdapter.h; sourceTree = "<group>"; };
+		FE669BBA19F93AC600906F2E /* GAIAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAIAdapter.m; sourceTree = "<group>"; };
+		FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -851,7 +871,6 @@
 		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
 		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
 		FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapper.swift; sourceTree = "<group>"; };
-		FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInfo.swift; sourceTree = "<group>"; };
@@ -904,7 +923,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE669BB719F939F500906F2E /* SystemConfiguration.framework in Frameworks */,
+				FE669BB519F939E600906F2E /* CoreData.framework in Frameworks */,
 				FE60E67B19E56D0500147EF9 /* libz.dylib in Frameworks */,
+				FE669BBD19F93D0700906F2E /* libGoogleAnalyticsServices.a in Frameworks */,
 				FE60E67C19E56D3500147EF9 /* libsqlite3.dylib in Frameworks */,
 				FE60E6B119E58C4300147EF9 /* AWSCognitoSync.framework in Frameworks */,
 				FE60E68819E56DBA00147EF9 /* TMCache.framework in Frameworks */,
@@ -1325,6 +1347,7 @@
 			children = (
 				FEB1D7FD19CF10E6002F7285 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
+				FE669BA919F9392200906F2E /* GAI */,
 				FE60E6B319E596CE00147EF9 /* Others */,
 			);
 			name = "3rd Party";
@@ -1335,6 +1358,8 @@
 			children = (
 				FE60E67819E56CD200147EF9 /* libsqlite3.dylib */,
 				FE60E67A19E56D0500147EF9 /* libz.dylib */,
+				FE669BB419F939E600906F2E /* CoreData.framework */,
+				FE669BB619F939F500906F2E /* SystemConfiguration.framework */,
 			);
 			name = Cocoa;
 			sourceTree = "<group>";
@@ -1391,6 +1416,34 @@
 				FE60E68319E56DBA00147EF9 /* XMLDictionary.framework */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		FE669BA919F9392200906F2E /* GAI */ = {
+			isa = PBXGroup;
+			children = (
+				FE669BB919F93AC600906F2E /* GAIAdapter.h */,
+				FE669BBA19F93AC600906F2E /* GAIAdapter.m */,
+				FE669BB819F93AAA00906F2E /* Resource */,
+			);
+			name = GAI;
+			sourceTree = "<group>";
+		};
+		FE669BB819F93AAA00906F2E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */,
+				FE669BAA19F9394A00906F2E /* GAI.h */,
+				FE669BAB19F9394A00906F2E /* GAIDictionaryBuilder.h */,
+				FE669BAC19F9394A00906F2E /* GAIEcommerceFields.h */,
+				FE669BAD19F9394A00906F2E /* GAIEcommerceProduct.h */,
+				FE669BAE19F9394A00906F2E /* GAIEcommerceProductAction.h */,
+				FE669BAF19F9394A00906F2E /* GAIEcommercePromotion.h */,
+				FE669BB019F9394A00906F2E /* GAIFields.h */,
+				FE669BB119F9394A00906F2E /* GAILogger.h */,
+				FE669BB219F9394A00906F2E /* GAITrackedViewController.h */,
+				FE669BB319F9394A00906F2E /* GAITracker.h */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
@@ -1588,6 +1641,7 @@
 				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
 				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
 				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
+				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -1674,9 +1728,8 @@
 			isa = PBXGroup;
 			children = (
 				FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */,
-				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
 				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
-				FEC3BD5C19C29E0A00184760 /* AWSAdapter.swift */,
+				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
 			);
 			name = Adapter;
 			sourceTree = "<group>";
@@ -2295,8 +2348,10 @@
 				FE51847719DC79340057082C /* UIImageExtension.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
+				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */,
+				FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
 				FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */,
@@ -2312,7 +2367,6 @@
 				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,
-				FEC3BD5D19C29E0A00184760 /* AWSAdapter.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
@@ -2456,6 +2510,10 @@
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2481,6 +2539,10 @@
 				INFOPLIST_FILE = "Wassail-Client-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wassail-Client-iOS",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

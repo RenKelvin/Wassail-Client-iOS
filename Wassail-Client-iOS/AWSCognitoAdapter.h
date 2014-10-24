@@ -1,5 +1,5 @@
 //
-//  CognitoAdapter.h
+//  AWSCognitoAdapter.h
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 10/8/14.

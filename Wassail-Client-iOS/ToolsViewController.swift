@@ -9,7 +9,7 @@
 import UIKit
 import QuickLook
 
-class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
@@ -28,6 +28,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+        // GAITrackedViewController name
+        self.screenName = "Tools Screen"
+
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
@@ -48,6 +51,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         monthLabel!.text = NSString(format: "\(month)月")
         dayLabel!.text = String(day)
+        
+        // Force reload
+        tableView?.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -136,7 +142,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
                 UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
             case 4:
-                ""
+                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
             case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 6:

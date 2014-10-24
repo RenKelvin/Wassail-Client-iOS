@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITextFieldDelegate {
+class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelegate, UITextFieldDelegate {
     
     var amount: Double = 50
     @IBOutlet var amountTextField: UITextField?
@@ -46,6 +46,11 @@ class TipsCalculatorViewController: UIViewController, UIScrollViewDelegate, UITe
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Tips Calculator Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }

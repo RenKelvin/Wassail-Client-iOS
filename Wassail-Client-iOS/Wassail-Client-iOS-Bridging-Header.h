@@ -3,5 +3,6 @@
 //
 
 #import "AWSCognitoAdapter.h"
-
 #import "AWSMobileAnalyticsAdapter.h"
+
+#import "GAIAdapter.h"

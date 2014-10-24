@@ -22,7 +22,8 @@ static AWSMobileAnalyticsAdapter * _AWSMobileAnalyticsAdapterSharedInstance = ni
 
 - (void)initAnalytics {
     
-    _analytics = [AWSMobileAnalytics mobileAnalyticsForAppId:@"7a9e6aac52f24ee984cbead1c4e74766"];
+    //    _analytics = [AWSMobileAnalytics mobileAnalyticsForAppId:@"7a9e6aac52f24ee984cbead1c4e74766"];
+    _analytics = [AWSMobileAnalytics mobileAnalyticsForAppId:@"4275b64634ed40329c9e86dd8974415b"];
     
 }
 

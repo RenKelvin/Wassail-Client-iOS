@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GPACalculatorViewController: UIViewController {
+class GPACalculatorViewController: GAITrackedViewController {
     
     let info: GPACalculatorInfo = GPACalculatorInfo.instance
     
@@ -36,12 +36,12 @@ class GPACalculatorViewController: UIViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "GPA Calculator Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         
@@ -54,6 +54,11 @@ class GPACalculatorViewController: UIViewController {
         if (mygpa == nil) {
             inputTextField!.becomeFirstResponder()
         }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - TableViewDataSource
