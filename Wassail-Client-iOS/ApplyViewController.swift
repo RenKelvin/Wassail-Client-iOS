@@ -1,17 +1,17 @@
 //
-//  ApplyManagerViewController.swift
+//  ApplyViewController.swift
 //  Wassail-Client-iOS
 //
-//  Created by Chuan Ren on 10/23/14.
+//  Created by Chuan Ren on 10/25/14.
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
 import UIKit
 
-class ApplyManagerViewController: GAITrackedViewController {
+class ApplyViewController: GAITrackedViewController {
     
     @IBOutlet var navigationView: UIView?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,13 +27,13 @@ class ApplyManagerViewController: GAITrackedViewController {
         super.viewWillAppear(animated)
         
         // GAITrackedViewController name
-        self.screenName = "Apply Manager Screen"
+        self.screenName = "Apply Screen"
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
-    
+
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -47,7 +47,7 @@ class ApplyManagerViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyManagerTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
         // Configure the cell
         
@@ -81,15 +81,5 @@ class ApplyManagerViewController: GAITrackedViewController {
         self.performSegueWithIdentifier("ApplyManagerApplySegueIdentifier", sender: nil)
 
     }
-    
-    /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
     
 }
