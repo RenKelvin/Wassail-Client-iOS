@@ -463,6 +463,7 @@
 		FEEE448619FC21DF00AFA88C /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447919FC21DF00AFA88C /* JSONModel+networking.m */; };
 		FEEE448719FC21DF00AFA88C /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */; };
 		FEEE448819FC21DF00AFA88C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */; };
+		FEEE448B19FC246100AFA88C /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEEE448919FC246100AFA88C /* UserModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -961,6 +962,7 @@
 		FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
 		FEEE447D19FC21DF00AFA88C /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
 		FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		FEEE448A19FC246100AFA88C /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1842,6 +1844,7 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				FEEE448919FC246100AFA88C /* UserModel.xcdatamodeld */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -2493,6 +2496,7 @@
 				FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */,
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
 				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
+				FEEE448B19FC246100AFA88C /* UserModel.xcdatamodeld in Sources */,
 				FE47ADBE19FBA4570023A0A2 /* ApplyAdderViewController.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */,
@@ -2762,6 +2766,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEEE448919FC246100AFA88C /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEEE448A19FC246100AFA88C /* UserModel.xcdatamodel */,
+			);
+			currentVersion = FEEE448A19FC246100AFA88C /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FE5B1F8219B4033B00842C3D /* Project object */;
 }
