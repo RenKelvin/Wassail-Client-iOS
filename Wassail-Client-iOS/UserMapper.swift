@@ -13,7 +13,7 @@ private let _UserMapperSharedInstance = UserMapper()
 class UserMapper: NSObject {
     
     class var instance : UserMapper {
-    return _UserMapperSharedInstance
+        return _UserMapperSharedInstance
     }
-
+    
 }

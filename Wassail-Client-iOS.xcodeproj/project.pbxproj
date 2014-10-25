@@ -384,7 +384,7 @@
 		FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */; };
 		FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */; };
 		FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */; };
-		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
+		FEB1D7FF19CF1113002F7285 /* Wassail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail.swift */; };
 		FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEB211CC19DA940C00647560 /* 0大学排名.jpg */; };
 		FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEB211CD19DA940C00647560 /* 1.1.1鲍林格.jpg */; };
 		FEB211DE19DA940C00647560 /* 1.1.2ARWU.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB211CE19DA940C00647560 /* 1.1.2ARWU.png */; };
@@ -861,7 +861,7 @@
 		FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAdapter.swift; sourceTree = "<group>"; };
 		FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMediator.swift; sourceTree = "<group>"; };
-		FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail_v1.swift; sourceTree = "<group>"; };
+		FEB1D7FE19CF1113002F7285 /* Wassail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail.swift; sourceTree = "<group>"; };
 		FEB211CC19DA940C00647560 /* 0大学排名.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0大学排名.jpg"; sourceTree = "<group>"; };
 		FEB211CD19DA940C00647560 /* 1.1.1鲍林格.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.1.1鲍林格.jpg"; sourceTree = "<group>"; };
 		FEB211CE19DA940C00647560 /* 1.1.2ARWU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.1.2ARWU.png; sourceTree = "<group>"; };
@@ -1403,7 +1403,7 @@
 		FE60E6AB19E56F5B00147EF9 /* Cloud */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */,
+				FEB1D7FE19CF1113002F7285 /* Wassail.swift */,
 			);
 			name = Cloud;
 			sourceTree = "<group>";
@@ -2394,7 +2394,7 @@
 				FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
-				FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */,
+				FEB1D7FF19CF1113002F7285 /* Wassail.swift in Sources */,
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
 				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
 				FE47ADBE19FBA4570023A0A2 /* ApplyAdderViewController.swift in Sources */,
