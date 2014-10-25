@@ -293,6 +293,11 @@
 		FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */; };
 		FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */; };
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
+		FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */; };
+		FEA05EE619FBB18E00D1C912 /* FieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */; };
+		FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */; };
+		FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */; };
+		FEA05EEC19FBB1B600D1C912 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */; };
 		FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */; };
 		FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */; };
 		FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */; };
@@ -765,6 +770,11 @@
 		FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticlePreview.swift; sourceTree = "<group>"; };
 		FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterInfo.swift; sourceTree = "<group>"; };
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
+		FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDatabaseViewController.swift; sourceTree = "<group>"; };
+		FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldListViewController.swift; sourceTree = "<group>"; };
+		FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityRankingViewController.swift; sourceTree = "<group>"; };
+		FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityViewController.swift; sourceTree = "<group>"; };
+		FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
 		FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKArticleHeaderView.swift; sourceTree = "<group>"; };
 		FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKArticleHeaderView.xib; sourceTree = "<group>"; };
 		FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLToolPreviewView.swift; sourceTree = "<group>"; };
@@ -1863,6 +1873,11 @@
 				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
 				FE47ADBD19FBA4570023A0A2 /* ApplyAdderViewController.swift */,
 				FE47ADBF19FBA4710023A0A2 /* ApplyViewController.swift */,
+				FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */,
+				FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */,
+				FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */,
+				FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */,
+				FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */,
 			);
 			name = Apply;
 			sourceTree = "<group>";
@@ -2334,12 +2349,14 @@
 			files = (
 				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
+				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
 				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
 				FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */,
 				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
+				FEA05EE619FBB18E00D1C912 /* FieldListViewController.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
 				FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */,
@@ -2388,9 +2405,11 @@
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
+				FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */,
 				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,
+				FEA05EEC19FBB1B600D1C912 /* ProgramViewController.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
@@ -2398,6 +2417,7 @@
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */,
+				FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */,
 				FE72630119DFED10005739D0 /* Item.swift in Sources */,
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,

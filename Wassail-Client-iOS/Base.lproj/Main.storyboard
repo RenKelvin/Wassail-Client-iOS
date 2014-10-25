@@ -5,7 +5,63 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Apply View Controller-->
+        <!--大学排名-->
+        <scene sceneID="5JW-xc-1UD">
+            <objects>
+                <viewController id="2ED-wB-bfm" customClass="UniversityRankingViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rQG-Ip-zpq"/>
+                        <viewControllerLayoutGuide type="bottom" id="pDg-9R-acb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Qa-4q-lwx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUZ-5U-msR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="RGj-fX-D3j"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MUZ-5U-msR" firstAttribute="leading" secondItem="3Qa-4q-lwx" secondAttribute="leading" id="CdH-uw-efN"/>
+                            <constraint firstAttribute="trailing" secondItem="MUZ-5U-msR" secondAttribute="trailing" id="bGh-ec-HrS"/>
+                            <constraint firstItem="MUZ-5U-msR" firstAttribute="top" secondItem="3Qa-4q-lwx" secondAttribute="top" id="y2P-KL-r0Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="大学排名" id="1CV-dD-lfe"/>
+                    <connections>
+                        <outlet property="navigationView" destination="MUZ-5U-msR" id="mHh-Rl-sJQ"/>
+                        <segue destination="wzg-k9-jhl" kind="show" identifier="UniversityRankingUniversitySegueIdentifer" id="TYF-9O-bLs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ST8-5f-Ms4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2464" y="-1200"/>
+        </scene>
+        <!--Stanford University-->
+        <scene sceneID="Ec9-Nl-vOi">
+            <objects>
+                <viewController id="wzg-k9-jhl" customClass="UniversityViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Jl-6h-OtZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="x0r-Np-y55"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zzv-ts-zNW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stanford University" id="CjV-70-0Kz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vng-MS-3fy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145" y="-1200"/>
+        </scene>
+        <!--申请任务-->
         <scene sceneID="Edg-2t-fHu">
             <objects>
                 <viewController id="zKi-Kv-mtH" customClass="ApplyViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,8 +114,10 @@
                             <constraint firstAttribute="trailing" secondItem="3d7-n1-800" secondAttribute="trailing" id="yKy-2g-yHS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="申请任务" id="sct-ex-eaG"/>
                     <connections>
-                        <outlet property="navigationView" destination="3d7-n1-800" id="FCJ-q4-IfS"/>
+                        <outlet property="navigationView" destination="3d7-n1-800" id="rJn-qg-8MU"/>
+                        <segue destination="bFh-mN-eLf" kind="show" identifier="ApplyProgramSegueIdentifer" id="bWm-xD-cJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3e-bB-fkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -352,6 +410,25 @@
                 </toolbar>
             </objects>
             <point key="canvasLocation" x="2464" y="162"/>
+        </scene>
+        <!--MS in Computer Science-->
+        <scene sceneID="22N-X0-IYF">
+            <objects>
+                <viewController id="bFh-mN-eLf" customClass="ProgramViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dSz-wV-D9A"/>
+                        <viewControllerLayoutGuide type="bottom" id="t6J-aY-6ra"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fdb-0v-UAt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MS in Computer Science" id="cR9-a5-cmw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1pv-Qp-PpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145" y="-528"/>
         </scene>
         <!--尺码转换-->
         <scene sceneID="Y6A-Or-LNQ">
@@ -898,6 +975,7 @@
                         <segue destination="LBP-Ai-M6A" kind="show" identifier="ToolsGPACalculatorSegueIdentifier" id="TkG-Ai-5Ra"/>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ToolsArticleSegueIdentifier" id="flF-XO-gRb"/>
                         <segue destination="sj0-j9-YFw" kind="show" identifier="ToolsApplyManagerSegueIdentifier" id="yOW-S0-chj"/>
+                        <segue destination="ZgZ-Nf-Fh9" kind="show" identifier="ToolsUniversityDatabaseSegueIdentifier" id="NuF-Zq-prK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVq-hs-z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1449,6 +1527,64 @@
             </objects>
             <point key="canvasLocation" x="2464" y="862"/>
         </scene>
+        <!--院校数据库-->
+        <scene sceneID="O0d-F9-DJo">
+            <objects>
+                <viewController id="ZgZ-Nf-Fh9" customClass="UniversityDatabaseViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gsn-TD-CFu"/>
+                        <viewControllerLayoutGuide type="bottom" id="JR5-mH-I44"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N63-ea-AKC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nq7-BK-w8W">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="QNB-jZ-FbB"/>
+                                </constraints>
+                            </view>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="U04-zu-PmZ">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ZgZ-Nf-Fh9" id="Uvr-G4-eBp"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U04-zu-PmZ" firstAttribute="top" secondItem="gsn-TD-CFu" secondAttribute="bottom" id="0Db-eA-vM7"/>
+                            <constraint firstItem="nq7-BK-w8W" firstAttribute="leading" secondItem="N63-ea-AKC" secondAttribute="leading" id="0LP-VQ-9IF"/>
+                            <constraint firstAttribute="trailing" secondItem="U04-zu-PmZ" secondAttribute="trailing" id="mYZ-yh-odu"/>
+                            <constraint firstItem="nq7-BK-w8W" firstAttribute="top" secondItem="N63-ea-AKC" secondAttribute="top" id="t2C-qu-Hgc"/>
+                            <constraint firstAttribute="trailing" secondItem="nq7-BK-w8W" secondAttribute="trailing" id="vak-IQ-crK"/>
+                            <constraint firstItem="U04-zu-PmZ" firstAttribute="leading" secondItem="N63-ea-AKC" secondAttribute="leading" id="xqM-sB-PkF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="院校数据库" id="hFr-qj-fNu"/>
+                    <connections>
+                        <outlet property="navigationView" destination="nq7-BK-w8W" id="xkA-QI-wdz"/>
+                        <outlet property="searchDisplayController" destination="dLS-DD-yYb" id="02E-aX-fZ1"/>
+                        <segue destination="6hx-Zf-9iC" kind="show" identifier="UniversityDatabaseFieldListSegueIdentifier" id="QSv-1H-vFf"/>
+                        <segue destination="2ED-wB-bfm" kind="show" identifier="UniversityDatabaseUniversityRankingSegueIdentifier" id="JLd-eu-ikG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9q-mW-A30" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="dLS-DD-yYb">
+                    <connections>
+                        <outlet property="delegate" destination="ZgZ-Nf-Fh9" id="6TF-bR-UPN"/>
+                        <outlet property="searchBar" destination="U04-zu-PmZ" id="AEf-6W-sfl"/>
+                        <outlet property="searchContentsController" destination="ZgZ-Nf-Fh9" id="l9j-0j-UGO"/>
+                        <outlet property="searchResultsDataSource" destination="ZgZ-Nf-Fh9" id="6jW-vr-zvB"/>
+                        <outlet property="searchResultsDelegate" destination="ZgZ-Nf-Fh9" id="wsL-XJ-ccE"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1080" y="-1200"/>
+        </scene>
         <!--申请管理器-->
         <scene sceneID="V7H-ST-Slb">
             <objects>
@@ -1539,6 +1675,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGA-yT-hrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1080" y="-528"/>
+        </scene>
+        <!--专业列表-->
+        <scene sceneID="5wE-0N-yBp">
+            <objects>
+                <viewController id="6hx-Zf-9iC" customClass="FieldListViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XZJ-wD-XdY"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6C-VZ-0bG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e3Q-Q8-sN1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nyO-xj-ea7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="1zm-Cy-RcR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nyO-xj-ea7" secondAttribute="trailing" id="b2k-H2-1V7"/>
+                            <constraint firstItem="nyO-xj-ea7" firstAttribute="leading" secondItem="e3Q-Q8-sN1" secondAttribute="leading" id="gJF-iy-LIP"/>
+                            <constraint firstItem="nyO-xj-ea7" firstAttribute="top" secondItem="e3Q-Q8-sN1" secondAttribute="top" id="vqn-j7-MNn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="专业列表" id="ifY-vt-LXG"/>
+                    <connections>
+                        <outlet property="navigationView" destination="nyO-xj-ea7" id="Zo1-dt-ZW5"/>
+                        <segue destination="2ED-wB-bfm" kind="show" identifier="FieldListUniversityRankingSegueIdentifier" id="OdY-zS-v6S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ear-jn-jgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1775" y="-1200"/>
         </scene>
         <!--添加申请-->
         <scene sceneID="K7o-BQ-L4L">
@@ -2525,12 +2698,13 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="sEN-DU-GIR"/>
         <segue reference="r4f-h3-sd1"/>
+        <segue reference="sEN-DU-GIR"/>
         <segue reference="BK5-dh-8Fc"/>
+        <segue reference="flF-XO-gRb"/>
         <segue reference="TkG-Ai-5Ra"/>
         <segue reference="kVD-07-a4B"/>
+        <segue reference="kkp-86-AQj"/>
+        <segue reference="OdY-zS-v6S"/>
     </inferredMetricsTieBreakers>
 </document>
