@@ -453,6 +453,16 @@
 		FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603B19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json */; };
 		FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */; };
 		FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */; };
+		FEEE447F19FC21DF00AFA88C /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446819FC21DF00AFA88C /* JSONModel.m */; };
+		FEEE448019FC21DF00AFA88C /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446A19FC21DF00AFA88C /* JSONModelArray.m */; };
+		FEEE448119FC21DF00AFA88C /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446C19FC21DF00AFA88C /* JSONModelClassProperty.m */; };
+		FEEE448219FC21DF00AFA88C /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446E19FC21DF00AFA88C /* JSONModelError.m */; };
+		FEEE448319FC21DF00AFA88C /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447119FC21DF00AFA88C /* NSArray+JSONModel.m */; };
+		FEEE448419FC21DF00AFA88C /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447519FC21DF00AFA88C /* JSONAPI.m */; };
+		FEEE448519FC21DF00AFA88C /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447719FC21DF00AFA88C /* JSONHTTPClient.m */; };
+		FEEE448619FC21DF00AFA88C /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447919FC21DF00AFA88C /* JSONModel+networking.m */; };
+		FEEE448719FC21DF00AFA88C /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */; };
+		FEEE448819FC21DF00AFA88C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -930,6 +940,27 @@
 		FEE1603B19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.11福布斯美国大学排行榜.md.json"; sourceTree = "<group>"; };
 		FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.12更多榜单.md.json"; sourceTree = "<group>"; };
 		FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json"; sourceTree = "<group>"; };
+		FEEE446719FC21DF00AFA88C /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		FEEE446819FC21DF00AFA88C /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		FEEE446919FC21DF00AFA88C /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		FEEE446A19FC21DF00AFA88C /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		FEEE446B19FC21DF00AFA88C /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		FEEE446C19FC21DF00AFA88C /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		FEEE446D19FC21DF00AFA88C /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		FEEE446E19FC21DF00AFA88C /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		FEEE447019FC21DF00AFA88C /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		FEEE447119FC21DF00AFA88C /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		FEEE447219FC21DF00AFA88C /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		FEEE447419FC21DF00AFA88C /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		FEEE447519FC21DF00AFA88C /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		FEEE447619FC21DF00AFA88C /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		FEEE447719FC21DF00AFA88C /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		FEEE447819FC21DF00AFA88C /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		FEEE447919FC21DF00AFA88C /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		FEEE447B19FC21DF00AFA88C /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		FEEE447D19FC21DF00AFA88C /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1362,6 +1393,7 @@
 				FE60E6B219E596BA00147EF9 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
 				FE669BA919F9392200906F2E /* GAI */,
+				FEEE446519FC21DF00AFA88C /* JSONModel */,
 				FE60E6B319E596CE00147EF9 /* Others */,
 			);
 			name = "3rd Party";
@@ -1882,6 +1914,66 @@
 			name = GAI;
 			sourceTree = "<group>";
 		};
+		FEEE446519FC21DF00AFA88C /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE447219FC21DF00AFA88C /* JSONModelLib.h */,
+				FEEE446619FC21DF00AFA88C /* JSONModel */,
+				FEEE446F19FC21DF00AFA88C /* JSONModelCategories */,
+				FEEE447319FC21DF00AFA88C /* JSONModelNetworking */,
+				FEEE447A19FC21DF00AFA88C /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		FEEE446619FC21DF00AFA88C /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE446719FC21DF00AFA88C /* JSONModel.h */,
+				FEEE446819FC21DF00AFA88C /* JSONModel.m */,
+				FEEE446919FC21DF00AFA88C /* JSONModelArray.h */,
+				FEEE446A19FC21DF00AFA88C /* JSONModelArray.m */,
+				FEEE446B19FC21DF00AFA88C /* JSONModelClassProperty.h */,
+				FEEE446C19FC21DF00AFA88C /* JSONModelClassProperty.m */,
+				FEEE446D19FC21DF00AFA88C /* JSONModelError.h */,
+				FEEE446E19FC21DF00AFA88C /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		FEEE446F19FC21DF00AFA88C /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE447019FC21DF00AFA88C /* NSArray+JSONModel.h */,
+				FEEE447119FC21DF00AFA88C /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		FEEE447319FC21DF00AFA88C /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE447419FC21DF00AFA88C /* JSONAPI.h */,
+				FEEE447519FC21DF00AFA88C /* JSONAPI.m */,
+				FEEE447619FC21DF00AFA88C /* JSONHTTPClient.h */,
+				FEEE447719FC21DF00AFA88C /* JSONHTTPClient.m */,
+				FEEE447819FC21DF00AFA88C /* JSONModel+networking.h */,
+				FEEE447919FC21DF00AFA88C /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		FEEE447A19FC21DF00AFA88C /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE447B19FC21DF00AFA88C /* JSONKeyMapper.h */,
+				FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */,
+				FEEE447D19FC21DF00AFA88C /* JSONValueTransformer.h */,
+				FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2351,6 +2443,7 @@
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
 				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
+				FEEE448819FC21DF00AFA88C /* JSONValueTransformer.m in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
@@ -2367,6 +2460,7 @@
 				FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */,
 				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
 				FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */,
+				FEEE448519FC21DF00AFA88C /* JSONHTTPClient.m in Sources */,
 				FEA0FC0C19D85EFC00A24409 /* HLLink.swift in Sources */,
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
@@ -2390,16 +2484,19 @@
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
+				FEEE448219FC21DF00AFA88C /* JSONModelError.m in Sources */,
 				FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */,
 				FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
+				FEEE447F19FC21DF00AFA88C /* JSONModel.m in Sources */,
 				FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */,
 				FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */,
 				FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */,
 				FE47ADBE19FBA4570023A0A2 /* ApplyAdderViewController.swift in Sources */,
 				FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */,
 				FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */,
+				FEEE448019FC21DF00AFA88C /* JSONModelArray.m in Sources */,
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
 				FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
@@ -2413,7 +2510,10 @@
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
+				FEEE448619FC21DF00AFA88C /* JSONModel+networking.m in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
+				FEEE448319FC21DF00AFA88C /* NSArray+JSONModel.m in Sources */,
+				FEEE448419FC21DF00AFA88C /* JSONAPI.m in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
 				FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */,
@@ -2422,7 +2522,9 @@
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,
+				FEEE448119FC21DF00AFA88C /* JSONModelClassProperty.m in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
+				FEEE448719FC21DF00AFA88C /* JSONKeyMapper.m in Sources */,
 				FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */,
 				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
 				FE83076119DF07DC000B025A /* HLImage.swift in Sources */,
