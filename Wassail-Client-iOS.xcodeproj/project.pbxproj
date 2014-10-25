@@ -464,6 +464,7 @@
 		FEEE448719FC21DF00AFA88C /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447C19FC21DF00AFA88C /* JSONKeyMapper.m */; };
 		FEEE448819FC21DF00AFA88C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */; };
 		FEEE448B19FC246100AFA88C /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEEE448919FC246100AFA88C /* UserModel.xcdatamodeld */; };
+		FEEE448F19FC25F300AFA88C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE448E19FC25F300AFA88C /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -963,6 +964,7 @@
 		FEEE447D19FC21DF00AFA88C /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
 		FEEE447E19FC21DF00AFA88C /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 		FEEE448A19FC246100AFA88C /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
+		FEEE448E19FC25F300AFA88C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1397,6 +1399,7 @@
 				FE669BA919F9392200906F2E /* GAI */,
 				FEEE446519FC21DF00AFA88C /* JSONModel */,
 				FE60E6B319E596CE00147EF9 /* Others */,
+				FEEE449019FC25F700AFA88C /* SwiftyJSON */,
 			);
 			name = "3rd Party";
 			sourceTree = "<group>";
@@ -1977,6 +1980,14 @@
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
+		FEEE449019FC25F700AFA88C /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FEEE448E19FC25F300AFA88C /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2460,6 +2471,7 @@
 				FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */,
 				FE47ADC019FBA4710023A0A2 /* ApplyViewController.swift in Sources */,
 				FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */,
+				FEEE448F19FC25F300AFA88C /* SwiftyJSON.swift in Sources */,
 				FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */,
 				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
 				FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */,
