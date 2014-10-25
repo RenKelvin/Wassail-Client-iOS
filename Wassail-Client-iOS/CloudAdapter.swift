@@ -23,7 +23,7 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
     }
     
     func sendFeedback(text: NSString) {
-        Wassail.instance.sendFeedback(version, text: text)
+        Wassail_v1.instance.sendFeedback(text)
     }
     
     // MARK: -
