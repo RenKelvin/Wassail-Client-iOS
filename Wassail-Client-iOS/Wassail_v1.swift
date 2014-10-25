@@ -27,7 +27,6 @@ class Wassail_v1: NSObject {
         let api: NSString = "/others/feedback"
         
         let body: NSMutableDictionary = NSMutableDictionary()
-        
         body.setObject(text, forKey: "message")
         
         self.post(api, body: body)
@@ -41,7 +40,7 @@ class Wassail_v1: NSObject {
         var session = NSURLSession.sharedSession()
         
         // Create URL
-        var url = NSURL(scheme: scheme, host: host, path: "/api/v1/others/feedback")
+        var url = NSURL(scheme: scheme, host: host, path: path+api)
         
         // Create request
         var request = NSMutableURLRequest()

@@ -1173,8 +1173,8 @@
 				FEC8649419BD3CF4005087A3 /* Info */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
 				FEC3BD5619C29D1D00184760 /* Mapper */,
-				FEC3BD4819C2896E00184760 /* Model */,
 				FEC8649619BD3DE4005087A3 /* RKISS */,
+				FEC3BD4819C2896E00184760 /* Model */,
 				FEB1D7EE19CEB2E6002F7285 /* Mediator */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
 				FEC8649719BD3DF1005087A3 /* Resource */,
@@ -1359,7 +1359,7 @@
 		FE60E67519E56B0900147EF9 /* 3rd Party */ = {
 			isa = PBXGroup;
 			children = (
-				FEB1D7FD19CF10E6002F7285 /* AWS */,
+				FE60E6B219E596BA00147EF9 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
 				FE669BA919F9392200906F2E /* GAI */,
 				FE60E6B319E596CE00147EF9 /* Others */,
@@ -1408,14 +1408,14 @@
 			name = Cloud;
 			sourceTree = "<group>";
 		};
-		FE60E6B219E596BA00147EF9 /* Resource */ = {
+		FE60E6B219E596BA00147EF9 /* AWS */ = {
 			isa = PBXGroup;
 			children = (
 				FE60E68C19E56E1F00147EF9 /* service-definitions */,
 				FE60E6B019E58C4300147EF9 /* AWSCognitoSync.framework */,
 				FE60E67619E56C4F00147EF9 /* AWSiOSSDKv2.framework */,
 			);
-			name = Resource;
+			name = AWS;
 			sourceTree = "<group>";
 		};
 		FE60E6B319E596CE00147EF9 /* Others */ = {
@@ -1435,17 +1435,6 @@
 		FE669BA919F9392200906F2E /* GAI */ = {
 			isa = PBXGroup;
 			children = (
-				FE669BB919F93AC600906F2E /* GAIAdapter.h */,
-				FE669BBA19F93AC600906F2E /* GAIAdapter.m */,
-				FE669BB819F93AAA00906F2E /* Resource */,
-			);
-			name = GAI;
-			sourceTree = "<group>";
-		};
-		FE669BB819F93AAA00906F2E /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */,
 				FE669BAA19F9394A00906F2E /* GAI.h */,
 				FE669BAB19F9394A00906F2E /* GAIDictionaryBuilder.h */,
 				FE669BAC19F9394A00906F2E /* GAIEcommerceFields.h */,
@@ -1456,8 +1445,9 @@
 				FE669BB119F9394A00906F2E /* GAILogger.h */,
 				FE669BB219F9394A00906F2E /* GAITrackedViewController.h */,
 				FE669BB319F9394A00906F2E /* GAITracker.h */,
+				FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */,
 			);
-			name = Resource;
+			name = GAI;
 			sourceTree = "<group>";
 		};
 		FE7262C919DFEA11005739D0 /* 申请文书 */ = {
@@ -1661,8 +1651,8 @@
 			isa = PBXGroup;
 			children = (
 				FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */,
-				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
 				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
+				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
 			);
 			name = Mediator;
 			sourceTree = "<group>";
@@ -1694,7 +1684,6 @@
 				FE60E6AE19E58BE300147EF9 /* AWSCognitoAdapter.m */,
 				FE60E6B619E639D700147EF9 /* AWSMobileAnalyticsAdapter.h */,
 				FE60E6B719E639D700147EF9 /* AWSMobileAnalyticsAdapter.m */,
-				FE60E6B219E596BA00147EF9 /* Resource */,
 			);
 			name = AWS;
 			sourceTree = "<group>";
@@ -1741,6 +1730,8 @@
 				FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */,
 				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
 				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
+				FEB1D7FD19CF10E6002F7285 /* AWS */,
+				FEEE446419FC15A600AFA88C /* GAI */,
 			);
 			name = Adapter;
 			sourceTree = "<group>";
@@ -1880,6 +1871,15 @@
 				FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */,
 			);
 			name = Apply;
+			sourceTree = "<group>";
+		};
+		FEEE446419FC15A600AFA88C /* GAI */ = {
+			isa = PBXGroup;
+			children = (
+				FE669BB919F93AC600906F2E /* GAIAdapter.h */,
+				FE669BBA19F93AC600906F2E /* GAIAdapter.m */,
+			);
+			name = GAI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

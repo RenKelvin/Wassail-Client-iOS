@@ -13,14 +13,14 @@ private let _DefaultMapperSharedInstance = DefaultMapper()
 class DefaultMapper: NSObject {
     
     class var instance : DefaultMapper {
-    return _DefaultMapperSharedInstance
+        return _DefaultMapperSharedInstance
     }
     
     func getItem(name: NSString) -> NSDictionary? {
-        var local = LocalAdapter.instance.getJson(name, dir: .Bundle)
+        
+        var local = LocalMediator.instance.getItem(name)
         
         return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
     }
-
-
+    
 }

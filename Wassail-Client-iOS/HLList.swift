@@ -15,9 +15,9 @@ class HLList: HLItem {
     var author: NSString?
     var date: NSString?
     var header: NSString?
-
+    
     var footer: NSString?
-
+    
     var groups: NSArray = []
     
     override init() {
@@ -63,10 +63,12 @@ class HLList: HLItem {
                     content.setObject(body, forKey: "body")
                     
                     let model = HLItemBuilder.build(content as NSDictionary)
-                    items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                    if (model != nil) {
+                        items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model!)
+                    }
                 }
-                
-                // NOHLItem
+                    
+                    // NOHLItem
                 else {
                     let model: Item = Item(json: item as NSDictionary)
                     items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)

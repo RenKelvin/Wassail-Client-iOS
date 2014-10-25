@@ -10,7 +10,8 @@ import UIKit
 
 class HLItemBuilder: NSObject {
     
-    class func build(json: NSDictionary) -> HLItem {
+    class func build(json: NSDictionary) -> HLItem? {
+        
         let type = json.objectForKey("type") as NSString
         let name = json.objectForKey("name") as NSString
         
@@ -23,12 +24,13 @@ class HLItemBuilder: NSObject {
         case "HLArticle": return HLArticle(json: json)
             
         case "HLArticlePreview": return HLArticlePreview(json: json)
-
+            
         case "HLLink": return HLLink(json: json)
-
+            
         case "HLImage": return HLImage(json: json)
-
-        default: return HLItem()
+            
+        default: return nil
+            
         }
     }
 }
