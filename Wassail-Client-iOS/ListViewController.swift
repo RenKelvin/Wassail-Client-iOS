@@ -148,7 +148,7 @@ class ListViewController: GAITrackedViewController, UITableViewDataSource, UITab
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
+        var cellReuseIdentifier = "ListTableViewSimple44CellReuseIdentifier"
         
         if (((item as HLItemPreview).icon) != nil) {
             cellReuseIdentifier = "ListTableView54CellReuseIdentifier"

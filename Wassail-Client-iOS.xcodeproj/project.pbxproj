@@ -427,6 +427,8 @@
 		FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */; };
 		FED69E4A19FD39CE00D768DC /* HLFieldListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */; };
 		FED69E4C19FD39EE00D768DC /* HLUniversityRankingPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */; };
+		FED69E4E19FD3EEE00D768DC /* ListTableViewSimple54Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4D19FD3EEE00D768DC /* ListTableViewSimple54Cell.swift */; };
+		FED69E5019FD3F2D00D768DC /* ListTableViewSimple44Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4F19FD3F2D00D768DC /* ListTableViewSimple44Cell.swift */; };
 		FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */; };
 		FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */; };
 		FEE0300219C878A80061201E /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0300119C878A80061201E /* HLItem.swift */; };
@@ -922,6 +924,8 @@
 		FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorViewController.swift; sourceTree = "<group>"; };
 		FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLFieldListPreview.swift; sourceTree = "<group>"; };
 		FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLUniversityRankingPreview.swift; sourceTree = "<group>"; };
+		FED69E4D19FD3EEE00D768DC /* ListTableViewSimple54Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewSimple54Cell.swift; sourceTree = "<group>"; };
+		FED69E4F19FD3F2D00D768DC /* ListTableViewSimple44Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewSimple44Cell.swift; sourceTree = "<group>"; };
 		FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterTableViewCell.swift; sourceTree = "<group>"; };
 		FEE0300119C878A80061201E /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItem.swift; sourceTree = "<group>"; };
@@ -1236,6 +1240,8 @@
 				FE8D81B219C44B1B00CE6174 /* ListTableView64Cell.swift */,
 				FE8D81B419C44B2900CE6174 /* ListTableView54Cell.swift */,
 				FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */,
+				FED69E4D19FD3EEE00D768DC /* ListTableViewSimple54Cell.swift */,
+				FED69E4F19FD3F2D00D768DC /* ListTableViewSimple44Cell.swift */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -2583,6 +2589,7 @@
 				FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */,
 				FED3D18019D687EF00418BFF /* HLTableViewCell.swift in Sources */,
 				FE51847719DC79340057082C /* UIImageExtension.swift in Sources */,
+				FED69E4E19FD3EEE00D768DC /* ListTableViewSimple54Cell.swift in Sources */,
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
@@ -2626,6 +2633,7 @@
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,
+				FED69E5019FD3F2D00D768DC /* ListTableViewSimple44Cell.swift in Sources */,
 				FEEE448119FC21DF00AFA88C /* JSONModelClassProperty.m in Sources */,
 				FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */,
 				FEEE448719FC21DF00AFA88C /* JSONKeyMapper.m in Sources */,
