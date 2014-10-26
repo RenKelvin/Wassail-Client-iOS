@@ -11,7 +11,7 @@ import UIKit
 class ListTableViewCell: UITableViewCell {
     
     @IBOutlet var titleLabel: UILabel?
-    @IBOutlet var subTitleLabel: UILabel?
+    @IBOutlet var subtitleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var iconImageView: UIImageView?
 

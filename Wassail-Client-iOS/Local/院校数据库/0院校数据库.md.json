@@ -72,10 +72,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.0.0\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                                "address": "1.1\u7f8e\u56fd\u5927\u5b66\u6392\u540d", 
                                 "title": "\u7f8e\u56fd"
                             }, 
-                            "name": "1.0.0\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                            "name": "1.1\u7f8e\u56fd\u5927\u5b66\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {

@@ -20,7 +20,8 @@ class UniversityRankingViewController: GAITrackedViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        // Reload data
+        self.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -91,8 +92,8 @@ class UniversityRankingViewController: GAITrackedViewController {
         
         var cellReuseIdentifier = "UniversityRankingTableViewCellReuseIdentifier"
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
-        cell.configure(item as HLItemPreview)
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as UniversityRankingTableViewCell
+        cell.configure(item as HLRankPreview)
         
         return cell
     }
