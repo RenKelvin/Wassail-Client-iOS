@@ -96,10 +96,14 @@ class HLList: HLItem {
         return title
     }
     
-    func item(group: Int, row: Int) -> Item {
+    func item(group: Int, row: Int) -> Item? {
         let group = groups.objectAtIndex(group) as NSDictionary
         let items = group.objectForKey("items") as NSArray
         
-        return items.objectAtIndex(row) as Item
+        if (!items.objectAtIndex(row).isKindOfClass(Item)) {
+            return nil
+        }
+
+        return items.objectAtIndex(row) as? Item
     }
 }

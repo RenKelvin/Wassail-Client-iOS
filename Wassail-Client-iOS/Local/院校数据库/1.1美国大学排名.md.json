@@ -12,7 +12,7 @@
                                 "title": "Stanford University"
                             }, 
                             "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLRankPreview"
+                            "type": "HLUniversityPreviewWithRank"
                         }, 
                         "icon": {
                             "body": {
@@ -35,7 +35,7 @@
                                 "title": "Columbia University"
                             }, 
                             "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLRankPreview"
+                            "type": "HLUniversityPreviewWithRank"
                         }, 
                         "icon": {
                             "body": {

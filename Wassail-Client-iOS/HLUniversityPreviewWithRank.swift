@@ -1,5 +1,5 @@
 //
-//  HLRankPreview.swift
+//  HLUniversityPreviewWithRank.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 10/26/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLRankPreview: HLItemPreview {
+class HLUniversityPreviewWithRank: HLItemPreview {
    
     var chineseName: NSString?
     var score: Double?

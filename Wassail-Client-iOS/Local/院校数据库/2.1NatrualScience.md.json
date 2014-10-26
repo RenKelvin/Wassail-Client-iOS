@@ -1,0 +1,39 @@
+{
+    "body": {
+        "footer": "\u66f4\u591a\u9662\u6821\u6570\u636e\u6301\u7eed\u66f4\u65b0\u4e2d", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "Mathematics"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "Computer Science"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7f8e\u56fd\u5927\u5b66\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

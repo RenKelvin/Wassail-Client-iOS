@@ -408,6 +408,7 @@
 		FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEB211DB19DA940C00647560 /* 2.10Fiske.jpeg */; };
 		FEB4258A19FD50E300C0EE2F /* cu-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB4258819FD50E300C0EE2F /* cu-logo.png */; };
 		FEB4258B19FD50E300C0EE2F /* su-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB4258919FD50E300C0EE2F /* su-logo.png */; };
+		FEB4258D19FD531E00C0EE2F /* 2.1NatrualScience.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEB4258C19FD531E00C0EE2F /* 2.1NatrualScience.md.json */; };
 		FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -465,7 +466,7 @@
 		FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */; };
 		FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */; };
 		FEE25E7419FD447900BDE743 /* 1.1美国大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEE25E7319FD447900BDE743 /* 1.1美国大学排名.md.json */; };
-		FEE25E7619FD456200BDE743 /* HLRankPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE25E7519FD456200BDE743 /* HLRankPreview.swift */; };
+		FEE25E7619FD456200BDE743 /* HLUniversityPreviewWithRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE25E7519FD456200BDE743 /* HLUniversityPreviewWithRank.swift */; };
 		FEE25E7819FD45C200BDE743 /* UniversityRankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE25E7719FD45C200BDE743 /* UniversityRankingTableViewCell.swift */; };
 		FEEE447F19FC21DF00AFA88C /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446819FC21DF00AFA88C /* JSONModel.m */; };
 		FEEE448019FC21DF00AFA88C /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE446A19FC21DF00AFA88C /* JSONModelArray.m */; };
@@ -910,6 +911,7 @@
 		FEB211DB19DA940C00647560 /* 2.10Fiske.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.10Fiske.jpeg; sourceTree = "<group>"; };
 		FEB4258819FD50E300C0EE2F /* cu-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cu-logo.png"; sourceTree = "<group>"; };
 		FEB4258919FD50E300C0EE2F /* su-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "su-logo.png"; sourceTree = "<group>"; };
+		FEB4258C19FD531E00C0EE2F /* 2.1NatrualScience.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.1NatrualScience.md.json; sourceTree = "<group>"; };
 		FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerViewDelegate.swift; sourceTree = "<group>"; };
 		FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		FEC3BD4919C289AD00184760 /* HLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLList.swift; sourceTree = "<group>"; };
@@ -967,7 +969,7 @@
 		FEE1603C19D928A20022883E /* 2.12更多榜单.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.12更多榜单.md.json"; sourceTree = "<group>"; };
 		FEE1603D19D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json"; sourceTree = "<group>"; };
 		FEE25E7319FD447900BDE743 /* 1.1美国大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1美国大学排名.md.json"; sourceTree = "<group>"; };
-		FEE25E7519FD456200BDE743 /* HLRankPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLRankPreview.swift; sourceTree = "<group>"; };
+		FEE25E7519FD456200BDE743 /* HLUniversityPreviewWithRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLUniversityPreviewWithRank.swift; sourceTree = "<group>"; };
 		FEE25E7719FD45C200BDE743 /* UniversityRankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityRankingTableViewCell.swift; sourceTree = "<group>"; };
 		FEEE446719FC21DF00AFA88C /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
 		FEEE446819FC21DF00AFA88C /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
@@ -1631,6 +1633,7 @@
 			children = (
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
 				FEE25E7319FD447900BDE743 /* 1.1美国大学排名.md.json */,
+				FEB4258C19FD531E00C0EE2F /* 2.1NatrualScience.md.json */,
 				FEB4258819FD50E300C0EE2F /* cu-logo.png */,
 				FEB4258919FD50E300C0EE2F /* su-logo.png */,
 			);
@@ -1640,12 +1643,12 @@
 		FE76B7F119FD2B98001B4B39 /* HLItemPreview */ = {
 			isa = PBXGroup;
 			children = (
-				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
-				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 				FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */,
 				FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */,
+				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
+				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
+				FEE25E7519FD456200BDE743 /* HLUniversityPreviewWithRank.swift */,
 				FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */,
-				FEE25E7519FD456200BDE743 /* HLRankPreview.swift */,
 			);
 			name = HLItemPreview;
 			sourceTree = "<group>";
@@ -2469,6 +2472,7 @@
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
 				AD8C2C2D19E900B400A5A4A7 /* 3.14诺贝尔奖.jpg in Resources */,
 				ADF246BA19F4FF1C005BA7E5 /* 4.8Education.jpg in Resources */,
+				FEB4258D19FD531E00C0EE2F /* 2.1NatrualScience.md.json in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
 				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
@@ -2639,7 +2643,7 @@
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FED69E4A19FD39CE00D768DC /* HLFieldListPreview.swift in Sources */,
-				FEE25E7619FD456200BDE743 /* HLRankPreview.swift in Sources */,
+				FEE25E7619FD456200BDE743 /* HLUniversityPreviewWithRank.swift in Sources */,
 				FEEE448619FC21DF00AFA88C /* JSONModel+networking.m in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEEE448319FC21DF00AFA88C /* NSArray+JSONModel.m in Sources */,

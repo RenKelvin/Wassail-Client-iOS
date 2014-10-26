@@ -18,7 +18,7 @@ class UniversityRankingTableViewCell: UITableViewCell {
     @IBOutlet var scoreLabel: UILabel?
     @IBOutlet var rankLabel: UILabel?
 
-    func configure(item: HLRankPreview) {
+    func configure(item: HLUniversityPreviewWithRank) {
         titleLabel?.text = item.title
         noteLabel?.text = item.note
         subtitleLabel?.text = item.chineseName

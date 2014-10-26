@@ -35,7 +35,7 @@ class HLItemBuilder: NSObject {
             
         case "HLUniversityRankingPreview": return HLUniversityRankingPreview(json: json)
 
-        case "HLRankPreview": return HLRankPreview(json: json)
+        case "HLUniversityPreviewWithRank": return HLUniversityPreviewWithRank(json: json)
             
         default: return nil
             

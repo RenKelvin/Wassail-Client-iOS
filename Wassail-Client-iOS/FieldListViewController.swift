@@ -85,8 +85,11 @@ class FieldListViewController: GAITrackedViewController {
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return UITableViewCell()
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         

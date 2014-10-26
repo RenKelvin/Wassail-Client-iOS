@@ -85,15 +85,18 @@ class UniversityRankingViewController: GAITrackedViewController {
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return UITableViewCell()
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         
         var cellReuseIdentifier = "UniversityRankingTableViewCellReuseIdentifier"
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as UniversityRankingTableViewCell
-        cell.configure(item as HLRankPreview)
+        cell.configure(item as HLUniversityPreviewWithRank)
         
         return cell
     }
