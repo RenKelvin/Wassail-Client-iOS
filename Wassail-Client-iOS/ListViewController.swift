@@ -243,25 +243,14 @@ class ListViewController: GAITrackedViewController, UITableViewDataSource, UITab
             return
         }
         
-        let item = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
         
-        let type = item.type
-        switch type {
-        case "HLListPreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: itemAddress)
-            
-        case "HLArticlePreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: itemAddress)
-            
-        case "HLLink":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
-            
-        default:
-            ""
+        if (itemPreview.sourceType == nil) {
+            return
         }
+        let segueIdentifier = "List" + itemPreview.sourceType! + "SegueIdentifier"
+        self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
+
     }
     
     // MARK: - Navigation

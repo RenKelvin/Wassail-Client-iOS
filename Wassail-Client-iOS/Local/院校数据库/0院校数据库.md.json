@@ -11,7 +11,7 @@
                                 "title": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
                             "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLItemPreview"
+                            "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
                             "body": {
@@ -31,7 +31,7 @@
                                 "title": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
                             "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLItemPreview"
+                            "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
                             "body": {
@@ -51,7 +51,7 @@
                                 "title": "ARWU\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
                             "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
-                            "type": "HLItemPreview"
+                            "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
                             "body": {
@@ -76,7 +76,7 @@
                                 "title": "\u7f8e\u56fd"
                             }, 
                             "name": "1.0.0\u5982\u4f55\u770b\u5f85\u6392\u540d", 
-                            "type": "HLListPreview"
+                            "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
                             "body": {
@@ -101,7 +101,7 @@
                                 "title": "\u672c\u79d1\u6392\u540d"
                             }, 
                             "name": "2.0\u7f8e\u56fd\u672c\u79d1\u6392\u540d", 
-                            "type": "HLListPreview"
+                            "type": "HLFieldListPreview"
                         }, 
                         "icon": {
                             "body": {
@@ -121,7 +121,7 @@
                                 "title": "\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d"
                             }, 
                             "name": "3.0\u7f8e\u56fd\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d", 
-                            "type": "HLListPreview"
+                            "type": "HLFieldListPreview"
                         }, 
                         "icon": {
                             "body": {

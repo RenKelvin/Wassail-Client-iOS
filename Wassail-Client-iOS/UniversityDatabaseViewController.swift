@@ -16,7 +16,7 @@ class UniversityDatabaseViewController: GAITrackedViewController {
     
     var listName: NSString?
     var list: HLList?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -57,7 +57,7 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         list = ListInfo.instance.getList(listName!)
         
     }
-
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -97,27 +97,37 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         
         return cell
     }
-
+    
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+        
         var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
         
-        var title: String = ""
-        switch section {
-        case 0:
-            title = "按排名查找"
-        case 1:
-            title = "按国家查找"
-        case 2:
-            title = "按专业查找"
-        default:
-            title = ""
+        if (list == nil) {
+            return headerView
         }
         
-        headerView.titleLabel?.text = title
+        var title: String = list!.titleForGroup(section)
+        
+        headerView.setTitle(title)
         
         return headerView
+    }
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        
+        if (list == nil) {
+            return 0.0
+        }
+        
+        var title: String = list!.titleForGroup(section)
+        
+        if (title == "-" || title == "~") {
+            return 0.0
+        }
+        
+        return 20.0
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -125,16 +135,31 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
+        // Get source item
+        if (list == nil) {
+            return
+        }
+        
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        
+        if (itemPreview.sourceType == nil) {
+            return
+        }
+        
+        let segueIdentifier = "UniversityDatabase" + itemPreview.sourceType! + "SegueIdentifier"
+        self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
+        
     }
     
-    /*
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
-    */
     
 }

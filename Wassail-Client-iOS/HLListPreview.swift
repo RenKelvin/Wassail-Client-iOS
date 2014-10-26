@@ -10,5 +10,10 @@ import UIKit
 
 class HLListPreview: HLItemPreview {
     
-    
+    override init(json: NSDictionary) {
+        super.init(json: json)
+        
+        sourceType = "List"
+    }
+
 }

@@ -425,6 +425,8 @@
 		FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED339BB19D4600D0036F396 /* BrowserViewController.swift */; };
 		FED3D18019D687EF00418BFF /* HLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */; };
 		FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */; };
+		FED69E4A19FD39CE00D768DC /* HLFieldListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */; };
+		FED69E4C19FD39EE00D768DC /* HLUniversityRankingPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */; };
 		FEDC98DC19BDB03800CA815F /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */; };
 		FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */; };
 		FEE0300219C878A80061201E /* HLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE0300119C878A80061201E /* HLItem.swift */; };
@@ -918,6 +920,8 @@
 		FED339BB19D4600D0036F396 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLTableViewCell.swift; sourceTree = "<group>"; };
 		FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorViewController.swift; sourceTree = "<group>"; };
+		FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLFieldListPreview.swift; sourceTree = "<group>"; };
+		FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLUniversityRankingPreview.swift; sourceTree = "<group>"; };
 		FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterTableViewCell.swift; sourceTree = "<group>"; };
 		FEE0300119C878A80061201E /* HLItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItem.swift; sourceTree = "<group>"; };
@@ -1620,6 +1624,8 @@
 				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
 				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
 				FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */,
+				FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */,
+				FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */,
 			);
 			name = HLItemPreview;
 			sourceTree = "<group>";
@@ -2556,6 +2562,7 @@
 				FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */,
 				FEEE448519FC21DF00AFA88C /* JSONHTTPClient.m in Sources */,
 				FEA0FC0C19D85EFC00A24409 /* HLLink.swift in Sources */,
+				FED69E4C19FD39EE00D768DC /* HLUniversityRankingPreview.swift in Sources */,
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,
@@ -2606,6 +2613,7 @@
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
+				FED69E4A19FD39CE00D768DC /* HLFieldListPreview.swift in Sources */,
 				FEEE448619FC21DF00AFA88C /* JSONModel+networking.m in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEEE448319FC21DF00AFA88C /* NSArray+JSONModel.m in Sources */,
