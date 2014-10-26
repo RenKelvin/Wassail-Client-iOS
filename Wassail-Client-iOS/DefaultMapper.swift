@@ -16,11 +16,11 @@ class DefaultMapper: NSObject {
         return _DefaultMapperSharedInstance
     }
     
-    func getItem(name: NSString) -> NSDictionary? {
+    func getItem(name: NSString) -> HLItem? {
         
-        var local = LocalMediator.instance.getItem(name)
+        var local = LocalMediator.instance.getItem(name) as HLItem?
         
-        return RKInfoSyncSystem.instance.apply(nil, db: nil, local: local) as NSDictionary?
+        return local
     }
     
 }
