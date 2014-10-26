@@ -21,7 +21,7 @@
                ],
               ],
     "university database": {
-        "ready": "false",
+        "ready": "true",
         "note": "院校数据库",
         "title": "院校数据库",
         "icon": "ToolsIconUniversityDatabase",
@@ -43,7 +43,7 @@
         "new": "true"
     },
     "apply manager": {
-        "ready": "false",
+        "ready": "true",
         "note": "申请事项管理，截止日期提醒",
         "title": "申请管理器",
         "icon": "ToolsIconApplyManager",

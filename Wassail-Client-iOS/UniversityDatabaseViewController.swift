@@ -9,16 +9,19 @@
 import UIKit
 
 class UniversityDatabaseViewController: GAITrackedViewController {
-
-    @IBOutlet var tableView: UITableView?
-
- @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var tableView: UITableView?
+    
+    @IBOutlet var navigationView: UIView?
+    
+    var listName: NSString?
+    var list: HLList?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-        self.searchDisplayController!.displaysSearchBarInNavigationBar = false
+        // Reload data
+        self.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,26 +40,64 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         self.navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
     
+    // MARK: -
+    
+    override func setInfo(info: AnyObject?) {
+        if (info != nil) {
+            listName = info as? NSString
+        }
+    }
+    
+    func reloadData() {
+        
+        if (listName == nil) {
+            return
+        }
+        
+        list = ListInfo.instance.getList(listName!)
+        
+    }
+
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 1
+        if (list == nil) {
+            return 0
+        }
+        
+        return list!.numberOfGroups()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 3
+        if (list == nil) {
+            return 0
+        }
+        
+        return list!.numberOfItemsInGroup(section)
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView!.dequeueReusableCellWithIdentifier("UniversityDatabaseTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
-        // Configure the cell
+        if (list == nil) {
+            return UITableViewCell()
+        }
+        
+        let item = list!.item(indexPath.section, row: indexPath.row)
+        if (!item.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item)")
+            return UITableViewCell()
+        }
+        
+        var cellReuseIdentifier = "UniversityDatabaseTableViewCellReuseIdentifier"
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableView54Cell
+        cell.configure(item as HLItemPreview)
         
         return cell
     }
-    
+
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
@@ -65,7 +106,11 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         var title: String = ""
         switch section {
         case 0:
-            title = "正在申请"
+            title = "按排名查找"
+        case 1:
+            title = "按国家查找"
+        case 2:
+            title = "按专业查找"
         default:
             title = ""
         }
@@ -81,15 +126,15 @@ class UniversityDatabaseViewController: GAITrackedViewController {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
     }
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

@@ -1,0 +1,145 @@
+{
+    "body": {
+        "footer": "\u66f4\u591a\u9662\u6821\u6570\u636e\u6301\u7eed\u66f4\u65b0\u4e2d", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u5927\u5b66\u6392\u540d.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u5927\u5b66\u6392\u540d.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u5927\u5b66\u6392\u540d.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u5927\u5b66\u6392\u540d.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "ARWU\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u5927\u5b66\u6392\u540d.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u5927\u5b66\u6392\u540d.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d"
+                    }
+                ], 
+                "title": "\u6309\u6392\u540d\u67e5\u627e"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.0.0\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                                "title": "\u7f8e\u56fd"
+                            }, 
+                            "name": "1.0.0\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5927\u5b66\u6392\u540d\u7684\u4ef7\u503c\u3001\u53ef\u4fe1\u5ea6\u53ca\u5408\u7406\u6027"
+                    }
+                ], 
+                "title": "\u6309\u56fd\u5bb6\u67e5\u627e"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.0\u7f8e\u56fd\u672c\u79d1\u6392\u540d", 
+                                "title": "\u672c\u79d1\u6392\u540d"
+                            }, 
+                            "name": "2.0\u7f8e\u56fd\u672c\u79d1\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u65af\u5766\u4f5b.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u65af\u5766\u4f5b.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "U.S. News 2015\u6700\u65b0\u6392\u540d\u53ca\u66f4\u591a\u699c\u5355"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.0\u7f8e\u56fd\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d", 
+                                "title": "\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d"
+                            }, 
+                            "name": "3.0\u7f8e\u56fd\u7814\u7a76\u751f\u53ca\u535a\u58eb\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "U.S. News 2015\u6700\u65b0\u4e13\u4e1a\u6392\u540d"
+                    }
+                ], 
+                "title": "\u6309\u4e13\u4e1a\u67e5\u627e"
+            }
+        ], 
+        "title": "\u9662\u6821\u6570\u636e\u5e93"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

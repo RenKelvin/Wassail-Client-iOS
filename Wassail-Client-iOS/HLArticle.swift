@@ -14,8 +14,8 @@ class HLArticle: HLItem {
     var author: NSString?
     var date: NSString?
     var note: NSString?
-    var header: NSString?
     
+    var header: NSString?
     var footer: NSString?
     
     var groups: NSArray = []
@@ -34,7 +34,9 @@ class HLArticle: HLItem {
         author = jsonBody.objectForKey("author") as NSString?
         date = jsonBody.objectForKey("date") as NSString?
         note = jsonBody.objectForKey("note") as NSString?
+        
         header = jsonBody.objectForKey("header") as NSString?
+        footer = jsonBody.objectForKey("footer") as NSString?
         
         groups = jsonBody.objectForKey("groups") as NSArray
     }

@@ -17,6 +17,8 @@ class HLItemBuilder: NSObject {
         
         switch type {
             
+        case "HLItemPreview": return HLItemPreview(json: json)
+
         case "HLList": return HLList(json: json)
             
         case "HLListPreview": return HLListPreview(json: json)
