@@ -9,11 +9,11 @@
 import UIKit
 
 class ApplyAdderViewController: GAITrackedViewController {
-  
+    
     let info: ApplyAdderInfo = ApplyAdderInfo.instance
-
+    
     @IBOutlet var tableView: UITableView?
-  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,13 +31,10 @@ class ApplyAdderViewController: GAITrackedViewController {
         // GAITrackedViewController name
         self.screenName = "Apply Adder Screen"
         
-        // Configure Navigation Bar and Status Bar
-        // self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
-        // navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
     
     // MARK: - IBAction
-
+    
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -55,7 +52,7 @@ class ApplyAdderViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-       
+        
         let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         
         // Configure the cell
@@ -87,5 +84,5 @@ class ApplyAdderViewController: GAITrackedViewController {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
     }
-
+    
 }

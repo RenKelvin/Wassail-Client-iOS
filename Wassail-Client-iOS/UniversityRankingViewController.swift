@@ -9,14 +9,14 @@
 import UIKit
 
 class UniversityRankingViewController: GAITrackedViewController {
-
+    
     @IBOutlet var tableView: UITableView?
     
     @IBOutlet var navigationView: UIView?
     
     var listName: NSString?
     var list: HLList?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -164,5 +164,5 @@ class UniversityRankingViewController: GAITrackedViewController {
         var controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
-
+    
 }

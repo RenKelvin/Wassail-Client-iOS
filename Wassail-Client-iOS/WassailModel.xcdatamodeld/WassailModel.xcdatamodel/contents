@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A388a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Apply" syncable="YES">
+    <entity name="HLApply" syncable="YES">
         <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="preview" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstancePreview" inverseName="apply" inverseEntity="HLProgramInstancePreview" syncable="YES"/>
+        <relationship name="requirements" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstanceRequirements" inverseName="apply" inverseEntity="HLProgramInstanceRequirements" syncable="YES"/>
+    </entity>
+    <entity name="HLProgramInstancePreview" syncable="YES">
+        <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="programName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="universityName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="apply" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLApply" inverseName="preview" inverseEntity="HLApply" syncable="YES"/>
+    </entity>
+    <entity name="HLProgramInstanceRequirements" syncable="YES">
+        <relationship name="apply" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLApply" inverseName="requirements" inverseEntity="HLApply" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Apply" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="103"/>
+        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="58"/>
     </elements>
 </model>

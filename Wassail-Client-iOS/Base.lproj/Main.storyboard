@@ -1916,7 +1916,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="a8c-kH-LRL">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <segue destination="7tV-HF-ljT" kind="presentation" id="Kmd-YQ-7su"/>
+                                <segue destination="7tV-HF-ljT" kind="presentation" modalPresentationStyle="currentContext" id="Kmd-YQ-7su"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -2021,7 +2021,7 @@
             </objects>
             <point key="canvasLocation" x="1775" y="-1200"/>
         </scene>
-        <!--添加申请-->
+        <!--Apply Adder View Controller-->
         <scene sceneID="K7o-BQ-L4L">
             <objects>
                 <viewController id="7tV-HF-ljT" customClass="ApplyAdderViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -2039,9 +2039,17 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavigationBarLongBlueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="sj8-Wx-JEa">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="108"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti7-wM-zdX">
-                                        <rect key="frame" x="8" y="21" width="46" height="30"/>
-                                        <state key="normal" title="Done">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请管理器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJF-3f-8J1">
+                                        <rect key="frame" x="257" y="32" width="85" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti7-wM-zdX">
+                                        <rect key="frame" x="558" y="25" width="34" height="33"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="完成">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -2051,7 +2059,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ti7-wM-zdX" secondAttribute="trailing" constant="8" id="7Ef-Wv-euP"/>
                                     <constraint firstAttribute="height" constant="108" id="90K-6g-tgp"/>
+                                    <constraint firstItem="AJF-3f-8J1" firstAttribute="top" secondItem="6a1-fE-4cP" secondAttribute="top" constant="32" id="EDt-iP-yRb"/>
+                                    <constraint firstAttribute="centerX" secondItem="AJF-3f-8J1" secondAttribute="centerX" id="ZZ1-dd-Wy9"/>
+                                    <constraint firstItem="AJF-3f-8J1" firstAttribute="centerY" secondItem="ti7-wM-zdX" secondAttribute="centerY" id="z43-Vq-E8C"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3U-Wi-EiF">
@@ -2139,9 +2151,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="添加申请" id="0LS-ZZ-Xu4">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="RXg-Nw-W35"/>
-                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="XZK-Ad-qYV" id="K8q-Xj-rTh"/>
                         <outlet property="tableView" destination="jrM-Pc-hhT" id="KRM-UN-cfR"/>
@@ -3075,14 +3085,14 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sEN-DU-GIR"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="oiE-Kz-hDb"/>
         <segue reference="kVD-07-a4B"/>
+        <segue reference="sEN-DU-GIR"/>
         <segue reference="BK5-dh-8Fc"/>
         <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="oiE-Kz-hDb"/>
-        <segue reference="OdY-zS-v6S"/>
-        <segue reference="TYF-9O-bLs"/>
-        <segue reference="fYA-Od-fVe"/>
+        <segue reference="JLd-eu-ikG"/>
+        <segue reference="bnk-2V-sOA"/>
         <segue reference="vuL-hi-aIq"/>
     </inferredMetricsTieBreakers>
 </document>

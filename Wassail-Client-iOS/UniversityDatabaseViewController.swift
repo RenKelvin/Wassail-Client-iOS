@@ -62,11 +62,17 @@ class UniversityDatabaseViewController: GAITrackedViewController {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        if (list == nil) {
+        if (tableView == self.searchDisplayController!.searchResultsTableView) {
             return 0
         }
-        
-        return list!.numberOfGroups()
+            
+        else {
+            if (list == nil) {
+                return 0
+            }
+            
+            return list!.numberOfGroups()
+        }
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -80,25 +86,32 @@ class UniversityDatabaseViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        if (list == nil) {
+        if (tableView == self.searchDisplayController!.searchResultsTableView) {
             return UITableViewCell()
         }
-        
-        let item = list!.item(indexPath.section, row: indexPath.row)
-        if (item == nil) {
-            return UITableViewCell()
+            
+        else {
+            
+            if (list == nil) {
+                return UITableViewCell()
+            }
+            
+            let item = list!.item(indexPath.section, row: indexPath.row)
+            if (item == nil) {
+                return UITableViewCell()
+            }
+            if (!item!.isKindOfClass(HLItemPreview)) {
+                println("Wrong list item: \(item!)")
+                return UITableViewCell()
+            }
+            
+            var cellReuseIdentifier = "UniversityDatabaseTableViewCellReuseIdentifier"
+            
+            let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableView54Cell
+            cell.configure(item as HLItemPreview)
+            
+            return cell
         }
-        if (!item!.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item!)")
-            return UITableViewCell()
-        }
-        
-        var cellReuseIdentifier = "UniversityDatabaseTableViewCellReuseIdentifier"
-        
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableView54Cell
-        cell.configure(item as HLItemPreview)
-        
-        return cell
     }
     
     // MARK: - Table view delegate
