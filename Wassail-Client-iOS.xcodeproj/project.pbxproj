@@ -333,6 +333,7 @@
 		FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */; };
 		FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */; };
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
+		FE98CA8419FE853700D71578 /* StaticDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98CA8319FE853700D71578 /* StaticDataManager.swift */; };
 		FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */; };
 		FEA05EE619FBB18E00D1C912 /* FieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */; };
 		FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */; };
@@ -417,13 +418,15 @@
 		FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */; };
 		FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
+		FEAE0CAA19FE8F3E00CC5110 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */; };
+		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
 		FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */; };
 		FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */; };
-		FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */; };
-		FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */; };
+		FEB1D7FA19CF0CD0002F7285 /* DatabaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DatabaseAdapter.swift */; };
+		FEB1D7FC19CF0CDF002F7285 /* DatabaseMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DatabaseMediator.swift */; };
 		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
 		FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEB211CC19DA940C00647560 /* 0大学排名.jpg */; };
 		FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEB211CD19DA940C00647560 /* 1.1.1鲍林格.jpg */; };
@@ -870,6 +873,7 @@
 		FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticlePreview.swift; sourceTree = "<group>"; };
 		FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterInfo.swift; sourceTree = "<group>"; };
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
+		FE98CA8319FE853700D71578 /* StaticDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticDataManager.swift; sourceTree = "<group>"; };
 		FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDatabaseViewController.swift; sourceTree = "<group>"; };
 		FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldListViewController.swift; sourceTree = "<group>"; };
 		FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityRankingViewController.swift; sourceTree = "<group>"; };
@@ -954,13 +958,15 @@
 		FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学常用词汇.md.json"; sourceTree = "<group>"; };
 		FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.md.json"; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
+		FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
+		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackInfo.swift; sourceTree = "<group>"; };
 		FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMediator.swift; sourceTree = "<group>"; };
-		FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBAdapter.swift; sourceTree = "<group>"; };
-		FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMediator.swift; sourceTree = "<group>"; };
+		FEB1D7F919CF0CD0002F7285 /* DatabaseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseAdapter.swift; sourceTree = "<group>"; };
+		FEB1D7FB19CF0CDF002F7285 /* DatabaseMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMediator.swift; sourceTree = "<group>"; };
 		FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wassail_v1.swift; sourceTree = "<group>"; };
 		FEB211CC19DA940C00647560 /* 0大学排名.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0大学排名.jpg"; sourceTree = "<group>"; };
 		FEB211CD19DA940C00647560 /* 1.1.1鲍林格.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.1.1鲍林格.jpg"; sourceTree = "<group>"; };
@@ -1903,11 +1909,19 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
+		FEAE0CAD19FE975F00CC5110 /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */,
+			);
+			name = NSManagedObject;
+			sourceTree = "<group>";
+		};
 		FEB1D7EE19CEB2E6002F7285 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
 				FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */,
-				FEB1D7FB19CF0CDF002F7285 /* DBMediator.swift */,
+				FEB1D7FB19CF0CDF002F7285 /* DatabaseMediator.swift */,
 				FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */,
 			);
 			name = Mediator;
@@ -1946,10 +1960,11 @@
 		FEC3BD4819C2896E00184760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FE72630019DFED10005739D0 /* Item.swift */,
 				FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */,
+				FE72630019DFED10005739D0 /* Item.swift */,
 				FE76B7F219FD2BA0001B4B39 /* HLItem */,
 				FE76B7F119FD2B98001B4B39 /* HLItemPreview */,
+				FEAE0CAD19FE975F00CC5110 /* NSManagedObject */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1977,7 +1992,7 @@
 			isa = PBXGroup;
 			children = (
 				FE60E6B419E6303B00147EF9 /* CloudAdapter.swift */,
-				FEB1D7F919CF0CD0002F7285 /* DBAdapter.swift */,
+				FEB1D7F919CF0CD0002F7285 /* DatabaseAdapter.swift */,
 				FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */,
 				FEB1D7FD19CF10E6002F7285 /* AWS */,
 				FEEE446419FC15A600AFA88C /* GAI */,
@@ -2059,6 +2074,8 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */,
+				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
 			);
@@ -2652,6 +2669,7 @@
 				FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
 				FEA0FBF519D846A400A24409 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
+				FEAE0CAA19FE8F3E00CC5110 /* ProgramInstancePreview.json in Resources */,
 				FEA0FBE319D846A400A24409 /* 1.3.3THE其他排名.md.json in Resources */,
 				ADA774B519FE7E9F00F65AA7 /* 3英国.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
@@ -2753,7 +2771,7 @@
 				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEEE448219FC21DF00AFA88C /* JSONModelError.m in Sources */,
-				FEB1D7FA19CF0CD0002F7285 /* DBAdapter.swift in Sources */,
+				FEB1D7FA19CF0CD0002F7285 /* DatabaseAdapter.swift in Sources */,
 				FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,
 				FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */,
@@ -2768,6 +2786,8 @@
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
 				FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
+				FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */,
+				FE98CA8419FE853700D71578 /* StaticDataManager.swift in Sources */,
 				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
 				FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */,
@@ -2801,7 +2821,7 @@
 				FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */,
 				FE83076119DF07DC000B025A /* HLImage.swift in Sources */,
 				FEA0FBA219D7FFF400A24409 /* HLImageView.swift in Sources */,
-				FEB1D7FC19CF0CDF002F7285 /* DBMediator.swift in Sources */,
+				FEB1D7FC19CF0CDF002F7285 /* DatabaseMediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,7 @@ class ApplyAdderInfo: NSObject {
     
     // MARK: -
     
-    func getProgramPreviewList() {
+    func getProgramInstancePreviewList() {
         
     }
 }

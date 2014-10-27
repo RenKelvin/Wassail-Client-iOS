@@ -34,11 +34,12 @@ class HLItemBuilder: NSObject {
         case "HLFieldListPreview": return HLFieldListPreview(json: json)
             
         case "HLUniversityRankingPreview": return HLUniversityRankingPreview(json: json)
-
+            
         case "HLUniversityPreviewWithRank": return HLUniversityPreviewWithRank(json: json)
             
         default: return nil
             
         }
     }
+    
 }

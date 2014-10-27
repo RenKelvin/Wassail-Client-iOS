@@ -21,5 +21,5 @@ class Item: NSObject {
         kind = json.objectForKey("kind") as? NSString
         content = json.objectForKey("content")
     }
-
+    
 }

@@ -1,19 +1,19 @@
 //
-//  UserDataManager.swift
+//  StaticDataManager.swift
 //  Wassail-Client-iOS
 //
-//  Created by Chuan Ren on 10/26/14.
+//  Created by Chuan Ren on 10/27/14.
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
 import UIKit
 
-private let _UserDataManagerSharedInstance = UserDataManager()
+private let _StaticDataManagerSharedInstance = StaticDataManager()
 
-class UserDataManager: NSObject {
+class StaticDataManager: NSObject {
     
-    class var instance : UserDataManager {
-        return _UserDataManagerSharedInstance
+    class var instance : StaticDataManager {
+        return _StaticDataManagerSharedInstance
     }
     
     // MARK: - Core Data stack
@@ -34,10 +34,10 @@ class UserDataManager: NSObject {
         // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
         var coordinator: NSPersistentStoreCoordinator? = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("User.sqlite")
+        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("Static.sqlite")
         var error: NSError? = nil
         var failureReason = "There was an error creating or loading the application's saved data."
-        if coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Default", URL: url, options: nil, error: &error) == nil {
+        if coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Static", URL: url, options: nil, error: &error) == nil {
             coordinator = nil
             // Report any error we got.
             let dict = NSMutableDictionary()

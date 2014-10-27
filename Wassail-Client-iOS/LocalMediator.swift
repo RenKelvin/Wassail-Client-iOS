@@ -18,7 +18,7 @@ class LocalMediator: NSObject {
     
     func getItem(name: NSString) -> HLItem? {
         
-        let json = LocalAdapter.instance.getJson(name, dir: .Bundle)
+        let json = LocalAdapter.instance.getJsonDict(name, dir: .Bundle)
         
         if (json == nil) {
             return nil
@@ -45,23 +45,30 @@ class LocalMediator: NSObject {
     
     func getTools() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Tools", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Tools", dir: .Bundle)
         
         return dict
     }
     
     func getSizeConverter() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Size Converter", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Size Converter", dir: .Bundle)
         
         return dict
     }
     
     func getUnitConverter() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Unit Converter", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Unit Converter", dir: .Bundle)
         
         return dict
+    }
+    
+    func getProgramInstancePreviewList() -> NSArray? {
+        
+        let array = LocalAdapter.instance.getJsonArray("ProgramInstancePreview", dir: .Bundle)
+        
+        return array
     }
     
     func getMySize(key: String) -> NSDictionary? {

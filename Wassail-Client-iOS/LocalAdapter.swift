@@ -19,7 +19,7 @@ private let _LocalAdapterSharedInstance = LocalAdapter()
 class LocalAdapter: NSObject {
     
     class var instance : LocalAdapter {
-    return _LocalAdapterSharedInstance
+        return _LocalAdapterSharedInstance
     }
     
     // MARK: -
@@ -78,7 +78,26 @@ class LocalAdapter: NSObject {
     
     // MARK: -
     
-    func getJson(file: String, dir: Directory) -> NSDictionary? {
+    //    func getJson(file: String, dir: Directory) -> JSON? {
+    //
+    //        let url = self.getURL(file, type: "json", dir: dir)
+    //        if (url == nil) {
+    //            println("Local Adapter: \(file).json in not found in \(dir)")
+    //            return nil
+    //        }
+    //
+    //        let data = NSData(contentsOfFile: url!.path!)
+    //        var error: NSError? = NSError()
+    //        let json: AnyObject? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error)
+    //        if (json == nil) {
+    //            println("Local Adapter: \(file).json in \(dir) error")
+    //            return nil
+    //        }
+    //
+    //        return JSON(json!)
+    //    }
+    
+    func getJsonDict(file: String, dir: Directory) -> NSDictionary? {
         
         let url = self.getURL(file, type: "json", dir: dir)
         if (url == nil) {
@@ -88,13 +107,31 @@ class LocalAdapter: NSObject {
         
         let data = NSData(contentsOfFile: url!.path!)
         var error: NSError? = NSError()
-        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary?
+        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as? NSDictionary
         if (json == nil) {
             println("Local Adapter: \(file).json in \(dir) error")
             return nil
         }
         
-        //
+        return json
+    }
+    
+    func getJsonArray(file: String, dir: Directory) -> NSArray? {
+        
+        let url = self.getURL(file, type: "json", dir: dir)
+        if (url == nil) {
+            println("Local Adapter: \(file).json in not found in \(dir)")
+            return nil
+        }
+        
+        let data = NSData(contentsOfFile: url!.path!)
+        var error: NSError? = NSError()
+        let json: NSArray? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as? NSArray
+        if (json == nil) {
+            println("Local Adapter: \(file).json in \(dir) error")
+            return nil
+        }
+        
         return json
     }
     

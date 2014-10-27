@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Init Google Analytics
         // GAIAdapter.instance().initialize()
         
+        //
+        // println(UserDataManager.instance.applicationDocumentsDirectory)
+        DatabaseMediator.instance.generateProgramInstancePreviewList()
+        
         return true
     }
 

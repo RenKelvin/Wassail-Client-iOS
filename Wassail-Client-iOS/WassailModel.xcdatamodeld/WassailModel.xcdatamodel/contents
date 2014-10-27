@@ -5,7 +5,7 @@
         <relationship name="preview" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstancePreview" inverseName="apply" inverseEntity="HLProgramInstancePreview" syncable="YES"/>
         <relationship name="requirements" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstanceRequirements" inverseName="apply" inverseEntity="HLProgramInstanceRequirements" syncable="YES"/>
     </entity>
-    <entity name="HLProgramInstancePreview" syncable="YES">
+    <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
         <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="degreeType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="programId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -19,6 +19,10 @@
         <attribute name="programId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="apply" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLApply" inverseName="requirements" inverseEntity="HLApply" syncable="YES"/>
     </entity>
+    <configuration name="Static">
+        <memberEntity name="HLProgramInstancePreview"/>
+        <memberEntity name="HLProgramInstanceRequirements"/>
+    </configuration>
     <elements>
         <element name="HLApply" positionX="-63" positionY="-18" width="128" height="88"/>
         <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="165"/>

@@ -25,4 +25,5 @@ class HLItem: Item {
         name = json.objectForKey("name") as NSString
         type = json.objectForKey("type") as NSString
     }
+
 }
