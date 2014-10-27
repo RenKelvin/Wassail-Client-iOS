@@ -17,6 +17,7 @@ class DatabaseMediator: NSObject {
     }
     
     // MARK: -
+
     func generateProgramInstancePreviewList() {
         
         // Get json array
@@ -27,13 +28,16 @@ class DatabaseMediator: NSObject {
         
         // Insert each object
         for dict in array! {
-            var object: HLProgramInstancePreview? = DatabaseAdapter.instance.createObject("HLProgramInstancePreview", contextType: .Static) as? HLProgramInstancePreview
+            var object: HLProgramInstancePreview? = DatabaseAdapter.instance.create("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstancePreview
             
             object!.configure(dict as NSDictionary)
         }
     }
     
-    func saveContexts() {
-        DatabaseAdapter.instance.saveContexts()
+    func getProgramInstancePreviewList() -> NSArray? {
+    
+        return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: nil)
+        
     }
+    
 }

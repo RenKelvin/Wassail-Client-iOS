@@ -8,11 +8,6 @@
 
 import UIKit
 
-enum Context {
-    case Static
-    case User
-}
-
 private let _DatabaseAdapterSharedInstance = DatabaseAdapter()
 
 class DatabaseAdapter: NSObject {
@@ -21,26 +16,26 @@ class DatabaseAdapter: NSObject {
         return _DatabaseAdapterSharedInstance
     }
     
-    func createObject(entityName: NSString, contextType: Context) -> NSManagedObject? {
+    func create(entityName: NSString, context: NSManagedObjectContext) -> NSManagedObject? {
         
-        var context: NSManagedObjectContext?
+        let object = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: context) as? NSManagedObject
         
-        switch contextType {
-        case .Static:
-            context = StaticDataManager.instance.managedObjectContext
-        case .User:
-            context = UserDataManager.instance.managedObjectContext
-        default:
-            context = nil
-        }
-        
-        if (context == nil) {
-            return nil
-        }
-        
-        let object = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: context!) as? NSManagedObject
-
         return object
+    }
+    
+    func fetch(entityName: NSString, context: NSManagedObjectContext, predicate: NSPredicate?, sortDescriptors: NSArray?) -> NSArray? {
+        
+        let entityDescription = NSEntityDescription.entityForName(entityName, inManagedObjectContext: context)
+        
+        var request = NSFetchRequest(entityName: entityName)
+        
+        request.entity = entityDescription
+        request.predicate = predicate
+        request.sortDescriptors = sortDescriptors
+        
+        let array = context.executeFetchRequest(request, error: nil)
+        
+        return array
     }
     
     func saveContexts() {
