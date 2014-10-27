@@ -93,6 +93,7 @@
 		AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */; };
 		AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693419F7E9C700811C7E /* 3.6resume.jpeg */; };
 		AD47693E19F7E9C700811C7E /* 4.0Portfolio1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */; };
+		AD4A210519FE1B1B00098B2F /* 3.2.0工程院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210419FE1B1B00098B2F /* 3.2.0工程院排名.md.json */; };
 		AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2C19F803B50088E19C /* 0ApplyTexas.png */; };
 		AD548A3219F803B50088E19C /* 0ApplyWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2D19F803B50088E19C /* 0ApplyWeb.png */; };
 		AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2E19F803B50088E19C /* 0ApplyYourself.png */; };
@@ -588,6 +589,7 @@
 		AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpeg; sourceTree = "<group>"; };
 		AD47693419F7E9C700811C7E /* 3.6resume.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.6resume.jpeg; sourceTree = "<group>"; };
 		AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.0Portfolio1.jpeg; sourceTree = "<group>"; };
+		AD4A210419FE1B1B00098B2F /* 3.2.0工程院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.2.0工程院排名.md.json"; sourceTree = "<group>"; };
 		AD548A2C19F803B50088E19C /* 0ApplyTexas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyTexas.png; sourceTree = "<group>"; };
 		AD548A2D19F803B50088E19C /* 0ApplyWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyWeb.png; sourceTree = "<group>"; };
 		AD548A2E19F803B50088E19C /* 0ApplyYourself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyYourself.png; sourceTree = "<group>"; };
@@ -1661,6 +1663,7 @@
 		FE76B7EE19FD1FB6001B4B39 /* 院校数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				AD4A210419FE1B1B00098B2F /* 3.2.0工程院排名.md.json */,
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
 				FEE25E7319FD447900BDE743 /* 1.1美国大学排名.md.json */,
 				FEB4258C19FD531E00C0EE2F /* 2.1NatrualScience.md.json */,
@@ -2349,6 +2352,7 @@
 				ADCB6C0819FA8BE800E8DD20 /* 1.3Scholarship2.jpg in Resources */,
 				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
 				AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */,
+				AD4A210519FE1B1B00098B2F /* 3.2.0工程院排名.md.json in Resources */,
 				ADF246A719F4FF1C005BA7E5 /* 1.2LoginAddress.jpg in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
