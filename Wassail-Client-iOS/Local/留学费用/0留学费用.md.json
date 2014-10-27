@@ -6,11 +6,11 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1\u7f8e\u56fd\u7559\u5b66\u8d39\u7528", 
+                                "address": "1\u7f8e\u56fd", 
                                 "title": "\u7f8e\u56fd\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "1\u7f8e\u56fd\u7559\u5b66\u8d39\u7528", 
-                            "type": "HLArticlePreview"
+                            "name": "1\u7f8e\u56fd", 
+                            "type": "HLListPreview"
                         }, 
                         "kind": "Item"
                     }, 

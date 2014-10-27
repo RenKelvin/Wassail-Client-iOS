@@ -1,0 +1,375 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u516c\u7acb\u9ad8\u4e2d", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea61-2\u4e07\u7f8e\u5143\uff0c6-12\u4e07\u4eba\u6c11\u5e01, \u4f46\u53ea\u80fd\u4ee5\u4ea4\u6362\u751f\u8eab\u4efd\u8bfb\u4e00\u5e74\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Rye Brook School District:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$21,500 (New York)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Riverdale School District:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$11,900 (Oregon)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u9ad8\u4e2d", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea63-4\u4e07\u7f8e\u5143\uff0c18-24\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "The Harker School:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$40,500 (Northern California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Trinity High School:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$42,820 (New York City)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Princeton Day School:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$32,300 (New Jersey)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.1Tuition3.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "1.1Tuition3.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u9ad8\u4e2d\u5b66\u8d39\uff0d 3\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u516c\u7acb\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea62-3.5\u4e07\u7f8e\u5143\uff0c12-21\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$19,310  (Minnesota)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Texas - Austin:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$36,012 (Texas)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of California Los Angeles:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$35,740  (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea63.5-4.5\u4e07\u7f8e\u5143\uff0c21-27\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Southern California:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$37,096 (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$43,938 (Massachusetts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$45,028  (New York City)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.1Colleges.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "1.1Colleges.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u793e\u533a\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea66000-8000\u7f8e\u5143\uff0c3.7-4.9\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Santa Monica College:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$7,800 (Southern California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6587\u7406\u5b66\u9662", 
+                        "kind": "Section"
+                    }
+                ], 
+                "title": "\u672c\u79d1\u5b66\u8d39 \uff0d 4\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.1Tuition1.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "1.1Tuition1.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u516c\u7acb\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u9879\u76ee: \u6bcf\u5e74\u7ea62-3\u4e07\u7f8e\u5143\uff0c12-18\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$23,680  (Minnesota)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Texas - Austin:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$24,798 (Texas)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of California Los Angeles:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$30,764  (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5546\u5b66\u9662: \u6bcf\u5e744.5-5\u4e07\u7f8e\u5143\uff0c27-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$45,000 (Minnesota)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Texas - Austin:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$46,514 (Texas)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of California Los Angeles:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$49,891  (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6cd5\u5b66\u9662: \u6bcf\u5e744-5\u4e07\u7f8e\u5143\uff0c24-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Minnesota:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$44,620 (Minnesota)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Texas - Austin:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$46,680 (Texas)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u9879\u76ee: \u6bcf\u5e74\u7ea63.5-5\u4e07\u7f8e\u5143\uff0c21-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Southern California:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$37,096 (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$40,416 (Massachusetts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$48,646  (New York City)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5546\u5b66\u9662: \u6bcf\u5e745.5-6.5\u4e07\u7f8e\u5143\uff0c33-40\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Southern California:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$54,252 (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$58,875 (Massachusetts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$63,148 (New York City)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6cd5\u5b66\u9662: \u6bcf\u5e745.5-6\u4e07\u7f8e\u5143\uff0c33-36\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Southern California:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$55,023 (California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Harvard University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$54,850 (Massachusetts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Columbia University:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$58,292 (New York City)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u7855\u58eb\u5b66\u8d39 \uff0d 1.5-2\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e00\u822c\u60c5\u51b5\u4e0b\u62ff\u5168\u5956\uff0c\u514d\u5b66\u6742\u8d39\u5e76\u7ed9\u751f\u6d3b\u8865\u52a9\uff0c\u6cd5\u5b66\u535a\u58eb\u548c\u533b\u5b66\u535a\u58eb\u9664\u5916\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u535a\u58eb \uff0d 5-7\u5e74"
+            }
+        ], 
+        "note": "1\u7f8e\u5143\uff1d6.12\u4eba\u6c11\u5e01", 
+        "title": "\u7f8e\u56fd\u5b66\u8d39"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
