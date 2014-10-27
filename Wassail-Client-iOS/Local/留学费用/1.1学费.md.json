@@ -1,5 +1,7 @@
 {
     "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
         "groups": [
             {
                 "items": [
@@ -176,17 +178,6 @@
             {
                 "items": [
                     {
-                        "content": {
-                            "body": {
-                                "address": "1.1Tuition1.jpeg", 
-                                "title": ""
-                            }, 
-                            "name": "1.1Tuition1.jpeg", 
-                            "type": "HLImage"
-                        }, 
-                        "kind": "Item"
-                    }, 
-                    {
                         "content": "\u516c\u7acb\u5927\u5b66", 
                         "kind": "Section"
                     }, 
@@ -219,6 +210,10 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "\u5546\u5b66\u9662: \u6bcf\u5e744.5-5\u4e07\u7f8e\u5143\uff0c27-30\u4e07\u4eba\u6c11\u5e01\u3002", 
                         "kind": "Graph"
                     }, 
@@ -247,6 +242,10 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "\u6cd5\u5b66\u9662: \u6bcf\u5e744-5\u4e07\u7f8e\u5143\uff0c24-30\u4e07\u4eba\u6c11\u5e01\u3002", 
                         "kind": "Graph"
                     }, 
@@ -265,6 +264,17 @@
                     {
                         "content": "$46,680 (Texas)", 
                         "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.1Tuition1.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "1.1Tuition1.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
                     }, 
                     {
                         "content": "\u79c1\u7acb\u5927\u5b66", 
@@ -299,6 +309,10 @@
                         "kind": "Graph"
                     }, 
                     {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "\u5546\u5b66\u9662: \u6bcf\u5e745.5-6.5\u4e07\u7f8e\u5143\uff0c33-40\u4e07\u4eba\u6c11\u5e01\u3002", 
                         "kind": "Graph"
                     }, 
@@ -324,6 +338,10 @@
                     }, 
                     {
                         "content": "$63,148 (New York City)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
                         "kind": "Graph"
                     }, 
                     {
