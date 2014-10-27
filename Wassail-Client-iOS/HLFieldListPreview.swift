@@ -14,6 +14,11 @@ class HLFieldListPreview: HLItemPreview {
         super.init(json: json)
         
         sourceType = "FieldList"
+        
+        // Exchange title and note
+        var temp: NSString = title!
+        title = note!
+        note = temp
     }
     
 }

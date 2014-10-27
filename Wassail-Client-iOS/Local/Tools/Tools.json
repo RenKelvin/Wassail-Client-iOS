@@ -22,7 +22,7 @@
               ],
     "university database": {
         "ready": "true",
-        "note": "院校数据库",
+        "note": "世界各国院校介绍、排名详解",
         "title": "院校数据库",
         "icon": "ToolsIconUniversityDatabase",
         "identifier": "UniversityDatabase"
