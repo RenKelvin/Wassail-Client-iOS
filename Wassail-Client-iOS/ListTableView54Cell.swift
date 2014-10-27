@@ -14,9 +14,11 @@ class ListTableView54Cell: ListTableViewCell {
         titleLabel?.text = item.title
         noteLabel?.text = item.note
         
-        let name = item.icon!.address
-        if (name != nil) {
-            iconImageView?.image = DefaultInfo.instance.getImage(name!)
+        if (item.icon != nil) {
+            let name = item.icon!.address
+            if (name != nil) {
+                iconImageView?.image = DefaultInfo.instance.getImage(name!)
+            }
         }
     }
     
