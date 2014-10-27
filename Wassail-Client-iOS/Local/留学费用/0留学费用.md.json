@@ -17,44 +17,44 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2\u6fb3\u5927\u5229\u4e9a\u7559\u5b66\u8d39\u7528", 
+                                "address": "2\u6fb3\u5927\u5229\u4e9a", 
                                 "title": "\u6fb3\u5927\u5229\u4e9a\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "2\u6fb3\u5927\u5229\u4e9a\u7559\u5b66\u8d39\u7528", 
-                            "type": "HLArticlePreview"
+                            "name": "2\u6fb3\u5927\u5229\u4e9a", 
+                            "type": "HLListPreview"
                         }, 
                         "kind": "Item"
                     }, 
                     {
                         "content": {
                             "body": {
-                                "address": "3\u82f1\u56fd\u7559\u5b66\u8d39\u7528", 
+                                "address": "3\u82f1\u56fd", 
                                 "title": "\u82f1\u56fd\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "3\u82f1\u56fd\u7559\u5b66\u8d39\u7528", 
-                            "type": "HLArticlePreview"
+                            "name": "3\u82f1\u56fd", 
+                            "type": "HLListPreview"
                         }, 
                         "kind": "Item"
                     }, 
                     {
                         "content": {
                             "body": {
-                                "address": "4\u65e5\u672c\u7559\u5b66\u8d39\u7528", 
+                                "address": "4\u65e5\u672c", 
                                 "title": "\u65e5\u672c\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "4\u65e5\u672c\u7559\u5b66\u8d39\u7528", 
-                            "type": "HLArticlePreview"
+                            "name": "4\u65e5\u672c", 
+                            "type": "HLListPreview"
                         }, 
                         "kind": "Item"
                     }, 
                     {
                         "content": {
                             "body": {
-                                "address": "5\u52a0\u62ff\u5927\u7559\u5b66\u8d39\u7528", 
+                                "address": "5\u52a0\u62ff\u5927", 
                                 "title": "\u52a0\u62ff\u5927\u7559\u5b66\u8d39\u7528"
                             }, 
-                            "name": "5\u52a0\u62ff\u5927\u7559\u5b66\u8d39\u7528", 
-                            "type": "HLArticlePreview"
+                            "name": "5\u52a0\u62ff\u5927", 
+                            "type": "HLListPreview"
                         }, 
                         "kind": "Item"
                     }

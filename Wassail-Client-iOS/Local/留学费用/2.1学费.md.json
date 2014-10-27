@@ -1,0 +1,297 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u516c\u7acb\u9ad8\u4e2d", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea61-1.5\u4e07\u6fb3\u5143\uff0c5.5-8\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Victorian Government Schools:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$14,350 (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Queensland Government Schools:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$14,108 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Western Australian Government Schools:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$12,880 (Western Australia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u79c1\u7acb\u9ad8\u4e2d", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea63-4\u4e07\u6fb3\u5143\uff0c16-21\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Sydney Grammar School:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$30,240 (New South Wales)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Hale School:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$37,300 (Western Australia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.1Tuition2.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "2.1Tuition2.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u9ad8\u4e2d\u5b66\u8d39\uff0d 2\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e00\u822c\u4e13\u4e1a", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea62.5-4\u4e07\u6fb3\u5143\uff0c13.5-21\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$36,224  (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$33,280 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Western Sydney:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$23,920 (New South Wales)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u533b\u79d1", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea65-7\u4e07\u6fb3\u5e01\uff0c27-37\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$71,488  (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$57,760 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Western Sydney:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$51,960 (New South Wales)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.1College.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "2.1College.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u672c\u79d1\u5b66\u8d39 \uff0d 3-5\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u516b\u5927\u540d\u6821", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u9879\u76ee: \u6bcf\u5e74\u7ea63-4\u4e07\u6fb3\u5143\uff0c16-21\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$35,936 (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$33,280 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "-", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "MBA: \u6bcf\u5e745-6.5\u4e07\u7f8e\u5143\uff0c27-35\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$48,000 (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$63,600 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.1ANU.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "2.1ANU.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u56db\u661f\u7ea7\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea62-3\u4e07\u6fb3\u5143\uff0c11-16\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Western Sydney:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$25,800 (New South Wales)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u7855\u58eb\u5b66\u8d39 \uff0d 1-2\u5e74"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e00\u822c\u4e13\u4e1a: \u6bcf\u5e74\u7ea62.5-4\u4e07\u6fb3\u5143\uff0c13.5-21.5\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$36,896 (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$33,280 (Queensland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Western Sydney:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$24,760 (New South Wales)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u533b\u5b66: \u6bcf\u5e74\u7ea66-7\u4e07\u6fb3\u5143\uff0c32-38\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$70,240 (Victoria)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$59,840 (Queensland)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u535a\u58eb \uff0d 4\u5e74"
+            }
+        ], 
+        "note": "1\u6fb3\u5143\uff1d5.38\u4eba\u6c11\u5e01", 
+        "title": "\u6fb3\u5927\u5229\u4e9a\u5b66\u8d39"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
