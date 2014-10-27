@@ -27,7 +27,13 @@ class DatabaseMediator: NSObject {
         
         // Insert each object
         for dict in array! {
-            var object = DatabaseAdapter.instance.createObject("HLProgramInstancePreview", contextType: .Static)
+            var object: HLProgramInstancePreview? = DatabaseAdapter.instance.createObject("HLProgramInstancePreview", contextType: .Static) as? HLProgramInstancePreview
+            
+            object!.configure(dict as NSDictionary)
         }
+    }
+    
+    func saveContexts() {
+        DatabaseAdapter.instance.saveContexts()
     }
 }

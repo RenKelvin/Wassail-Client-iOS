@@ -9,15 +9,31 @@
 import Foundation
 import CoreData
 
+@objc(HLProgramInstancePreview)
 class HLProgramInstancePreview: NSManagedObject {
-
+    
     @NSManaged var deadlineDate: NSDate
     @NSManaged var degreeType: NSNumber
-    @NSManaged var programId: NSNumber
+    @NSManaged var programInstanceId: NSNumber
     @NSManaged var programName: String
     @NSManaged var season: NSNumber
     @NSManaged var universityName: String
     @NSManaged var year: NSNumber
     @NSManaged var apply: NSManagedObject
-
+    
+    func configure(dict: NSDictionary) {
+        let json: JSON = JSON(dict) as JSON
+        
+        let date = NSDate.dateWithString(json["DeadlineDate"].stringValue)
+        if (date != nil) {
+            deadlineDate = date!
+        }
+        degreeType = json["DegreeType"].intValue
+        programInstanceId = json["programInstanceId"].intValue
+        programName = json["programName"].stringValue
+        season = json["Season"].intValue
+        universityName = json["universityName"].stringValue
+        year = json["Year"].intValue
+    }
+    
 }

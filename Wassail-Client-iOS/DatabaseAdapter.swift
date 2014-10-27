@@ -28,17 +28,24 @@ class DatabaseAdapter: NSObject {
         switch contextType {
         case .Static:
             context = StaticDataManager.instance.managedObjectContext
-        case .Static:
-            context = StaticDataManager.instance.managedObjectContext
+        case .User:
+            context = UserDataManager.instance.managedObjectContext
         default:
             context = nil
         }
         
+        if (context == nil) {
+            return nil
+        }
         
-        
-        
-        return nil
+        let object = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: context!) as? NSManagedObject
+
+        return object
     }
     
+    func saveContexts() {
+        StaticDataManager.instance.saveContext()
+        UserDataManager.instance.saveContext()
+    }
     
 }

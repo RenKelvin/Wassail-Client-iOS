@@ -420,6 +420,7 @@
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEAE0CAA19FE8F3E00CC5110 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
+		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
@@ -960,6 +961,7 @@
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
+		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
@@ -2003,9 +2005,10 @@
 		FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */ = {
 			isa = PBXGroup;
 			children = (
-				FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */,
+				FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */,
 				FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */,
 				FE51847619DC79340057082C /* UIImageExtension.swift */,
+				FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */,
 			);
 			name = "Cocoa Touch Externsion";
 			sourceTree = "<group>";
@@ -2769,6 +2772,7 @@
 				FEDC98DE19BDDEA800CA815F /* UnitConverterTableViewCell.swift in Sources */,
 				FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */,
 				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
+				FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
 				FEEE448219FC21DF00AFA88C /* JSONModelError.m in Sources */,
 				FEB1D7FA19CF0CD0002F7285 /* DatabaseAdapter.swift in Sources */,
