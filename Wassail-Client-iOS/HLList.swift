@@ -11,13 +11,13 @@ import UIKit
 class HLList: HLItem {
     
     var title: NSString?
-    
     var author: NSString?
     var date: NSString?
+    var note: NSString?
+  
     var header: NSString?
-
     var footer: NSString?
-
+    
     var groups: NSArray = []
     
     override init() {
@@ -33,8 +33,9 @@ class HLList: HLItem {
         title = jsonBody.objectForKey("title") as NSString?
         author = jsonBody.objectForKey("author") as NSString?
         date = jsonBody.objectForKey("date") as NSString?
+        note = jsonBody.objectForKey("note") as NSString?
+       
         header = jsonBody.objectForKey("header") as NSString?
-        
         footer = jsonBody.objectForKey("footer") as NSString?
         
         groups = jsonBody.objectForKey("groups") as NSArray
@@ -63,10 +64,12 @@ class HLList: HLItem {
                     content.setObject(body, forKey: "body")
                     
                     let model = HLItemBuilder.build(content as NSDictionary)
-                    items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                    if (model != nil) {
+                        items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model!)
+                    }
                 }
-                
-                // NOHLItem
+                    
+                    // NOHLItem
                 else {
                     let model: Item = Item(json: item as NSDictionary)
                     items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
@@ -93,10 +96,14 @@ class HLList: HLItem {
         return title
     }
     
-    func item(group: Int, row: Int) -> Item {
+    func item(group: Int, row: Int) -> Item? {
         let group = groups.objectAtIndex(group) as NSDictionary
         let items = group.objectForKey("items") as NSArray
         
-        return items.objectAtIndex(row) as Item
+        if (!items.objectAtIndex(row).isKindOfClass(Item)) {
+            return nil
+        }
+
+        return items.objectAtIndex(row) as? Item
     }
 }

@@ -130,7 +130,11 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
         //
         switch indexPath.section {
         case 0:
-            switch indexPath.row {
+            switch indexPath.row-2 {
+            case -2:
+                self.performSegueWithIdentifier("ToolsUniversityDatabaseSegueIdentifier", sender: "0院校数据库")
+            case -1:
+                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
             case 0:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0网申流程")
                 UserAccessor.instance.setBool("isToolUsed" + "OnlineApplication", value: true)
@@ -142,7 +146,7 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
                 UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
             case 4:
-                ""
+                    ""
             case 5:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
             case 6:

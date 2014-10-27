@@ -143,12 +143,15 @@ class ListViewController: GAITrackedViewController, UITableViewDataSource, UITab
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return UITableViewCell()
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
+        var cellReuseIdentifier = "ListTableViewSimple44CellReuseIdentifier"
         
         if (((item as HLItemPreview).icon) != nil) {
             cellReuseIdentifier = "ListTableView54CellReuseIdentifier"
@@ -175,8 +178,11 @@ class ListViewController: GAITrackedViewController, UITableViewDataSource, UITab
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return 0.0
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            println("Wrong list item: \(item!)")
             return 0.0
         }
         
@@ -243,25 +249,14 @@ class ListViewController: GAITrackedViewController, UITableViewDataSource, UITab
             return
         }
         
-        let item = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
         
-        let type = item.type
-        switch type {
-        case "HLListPreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: itemAddress)
-            
-        case "HLArticlePreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: itemAddress)
-            
-        case "HLLink":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
-            
-        default:
-            ""
+        if (itemPreview.sourceType == nil) {
+            return
         }
+        let segueIdentifier = "List" + itemPreview.sourceType! + "SegueIdentifier"
+        self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
+
     }
     
     // MARK: - Navigation

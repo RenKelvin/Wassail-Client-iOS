@@ -76,6 +76,9 @@ class HLToolPreviewView: HLItemView {
         else if (title == "网申流程") {
             controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0网申流程")
         }
+        else if (title == "留学费用") {
+            controller!.performSegueWithIdentifier("ArticleListSugueIdentifier", sender: "0留学费用")
+        }
         else {
             controller!.performSegueWithIdentifier(identifier, sender: nil)
         }

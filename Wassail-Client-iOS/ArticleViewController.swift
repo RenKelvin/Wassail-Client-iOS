@@ -18,6 +18,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var authorLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
+    @IBOutlet var noteLabel: UILabel?
     
     @IBOutlet var headerLabel: UILabel?
     @IBOutlet var headerContainer: UIView?
@@ -126,6 +127,9 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         
         self.dateLabel!.text = article!.date
         self.dateLabel!.hidden = false
+        
+        self.noteLabel!.text = article!.note
+        self.noteLabel!.hidden = false
         
         // headerLabel
         self.headerLabel!.text = article!.header

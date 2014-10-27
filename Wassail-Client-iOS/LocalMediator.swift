@@ -13,7 +13,20 @@ private let _LocalMediatorSharedInstance = LocalMediator()
 class LocalMediator: NSObject {
     
     class var instance : LocalMediator {
-    return _LocalMediatorSharedInstance
+        return _LocalMediatorSharedInstance
+    }
+    
+    func getItem(name: NSString) -> HLItem? {
+        
+        let json = LocalAdapter.instance.getJson(name, dir: .Bundle)
+        
+        if (json == nil) {
+            return nil
+        }
+        
+        let item = HLItemBuilder.build(json!)
+        
+        return item
     }
     
     func getImage(name: NSString) -> UIImage? {
@@ -99,12 +112,12 @@ class LocalMediator: NSObject {
         let b = dict!.objectForKey(key) as Bool?
         
         return b
-
+        
     }
     
     func setBool(key: String, value: Bool) -> Bool {
         
         return LocalAdapter.instance.writePlist("User", key: key, value: value)
     }
-
+    
 }

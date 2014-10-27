@@ -8,6 +8,12 @@
 
 import UIKit
 
+private let _DBAdapterSharedInstance = DBAdapter()
+
 class DBAdapter: NSObject {
-   
+    
+    class var instance : DBAdapter {
+        return _DBAdapterSharedInstance
+    }
+    
 }

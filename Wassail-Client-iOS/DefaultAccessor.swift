@@ -19,14 +19,14 @@ class DefaultAccessor: NSObject {
     }
     
     func getItem(name: NSString) -> HLItem? {
-        var raw = DefaultMapper.instance.getItem(name)
+        var item = DefaultMapper.instance.getItem(name)
         
-        if (raw == nil) {
+        if (item == nil) {
             println("DefaultAccessor.getItem: \(name) - Failed!")
             return nil
         }
         
-        return HLItemBuilder.build(raw!)
+        return item
     }
     
     func getImage(name: NSString) -> UIImage? {

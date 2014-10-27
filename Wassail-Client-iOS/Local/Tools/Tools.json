@@ -1,6 +1,8 @@
 {
     "names": [
               [
+               "university database",
+               "apply manager",
                "online application",
                "apply documents",
                "gpa calculator",
@@ -18,6 +20,13 @@
                "info container"
                ],
               ],
+    "university database": {
+        "ready": "true",
+        "note": "院校数据库",
+        "title": "院校数据库",
+        "icon": "ToolsIconUniversityDatabase",
+        "identifier": "UniversityDatabase"
+    },
     "university rankings": {
         "ready": "true",
         "note": "世界大学权威排名，深度分析",
@@ -34,7 +43,7 @@
         "new": "true"
     },
     "apply manager": {
-        "ready": "false",
+        "ready": "true",
         "note": "申请事项管理，截止日期提醒",
         "title": "申请管理器",
         "icon": "ToolsIconApplyManager",

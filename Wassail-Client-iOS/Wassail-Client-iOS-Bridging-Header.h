@@ -6,3 +6,5 @@
 #import "AWSMobileAnalyticsAdapter.h"
 
 #import "GAIAdapter.h"
+
+#import "JSONModelLib.h"

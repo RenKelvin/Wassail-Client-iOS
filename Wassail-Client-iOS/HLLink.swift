@@ -18,6 +18,7 @@ class HLLink: HLItemPreview {
         
         title = jsonBody.objectForKey("title") as? NSString
         address = jsonBody.objectForKey("address") as? NSString
+        
+        sourceType = "Browser"
     }
-    
 }
