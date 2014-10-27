@@ -93,6 +93,28 @@
 		AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */; };
 		AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693419F7E9C700811C7E /* 3.6resume.jpeg */; };
 		AD47693E19F7E9C700811C7E /* 4.0Portfolio1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */; };
+		AD4A210719FE253F00098B2F /* 3.1工程院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210619FE253F00098B2F /* 3.1工程院排名.md.json */; };
+		AD4A211D19FE331600098B2F /* 3.2.0工程院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210819FE331600098B2F /* 3.2.0工程院排名.md.json */; };
+		AD4A211E19FE331600098B2F /* 3.2理学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210919FE331600098B2F /* 3.2理学院排名.md.json */; };
+		AD4A211F19FE331600098B2F /* 3.3.0理学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210A19FE331600098B2F /* 3.3.0理学院排名.md.json */; };
+		AD4A212019FE331600098B2F /* 3.3商学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210B19FE331600098B2F /* 3.3商学院排名.md.json */; };
+		AD4A212119FE331600098B2F /* 3.4.0商学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210C19FE331600098B2F /* 3.4.0商学院排名.md.json */; };
+		AD4A212219FE331600098B2F /* 3.4社会科学与人文排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210D19FE331600098B2F /* 3.4社会科学与人文排名.md.json */; };
+		AD4A212319FE331600098B2F /* 3.5.0社会科学与人文排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210E19FE331600098B2F /* 3.5.0社会科学与人文排名.md.json */; };
+		AD4A212419FE331600098B2F /* 3.5公共事务学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A210F19FE331600098B2F /* 3.5公共事务学院排名.md.json */; };
+		AD4A212519FE331600098B2F /* 3.6.0公共事务学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211019FE331600098B2F /* 3.6.0公共事务学院排名.md.json */; };
+		AD4A212619FE331600098B2F /* 3.6图书咨询学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211119FE331600098B2F /* 3.6图书咨询学排名.md.json */; };
+		AD4A212719FE331600098B2F /* 3.7.0图书咨询学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211219FE331600098B2F /* 3.7.0图书咨询学排名.md.json */; };
+		AD4A212819FE331600098B2F /* 3.7教育学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211319FE331600098B2F /* 3.7教育学院排名.md.json */; };
+		AD4A212919FE331600098B2F /* 3.8.0教育学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211419FE331600098B2F /* 3.8.0教育学院排名.md.json */; };
+		AD4A212A19FE331600098B2F /* 3.8卫生学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211519FE331600098B2F /* 3.8卫生学院排名.md.json */; };
+		AD4A212B19FE331600098B2F /* 3.9.0卫生学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211619FE331600098B2F /* 3.9.0卫生学院排名.md.json */; };
+		AD4A212C19FE331600098B2F /* 3.9法学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211719FE331600098B2F /* 3.9法学院排名.md.json */; };
+		AD4A212D19FE331600098B2F /* 3.10.0法学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211819FE331600098B2F /* 3.10.0法学院排名.md.json */; };
+		AD4A212E19FE331600098B2F /* 3.10医学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211919FE331600098B2F /* 3.10医学院排名.md.json */; };
+		AD4A212F19FE331600098B2F /* 3.11.0医学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211A19FE331600098B2F /* 3.11.0医学院排名.md.json */; };
+		AD4A213019FE331600098B2F /* 3.11美术学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211B19FE331600098B2F /* 3.11美术学院排名.md.json */; };
+		AD4A213119FE331600098B2F /* 3.12.0美术学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4A211C19FE331600098B2F /* 3.12.0美术学院排名.md.json */; };
 		AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2C19F803B50088E19C /* 0ApplyTexas.png */; };
 		AD548A3219F803B50088E19C /* 0ApplyWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2D19F803B50088E19C /* 0ApplyWeb.png */; };
 		AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */ = {isa = PBXBuildFile; fileRef = AD548A2E19F803B50088E19C /* 0ApplyYourself.png */; };
@@ -588,6 +610,28 @@
 		AD47693319F7E9C700811C7E /* 3.1Resume1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpeg; sourceTree = "<group>"; };
 		AD47693419F7E9C700811C7E /* 3.6resume.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.6resume.jpeg; sourceTree = "<group>"; };
 		AD47693519F7E9C700811C7E /* 4.0Portfolio1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.0Portfolio1.jpeg; sourceTree = "<group>"; };
+		AD4A210619FE253F00098B2F /* 3.1工程院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1工程院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210819FE331600098B2F /* 3.2.0工程院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.2.0工程院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210919FE331600098B2F /* 3.2理学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.2理学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210A19FE331600098B2F /* 3.3.0理学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.3.0理学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210B19FE331600098B2F /* 3.3商学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.3商学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210C19FE331600098B2F /* 3.4.0商学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.4.0商学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A210D19FE331600098B2F /* 3.4社会科学与人文排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.4社会科学与人文排名.md.json"; sourceTree = "<group>"; };
+		AD4A210E19FE331600098B2F /* 3.5.0社会科学与人文排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.5.0社会科学与人文排名.md.json"; sourceTree = "<group>"; };
+		AD4A210F19FE331600098B2F /* 3.5公共事务学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.5公共事务学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211019FE331600098B2F /* 3.6.0公共事务学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.6.0公共事务学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211119FE331600098B2F /* 3.6图书咨询学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.6图书咨询学排名.md.json"; sourceTree = "<group>"; };
+		AD4A211219FE331600098B2F /* 3.7.0图书咨询学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.7.0图书咨询学排名.md.json"; sourceTree = "<group>"; };
+		AD4A211319FE331600098B2F /* 3.7教育学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.7教育学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211419FE331600098B2F /* 3.8.0教育学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.8.0教育学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211519FE331600098B2F /* 3.8卫生学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.8卫生学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211619FE331600098B2F /* 3.9.0卫生学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.9.0卫生学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211719FE331600098B2F /* 3.9法学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.9法学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211819FE331600098B2F /* 3.10.0法学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.10.0法学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211919FE331600098B2F /* 3.10医学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.10医学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211A19FE331600098B2F /* 3.11.0医学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.11.0医学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211B19FE331600098B2F /* 3.11美术学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.11美术学院排名.md.json"; sourceTree = "<group>"; };
+		AD4A211C19FE331600098B2F /* 3.12.0美术学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.12.0美术学院排名.md.json"; sourceTree = "<group>"; };
 		AD548A2C19F803B50088E19C /* 0ApplyTexas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyTexas.png; sourceTree = "<group>"; };
 		AD548A2D19F803B50088E19C /* 0ApplyWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyWeb.png; sourceTree = "<group>"; };
 		AD548A2E19F803B50088E19C /* 0ApplyYourself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0ApplyYourself.png; sourceTree = "<group>"; };
@@ -1661,6 +1705,28 @@
 		FE76B7EE19FD1FB6001B4B39 /* 院校数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				AD4A210819FE331600098B2F /* 3.2.0工程院排名.md.json */,
+				AD4A210919FE331600098B2F /* 3.2理学院排名.md.json */,
+				AD4A210A19FE331600098B2F /* 3.3.0理学院排名.md.json */,
+				AD4A210B19FE331600098B2F /* 3.3商学院排名.md.json */,
+				AD4A210C19FE331600098B2F /* 3.4.0商学院排名.md.json */,
+				AD4A210D19FE331600098B2F /* 3.4社会科学与人文排名.md.json */,
+				AD4A210E19FE331600098B2F /* 3.5.0社会科学与人文排名.md.json */,
+				AD4A210F19FE331600098B2F /* 3.5公共事务学院排名.md.json */,
+				AD4A211019FE331600098B2F /* 3.6.0公共事务学院排名.md.json */,
+				AD4A211119FE331600098B2F /* 3.6图书咨询学排名.md.json */,
+				AD4A211219FE331600098B2F /* 3.7.0图书咨询学排名.md.json */,
+				AD4A211319FE331600098B2F /* 3.7教育学院排名.md.json */,
+				AD4A211419FE331600098B2F /* 3.8.0教育学院排名.md.json */,
+				AD4A211519FE331600098B2F /* 3.8卫生学院排名.md.json */,
+				AD4A211619FE331600098B2F /* 3.9.0卫生学院排名.md.json */,
+				AD4A211719FE331600098B2F /* 3.9法学院排名.md.json */,
+				AD4A211819FE331600098B2F /* 3.10.0法学院排名.md.json */,
+				AD4A211919FE331600098B2F /* 3.10医学院排名.md.json */,
+				AD4A211A19FE331600098B2F /* 3.11.0医学院排名.md.json */,
+				AD4A211B19FE331600098B2F /* 3.11美术学院排名.md.json */,
+				AD4A211C19FE331600098B2F /* 3.12.0美术学院排名.md.json */,
+				AD4A210619FE253F00098B2F /* 3.1工程院排名.md.json */,
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
 				FEE25E7319FD447900BDE743 /* 1.1美国大学排名.md.json */,
 				FEB4258C19FD531E00C0EE2F /* 2.1NatrualScience.md.json */,
@@ -2212,7 +2278,9 @@
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
+				AD4A212419FE331600098B2F /* 3.5公共事务学院排名.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
+				AD4A211F19FE331600098B2F /* 3.3.0理学院排名.md.json in Resources */,
 				AD47693919F7E9C700811C7E /* 1.5.1范文2.md.json in Resources */,
 				AD0E75F219F37695006F433C /* 3.25recommendation.jpg in Resources */,
 				ADF246A819F4FF1C005BA7E5 /* 1.3Personal.jpg in Resources */,
@@ -2229,6 +2297,7 @@
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
 				AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */,
 				FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */,
+				AD4A211E19FE331600098B2F /* 3.2理学院排名.md.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
 				ADCB6BFC19FA84F600E8DD20 /* 1.2生活费.md.json in Resources */,
@@ -2238,6 +2307,7 @@
 				AD40114D19EB7A610088194C /* 1托福.md.json in Resources */,
 				FEA0FBF119D846A400A24409 /* 2.2.0如何看待排名.md.json in Resources */,
 				FEE1603E19D928A20022883E /* 2.11福布斯美国大学排行榜.md.json in Resources */,
+				AD4A212919FE331600098B2F /* 3.8.0教育学院排名.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
 				FEB4258B19FD50E300C0EE2F /* su-logo.png in Resources */,
 				AD47692C19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg in Resources */,
@@ -2253,6 +2323,7 @@
 				FEE1601F19D925030022883E /* 1.2.2Top 200按国家统计对比.png in Resources */,
 				ADC907EC19DD025300DFC311 /* 1.5.8AmericanExpress.jpeg in Resources */,
 				FEA0FC1D19D8669000A24409 /* 1.0信用卡.md.json in Resources */,
+				AD4A212819FE331600098B2F /* 3.7教育学院排名.md.json in Resources */,
 				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
 				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
@@ -2302,6 +2373,7 @@
 				AD40114F19EB7A610088194C /* 1新托福考试备考策略与模拟试题.jpg in Resources */,
 				ADD68A9019FA4C1100B88199 /* 3英国留学费用.md.json in Resources */,
 				FE7262EC19DFEA11005739D0 /* 1.2推荐信结构.md.json in Resources */,
+				AD4A210719FE253F00098B2F /* 3.1工程院排名.md.json in Resources */,
 				FEB211DC19DA940C00647560 /* 0大学排名.jpg in Resources */,
 				AD1EBB2B19E0733E00515F5B /* 2.3个人陈述.jpg in Resources */,
 				FEA0FC2B19D8669000A24409 /* 1.5.9常用信用卡列表.md.json in Resources */,
@@ -2332,12 +2404,15 @@
 				FEA0FBED19D846A400A24409 /* 1.5.3ARWU其他排名.md.json in Resources */,
 				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
 				FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */,
+				AD4A213019FE331600098B2F /* 3.11美术学院排名.md.json in Resources */,
 				AD0E75F519F37695006F433C /* 3.4Citizenship.jpg in Resources */,
 				FEB211E919DA940C00647560 /* 2.8Princeton Review.jpeg in Resources */,
 				AD0E75FA19F37695006F433C /* 3.9applicationifo.jpg in Resources */,
+				AD4A212F19FE331600098B2F /* 3.11.0医学院排名.md.json in Resources */,
 				FEA0FBFB19D846A400A24409 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				FEE25E7419FD447900BDE743 /* 1.1美国大学排名.md.json in Resources */,
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
+				AD4A213119FE331600098B2F /* 3.12.0美术学院排名.md.json in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */,
 				FEB211E619DA940C00647560 /* 2.2.4剑桥.jpg in Resources */,
@@ -2351,6 +2426,7 @@
 				AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */,
 				ADF246A719F4FF1C005BA7E5 /* 1.2LoginAddress.jpg in Resources */,
 				FEA0FBE819D846A400A24409 /* 1.4.3QS其他排名.md.json in Resources */,
+				AD4A212C19FE331600098B2F /* 3.9法学院排名.md.json in Resources */,
 				FEA0FC0319D846A400A24409 /* 3.6.0公共事务学院排名.md.json in Resources */,
 				FEA0FC0A19D846A400A24409 /* 3.13其他排名.md.json in Resources */,
 				AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */,
@@ -2362,6 +2438,7 @@
 				AD548A3519F803B50088E19C /* 0Embark.png in Resources */,
 				AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */,
 				FEB211E719DA940C00647560 /* 2.2.4剑桥4.jpg in Resources */,
+				AD4A212519FE331600098B2F /* 3.6.0公共事务学院排名.md.json in Resources */,
 				AD0E75F419F37695006F433C /* 3.3background.jpg in Resources */,
 				FEA0FC0019D846A400A24409 /* 3.3.0理学院排名（Science）.md.json in Resources */,
 				FEA0FBFA19D846A400A24409 /* 2.8普林斯顿评论.md.json in Resources */,
@@ -2381,16 +2458,19 @@
 				FEE1604019D928A20022883E /* 3.1申请自费硕士应该如何选校、如何看待学校排名?.md.json in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
+				AD4A212A19FE331600098B2F /* 3.8卫生学院排名.md.json in Resources */,
 				FE60E69E19E56E1F00147EF9 /* css-2014-06-30.json in Resources */,
 				FEA0FC1E19D8669000A24409 /* 1.1产品种类.md.json in Resources */,
 				FEA0FBEC19D846A400A24409 /* 1.5.2.2ARWU2013排名.md.json in Resources */,
 				AD40115219EB7A610088194C /* 2雅思.md.json in Resources */,
 				FEE1601D19D925030022883E /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
+				AD4A212D19FE331600098B2F /* 3.10.0法学院排名.md.json in Resources */,
 				FEA0FC2419D8669000A24409 /* 1.5.2一定要社会保险卡吗.md.json in Resources */,
 				FEA0FBEE19D846A400A24409 /* 1.6其他排名.md.json in Resources */,
 				AD47693A19F7E9C700811C7E /* 1.5.2范文3.md.json in Resources */,
 				ADF246AF19F4FF1C005BA7E5 /* 1.10Grades.jpg in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
+				AD4A212B19FE331600098B2F /* 3.9.0卫生学院排名.md.json in Resources */,
 				FEA0FC0819D846A400A24409 /* 3.11.0医学院排名.md.json in Resources */,
 				FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */,
 				AD47693B19F7E9C700811C7E /* 2.3个人陈述.jpeg in Resources */,
@@ -2400,12 +2480,14 @@
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
 				FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */,
 				AD0E75EC19F37695006F433C /* 3.1AY_Login.jpg in Resources */,
+				AD4A211D19FE331600098B2F /* 3.2.0工程院排名.md.json in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				ADF246B319F4FF1C005BA7E5 /* 4.1Login.jpg in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
 				FE60E6A519E56E1F00147EF9 /* monitoring-2010-08-01.json in Resources */,
+				AD4A212019FE331600098B2F /* 3.3商学院排名.md.json in Resources */,
 				ADF246A919F4FF1C005BA7E5 /* 1.4Demographics.jpg in Resources */,
 				ADCB6BFF19FA84F600E8DD20 /* 1美国.md.json in Resources */,
 				AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */,
@@ -2413,6 +2495,7 @@
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
 				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
+				AD4A212E19FE331600098B2F /* 3.10医学院排名.md.json in Resources */,
 				AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
 				AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */,
@@ -2463,8 +2546,10 @@
 				AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
 				ADCF1ECB19DD6068005E4FD4 /* 0美国国旗.jpg in Resources */,
+				AD4A212719FE331600098B2F /* 3.7.0图书咨询学排名.md.json in Resources */,
 				AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */,
 				FEE1602619D925030022883E /* 1.4.2.2QS2014排名.png in Resources */,
+				AD4A212319FE331600098B2F /* 3.5.0社会科学与人文排名.md.json in Resources */,
 				FEE1602319D925030022883E /* 1.3.2.2THE2012-2013.png in Resources */,
 				FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */,
 				FEB211DD19DA940C00647560 /* 1.1.1鲍林格.jpg in Resources */,
@@ -2481,6 +2566,7 @@
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
 				FEB211E819DA940C00647560 /* 2.6BostonU.jpg in Resources */,
 				FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */,
+				AD4A212619FE331600098B2F /* 3.6图书咨询学排名.md.json in Resources */,
 				AD0E75ED19F37695006F433C /* 3.20I-20.jpg in Resources */,
 				ADF246BC19F4FF1C005BA7E5 /* 4.10test.jpg in Resources */,
 				AD0E75F119F37695006F433C /* 3.24Passport.jpg in Resources */,
@@ -2498,6 +2584,7 @@
 				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
+				AD4A212219FE331600098B2F /* 3.4社会科学与人文排名.md.json in Resources */,
 				ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */,
@@ -2513,6 +2600,7 @@
 				ADF246BA19F4FF1C005BA7E5 /* 4.8Education.jpg in Resources */,
 				FEB4258D19FD531E00C0EE2F /* 2.1NatrualScience.md.json in Resources */,
 				FEB211DF19DA940C00647560 /* 1.1.2英美名校.jpg in Resources */,
+				AD4A212119FE331600098B2F /* 3.4.0商学院排名.md.json in Resources */,
 				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,

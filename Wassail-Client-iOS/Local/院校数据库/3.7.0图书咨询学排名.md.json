@@ -1,0 +1,107 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-information-science-rankings?int=9a6b08", 
+                                "title": "\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u9662\u6392\u540d Library & Information Studies Schools"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-information-science-rankings?int=9a6b08", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-preservation-rankings", 
+                                "title": "\u6863\u6848\u7ba1\u7406 Archives and Preservation"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-preservation-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/digital-librarianship-rankings", 
+                                "title": "\u6570\u5b57\u5316\u56fe\u4e66\u9986 Digital Librarianship"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/digital-librarianship-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/health-librarianship-rankings", 
+                                "title": "\u5065\u5eb7\u6863\u6848\u7ba1\u7406 Health Librarianship"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/health-librarianship-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/information-science-rankings", 
+                                "title": "\u4fe1\u606f\u7cfb\u7edf\u7ba1\u7406 Information Systems"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/information-science-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/law-librarianship-rankings", 
+                                "title": "\u6cd5\u5f8b\u56fe\u4e66\u9986\u7ba1\u7406 Law Librarianship"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/law-librarianship-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-media-rankings", 
+                                "title": "\u56fe\u4e66\u9986\u5a92\u4f53\u5b66 School Library Media"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/library-media-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/children-youth-service-rankings", 
+                                "title": "\u9752\u5c11\u5e74\u670d\u52a1 Services for Children and Youth"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-library-information-science-programs/children-youth-service-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u5b66\u7c7b\uff08Library & Information Science\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

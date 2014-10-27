@@ -1,0 +1,91 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/criminology-rankings", 
+                                "title": "\u72af\u7f6a\u5b66 Criminology"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/criminology-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/economics-rankings", 
+                                "title": "\u7ecf\u6d4e\u5b66 Economics"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/economics-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/english-rankings", 
+                                "title": "\u82f1\u8bed English"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/english-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/history-rankings", 
+                                "title": "\u5386\u53f2 History"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/history-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/psychology-rankings", 
+                                "title": "\u5fc3\u7406\u5b66 Psychology"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/psychology-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/political-science-rankings", 
+                                "title": "\u653f\u6cbb\u79d1\u5b66 Political Science"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/political-science-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/sociology-rankings", 
+                                "title": "\u793e\u4f1a\u5b66 Sociology"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/sociology-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u793e\u4f1a\u79d1\u5b66\u4e0e\u4eba\u6587\u7c7b\uff08Social Sciences\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

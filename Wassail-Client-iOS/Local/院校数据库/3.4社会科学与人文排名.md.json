@@ -1,0 +1,98 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.1\u72af\u7f6a\u5b66", 
+                                "title": "\u72af\u7f6a\u5b66"
+                            }, 
+                            "name": "3.4.1\u72af\u7f6a\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Criminology"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.2\u7ecf\u6d4e\u5b66", 
+                                "title": "\u7ecf\u6d4e\u5b66"
+                            }, 
+                            "name": "3.4.2\u7ecf\u6d4e\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Economics"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.3\u82f1\u8bed", 
+                                "title": "\u82f1\u8bed"
+                            }, 
+                            "name": "3.4.3\u82f1\u8bed", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "English"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.4\u5386\u53f2", 
+                                "title": "\u5386\u53f2"
+                            }, 
+                            "name": "3.4.4\u5386\u53f2", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "History"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.5\u5fc3\u7406\u5b66", 
+                                "title": "\u5fc3\u7406\u5b66"
+                            }, 
+                            "name": "3.4.5\u5fc3\u7406\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Psychology"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.6\u653f\u6cbb\u79d1\u5b66", 
+                                "title": "\u653f\u6cbb\u79d1\u5b66"
+                            }, 
+                            "name": "3.4.6\u653f\u6cbb\u79d1\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Political Science"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4.7\u793e\u4f1a\u5b66", 
+                                "title": "\u793e\u4f1a\u5b66"
+                            }, 
+                            "name": "3.4.7\u793e\u4f1a\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Sociology"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u793e\u4f1a\u79d1\u5b66\u4e0e\u4eba\u6587\u7c7b\uff08Social Sciences\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

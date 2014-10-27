@@ -1,0 +1,173 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/mba-rankings", 
+                                "title": "\u5546\u5b66\u9662\u6392\u540d Business Schools"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/mba-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/accounting-rankings", 
+                                "title": "\u4f1a\u8ba1 Accounting"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/accounting-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/entrepreneurship-rankings", 
+                                "title": "\u521b\u4e1a Entrepreneurship"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/entrepreneurship-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/executive-rankings", 
+                                "title": "\u884c\u653f\u5de5\u5546\u7ba1\u7406\u7855\u58eb Executive MBA"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/executive-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/finance-rankings", 
+                                "title": "\u91d1\u878d Finance"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/finance-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/information-systems-rankings", 
+                                "title": "\u4fe1\u606f\u7cfb\u7edf Information Systems"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/information-systems-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/international-business-rankings", 
+                                "title": "\u56fd\u9645\u5546\u52a1 International"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/international-business-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/management-rankings", 
+                                "title": "\u7ba1\u7406\u5b66 Management"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/management-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/marketing-rankings", 
+                                "title": "\u5e02\u573a\u8425\u9500 Marketing"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/marketing-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/nonprofit-rankings", 
+                                "title": "\u975e\u76c8\u5229\u516c\u5171\u7ba1\u7406 Nonprofit"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/nonprofit-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/part-time-rankings", 
+                                "title": "\u5728\u804c\u5de5\u5546\u7ba1\u7406\u7855\u58eb Part-time MBA"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/part-time-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/production-operations-rankings", 
+                                "title": "\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406 Production / Operations"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/production-operations-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/logistics-rankings", 
+                                "title": "\u7269\u6d41\u7ba1\u7406 Supply Chain / Logistics"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/logistics-rankings", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/finance-rankings?int=9a5808", 
+                                "title": "\u91d1\u878d\u5de5\u5546\u7ba1\u7406\u7855\u58eb Finance MBA"
+                            }, 
+                            "name": "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-business-schools/finance-rankings?int=9a5808", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u5546\u5b66\u7c7b\uff08Business\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}
