@@ -2036,9 +2036,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a1-fE-4cP">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="108"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NavigationBarLongBlueBackground" translatesAutoresizingMaskIntoConstraints="NO" id="sj8-Wx-JEa">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="108"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请管理器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJF-3f-8J1">
                                         <rect key="frame" x="257" y="32" width="85" height="20.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -2056,12 +2053,66 @@
                                             <action selector="doneButtonClicked" destination="7tV-HF-ljT" eventType="touchUpInside" id="nYx-g8-m21"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nHS-Ao-Q4K">
+                                        <rect key="frame" x="140" y="64" width="320" height="32"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学期" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSs-tu-D81">
+                                                <rect key="frame" x="10" y="9" width="24" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAk-hI-BbZ">
+                                                <rect key="frame" x="42" y="0.0" width="78" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="78" id="sYT-97-uH7"/>
+                                                    <constraint firstAttribute="height" constant="32" id="v5Z-V9-dOQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="2015 秋" backgroundImage="RoundBlueButtonBackground">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="专业" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRL-Ax-jGA">
+                                                <rect key="frame" x="134" y="9.5" width="24" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDQ-hb-vgv">
+                                                <rect key="frame" x="166" y="0.0" width="144" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="U3J-78-v8c"/>
+                                                    <constraint firstAttribute="height" constant="32" id="ebH-DQ-nTO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <state key="normal" title="Computer Science" backgroundImage="RoundBlueButtonBackground">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="rDQ-hb-vgv" firstAttribute="leading" secondItem="tRL-Ax-jGA" secondAttribute="trailing" constant="8" id="51t-uj-UsL"/>
+                                            <constraint firstAttribute="height" constant="32" id="5na-sv-09p"/>
+                                            <constraint firstAttribute="trailing" secondItem="rDQ-hb-vgv" secondAttribute="trailing" constant="10" id="90h-QO-xNK"/>
+                                            <constraint firstAttribute="centerY" secondItem="cSs-tu-D81" secondAttribute="centerY" id="Iw2-oA-uvi"/>
+                                            <constraint firstItem="dAk-hI-BbZ" firstAttribute="leading" secondItem="cSs-tu-D81" secondAttribute="trailing" constant="8" id="OZj-9d-F3e"/>
+                                            <constraint firstAttribute="centerY" secondItem="dAk-hI-BbZ" secondAttribute="centerY" id="YiK-AL-Wt5"/>
+                                            <constraint firstAttribute="centerY" secondItem="tRL-Ax-jGA" secondAttribute="centerY" id="aa6-o7-Gwu"/>
+                                            <constraint firstItem="cSs-tu-D81" firstAttribute="leading" secondItem="nHS-Ao-Q4K" secondAttribute="leading" constant="10" id="eRi-D8-svx"/>
+                                            <constraint firstAttribute="centerY" secondItem="rDQ-hb-vgv" secondAttribute="centerY" id="iEL-kV-Mkt"/>
+                                            <constraint firstAttribute="width" constant="320" id="y77-Wf-fbw"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ti7-wM-zdX" secondAttribute="trailing" constant="8" id="7Ef-Wv-euP"/>
                                     <constraint firstAttribute="height" constant="108" id="90K-6g-tgp"/>
+                                    <constraint firstAttribute="bottom" secondItem="nHS-Ao-Q4K" secondAttribute="bottom" constant="12" id="E4h-hr-ZCH"/>
                                     <constraint firstItem="AJF-3f-8J1" firstAttribute="top" secondItem="6a1-fE-4cP" secondAttribute="top" constant="32" id="EDt-iP-yRb"/>
+                                    <constraint firstAttribute="centerX" secondItem="nHS-Ao-Q4K" secondAttribute="centerX" id="GmS-Ap-bwQ"/>
                                     <constraint firstAttribute="centerX" secondItem="AJF-3f-8J1" secondAttribute="centerX" id="ZZ1-dd-Wy9"/>
                                     <constraint firstItem="AJF-3f-8J1" firstAttribute="centerY" secondItem="ti7-wM-zdX" secondAttribute="centerY" id="z43-Vq-E8C"/>
                                 </constraints>
@@ -2153,6 +2204,7 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="navigationView" destination="6a1-fE-4cP" id="d2R-H2-gXb"/>
                         <outlet property="searchDisplayController" destination="XZK-Ad-qYV" id="K8q-Xj-rTh"/>
                         <outlet property="tableView" destination="jrM-Pc-hhT" id="KRM-UN-cfR"/>
                     </connections>
@@ -3071,7 +3123,7 @@
         <image name="GreenCoverLeft" width="130" height="54"/>
         <image name="GreenCoverRight" width="138" height="54"/>
         <image name="LocationIndicator" width="12" height="12"/>
-        <image name="NavigationBarLongBlueBackground" width="320" height="108"/>
+        <image name="RoundBlueButtonBackground" width="78" height="32"/>
         <image name="SizeConverterNavigationBackground" width="320" height="128"/>
         <image name="SizeConverterSelectedBackground" width="53" height="64"/>
         <image name="TipsCalculatorBackground" width="320" height="568"/>
@@ -3085,14 +3137,14 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fYA-Od-fVe"/>
-        <segue reference="oiE-Kz-hDb"/>
-        <segue reference="kVD-07-a4B"/>
         <segue reference="sEN-DU-GIR"/>
         <segue reference="BK5-dh-8Fc"/>
         <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="JLd-eu-ikG"/>
+        <segue reference="kVD-07-a4B"/>
         <segue reference="bnk-2V-sOA"/>
+        <segue reference="oiE-Kz-hDb"/>
+        <segue reference="OdY-zS-v6S"/>
+        <segue reference="fYA-Od-fVe"/>
         <segue reference="vuL-hi-aIq"/>
     </inferredMetricsTieBreakers>
 </document>

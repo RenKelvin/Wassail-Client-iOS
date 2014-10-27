@@ -14,6 +14,8 @@ class ApplyAdderViewController: GAITrackedViewController {
     
     @IBOutlet var tableView: UITableView?
     
+    @IBOutlet var navigationView: UIView?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,6 +33,10 @@ class ApplyAdderViewController: GAITrackedViewController {
         // GAITrackedViewController name
         self.screenName = "Apply Adder Screen"
         
+        // Configure Navigation Bar and Status Bar
+        self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
+        navigationView!.backgroundColor! = UIColor.HLBlue(0)
+
     }
     
     // MARK: - IBAction
