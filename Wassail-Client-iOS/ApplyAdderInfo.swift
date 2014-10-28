@@ -20,12 +20,11 @@ class ApplyAdderInfo: NSObject {
     
     // MARK: -
     
+    func reloadData() {
+                data = ApplyAccessor.instance.getProgramInstancePreviewList()
+}
+
     func getAllPrograms() -> NSArray? {
-        
-        if (data == nil) {
-            data = ApplyAccessor.instance.getProgramInstancePreviewList()
-        }
-        
         return data
     }
     

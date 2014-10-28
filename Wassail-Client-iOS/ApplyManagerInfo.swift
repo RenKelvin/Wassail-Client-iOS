@@ -8,6 +8,21 @@
 
 import UIKit
 
+private let _ApplyManagerInfoSharedInstance = ApplyManagerInfo()
+
 class ApplyManagerInfo: NSObject {
-   
+    
+    var data: NSArray?
+    
+    class var instance : ApplyManagerInfo {
+        return _ApplyManagerInfoSharedInstance
+    }
+
+    func reloadData() {
+        data = ApplyAccessor.instance.getApplyList()
+    }
+    
+    func getAllApplies() -> NSArray? {
+        return data
+}
 }

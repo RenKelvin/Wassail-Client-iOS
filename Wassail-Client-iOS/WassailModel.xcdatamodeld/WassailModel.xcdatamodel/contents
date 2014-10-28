@@ -22,6 +22,10 @@
     <configuration name="Static">
         <memberEntity name="HLProgramInstancePreview"/>
     </configuration>
+    <configuration name="User">
+        <memberEntity name="HLApply"/>
+        <memberEntity name="HLProgramInstancePreview"/>
+    </configuration>
     <elements>
         <element name="HLApply" positionX="-63" positionY="-18" width="128" height="88"/>
         <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="165"/>

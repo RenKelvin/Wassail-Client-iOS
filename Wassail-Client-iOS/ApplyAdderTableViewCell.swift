@@ -33,9 +33,11 @@ class ApplyAdderTableViewCell: UITableViewCell {
     
     @IBAction func statusButtonClicked() {
         if (statusButton!.status == 0) {
-            let apply = ApplyAccessor.instance.createApply(self.item!) as HLApply?
+            
+            statusButton!.setStatus(1)
             
             // TODO: add apply
+            let apply = ApplyAccessor.instance.createApply(self.item!) as HLApply?
         }
     }
     

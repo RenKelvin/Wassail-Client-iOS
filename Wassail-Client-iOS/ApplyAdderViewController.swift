@@ -30,6 +30,9 @@ class ApplyAdderViewController: GAITrackedViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+        //
+               info.reloadData()
+
         // GAITrackedViewController name
         self.screenName = "Apply Adder Screen"
         

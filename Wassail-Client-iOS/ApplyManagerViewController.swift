@@ -10,13 +10,15 @@ import UIKit
 
 class ApplyManagerViewController: GAITrackedViewController {
     
+    let info: ApplyManagerInfo = ApplyManagerInfo.instance
+
     @IBOutlet var navigationView: UIView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-    }
+   }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,6 +28,9 @@ class ApplyManagerViewController: GAITrackedViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+//
+               info.reloadData()
+
         // GAITrackedViewController name
         self.screenName = "Apply Manager Screen"
         
@@ -43,7 +48,8 @@ class ApplyManagerViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 3
+        let array = info.getAllApplies()
+        return array!.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
