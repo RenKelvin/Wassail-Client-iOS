@@ -46,7 +46,7 @@ class ApplyManagerTableViewCell: UITableViewCell {
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        dateLabel!.text = preview!.deadlineDate.description
+        //dateLabel!.text = preview!.deadlineDate.description
         
         //        if (item.icon != nil) {
         //            let name = item.icon!.address
