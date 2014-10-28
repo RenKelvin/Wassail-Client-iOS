@@ -17,10 +17,9 @@ class HLUniversityPreviewWithRank: HLItemPreview {
     override init(json: NSDictionary) {
         super.init(json: json)
         
-        //
         sourceType = "University"
+        
         let j = JSON(json)
-        // Body
         let jsonBody = json.objectForKey("body") as NSDictionary
         chineseName = j["body"]["chineseName"].stringValue
         score = j["body"]["score"].doubleValue

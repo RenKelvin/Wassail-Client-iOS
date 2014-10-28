@@ -15,7 +15,7 @@ class ApplyAdderViewController: GAITrackedViewController {
     @IBOutlet var tableView: UITableView?
     
     @IBOutlet var navigationView: UIView?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,7 +36,7 @@ class ApplyAdderViewController: GAITrackedViewController {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
-
+        
     }
     
     // MARK: - IBAction
@@ -54,14 +54,19 @@ class ApplyAdderViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 3
+        let array = info.getAllPrograms()
+        return array!.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyAdderTableViewCell
         
         // Configure the cell
+        let array = info.getAllPrograms()
+        let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
+        
+        cell.configure(program)
         
         return cell
     }

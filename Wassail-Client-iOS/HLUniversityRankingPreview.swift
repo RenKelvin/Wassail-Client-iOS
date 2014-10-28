@@ -14,11 +14,6 @@ class HLUniversityRankingPreview: HLItemPreview {
         super.init(json: json)
         
         sourceType = "UniversityRanking"
-        
-        // Exchange title and note
-        var temp: NSString = title!
-        title = note!
-        note = temp
     }
     
 }

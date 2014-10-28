@@ -232,6 +232,8 @@
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
+		FE3BC4D619FF7B860038CF47 /* ApplyAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */; };
+		FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
 		FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */; };
 		FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */; };
@@ -755,6 +757,8 @@
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerInfo.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
+		FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAccessor.swift; sourceTree = "<group>"; };
+		FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderTableViewCell.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
 		FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccessor.swift; sourceTree = "<group>"; };
 		FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
@@ -1333,6 +1337,14 @@
 			name = Apply;
 			sourceTree = "<group>";
 		};
+		FE3BC4D719FF80800038CF47 /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */,
+			);
+			name = Apply;
+			sourceTree = "<group>";
+		};
 		FE4E2B0619C48FC00096AD86 /* Article */ = {
 			isa = PBXGroup;
 			children = (
@@ -1753,10 +1765,10 @@
 		FE76B7F119FD2B98001B4B39 /* HLItemPreview */ = {
 			isa = PBXGroup;
 			children = (
-				FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */,
-				FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */,
 				FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */,
 				FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */,
+				FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */,
+				FED69E4919FD39CE00D768DC /* HLFieldListPreview.swift */,
 				FEE25E7519FD456200BDE743 /* HLUniversityPreviewWithRank.swift */,
 				FED69E4B19FD39EE00D768DC /* HLUniversityRankingPreview.swift */,
 			);
@@ -1786,13 +1798,13 @@
 		FE8D81AD19C448B900CE6174 /* Item */ = {
 			isa = PBXGroup;
 			children = (
+				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
 				FE4E2B0719C48FC90096AD86 /* List */,
 				FE4E2B0619C48FC00096AD86 /* Article */,
+				FEE1600919D8FB5E0022883E /* HLItemView.swift */,
 				FEA0FB9E19D7FF8D00A24409 /* HLImageView */,
 				FEA0FB9B19D7F69A00A24409 /* HLLinkView */,
 				FEA0FB9619D7EEEC00A24409 /* HLToolPreviewView */,
-				FED3D17F19D687EF00418BFF /* HLTableViewCell.swift */,
-				FEE1600919D8FB5E0022883E /* HLItemView.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -2018,6 +2030,7 @@
 			children = (
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
+				FE3BC4D719FF80800038CF47 /* Apply */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
 				FE8D81AD19C448B900CE6174 /* Item */,
 				FECBB5FE19BDFDE200115694 /* RKUIKit */,
@@ -2051,6 +2064,7 @@
 			children = (
 				FEC3BD5419C298D100184760 /* DefaultAccessor.swift */,
 				FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */,
+				FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */,
 			);
 			name = Accessor;
 			sourceTree = "<group>";
@@ -2759,6 +2773,7 @@
 				FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */,
 				FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */,
 				FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */,
+				FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */,
 				FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */,
 				FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */,
 				FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */,
@@ -2814,6 +2829,7 @@
 				FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */,
 				FE72630119DFED10005739D0 /* Item.swift in Sources */,
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
+				FE3BC4D619FF7B860038CF47 /* ApplyAccessor.swift in Sources */,
 				FEE25E7819FD45C200BDE743 /* UniversityRankingTableViewCell.swift in Sources */,
 				FE5FB99A19C6B63A00F37192 /* RKSelectorView.swift in Sources */,
 				FE4E2AFF19C48F8E0096AD86 /* ArticleTableViewCell.swift in Sources */,
