@@ -39,6 +39,7 @@ class ApplyAdderTableViewCell: UITableViewCell {
             // Add apply
             let apply = ApplyAccessor.instance.createApply(self.item!) as HLApply?
             apply!.programInstanceId = self.item!.programInstanceId
+            apply!.status = NSNumber(int: 1)
         }
     }
     

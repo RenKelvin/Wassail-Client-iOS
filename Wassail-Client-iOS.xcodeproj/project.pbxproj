@@ -354,6 +354,17 @@
 		FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */; };
 		FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BA19C476E200CE6174 /* HLArticle.swift */; };
 		FE8D81BD19C47A0000CE6174 /* HLArticlePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */; };
+		FE9485F31A001FF7008E01D2 /* FieldIconBusiness.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */; };
+		FE9485F41A001FF7008E01D2 /* FieldIconEducation.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485E91A001FF7008E01D2 /* FieldIconEducation.png */; };
+		FE9485F51A001FF7008E01D2 /* FieldIconEngineering.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485EA1A001FF7008E01D2 /* FieldIconEngineering.png */; };
+		FE9485F61A001FF7008E01D2 /* FieldIconFineArts.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485EB1A001FF7008E01D2 /* FieldIconFineArts.png */; };
+		FE9485F71A001FF7008E01D2 /* FieldIconHealth.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485EC1A001FF7008E01D2 /* FieldIconHealth.png */; };
+		FE9485F81A001FF7008E01D2 /* FieldIconInformationScience.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485ED1A001FF7008E01D2 /* FieldIconInformationScience.png */; };
+		FE9485F91A001FF7008E01D2 /* FieldIconLaw.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485EE1A001FF7008E01D2 /* FieldIconLaw.png */; };
+		FE9485FA1A001FF7008E01D2 /* FieldIconMedical.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485EF1A001FF7008E01D2 /* FieldIconMedical.png */; };
+		FE9485FB1A001FF7008E01D2 /* FieldIconPublicAffairs.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485F01A001FF7008E01D2 /* FieldIconPublicAffairs.png */; };
+		FE9485FC1A001FF7008E01D2 /* FieldIconScience.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485F11A001FF7008E01D2 /* FieldIconScience.png */; };
+		FE9485FD1A001FF7008E01D2 /* FieldIconSocialScience.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9485F21A001FF7008E01D2 /* FieldIconSocialScience.png */; };
 		FE98698519C7DEC500083FEE /* SizeConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */; };
 		FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98698619C7F26900083FEE /* UnitConverterInfo.swift */; };
 		FE98CA8419FE853700D71578 /* StaticDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98CA8319FE853700D71578 /* StaticDataManager.swift */; };
@@ -910,6 +921,17 @@
 		FE8D81B619C44B3300CE6174 /* ListTableView44Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView44Cell.swift; sourceTree = "<group>"; };
 		FE8D81BA19C476E200CE6174 /* HLArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticle.swift; sourceTree = "<group>"; };
 		FE8D81BC19C47A0000CE6174 /* HLArticlePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLArticlePreview.swift; sourceTree = "<group>"; };
+		FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconBusiness.png; sourceTree = "<group>"; };
+		FE9485E91A001FF7008E01D2 /* FieldIconEducation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconEducation.png; sourceTree = "<group>"; };
+		FE9485EA1A001FF7008E01D2 /* FieldIconEngineering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconEngineering.png; sourceTree = "<group>"; };
+		FE9485EB1A001FF7008E01D2 /* FieldIconFineArts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconFineArts.png; sourceTree = "<group>"; };
+		FE9485EC1A001FF7008E01D2 /* FieldIconHealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconHealth.png; sourceTree = "<group>"; };
+		FE9485ED1A001FF7008E01D2 /* FieldIconInformationScience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconInformationScience.png; sourceTree = "<group>"; };
+		FE9485EE1A001FF7008E01D2 /* FieldIconLaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconLaw.png; sourceTree = "<group>"; };
+		FE9485EF1A001FF7008E01D2 /* FieldIconMedical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconMedical.png; sourceTree = "<group>"; };
+		FE9485F01A001FF7008E01D2 /* FieldIconPublicAffairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconPublicAffairs.png; sourceTree = "<group>"; };
+		FE9485F11A001FF7008E01D2 /* FieldIconScience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconScience.png; sourceTree = "<group>"; };
+		FE9485F21A001FF7008E01D2 /* FieldIconSocialScience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldIconSocialScience.png; sourceTree = "<group>"; };
 		FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverterInfo.swift; sourceTree = "<group>"; };
 		FE98698619C7F26900083FEE /* UnitConverterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterInfo.swift; sourceTree = "<group>"; };
 		FE98CA8319FE853700D71578 /* StaticDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticDataManager.swift; sourceTree = "<group>"; };
@@ -1792,6 +1814,17 @@
 				AD4A211919FE331600098B2F /* 3.10医学院排名.md.json */,
 				AD4A211B19FE331600098B2F /* 3.11美术学院排名.md.json */,
 				FEB4258819FD50E300C0EE2F /* cu-logo.png */,
+				FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */,
+				FE9485E91A001FF7008E01D2 /* FieldIconEducation.png */,
+				FE9485EA1A001FF7008E01D2 /* FieldIconEngineering.png */,
+				FE9485EB1A001FF7008E01D2 /* FieldIconFineArts.png */,
+				FE9485EC1A001FF7008E01D2 /* FieldIconHealth.png */,
+				FE9485ED1A001FF7008E01D2 /* FieldIconInformationScience.png */,
+				FE9485EE1A001FF7008E01D2 /* FieldIconLaw.png */,
+				FE9485EF1A001FF7008E01D2 /* FieldIconMedical.png */,
+				FE9485F01A001FF7008E01D2 /* FieldIconPublicAffairs.png */,
+				FE9485F11A001FF7008E01D2 /* FieldIconScience.png */,
+				FE9485F21A001FF7008E01D2 /* FieldIconSocialScience.png */,
 				FEB4258919FD50E300C0EE2F /* su-logo.png */,
 			);
 			path = "院校数据库";
@@ -2300,6 +2333,7 @@
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
 				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
+				FE9485F31A001FF7008E01D2 /* FieldIconBusiness.png in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				AD34572E19FFE223004382CE /* 5.1学费.md.json in Resources */,
@@ -2353,6 +2387,8 @@
 				AD4A212819FE331600098B2F /* 3.7教育学院排名.md.json in Resources */,
 				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				ADCF1ECD19DD6068005E4FD4 /* 1.3.2.0THE2014-2015.md.json in Resources */,
+				FE9485F61A001FF7008E01D2 /* FieldIconFineArts.png in Resources */,
+				FE9485FB1A001FF7008E01D2 /* FieldIconPublicAffairs.png in Resources */,
 				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
 				AD8D823919FF9CF900C9FAF3 /* 1.1Tuition.jpg in Resources */,
 				AD0E75E519F37695006F433C /* 3.13languages.jpg in Resources */,
@@ -2367,11 +2403,13 @@
 				ADA774AD19FE7E9F00F65AA7 /* 2.1Tuition2.jpeg in Resources */,
 				AD34573319FFE223004382CE /* 5.4Partimejob2.jpeg in Resources */,
 				ADF246AE19F4FF1C005BA7E5 /* 1.9thirdparty.jpg in Resources */,
+				FE9485FD1A001FF7008E01D2 /* FieldIconSocialScience.png in Resources */,
 				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
 				FEB211EB19DA940C00647560 /* 2.10Fiske.jpeg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */,
+				FE9485FC1A001FF7008E01D2 /* FieldIconScience.png in Resources */,
 				ADF246AD19F4FF1C005BA7E5 /* 1.8otherschool.jpg in Resources */,
 				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
 				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
@@ -2382,6 +2420,7 @@
 				AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */,
 				FEA0FBD819D846A400A24409 /* 1.0世界大学排名.md.json in Resources */,
 				FEA0FBF919D846A400A24409 /* 2.7USNews其他排名.md.json in Resources */,
+				FE9485F51A001FF7008E01D2 /* FieldIconEngineering.png in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FEE1602119D925030022883E /* 1.3.1THE评价标准.png in Resources */,
 				FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */,
@@ -2517,6 +2556,7 @@
 				AD0E75EC19F37695006F433C /* 3.1AY_Login.jpg in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				ADF246B319F4FF1C005BA7E5 /* 4.1Login.jpg in Resources */,
+				FE9485F81A001FF7008E01D2 /* FieldIconInformationScience.png in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				FEE1602E19D925030022883E /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
@@ -2578,6 +2618,7 @@
 				FEA0FBDD19D846A400A24409 /* 1.1.4权威解读泰晤士报大学排名.md.json in Resources */,
 				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
+				FE9485F71A001FF7008E01D2 /* FieldIconHealth.png in Resources */,
 				FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				FEA0FBF419D846A400A24409 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
@@ -2641,6 +2682,7 @@
 				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
+				FE9485FA1A001FF7008E01D2 /* FieldIconMedical.png in Resources */,
 				AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */,
 				FEA0FBE019D846A400A24409 /* 1.3.1THE评价标准.md.json in Resources */,
 				FEA0FBD719D846A400A24409 /* 0大学排名.md.json in Resources */,
@@ -2662,12 +2704,14 @@
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				ADA774B619FE7E9F00F65AA7 /* 4日本.md.json in Resources */,
 				AD34573419FFE223004382CE /* 5.4打工.md.json in Resources */,
+				FE9485F41A001FF7008E01D2 /* FieldIconEducation.png in Resources */,
 				ADA774AC19FE7E9F00F65AA7 /* 2.1College.jpeg in Resources */,
 				ADF246B619F4FF1C005BA7E5 /* 4.4otherinfo.jpg in Resources */,
 				AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */,
 				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
+				FE9485F91A001FF7008E01D2 /* FieldIconLaw.png in Resources */,
 				ADA774B419FE7E9F00F65AA7 /* 2澳大利亚.md.json in Resources */,
 				ADCB6C0519FA8BE800E8DD20 /* 1.1Tuition1.jpeg in Resources */,
 				AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */,
