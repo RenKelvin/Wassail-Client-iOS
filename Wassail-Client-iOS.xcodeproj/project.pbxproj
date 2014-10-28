@@ -50,6 +50,19 @@
 		AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */; };
 		AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B219E0448300796A5D /* 1.5范文.md.json */; };
 		AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD3249B319E0448300796A5D /* 3.1Resume1.jpg */; };
+		AD34572919FFE223004382CE /* 3.2Livingexpenses3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD34571C19FFE223004382CE /* 3.2Livingexpenses3.jpg */; };
+		AD34572A19FFE223004382CE /* 3.4Parttimejob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD34571D19FFE223004382CE /* 3.4Parttimejob.jpg */; };
+		AD34572B19FFE223004382CE /* 5.1CanadianCollege.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD34571E19FFE223004382CE /* 5.1CanadianCollege.jpg */; };
+		AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD34571F19FFE223004382CE /* 5.1CanadianHighSchool.jpg */; };
+		AD34572D19FFE223004382CE /* 5.1Colleges.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD34572019FFE223004382CE /* 5.1Colleges.jpeg */; };
+		AD34572E19FFE223004382CE /* 5.1学费.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD34572119FFE223004382CE /* 5.1学费.md.json */; };
+		AD34572F19FFE223004382CE /* 5.2living expenses3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD34572219FFE223004382CE /* 5.2living expenses3.jpeg */; };
+		AD34573019FFE223004382CE /* 5.2生活费.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD34572319FFE223004382CE /* 5.2生活费.md.json */; };
+		AD34573119FFE223004382CE /* 5.3Scholarship1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD34572419FFE223004382CE /* 5.3Scholarship1.jpeg */; };
+		AD34573219FFE223004382CE /* 5.3奖学金.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD34572519FFE223004382CE /* 5.3奖学金.md.json */; };
+		AD34573319FFE223004382CE /* 5.4Partimejob2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AD34572619FFE223004382CE /* 5.4Partimejob2.jpeg */; };
+		AD34573419FFE223004382CE /* 5.4打工.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD34572719FFE223004382CE /* 5.4打工.md.json */; };
+		AD34573519FFE223004382CE /* 6资金证明.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD34572819FFE223004382CE /* 6资金证明.md.json */; };
 		AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112919EB7A610088194C /* 0出国考试.md.json */; };
 		AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */ = {isa = PBXBuildFile; fileRef = AD40112A19EB7A610088194C /* 10GRE Subject.md.json */; };
 		AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */; };
@@ -576,6 +589,19 @@
 		AD3249B019E040FA00796A5D /* 0Portfolio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Portfolio2.jpg; sourceTree = "<group>"; };
 		AD3249B219E0448300796A5D /* 1.5范文.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.5范文.md.json"; sourceTree = "<group>"; };
 		AD3249B319E0448300796A5D /* 3.1Resume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1Resume1.jpg; sourceTree = "<group>"; };
+		AD34571C19FFE223004382CE /* 3.2Livingexpenses3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.2Livingexpenses3.jpg; sourceTree = "<group>"; };
+		AD34571D19FFE223004382CE /* 3.4Parttimejob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.4Parttimejob.jpg; sourceTree = "<group>"; };
+		AD34571E19FFE223004382CE /* 5.1CanadianCollege.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.1CanadianCollege.jpg; sourceTree = "<group>"; };
+		AD34571F19FFE223004382CE /* 5.1CanadianHighSchool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.1CanadianHighSchool.jpg; sourceTree = "<group>"; };
+		AD34572019FFE223004382CE /* 5.1Colleges.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.1Colleges.jpeg; sourceTree = "<group>"; };
+		AD34572119FFE223004382CE /* 5.1学费.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5.1学费.md.json"; sourceTree = "<group>"; };
+		AD34572219FFE223004382CE /* 5.2living expenses3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.2living expenses3.jpeg"; sourceTree = "<group>"; };
+		AD34572319FFE223004382CE /* 5.2生活费.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5.2生活费.md.json"; sourceTree = "<group>"; };
+		AD34572419FFE223004382CE /* 5.3Scholarship1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.3Scholarship1.jpeg; sourceTree = "<group>"; };
+		AD34572519FFE223004382CE /* 5.3奖学金.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5.3奖学金.md.json"; sourceTree = "<group>"; };
+		AD34572619FFE223004382CE /* 5.4Partimejob2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.4Partimejob2.jpeg; sourceTree = "<group>"; };
+		AD34572719FFE223004382CE /* 5.4打工.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5.4打工.md.json"; sourceTree = "<group>"; };
+		AD34572819FFE223004382CE /* 6资金证明.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6资金证明.md.json"; sourceTree = "<group>"; };
 		AD40112919EB7A610088194C /* 0出国考试.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0出国考试.md.json"; sourceTree = "<group>"; };
 		AD40112A19EB7A610088194C /* 10GRE Subject.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10GRE Subject.md.json"; sourceTree = "<group>"; };
 		AD40112B19EB7A610088194C /* 1全真模考题与精解.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1全真模考题与精解.jpg"; sourceTree = "<group>"; };
@@ -1226,6 +1252,19 @@
 		ADD68A8619FA4C1100B88199 /* 留学费用 */ = {
 			isa = PBXGroup;
 			children = (
+				AD34571C19FFE223004382CE /* 3.2Livingexpenses3.jpg */,
+				AD34571D19FFE223004382CE /* 3.4Parttimejob.jpg */,
+				AD34571E19FFE223004382CE /* 5.1CanadianCollege.jpg */,
+				AD34571F19FFE223004382CE /* 5.1CanadianHighSchool.jpg */,
+				AD34572019FFE223004382CE /* 5.1Colleges.jpeg */,
+				AD34572119FFE223004382CE /* 5.1学费.md.json */,
+				AD34572219FFE223004382CE /* 5.2living expenses3.jpeg */,
+				AD34572319FFE223004382CE /* 5.2生活费.md.json */,
+				AD34572419FFE223004382CE /* 5.3Scholarship1.jpeg */,
+				AD34572519FFE223004382CE /* 5.3奖学金.md.json */,
+				AD34572619FFE223004382CE /* 5.4Partimejob2.jpeg */,
+				AD34572719FFE223004382CE /* 5.4打工.md.json */,
+				AD34572819FFE223004382CE /* 6资金证明.md.json */,
 				AD8D823219FF9CF900C9FAF3 /* 1.1Tuition.jpg */,
 				AD8D823319FF9CF900C9FAF3 /* 3.1Britishcollege.jpg */,
 				AD8D823419FF9CF900C9FAF3 /* 3.1Tuition1.jpeg */,
@@ -2304,6 +2343,7 @@
 				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
 				FEE1602819D925030022883E /* 1.5.2.1ARWU2014排名.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
+				AD34572E19FFE223004382CE /* 5.1学费.md.json in Resources */,
 				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
 				AD4A212419FE331600098B2F /* 3.5公共事务学院排名.md.json in Resources */,
 				ADA774B319FE7E9F00F65AA7 /* 2.4打工.md.json in Resources */,
@@ -2366,6 +2406,7 @@
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
 				ADA774AD19FE7E9F00F65AA7 /* 2.1Tuition2.jpeg in Resources */,
+				AD34573319FFE223004382CE /* 5.4Partimejob2.jpeg in Resources */,
 				ADF246AE19F4FF1C005BA7E5 /* 1.9thirdparty.jpg in Resources */,
 				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEE1602D19D925030022883E /* 2.5LiberalArtsCollege.png in Resources */,
@@ -2418,6 +2459,7 @@
 				AD548A3219F803B50088E19C /* 0ApplyWeb.png in Resources */,
 				FEA0FBEB19D846A400A24409 /* 1.5.2.1ARWU2014排名.md.json in Resources */,
 				ADF246C119F4FF1C005BA7E5 /* 5.1login.jpg in Resources */,
+				AD34572919FFE223004382CE /* 3.2Livingexpenses3.jpg in Resources */,
 				FEA0FBF219D846A400A24409 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
 				AD0E75F819F37695006F433C /* 3.7contact.jpg in Resources */,
@@ -2449,8 +2491,10 @@
 				AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */,
 				ADBF2CDE19DF9EDF0029A327 /* 1.0泰晤士高等教育.jpg in Resources */,
 				ADD68A8E19FA4C1100B88199 /* 1美国留学费用.md.json in Resources */,
+				AD34572F19FFE223004382CE /* 5.2living expenses3.jpeg in Resources */,
 				FEA0FBE119D846A400A24409 /* 1.3.2.1THE2013-2014.md.json in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
+				AD34573119FFE223004382CE /* 5.3Scholarship1.jpeg in Resources */,
 				ADCB6C0819FA8BE800E8DD20 /* 1.3Scholarship2.jpg in Resources */,
 				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
 				AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */,
@@ -2475,6 +2519,7 @@
 				ADA774AF19FE7E9F00F65AA7 /* 2.2Livingexpenses2.jpeg in Resources */,
 				FE7262EB19DFEA11005739D0 /* 1.1选择推荐人.md.json in Resources */,
 				ADC907EB19DD025300DFC311 /* 1.5.6RoadtoGoodCredit.jpg in Resources */,
+				AD34572D19FFE223004382CE /* 5.1Colleges.jpeg in Resources */,
 				AD1EBB2819E0733E00515F5B /* 2.1格式要求.md.json in Resources */,
 				FECBB60219BDFE4100115694 /* RKTableHeaderView.xib in Resources */,
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
@@ -2530,6 +2575,7 @@
 				AD4A212E19FE331600098B2F /* 3.10医学院排名.md.json in Resources */,
 				AD40115119EB7A610088194C /* 2剑桥雅思考试全真试题解析.jpeg in Resources */,
 				FEE1603F19D928A20022883E /* 2.12更多榜单.md.json in Resources */,
+				AD34573219FFE223004382CE /* 5.3奖学金.md.json in Resources */,
 				AD40114C19EB7A610088194C /* 1全真模考题与精解.jpg in Resources */,
 				ADCF1ECC19DD6068005E4FD4 /* 1.0.0如何看待排名.md.json in Resources */,
 				AD40115819EB7A610088194C /* 4ACT.md.json in Resources */,
@@ -2547,6 +2593,7 @@
 				FEA0FBEA19D846A400A24409 /* 1.5.1ARWU评价标准.md.json in Resources */,
 				AD0E75E619F37695006F433C /* 3.14testGRE.jpg in Resources */,
 				AD1EBB3119E0733E00515F5B /* 2.6素材.jpg in Resources */,
+				AD34573519FFE223004382CE /* 6资金证明.md.json in Resources */,
 				FE7262E919DFEA11005739D0 /* 1.0推荐信.md.json in Resources */,
 				AD8D823F19FF9CF900C9FAF3 /* 3.4打工.md.json in Resources */,
 				FEA0FBFC19D846A400A24409 /* 2.10菲斯克大学入学指南.md.json in Resources */,
@@ -2615,6 +2662,7 @@
 				AD548A3A19F803FC0088E19C /* 2.5.1范文.md.json in Resources */,
 				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				FEE1602A19D925030022883E /* 2.2.2如何赢得“US News排名”这个游戏 照片.png in Resources */,
+				AD34572B19FFE223004382CE /* 5.1CanadianCollege.jpg in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
 				AD4A212219FE331600098B2F /* 3.4社会科学与人文排名.md.json in Resources */,
 				ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */,
@@ -2654,6 +2702,7 @@
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
 				FEA0FC2919D8669000A24409 /* 1.5.7第一张信用卡如何选择.md.json in Resources */,
 				ADA774B619FE7E9F00F65AA7 /* 4日本.md.json in Resources */,
+				AD34573419FFE223004382CE /* 5.4打工.md.json in Resources */,
 				ADA774AC19FE7E9F00F65AA7 /* 2.1College.jpeg in Resources */,
 				ADF246B619F4FF1C005BA7E5 /* 4.4otherinfo.jpg in Resources */,
 				AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */,
@@ -2668,7 +2717,9 @@
 				ADBF2CDB19DF9EDF0029A327 /* 0剑桥2.jpg in Resources */,
 				AD8D823A19FF9CF900C9FAF3 /* 3.1Britishcollege.jpg in Resources */,
 				FEA0FBE619D846A400A24409 /* 1.4.2.1QS2015排名.md.json in Resources */,
+				AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */,
 				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
+				AD34572A19FFE223004382CE /* 3.4Parttimejob.jpg in Resources */,
 				FEE1602919D925030022883E /* 1.5.2.2ARWU2013排名.png in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
 				AD548A3D19F803FC0088E19C /* 2.7.2小论文范文.md.json in Resources */,
@@ -2677,6 +2728,7 @@
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
 				ADF246B919F4FF1C005BA7E5 /* 4.7academicinfo2.jpg in Resources */,
 				FEA0FBF019D846A400A24409 /* 2.1美国大学类型简介.md.json in Resources */,
+				AD34573019FFE223004382CE /* 5.2生活费.md.json in Resources */,
 				FEE1602719D925030022883E /* 1.5.1ARWU评价标准.png in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
 				FEA0FBF519D846A400A24409 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
