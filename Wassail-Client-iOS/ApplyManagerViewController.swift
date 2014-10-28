@@ -53,10 +53,14 @@ class ApplyManagerViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyManagerTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyManagerTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyManagerTableViewCell
         
         // Configure the cell
+                let array = info.getAllApplies()
+        let apply = array!.objectAtIndex(indexPath.row) as HLApply
         
+        cell.configure(apply)
+
         return cell
     }
     

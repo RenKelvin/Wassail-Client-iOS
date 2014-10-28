@@ -1851,7 +1851,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ApplyManagerTableViewCellReuseIdentifier" id="Ru4-cx-8q5">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ApplyManagerTableViewCellReuseIdentifier" id="Ru4-cx-8q5" customClass="ApplyManagerTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ru4-cx-8q5" id="cDC-qE-mlq">
@@ -1865,50 +1865,62 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSQ-a9-BQZ">
-                                                    <rect key="frame" x="82" y="12" width="399" height="19.5"/>
+                                                    <rect key="frame" x="82" y="12" width="414" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggB-vV-uQJ">
-                                                    <rect key="frame" x="82" y="39.5" width="399" height="14.5"/>
+                                                    <rect key="frame" x="82" y="39" width="414" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在申请" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPy-5M-zQd">
-                                                    <rect key="frame" x="496" y="36" width="56" height="17"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="17" id="2HG-LG-fKw"/>
-                                                        <constraint firstAttribute="width" constant="56" id="tsi-9H-c2k"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                    <color key="textColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0H7-4i-2Gc">
-                                                    <rect key="frame" x="82" y="60" width="399" height="14.5"/>
+                                                    <rect key="frame" x="82" y="60" width="414" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="1" green="0.25098039220000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBp-67-RJi" customClass="RKApplyButton" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                                                    <rect key="frame" x="511" y="23" width="56" height="42"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="56" id="DoA-iy-W1J"/>
+                                                        <constraint firstAttribute="height" constant="42" id="ieb-0H-Qz8"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                    <state key="normal" title="开始申请">
+                                                        <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="statusButtonClicked" destination="Ru4-cx-8q5" eventType="touchUpInside" id="agy-GX-lTN"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="WBp-67-RJi" firstAttribute="leading" secondItem="0H7-4i-2Gc" secondAttribute="trailing" constant="15" id="4jW-7N-af4"/>
                                                 <constraint firstItem="0H7-4i-2Gc" firstAttribute="top" secondItem="ggB-vV-uQJ" secondAttribute="bottom" constant="6" id="5MY-hp-idg"/>
-                                                <constraint firstItem="CPy-5M-zQd" firstAttribute="leading" secondItem="ggB-vV-uQJ" secondAttribute="trailing" constant="15" id="6OZ-6B-Ipo"/>
                                                 <constraint firstItem="ggB-vV-uQJ" firstAttribute="top" secondItem="tSQ-a9-BQZ" secondAttribute="bottom" constant="8" id="9bL-wm-0dm"/>
                                                 <constraint firstItem="ggB-vV-uQJ" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="8" id="KHi-XN-ER1"/>
-                                                <constraint firstAttribute="trailing" secondItem="CPy-5M-zQd" secondAttribute="trailing" constant="15" id="QRA-6w-ZbN"/>
-                                                <constraint firstAttribute="centerY" secondItem="CPy-5M-zQd" secondAttribute="centerY" id="TtK-qO-XgK"/>
+                                                <constraint firstItem="WBp-67-RJi" firstAttribute="leading" secondItem="ggB-vV-uQJ" secondAttribute="trailing" constant="15" id="NGw-on-aLW"/>
                                                 <constraint firstItem="k8y-M0-W4v" firstAttribute="leading" secondItem="cDC-qE-mlq" secondAttribute="leading" constant="10" id="UeW-GL-7Xo"/>
                                                 <constraint firstItem="tSQ-a9-BQZ" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="8" id="V3e-sI-r7k"/>
                                                 <constraint firstItem="0H7-4i-2Gc" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="8" id="i9a-ad-JgE"/>
                                                 <constraint firstItem="tSQ-a9-BQZ" firstAttribute="top" secondItem="cDC-qE-mlq" secondAttribute="top" constant="12" id="ioz-TG-HhS"/>
-                                                <constraint firstItem="CPy-5M-zQd" firstAttribute="leading" secondItem="tSQ-a9-BQZ" secondAttribute="trailing" constant="15" id="tQr-M9-59n"/>
-                                                <constraint firstItem="CPy-5M-zQd" firstAttribute="leading" secondItem="0H7-4i-2Gc" secondAttribute="trailing" constant="15" id="v9q-5M-fcw"/>
+                                                <constraint firstAttribute="trailing" secondItem="WBp-67-RJi" secondAttribute="trailing" id="w0E-QB-Bqb"/>
+                                                <constraint firstItem="WBp-67-RJi" firstAttribute="leading" secondItem="tSQ-a9-BQZ" secondAttribute="trailing" constant="15" id="xYF-X4-4m9"/>
+                                                <constraint firstAttribute="centerY" secondItem="WBp-67-RJi" secondAttribute="centerY" id="xdn-zk-gon"/>
                                                 <constraint firstAttribute="centerY" secondItem="k8y-M0-W4v" secondAttribute="centerY" id="zqg-JU-nq1"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="0H7-4i-2Gc" id="RHQ-R7-J53"/>
+                                            <outlet property="iconImageView" destination="k8y-M0-W4v" id="NRV-Ug-Cn8"/>
+                                            <outlet property="noteLabel" destination="ggB-vV-uQJ" id="epk-uh-TLD"/>
+                                            <outlet property="statusButton" destination="WBp-67-RJi" id="lP1-Cz-WUI"/>
+                                            <outlet property="titleLabel" destination="tSQ-a9-BQZ" id="Oc3-1l-5f2"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

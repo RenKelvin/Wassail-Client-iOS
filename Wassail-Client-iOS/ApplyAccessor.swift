@@ -23,9 +23,13 @@ class ApplyAccessor: NSObject {
     func getApplyList() -> NSArray? {
         return DatabaseMediator.instance.getApplyList()
     }
-
+    
     func createApply(item: HLProgramInstancePreview) -> HLApply? {
         return DatabaseMediator.instance.createApply(item)
+    }
+    
+    func getProgramInstancePreviewByProgramInstanceId(id: NSNumber) -> HLProgramInstancePreview? {
+        return DatabaseMediator.instance.getProgramInstancePreviewByProgramInstanceId(id)
     }
     
 }

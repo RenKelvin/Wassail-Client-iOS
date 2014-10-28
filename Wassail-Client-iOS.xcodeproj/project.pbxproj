@@ -246,6 +246,7 @@
 		FE0393CE19FCF33C00D0E755 /* WassailModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */; };
 		FE0393D019FCF42000D0E755 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0393CF19FCF42000D0E755 /* UserDataManager.swift */; };
 		FE0393D319FCFE2C00D0E755 /* ApplyAdderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0393D219FCFE2C00D0E755 /* ApplyAdderInfo.swift */; };
+		FE03FB5F19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03FB5E19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift */; };
 		FE0FBE5C19C928C400656E49 /* RKNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */; };
 		FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */; };
 		FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */; };
@@ -793,6 +794,7 @@
 		FE0393CD19FCF33C00D0E755 /* WassailModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WassailModel.xcdatamodel; sourceTree = "<group>"; };
 		FE0393CF19FCF42000D0E755 /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		FE0393D219FCFE2C00D0E755 /* ApplyAdderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderInfo.swift; sourceTree = "<group>"; };
+		FE03FB5E19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerTableViewCell.swift; sourceTree = "<group>"; };
 		FE0FBE5B19C928C400656E49 /* RKNumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersView.swift; sourceTree = "<group>"; };
 		FE0FBE5D19C928E500656E49 /* RKNumbersViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNumbersViewCell.swift; sourceTree = "<group>"; };
 		FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerViewController.swift; sourceTree = "<group>"; };
@@ -1404,6 +1406,7 @@
 		FE3BC4D719FF80800038CF47 /* Apply */ = {
 			isa = PBXGroup;
 			children = (
+				FE03FB5E19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift */,
 				FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */,
 			);
 			name = Apply;
@@ -2863,6 +2866,7 @@
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,
 				FE60E6B519E6303B00147EF9 /* CloudAdapter.swift in Sources */,
 				FE8D81B319C44B1B00CE6174 /* ListTableView64Cell.swift in Sources */,
+				FE03FB5F19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift in Sources */,
 				FE496C0519C47E8F0003A29A /* ArticleViewController.swift in Sources */,
 				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
 				FE0393D019FCF42000D0E755 /* UserDataManager.swift in Sources */,

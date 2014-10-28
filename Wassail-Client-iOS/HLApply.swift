@@ -13,6 +13,7 @@ import CoreData
 class HLApply: NSManagedObject {
 
     @NSManaged var status: NSNumber
+    @NSManaged var programInstanceId: NSNumber
     @NSManaged var preview: HLProgramInstancePreview
     @NSManaged var requirements: NSManagedObject
 
