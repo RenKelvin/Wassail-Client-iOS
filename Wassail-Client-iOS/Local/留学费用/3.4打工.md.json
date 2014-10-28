@@ -1,0 +1,39 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.4Parttimejob.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "3.4Parttimejob.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u4e00\u822c\u6765\u8bf4\uff0c\u83b7\u5f976\u4e2a\u6708\u4ee5\u4e0a\u5b66\u751f\u7b7e\u8bc1\u7684\u5b66\u751f\u90fd\u53ef\u4ee5\u6253\u5de5\uff0c\u5e73\u65f6\u6bcf\u5468\u6700\u591a20\u4e2a\u5c0f\u65f6\uff0c\u5728\u5047\u671f\u4e2d\u53ef\u4ee5\u5168\u804c\u5de5\u4f5c\uff0c\u65e0\u9700\u53e6\u884c\u7533\u8bf7\u8bb8\u53ef\u3002\u672c\u79d1\u4ee5\u4e0b\u5b66\u4f4d\u7684\u56fd\u9645\u751f\uff0c\u5982\u9ad8\u4e2d\u751f\uff0c\u6bcf\u5468\u6700\u591a\u5de5\u4f5c10\u5c0f\u65f6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bf9\u4e8e\u67d0\u4e9b\u5b66\u751f\u6765\u8bf4\uff0c\u5728\u82f1\u56fd\u671f\u95f4\u662f\u6839\u672c\u4e0d\u5141\u8bb8\u6253\u5de5\u7684\uff0c\u56e0\u4e3a\u4ed6\u4eec\u7684\u62a4\u7167\u4e0a\u5c06\u88ab\u76d6\u4e0a\u6709\u201c\u7981\u6b62\u6253\u5de5\u201d\u5b57\u6837\u7684\u6233\u5370\uff0c\u800c\u4ed6\u4eec\u4e00\u822c\u90fd\u662f\u53c2\u52a0\u4e3a\u671f6\u4e2a\u6708\u6216\u66f4\u77ed\u65f6\u95f4\u7684\u8bfe\u7a0b\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5728\u82f1\u56fd\u7559\u5b66\u6253\u5de5\u5e74\u85aa\u8d85\u8fc71\u4e07\u82f1\u9551\u662f\u9700\u8981\u4ea4\u7a0e\u7684\u3002\u5982\u679c\u53ea\u6709\u5047\u671f\u6253\u5de5\uff0c\u53ef\u4ee5\u5411\u96c7\u4e3b\u7533\u8bf7\u586b\u5199P38(S)\u8868\u683c\u6765\u514d\u7a0e\u3002\u7559\u5b66\u751f\u5728\u627e\u5230\u517c\u804c\u5de5\u4f5c\u540e\uff0c\u9700\u8981\u53ca\u65f6\u5411\u5f53\u5730\u7684\u798f\u5229\u673a\u6784\u7533\u8bf7\u82f1\u56fd\u56fd\u5bb6\u793e\u4f1a\u4fdd\u9669\u53f7\uff0c\u7528\u4e8e\u7edf\u8ba1\u6253\u5de5\u8005\u7684\u6536\u5165\u603b\u989d\uff0c\u4ee5\u4f5c\u4e3a\u7eb3\u7a0e\u7684\u4f9d\u636e\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u82f1\u56fd\u6253\u5de5"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

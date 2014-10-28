@@ -238,7 +238,11 @@
             {
                 "items": [
                     {
-                        "content": "\u4e00\u822c\u4e13\u4e1a: \u6bcf\u5e74\u7ea62.5-4\u4e07\u6fb3\u5143\uff0c13.5-21.5\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "content": "\u4e00\u822c\u4e13\u4e1a", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea62.5-4\u4e07\u6fb3\u5143\uff0c13.5-21.5\u4e07\u4eba\u6c11\u5e01\u3002", 
                         "kind": "Graph"
                     }, 
                     {
@@ -266,7 +270,11 @@
                         "kind": "Graph"
                     }, 
                     {
-                        "content": "\u533b\u5b66: \u6bcf\u5e74\u7ea66-7\u4e07\u6fb3\u5143\uff0c32-38\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "content": "\u533b\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea66-7\u4e07\u6fb3\u5143\uff0c32-38\u4e07\u4eba\u6c11\u5e01\u3002", 
                         "kind": "Graph"
                     }, 
                     {

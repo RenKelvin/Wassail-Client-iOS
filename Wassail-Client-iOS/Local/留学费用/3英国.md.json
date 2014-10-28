@@ -6,10 +6,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.1\u5b66\u8d39", 
+                                "address": "3.1\u5b66\u8d39", 
                                 "title": "\u5b66\u8d39 (Tuition)"
                             }, 
-                            "name": "1.1\u5b66\u8d39", 
+                            "name": "3.1\u5b66\u8d39", 
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
@@ -17,10 +17,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.2\u751f\u6d3b\u8d39", 
+                                "address": "3.2\u751f\u6d3b\u8d39", 
                                 "title": "\u751f\u6d3b\u8d39 (Living Expenses)"
                             }, 
-                            "name": "1.2\u751f\u6d3b\u8d39", 
+                            "name": "3.2\u751f\u6d3b\u8d39", 
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
@@ -28,10 +28,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.3\u5956\u5b66\u91d1", 
+                                "address": "3.3\u5956\u5b66\u91d1", 
                                 "title": "\u5956\u5b66\u91d1 (Scholarships)"
                             }, 
-                            "name": "1.3\u5956\u5b66\u91d1", 
+                            "name": "3.3\u5956\u5b66\u91d1", 
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
@@ -39,10 +39,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "1.4\u6253\u5de5", 
+                                "address": "3.4\u6253\u5de5", 
                                 "title": "\u6253\u5de5 (Part-time Job)"
                             }, 
-                            "name": "1.4\u6253\u5de5", 
+                            "name": "3.4\u6253\u5de5", 
                             "type": "HLArticlePreview"
                         }, 
                         "kind": "Item"
