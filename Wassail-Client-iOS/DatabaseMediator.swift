@@ -17,7 +17,7 @@ class DatabaseMediator: NSObject {
     }
     
     // MARK: -
-
+    
     func generateProgramInstancePreviewList() {
         
         // Get json array
@@ -35,9 +35,14 @@ class DatabaseMediator: NSObject {
     }
     
     func getProgramInstancePreviewList() -> NSArray? {
-    
+        
         return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: nil)
         
+    }
+    
+    func createApply(item: HLProgramInstancePreview) -> HLApply? {
+        
+        return DatabaseAdapter.instance.create("HLApply", context: UserDataManager.instance.managedObjectContext!) as? HLApply
     }
     
 }

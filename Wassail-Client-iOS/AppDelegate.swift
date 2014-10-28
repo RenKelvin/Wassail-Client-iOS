@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // GAIAdapter.instance().initialize()
         
         //
-        // println(UserDataManager.instance.applicationDocumentsDirectory)
-        DatabaseMediator.instance.generateProgramInstancePreviewList()
-        let array = DatabaseMediator.instance.getProgramInstancePreviewList()
+        println(UserDataManager.instance.applicationDocumentsDirectory)
+         DatabaseMediator.instance.generateProgramInstancePreviewList()
+         let array = DatabaseMediator.instance.getProgramInstancePreviewList()
         
         return true
     }

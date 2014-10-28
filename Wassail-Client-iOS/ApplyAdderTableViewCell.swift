@@ -14,6 +14,10 @@ class ApplyAdderTableViewCell: UITableViewCell {
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     
+    @IBOutlet var statusButton: RKApplyButton?
+    
+    var item: HLProgramInstancePreview?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -25,7 +29,22 @@ class ApplyAdderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    // MARK: - IBAction
+    
+    @IBAction func statusButtonClicked() {
+        if (statusButton!.status == 0) {
+            let apply = ApplyAccessor.instance.createApply(self.item!) as HLApply?
+            
+            // TODO: add apply
+        }
+    }
+    
+    // MARK: -
+    
     func configure(item: HLProgramInstancePreview) {
+        
+        self.item = item
+        
         titleLabel?.text = item.universityName
         noteLabel?.text = item.programName
         
