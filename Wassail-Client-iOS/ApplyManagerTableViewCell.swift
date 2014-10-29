@@ -62,23 +62,17 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        //dateLabel!.text = preview!.deadlineDate.description
+        dateLabel!.text = preview!.deadlineDate.description
         
-        //        if (item.icon != nil) {
-        //            let name = item.icon!.address
-        //            if (name != nil) {
-        //                iconImageView?.image = DefaultInfo.instance.getImage(name!)
-        //            }
-        //        }
-        
-        //
+        iconImageView!.sd_setImageWithURL(NSURL(string: "https://d17l1xohxe6z0o.cloudfont.net/a2/institute/berkeley/logo.png"), placeholderImage: UIImage(named: "ImagePlaceHolder"))
+
         statusButton!.setStatus(item!.status.integerValue)
     }
     
     // MARK: - UIActionSheetDelegate
     
     func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
-
+        
         switch buttonIndex {
         case 0:
             ""

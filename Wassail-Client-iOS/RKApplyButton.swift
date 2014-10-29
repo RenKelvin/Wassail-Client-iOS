@@ -10,6 +10,8 @@ import UIKit
 
 class RKApplyButton: UIButton {
     
+    @IBOutlet var textLabel: UILabel?
+
     var status: Int = 0
     
     /*
@@ -35,20 +37,20 @@ class RKApplyButton: UIButton {
             title = "正在申请"
             color = UIColor.HLYellow(0)
         case 2:
-            title = "完成申请"
+            title = "申请完成"
             color = UIColor.HLOrange(0)
         case 3:
-            title = "已被录取"
+            title = "已录取"
             color = UIColor.HLGreen(0)
         case 4:
-            title = "已被拒绝"
+            title = "已拒绝"
             color = UIColor.HLRed(0)
         default:
             ""
         }
         
-        self.setTitle(title, forState: .Normal)
-        self.setTitleColor(color, forState: .Normal)
+        textLabel!.text = title
+        textLabel!.textColor = color
     }
     
 }

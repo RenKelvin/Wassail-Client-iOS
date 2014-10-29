@@ -8,3 +8,5 @@
 #import "GAIAdapter.h"
 
 #import "KKActionSheet.h"
+
+#import "SDWebImage/UIImageView+WebCache.h"

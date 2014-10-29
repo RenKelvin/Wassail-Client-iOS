@@ -1739,6 +1739,7 @@
 				FE669BA919F9392200906F2E /* GAI */,
 				FE7731CA1A00B6DB00B31C0D /* KKActionSheet */,
 				FE60E6B319E596CE00147EF9 /* Others */,
+				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 				FE12E7BB1A0110D6008F3470 /* SDWebImage */,
 				FEEE449019FC25F700AFA88C /* SwiftyJSON */,
 			);
@@ -2095,9 +2096,10 @@
 			isa = PBXGroup;
 			children = (
 				FE5761BC19BD4B6C00574EE1 /* ToolsViewController.swift */,
-				FED3E82719FA8E47001838B0 /* Apply */,
-				FED3E82619FA8E3E001838B0 /* Ultilities */,
-				FE0393D119FCFA1B00D0E755 /* University */,
+				FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */,
+				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
+				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
+				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -2211,9 +2213,8 @@
 				FE5B1F9619B4033B00842C3D /* Images.xcassets */,
 				FE5B1F9319B4033B00842C3D /* Main.storyboard */,
 				FE3BC4D719FF80800038CF47 /* Apply */,
-				FEA5A90919BD563F0048AF6A /* Tools */,
 				FE8D81AD19C448B900CE6174 /* Item */,
-				FECBB5FE19BDFDE200115694 /* RKUIKit */,
+				FEA5A90919BD563F0048AF6A /* Tools */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -2221,9 +2222,11 @@
 		FEC8649319BD3CDF005087A3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FED3E82719FA8E47001838B0 /* Apply */,
 				FEC3BD5319C2987800184760 /* Item */,
 				FE20A75E19FCC59C00B5B279 /* Others */,
 				FEA5A90A19BD56470048AF6A /* Tools */,
+				FE0393D119FCFA1B00D0E755 /* University */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -2311,17 +2314,6 @@
 				FECBB60419BE093B00115694 /* RKNumericLabel.swift */,
 			);
 			name = RKNumericLabel;
-			sourceTree = "<group>";
-		};
-		FED3E82619FA8E3E001838B0 /* Ultilities */ = {
-			isa = PBXGroup;
-			children = (
-				FED3D18119D6957A00418BFF /* GPACalculatorViewController.swift */,
-				FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */,
-				FEDC98DB19BDB03800CA815F /* UnitConverterViewController.swift */,
-				FEE0CEFB19C4AB3D0039A8E9 /* SizeConverterViewController.swift */,
-			);
-			name = Ultilities;
 			sourceTree = "<group>";
 		};
 		FED3E82719FA8E47001838B0 /* Apply */ = {
