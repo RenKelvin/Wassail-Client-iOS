@@ -28,6 +28,7 @@ class ApplyViewController: GAITrackedViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+self.updateView()
     }
     
     override func didReceiveMemoryWarning() {
@@ -52,6 +53,17 @@ class ApplyViewController: GAITrackedViewController {
         if (info != nil) {
             apply = info as? HLApply
         }
+    }
+    
+    func updateView() {
+        let programInstanceId = apply!.programInstanceId as NSNumber
+        let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        
+        titleLabel!.text = preview!.universityName
+        noteLabel!.text = preview!.programName
+        // dateLabel!.text = preview!.deadlineDate.description
+        
+        iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
     }
 
     // MARK: - Table view data source
