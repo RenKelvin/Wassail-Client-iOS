@@ -62,9 +62,17 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        dateLabel!.text = preview!.deadlineDate.description
+        // dateLabel!.text = preview!.deadlineDate.description
         
-        iconImageView!.sd_setImageWithURL(NSURL(string: "https://d17l1xohxe6z0o.cloudfont.net/a2/institute/berkeley/logo.png"), placeholderImage: UIImage(named: "ImagePlaceHolder"))
+        let imageArray = [
+            "https://d17l1xohxe6z0o.cloudfront.net/a2/institute/berkeley/logo.png",
+            "https://d17l1xohxe6z0o.cloudfront.net/a2/institute/ca.utoronto/logo.png",
+            "https://d17l1xohxe6z0o.cloudfront.net/a2/institute/caltech/logo.png",
+            "https://d17l1xohxe6z0o.cloudfront.net/a2/institute/stanford/logo.png",
+            "https://d17l1xohxe6z0o.cloudfront.net/a2/institute/uk.ox/logo.png"
+        ]
+        let s = imageArray[random()%5] as NSString
+        iconImageView!.sd_setImageWithURL(NSURL(string: s), placeholderImage: UIImage(named: "ImagePlaceHolder"))
 
         statusButton!.setStatus(item!.status.integerValue)
     }
