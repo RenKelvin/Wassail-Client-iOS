@@ -14,6 +14,7 @@ class HLProgramInstancePreview: NSManagedObject {
     
     @NSManaged var deadlineDate: NSDate
     @NSManaged var degreeType: NSNumber
+    @NSManaged var iconAddress: String
     @NSManaged var programInstanceId: NSNumber
     @NSManaged var programName: String
     @NSManaged var season: NSNumber
@@ -29,7 +30,8 @@ class HLProgramInstancePreview: NSManagedObject {
             deadlineDate = date!
         }
         degreeType = json["DegreeType"].intValue
-        programInstanceId = json["programInstanceId"].intValue
+iconAddress = json["IconUrl"].stringValue
+programInstanceId = json["programInstanceId"].intValue
         programName = json["programName"].stringValue
         season = json["Season"].intValue
         universityName = json["universityName"].stringValue

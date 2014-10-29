@@ -1467,16 +1467,6 @@
 			name = Others;
 			sourceTree = "<group>";
 		};
-		FE20A76019FCC5B400B5B279 /* Ultilities */ = {
-			isa = PBXGroup;
-			children = (
-				FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */,
-				FE98698619C7F26900083FEE /* UnitConverterInfo.swift */,
-				FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */,
-			);
-			name = Ultilities;
-			sourceTree = "<group>";
-		};
 		FE20A76319FCC6D700B5B279 /* Apply */ = {
 			isa = PBXGroup;
 			children = (
@@ -2127,8 +2117,9 @@
 			isa = PBXGroup;
 			children = (
 				FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */,
-				FE20A76319FCC6D700B5B279 /* Apply */,
-				FE20A76019FCC5B400B5B279 /* Ultilities */,
+				FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */,
+				FE98698619C7F26900083FEE /* UnitConverterInfo.swift */,
+				FE98698419C7DEC500083FEE /* SizeConverterInfo.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -2235,6 +2226,7 @@
 			isa = PBXGroup;
 			children = (
 				FE496C0219C47D4C0003A29A /* DefaultInfo.swift */,
+				FE20A76319FCC6D700B5B279 /* Apply */,
 				FEB1D7F419CEFA97002F7285 /* Item */,
 				FE20A75F19FCC5A300B5B279 /* Others */,
 				FEB1D7F319CEF6F4002F7285 /* Tools */,

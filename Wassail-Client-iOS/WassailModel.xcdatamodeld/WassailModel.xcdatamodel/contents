@@ -9,6 +9,7 @@
     <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
         <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="degreeType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="iconAddress" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="programName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="season" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -29,7 +30,7 @@
     </configuration>
     <elements>
         <element name="HLApply" positionX="-63" positionY="-18" width="128" height="103"/>
-        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="165"/>
+        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="180"/>
         <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="73"/>
     </elements>
 </model>

@@ -9,8 +9,20 @@
 import UIKit
 
 class ApplyViewController: GAITrackedViewController {
+
+    var apply: HLApply?
     
     @IBOutlet var navigationView: UIView?
+
+    @IBOutlet var iconImageView: UIImageView?
+    @IBOutlet var titleLabel: UILabel?
+    @IBOutlet var noteLabel: UILabel?
+    @IBOutlet var dateLabel: UILabel?
+
+    @IBOutlet var status1CountLabel: UILabel?
+    @IBOutlet var status2CountLabel: UILabel?
+    @IBOutlet var status3CountLabel: UILabel?
+    @IBOutlet var status4CountLabel: UILabel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +44,14 @@ class ApplyViewController: GAITrackedViewController {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
+    }
+
+        // MARK: -
+    
+    override func setInfo(info: AnyObject?) {
+        if (info != nil) {
+            apply = info as? HLApply
+        }
     }
 
     // MARK: - Table view data source
@@ -70,16 +90,6 @@ class ApplyViewController: GAITrackedViewController {
         headerView.titleLabel?.text = title
         
         return headerView
-    }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-        // Deselect
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
-        //
-        self.performSegueWithIdentifier("ApplyManagerApplySegueIdentifier", sender: nil)
-
     }
     
 }
