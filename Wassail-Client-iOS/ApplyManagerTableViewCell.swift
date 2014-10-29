@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ApplyManagerTableViewCell: UITableViewCell {
+class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
     
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
@@ -16,6 +16,8 @@ class ApplyManagerTableViewCell: UITableViewCell {
     @IBOutlet var dateLabel: UILabel?
     
     @IBOutlet var statusButton: RKApplyButton?
+    
+    var item: HLApply?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,16 +33,30 @@ class ApplyManagerTableViewCell: UITableViewCell {
     // MARK: - IBAction
     
     @IBAction func statusButtonClicked() {
-        if (statusButton!.status == 0) {
-            
-        }
+        let actionSheet = KKActionSheet(title: "选择申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        
+        actionSheet.addButtonWithTitle("正在申请")
+        actionSheet.addButtonWithTitle("申请完成")
+        actionSheet.addButtonWithTitle("已被录取")
+        actionSheet.addButtonWithTitle("已被拒绝")
+        
+        actionSheet.setTextColor(UIColor.HLYellow(0), forButtonIndex: 2)
+        
+        actionSheet.showInView(self)
     }
     
     // MARK: -
     
     func configure(item: HLApply) {
         
-        let programInstanceId = item.programInstanceId as NSNumber
+        self.item = item
+        
+        self.updateView()
+    }
+    
+    func updateView() {
+        
+        let programInstanceId = item!.programInstanceId as NSNumber
         
         let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
         
@@ -56,7 +72,29 @@ class ApplyManagerTableViewCell: UITableViewCell {
         //        }
         
         //
-        statusButton!.setStatus(item.status.integerValue)
+        statusButton!.setStatus(item!.status.integerValue)
+    }
+    
+    // MARK: - UIActionSheetDelegate
+    
+    func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
+
+        switch buttonIndex {
+        case 0:
+            ""
+        case 1:
+            item!.status = 1
+        case 2:
+            item!.status = 2
+        case 3:
+            item!.status = 3
+        case 4:
+            item!.status = 4
+        default:
+            ""
+        }
+        
+        self.updateView()
     }
     
 }

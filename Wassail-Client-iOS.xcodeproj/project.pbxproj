@@ -343,6 +343,7 @@
 		FE72630919E013C3005739D0 /* 0排名.png in Resources */ = {isa = PBXBuildFile; fileRef = FE72630719E013C3005739D0 /* 0排名.png */; };
 		FE72630B19E07A0D005739D0 /* 0斯坦佛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE72630A19E07A0D005739D0 /* 0斯坦佛.jpg */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
+		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -910,6 +911,8 @@
 		FE72630719E013C3005739D0 /* 0排名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0排名.png"; sourceTree = "<group>"; };
 		FE72630A19E07A0D005739D0 /* 0斯坦佛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0斯坦佛.jpg"; sourceTree = "<group>"; };
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
+		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
+		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -1642,6 +1645,7 @@
 		FE60E67519E56B0900147EF9 /* 3rd Party */ = {
 			isa = PBXGroup;
 			children = (
+				FE7731CA1A00B6DB00B31C0D /* KKActionSheet */,
 				FE60E6B219E596BA00147EF9 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
 				FE669BA919F9392200906F2E /* GAI */,
@@ -1853,6 +1857,15 @@
 				FEA0FC0B19D85EFC00A24409 /* HLLink.swift */,
 			);
 			name = HLItem;
+			sourceTree = "<group>";
+		};
+		FE7731CA1A00B6DB00B31C0D /* KKActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */,
+				FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */,
+			);
+			path = KKActionSheet;
 			sourceTree = "<group>";
 		};
 		FE8C7BD319CB298D00F1C319 /* RKScrollerView */ = {
@@ -2792,6 +2805,7 @@
 				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
 				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
+				FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
