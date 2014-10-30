@@ -14,8 +14,10 @@ class ApplyAdderInfo: NSObject {
     
     var data: NSArray?
     
-    var degree: Int = 1
+    var degree: Int = 2
     var field: Int = 0
+    var year: Int = 2015
+    var season: Int = 3
     
     var searchText: NSString = ""
     var searchResultsArray: NSArray?
@@ -32,10 +34,8 @@ class ApplyAdderInfo: NSObject {
         if (array == nil) {
             return
         }
-       
         
-
-       let predicate = NSPredicate(format: "degreeType == %d", degree) // TODO: field
+        let predicate = NSPredicate(format: "year == %d && season == %d && degreeType == %d", year, season, degree) // TODO: field
         let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
         
         data = filteredArray
@@ -50,7 +50,6 @@ class ApplyAdderInfo: NSObject {
         return data
     }
     
-    // TODO: need optimization
     func getFilteredPrograms(text: NSString) -> NSArray? {
         
         if (data == nil) {
@@ -67,7 +66,7 @@ class ApplyAdderInfo: NSObject {
             return nil
         }
         
-        let predicate = NSPredicate(format: "universityName CONTAINS[c] %@", text)
+        let predicate = NSPredicate(format: "universityName CONTAINS[c] %@ || programName CONTAINS[c] %@ ", text ,text)
         let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
         
         self.searchText = text

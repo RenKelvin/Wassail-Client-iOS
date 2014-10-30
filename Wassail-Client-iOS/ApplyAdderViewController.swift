@@ -15,6 +15,8 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     @IBOutlet var tableView: UITableView?
     @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var yearButton: UIButton?
+    @IBOutlet var seasonButton: UIButton?
     @IBOutlet var degreeButton: UIButton?
     
     override func viewDidLoad() {
@@ -52,18 +54,38 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     
     // MARK: - IBAction
     
+    @IBAction func yearButtonClicked() {
+        let actionSheet = UIActionSheet(title: "选择入学时间", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        actionSheet.tag = 1
+        
+        actionSheet.addButtonWithTitle("2015")
+        
+        actionSheet.showInView(self.view)
+    }
+
+    @IBAction func seasonButtonClicked() {
+        let actionSheet = UIActionSheet(title: "选择入学学期", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        actionSheet.tag = 2
+        
+        actionSheet.addButtonWithTitle("春季")
+        actionSheet.addButtonWithTitle("夏季")
+        actionSheet.addButtonWithTitle("秋季")
+        actionSheet.addButtonWithTitle("冬季")
+        
+        actionSheet.showInView(self.view)
+    }
+    
     @IBAction func degreeButtonClicked() {
-        let actionSheet = KKActionSheet(title: "选择目标学位", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        let actionSheet = UIActionSheet(title: "选择目标学位", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        actionSheet.tag = 3
         
         actionSheet.addButtonWithTitle("本科 Bachelor")
         actionSheet.addButtonWithTitle("硕士 Master")
         actionSheet.addButtonWithTitle("博士 Doctor")
         
-        actionSheet.setTextColor(UIColor.HLYellow(0), forButtonIndex: 2)
-        
         actionSheet.showInView(self.view)
     }
-    
+
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -149,18 +171,52 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     
     func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
         
-        switch buttonIndex {
-        case 0:
-            ""
+        switch actionSheet.tag {
         case 1:
-            info.degree = 1
-            degreeButton!.setTitle("Bachelor", forState: .Normal)
+            switch buttonIndex {
+            case 0:
+                ""
+            case 1:
+                info.year = 2015
+                yearButton!.setTitle("2015", forState: .Normal)
+            default:
+                ""
+            }
         case 2:
-            info.degree = 2
-            degreeButton!.setTitle("Master", forState: .Normal)
+            switch buttonIndex {
+            case 0:
+                ""
+            case 1:
+                info.season = 1
+                seasonButton!.setTitle("春季", forState: .Normal)
+            case 2:
+                info.season = 2
+                seasonButton!.setTitle("夏季", forState: .Normal)
+            case 3:
+                info.season = 3
+                seasonButton!.setTitle("秋季", forState: .Normal)
+            case 4:
+                info.season = 4
+                seasonButton!.setTitle("冬季", forState: .Normal)
+            default:
+                ""
+            }
         case 3:
-            info.degree = 3
-            degreeButton!.setTitle("Doctor", forState: .Normal)
+            switch buttonIndex {
+            case 0:
+                ""
+            case 1:
+                info.degree = 1
+                degreeButton!.setTitle("Bachelor", forState: .Normal)
+            case 2:
+                info.degree = 2
+                degreeButton!.setTitle("Master", forState: .Normal)
+            case 3:
+                info.degree = 3
+                degreeButton!.setTitle("Doctor", forState: .Normal)
+            default:
+                ""
+            }
         default:
             ""
         }

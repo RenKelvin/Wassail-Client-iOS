@@ -37,8 +37,10 @@ class DatabaseMediator: NSObject {
     func getProgramInstancePreviewList() -> NSArray? {
         
         var sortDescriptors: NSMutableArray = NSMutableArray()
-        let sortDescriptor = NSSortDescriptor(key: "universityName", ascending: true)
-        sortDescriptors.addObject(sortDescriptor)
+        let sortDescriptor1 = NSSortDescriptor(key: "universityName", ascending: true)
+              sortDescriptors.addObject(sortDescriptor1)
+  let sortDescriptor2 = NSSortDescriptor(key: "programName", ascending: true)
+        sortDescriptors.addObject(sortDescriptor2)
 
         return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: sortDescriptors)
     }
