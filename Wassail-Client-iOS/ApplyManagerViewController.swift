@@ -30,7 +30,6 @@ class ApplyManagerViewController: GAITrackedViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        //
         self.reloadData()
         
         // GAITrackedViewController name

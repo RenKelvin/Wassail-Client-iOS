@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -435,38 +436,6 @@
                                 <rect key="frame" x="0.0" y="216" width="600" height="384"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <view key="tableHeaderView" contentMode="scaleToFill" id="ep5-ia-4GF">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxD-mc-I8C" customClass="RKApplyButton" customModule="Wassail_Client_iOS" customModuleProvider="target">
-                                            <rect key="frame" x="25" y="11" width="56" height="42"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="56" id="B6o-J2-5gh"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="56" id="e5L-qx-oEk"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="lop-xo-ev2"/>
-                                                <constraint firstAttribute="height" constant="42" id="tdO-L3-c6h"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                            <state key="normal" title="开始申请">
-                                                <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="e5L-qx-oEk"/>
-                                                    <exclude reference="lop-xo-ev2"/>
-                                                </mask>
-                                            </variation>
-                                        </button>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <constraints>
-                                        <constraint firstItem="SxD-mc-I8C" firstAttribute="leading" secondItem="ep5-ia-4GF" secondAttribute="leading" constant="25" id="Q13-ZQ-Uuy"/>
-                                        <constraint firstItem="SxD-mc-I8C" firstAttribute="top" secondItem="ep5-ia-4GF" secondAttribute="top" constant="11" id="aDj-s2-IVi"/>
-                                        <constraint firstAttribute="bottom" secondItem="SxD-mc-I8C" secondAttribute="bottom" constant="11" id="mjW-bx-9yo"/>
-                                    </constraints>
-                                </view>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="fXP-gn-S6P">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -866,7 +835,29 @@
                     <view key="view" contentMode="scaleToFill" id="Fdb-0v-UAt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CoverBlur" translatesAutoresizingMaskIntoConstraints="NO" id="L99-ik-Z9f">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="L99-ik-Z9f" secondAttribute="height" multiplier="4:3" id="7KB-Uy-rKZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5gt-mi-Z6q">
+                                <rect key="frame" x="264" y="184" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="RbM-11-8Es"/>
+                                    <constraint firstAttribute="height" constant="72" id="v92-XR-5fW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="5gt-mi-Z6q" secondAttribute="centerY" constant="80" id="3BZ-YA-y3V"/>
+                            <constraint firstItem="L99-ik-Z9f" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="8ab-gy-YOS"/>
+                            <constraint firstAttribute="centerX" secondItem="5gt-mi-Z6q" secondAttribute="centerX" id="Bmf-E8-3EW"/>
+                            <constraint firstItem="L99-ik-Z9f" firstAttribute="top" secondItem="Fdb-0v-UAt" secondAttribute="top" id="Km6-4h-8yk"/>
+                            <constraint firstAttribute="trailing" secondItem="L99-ik-Z9f" secondAttribute="trailing" id="mf4-Vl-1ZS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="MS in Computer Science" id="cR9-a5-cmw"/>
                 </viewController>
@@ -2542,7 +2533,7 @@
                                                     <constraint firstAttribute="height" constant="32" id="ebH-DQ-nTO"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                <state key="normal" title="Computer Science" backgroundImage="RoundBlueButtonBackground">
+                                                <state key="normal" title="Human Resource Management" backgroundImage="RoundBlueButtonBackground">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <variation key="default">
@@ -3652,6 +3643,7 @@
         <image name="CheckboxChecked" width="22" height="22"/>
         <image name="CheckboxUnchecked" width="22" height="22"/>
         <image name="Chevron" width="8" height="12"/>
+        <image name="CoverBlur" width="320" height="240"/>
         <image name="Divider" width="1" height="1"/>
         <image name="DividerV" width="1" height="200"/>
         <image name="GPANoteLabelBackground" width="320" height="64"/>
