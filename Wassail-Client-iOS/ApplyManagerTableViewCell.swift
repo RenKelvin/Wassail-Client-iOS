@@ -33,7 +33,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
     // MARK: - IBAction
     
     @IBAction func statusButtonClicked() {
-        let actionSheet = KKActionSheet(title: "选择申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        let actionSheet = KKActionSheet(title: "设置申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
         
         actionSheet.addButtonWithTitle("正在申请")
         actionSheet.addButtonWithTitle("申请完成")
@@ -61,8 +61,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        // dateLabel!.text = preview!.deadlineDate.description
-        
+        dateLabel!.text = preview!.deadlineDate.normalString()
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
 
         statusButton!.setStatus(item!.status.integerValue)

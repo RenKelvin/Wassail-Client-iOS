@@ -11,6 +11,7 @@ import UIKit
 extension NSDate {
     
     class func dateWithString(string: NSString) -> NSDate? {
+        
         var df: NSDateFormatter = NSDateFormatter()
         df.timeZone = NSTimeZone.defaultTimeZone()
         df.dateFormat = "yyyy-MM-dd"
@@ -18,4 +19,16 @@ extension NSDate {
         return df.dateFromString(string)
     }
     
+     func normalString() -> NSString? {
+        
+        let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
+        let components = calendar!.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: self)
+        
+        let year = components.year as Int
+        let month = components.month as Int
+        let day = components.day as Int
+        
+        return NSString(format: "\(year)-\(month)-\(day)")
+    }
+
 }

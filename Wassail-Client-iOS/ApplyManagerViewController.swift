@@ -72,7 +72,7 @@ class ApplyManagerViewController: GAITrackedViewController {
         var title: String = ""
         switch section {
         case 0:
-            title = "正在申请"
+            title = "申请列表"
         default:
             title = ""
         }

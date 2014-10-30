@@ -1728,6 +1728,7 @@
 			children = (
 				FE60E6B219E596BA00147EF9 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
+				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 				FE669BA919F9392200906F2E /* GAI */,
 				FE7731CA1A00B6DB00B31C0D /* KKActionSheet */,
 				FE60E6B319E596CE00147EF9 /* Others */,
@@ -2289,7 +2290,6 @@
 				FECBB60319BDFE5C00115694 /* RKTableHeaderView */,
 				FEA0FB8F19D7A12400A24409 /* RKArticleHeaderView */,
 				FEA59C0819FFD07E00B1DD45 /* RKApplyButton */,
-				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 			);
 			name = RKUIKit;
 			sourceTree = "<group>";

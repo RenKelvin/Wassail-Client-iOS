@@ -31,8 +31,8 @@ class ApplyAdderViewController: GAITrackedViewController {
         super.viewWillAppear(animated)
         
         //
-               info.reloadData()
-
+        info.reloadData()
+        
         // GAITrackedViewController name
         self.screenName = "Apply Adder Screen"
         
@@ -57,7 +57,19 @@ class ApplyAdderViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        let array = info.getAllPrograms()
+        var array: NSArray?
+
+        if (tableView == self.searchDisplayController!.searchResultsTableView) {
+             array = info.getFilteredPrograms(0, field: 0, text: self.searchDisplayController!.searchBar.text)
+        }
+        else {
+             array = info.getAllPrograms()
+        }
+
+        if (array == nil) {
+        return 0
+}
+
         return array!.count
     }
     
@@ -65,13 +77,22 @@ class ApplyAdderViewController: GAITrackedViewController {
         
         let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyAdderTableViewCell
         
-        // Configure the cell
-        let array = info.getAllPrograms()
-        let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
-        
-        cell.configure(program)
+        if (tableView == self.searchDisplayController!.searchResultsTableView) {
+            let array = info.getFilteredPrograms(0, field: 0, text: self.searchDisplayController!.searchBar.text)
+            let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
+            
+            cell.configure(program)
+        }
+            
+        else {
+            let array = info.getAllPrograms()
+            let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
+            
+            cell.configure(program)
+        }
         
         return cell
+        
     }
     
     // MARK: - Table view delegate
