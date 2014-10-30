@@ -41,7 +41,11 @@ class DatabaseMediator: NSObject {
     
     func getApplyList() -> NSArray? {
         
-        return DatabaseAdapter.instance.fetch("HLApply", context: UserDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: nil)
+        var sortDescriptors: NSMutableArray = NSMutableArray()
+        let sortDescriptor = NSSortDescriptor(key: "status", ascending: true)
+        sortDescriptors.addObject(sortDescriptor)
+        
+        return DatabaseAdapter.instance.fetch("HLApply", context: UserDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: sortDescriptors)
     }
     
     func createApply(item: HLProgramInstancePreview) -> HLApply? {
@@ -49,6 +53,11 @@ class DatabaseMediator: NSObject {
         return DatabaseAdapter.instance.create("HLApply", context: UserDataManager.instance.managedObjectContext!) as? HLApply
     }
     
+    func deleteApply(item: HLApply) {
+        
+        return DatabaseAdapter.instance.delete(item, context: UserDataManager.instance.managedObjectContext!)
+    }
+
     func getProgramInstancePreviewByProgramInstanceId(id: NSNumber) -> HLProgramInstancePreview? {
         
         let predicate = NSPredicate(format: "programInstanceId = %@", id)

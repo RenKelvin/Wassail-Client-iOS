@@ -2296,6 +2296,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="navigationView" destination="LhX-Nu-86m" id="Njv-cf-RrN"/>
+                        <outlet property="tableView" destination="Z6J-8u-npN" id="vUX-CS-LTl"/>
                         <segue destination="zKi-Kv-mtH" kind="show" identifier="ApplyManagerApplySegueIdentifier" id="aKN-cE-0dr"/>
                     </connections>
                 </viewController>

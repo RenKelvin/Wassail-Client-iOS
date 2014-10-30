@@ -14,6 +14,8 @@ class ApplyManagerViewController: GAITrackedViewController {
     
     @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var tableView: UITableView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +31,7 @@ class ApplyManagerViewController: GAITrackedViewController {
         super.viewWillAppear(animated)
         
         //
-        info.reloadData()
+        self.reloadData()
         
         // GAITrackedViewController name
         self.screenName = "Apply Manager Screen"
@@ -37,6 +39,15 @@ class ApplyManagerViewController: GAITrackedViewController {
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
+    }
+    
+    // MARK: -
+    
+    func reloadData() {
+        
+        info.reloadData()
+        
+        self.tableView!.reloadData()
     }
     
     // MARK: - Table view data source
@@ -90,11 +101,36 @@ class ApplyManagerViewController: GAITrackedViewController {
         //
         let array = info.getAllApplies()
         let apply = array!.objectAtIndex(indexPath.row) as HLApply
-
+        
         self.performSegueWithIdentifier("ApplyManagerApplySegueIdentifier", sender: apply)
         
     }
     
+    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+        
+        return .Delete
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        if (editingStyle == .Delete) {
+            
+            // get the apply
+            let array = info.getAllApplies()
+            let apply = array!.objectAtIndex(indexPath.row) as HLApply
+            
+            // delete the apply
+            ApplyAccessor.instance.deleteApply(apply)
+            
+            // reload data
+            info.reloadData()
+            
+            // delete the cell
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            
+        }
+        
+    }
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation

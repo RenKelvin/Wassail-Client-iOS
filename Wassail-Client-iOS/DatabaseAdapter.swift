@@ -23,6 +23,11 @@ class DatabaseAdapter: NSObject {
         return object
     }
     
+    func delete(item: NSManagedObject, context: NSManagedObjectContext) {
+        
+        context.deleteObject(item)
+    }
+
     func fetch(entityName: NSString, context: NSManagedObjectContext, predicate: NSPredicate?, sortDescriptors: NSArray?) -> NSArray? {
         
         let entityDescription = NSEntityDescription.entityForName(entityName, inManagedObjectContext: context)

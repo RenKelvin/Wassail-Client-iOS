@@ -61,7 +61,7 @@ self.updateView()
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        // dateLabel!.text = preview!.deadlineDate.description
+        dateLabel!.text = preview!.deadlineDate.normalString()
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
     }

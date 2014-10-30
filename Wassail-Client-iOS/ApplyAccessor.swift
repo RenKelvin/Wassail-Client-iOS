@@ -28,6 +28,10 @@ class ApplyAccessor: NSObject {
         return DatabaseMediator.instance.createApply(item)
     }
     
+    func deleteApply(item: HLApply) {
+        return DatabaseMediator.instance.deleteApply(item)
+    }
+    
     func getProgramInstancePreviewByProgramInstanceId(id: NSNumber) -> HLProgramInstancePreview? {
         return DatabaseMediator.instance.getProgramInstancePreviewByProgramInstanceId(id)
     }

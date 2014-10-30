@@ -1372,11 +1372,11 @@
 		FE0393D119FCFA1B00D0E755 /* University */ = {
 			isa = PBXGroup;
 			children = (
-				FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */,
 				FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */,
+				FEA05EEB19FBB1B600D1C912 /* ProgramInstanceViewController.swift */,
+				FE9E578519FBABB700A8A8C3 /* UniversityDatabaseViewController.swift */,
 				FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */,
 				FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */,
-				FEA05EEB19FBB1B600D1C912 /* ProgramInstanceViewController.swift */,
 			);
 			name = University;
 			sourceTree = "<group>";
