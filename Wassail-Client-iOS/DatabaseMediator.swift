@@ -53,7 +53,7 @@ class DatabaseMediator: NSObject {
         
         let predicate = NSPredicate(format: "programInstanceId = %@", id)
         
-        let array = DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: predicate, sortDescriptors: nil)
+        let array = DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: nil)
         
         return array![0] as HLProgramInstancePreview
     }
