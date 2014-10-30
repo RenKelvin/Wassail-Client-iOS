@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ApplyAdderViewController: GAITrackedViewController {
+class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate {
     
     let info: ApplyAdderInfo = ApplyAdderInfo.instance
     
     @IBOutlet var tableView: UITableView?
-    
     @IBOutlet var navigationView: UIView?
+    
+    @IBOutlet var degreeButton: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +32,7 @@ class ApplyAdderViewController: GAITrackedViewController {
         super.viewWillAppear(animated)
         
         //
-        info.reloadData()
+        self.reloadData()
         
         // GAITrackedViewController name
         self.screenName = "Apply Adder Screen"
@@ -42,7 +43,26 @@ class ApplyAdderViewController: GAITrackedViewController {
         
     }
     
+    func reloadData() {
+        
+        info.reloadData()
+        
+        self.tableView!.reloadData()
+    }
+    
     // MARK: - IBAction
+    
+    @IBAction func degreeButtonClicked() {
+        let actionSheet = KKActionSheet(title: "选择目标学位", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        
+        actionSheet.addButtonWithTitle("本科 Bachelor")
+        actionSheet.addButtonWithTitle("硕士 Master")
+        actionSheet.addButtonWithTitle("博士 Doctor")
+        
+        actionSheet.setTextColor(UIColor.HLYellow(0), forButtonIndex: 2)
+        
+        actionSheet.showInView(self.view)
+    }
     
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
@@ -58,18 +78,18 @@ class ApplyAdderViewController: GAITrackedViewController {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         var array: NSArray?
-
+        
         if (tableView == self.searchDisplayController!.searchResultsTableView) {
-             array = info.getFilteredPrograms(0, field: 0, text: self.searchDisplayController!.searchBar.text)
+            array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
         }
         else {
-             array = info.getAllPrograms()
+            array = info.getAllPrograms()
         }
-
+        
         if (array == nil) {
-        return 0
-}
-
+            return 0
+        }
+        
         return array!.count
     }
     
@@ -78,7 +98,12 @@ class ApplyAdderViewController: GAITrackedViewController {
         let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyAdderTableViewCell
         
         if (tableView == self.searchDisplayController!.searchResultsTableView) {
-            let array = info.getFilteredPrograms(0, field: 0, text: self.searchDisplayController!.searchBar.text)
+            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
+            
+            if (array == nil) {
+                return cell
+            }
+            
             let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
             
             cell.configure(program)
@@ -118,6 +143,29 @@ class ApplyAdderViewController: GAITrackedViewController {
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
+    }
+    
+    // MARK: - UIActionSheetDelegate
+    
+    func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
+        
+        switch buttonIndex {
+        case 0:
+            ""
+        case 1:
+            info.degree = 1
+            degreeButton!.setTitle("Bachelor", forState: .Normal)
+        case 2:
+            info.degree = 2
+            degreeButton!.setTitle("Master", forState: .Normal)
+        case 3:
+            info.degree = 3
+            degreeButton!.setTitle("Doctor", forState: .Normal)
+        default:
+            ""
+        }
+        
+        self.reloadData()
     }
     
 }

@@ -9,26 +9,26 @@
 import UIKit
 
 class ApplyViewController: GAITrackedViewController {
-
+    
     var apply: HLApply?
     
     @IBOutlet var navigationView: UIView?
-
+    
     @IBOutlet var iconImageView: UIImageView?
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
-
+    
     @IBOutlet var status1CountLabel: UILabel?
     @IBOutlet var status2CountLabel: UILabel?
     @IBOutlet var status3CountLabel: UILabel?
     @IBOutlet var status4CountLabel: UILabel?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-self.updateView()
+        self.updateView()
     }
     
     override func didReceiveMemoryWarning() {
@@ -46,8 +46,8 @@ self.updateView()
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
-
-        // MARK: -
+    
+    // MARK: -
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
@@ -65,13 +65,13 @@ self.updateView()
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
     }
-
+    
     // MARK: - IBAction
     
     @IBAction func programHeaderTapped() {
         self.performSegueWithIdentifier("ApplyProgramInstanceSegueIdentifier", sender: "留学时间表")
     }
-
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -100,7 +100,7 @@ self.updateView()
         var title: String = ""
         switch section {
         case 0:
-            title = "正在申请"
+            title = "待办清单"
         default:
             title = ""
         }

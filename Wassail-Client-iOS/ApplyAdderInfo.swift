@@ -14,10 +14,11 @@ class ApplyAdderInfo: NSObject {
     
     var data: NSArray?
     
-    var degree: Int = 0
+    var degree: Int = 1
     var field: Int = 0
-    var text: NSString = ""
-    var filteredArray: NSArray?
+    
+    var searchText: NSString = ""
+    var searchResultsArray: NSArray?
     
     class var instance : ApplyAdderInfo {
         return _ApplyAdderInfoSharedInstance
@@ -26,10 +27,22 @@ class ApplyAdderInfo: NSObject {
     // MARK: -
     
     func reloadData() {
-                data = ApplyAccessor.instance.getProgramInstancePreviewList()
-}
+        let array = ApplyAccessor.instance.getProgramInstancePreviewList()
+        
+        if (array == nil) {
+            return
+        }
+       
+        
 
+       let predicate = NSPredicate(format: "degreeType == %d", degree) // TODO: field
+        let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
+        
+        data = filteredArray
+    }
+    
     func getAllPrograms() -> NSArray? {
+        
         if (data == nil) {
             self.reloadData()
         }
@@ -38,23 +51,28 @@ class ApplyAdderInfo: NSObject {
     }
     
     // TODO: need optimization
-    func getFilteredPrograms(degree: Int, field: Int, text: NSString) -> NSArray? {
+    func getFilteredPrograms(text: NSString) -> NSArray? {
+        
+        if (data == nil) {
+            self.reloadData()
+        }
         
         // Same
-        if (self.degree == degree && self.field == field && self.text == text) {
-            return self.filteredArray
+        if (self.searchText == text) {
+            return searchResultsArray
         }
         
         let array = self.getAllPrograms()
-
         if (array == nil) {
             return nil
         }
-
+        
         let predicate = NSPredicate(format: "universityName CONTAINS[c] %@", text)
-    
         let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
         
-return filteredArray
+        self.searchText = text
+        self.searchResultsArray = filteredArray
+        
+        return self.searchResultsArray
     }
 }

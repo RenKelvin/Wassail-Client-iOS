@@ -130,7 +130,7 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
         //
         switch indexPath.section {
         case 0:
-            switch indexPath.row-2 {
+            switch indexPath.row-1 {
             case -2:
                 self.performSegueWithIdentifier("ToolsUniversityDatabaseSegueIdentifier", sender: "0院校数据库")
             case -1:

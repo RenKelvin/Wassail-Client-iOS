@@ -170,7 +170,7 @@
             </objects>
             <point key="canvasLocation" x="3145" y="-1200"/>
         </scene>
-        <!--申请任务-->
+        <!--申请详情-->
         <scene sceneID="Edg-2t-fHu">
             <objects>
                 <viewController id="zKi-Kv-mtH" customClass="ApplyViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -528,7 +528,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="申请任务" id="sct-ex-eaG"/>
+                    <navigationItem key="navigationItem" title="申请详情" id="sct-ex-eaG"/>
                     <connections>
                         <outlet property="dateLabel" destination="ha3-tP-xVa" id="Wco-tT-eR0"/>
                         <outlet property="iconImageView" destination="p2Z-hB-bTH" id="Kyb-xQ-Ajs"/>
@@ -2448,6 +2448,9 @@
                                                 <state key="normal" title="Master" backgroundImage="RoundBlueButtonBackground">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="degreeButtonClicked" destination="7tV-HF-ljT" eventType="touchUpInside" id="WkN-7k-3sa"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="专业" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRL-Ax-jGA">
                                                 <rect key="frame" x="134" y="9" width="24" height="14.5"/>
@@ -2514,7 +2517,7 @@
                                 <rect key="frame" x="0.0" y="152" width="600" height="448"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="z4B-o8-ZWv">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <rect key="frame" x="0.0" y="76" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
@@ -2618,6 +2621,7 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="degreeButton" destination="dAk-hI-BbZ" id="Xj6-B0-FrU"/>
                         <outlet property="navigationView" destination="6a1-fE-4cP" id="d2R-H2-gXb"/>
                         <outlet property="searchDisplayController" destination="XZK-Ad-qYV" id="K8q-Xj-rTh"/>
                         <outlet property="tableView" destination="jrM-Pc-hhT" id="KRM-UN-cfR"/>
@@ -2634,7 +2638,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1775" y="-528.5"/>
+            <point key="canvasLocation" x="1775" y="-529"/>
         </scene>
         <!--GPA计算器-->
         <scene sceneID="ghT-co-6CD">

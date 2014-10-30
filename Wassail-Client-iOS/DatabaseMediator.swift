@@ -36,7 +36,11 @@ class DatabaseMediator: NSObject {
     
     func getProgramInstancePreviewList() -> NSArray? {
         
-        return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: nil)
+        var sortDescriptors: NSMutableArray = NSMutableArray()
+        let sortDescriptor = NSSortDescriptor(key: "universityName", ascending: true)
+        sortDescriptors.addObject(sortDescriptor)
+
+        return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: sortDescriptors)
     }
     
     func getApplyList() -> NSArray? {
