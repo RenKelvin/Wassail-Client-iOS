@@ -1,5 +1,5 @@
 //
-//  ProgramViewController.swift
+//  ProgramInstanceViewController.swift
 //  Wassail-Client-iOS
 //
 //  Created by Chuan Ren on 10/25/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProgramViewController: GAITrackedViewController {
+class ProgramInstanceViewController: GAITrackedViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

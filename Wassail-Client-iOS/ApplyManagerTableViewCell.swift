@@ -37,8 +37,8 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         actionSheet.addButtonWithTitle("正在申请")
         actionSheet.addButtonWithTitle("申请完成")
-        actionSheet.addButtonWithTitle("已被录取")
-        actionSheet.addButtonWithTitle("已被拒绝")
+        actionSheet.addButtonWithTitle("已录取")
+        actionSheet.addButtonWithTitle("已拒绝")
         
         actionSheet.setTextColor(UIColor.HLYellow(0), forButtonIndex: 2)
         

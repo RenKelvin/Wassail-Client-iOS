@@ -361,8 +361,6 @@
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE79D5311A0227270041AA75 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE79D5301A0227270041AA75 /* Static.sqlite */; };
-		FE79D5341A022B330041AA75 /* Static.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = FE79D5321A022B330041AA75 /* Static.sqlite-shm */; };
-		FE79D5351A022B330041AA75 /* Static.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = FE79D5331A022B330041AA75 /* Static.sqlite-wal */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -392,7 +390,7 @@
 		FEA05EE619FBB18E00D1C912 /* FieldListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */; };
 		FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */; };
 		FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */; };
-		FEA05EEC19FBB1B600D1C912 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */; };
+		FEA05EEC19FBB1B600D1C912 /* ProgramInstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA05EEB19FBB1B600D1C912 /* ProgramInstanceViewController.swift */; };
 		FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */; };
 		FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */; };
 		FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */; };
@@ -966,8 +964,6 @@
 		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
 		FE79D5301A0227270041AA75 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Static.sqlite; path = ../../../../Desktop/Static.sqlite; sourceTree = "<group>"; };
-		FE79D5321A022B330041AA75 /* Static.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Static.sqlite-shm"; path = "../../../../Desktop/Static.sqlite-shm"; sourceTree = "<group>"; };
-		FE79D5331A022B330041AA75 /* Static.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Static.sqlite-wal"; path = "../../../../Desktop/Static.sqlite-wal"; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -997,7 +993,7 @@
 		FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldListViewController.swift; sourceTree = "<group>"; };
 		FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityRankingViewController.swift; sourceTree = "<group>"; };
 		FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityViewController.swift; sourceTree = "<group>"; };
-		FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		FEA05EEB19FBB1B600D1C912 /* ProgramInstanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceViewController.swift; sourceTree = "<group>"; };
 		FEA0FB9019D7A15A00A24409 /* RKArticleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKArticleHeaderView.swift; sourceTree = "<group>"; };
 		FEA0FB9219D7A18500A24409 /* RKArticleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKArticleHeaderView.xib; sourceTree = "<group>"; };
 		FEA0FB9419D7EEE000A24409 /* HLToolPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLToolPreviewView.swift; sourceTree = "<group>"; };
@@ -1380,7 +1376,7 @@
 				FEA05EE519FBB18E00D1C912 /* FieldListViewController.swift */,
 				FEA05EE719FBB19E00D1C912 /* UniversityRankingViewController.swift */,
 				FEA05EE919FBB1AD00D1C912 /* UniversityViewController.swift */,
-				FEA05EEB19FBB1B600D1C912 /* ProgramViewController.swift */,
+				FEA05EEB19FBB1B600D1C912 /* ProgramInstanceViewController.swift */,
 			);
 			name = University;
 			sourceTree = "<group>";
@@ -2274,8 +2270,6 @@
 			children = (
 				FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */,
 				FE79D5301A0227270041AA75 /* Static.sqlite */,
-				FE79D5321A022B330041AA75 /* Static.sqlite-shm */,
-				FE79D5331A022B330041AA75 /* Static.sqlite-wal */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2666,7 +2660,6 @@
 				AD40116519EB7A610088194C /* 8Kaplan MCAT Review.jpg in Resources */,
 				FEA0FBDC19D846A400A24409 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				FEA0FBEF19D846A400A24409 /* 2.0美国本科排名.md.json in Resources */,
-				FE79D5341A022B330041AA75 /* Static.sqlite-shm in Resources */,
 				FEE1602C19D925030022883E /* 2.4NationalUniversity.png in Resources */,
 				ADC907F119DD025300DFC311 /* 1.5.9Chase Freedom.jpg in Resources */,
 				AD4A212E19FE331600098B2F /* 3.10医学院排名.md.json in Resources */,
@@ -2708,7 +2701,6 @@
 				FEE1602419D925030022883E /* 1.4.1QS评价标准.png in Resources */,
 				AD8D823B19FF9CF900C9FAF3 /* 3.1Tuition1.jpeg in Resources */,
 				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
-				FE79D5351A022B330041AA75 /* Static.sqlite-wal in Resources */,
 				AD0E75F619F37695006F433C /* 3.5contact.jpg in Resources */,
 				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
@@ -2972,7 +2964,7 @@
 				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,
-				FEA05EEC19FBB1B600D1C912 /* ProgramViewController.swift in Sources */,
+				FEA05EEC19FBB1B600D1C912 /* ProgramInstanceViewController.swift in Sources */,
 				FED3D18219D6957A00418BFF /* GPACalculatorViewController.swift in Sources */,
 				FE60E6B819E639D700147EF9 /* AWSMobileAnalyticsAdapter.m in Sources */,
 				FE12E7E01A0110D6008F3470 /* SDWebImageCompat.m in Sources */,

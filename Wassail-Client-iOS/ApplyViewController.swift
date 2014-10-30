@@ -66,6 +66,12 @@ self.updateView()
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
     }
 
+    // MARK: - IBAction
+    
+    @IBAction func programHeaderTapped() {
+        self.performSegueWithIdentifier("ApplyProgramInstanceSegueIdentifier", sender: "留学时间表")
+    }
+
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
