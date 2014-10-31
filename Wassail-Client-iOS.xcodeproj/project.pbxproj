@@ -414,6 +414,7 @@
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
+		FE85385C1A03E1D400A26820 /* FinanialCertificate.png in Resources */ = {isa = PBXBuildFile; fileRef = FE85385B1A03E1D400A26820 /* FinanialCertificate.png */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
 		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
@@ -975,6 +976,7 @@
 		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
+		FE85385B1A03E1D400A26820 /* FinanialCertificate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinanialCertificate.png; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
 		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
@@ -1284,6 +1286,7 @@
 				ADA774A919FE7E9F00F65AA7 /* 5加拿大.md.json */,
 				ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */,
 				AD34572819FFE223004382CE /* 6资金证明.md.json */,
+				FE85385B1A03E1D400A26820 /* FinanialCertificate.png */,
 			);
 			path = "留学费用";
 			sourceTree = "<group>";
@@ -2573,6 +2576,7 @@
 				AD548A3A19F803FC0088E19C /* 2.5.1范文.md.json in Resources */,
 				AD0E75E919F37695006F433C /* 3.17testIELTS.jpg in Resources */,
 				AD34572B19FFE223004382CE /* 5.1CanadianCollege.jpg in Resources */,
+				FE85385C1A03E1D400A26820 /* FinanialCertificate.png in Resources */,
 				ADF2ABEE1A036B8C00DA02C3 /* 1.1.2英美名校.jpg in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
 				ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */,

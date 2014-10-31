@@ -97,6 +97,14 @@
                             "name": "6\u8d44\u91d1\u8bc1\u660e", 
                             "type": "HLArticlePreview"
                         }, 
+                        "icon": {
+                            "body": {
+                                "address": "FinanialCertificate.png", 
+                                "title": ""
+                            }, 
+                            "name": "FinanialCertificate.png", 
+                            "type": "HLImage"
+                        }, 
                         "kind": "Item", 
                         "note": "Proof of Financial Support"
                     }
