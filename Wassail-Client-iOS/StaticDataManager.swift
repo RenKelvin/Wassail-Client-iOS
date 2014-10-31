@@ -43,10 +43,10 @@ class StaticDataManager: NSObject {
         let url = self.applicationCachesDirectory.URLByAppendingPathComponent("Static.sqlite")
         
         // Copy static dota store from resource
-//        if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
-//            let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
-//            NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
-//        }
+        if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
+            let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
+            NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+        }
         
         var error: NSError? = nil
         var failureReason = "There was an error creating or loading the application's saved data."

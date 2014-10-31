@@ -56,13 +56,13 @@ class ProgramInstanceViewController: GAITrackedViewController {
         
         switch section {
         case 0:
-            row = 1
+            rows = 1
         case 1:
-            row = 1
+            rows = 1
         case 2:
-            row = 3
+            rows = 3
         default:
-            row = 0
+            rows = 0
         }
         
         return rows
