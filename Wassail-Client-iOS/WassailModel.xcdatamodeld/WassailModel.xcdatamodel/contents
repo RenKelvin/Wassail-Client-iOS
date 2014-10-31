@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A388a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="HLApply" representedClassName="HLApply" syncable="YES">
+        <attribute name="afDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="apDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cvDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ieltsDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="psDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rlDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satoractDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="toeflDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="trDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="wsDone" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
     <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
         <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
@@ -45,7 +56,7 @@
         <memberEntity name="HLApply"/>
     </configuration>
     <elements>
-        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="238"/>
         <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="163"/>
         <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="358"/>
     </elements>

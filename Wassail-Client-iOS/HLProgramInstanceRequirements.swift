@@ -195,10 +195,8 @@ class HLProgramInstanceRequirements: NSManagedObject {
         var title = ""
         var note = ""
         
-        // Exams
-        
-        // 205 ts
-        ind = 205
+        // 305 af
+        ind = 305
         title = "Application Fee"
         note = NSString(format: "申请费 $%g", applicationFee.doubleValue)
         

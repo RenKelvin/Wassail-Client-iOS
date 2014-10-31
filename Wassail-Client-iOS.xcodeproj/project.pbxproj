@@ -418,6 +418,7 @@
 		FE85385E1A03EA6500A26820 /* HLProgramInstanceRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */; };
 		FE8538611A03EE5600A26820 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */; };
 		FE8538621A03EE5600A26820 /* ProgramInstanceRequirements.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */; };
+		FE8538641A04058100A26820 /* ApplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8538631A04058100A26820 /* ApplyTableViewCell.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
 		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
@@ -983,6 +984,8 @@
 		FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstanceRequirements.swift; sourceTree = "<group>"; };
 		FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
 		FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstanceRequirements.json; path = "../../../../快盘/Haile/ProgramInstanceRequirements.json"; sourceTree = "<group>"; };
+		FE8538631A04058100A26820 /* ApplyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyTableViewCell.swift; sourceTree = "<group>"; };
+		FE8538651A0406D500A26820 /* HLApply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLApply.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
 		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
@@ -1488,6 +1491,7 @@
 			children = (
 				FE03FB5E19FFE48700FEEF16 /* ApplyManagerTableViewCell.swift */,
 				FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */,
+				FE8538631A04058100A26820 /* ApplyTableViewCell.swift */,
 			);
 			name = Apply;
 			sourceTree = "<group>";
@@ -2136,6 +2140,7 @@
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
+				FE8538651A0406D500A26820 /* HLApply.swift */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -2744,6 +2749,7 @@
 				FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */,
 				FE0393D019FCF42000D0E755 /* UserDataManager.swift in Sources */,
 				FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */,
+				FE8538641A04058100A26820 /* ApplyTableViewCell.swift in Sources */,
 				FE12E7E51A0110D6008F3470 /* SDWebImagePrefetcher.m in Sources */,
 				FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */,
 				FE4E2B0319C48FAF0096AD86 /* ArticleTableViewGraphCell.swift in Sources */,

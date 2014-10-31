@@ -101,16 +101,19 @@ class ApplyViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as ListTableViewSimple54Cell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyTableViewCell
         
         // Configure the cell
         let array = requirements!.getRequirements() as NSArray
         let subArray = array[indexPath.section] as NSArray
-        
         let req = subArray[indexPath.row] as NSArray
         cell.tag = req[0] as Int
         cell.titleLabel!.text = req[1] as NSString
         cell.noteLabel!.text = req[2] as NSString
+        
+        let done = apply!.getDone(req[0] as Int) as Bool
+        cell.checkButton!.selected = done
+        cell.apply = self.apply
         
         return cell
     }
