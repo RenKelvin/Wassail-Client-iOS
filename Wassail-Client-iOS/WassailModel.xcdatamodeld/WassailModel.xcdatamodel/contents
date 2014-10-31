@@ -3,8 +3,6 @@
     <entity name="HLApply" representedClassName="HLApply" syncable="YES">
         <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="preview" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstancePreview" inverseName="apply" inverseEntity="HLProgramInstancePreview" syncable="YES"/>
-        <relationship name="requirements" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLProgramInstanceRequirements" inverseName="apply" inverseEntity="HLProgramInstanceRequirements" syncable="YES"/>
     </entity>
     <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
         <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
@@ -15,11 +13,29 @@
         <attribute name="season" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="universityName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="apply" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLApply" inverseName="preview" inverseEntity="HLApply" syncable="YES"/>
     </entity>
     <entity name="HLProgramInstanceRequirements" syncable="YES">
+        <attribute name="apExamsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="applicationFee" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="applicationFeeHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greTotal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ieltsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ieltsTotal" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
         <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="apply" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HLApply" inverseName="requirements" inverseEntity="HLApply" syncable="YES"/>
+        <attribute name="psHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recommendationHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recommendationNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="resumeHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satoractHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satSubjectTestsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="schoolReportHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="scoreChoiceHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="teacherEvaluationsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="toeflHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="toeflIBTTotal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="transcriptHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="writingSampleHas" optional="YES" attributeType="Boolean" syncable="YES"/>
     </entity>
     <configuration name="Static">
         <memberEntity name="HLProgramInstancePreview"/>
@@ -29,8 +45,8 @@
         <memberEntity name="HLProgramInstancePreview"/>
     </configuration>
     <elements>
-        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="103"/>
-        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="180"/>
-        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="73"/>
+        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="163"/>
+        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="358"/>
     </elements>
 </model>

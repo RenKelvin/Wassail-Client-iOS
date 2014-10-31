@@ -62,7 +62,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         
         actionSheet.showInView(self.view)
     }
-
+    
     @IBAction func seasonButtonClicked() {
         let actionSheet = UIActionSheet(title: "选择入学学期", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
         actionSheet.tag = 2
@@ -85,7 +85,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         
         actionSheet.showInView(self.view)
     }
-
+    
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -222,6 +222,18 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         }
         
         self.reloadData()
+    }
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        // Get the new view controller using [segue destinationViewController].
+        // Pass the selected object to the new view controller.
+        
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
     
 }

@@ -69,7 +69,7 @@ class ApplyViewController: GAITrackedViewController {
     // MARK: - IBAction
     
     @IBAction func programHeaderTapped() {
-        self.performSegueWithIdentifier("ApplyProgramInstanceSegueIdentifier", sender: "留学时间表")
+        self.performSegueWithIdentifier("ApplyProgramInstanceSegueIdentifier", sender: apply!.programInstanceId)
     }
     
     // MARK: - Table view data source
@@ -108,6 +108,18 @@ class ApplyViewController: GAITrackedViewController {
         headerView.titleLabel?.text = title
         
         return headerView
+    }
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        // Get the new view controller using [segue destinationViewController].
+        // Pass the selected object to the new view controller.
+        
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
     
 }

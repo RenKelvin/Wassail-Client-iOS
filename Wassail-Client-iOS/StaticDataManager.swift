@@ -23,13 +23,13 @@ class StaticDataManager: NSObject {
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1] as NSURL
         }()
-
+    
     lazy var applicationCachesDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.haile.TestCoreData" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1] as NSURL
         }()
-
+    
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
         let modelURL = NSBundle.mainBundle().URLForResource("WassailModel", withExtension: "momd")!
@@ -42,12 +42,12 @@ class StaticDataManager: NSObject {
         var coordinator: NSPersistentStoreCoordinator? = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
         let url = self.applicationCachesDirectory.URLByAppendingPathComponent("Static.sqlite")
         
-        // Add static dota store from resource
-        if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
-        let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
-NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
-        }
-
+        // Copy static dota store from resource
+//        if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
+//            let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
+//            NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+//        }
+        
         var error: NSError? = nil
         var failureReason = "There was an error creating or loading the application's saved data."
         if coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Static", URL: url, options: nil, error: &error) == nil {

@@ -16,7 +16,7 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
     
     let scheme: NSString = "http"
     let host: NSString = "haile.elasticbeanstalk.com"
-    let path: NSString = "/api/v"       // For example: "/api/v1"
+    let path: NSString = "/api/v"   // For example: "/api/v1"
     
     class var instance : CloudAdapter {
         return _CloudAdapterSharedInstance
