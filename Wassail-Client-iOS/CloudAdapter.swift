@@ -55,13 +55,13 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         request.HTTPBody = bodyData
         
         // Create data task
-        let task = session.dataTaskWithRequest(request, completionHandler:
-            {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
                 // TODO: response handler
                 println(data)
                 println(response)
                 println(error)
-        })
+        }
+        let task = session.dataTaskWithRequest(request, completionHandler: completion)
         
         // Do the task
         task.resume()

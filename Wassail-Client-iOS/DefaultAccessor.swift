@@ -19,7 +19,7 @@ class DefaultAccessor: NSObject {
     }
     
     func getItem(name: NSString) -> HLItem? {
-        var item = DefaultMapper.instance.getItem(name)
+        var item = LocalMediator.instance.getItem(name)
         
         if (item == nil) {
             println("DefaultAccessor.getItem: \(name) - Failed!")

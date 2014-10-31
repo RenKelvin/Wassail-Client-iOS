@@ -13,7 +13,7 @@ private let _CloudMediatorSharedInstance = CloudMediator()
 class CloudMediator: NSObject {
     
     class var instance : CloudMediator {
-    return _CloudMediatorSharedInstance
+        return _CloudMediatorSharedInstance
     }
     
     func sendFeedback(text: NSString) {

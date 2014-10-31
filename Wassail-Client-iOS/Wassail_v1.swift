@@ -16,7 +16,13 @@ class Wassail_v1: NSObject {
         return _Wassail_v1SharedInstance
     }
     
-    // MARK: -
+    // MARK: - others
+
+    func getApplyStats(programInstanceId: NSNumber) {
+    
+}
+
+    // MARK: - others
     
     func sendFeedback(text: NSString) {
         

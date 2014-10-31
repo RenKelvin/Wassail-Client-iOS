@@ -330,7 +330,6 @@
 		FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
 		FE435F8B19CDC38A00CC6CCE /* UserAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */; };
-		FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */; };
 		FE47ADBE19FBA4570023A0A2 /* ApplyAdderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE47ADBD19FBA4570023A0A2 /* ApplyAdderViewController.swift */; };
 		FE47ADC019FBA4710023A0A2 /* ApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE47ADBF19FBA4710023A0A2 /* ApplyViewController.swift */; };
 		FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE496C0219C47D4C0003A29A /* DefaultInfo.swift */; };
@@ -491,11 +490,9 @@
 		FEC3BD5219C2948300184760 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5119C2948300184760 /* ListViewController.swift */; };
 		FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5419C298D100184760 /* DefaultAccessor.swift */; };
 		FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5819C29DBA00184760 /* ListInfo.swift */; };
-		FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */; };
 		FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */; };
 		FEC3BD6219C2C90600184760 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */; };
 		FEC3BD6419C2CA9300184760 /* ToolsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */; };
-		FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */; };
 		FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */; };
 		FEC7734519C43E0300E15DF2 /* HLItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */; };
 		FECBB60019BDFE2800115694 /* RKTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */; };
@@ -876,7 +873,6 @@
 		FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderTableViewCell.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
 		FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccessor.swift; sourceTree = "<group>"; };
-		FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
 		FE47ADBD19FBA4570023A0A2 /* ApplyAdderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderViewController.swift; sourceTree = "<group>"; };
 		FE47ADBF19FBA4710023A0A2 /* ApplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyViewController.swift; sourceTree = "<group>"; };
 		FE496C0219C47D4C0003A29A /* DefaultInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultInfo.swift; sourceTree = "<group>"; };
@@ -1056,11 +1052,9 @@
 		FEC3BD5119C2948300184760 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		FEC3BD5419C298D100184760 /* DefaultAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAccessor.swift; sourceTree = "<group>"; };
 		FEC3BD5819C29DBA00184760 /* ListInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
-		FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapper.swift; sourceTree = "<group>"; };
 		FEC3BD5E19C29E2300184760 /* LocalAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAdapter.swift; sourceTree = "<group>"; };
 		FEC3BD6119C2C90600184760 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		FEC3BD6319C2CA9300184760 /* ToolsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsInfo.swift; sourceTree = "<group>"; };
-		FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKInfoSyncSystem.swift; sourceTree = "<group>"; };
 		FEC7734219C43B3F00E15DF2 /* HLListPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLListPreview.swift; sourceTree = "<group>"; };
 		FEC7734419C43E0300E15DF2 /* HLItemBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemBuilder.swift; sourceTree = "<group>"; };
 		FECBB5FF19BDFE2800115694 /* RKTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKTableHeaderView.swift; sourceTree = "<group>"; };
@@ -1550,8 +1544,6 @@
 				FEC8649319BD3CDF005087A3 /* Controller */,
 				FEC8649419BD3CF4005087A3 /* Info */,
 				FEC8649519BD3D06005087A3 /* Accessor */,
-				FEC3BD5619C29D1D00184760 /* Mapper */,
-				FEC8649619BD3DE4005087A3 /* RKISS */,
 				FEC3BD4819C2896E00184760 /* Model */,
 				FEB1D7EE19CEB2E6002F7285 /* Mediator */,
 				FEC3BD5719C29D5B00184760 /* Adapter */,
@@ -2057,15 +2049,6 @@
 			name = Item;
 			sourceTree = "<group>";
 		};
-		FEC3BD5619C29D1D00184760 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				FEC3BD5A19C29DE300184760 /* DefaultMapper.swift */,
-				FE435F8C19CDC40D00CC6CCE /* UserMapper.swift */,
-			);
-			name = Mapper;
-			sourceTree = "<group>";
-		};
 		FEC3BD5719C29D5B00184760 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -2133,14 +2116,6 @@
 				FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */,
 			);
 			name = Accessor;
-			sourceTree = "<group>";
-		};
-		FEC8649619BD3DE4005087A3 /* RKISS */ = {
-			isa = PBXGroup;
-			children = (
-				FEC3BD6719C2CEA500184760 /* RKInfoSyncSystem.swift */,
-			);
-			name = RKISS;
 			sourceTree = "<group>";
 		};
 		FEC8649719BD3DF1005087A3 /* Resource */ = {
@@ -2736,7 +2711,6 @@
 				FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,
 				FE60E6AF19E58BE300147EF9 /* AWSCognitoAdapter.m in Sources */,
-				FEC3BD5B19C29DE300184760 /* DefaultMapper.swift in Sources */,
 				FEA05EE619FBB18E00D1C912 /* FieldListViewController.swift in Sources */,
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
@@ -2806,7 +2780,6 @@
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */,
 				FE98CA8419FE853700D71578 /* StaticDataManager.swift in Sources */,
-				FEC3BD6819C2CEA500184760 /* RKInfoSyncSystem.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
 				FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */,
 				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
@@ -2822,7 +2795,6 @@
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
-				FE435F8D19CDC40D00CC6CCE /* UserMapper.swift in Sources */,
 				FEA05EE819FBB19E00D1C912 /* UniversityRankingViewController.swift in Sources */,
 				FE72630119DFED10005739D0 /* Item.swift in Sources */,
 				FEE0300219C878A80061201E /* HLItem.swift in Sources */,
