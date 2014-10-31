@@ -11,7 +11,7 @@ import CoreData
 
 @objc(HLProgramInstanceRequirements)
 class HLProgramInstanceRequirements: NSManagedObject {
-
+    
     @NSManaged var programInstanceId: NSNumber
     @NSManaged var applicationFeeHas: NSNumber
     @NSManaged var applicationFee: NSNumber
@@ -33,7 +33,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
     @NSManaged var teacherEvaluationsHas: NSNumber
     @NSManaged var schoolReportHas: NSNumber
     @NSManaged var scoreChoiceHas: NSNumber
-
+    
+    var data: NSArray?
+    
     func configure(dict: NSDictionary) {
         let json: JSON = JSON(dict) as JSON
         
@@ -59,5 +61,150 @@ class HLProgramInstanceRequirements: NSManagedObject {
         schoolReportHas = json["SchoolReportHas"].boolValue
         scoreChoiceHas = json["ScoreChoiceHas"].boolValue
     }
-
+    
+    func getRequirements() -> NSArray {
+        
+        if (data != nil) {
+            return data!
+        }
+        
+        var array = NSMutableArray()
+        
+        array.addObject(self.getExamsRequirements())
+        array.addObject(self.getDocsRequirements())
+        array.addObject(self.getFeeRequirements())
+        
+        data = array
+        return array
+    }
+    
+    func getExamsRequirements() -> NSArray {
+        var array = NSMutableArray()
+        
+        var ind = 0
+        var title = ""
+        var note = ""
+        
+        // 101 toefl
+        if (toeflHas.boolValue) {
+            ind = 101
+            title = "TOEFL"
+            note = NSString(format: "寄送托福成绩 分数要求 %d", toeflIBTTotal.integerValue)
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 102 ielts
+        if (ieltsHas.boolValue) {
+            ind = 102
+            title = "IELTS"
+            note = NSString(format: "寄送雅思成绩 分数要求 %d", ieltsTotal.integerValue)
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 103 gre
+        if (greHas.boolValue) {
+            ind = 103
+            title = "GRE"
+            note = NSString(format: "寄送GRE成绩 分数要求 %d", greTotal.integerValue)
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 104 sat or act
+        if (satoractHas.boolValue) {
+            ind = 101
+            title = "SAT or ACT"
+            note = "寄送SAT或ACT成绩"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 105 ap
+        if (apExamsHas.boolValue) {
+            ind = 105
+            title = "AP"
+            note = "寄送AP考试成绩"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        return array
+    }
+    
+    func getDocsRequirements() -> NSArray {
+        var array = NSMutableArray()
+        
+        var ind = 0
+        var title = ""
+        var note = ""
+        
+        // 201 ps
+        if (psHas.boolValue) {
+            ind = 201
+            title = "Personal Statement"
+            note = "提交个人陈述"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 202 cv
+        if (resumeHas.boolValue) {
+            ind = 202
+            title = "Resume / CV"
+            note = "提交个人简历"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 203 rl
+        if (recommendationHas.boolValue) {
+            ind = 203
+            title = "Recomendation Letter"
+            note = NSString(format: "提交推荐信 要求%d封", recommendationNum.intValue)
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 204 ws
+        if (writingSampleHas.boolValue) {
+            ind = 204
+            title = "Writing Sample"
+            note = "提交写作示例"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        // 205 ts
+        if (transcriptHas.boolValue) {
+            ind = 205
+            title = "Transcript"
+            note = "提交成绩单"
+            
+            array.addObject([ind, title, note])
+        }
+        
+        return array
+    }
+    
+    func getFeeRequirements() -> NSArray {
+        var array = NSMutableArray()
+        
+        var ind = 0
+        var title = ""
+        var note = ""
+        
+        // Exams
+        
+        // 205 ts
+        ind = 205
+        title = "Application Fee"
+        note = NSString(format: "申请费 $%g", applicationFee.doubleValue)
+        
+        array.addObject([ind, title, note])
+        
+        return array
+    }
+    
 }

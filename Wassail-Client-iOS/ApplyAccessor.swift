@@ -36,6 +36,10 @@ class ApplyAccessor: NSObject {
         return DatabaseMediator.instance.getProgramInstancePreviewByProgramInstanceId(id)
     }
     
+    func getProgramInstanceRequirementsByProgramInstanceId(id: NSNumber) -> HLProgramInstanceRequirements? {
+        return DatabaseMediator.instance.getProgramInstanceRequirementsByProgramInstanceId(id)
+    }
+
     func getApplyByProgramInstanceId(id: NSNumber) -> HLApply? {
         return DatabaseMediator.instance.getApplyByProgramInstanceId(id)
     }

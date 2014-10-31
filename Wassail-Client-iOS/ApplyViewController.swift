@@ -11,7 +11,10 @@ import UIKit
 class ApplyViewController: GAITrackedViewController {
     
     var apply: HLApply?
+    var preview: HLProgramInstancePreview?
+    var requirements: HLProgramInstanceRequirements?
     
+    @IBOutlet var tableView: UITableView?
     @IBOutlet var navigationView: UIView?
     
     @IBOutlet var iconImageView: UIImageView?
@@ -28,7 +31,7 @@ class ApplyViewController: GAITrackedViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.updateView()
+        self.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -55,6 +58,16 @@ class ApplyViewController: GAITrackedViewController {
         }
     }
     
+    func reloadData() {
+        
+        let programInstanceId = apply!.programInstanceId as NSNumber
+        preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        requirements = ApplyAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
+        
+        self.updateView()
+        self.tableView!.reloadData()
+    }
+    
     func updateView() {
         let programInstanceId = apply!.programInstanceId as NSNumber
         let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
@@ -76,18 +89,28 @@ class ApplyViewController: GAITrackedViewController {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 1
+        return 3
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 3
+        let array = requirements!.getRequirements() as NSArray
+        let subArray = array[section] as NSArray
+        
+        return subArray.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as ListTableViewSimple54Cell
         
         // Configure the cell
+        let array = requirements!.getRequirements() as NSArray
+        let subArray = array[indexPath.section] as NSArray
+        
+        let req = subArray[indexPath.row] as NSArray
+        cell.tag = req[0] as Int
+        cell.titleLabel!.text = req[1] as NSString
+        cell.noteLabel!.text = req[2] as NSString
         
         return cell
     }
@@ -100,7 +123,11 @@ class ApplyViewController: GAITrackedViewController {
         var title: String = ""
         switch section {
         case 0:
-            title = "待办清单"
+            title = "标准化考试"
+        case 1:
+            title = "申请材料"
+        case 2:
+            title = "申请费"
         default:
             title = ""
         }

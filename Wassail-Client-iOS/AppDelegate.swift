@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //
         println(UserDataManager.instance.applicationDocumentsDirectory)
-        DatabaseMediator.instance.generateProgramInstancePreviewList()
-        DatabaseMediator.instance.generateProgramInstanceRequirementsList()
+//        DatabaseMediator.instance.generateProgramInstancePreviewList()
+//        DatabaseMediator.instance.generateProgramInstanceRequirementsList()
         
         return true
     }

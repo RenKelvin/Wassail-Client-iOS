@@ -17,12 +17,12 @@ class ApplyManagerInfo: NSObject {
     class var instance : ApplyManagerInfo {
         return _ApplyManagerInfoSharedInstance
     }
-
+    
     func reloadData() {
         data = ApplyAccessor.instance.getApplyList()
     }
     
     func getAllApplies() -> NSArray? {
         return data
-}
+    }
 }
