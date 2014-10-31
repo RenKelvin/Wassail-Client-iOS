@@ -415,6 +415,9 @@
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE85385C1A03E1D400A26820 /* FinanialCertificate.png in Resources */ = {isa = PBXBuildFile; fileRef = FE85385B1A03E1D400A26820 /* FinanialCertificate.png */; };
+		FE85385E1A03EA6500A26820 /* HLProgramInstanceRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */; };
+		FE8538611A03EE5600A26820 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */; };
+		FE8538621A03EE5600A26820 /* ProgramInstanceRequirements.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
 		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
@@ -977,6 +980,9 @@
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE85385B1A03E1D400A26820 /* FinanialCertificate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinanialCertificate.png; sourceTree = "<group>"; };
+		FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstanceRequirements.swift; sourceTree = "<group>"; };
+		FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
+		FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstanceRequirements.json; path = "../../../../快盘/Haile/ProgramInstanceRequirements.json"; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
 		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
@@ -1975,6 +1981,7 @@
 			children = (
 				FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */,
 				FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */,
+				FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */,
 			);
 			name = NSManagedObject;
 			sourceTree = "<group>";
@@ -2124,6 +2131,8 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */,
+				FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2539,6 +2548,7 @@
 				ADF2AC281A036B8C00DA02C3 /* 3.7教育学院排名.md.json in Resources */,
 				ADF2ABF61A036B8C00DA02C3 /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
+				FE8538611A03EE5600A26820 /* ProgramInstancePreview.json in Resources */,
 				FE9485F71A001FF7008E01D2 /* FieldIconHealth.png in Resources */,
 				FE7262F819DFEA11005739D0 /* 3.4CV样本.md.json in Resources */,
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
@@ -2567,6 +2577,7 @@
 				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
 				ADF2ABF71A036B8C00DA02C3 /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				FEB4258A19FD50E300C0EE2F /* cu-logo.png in Resources */,
+				FE8538621A03EE5600A26820 /* ProgramInstanceRequirements.json in Resources */,
 				ADF2AC221A036B8C00DA02C3 /* 3.5.1USNews评价标准.md.json in Resources */,
 				FE60E69D19E56E1F00147EF9 /* cib-2014-06-30.json in Resources */,
 				ADC907E119DD025300DFC311 /* 1.5.3CreditReport.jpg in Resources */,
@@ -2754,6 +2765,7 @@
 				FE124F5719F8D6B5003EC749 /* ApplyManagerViewController.swift in Sources */,
 				FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */,
 				FEC3BD5519C298D100184760 /* DefaultAccessor.swift in Sources */,
+				FE85385E1A03EA6500A26820 /* HLProgramInstanceRequirements.swift in Sources */,
 				FEB1D7FA19CF0CD0002F7285 /* DatabaseAdapter.swift in Sources */,
 				FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */,
 				FEC3BD5F19C29E2300184760 /* LocalAdapter.swift in Sources */,

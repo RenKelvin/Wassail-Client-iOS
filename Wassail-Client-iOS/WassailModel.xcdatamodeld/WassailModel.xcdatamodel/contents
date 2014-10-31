@@ -14,7 +14,7 @@
         <attribute name="universityName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
-    <entity name="HLProgramInstanceRequirements" syncable="YES">
+    <entity name="HLProgramInstanceRequirements" representedClassName="HLProgramInstanceRequirements" syncable="YES">
         <attribute name="apExamsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="applicationFee" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="applicationFeeHas" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -39,10 +39,10 @@
     </entity>
     <configuration name="Static">
         <memberEntity name="HLProgramInstancePreview"/>
+        <memberEntity name="HLProgramInstanceRequirements"/>
     </configuration>
     <configuration name="User">
         <memberEntity name="HLApply"/>
-        <memberEntity name="HLProgramInstancePreview"/>
     </configuration>
     <elements>
         <element name="HLApply" positionX="-63" positionY="-18" width="128" height="73"/>

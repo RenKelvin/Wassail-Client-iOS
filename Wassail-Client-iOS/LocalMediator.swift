@@ -70,6 +70,13 @@ class LocalMediator: NSObject {
         
         return array
     }
+
+    func getProgramInstanceRequirementsList() -> NSArray? {
+        
+        let array = LocalAdapter.instance.getJsonArray("ProgramInstanceRequirements", dir: .Bundle)
+        
+        return array
+    }
     
     func getMySize(key: String) -> NSDictionary? {
         

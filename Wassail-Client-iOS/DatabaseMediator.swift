@@ -33,6 +33,22 @@ class DatabaseMediator: NSObject {
             object!.configure(dict as NSDictionary)
         }
     }
+
+    func generateProgramInstanceRequirementsList() {
+        
+        // Get json array
+        let array = LocalMediator.instance.getProgramInstanceRequirementsList() as NSArray?
+        if (array == nil) {
+            return
+        }
+        
+        // Insert each object
+        for dict in array! {
+            var object: HLProgramInstanceRequirements? = DatabaseAdapter.instance.create("HLProgramInstanceRequirements", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstanceRequirements
+            
+            object!.configure(dict as NSDictionary)
+        }
+    }
     
     func getProgramInstancePreviewList() -> NSArray? {
         

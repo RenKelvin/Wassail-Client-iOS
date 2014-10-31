@@ -12,10 +12,10 @@ import CoreData
 @objc(HLProgramInstancePreview)
 class HLProgramInstancePreview: NSManagedObject {
     
+    @NSManaged var programInstanceId: NSNumber
     @NSManaged var deadlineDate: NSDate
     @NSManaged var degreeType: NSNumber
     @NSManaged var iconAddress: String
-    @NSManaged var programInstanceId: NSNumber
     @NSManaged var programName: String
     @NSManaged var season: NSNumber
     @NSManaged var universityName: String
@@ -25,13 +25,14 @@ class HLProgramInstancePreview: NSManagedObject {
     func configure(dict: NSDictionary) {
         let json: JSON = JSON(dict) as JSON
         
+        programInstanceId = json["programInstanceId"].intValue
+
         let date = NSDate.dateWithString(json["DeadlineDate"].stringValue)
         if (date != nil) {
             deadlineDate = date!
         }
         degreeType = json["DegreeType"].intValue
-iconAddress = json["IconUrl"].stringValue
-programInstanceId = json["programInstanceId"].intValue
+        iconAddress = json["IconUrl"].stringValue
         programName = json["programName"].stringValue
         season = json["Season"].intValue
         universityName = json["universityName"].stringValue
