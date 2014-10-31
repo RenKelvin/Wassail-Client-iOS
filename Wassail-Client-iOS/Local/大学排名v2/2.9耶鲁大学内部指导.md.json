@@ -1,0 +1,29 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u300a\u8036\u9c81\u5927\u5b66\u5185\u90e8\u6307\u5bfc\u300b(The Insider\u2019s Guide to the Colleges) \u662f\u4e00\u4e2a\u7531\u300a\u8036\u9c81\u65e5\u62a5\u300b\u5b66\u751f\u7f16\u8f91\u7684\u7f8e\u56fd\u5927\u5b66\u9009\u6821\u6307\u5357\u3002\u6b64\u6307\u5bfc\u6bcf\u5e74\u53d1\u884c\u5df2\u8fbe30\u591a\u5e74\u3002\u8fd9\u4e2a\u6307\u5bfc\u7f16\u8f91\u4e86\u5728\u6821\u751f\u63d0\u4f9b\u7684\u7b2c\u4e00\u624b\u53cd\u9988\uff0c\u6765\u4e3a\u6b63\u5728\u7533\u8bf7\u7684\u5b66\u751f\u89e3\u91ca\u6bcf\u4e2a\u5b66\u6821\u7684\u7533\u8bf7\u6d41\u7a0b\u3002\u8036\u9c81\u5927\u5b66\u5185\u90e8\u6307\u5bfc\u63d0\u4f9b\u4e86\u5168\u7f8e\u56fd323\u6240\u516c\u7acb\u5927\u5b66\uff0c\u79c1\u7acb\u5927\u5b66\u53ca\u6587\u7406\u5b66\u9662\u7684\u4fe1\u606f\u3002\u6700\u5927\u7279\u8272\u5c31\u662f\u8fd9\u4e9b\u4fe1\u606f\u5168\u90e8\u6765\u81ea\u5bf9\u5728\u6821\u5b66\u751f\u7684\u91c7\u8bbf\u3002\u6b64\u4e66\u76ee\u524d\u8fd8\u6ca1\u6709\u4e2d\u6587\u7248\uff0c\u82f1\u6587\u7248\u53ef\u4ee5\u5728\u4e9a\u9a6c\u900a\u4e2d\u6587\u7f51\u4e0a\u8d2d\u4e70\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.9Yale Insider.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "2.9Yale Insider.jpeg", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u8036\u9c81\u5927\u5b66\u5185\u90e8\u6307\u5bfc"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

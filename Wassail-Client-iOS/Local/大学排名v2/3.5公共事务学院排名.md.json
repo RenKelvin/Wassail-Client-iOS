@@ -1,0 +1,139 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.1\u516c\u5171\u4e8b\u52a1\u5b66\u9662\u6392\u540d", 
+                                "title": "\u516c\u5171\u4e8b\u52a1\u5b66\u9662\u6392\u540d"
+                            }, 
+                            "name": "3.5.1\u516c\u5171\u4e8b\u52a1\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Public Affairs Schools"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.2\u57ce\u5e02\u7ba1\u7406\u548c\u653f\u7b56", 
+                                "title": "\u57ce\u5e02\u7ba1\u7406\u548c\u653f\u7b56"
+                            }, 
+                            "name": "3.5.2\u57ce\u5e02\u7ba1\u7406\u548c\u653f\u7b56", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "City Management & Urban Policy"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.3\u73af\u5883\u653f\u7b56\u548c\u7ba1\u7406", 
+                                "title": "\u73af\u5883\u653f\u7b56\u548c\u7ba1\u7406"
+                            }, 
+                            "name": "3.5.3\u73af\u5883\u653f\u7b56\u548c\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Environmental Policy & Management"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.4\u536b\u751f\u653f\u7b56\u548c\u7ba1\u7406", 
+                                "title": "\u536b\u751f\u653f\u7b56\u548c\u7ba1\u7406"
+                            }, 
+                            "name": "3.5.4\u536b\u751f\u653f\u7b56\u548c\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Health Policy & Management"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.5\u4fe1\u606f\u6280\u672f\u7ba1\u7406", 
+                                "title": "\u4fe1\u606f\u6280\u672f\u7ba1\u7406"
+                            }, 
+                            "name": "3.5.5\u4fe1\u606f\u6280\u672f\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Information & Technology Management"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.6\u975e\u8425\u5229\u673a\u6784\u7ba1\u7406", 
+                                "title": "\u975e\u8425\u5229\u673a\u6784\u7ba1\u7406"
+                            }, 
+                            "name": "3.5.6\u975e\u8425\u5229\u673a\u6784\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Nonprofit Management"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.7\u516c\u5171\u8d22\u653f\u9884\u7b97", 
+                                "title": "\u516c\u5171\u8d22\u653f\u9884\u7b97"
+                            }, 
+                            "name": "3.5.7\u516c\u5171\u8d22\u653f\u9884\u7b97", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Public Finance & Budgeting"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.8\u516c\u5171\u7ba1\u7406\u5b66", 
+                                "title": "\u516c\u5171\u7ba1\u7406\u5b66"
+                            }, 
+                            "name": "3.5.8\u516c\u5171\u7ba1\u7406\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Public Management Administration"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.9\u516c\u5171\u653f\u7b56\u5206\u6790", 
+                                "title": "\u516c\u5171\u653f\u7b56\u5206\u6790"
+                            }, 
+                            "name": "3.5.9\u516c\u5171\u653f\u7b56\u5206\u6790", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Public-Policy Analysis"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.10\u793e\u4f1a\u653f\u7b56", 
+                                "title": "\u793e\u4f1a\u653f\u7b56"
+                            }, 
+                            "name": "3.5.10\u793e\u4f1a\u653f\u7b56", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Social Policy"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u516c\u5171\u4e8b\u52a1\u7c7b\uff08Public Affairs\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

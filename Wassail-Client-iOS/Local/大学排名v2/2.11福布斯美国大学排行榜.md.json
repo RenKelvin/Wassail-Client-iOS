@@ -1,0 +1,29 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u798f\u5e03\u65af\u7f8e\u56fd\u5927\u5b66\u6392\u884c\u699c\u4e0eUS News\u4e0d\u540c\uff0c\u5b83\u4e0d\u5927U (National Universities) \u548c\u6587\u7406\u5b66\u9662 (Liberal Arts Colleges) \u653e\u5728\u4e00\u8d77\u6392\u5e8f\u3002\u540d\u5229\u524d\u8305\u7684\u5b66\u6821\u76f8\u4f3c\u6027\u5f88\u660e\u663e\uff1a\u5386\u53f2\u60a0\u4e45\uff0c\u96c6\u4e2d\u5728\u7f8e\u56fd\u4e1c\u5317\u90e8\uff0c\u5b66\u751f\u503a\u52a1\u6c34\u5e73\u5f88\u4f4e\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.11\u798f\u5e03\u65af2014\u7f8e\u56fd\u5927\u5b66\u6392\u884c\u699c.png", 
+                                "title": ""
+                            }, 
+                            "name": "2.11\u798f\u5e03\u65af2014\u7f8e\u56fd\u5927\u5b66\u6392\u884c\u699c.png", 
+                            "type": "HLImg"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u798f\u5e03\u65af\u7f8e\u56fd\u5927\u5b66\u6392\u884c\u699c"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
