@@ -6,10 +6,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.1\u7edf\u8ba1\u5b66", 
+                                "address": "0201\u7edf\u8ba1\u5b66", 
                                 "title": "\u7edf\u8ba1\u5b66"
                             }, 
-                            "name": "3.2.1\u7edf\u8ba1\u5b66", 
+                            "name": "0201\u7edf\u8ba1\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -18,10 +18,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.2\u751f\u7269\u79d1\u5b66", 
+                                "address": "0202\u751f\u7269\u79d1\u5b66", 
                                 "title": "\u751f\u7269\u79d1\u5b66"
                             }, 
-                            "name": "3.2.2\u751f\u7269\u79d1\u5b66", 
+                            "name": "0202\u751f\u7269\u79d1\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -30,10 +30,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.3\u5316\u5b66", 
+                                "address": "0203\u5316\u5b66", 
                                 "title": "\u5316\u5b66"
                             }, 
-                            "name": "3.2.3\u5316\u5b66", 
+                            "name": "0203\u5316\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -42,10 +42,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.4\u8ba1\u7b97\u673a\u79d1\u5b66", 
+                                "address": "0204\u8ba1\u7b97\u673a\u79d1\u5b66", 
                                 "title": "\u8ba1\u7b97\u673a\u79d1\u5b66"
                             }, 
-                            "name": "3.2.4\u8ba1\u7b97\u673a\u79d1\u5b66", 
+                            "name": "0204\u8ba1\u7b97\u673a\u79d1\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -54,10 +54,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.5\u5730\u7403\u79d1\u5b66", 
+                                "address": "0205\u5730\u7403\u79d1\u5b66", 
                                 "title": "\u5730\u7403\u79d1\u5b66"
                             }, 
-                            "name": "3.2.5\u5730\u7403\u79d1\u5b66", 
+                            "name": "0205\u5730\u7403\u79d1\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -66,10 +66,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.6\u6570\u5b66", 
+                                "address": "0206\u6570\u5b66", 
                                 "title": "\u6570\u5b66"
                             }, 
-                            "name": "3.2.6\u6570\u5b66", 
+                            "name": "0206\u6570\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -78,10 +78,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.2.7\u7269\u7406\u5b66", 
+                                "address": "0207\u7269\u7406\u5b66", 
                                 "title": "\u7269\u7406\u5b66"
                             }, 
-                            "name": "3.2.7\u7269\u7406\u5b66", 
+                            "name": "0207\u7269\u7406\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 

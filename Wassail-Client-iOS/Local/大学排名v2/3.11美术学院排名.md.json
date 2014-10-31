@@ -6,10 +6,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.1\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
+                                "address": "1101\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
                                 "title": "\u7f8e\u672f\u5b66\u9662\u6392\u540d"
                             }, 
-                            "name": "3.11.1\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
+                            "name": "1101\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -23,10 +23,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.2\u5236\u9676\u672f", 
+                                "address": "1102\u5236\u9676\u672f", 
                                 "title": "\u5236\u9676\u672f"
                             }, 
-                            "name": "3.11.2\u5236\u9676\u672f", 
+                            "name": "1102\u5236\u9676\u672f", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -35,10 +35,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.3\u5e73\u9762\u8bbe\u8ba1", 
+                                "address": "1103\u5e73\u9762\u8bbe\u8ba1", 
                                 "title": "\u5e73\u9762\u8bbe\u8ba1"
                             }, 
-                            "name": "3.11.3\u5e73\u9762\u8bbe\u8ba1", 
+                            "name": "1103\u5e73\u9762\u8bbe\u8ba1", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -47,10 +47,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.4\u5de5\u4e1a\u8bbe\u8ba1", 
+                                "address": "1104\u5de5\u4e1a\u8bbe\u8ba1", 
                                 "title": "\u5de5\u4e1a\u8bbe\u8ba1"
                             }, 
-                            "name": "3.11.4\u5de5\u4e1a\u8bbe\u8ba1", 
+                            "name": "1104\u5de5\u4e1a\u8bbe\u8ba1", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -59,10 +59,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.5\u5ba4\u5185\u8bbe\u8ba1", 
+                                "address": "1105\u5ba4\u5185\u8bbe\u8ba1", 
                                 "title": "\u5ba4\u5185\u8bbe\u8ba1"
                             }, 
-                            "name": "3.11.5\u5ba4\u5185\u8bbe\u8ba1", 
+                            "name": "1105\u5ba4\u5185\u8bbe\u8ba1", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -71,10 +71,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.6\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe", 
+                                "address": "1106\u591a\u5a92\u4f53", 
                                 "title": "\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe"
                             }, 
-                            "name": "3.11.6\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe", 
+                            "name": "1106\u591a\u5a92\u4f53", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -83,10 +83,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.7\u7ed8\u753b", 
+                                "address": "1107\u7ed8\u753b", 
                                 "title": "\u7ed8\u753b"
                             }, 
-                            "name": "3.11.7\u7ed8\u753b", 
+                            "name": "1107\u7ed8\u753b", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -95,10 +95,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.8\u6444\u5f71", 
+                                "address": "1108\u6444\u5f71", 
                                 "title": "\u6444\u5f71"
                             }, 
-                            "name": "3.11.8\u6444\u5f71", 
+                            "name": "1108\u6444\u5f71", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -107,10 +107,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.9\u7248\u753b", 
+                                "address": "1109\u7248\u753b", 
                                 "title": "\u7248\u753b"
                             }, 
-                            "name": "3.11.9\u7248\u753b", 
+                            "name": "1109\u7248\u753b", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
@@ -119,10 +119,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "3.11.10\u96d5\u5851", 
+                                "address": "1110\u96d5\u5851", 
                                 "title": "\u96d5\u5851"
                             }, 
-                            "name": "3.11.10\u96d5\u5851", 
+                            "name": "1110\u96d5\u5851", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 

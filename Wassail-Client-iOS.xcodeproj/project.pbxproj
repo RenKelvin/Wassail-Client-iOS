@@ -185,6 +185,9 @@
 		ADD68A9019FA4C1100B88199 /* 3英国留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */; };
 		ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */; };
 		ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */; };
+		ADE4DB2D1A0383D40087CFDB /* 0加拿大国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB291A0383D40087CFDB /* 0加拿大国旗.jpg */; };
+		ADE4DB2E1A0383D40087CFDB /* 0澳大利亚国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB2A1A0383D40087CFDB /* 0澳大利亚国旗.jpg */; };
+		ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB2C1A0383D40087CFDB /* 0英国国旗.jpg */; };
 		ADF246A519F4FF1C005BA7E5 /* 0网申流程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468319F4FF1C005BA7E5 /* 0网申流程.md.json */; };
 		ADF246A619F4FF1C005BA7E5 /* 1.1Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468419F4FF1C005BA7E5 /* 1.1Login.jpg */; };
 		ADF246A719F4FF1C005BA7E5 /* 1.2LoginAddress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADF2468519F4FF1C005BA7E5 /* 1.2LoginAddress.jpg */; };
@@ -464,7 +467,6 @@
 		FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */; };
 		FEA59C0A19FFD4FD00B1DD45 /* HLApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
-		FEAE0CAA19FE8F3E00CC5110 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
@@ -706,6 +708,9 @@
 		ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3英国留学费用.md.json"; sourceTree = "<group>"; };
 		ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4日本留学费用.md.json"; sourceTree = "<group>"; };
 		ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5加拿大留学费用.md.json"; sourceTree = "<group>"; };
+		ADE4DB291A0383D40087CFDB /* 0加拿大国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0加拿大国旗.jpg"; sourceTree = "<group>"; };
+		ADE4DB2A1A0383D40087CFDB /* 0澳大利亚国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0澳大利亚国旗.jpg"; sourceTree = "<group>"; };
+		ADE4DB2C1A0383D40087CFDB /* 0英国国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0英国国旗.jpg"; sourceTree = "<group>"; };
 		ADF2468319F4FF1C005BA7E5 /* 0网申流程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0网申流程.md.json"; sourceTree = "<group>"; };
 		ADF2468419F4FF1C005BA7E5 /* 1.1Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.1Login.jpg; sourceTree = "<group>"; };
 		ADF2468519F4FF1C005BA7E5 /* 1.2LoginAddress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2LoginAddress.jpg; sourceTree = "<group>"; };
@@ -1021,7 +1026,6 @@
 		FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKApplyButton.swift; sourceTree = "<group>"; };
 		FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLApply.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
-		FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
@@ -1223,27 +1227,23 @@
 		ADD68A8619FA4C1100B88199 /* 留学费用 */ = {
 			isa = PBXGroup;
 			children = (
-				AD34571C19FFE223004382CE /* 3.2Livingexpenses3.jpg */,
-				AD34571D19FFE223004382CE /* 3.4Parttimejob.jpg */,
-				AD34571E19FFE223004382CE /* 5.1CanadianCollege.jpg */,
-				AD34571F19FFE223004382CE /* 5.1CanadianHighSchool.jpg */,
-				AD34572019FFE223004382CE /* 5.1Colleges.jpeg */,
-				AD34572119FFE223004382CE /* 5.1学费.md.json */,
-				AD34572219FFE223004382CE /* 5.2living expenses3.jpeg */,
-				AD34572319FFE223004382CE /* 5.2生活费.md.json */,
-				AD34572419FFE223004382CE /* 5.3Scholarship1.jpeg */,
-				AD34572519FFE223004382CE /* 5.3奖学金.md.json */,
-				AD34572619FFE223004382CE /* 5.4Partimejob2.jpeg */,
-				AD34572719FFE223004382CE /* 5.4打工.md.json */,
-				AD34572819FFE223004382CE /* 6资金证明.md.json */,
-				AD8D823219FF9CF900C9FAF3 /* 1.1Tuition.jpg */,
-				AD8D823319FF9CF900C9FAF3 /* 3.1Britishcollege.jpg */,
-				AD8D823419FF9CF900C9FAF3 /* 3.1Tuition1.jpeg */,
-				AD8D823519FF9CF900C9FAF3 /* 3.1学费.md.json */,
-				AD8D823619FF9CF900C9FAF3 /* 3.2生活费.md.json */,
-				AD8D823719FF9CF900C9FAF3 /* 3.3奖学金.md.json */,
-				AD8D823819FF9CF900C9FAF3 /* 3.4打工.md.json */,
+				ADE4DB291A0383D40087CFDB /* 0加拿大国旗.jpg */,
+				ADE4DB2A1A0383D40087CFDB /* 0澳大利亚国旗.jpg */,
+				ADD68A8719FA4C1100B88199 /* 0留学费用.md.json */,
+				ADE4DB2C1A0383D40087CFDB /* 0英国国旗.jpg */,
 				ADA7749C19FE7E9F00F65AA7 /* 1.1Colleges.jpeg */,
+				AD8D823219FF9CF900C9FAF3 /* 1.1Tuition.jpg */,
+				ADCB6C0019FA8BE800E8DD20 /* 1.1Tuition1.jpeg */,
+				ADCB6C0119FA8BE800E8DD20 /* 1.1Tuition3.jpg */,
+				ADCB6BF619FA84F600E8DD20 /* 1.1学费.md.json */,
+				ADCB6C0219FA8BE800E8DD20 /* 1.2Livingexpenses1.jpeg */,
+				ADCB6BF719FA84F600E8DD20 /* 1.2生活费.md.json */,
+				ADCB6C0319FA8BE800E8DD20 /* 1.3Scholarship2.jpg */,
+				ADCB6BF819FA84F600E8DD20 /* 1.3奖学金.md.json */,
+				ADCB6C0419FA8BE800E8DD20 /* 1.4Partimejob4.jpeg */,
+				ADCB6BF919FA84F600E8DD20 /* 1.4打工.md.json */,
+				ADCB6BFA19FA84F600E8DD20 /* 1美国.md.json */,
+				ADD68A8819FA4C1100B88199 /* 1美国留学费用.md.json */,
 				ADA7749D19FE7E9F00F65AA7 /* 2.1ANU.jpg */,
 				ADA7749E19FE7E9F00F65AA7 /* 2.1College.jpeg */,
 				ADA7749F19FE7E9F00F65AA7 /* 2.1Tuition2.jpeg */,
@@ -1254,25 +1254,32 @@
 				ADA774A419FE7E9F00F65AA7 /* 2.4Partimejob3.jpeg */,
 				ADA774A519FE7E9F00F65AA7 /* 2.4打工.md.json */,
 				ADA774A619FE7E9F00F65AA7 /* 2澳大利亚.md.json */,
-				ADA774A719FE7E9F00F65AA7 /* 3英国.md.json */,
-				ADA774A819FE7E9F00F65AA7 /* 4日本.md.json */,
-				ADA774A919FE7E9F00F65AA7 /* 5加拿大.md.json */,
-				ADCB6C0019FA8BE800E8DD20 /* 1.1Tuition1.jpeg */,
-				ADCB6C0119FA8BE800E8DD20 /* 1.1Tuition3.jpg */,
-				ADCB6C0219FA8BE800E8DD20 /* 1.2Livingexpenses1.jpeg */,
-				ADCB6C0319FA8BE800E8DD20 /* 1.3Scholarship2.jpg */,
-				ADCB6C0419FA8BE800E8DD20 /* 1.4Partimejob4.jpeg */,
-				ADCB6BF619FA84F600E8DD20 /* 1.1学费.md.json */,
-				ADCB6BF719FA84F600E8DD20 /* 1.2生活费.md.json */,
-				ADCB6BF819FA84F600E8DD20 /* 1.3奖学金.md.json */,
-				ADCB6BF919FA84F600E8DD20 /* 1.4打工.md.json */,
-				ADCB6BFA19FA84F600E8DD20 /* 1美国.md.json */,
-				ADD68A8719FA4C1100B88199 /* 0留学费用.md.json */,
-				ADD68A8819FA4C1100B88199 /* 1美国留学费用.md.json */,
 				ADD68A8919FA4C1100B88199 /* 2澳大利亚留学费用.md.json */,
+				AD8D823319FF9CF900C9FAF3 /* 3.1Britishcollege.jpg */,
+				AD8D823419FF9CF900C9FAF3 /* 3.1Tuition1.jpeg */,
+				AD8D823519FF9CF900C9FAF3 /* 3.1学费.md.json */,
+				AD34571C19FFE223004382CE /* 3.2Livingexpenses3.jpg */,
+				AD8D823619FF9CF900C9FAF3 /* 3.2生活费.md.json */,
+				AD8D823719FF9CF900C9FAF3 /* 3.3奖学金.md.json */,
+				AD34571D19FFE223004382CE /* 3.4Parttimejob.jpg */,
+				AD8D823819FF9CF900C9FAF3 /* 3.4打工.md.json */,
+				ADA774A719FE7E9F00F65AA7 /* 3英国.md.json */,
 				ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */,
+				ADA774A819FE7E9F00F65AA7 /* 4日本.md.json */,
 				ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */,
+				AD34571E19FFE223004382CE /* 5.1CanadianCollege.jpg */,
+				AD34571F19FFE223004382CE /* 5.1CanadianHighSchool.jpg */,
+				AD34572019FFE223004382CE /* 5.1Colleges.jpeg */,
+				AD34572119FFE223004382CE /* 5.1学费.md.json */,
+				AD34572219FFE223004382CE /* 5.2living expenses3.jpeg */,
+				AD34572319FFE223004382CE /* 5.2生活费.md.json */,
+				AD34572419FFE223004382CE /* 5.3Scholarship1.jpeg */,
+				AD34572519FFE223004382CE /* 5.3奖学金.md.json */,
+				AD34572619FFE223004382CE /* 5.4Partimejob2.jpeg */,
+				AD34572719FFE223004382CE /* 5.4打工.md.json */,
+				ADA774A919FE7E9F00F65AA7 /* 5加拿大.md.json */,
 				ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */,
+				AD34572819FFE223004382CE /* 6资金证明.md.json */,
 			);
 			path = "留学费用";
 			sourceTree = "<group>";
@@ -2132,7 +2139,6 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2351,6 +2357,7 @@
 				AD34573319FFE223004382CE /* 5.4Partimejob2.jpeg in Resources */,
 				ADF246AE19F4FF1C005BA7E5 /* 1.9thirdparty.jpg in Resources */,
 				FE9485FD1A001FF7008E01D2 /* FieldIconSocialScience.png in Resources */,
+				ADE4DB2E1A0383D40087CFDB /* 0澳大利亚国旗.jpg in Resources */,
 				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */,
@@ -2451,6 +2458,7 @@
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				ADF2AC161A036B8C00DA02C3 /* 2.9Yale Insider.jpeg in Resources */,
 				AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */,
+				ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */,
 				ADA774B719FE7E9F00F65AA7 /* 5加拿大.md.json in Resources */,
 				ADF2AC2A1A036B8C00DA02C3 /* 3.9法学院排名.md.json in Resources */,
 				AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */,
@@ -2458,6 +2466,7 @@
 				ADCB6C0719FA8BE800E8DD20 /* 1.2Livingexpenses1.jpeg in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADF2AC171A036B8C00DA02C3 /* 2.9耶鲁大学内部指导.md.json in Resources */,
+				ADE4DB2D1A0383D40087CFDB /* 0加拿大国旗.jpg in Resources */,
 				ADF2AC271A036B8C00DA02C3 /* 3.6图书咨询学排名.md.json in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
 				ADA774AE19FE7E9F00F65AA7 /* 2.1学费.md.json in Resources */,
@@ -2644,7 +2653,6 @@
 				ADF2ABF01A036B8C00DA02C3 /* 1.1.4THELogo.jpg in Resources */,
 				ADF2AC241A036B8C00DA02C3 /* 3.5公共事务学院排名.md.json in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
-				FEAE0CAA19FE8F3E00CC5110 /* ProgramInstancePreview.json in Resources */,
 				ADA774B519FE7E9F00F65AA7 /* 3英国.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
