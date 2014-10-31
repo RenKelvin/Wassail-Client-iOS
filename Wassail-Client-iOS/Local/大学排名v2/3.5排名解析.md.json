@@ -1,0 +1,36 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.1USNews\u8bc4\u4ef7\u6807\u51c6", 
+                                "title": "US News\u8bc4\u4ef7\u6807\u51c6"
+                            }, 
+                            "name": "3.5.1USNews\u8bc4\u4ef7\u6807\u51c6", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5.2\u6700\u65b0\u6392\u540d\u89e3\u8bfb", 
+                                "title": "2015\u6700\u65b0\u6392\u540d\u89e3\u8bfb"
+                            }, 
+                            "name": "3.5.2\u6700\u65b0\u6392\u540d\u89e3\u8bfb", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u6392\u540d\u89e3\u6790"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}
