@@ -190,6 +190,7 @@
 		ADD68A9019FA4C1100B88199 /* 3英国留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */; };
 		ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */; };
 		ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */; };
+		ADDC6F491A03B342008376C1 /* 3.14诺贝尔奖.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADDC6F481A03B342008376C1 /* 3.14诺贝尔奖.md.json */; };
 		ADE4DB2D1A0383D40087CFDB /* 0加拿大国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB291A0383D40087CFDB /* 0加拿大国旗.jpg */; };
 		ADE4DB2E1A0383D40087CFDB /* 0澳大利亚国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB2A1A0383D40087CFDB /* 0澳大利亚国旗.jpg */; };
 		ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE4DB2C1A0383D40087CFDB /* 0英国国旗.jpg */; };
@@ -718,6 +719,7 @@
 		ADD68A8A19FA4C1100B88199 /* 3英国留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3英国留学费用.md.json"; sourceTree = "<group>"; };
 		ADD68A8B19FA4C1100B88199 /* 4日本留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4日本留学费用.md.json"; sourceTree = "<group>"; };
 		ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5加拿大留学费用.md.json"; sourceTree = "<group>"; };
+		ADDC6F481A03B342008376C1 /* 3.14诺贝尔奖.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.14诺贝尔奖.md.json"; sourceTree = "<group>"; };
 		ADE4DB291A0383D40087CFDB /* 0加拿大国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0加拿大国旗.jpg"; sourceTree = "<group>"; };
 		ADE4DB2A1A0383D40087CFDB /* 0澳大利亚国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0澳大利亚国旗.jpg"; sourceTree = "<group>"; };
 		ADE4DB2C1A0383D40087CFDB /* 0英国国旗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0英国国旗.jpg"; sourceTree = "<group>"; };
@@ -1297,6 +1299,7 @@
 		ADF2AB9A1A036B8C00DA02C3 /* 大学排名v2 */ = {
 			isa = PBXGroup;
 			children = (
+				ADDC6F481A03B342008376C1 /* 3.14诺贝尔奖.md.json */,
 				ADBB66B31A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json */,
 				ADBB66AB1A03A8A500E48C82 /* 2.3USNews评价标准.png */,
 				ADBB66AC1A03A8A500E48C82 /* 2.12更多榜单.md.json */,
@@ -2365,6 +2368,7 @@
 				AD8D823919FF9CF900C9FAF3 /* 1.1Tuition.jpg in Resources */,
 				AD0E75E519F37695006F433C /* 3.13languages.jpg in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
+				ADDC6F491A03B342008376C1 /* 3.14诺贝尔奖.md.json in Resources */,
 				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
