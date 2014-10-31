@@ -1,0 +1,245 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/agricultural-sciences", 
+                                "title": "Agricultural Sciences \u519c\u4e1a\u79d1\u6280\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/agricultural-sciences", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/biology-biochemistry", 
+                                "title": "Biology and Biochemistry \u751f\u7269\u4e0e\u751f\u7269\u5316\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/biology-biochemistry", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/chemistry", 
+                                "title": "Chemistry \u5316\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/chemistry", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/clinical-medicine", 
+                                "title": "Clinical Medicine \u4e34\u5e8a\u533b\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/clinical-medicine", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/computer-science", 
+                                "title": "Computer Science \u8ba1\u7b97\u673a\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/computer-science", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/economics-business", 
+                                "title": "Economics and Business \u7ecf\u6d4e\u4e0e\u5546\u4e1a\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/economics-business", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/engineering", 
+                                "title": "Engineering \u5de5\u7a0b\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/engineering", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/environment-ecology", 
+                                "title": "Environment/Ecology \u73af\u5883\u4e0e\u751f\u6001\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/environment-ecology", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/geosciences", 
+                                "title": "Geosciences \u5730\u8d28\u79d1\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/geosciences", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/immunology", 
+                                "title": "Immunology \u9632\u75ab\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/immunology", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/materials-science", 
+                                "title": "Materials Science \u6750\u6599\u79d1\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/materials-science", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/mathematics", 
+                                "title": "Mathematics \u6570\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/mathematics", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/microbiology", 
+                                "title": "Microbiology \u5fae\u751f\u7269\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/microbiology", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/molecular-biology-genetics", 
+                                "title": "Molecular Biology and Genetics \u5206\u5b50\u751f\u7269\u4e0e\u57fa\u56e0\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/molecular-biology-genetics", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/neuroscience-behavior", 
+                                "title": "Neuroscience and Behavior \u795e\u7ecf\u79d1\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/neuroscience-behavior", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/pharmacology-toxicology", 
+                                "title": "Pharmacology and Toxicology \u836f\u7406\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/pharmacology-toxicology", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/physics", 
+                                "title": "Physics \u7269\u7406\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/physics", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/plant-animal-science", 
+                                "title": "Plant and Animal Science \u52a8\u690d\u7269\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/plant-animal-science", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/psychiatry-psychology", 
+                                "title": "Psychiatry/Psychology \u5fc3\u7406\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/psychiatry-psychology", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/social-sciences-public-health", 
+                                "title": "SocialSciences and Public Health \u793e\u4f1a\u79d1\u5b66\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/social-sciences-public-health", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "http://www.usnews.com/education/best-global-universities/space-science", 
+                                "title": "Space Science \u822a\u7a7a\u79d1\u6280\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "http://www.usnews.com/education/best-global-universities/space-science", 
+                            "type": "HLLink"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "US News\u5176\u4ed6\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

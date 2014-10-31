@@ -43,10 +43,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.1USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "address": "0201USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                                 "title": "US News\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
-                            "name": "2.1USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "name": "0201USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
@@ -63,10 +63,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.2THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "address": "0202THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                                 "title": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
-                            "name": "2.2THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "name": "0202THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
@@ -83,10 +83,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.3QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "address": "0203QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                                 "title": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d"
                             }, 
-                            "name": "2.3QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "name": "0203QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {
@@ -103,10 +103,10 @@
                     {
                         "content": {
                             "body": {
-                                "address": "2.4ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
+                                "address": "0204ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
                                 "title": "ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d"
                             }, 
-                            "name": "2.4ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
+                            "name": "0204ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "icon": {

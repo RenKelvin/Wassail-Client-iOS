@@ -137,6 +137,11 @@
 		ADA774B519FE7E9F00F65AA7 /* 3英国.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADA774A719FE7E9F00F65AA7 /* 3英国.md.json */; };
 		ADA774B619FE7E9F00F65AA7 /* 4日本.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADA774A819FE7E9F00F65AA7 /* 4日本.md.json */; };
 		ADA774B719FE7E9F00F65AA7 /* 5加拿大.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADA774A919FE7E9F00F65AA7 /* 5加拿大.md.json */; };
+		ADBB66AF1A03A8A500E48C82 /* 2.3USNews评价标准.png in Resources */ = {isa = PBXBuildFile; fileRef = ADBB66AB1A03A8A500E48C82 /* 2.3USNews评价标准.png */; };
+		ADBB66B01A03A8A500E48C82 /* 2.12更多榜单.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADBB66AC1A03A8A500E48C82 /* 2.12更多榜单.md.json */; };
+		ADBB66B11A03A8A500E48C82 /* 3.1美国大学类型简介.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADBB66AD1A03A8A500E48C82 /* 3.1美国大学类型简介.md.json */; };
+		ADBB66B21A03A8A500E48C82 /* 4.0LinkedIn排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADBB66AE1A03A8A500E48C82 /* 4.0LinkedIn排名.md.json */; };
+		ADBB66B41A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = ADBB66B31A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json */; };
 		ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */; };
 		ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */; };
 		ADC907DC19DD025300DFC311 /* 1.2Overconsumption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */; };
@@ -660,6 +665,11 @@
 		ADA774A719FE7E9F00F65AA7 /* 3英国.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3英国.md.json"; sourceTree = "<group>"; };
 		ADA774A819FE7E9F00F65AA7 /* 4日本.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4日本.md.json"; sourceTree = "<group>"; };
 		ADA774A919FE7E9F00F65AA7 /* 5加拿大.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5加拿大.md.json"; sourceTree = "<group>"; };
+		ADBB66AB1A03A8A500E48C82 /* 2.3USNews评价标准.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.3USNews评价标准.png"; sourceTree = "<group>"; };
+		ADBB66AC1A03A8A500E48C82 /* 2.12更多榜单.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.12更多榜单.md.json"; sourceTree = "<group>"; };
+		ADBB66AD1A03A8A500E48C82 /* 3.1美国大学类型简介.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.1美国大学类型简介.md.json"; sourceTree = "<group>"; };
+		ADBB66AE1A03A8A500E48C82 /* 4.0LinkedIn排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4.0LinkedIn排名.md.json"; sourceTree = "<group>"; };
+		ADBB66B31A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2.6.1USNews其他排名.md.json"; sourceTree = "<group>"; };
 		ADC907C019DD025300DFC311 /* 1.1Credit Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1.1Credit Card.jpg"; sourceTree = "<group>"; };
 		ADC907C119DD025300DFC311 /* 1.2creditcardsafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2creditcardsafe.jpg; sourceTree = "<group>"; };
 		ADC907C219DD025300DFC311 /* 1.2Overconsumption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.2Overconsumption.jpg; sourceTree = "<group>"; };
@@ -1287,6 +1297,11 @@
 		ADF2AB9A1A036B8C00DA02C3 /* 大学排名v2 */ = {
 			isa = PBXGroup;
 			children = (
+				ADBB66B31A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json */,
+				ADBB66AB1A03A8A500E48C82 /* 2.3USNews评价标准.png */,
+				ADBB66AC1A03A8A500E48C82 /* 2.12更多榜单.md.json */,
+				ADBB66AD1A03A8A500E48C82 /* 3.1美国大学类型简介.md.json */,
+				ADBB66AE1A03A8A500E48C82 /* 4.0LinkedIn排名.md.json */,
 				ADF2AB9B1A036B8C00DA02C3 /* 0ARWU.jpg */,
 				ADF2AB9C1A036B8C00DA02C3 /* 0QS.jpg */,
 				ADF2AB9D1A036B8C00DA02C3 /* 0USNews.jpg */,
@@ -2291,6 +2306,7 @@
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
 				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
+				ADBB66B11A03A8A500E48C82 /* 3.1美国大学类型简介.md.json in Resources */,
 				FE9485F31A001FF7008E01D2 /* FieldIconBusiness.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADF2ABFA1A036B8C00DA02C3 /* 2.2.2Northeastern.jpg in Resources */,
@@ -2360,6 +2376,7 @@
 				ADE4DB2E1A0383D40087CFDB /* 0澳大利亚国旗.jpg in Resources */,
 				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
+				ADBB66B21A03A8A500E48C82 /* 4.0LinkedIn排名.md.json in Resources */,
 				AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */,
 				FE9485FC1A001FF7008E01D2 /* FieldIconScience.png in Resources */,
 				ADF246AD19F4FF1C005BA7E5 /* 1.8otherschool.jpg in Resources */,
@@ -2369,6 +2386,7 @@
 				ADF2ABF31A036B8C00DA02C3 /* 1如何看待排名.md.json in Resources */,
 				AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */,
 				ADF2AC191A036B8C00DA02C3 /* 3.10医学院排名.md.json in Resources */,
+				ADBB66AF1A03A8A500E48C82 /* 2.3USNews评价标准.png in Resources */,
 				ADF2AC011A036B8C00DA02C3 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
 				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
 				AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */,
@@ -2458,6 +2476,7 @@
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				ADF2AC161A036B8C00DA02C3 /* 2.9Yale Insider.jpeg in Resources */,
 				AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */,
+				ADBB66B41A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json in Resources */,
 				ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */,
 				ADA774B719FE7E9F00F65AA7 /* 5加拿大.md.json in Resources */,
 				ADF2AC2A1A036B8C00DA02C3 /* 3.9法学院排名.md.json in Resources */,
@@ -2644,6 +2663,7 @@
 				AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */,
 				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
 				AD34572A19FFE223004382CE /* 3.4Parttimejob.jpg in Resources */,
+				ADBB66B01A03A8A500E48C82 /* 2.12更多榜单.md.json in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
 				AD548A3D19F803FC0088E19C /* 2.7.2小论文范文.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
