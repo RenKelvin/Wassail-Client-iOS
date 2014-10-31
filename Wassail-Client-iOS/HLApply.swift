@@ -26,6 +26,24 @@ class HLApply: NSManagedObject {
     @NSManaged var trDone: NSNumber
     @NSManaged var afDone: NSNumber
     
+    func getDoneCount() -> Int {
+        var count = 0
+        
+        if (toeflDone.boolValue) {count++}
+        if (ieltsDone.boolValue) {count++}
+        if (greDone.boolValue) {count++}
+        if (satoractDone.boolValue) {count++}
+        if (apDone.boolValue) {count++}
+        if (psDone.boolValue) {count++}
+        if (cvDone.boolValue) {count++}
+        if (rlDone.boolValue) {count++}
+        if (wsDone.boolValue) {count++}
+        if (trDone.boolValue) {count++}
+        if (afDone.boolValue) {count++}
+        
+        return count
+    }
+    
     func getDone(ind: Int) -> Bool {
         
         switch ind {

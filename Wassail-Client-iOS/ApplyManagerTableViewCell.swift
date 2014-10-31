@@ -14,6 +14,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
+    @IBOutlet var progressLabel: UILabel?
     
     @IBOutlet var statusButton: RKApplyButton?
     
@@ -58,12 +59,31 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         let programInstanceId = item!.programInstanceId as NSNumber
         let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        let requirements = ApplyAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        dateLabel!.text = preview!.deadlineDate.normalString()
+        
+        let dateString = preview!.deadlineDate.normalString() as NSString?
+        if (dateString != nil) {
+            dateLabel!.text = dateString! + "    "
+        }
+        else {
+            dateLabel!.text = nil
+        }
+        
+        if (item!.status.integerValue == 1) {
+            progressLabel!.hidden = false
+            let done = item!.getDoneCount() as Int
+            let all = requirements!.getAllCount() as Int
+            progressLabel!.text = NSString(format: "已完成 %d/%d", done, all)
+        }
+        else {
+            progressLabel!.hidden = true
+        }
+        
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
-
+        
         statusButton!.setStatus(item!.status.integerValue)
     }
     

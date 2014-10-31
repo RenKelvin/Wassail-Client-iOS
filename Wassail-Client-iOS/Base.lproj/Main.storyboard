@@ -2483,9 +2483,15 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0H7-4i-2Gc">
-                                                    <rect key="frame" x="89" y="62" width="430" height="14.5"/>
+                                                    <rect key="frame" x="89" y="62" width="30.5" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="1" green="0.25098039220000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzV-V7-Hxb">
+                                                    <rect key="frame" x="119.5" y="62" width="30.5" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2498,11 +2504,14 @@
                                                 <constraint firstItem="ggB-vV-uQJ" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="10" id="KHi-XN-ER1"/>
                                                 <constraint firstItem="WBp-67-RJi" firstAttribute="leading" secondItem="ggB-vV-uQJ" secondAttribute="trailing" constant="10" id="NGw-on-aLW"/>
                                                 <constraint firstItem="kXj-Xn-Orq" firstAttribute="centerY" secondItem="WBp-67-RJi" secondAttribute="centerY" id="PTc-wP-ZSr"/>
+                                                <constraint firstItem="qzV-V7-Hxb" firstAttribute="leading" secondItem="0H7-4i-2Gc" secondAttribute="trailing" id="UTM-M2-v0G"/>
                                                 <constraint firstItem="k8y-M0-W4v" firstAttribute="leading" secondItem="cDC-qE-mlq" secondAttribute="leading" constant="15" id="UeW-GL-7Xo"/>
                                                 <constraint firstItem="tSQ-a9-BQZ" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="10" id="V3e-sI-r7k"/>
                                                 <constraint firstAttribute="trailing" secondItem="WBp-67-RJi" secondAttribute="trailing" constant="15" id="hRP-eQ-bMt"/>
                                                 <constraint firstItem="0H7-4i-2Gc" firstAttribute="leading" secondItem="k8y-M0-W4v" secondAttribute="trailing" constant="10" id="i9a-ad-JgE"/>
                                                 <constraint firstItem="tSQ-a9-BQZ" firstAttribute="top" secondItem="cDC-qE-mlq" secondAttribute="top" constant="11" id="ioz-TG-HhS"/>
+                                                <constraint firstItem="qzV-V7-Hxb" firstAttribute="centerY" secondItem="0H7-4i-2Gc" secondAttribute="centerY" id="n83-Uk-7aT"/>
+                                                <constraint firstAttribute="bottom" secondItem="qzV-V7-Hxb" secondAttribute="bottom" constant="11" id="oBn-lx-7Se"/>
                                                 <constraint firstItem="WBp-67-RJi" firstAttribute="leading" secondItem="tSQ-a9-BQZ" secondAttribute="trailing" constant="10" id="xYF-X4-4m9"/>
                                                 <constraint firstAttribute="centerY" secondItem="WBp-67-RJi" secondAttribute="centerY" id="xdn-zk-gon"/>
                                                 <constraint firstAttribute="centerY" secondItem="k8y-M0-W4v" secondAttribute="centerY" id="zqg-JU-nq1"/>
@@ -2510,6 +2519,8 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="5MY-hp-idg"/>
+                                                    <exclude reference="n83-Uk-7aT"/>
+                                                    <exclude reference="4jW-7N-af4"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -2518,6 +2529,7 @@
                                             <outlet property="dateLabel" destination="0H7-4i-2Gc" id="RHQ-R7-J53"/>
                                             <outlet property="iconImageView" destination="k8y-M0-W4v" id="NRV-Ug-Cn8"/>
                                             <outlet property="noteLabel" destination="ggB-vV-uQJ" id="epk-uh-TLD"/>
+                                            <outlet property="progressLabel" destination="qzV-V7-Hxb" id="bFq-oM-yb9"/>
                                             <outlet property="statusButton" destination="WBp-67-RJi" id="lP1-Cz-WUI"/>
                                             <outlet property="titleLabel" destination="tSQ-a9-BQZ" id="Oc3-1l-5f2"/>
                                         </connections>

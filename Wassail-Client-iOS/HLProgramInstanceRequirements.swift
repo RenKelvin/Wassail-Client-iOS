@@ -78,6 +78,16 @@ class HLProgramInstanceRequirements: NSManagedObject {
         return array
     }
     
+    func getAllCount() -> Int {
+        var count = 0
+        
+        count += self.getExamsRequirements().count
+        count += self.getDocsRequirements().count
+        count += self.getFeeRequirements().count
+        
+        return count
+    }
+    
     func getExamsRequirements() -> NSArray {
         var array = NSMutableArray()
         
