@@ -454,7 +454,7 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMd-Pu-aND">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMd-Pu-aND">
                                                     <rect key="frame" x="15" y="35" width="540" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2112,6 +2112,8 @@
                         <outlet property="tableView" destination="Abn-bJ-5vA" id="lVz-eb-9bQ"/>
                         <segue destination="v6r-Fh-9PJ" kind="show" identifier="ListArticleSegueIdentifier" id="fYA-Od-fVe"/>
                         <segue destination="yEZ-CL-Iol" kind="show" identifier="ListBrowserSegueIdentifier" id="vuL-hi-aIq"/>
+                        <segue destination="2ED-wB-bfm" kind="show" identifier="ListUniversityRankingSegueIdentifier" id="B9H-kl-AMe"/>
+                        <segue destination="6hx-Zf-9iC" kind="show" identifier="ListFieldListSegueIdentifier" id="yst-Da-2Hg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adn-ZM-kkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2418,7 +2420,7 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="ggB-vV-uQJ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="430" translatesAutoresizingMaskIntoConstraints="NO" id="ggB-vV-uQJ">
                                                     <rect key="frame" x="89" y="30" width="430" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25.5" id="7qZ-W5-4jX"/>
@@ -2849,7 +2851,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UFP-b8-rKy" id="7Ja-om-r1a">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeE-yr-hps">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CeE-yr-hps">
                                                     <rect key="frame" x="60" y="33" width="461" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3884,14 +3886,15 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JLd-eu-ikG"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="sEN-DU-GIR"/>
-        <segue reference="r4f-h3-sd1"/>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="BK5-dh-8Fc"/>
-        <segue reference="TkG-Ai-5Ra"/>
+        <segue reference="R8b-dB-BNq"/>
+        <segue reference="fYA-Od-fVe"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="yst-Da-2Hg"/>
+        <segue reference="B9H-kl-AMe"/>
+        <segue reference="vuL-hi-aIq"/>
         <segue reference="TYF-9O-bLs"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="Bo5-kO-yCc"/>
+        <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
 </document>

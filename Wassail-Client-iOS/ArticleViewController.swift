@@ -72,7 +72,9 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             }
         }
         
-        imagesArray = article!.imagesArray()
+        if (article != nil) {
+            imagesArray = article!.imagesArray()
+        }
     }
     
     // MARK: -

@@ -38,10 +38,10 @@ class DatabaseMediator: NSObject {
         
         var sortDescriptors: NSMutableArray = NSMutableArray()
         let sortDescriptor1 = NSSortDescriptor(key: "universityName", ascending: true)
-              sortDescriptors.addObject(sortDescriptor1)
-  let sortDescriptor2 = NSSortDescriptor(key: "programName", ascending: true)
+        sortDescriptors.addObject(sortDescriptor1)
+        let sortDescriptor2 = NSSortDescriptor(key: "programName", ascending: true)
         sortDescriptors.addObject(sortDescriptor2)
-
+        
         return DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: nil, sortDescriptors: sortDescriptors)
     }
     
@@ -63,14 +63,18 @@ class DatabaseMediator: NSObject {
         
         return DatabaseAdapter.instance.delete(item, context: UserDataManager.instance.managedObjectContext!)
     }
-
+    
     func getProgramInstancePreviewByProgramInstanceId(id: NSNumber) -> HLProgramInstancePreview? {
         
         let predicate = NSPredicate(format: "programInstanceId = %@", id)
         
         let array = DatabaseAdapter.instance.fetch("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!, predicate: predicate, sortDescriptors: nil)
         
-        return array![0] as HLProgramInstancePreview
+        if (array == nil || array!.count == 0) {
+            return nil
+        }
+        
+        return array![0] as? HLProgramInstancePreview
     }
     
     func getApplyByProgramInstanceId(id: NSNumber) -> HLApply? {
@@ -82,8 +86,7 @@ class DatabaseMediator: NSObject {
             return nil
         }
         
-        return array![0] as HLApply
+        return array![0] as? HLApply
     }
-    
     
 }
