@@ -477,7 +477,6 @@
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
 		FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */; };
 		FEB1D7F219CEF2B1002F7285 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */; };
-		FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */; };
 		FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */; };
 		FEB1D7FA19CF0CD0002F7285 /* DatabaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7F919CF0CD0002F7285 /* DatabaseAdapter.swift */; };
 		FEB1D7FC19CF0CDF002F7285 /* DatabaseMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FB19CF0CDF002F7285 /* DatabaseMediator.swift */; };
@@ -1039,7 +1038,6 @@
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
 		FEB1D7EF19CEB3AB002F7285 /* LocalMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
-		FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackInfo.swift; sourceTree = "<group>"; };
 		FEB1D7F719CEFD1B002F7285 /* CloudMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMediator.swift; sourceTree = "<group>"; };
 		FEB1D7F919CF0CD0002F7285 /* DatabaseAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseAdapter.swift; sourceTree = "<group>"; };
 		FEB1D7FB19CF0CDF002F7285 /* DatabaseMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMediator.swift; sourceTree = "<group>"; };
@@ -1463,14 +1461,6 @@
 			isa = PBXGroup;
 			children = (
 				FEB1D7F119CEF2B1002F7285 /* FeedbackViewController.swift */,
-			);
-			name = Others;
-			sourceTree = "<group>";
-		};
-		FE20A75F19FCC5A300B5B279 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				FEB1D7F519CEFAAA002F7285 /* FeedBackInfo.swift */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -2102,7 +2092,6 @@
 				FE496C0219C47D4C0003A29A /* DefaultInfo.swift */,
 				FE20A76319FCC6D700B5B279 /* Apply */,
 				FEB1D7F419CEFA97002F7285 /* Item */,
-				FE20A75F19FCC5A300B5B279 /* Others */,
 				FEB1D7F319CEF6F4002F7285 /* Tools */,
 			);
 			name = Info;
@@ -2704,7 +2693,6 @@
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FE0393CE19FCF33C00D0E755 /* WassailModel.xcdatamodeld in Sources */,
 				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
-				FEB1D7F619CEFAAA002F7285 /* FeedBackInfo.swift in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,

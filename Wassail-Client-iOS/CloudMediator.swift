@@ -15,9 +15,27 @@ class CloudMediator: NSObject {
     class var instance : CloudMediator {
         return _CloudMediatorSharedInstance
     }
+ 
+   // MARK: -
+
+    func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
+        
+        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+            println(data)
+            println(response)
+            println(error)
+
+            callback(success: false)
+        }
+
+        CloudAdapter.instance.sendFeedback(text, completion)
+    }
+
+    // MARK: - Apply
+
+    func getApplyStats(programInstanceId: NSNumber) {
     
-    func sendFeedback(text: NSString) {
-        CloudAdapter.instance.sendFeedback(text)
+    
     }
     
 }

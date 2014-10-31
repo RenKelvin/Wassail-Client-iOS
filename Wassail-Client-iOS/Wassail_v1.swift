@@ -24,13 +24,13 @@ class Wassail_v1: NSObject {
 
     // MARK: - others
     
-    func sendFeedback(text: NSString) {
+    func sendFeedback(text: NSString, completion: NormalClosure) {
         
         let api: NSString = "/others/feedback"
         
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(text, forKey: "message")
         
-        CloudAdapter.instance.post(api, body: body)
+        CloudAdapter.instance.post(api, body: body, completion)
     }
 }

@@ -14,8 +14,6 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     
     @IBOutlet var keyboardAccessoryView: UIView?
     
-    let info: FeedbackInfo = FeedbackInfo.instance
-    
     @IBOutlet var textView: UITextView?
     
     override func viewDidLoad() {
@@ -47,28 +45,37 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: -
+    
+    func callback(success: Bool) {
+        // self.callbackHandler(success)
+    }
+    
+    func callbackHandler(success: Bool) {
+        if (success) {
+            let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+            alert.show()
+        }
+        else {
+            let alert = UIAlertView(title: "发送失败", message: "网络错误，发送失败。😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+            alert.show()
+        }
+    }
+    
     // MARK: - IBAction
     
     @IBAction func sendButtonClicked() {
+        DefaultAccessor.instance.sendFeedback(textView!.text, callback)
         
-        info.sendFeedback(textView!.text)
-        
-        // Show alert
         let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
         alert.show()
     }
     
     @IBAction func blankTapped() {
-        
         textView!.resignFirstResponder()
-        
     }
     
     // MARK: - UIAlertViewDelegate
-    
-    //    func alertViewCancel(alertView: UIAlertView) {
-    //    self.navigationController?.popViewControllerAnimated(true)
-    //    }
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
         self.navigationController?.popViewControllerAnimated(true)

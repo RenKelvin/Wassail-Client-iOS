@@ -65,8 +65,8 @@ class DefaultAccessor: NSObject {
         return LocalMediator.instance.getUnitConverter()
     }
     
-    func sendFeedback(text: NSString) {
-        CloudMediator.instance.sendFeedback(text)
+    func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
+        CloudMediator.instance.sendFeedback(text, callback)
     }
     
 }

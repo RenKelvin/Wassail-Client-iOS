@@ -8,6 +8,8 @@
 
 import UIKit
 
+typealias NormalClosure = (data: NSData!, response: NSURLResponse!, error: NSError!) -> Void
+
 private let _CloudAdapterSharedInstance = CloudAdapter()
 
 class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
@@ -22,13 +24,13 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         return _CloudAdapterSharedInstance
     }
     
-    func sendFeedback(text: NSString) {
-        Wassail_v1.instance.sendFeedback(text)
+    func sendFeedback(text: NSString, completion: NormalClosure) {
+        Wassail_v1.instance.sendFeedback(text, completion)
     }
     
     // MARK: -
     
-    func post(api: NSString, body: NSDictionary) {
+    func post(api: NSString, body: NSDictionary, completion: NormalClosure) {
         
         // Create session
         var session = NSURLSession.sharedSession()
@@ -55,12 +57,6 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         request.HTTPBody = bodyData
         
         // Create data task
-        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-                // TODO: response handler
-                println(data)
-                println(response)
-                println(error)
-        }
         let task = session.dataTaskWithRequest(request, completionHandler: completion)
         
         // Do the task
