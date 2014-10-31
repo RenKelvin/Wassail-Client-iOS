@@ -30,7 +30,7 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
         
         // GAITrackedViewController name
         self.screenName = "Tools Screen"
-
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
@@ -135,24 +135,25 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
                 self.performSegueWithIdentifier("ToolsUniversityDatabaseSegueIdentifier", sender: "0院校数据库")
             case -1:
                 self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
+                UserAccessor.instance.setBool("isToolUsed" + "ApplyManager", value: true)
             case 0:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0网申流程")
-                UserAccessor.instance.setBool("isToolUsed" + "OnlineApplication", value: true)
             case 1:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 2:
-                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
-            case 3:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
-                UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
-            case 4:
-                    ""
-            case 5:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
-            case 6:
-                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
-            case 7:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0留学费用")
+                UserAccessor.instance.setBool("isToolUsed" + "AbroadExpense", value: true)
+            case 3:
+                ""
+            case 4:
+                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
+            case 5:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
+            case 6:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+                UserAccessor.instance.setBool("isToolUsed" + "UniversityRankings", value: true)
+            case 7:
+                self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
                 ""
             }

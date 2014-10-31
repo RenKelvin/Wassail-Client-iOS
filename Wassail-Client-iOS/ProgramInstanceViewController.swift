@@ -69,11 +69,28 @@ class ProgramInstanceViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-        
-        // Configure the cell
-        
-        return cell
+        switch indexPath.section {
+        case 0:
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+            
+            // Configure the cell
+            
+            return cell
+        case 1:
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewContactCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+            
+            // Configure the cell
+            
+            return cell
+        case 2:
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewRequirementCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+            
+            // Configure the cell
+            
+            return cell
+        default:
+            return UITableViewCell()
+        }
     }
     
     // MARK: - Table view delegate
@@ -96,6 +113,24 @@ class ProgramInstanceViewController: GAITrackedViewController {
         headerView.titleLabel?.text = title
         
         return headerView
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        var height = 0.0
+        
+        switch indexPath.section {
+        case 0:
+            height = 167.0
+        case 1:
+            height = 44.0
+        case 2:
+            height = 44.0
+        default:
+            height = 0.0
+        }
+        
+        return CGFloat(height)
     }
     
     /*
