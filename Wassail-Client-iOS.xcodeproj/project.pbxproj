@@ -405,7 +405,6 @@
 		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
-		FE79D5311A0227270041AA75 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE79D5301A0227270041AA75 /* Static.sqlite */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
@@ -963,7 +962,6 @@
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
 		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
-		FE79D5301A0227270041AA75 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Static.sqlite; path = ../../../../Desktop/Static.sqlite; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
@@ -2135,7 +2133,6 @@
 			isa = PBXGroup;
 			children = (
 				FEAE0CA919FE8F3E00CC5110 /* ProgramInstancePreview.json */,
-				FE79D5301A0227270041AA75 /* Static.sqlite */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2379,7 +2376,6 @@
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				AD47693719F7E9C700811C7E /* 1.1RL2.jpeg in Resources */,
-				FE79D5311A0227270041AA75 /* Static.sqlite in Resources */,
 				ADD68A8D19FA4C1100B88199 /* 0留学费用.md.json in Resources */,
 				ADF246A519F4FF1C005BA7E5 /* 0网申流程.md.json in Resources */,
 				ADF246B419F4FF1C005BA7E5 /* 4.2Preliminary.jpg in Resources */,

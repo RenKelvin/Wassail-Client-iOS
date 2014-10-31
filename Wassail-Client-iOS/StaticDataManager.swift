@@ -45,7 +45,21 @@ class StaticDataManager: NSObject {
         // Copy static dota store from resource
         if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
             let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
-            NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+            if (urlRes != nil) {
+                NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+            }
+            
+            let url2 = self.applicationCachesDirectory.URLByAppendingPathComponent("Static.sqlite-shm")
+            let urlRes2 = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite-shm")
+            if (urlRes2 != nil) {
+                NSFileManager.defaultManager().copyItemAtURL(urlRes2!, toURL: url2, error: nil)
+            }
+            
+            let url3 = self.applicationCachesDirectory.URLByAppendingPathComponent("Static.sqlite-wal")
+            let urlRes3 = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite-wal")
+            if (urlRes3 != nil) {
+                NSFileManager.defaultManager().copyItemAtURL(urlRes3!, toURL: url3, error: nil)
+            }
         }
         
         var error: NSError? = nil

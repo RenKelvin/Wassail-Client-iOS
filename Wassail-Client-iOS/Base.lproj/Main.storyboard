@@ -2668,7 +2668,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAk-hI-BbZ">
-                                                <rect key="frame" x="47" y="8" width="109" height="32"/>
+                                                <rect key="frame" x="47" y="8" width="103.5" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="78" id="sYT-97-uH7"/>
                                                     <constraint firstAttribute="height" constant="32" id="v5Z-V9-dOQ"/>
@@ -2687,13 +2687,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学期" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5z-RU-77V">
-                                                <rect key="frame" x="166" y="17" width="24" height="14.5"/>
+                                                <rect key="frame" x="160.5" y="17" width="24" height="14.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWu-4u-7py">
-                                                <rect key="frame" x="198" y="8" width="109" height="32"/>
+                                                <rect key="frame" x="192.5" y="8" width="103.5" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="0O5-Wi-1AF"/>
                                                     <constraint firstAttribute="width" constant="78" id="ibl-9C-mxt"/>
@@ -2712,13 +2712,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学位" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yz-Br-MpQ">
-                                                <rect key="frame" x="317" y="17" width="24" height="14.5"/>
+                                                <rect key="frame" x="306" y="17" width="24" height="14.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXU-Br-8uV">
-                                                <rect key="frame" x="349" y="8.5" width="236" height="32"/>
+                                                <rect key="frame" x="338" y="8.5" width="247" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="ZIy-C2-fYo"/>
                                                     <constraint firstAttribute="width" constant="78" id="a91-2y-7yF"/>
@@ -2785,7 +2785,7 @@
                                             <constraint firstItem="T5z-RU-77V" firstAttribute="leading" secondItem="dAk-hI-BbZ" secondAttribute="trailing" constant="10" id="o19-f4-oc6"/>
                                             <constraint firstItem="rDQ-hb-vgv" firstAttribute="leading" secondItem="tRL-Ax-jGA" secondAttribute="trailing" constant="8" id="sCS-g1-23x"/>
                                             <constraint firstAttribute="trailing" secondItem="YXU-Br-8uV" secondAttribute="trailing" constant="15" id="tZX-46-djw"/>
-                                            <constraint firstAttribute="width" secondItem="dAk-hI-BbZ" secondAttribute="width" multiplier="5.5" id="x0n-Qf-3T2"/>
+                                            <constraint firstAttribute="width" secondItem="dAk-hI-BbZ" secondAttribute="width" multiplier="5.8" id="x0n-Qf-3T2"/>
                                             <constraint firstAttribute="height" constant="88" id="xFE-Ke-mwc"/>
                                             <constraint firstAttribute="width" constant="320" id="y77-Wf-fbw"/>
                                         </constraints>

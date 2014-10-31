@@ -79,9 +79,9 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         let actionSheet = UIActionSheet(title: "选择目标学位", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
         actionSheet.tag = 3
         
-        actionSheet.addButtonWithTitle("本科 Bachelor")
-        actionSheet.addButtonWithTitle("硕士 Master")
-        actionSheet.addButtonWithTitle("博士 Doctor")
+        actionSheet.addButtonWithTitle("Bachelor")
+        actionSheet.addButtonWithTitle("Master")
+        actionSheet.addButtonWithTitle("Doctor")
         
         actionSheet.showInView(self.view)
     }
