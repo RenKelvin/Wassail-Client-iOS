@@ -167,6 +167,11 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         
     }
     
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        return 64.0
+    }
+
     // MARK: - UIActionSheetDelegate
     
     func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
