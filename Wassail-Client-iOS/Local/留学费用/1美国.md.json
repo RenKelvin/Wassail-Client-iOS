@@ -7,45 +7,49 @@
                         "content": {
                             "body": {
                                 "address": "1.1\u5b66\u8d39", 
-                                "title": "\u5b66\u8d39 (Tuition)"
+                                "title": "\u5b66\u8d39"
                             }, 
                             "name": "1.1\u5b66\u8d39", 
                             "type": "HLArticlePreview"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Tuition"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "1.2\u751f\u6d3b\u8d39", 
-                                "title": "\u751f\u6d3b\u8d39 (Living Expenses)"
+                                "title": "\u751f\u6d3b\u8d39"
                             }, 
                             "name": "1.2\u751f\u6d3b\u8d39", 
                             "type": "HLArticlePreview"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Living Expenses"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "1.3\u5956\u5b66\u91d1", 
-                                "title": "\u5956\u5b66\u91d1 (Scholarships)"
+                                "title": "\u5956\u5b66\u91d1"
                             }, 
                             "name": "1.3\u5956\u5b66\u91d1", 
                             "type": "HLArticlePreview"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Scholarships"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "1.4\u6253\u5de5", 
-                                "title": "\u6253\u5de5 (Part-time Job)"
+                                "title": "\u6253\u5de5"
                             }, 
                             "name": "1.4\u6253\u5de5", 
                             "type": "HLArticlePreview"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Part-time Job"
                     }
                 ], 
                 "title": "-"

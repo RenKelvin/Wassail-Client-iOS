@@ -12,7 +12,16 @@
                             "name": "1\u7f8e\u56fd", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
+                        "icon": {
+                            "body": {
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "United States"
                     }, 
                     {
                         "content": {
@@ -23,7 +32,16 @@
                             "name": "2\u6fb3\u5927\u5229\u4e9a", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
+                        "icon": {
+                            "body": {
+                                "address": "0\u6fb3\u5927\u5229\u4e9a\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u6fb3\u5927\u5229\u4e9a\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Australia"
                     }, 
                     {
                         "content": {
@@ -34,7 +52,16 @@
                             "name": "3\u82f1\u56fd", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
+                        "icon": {
+                            "body": {
+                                "address": "0\u82f1\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u82f1\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "United Kingdom"
                     }, 
                     {
                         "content": {
@@ -45,7 +72,16 @@
                             "name": "5\u52a0\u62ff\u5927", 
                             "type": "HLListPreview"
                         }, 
-                        "kind": "Item"
+                        "icon": {
+                            "body": {
+                                "address": "0\u52a0\u62ff\u5927\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u52a0\u62ff\u5927\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Canada"
                     }
                 ], 
                 "title": "\u6309\u56fd\u522b\u5206"
@@ -61,7 +97,8 @@
                             "name": "6\u8d44\u91d1\u8bc1\u660e", 
                             "type": "HLArticlePreview"
                         }, 
-                        "kind": "Item"
+                        "kind": "Item", 
+                        "note": "Proof of Financial Support"
                     }
                 ], 
                 "title": "\u8d44\u91d1\u8bc1\u660e"

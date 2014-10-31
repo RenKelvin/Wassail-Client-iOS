@@ -78,6 +78,22 @@
             {
                 "items": [
                     {
+                        "content": "\u793e\u533a\u5927\u5b66", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea66000-8000\u7f8e\u5143\uff0c4-5\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Santa Monica College:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$7,800 (Southern California)", 
+                        "kind": "Graph"
+                    }, 
+                    {
                         "content": "\u516c\u7acb\u5927\u5b66", 
                         "kind": "Section"
                     }, 
@@ -153,24 +169,28 @@
                         "kind": "Item"
                     }, 
                     {
-                        "content": "\u793e\u533a\u5927\u5b66", 
-                        "kind": "Section"
-                    }, 
-                    {
-                        "content": "\u6bcf\u5e74\u7ea66000-8000\u7f8e\u5143\uff0c3.7-4.9\u4e07\u4eba\u6c11\u5e01\u3002", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "Santa Monica College:", 
-                        "kind": "Graph"
-                    }, 
-                    {
-                        "content": "$7,800 (Southern California)", 
-                        "kind": "Graph"
-                    }, 
-                    {
                         "content": "\u6587\u7406\u5b66\u9662", 
                         "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u6bcf\u5e74\u7ea64-5\u4e07\u7f8e\u5143\uff0c24-30\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Williams College:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$48,030 (Massachusetts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "Mount Holyoke College:", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$42,470 (Massachusetts)", 
+                        "kind": "Graph"
                     }
                 ], 
                 "title": "\u672c\u79d1\u5b66\u8d39 \uff0d 4\u5e74"
