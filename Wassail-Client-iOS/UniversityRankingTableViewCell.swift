@@ -23,12 +23,12 @@ class UniversityRankingTableViewCell: UITableViewCell {
         noteLabel?.text = item.note
         subtitleLabel?.text = item.chineseName
 
-        scoreLabel?.text = NSString(format: "%.1g", item.score!)
+        scoreLabel?.text = NSString(format: "%.3g", item.score!)
         rankLabel?.text = String(item.rank!)
         
         let name = item.icon!.address
         if (name != nil) {
-            iconImageView?.image = DefaultInfo.instance.getImage(name!)
+            iconImageView?.sd_setImageWithURL(NSURL(string: name!), placeholderImage: UIImage(named: "ImagePlaceHolder"))
         }
     }
     
