@@ -416,7 +416,6 @@
 		FE7314811A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */; };
 		FE7314831A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
-		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
 		FE85385C1A03E1D400A26820 /* FinanialCertificate.png in Resources */ = {isa = PBXBuildFile; fileRef = FE85385B1A03E1D400A26820 /* FinanialCertificate.png */; };
 		FE85385E1A03EA6500A26820 /* HLProgramInstanceRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */; };
@@ -985,8 +984,6 @@
 		FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewInfoCell.swift; sourceTree = "<group>"; };
 		FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewContactCell.swift; sourceTree = "<group>"; };
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
-		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
-		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
 		FE83076019DF07DC000B025A /* HLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLImage.swift; sourceTree = "<group>"; };
 		FE85385B1A03E1D400A26820 /* FinanialCertificate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FinanialCertificate.png; sourceTree = "<group>"; };
 		FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstanceRequirements.swift; sourceTree = "<group>"; };
@@ -1632,7 +1629,6 @@
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
 				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 				FE669BA919F9392200906F2E /* GAI */,
-				FE7731CA1A00B6DB00B31C0D /* KKActionSheet */,
 				FE60E6B319E596CE00147EF9 /* Others */,
 				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 				FE12E7BB1A0110D6008F3470 /* SDWebImage */,
@@ -1832,15 +1828,6 @@
 				FEA0FC0B19D85EFC00A24409 /* HLLink.swift */,
 			);
 			name = HLItem;
-			sourceTree = "<group>";
-		};
-		FE7731CA1A00B6DB00B31C0D /* KKActionSheet */ = {
-			isa = PBXGroup;
-			children = (
-				FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */,
-				FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */,
-			);
-			path = KKActionSheet;
 			sourceTree = "<group>";
 		};
 		FE8C7BD319CB298D00F1C319 /* RKScrollerView */ = {
@@ -2733,7 +2720,6 @@
 				FE0393CE19FCF33C00D0E755 /* WassailModel.xcdatamodeld in Sources */,
 				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
-				FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */,
 				FEA0FB9119D7A15A00A24409 /* RKArticleHeaderView.swift in Sources */,

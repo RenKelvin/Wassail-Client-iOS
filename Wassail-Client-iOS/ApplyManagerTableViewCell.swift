@@ -34,14 +34,12 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
     // MARK: - IBAction
     
     @IBAction func statusButtonClicked() {
-        let actionSheet = KKActionSheet(title: "设置申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        let actionSheet = UIActionSheet(title: "设置申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
         
         actionSheet.addButtonWithTitle("正在申请")
         actionSheet.addButtonWithTitle("申请完成")
         actionSheet.addButtonWithTitle("已录取")
         actionSheet.addButtonWithTitle("已拒绝")
-        
-        actionSheet.setTextColor(UIColor.HLYellow(0), forButtonIndex: 2)
         
         actionSheet.showInView(self)
     }
