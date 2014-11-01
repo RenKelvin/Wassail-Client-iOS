@@ -43,6 +43,12 @@ class ProgramInstanceViewController: GAITrackedViewController {
         }
     }
     
+    // MARK: IBAction
+    
+    @IBAction func reportButtonClicked() {
+        self.performSegueWithIdentifier("ProgramInstanceFeedbackSegueIdentifier", sender: nil)
+    }
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

@@ -930,6 +930,9 @@
                                                 <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="reportButtonClicked" destination="bFh-mN-eLf" eventType="touchUpInside" id="MnG-7x-BKU"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1214,6 +1217,7 @@
                     <connections>
                         <outlet property="navigationView" destination="NE8-7D-BAz" id="EZC-f0-Z4J"/>
                         <outlet property="tableView" destination="LwB-38-CUs" id="je6-nE-sA6"/>
+                        <segue destination="Uyq-hx-WKz" kind="show" identifier="ProgramInstanceFeedbackSegueIdentifier" id="nvp-jT-Q9G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pv-Qp-PpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4057,5 +4061,6 @@
         <segue reference="yst-Da-2Hg"/>
         <segue reference="OdY-zS-v6S"/>
         <segue reference="TYF-9O-bLs"/>
+        <segue reference="nvp-jT-Q9G"/>
     </inferredMetricsTieBreakers>
 </document>
