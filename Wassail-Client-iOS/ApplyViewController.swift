@@ -71,6 +71,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     }
     
     func updateView() {
+        // Header
         let programInstanceId = apply!.programInstanceId as NSNumber
         let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
         
@@ -80,6 +81,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
         
+        // Bar item
         switch (apply!.status.integerValue) {
         case 1:
             statusBarItem!.title = "正在申请"
@@ -91,6 +93,25 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
             statusBarItem!.title = "已拒绝"
         default:
             ""
+        }
+        
+        // Apply stats
+        ApplyAccessor.instance.getApplyStats(programInstanceId, getApplyStatsHandler)
+    }
+    
+    func getApplyStatsHandler(success: Bool, data: NSDictionary?) {
+        if (success) {
+            // println(data!)
+            
+            let json = JSON(data!)
+            status1CountLabel!.text = String(json["applying"].intValue)
+            status2CountLabel!.text = String(json["applied"].intValue)
+            status3CountLabel!.text = String(json["addmited"].intValue)
+            status4CountLabel!.text = String(json["rejected"].intValue)
+        }
+        else {
+            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+            // alert.show()
         }
     }
     

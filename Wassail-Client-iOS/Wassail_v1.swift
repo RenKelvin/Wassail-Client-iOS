@@ -33,4 +33,14 @@ class Wassail_v1: NSObject {
         
         CloudAdapter.instance.post(api, body: body, completion)
     }
+    
+    func getApplyStats(programInstanceId: NSNumber, completion: NormalClosure) {
+        
+        let api: NSString = "/apply/getApplyStats"
+        
+        let body: NSMutableDictionary = NSMutableDictionary()
+        body.setObject(programInstanceId, forKey: "programInstanceId")
+        
+        CloudAdapter.instance.get(api, body: body, completion)
+    }
 }

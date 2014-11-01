@@ -47,25 +47,21 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     
     // MARK: -
     
-    func callback(success: Bool) {
-        // self.callbackHandler(success)
-    }
-    
-    func callbackHandler(success: Bool) {
-        if (success) {
-            let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-            alert.show()
-        }
-        else {
-            let alert = UIAlertView(title: "发送失败", message: "网络错误，发送失败。😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-            alert.show()
-        }
+    func sendFeedBackHandler(success: Bool) {
+        //        if (success) {
+        //            let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+        //            alert.show()
+        //        }
+        //        else {
+        //            let alert = UIAlertView(title: "发送失败", message: "网络错误，发送失败。😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+        //            alert.show()
+        //        }
     }
     
     // MARK: - IBAction
     
     @IBAction func sendButtonClicked() {
-        DefaultAccessor.instance.sendFeedback(textView!.text, callback)
+        DefaultAccessor.instance.sendFeedback(textView!.text, sendFeedBackHandler)
         
         let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
         alert.show()

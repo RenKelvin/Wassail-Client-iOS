@@ -15,27 +15,42 @@ class CloudMediator: NSObject {
     class var instance : CloudMediator {
         return _CloudMediatorSharedInstance
     }
- 
-   // MARK: -
-
+    
+    // MARK: -
+    
     func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
             println(data)
             println(response)
             println(error)
-
-            callback(success: false)
+            
+            callback(success: false) // TODO: success
         }
-
+        
         CloudAdapter.instance.sendFeedback(text, completion)
     }
-
+    
     // MARK: - Apply
+    
+    func getApplyStats(programInstanceId: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
+        
+        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+             println(data)
+             println(response)
+             println(error)
+            
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
 
-    func getApplyStats(programInstanceId: NSNumber) {
-    
-    
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+                callback(success: false, data: nil)
+            }
+            else {
+                callback(success: true, data: dict!)
+            }
+        }
+        
+        CloudAdapter.instance.getApplyStats(programInstanceId, completion)
     }
     
 }

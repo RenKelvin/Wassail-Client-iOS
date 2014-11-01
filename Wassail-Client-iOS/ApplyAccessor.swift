@@ -39,9 +39,13 @@ class ApplyAccessor: NSObject {
     func getProgramInstanceRequirementsByProgramInstanceId(id: NSNumber) -> HLProgramInstanceRequirements? {
         return DatabaseMediator.instance.getProgramInstanceRequirementsByProgramInstanceId(id)
     }
-
+    
     func getApplyByProgramInstanceId(id: NSNumber) -> HLApply? {
         return DatabaseMediator.instance.getApplyByProgramInstanceId(id)
+    }
+    
+    func getApplyStats(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
+        CloudMediator.instance.getApplyStats(id, callback)
     }
     
 }

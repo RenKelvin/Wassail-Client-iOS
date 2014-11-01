@@ -27,7 +27,11 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
     func sendFeedback(text: NSString, completion: NormalClosure) {
         Wassail_v1.instance.sendFeedback(text, completion)
     }
-    
+
+    func getApplyStats(programInstanceId: NSNumber, completion: NormalClosure) {
+        Wassail_v1.instance.getApplyStats(programInstanceId, completion)
+    }
+
     // MARK: -
     
     func post(api: NSString, body: NSDictionary, completion: NormalClosure) {
@@ -46,7 +50,41 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         // Convert body
         var bodyArray = NSMutableArray()
         for key in body.allKeys {
-            let object = body.objectForKey(key as NSString) as NSString
+            let object: AnyObject? = body.objectForKey(key as NSString)
+            bodyArray.addObject(NSString(format: "\(key as NSString)=\(object)"))
+        }
+        
+        var bodyString = bodyArray.componentsJoinedByString("&")
+        let bodyData = bodyString.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        // Add body
+        request.HTTPBody = bodyData
+        
+        // Create data task
+        let task = session.dataTaskWithRequest(request, completionHandler: completion)
+        
+        // Do the task
+        task.resume()
+    }
+
+    
+    func get(api: NSString, body: NSDictionary, completion: NormalClosure) {
+        
+        // Create session
+        var session = NSURLSession.sharedSession()
+        
+        // Create URL
+        var url = NSURL(scheme: scheme, host: host, path: path+String(version)+api)
+        
+        // Create request
+        var request = NSMutableURLRequest()
+        request.URL = url
+        request.HTTPMethod = "GET"
+        
+        // Convert body
+        var bodyArray = NSMutableArray()
+        for key in body.allKeys {
+            let object: AnyObject? = body.objectForKey(key as NSString)
             bodyArray.addObject(NSString(format: "\(key as NSString)=\(object)"))
         }
         
