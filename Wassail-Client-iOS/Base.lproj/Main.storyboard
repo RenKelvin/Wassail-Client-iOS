@@ -552,6 +552,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="申请详情" id="sct-ex-eaG">
                         <barButtonItem key="backBarButtonItem" title=" " id="rlm-oy-Cc6"/>
+                        <barButtonItem key="rightBarButtonItem" title="正在申请" id="Lix-46-jDo">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="applyStatusTapped" destination="zKi-Kv-mtH" id="rZR-YW-4v7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="dateLabel" destination="ha3-tP-xVa" id="Wco-tT-eR0"/>
@@ -562,6 +568,7 @@
                         <outlet property="status2CountLabel" destination="l8X-gE-XqF" id="E2n-Wl-BcX"/>
                         <outlet property="status3CountLabel" destination="taM-30-3W0" id="dOq-LR-sVH"/>
                         <outlet property="status4CountLabel" destination="C8e-zJ-bQs" id="ZAP-ja-HZ2"/>
+                        <outlet property="statusBarItem" destination="Lix-46-jDo" id="PFd-au-3ka"/>
                         <outlet property="tableView" destination="Qua-IB-qKD" id="nLE-Ze-gev"/>
                         <outlet property="titleLabel" destination="jqE-sX-vbN" id="zh2-XF-ehP"/>
                         <segue destination="bFh-mN-eLf" kind="show" identifier="ApplyProgramInstanceSegueIdentifier" id="bWm-xD-cJn"/>
@@ -2671,6 +2678,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="申请管理器" id="eGc-9M-mKp">
+                        <barButtonItem key="backBarButtonItem" title=" " id="q3g-3i-3qd"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="a8c-kH-LRL">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>

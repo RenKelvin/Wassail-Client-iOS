@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ApplyViewController: GAITrackedViewController {
+class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     
     var apply: HLApply?
     var preview: HLProgramInstancePreview?
@@ -21,6 +21,8 @@ class ApplyViewController: GAITrackedViewController {
     @IBOutlet var titleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var dateLabel: UILabel?
+    
+    @IBOutlet var statusBarItem: UIBarItem?
     
     @IBOutlet var status1CountLabel: UILabel?
     @IBOutlet var status2CountLabel: UILabel?
@@ -77,12 +79,36 @@ class ApplyViewController: GAITrackedViewController {
         dateLabel!.text = preview!.deadlineDate.normalString()
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
+        
+        switch (apply!.status.integerValue) {
+        case 1:
+            statusBarItem!.title = "正在申请"
+        case 2:
+            statusBarItem!.title = "申请完成"
+        case 3:
+            statusBarItem!.title = "已录取"
+        case 4:
+            statusBarItem!.title = "已拒绝"
+        default:
+            ""
+        }
     }
     
     // MARK: - IBAction
     
     @IBAction func programHeaderTapped() {
         self.performSegueWithIdentifier("ApplyProgramInstanceSegueIdentifier", sender: apply!.programInstanceId)
+    }
+    
+    @IBAction func applyStatusTapped() {
+        let actionSheet = UIActionSheet(title: "设置申请状态", delegate: self, cancelButtonTitle: "取消", destructiveButtonTitle: nil)
+        
+        actionSheet.addButtonWithTitle("正在申请")
+        actionSheet.addButtonWithTitle("申请完成")
+        actionSheet.addButtonWithTitle("已录取")
+        actionSheet.addButtonWithTitle("已拒绝")
+        
+        actionSheet.showInView(self.view)
     }
     
     // MARK: - Table view data source
@@ -138,6 +164,28 @@ class ApplyViewController: GAITrackedViewController {
         headerView.titleLabel?.text = title
         
         return headerView
+    }
+    
+    // MARK: - UIActionSheetDelegate
+    
+    func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
+        
+        switch buttonIndex {
+        case 0:
+            ""
+        case 1:
+            apply!.status = 1
+        case 2:
+            apply!.status = 2
+        case 3:
+            apply!.status = 3
+        case 4:
+            apply!.status = 4
+        default:
+            ""
+        }
+        
+        self.updateView()
     }
     
     // MARK: - Navigation

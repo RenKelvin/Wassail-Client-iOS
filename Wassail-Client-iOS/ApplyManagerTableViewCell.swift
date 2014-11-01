@@ -73,13 +73,12 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         }
         
         if (item!.status.integerValue == 1) {
-            progressLabel!.hidden = false
             let done = item!.getDoneCount() as Int
             let all = requirements!.getAllCount() as Int
             progressLabel!.text = NSString(format: "已完成 %d/%d", done, all) + "    "
         }
         else {
-            progressLabel!.hidden = true
+            progressLabel!.text = nil
         }
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
