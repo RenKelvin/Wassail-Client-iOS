@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProgramInstanceViewController: GAITrackedViewController {
+class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelegate {
     
     @IBOutlet var tableView: UITableView?
     
@@ -51,6 +51,13 @@ class ProgramInstanceViewController: GAITrackedViewController {
         }
     }
     
+    func updateView() {
+        
+        self.updateHeaderView()
+        
+        self.tableView!.reloadData()
+    }
+    
     func updateHeaderView() {
         universityNameLabel!.text = self.data!["universityName"].stringValue
         programNameLabel!.text = self.data!["programName"].stringValue
@@ -73,14 +80,15 @@ class ProgramInstanceViewController: GAITrackedViewController {
         if (success) {
             self.data = JSON(data!)
             
-            //
-            self.updateHeaderView()
-            self.tableView!.reloadData()
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                self.updateView()
+            })
         }
         else {
-            // self.errorLabel!.hidden = false
-            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-            // alert.show()
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                alert.show()
+            })
         }
     }
     
@@ -197,6 +205,12 @@ class ProgramInstanceViewController: GAITrackedViewController {
         return CGFloat(height)
     }
     
+    // MARK: - UIAlertViewDelegate
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        self.navigationController?.popViewControllerAnimated(true)
+    }
+
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation

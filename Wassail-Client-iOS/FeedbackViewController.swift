@@ -48,23 +48,26 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     // MARK: -
     
     func sendFeedBackHandler(success: Bool) {
-        //        if (success) {
-        //            let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-        //            alert.show()
-        //        }
-        //        else {
-        //            let alert = UIAlertView(title: "发送失败", message: "网络错误，发送失败。😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-        //            alert.show()
-        //        }
+        if (success) {
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                alert.tag = 1
+                alert.show()
+            })
+        }
+        else {
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                let alert = UIAlertView(title: "发送失败", message: "网络错误，发送失败。😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                alert.tag = 2
+                alert.show()
+            })
+        }
     }
     
     // MARK: - IBAction
     
     @IBAction func sendButtonClicked() {
         DefaultAccessor.instance.sendFeedback(textView!.text, sendFeedBackHandler)
-        
-        let alert = UIAlertView(title: "发送成功", message: "感谢您的反馈，我们会不断改进，努力满足您的需要！😄", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-        alert.show()
     }
     
     @IBAction func blankTapped() {
@@ -74,7 +77,12 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     // MARK: - UIAlertViewDelegate
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        if (alertView.tag == 1) {
         self.navigationController?.popViewControllerAnimated(true)
+        }
+        else {
+            
+        }
     }
     
     /*

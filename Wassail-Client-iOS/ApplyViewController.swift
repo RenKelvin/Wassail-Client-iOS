@@ -110,8 +110,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
             status4CountLabel!.text = String(json["rejected"].intValue)
         }
         else {
-            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-            // alert.show()
+            // TODO: get apply stats error
         }
     }
     

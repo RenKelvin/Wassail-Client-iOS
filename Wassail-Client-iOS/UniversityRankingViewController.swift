@@ -59,17 +59,24 @@ class UniversityRankingViewController: GAITrackedViewController, UIAlertViewDele
         UniversityAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
     }
     
+    func updateView() {
+        //
+        self.tableView!.reloadData()
+    }
+    
     func getUniversityRankingHandler(success: Bool, list: HLList?) {
         if (success) {
             self.list = list
             
-            //
-            self.tableView!.reloadData()
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                self.updateView()
+            })
         }
         else {
-            self.errorLabel!.hidden = false
-            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-            // alert.show()
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                alert.show()
+            })
         }
     }
     
