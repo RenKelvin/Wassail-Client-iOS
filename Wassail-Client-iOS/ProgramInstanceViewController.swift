@@ -47,7 +47,7 @@ class ProgramInstanceViewController: GAITrackedViewController {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
-        return 3
+        return 2
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -121,9 +121,9 @@ class ProgramInstanceViewController: GAITrackedViewController {
         
         switch indexPath.section {
         case 0:
-            height = 167.0
+            height = 188.0
         case 1:
-            height = 44.0
+            height = 96.0
         case 2:
             height = 44.0
         default:
