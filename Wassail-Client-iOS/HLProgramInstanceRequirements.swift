@@ -181,8 +181,11 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (recommendationHas.boolValue) {
             ind = 203
             title = "Recomendation Letter"
-            note = NSString(format: "提交推荐信 要求%d封", recommendationNum.intValue)
-            
+            note = NSString(format: "提交推荐信")
+            if (recommendationNum.intValue != 0) {
+                note += NSString(format: " 要求%d封", recommendationNum.intValue)
+            }
+
             array.addObject([ind, title, note])
         }
         

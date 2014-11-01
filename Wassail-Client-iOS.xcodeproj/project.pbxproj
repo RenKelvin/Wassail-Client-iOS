@@ -475,7 +475,6 @@
 		FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */; };
 		FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */; };
 		FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */; };
-		FEA59C0A19FFD4FD00B1DD45 /* HLApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
@@ -488,6 +487,7 @@
 		FEB1D7FF19CF1113002F7285 /* Wassail_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D7FE19CF1113002F7285 /* Wassail_v1.swift */; };
 		FEB4258A19FD50E300C0EE2F /* cu-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB4258819FD50E300C0EE2F /* cu-logo.png */; };
 		FEB4258B19FD50E300C0EE2F /* su-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB4258919FD50E300C0EE2F /* su-logo.png */; };
+		FEBC44CF1A04D5560067FE05 /* HLApply.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8538651A0406D500A26820 /* HLApply.swift */; };
 		FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32A9219C9E0C3001E5015 /* RKPickerViewDelegate.swift */; };
 		FEC37C7F19C2E1AF00CBD2C9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC37C7E19C2E1AF00CBD2C9 /* UIColorExtension.swift */; };
 		FEC3BD4A19C289AD00184760 /* HLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3BD4919C289AD00184760 /* HLList.swift */; };
@@ -1042,7 +1042,6 @@
 		FEA0FC2C19D868F700A24409 /* 留学常用词汇.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学常用词汇.md.json"; sourceTree = "<group>"; };
 		FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.md.json"; sourceTree = "<group>"; };
 		FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKApplyButton.swift; sourceTree = "<group>"; };
-		FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLApply.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
@@ -1982,7 +1981,7 @@
 		FEAE0CAD19FE975F00CC5110 /* NSManagedObject */ = {
 			isa = PBXGroup;
 			children = (
-				FEA59C0919FFD4FD00B1DD45 /* HLApply.swift */,
+				FE8538651A0406D500A26820 /* HLApply.swift */,
 				FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */,
 				FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */,
 			);
@@ -2148,7 +2147,6 @@
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
-				FE8538651A0406D500A26820 /* HLApply.swift */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -2715,7 +2713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA59C0A19FFD4FD00B1DD45 /* HLApply.swift in Sources */,
+				FEBC44CF1A04D5560067FE05 /* HLApply.swift in Sources */,
 				FEB1D7F019CEB3AB002F7285 /* LocalMediator.swift in Sources */,
 				FE0393D319FCFE2C00D0E755 /* ApplyAdderInfo.swift in Sources */,
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
