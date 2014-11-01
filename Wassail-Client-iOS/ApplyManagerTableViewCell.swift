@@ -66,7 +66,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
         
         let dateString = preview!.deadlineDate.normalString() as NSString?
         if (dateString != nil) {
-            dateLabel!.text = dateString! + "    "
+            dateLabel!.text = dateString!
         }
         else {
             dateLabel!.text = nil
@@ -76,7 +76,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
             progressLabel!.hidden = false
             let done = item!.getDoneCount() as Int
             let all = requirements!.getAllCount() as Int
-            progressLabel!.text = NSString(format: "已完成 %d/%d", done, all)
+            progressLabel!.text = NSString(format: "已完成 %d/%d", done, all) + "    "
         }
         else {
             progressLabel!.hidden = true

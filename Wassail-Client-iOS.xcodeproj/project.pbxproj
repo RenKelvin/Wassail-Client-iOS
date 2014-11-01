@@ -1963,7 +1963,6 @@
 				FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */,
 				FEDC98DD19BDDEA800CA815F /* UnitConverterTableViewCell.swift */,
 				FEE0CEFD19C4AC720039A8E9 /* SizeConverterTableViewCell.swift */,
-				FEE25E7719FD45C200BDE743 /* UniversityRankingTableViewCell.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -2031,6 +2030,14 @@
 			name = AWS;
 			sourceTree = "<group>";
 		};
+		FEBC44CE1A04AA520067FE05 /* University */ = {
+			isa = PBXGroup;
+			children = (
+				FEE25E7719FD45C200BDE743 /* UniversityRankingTableViewCell.swift */,
+			);
+			name = University;
+			sourceTree = "<group>";
+		};
 		FEC3BD4819C2896E00184760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -2084,6 +2091,7 @@
 				FE3BC4D719FF80800038CF47 /* Apply */,
 				FE8D81AD19C448B900CE6174 /* Item */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
+				FEBC44CE1A04AA520067FE05 /* University */,
 			);
 			name = View;
 			sourceTree = "<group>";

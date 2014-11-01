@@ -49,19 +49,19 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoq-g6-OCp">
-                                                    <rect key="frame" x="68" y="6" width="437.5" height="19.5"/>
+                                                    <rect key="frame" x="68" y="6" width="438" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxz-LW-DeF">
-                                                    <rect key="frame" x="68" y="25.5" width="437.5" height="14.5"/>
+                                                    <rect key="frame" x="68" y="25" width="438" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jx5-kA-QII">
-                                                    <rect key="frame" x="68" y="43" width="437.5" height="14.5"/>
+                                                    <rect key="frame" x="68" y="43" width="438" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -87,7 +87,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ec-vh-5nV">
-                                                    <rect key="frame" x="513.5" y="17" width="54.5" height="29"/>
+                                                    <rect key="frame" x="514" y="17" width="54" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="54" id="bR9-Wz-Boz"/>
                                                     </constraints>
@@ -134,14 +134,21 @@
                         <constraints>
                             <constraint firstItem="pDg-9R-acb" firstAttribute="top" secondItem="umU-LD-Zb6" secondAttribute="bottom" id="2t9-nu-KQP"/>
                             <constraint firstItem="MUZ-5U-msR" firstAttribute="leading" secondItem="3Qa-4q-lwx" secondAttribute="leading" id="CdH-uw-efN"/>
+                            <constraint firstItem="umU-LD-Zb6" firstAttribute="top" secondItem="rQG-Ip-zpq" secondAttribute="bottom" id="Hgt-rE-lPB"/>
                             <constraint firstAttribute="trailing" secondItem="umU-LD-Zb6" secondAttribute="trailing" id="U4r-Ev-8X1"/>
                             <constraint firstItem="umU-LD-Zb6" firstAttribute="top" secondItem="rQG-Ip-zpq" secondAttribute="bottom" id="agB-n5-zlK"/>
                             <constraint firstAttribute="trailing" secondItem="MUZ-5U-msR" secondAttribute="trailing" id="bGh-ec-HrS"/>
                             <constraint firstItem="umU-LD-Zb6" firstAttribute="leading" secondItem="3Qa-4q-lwx" secondAttribute="leading" id="cA4-qb-xNj"/>
                             <constraint firstItem="MUZ-5U-msR" firstAttribute="top" secondItem="3Qa-4q-lwx" secondAttribute="top" id="y2P-KL-r0Y"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="agB-n5-zlK"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="大学排名" id="1CV-dD-lfe"/>
+                    <navigationItem key="navigationItem" title="大学排名" id="26P-xR-xQH"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="navigationView" destination="MUZ-5U-msR" id="mHh-Rl-sJQ"/>
                         <outlet property="tableView" destination="umU-LD-Zb6" id="zNC-kq-Gta"/>
@@ -2485,13 +2492,13 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0H7-4i-2Gc">
                                                     <rect key="frame" x="89" y="62" width="30.5" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" red="1" green="0.25098039220000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzV-V7-Hxb">
                                                     <rect key="frame" x="119.5" y="62" width="30.5" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="1" green="0.25098039220000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2526,10 +2533,10 @@
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
-                                            <outlet property="dateLabel" destination="0H7-4i-2Gc" id="RHQ-R7-J53"/>
+                                            <outlet property="dateLabel" destination="qzV-V7-Hxb" id="FGm-VQ-sm5"/>
                                             <outlet property="iconImageView" destination="k8y-M0-W4v" id="NRV-Ug-Cn8"/>
                                             <outlet property="noteLabel" destination="ggB-vV-uQJ" id="epk-uh-TLD"/>
-                                            <outlet property="progressLabel" destination="qzV-V7-Hxb" id="bFq-oM-yb9"/>
+                                            <outlet property="progressLabel" destination="0H7-4i-2Gc" id="OJ9-1p-kq5"/>
                                             <outlet property="statusButton" destination="WBp-67-RJi" id="lP1-Cz-WUI"/>
                                             <outlet property="titleLabel" destination="tSQ-a9-BQZ" id="Oc3-1l-5f2"/>
                                         </connections>
@@ -2645,13 +2652,20 @@
                             <constraint firstItem="Aro-ji-aIo" firstAttribute="top" secondItem="XZJ-wD-XdY" secondAttribute="bottom" id="8Vq-RF-UQh"/>
                             <constraint firstItem="L6C-VZ-0bG" firstAttribute="top" secondItem="Aro-ji-aIo" secondAttribute="bottom" id="Cb1-fX-Cak"/>
                             <constraint firstAttribute="trailing" secondItem="Aro-ji-aIo" secondAttribute="trailing" id="CkI-Sf-Ua4"/>
+                            <constraint firstItem="Aro-ji-aIo" firstAttribute="top" secondItem="XZJ-wD-XdY" secondAttribute="bottom" id="G5i-Ag-rPP"/>
                             <constraint firstItem="Aro-ji-aIo" firstAttribute="leading" secondItem="e3Q-Q8-sN1" secondAttribute="leading" id="LAM-SA-vx2"/>
                             <constraint firstAttribute="trailing" secondItem="nyO-xj-ea7" secondAttribute="trailing" id="b2k-H2-1V7"/>
                             <constraint firstItem="nyO-xj-ea7" firstAttribute="leading" secondItem="e3Q-Q8-sN1" secondAttribute="leading" id="gJF-iy-LIP"/>
                             <constraint firstItem="nyO-xj-ea7" firstAttribute="top" secondItem="e3Q-Q8-sN1" secondAttribute="top" id="vqn-j7-MNn"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8Vq-RF-UQh"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="专业列表" id="ifY-vt-LXG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="navigationView" destination="nyO-xj-ea7" id="Zo1-dt-ZW5"/>
                         <outlet property="tableView" destination="Aro-ji-aIo" id="Zbo-A4-n3N"/>
@@ -3926,15 +3940,15 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="R8b-dB-BNq"/>
-        <segue reference="fYA-Od-fVe"/>
-        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="r4f-h3-sd1"/>
+        <segue reference="BK5-dh-8Fc"/>
+        <segue reference="TkG-Ai-5Ra"/>
+        <segue reference="kkp-86-AQj"/>
+        <segue reference="kVD-07-a4B"/>
+        <segue reference="flF-XO-gRb"/>
+        <segue reference="sEN-DU-GIR"/>
         <segue reference="yst-Da-2Hg"/>
-        <segue reference="B9H-kl-AMe"/>
-        <segue reference="vuL-hi-aIq"/>
+        <segue reference="OdY-zS-v6S"/>
         <segue reference="TYF-9O-bLs"/>
-        <segue reference="REv-SL-D0I"/>
-        <segue reference="Bo5-kO-yCc"/>
-        <segue reference="Oab-mH-CQ6"/>
     </inferredMetricsTieBreakers>
 </document>

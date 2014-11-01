@@ -23,7 +23,7 @@ class UniversityRankingTableViewCell: UITableViewCell {
         noteLabel?.text = item.note
         subtitleLabel?.text = item.chineseName
 
-        scoreLabel?.text = NSString(format: "%.1f", item.score!)
+        scoreLabel?.text = NSString(format: "%.1g", item.score!)
         rankLabel?.text = String(item.rank!)
         
         let name = item.icon!.address
