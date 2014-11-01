@@ -1,0 +1,61 @@
+{
+    "body": {
+        "footer": "\u66f4\u591a\u9662\u6821\u6570\u636e\u6301\u7eed\u66f4\u65b0\u4e2d", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "chineseName": "\u65af\u5766\u798f\u5927\u5b66", 
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "Stanford University"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityPreviewWithRank"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "su-logo.png", 
+                                "title": ""
+                            }, 
+                            "name": "su-logo.png", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d", 
+                        "rank": "1", 
+                        "score": "4.8"
+                    }, 
+                    {
+                        "chineseName": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66", 
+                        "content": {
+                            "body": {
+                                "address": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "Columbia University"
+                            }, 
+                            "name": "1.0\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityPreviewWithRank"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "cu-logo.png", 
+                                "title": ""
+                            }, 
+                            "name": "cu-logo.png", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "THE, QS, ARWU\u4e09\u5927\u6392\u540d", 
+                        "rank": "13", 
+                        "score": "4.75"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7f8e\u56fd\u5927\u5b66\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

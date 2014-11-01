@@ -43,4 +43,15 @@ class Wassail_v1: NSObject {
         
         CloudAdapter.instance.get(api, body: body, completion)
     }
+    
+    func getUniversityRanking(name: NSString, completion: NormalClosure) {
+        
+        let api: NSString = "/University/getUniversityRanking"
+        
+        let body: NSMutableDictionary = NSMutableDictionary()
+        body.setObject(name, forKey: "rankingName")
+        
+        CloudAdapter.instance.get(api, body: body, completion)
+    }
+
 }

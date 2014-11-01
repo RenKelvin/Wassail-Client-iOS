@@ -36,12 +36,12 @@ class CloudMediator: NSObject {
     func getApplyStats(programInstanceId: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-             println(data)
-             println(response)
-             println(error)
+            println(data)
+            println(response)
+            println(error)
             
             let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
-
+            
             if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
                 callback(success: false, data: nil)
             }
@@ -51,6 +51,38 @@ class CloudMediator: NSObject {
         }
         
         CloudAdapter.instance.getApplyStats(programInstanceId, completion)
+    }
+    
+    // MARK: - University
+    
+    func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
+        
+        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+            println(data)
+            println(response)
+            println(error)
+            
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
+            
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+//                callback(success: false, list: nil)
+                let l = ListInfo.instance.getList("1.1美国大学排名")
+                                callback(success: true, list: l)
+            }
+            else {
+                
+                let list = HLItemBuilder.build(dict!)
+                if (list != nil && list!.isKindOfClass(HLList)) {
+                    callback(success: true, list: list as? HLList)
+                }
+                else {
+                    callback(success: false, list: nil)
+                }
+                
+            }
+        }
+        
+        CloudAdapter.instance.getUniversityRanking(name, completion)
     }
     
 }

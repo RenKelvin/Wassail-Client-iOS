@@ -411,6 +411,7 @@
 		FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */; };
 		FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */; };
 		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
+		FE73147F1A04E91000A706B9 /* 1.1美国大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
@@ -976,6 +977,7 @@
 		FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.0Portfolio1.png; sourceTree = "<group>"; };
 		FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4.0其他文书.md.json"; sourceTree = "<group>"; };
 		FE72630019DFED10005739D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1美国大学排名.md.json"; sourceTree = "<group>"; };
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
 		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
@@ -1782,6 +1784,7 @@
 		FE76B7EE19FD1FB6001B4B39 /* 院校数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */,
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
 				FEB4258819FD50E300C0EE2F /* cu-logo.png */,
 				FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */,
@@ -2556,6 +2559,7 @@
 				ADF2AC0B1A036B8C00DA02C3 /* 2.5.3四大排名评价标准.md.json in Resources */,
 				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADF2AC1F1A036B8C00DA02C3 /* 3.2理学院排名.md.json in Resources */,
+				FE73147F1A04E91000A706B9 /* 1.1美国大学排名.md.json in Resources */,
 				ADF2AC281A036B8C00DA02C3 /* 3.7教育学院排名.md.json in Resources */,
 				ADF2ABF61A036B8C00DA02C3 /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,

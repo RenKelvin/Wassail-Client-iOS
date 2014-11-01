@@ -48,4 +48,8 @@ class ApplyAccessor: NSObject {
         CloudMediator.instance.getApplyStats(id, callback)
     }
     
+    func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
+        CloudMediator.instance.getUniversityRanking(name, callback)
+    }
+
 }

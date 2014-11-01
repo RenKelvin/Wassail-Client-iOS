@@ -32,6 +32,10 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         Wassail_v1.instance.getApplyStats(programInstanceId, completion)
     }
 
+    func getUniversityRanking(name: NSString, completion: NormalClosure) {
+        Wassail_v1.instance.getUniversityRanking(name, completion)
+    }
+
     // MARK: -
     
     func post(api: NSString, body: NSDictionary, completion: NormalClosure) {

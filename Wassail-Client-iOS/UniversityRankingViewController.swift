@@ -8,12 +8,13 @@
 
 import UIKit
 
-class UniversityRankingViewController: GAITrackedViewController {
+class UniversityRankingViewController: GAITrackedViewController, UIAlertViewDelegate {
     
     @IBOutlet var tableView: UITableView?
-    
     @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var errorLabel: UILabel?
+
     var listName: NSString?
     var list: HLList?
     
@@ -54,8 +55,22 @@ class UniversityRankingViewController: GAITrackedViewController {
             return
         }
         
-        list = ListInfo.instance.getList(listName!)
-        
+        // TODO: get list from aws
+        ApplyAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
+    }
+    
+    func getUniversityRankingHandler(success: Bool, list: HLList?) {
+        if (success) {
+            self.list = list
+            
+            //
+            self.tableView!.reloadData()
+        }
+        else {
+            self.errorLabel!.hidden = false
+            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+            // alert.show()
+        }
     }
     
     // MARK: - Table view data source
@@ -152,6 +167,12 @@ class UniversityRankingViewController: GAITrackedViewController {
         let segueIdentifier = "UniversityRanking" + itemPreview.sourceType! + "SegueIdentifier"
         self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
         
+    }
+    
+    // MARK: - UIAlertViewDelegate
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        self.navigationController?.popViewControllerAnimated(true)
     }
     
     // MARK: - Navigation
