@@ -15,7 +15,7 @@ class ProgramInstanceTableViewInfoCell: UITableViewCell {
     @IBOutlet var schoolLabel: UILabel?
     @IBOutlet var departmentLabel: UILabel?
     @IBOutlet var degreeLabel: UILabel?
-    @IBOutlet var webpageLabel: UILabel?
+    @IBOutlet var webpageButton: UIButton?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,7 +34,7 @@ class ProgramInstanceTableViewInfoCell: UITableViewCell {
         schoolLabel!.text = data["school"].stringValue
         departmentLabel!.text = data["department"].stringValue
         degreeLabel!.text = data["degree"].stringValue
-        webpageLabel!.text = data["webpage"].stringValue
+        webpageButton!.setTitle(data["webpage"].stringValue, forState: .Normal)
     }
     
 }

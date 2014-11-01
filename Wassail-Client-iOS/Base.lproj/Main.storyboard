@@ -1059,12 +1059,6 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://www.google.com" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g5k-hN-aBK">
-                                                    <rect key="frame" x="81" y="158" width="504" height="17"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master of Science" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovn-fX-L9a">
                                                     <rect key="frame" x="81" y="129" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1098,6 +1092,17 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWn-uF-Ut9">
+                                                    <rect key="frame" x="81" y="152" width="504" height="29"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="Button">
+                                                        <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="webpageLinkTapped" destination="bFh-mN-eLf" eventType="touchUpInside" id="whD-wg-zYi"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="H2t-dP-kgi" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="2Pq-3b-MYx"/>
@@ -1105,18 +1110,18 @@
                                                 <constraint firstAttribute="centerY" secondItem="H2t-dP-kgi" secondAttribute="centerY" id="Ao6-Pq-bRk"/>
                                                 <constraint firstItem="UQl-iY-mdS" firstAttribute="leading" secondItem="H2t-dP-kgi" secondAttribute="trailing" constant="10" id="B9F-rY-Lvo"/>
                                                 <constraint firstItem="mpJ-s0-aQx" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="EnQ-N3-fQL"/>
-                                                <constraint firstItem="4rF-XA-oza" firstAttribute="baseline" secondItem="g5k-hN-aBK" secondAttribute="baseline" id="FFd-E5-qtA"/>
                                                 <constraint firstItem="4rF-XA-oza" firstAttribute="top" secondItem="R5R-xO-584" secondAttribute="bottom" constant="12" id="FGz-Oc-Pe6"/>
                                                 <constraint firstAttribute="trailing" secondItem="ovn-fX-L9a" secondAttribute="trailing" constant="15" id="FPj-sz-AQe"/>
                                                 <constraint firstItem="R5R-xO-584" firstAttribute="baseline" secondItem="ovn-fX-L9a" secondAttribute="baseline" id="Fsk-yB-3Ld"/>
+                                                <constraint firstItem="DWn-uF-Ut9" firstAttribute="leading" secondItem="4rF-XA-oza" secondAttribute="trailing" constant="10" id="Hrp-14-q2q"/>
                                                 <constraint firstItem="0Hg-zx-Cly" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="Igh-uG-moP"/>
-                                                <constraint firstItem="g5k-hN-aBK" firstAttribute="leading" secondItem="4rF-XA-oza" secondAttribute="trailing" constant="10" id="Jrh-kI-eEM"/>
                                                 <constraint firstItem="0Hg-zx-Cly" firstAttribute="top" secondItem="mpJ-s0-aQx" secondAttribute="bottom" constant="12" id="M15-75-19n"/>
                                                 <constraint firstItem="H2t-dP-kgi" firstAttribute="baseline" secondItem="UQl-iY-mdS" secondAttribute="baseline" id="OqZ-37-eb3"/>
                                                 <constraint firstItem="Mi7-hr-b8K" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="PdH-oT-KMF"/>
                                                 <constraint firstAttribute="trailing" secondItem="t9r-7y-qhA" secondAttribute="trailing" constant="15" id="Qig-kp-hSR"/>
                                                 <constraint firstItem="ovn-fX-L9a" firstAttribute="leading" secondItem="R5R-xO-584" secondAttribute="trailing" constant="10" id="SYi-dk-UOa"/>
                                                 <constraint firstItem="t9r-7y-qhA" firstAttribute="leading" secondItem="0Hg-zx-Cly" secondAttribute="trailing" constant="10" id="TNe-ll-LnP"/>
+                                                <constraint firstAttribute="trailing" secondItem="DWn-uF-Ut9" secondAttribute="trailing" constant="15" id="WN1-E4-SuJ"/>
                                                 <constraint firstItem="H2t-dP-kgi" firstAttribute="top" secondItem="ymj-dU-coD" secondAttribute="top" constant="13" id="Wk5-Rw-7TA"/>
                                                 <constraint firstItem="Mi7-hr-b8K" firstAttribute="top" secondItem="H2t-dP-kgi" secondAttribute="bottom" constant="12" id="Ypu-ZQ-RLD"/>
                                                 <constraint firstItem="Mi7-hr-b8K" firstAttribute="baseline" secondItem="ytB-NU-oVN" secondAttribute="baseline" id="ZLc-va-jXT"/>
@@ -1124,13 +1129,13 @@
                                                 <constraint firstItem="mpJ-s0-aQx" firstAttribute="top" secondItem="Mi7-hr-b8K" secondAttribute="bottom" constant="12" id="a7f-79-6B2"/>
                                                 <constraint firstItem="4rF-XA-oza" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="c82-FS-qdB"/>
                                                 <constraint firstAttribute="trailing" secondItem="UQl-iY-mdS" secondAttribute="trailing" constant="15" id="dgb-t6-rk4"/>
-                                                <constraint firstAttribute="trailing" secondItem="g5k-hN-aBK" secondAttribute="trailing" constant="15" id="euz-Vd-5z3"/>
                                                 <constraint firstItem="ytB-NU-oVN" firstAttribute="leading" secondItem="Mi7-hr-b8K" secondAttribute="trailing" constant="10" id="n05-RQ-Hgg"/>
                                                 <constraint firstItem="R5R-xO-584" firstAttribute="top" secondItem="0Hg-zx-Cly" secondAttribute="bottom" constant="12" id="p8F-uH-99A"/>
                                                 <constraint firstAttribute="trailing" secondItem="wbR-og-W2e" secondAttribute="trailing" constant="15" id="rf7-j4-jQe"/>
                                                 <constraint firstItem="0Hg-zx-Cly" firstAttribute="baseline" secondItem="t9r-7y-qhA" secondAttribute="baseline" id="rhl-MH-QT7"/>
                                                 <constraint firstItem="R5R-xO-584" firstAttribute="leading" secondItem="ymj-dU-coD" secondAttribute="leading" constant="15" id="s2q-DT-vZs"/>
                                                 <constraint firstAttribute="trailing" secondItem="ytB-NU-oVN" secondAttribute="trailing" constant="15" id="vu0-QE-BMT"/>
+                                                <constraint firstItem="4rF-XA-oza" firstAttribute="baseline" secondItem="DWn-uF-Ut9" secondAttribute="baseline" id="zoy-tv-hyI"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -1144,7 +1149,7 @@
                                             <outlet property="departmentLabel" destination="t9r-7y-qhA" id="bis-8p-tZJ"/>
                                             <outlet property="schoolLabel" destination="wbR-og-W2e" id="uPq-fN-eqJ"/>
                                             <outlet property="timeLabel" destination="UQl-iY-mdS" id="tr9-yb-059"/>
-                                            <outlet property="webpageLabel" destination="g5k-hN-aBK" id="GTu-GJ-5Kt"/>
+                                            <outlet property="webpageButton" destination="DWn-uF-Ut9" id="dAT-aP-PFQ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProgramInstanceTableViewContactCellReuseIdentifier" rowHeight="96" id="zSo-h9-hSp" customClass="ProgramInstanceTableViewContactCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -1229,6 +1234,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="emailLabel" destination="Zrd-p1-p0T" id="ghG-NQ-A73"/>
+                                            <outlet property="nameLabel" destination="tte-Mn-Exp" id="KHJ-1Z-o9A"/>
                                             <outlet property="phoneLabel" destination="p5U-qm-ZQc" id="IWL-gy-Lrf"/>
                                         </connections>
                                     </tableViewCell>
@@ -1257,7 +1263,9 @@
                             <constraint firstItem="t6J-aY-6ra" firstAttribute="top" secondItem="LwB-38-CUs" secondAttribute="bottom" id="nIi-hW-Uev"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="项目详情" id="cR9-a5-cmw"/>
+                    <navigationItem key="navigationItem" title="项目详情" id="cR9-a5-cmw">
+                        <barButtonItem key="backBarButtonItem" title=" " id="1nv-ix-lo6"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="coverImageView" destination="L99-ik-Z9f" id="RGL-Q7-r27"/>
                         <outlet property="iconImageView" destination="5gt-mi-Z6q" id="OSf-Zs-10p"/>
@@ -1265,6 +1273,7 @@
                         <outlet property="tableView" destination="LwB-38-CUs" id="je6-nE-sA6"/>
                         <outlet property="universityNameLabel" destination="8Ux-4M-b1a" id="3ON-BM-umt"/>
                         <segue destination="Uyq-hx-WKz" kind="show" identifier="ProgramInstanceFeedbackSegueIdentifier" id="nvp-jT-Q9G"/>
+                        <segue destination="yEZ-CL-Iol" kind="show" identifier="ProgramInstanceBrowserSegueIdentifier" id="Uob-hB-WD6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pv-Qp-PpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4099,16 +4108,16 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r4f-h3-sd1"/>
         <segue reference="BK5-dh-8Fc"/>
         <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="kVD-07-a4B"/>
         <segue reference="flF-XO-gRb"/>
         <segue reference="sEN-DU-GIR"/>
+        <segue reference="kVD-07-a4B"/>
+        <segue reference="r4f-h3-sd1"/>
         <segue reference="yst-Da-2Hg"/>
         <segue reference="OdY-zS-v6S"/>
         <segue reference="TYF-9O-bLs"/>
         <segue reference="nvp-jT-Q9G"/>
+        <segue reference="Uob-hB-WD6"/>
     </inferredMetricsTieBreakers>
 </document>

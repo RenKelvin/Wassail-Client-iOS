@@ -90,6 +90,17 @@ class ProgramInstanceViewController: GAITrackedViewController {
         self.performSegueWithIdentifier("ProgramInstanceFeedbackSegueIdentifier", sender: nil)
     }
     
+    @IBAction func webpageLinkTapped() {
+        
+        if (data == nil) {
+            return
+        }
+        else {
+            let link = self.data!["webpage"].stringValue as NSString
+            self.performSegueWithIdentifier("ProgramInstanceBrowserSegueIdentifier", sender: link)
+        }
+    }
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -186,14 +197,15 @@ class ProgramInstanceViewController: GAITrackedViewController {
         return CGFloat(height)
     }
     
-    /*
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        var controller = segue.destinationViewController as UIViewController
+        controller.setInfo(sender)
     }
-    */
     
 }
