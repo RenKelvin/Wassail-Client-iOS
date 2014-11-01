@@ -11,12 +11,20 @@ import UIKit
 class ProgramInstanceViewController: GAITrackedViewController {
     
     @IBOutlet var tableView: UITableView?
-    @IBOutlet var navigationView: UIView?
+    
+    @IBOutlet var iconImageView: UIImageView?
+    @IBOutlet var coverImageView: UIImageView?
+    @IBOutlet var universityNameLabel: UILabel?
+    @IBOutlet var programNameLabel: UILabel?
+    
+    var programInstanceId: NSNumber?
+    var data: JSON?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        // Reload data
+        self.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,14 +40,47 @@ class ProgramInstanceViewController: GAITrackedViewController {
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
-        navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
     
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
-            // TODO: info
+            //
+            self.programInstanceId = info as? NSNumber
+        }
+    }
+    
+    func updateHeaderView() {
+        universityNameLabel!.text = self.data!["universityName"].stringValue
+        programNameLabel!.text = self.data!["programName"].stringValue
+        
+        iconImageView!.sd_setImageWithURL(NSURL(string: (self.data!["icon"].stringValue)))
+        coverImageView!.sd_setImageWithURL(NSURL(string: (self.data!["cover"].stringValue)))
+    }
+    
+    func reloadData() {
+        
+        if (programInstanceId == nil) {
+            return
+        }
+        
+        //
+        UniversityAccessor.instance.getProgramInstanceInfo(programInstanceId!, getProgramInstanceInfoHandler)
+    }
+    
+    func getProgramInstanceInfoHandler(success: Bool, data: NSDictionary?) {
+        if (success) {
+            self.data = JSON(data!)
+            
+            //
+            self.updateHeaderView()
+            self.tableView!.reloadData()
+        }
+        else {
+            // self.errorLabel!.hidden = false
+            // let alert = UIAlertView(title: "网络错误", message: "网络不给力啊！😢", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+            // alert.show()
         }
     }
     
@@ -65,8 +106,6 @@ class ProgramInstanceViewController: GAITrackedViewController {
             rows = 1
         case 1:
             rows = 1
-        case 2:
-            rows = 3
         default:
             rows = 0
         }
@@ -77,15 +116,23 @@ class ProgramInstanceViewController: GAITrackedViewController {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:
-            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as ProgramInstanceTableViewInfoCell
             
             // Configure the cell
+            if (self.data == nil) {
+                return cell
+            }
+            cell.configure(data!)
             
             return cell
         case 1:
-            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewContactCellReuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewContactCellReuseIdentifier", forIndexPath: indexPath) as ProgramInstanceTableViewContactCell
             
             // Configure the cell
+            if (self.data == nil) {
+                return cell
+            }
+            cell.configure(data!)
             
             return cell
         case 2:

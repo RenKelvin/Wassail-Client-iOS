@@ -383,6 +383,7 @@
 		FE669BB719F939F500906F2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE669BB619F939F500906F2E /* SystemConfiguration.framework */; };
 		FE669BBB19F93AC600906F2E /* GAIAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE669BBA19F93AC600906F2E /* GAIAdapter.m */; };
 		FE669BBD19F93D0700906F2E /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */; };
+		FE6E308D1A052CD700AB3B72 /* UniversityAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E308C1A052CD700AB3B72 /* UniversityAccessor.swift */; };
 		FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CA19DFEA11005739D0 /* 0PS1.jpg */; };
 		FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */; };
 		FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7262CC19DFEA11005739D0 /* 0RL1.jpg */; };
@@ -412,6 +413,8 @@
 		FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */; };
 		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
 		FE73147F1A04E91000A706B9 /* 1.1美国大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */; };
+		FE7314811A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */; };
+		FE7314831A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
 		FE7731CD1A00B6DB00B31C0D /* KKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */; };
 		FE83076119DF07DC000B025A /* HLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83076019DF07DC000B025A /* HLImage.swift */; };
@@ -949,6 +952,7 @@
 		FE669BB919F93AC600906F2E /* GAIAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIAdapter.h; sourceTree = "<group>"; };
 		FE669BBA19F93AC600906F2E /* GAIAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAIAdapter.m; sourceTree = "<group>"; };
 		FE669BBC19F93D0700906F2E /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		FE6E308C1A052CD700AB3B72 /* UniversityAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityAccessor.swift; sourceTree = "<group>"; };
 		FE7262CA19DFEA11005739D0 /* 0PS1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0PS1.jpg; sourceTree = "<group>"; };
 		FE7262CB19DFEA11005739D0 /* 0Resume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0Resume2.jpg; sourceTree = "<group>"; };
 		FE7262CC19DFEA11005739D0 /* 0RL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0RL1.jpg; sourceTree = "<group>"; };
@@ -978,6 +982,8 @@
 		FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4.0其他文书.md.json"; sourceTree = "<group>"; };
 		FE72630019DFED10005739D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1美国大学排名.md.json"; sourceTree = "<group>"; };
+		FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewInfoCell.swift; sourceTree = "<group>"; };
+		FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewContactCell.swift; sourceTree = "<group>"; };
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
 		FE7731CB1A00B6DB00B31C0D /* KKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKActionSheet.h; sourceTree = "<group>"; };
 		FE7731CC1A00B6DB00B31C0D /* KKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKActionSheet.m; sourceTree = "<group>"; };
@@ -2035,6 +2041,8 @@
 		FEBC44CE1A04AA520067FE05 /* University */ = {
 			isa = PBXGroup;
 			children = (
+				FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */,
+				FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */,
 				FEE25E7719FD45C200BDE743 /* UniversityRankingTableViewCell.swift */,
 			);
 			name = University;
@@ -2127,6 +2135,7 @@
 				FEC3BD5419C298D100184760 /* DefaultAccessor.swift */,
 				FE435F8A19CDC38A00CC6CCE /* UserAccessor.swift */,
 				FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */,
+				FE6E308C1A052CD700AB3B72 /* UniversityAccessor.swift */,
 			);
 			name = Accessor;
 			sourceTree = "<group>";
@@ -2742,6 +2751,8 @@
 				FE12E7DF1A0110D6008F3470 /* SDImageCache.m in Sources */,
 				FE12E7E21A0110D6008F3470 /* SDWebImageDownloader.m in Sources */,
 				FE12E7EB1A0110D6008F3470 /* UIImageView+WebCache.m in Sources */,
+				FE7314831A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift in Sources */,
+				FE6E308D1A052CD700AB3B72 /* UniversityAccessor.swift in Sources */,
 				FE496C0319C47D4C0003A29A /* DefaultInfo.swift in Sources */,
 				FE12E7E71A0110D6008F3470 /* UIImage+GIF.m in Sources */,
 				FEC7734319C43B3F00E15DF2 /* HLListPreview.swift in Sources */,
@@ -2802,6 +2813,7 @@
 				FE98CA8419FE853700D71578 /* StaticDataManager.swift in Sources */,
 				FE98698719C7F26900083FEE /* UnitConverterInfo.swift in Sources */,
 				FEA05EEA19FBB1AD00D1C912 /* UniversityViewController.swift in Sources */,
+				FE7314811A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift in Sources */,
 				FE5BC07019D71A73007E63BC /* ArticleInfo.swift in Sources */,
 				FE4E2B0519C48FBD0096AD86 /* ArticleTableViewItemCell.swift in Sources */,
 				FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */,

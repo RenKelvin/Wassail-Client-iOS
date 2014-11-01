@@ -58,8 +58,8 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
     func updateView() {
         
         let programInstanceId = item!.programInstanceId as NSNumber
-        let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
-        let requirements = ApplyAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
+        let preview = UniversityAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        let requirements = UniversityAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName

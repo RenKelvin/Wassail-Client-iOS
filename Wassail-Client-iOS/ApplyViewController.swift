@@ -63,8 +63,8 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     func reloadData() {
         
         let programInstanceId = apply!.programInstanceId as NSNumber
-        preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
-        requirements = ApplyAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
+        preview = UniversityAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        requirements = UniversityAccessor.instance.getProgramInstanceRequirementsByProgramInstanceId(programInstanceId) as HLProgramInstanceRequirements?
         
         self.updateView()
         self.tableView!.reloadData()
@@ -73,7 +73,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     func updateView() {
         // Header
         let programInstanceId = apply!.programInstanceId as NSNumber
-        let preview = ApplyAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
+        let preview = UniversityAccessor.instance.getProgramInstancePreviewByProgramInstanceId(programInstanceId) as HLProgramInstancePreview?
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName

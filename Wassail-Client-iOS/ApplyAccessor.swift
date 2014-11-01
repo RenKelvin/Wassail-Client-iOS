@@ -32,24 +32,12 @@ class ApplyAccessor: NSObject {
         return DatabaseMediator.instance.deleteApply(item)
     }
     
-    func getProgramInstancePreviewByProgramInstanceId(id: NSNumber) -> HLProgramInstancePreview? {
-        return DatabaseMediator.instance.getProgramInstancePreviewByProgramInstanceId(id)
-    }
-    
-    func getProgramInstanceRequirementsByProgramInstanceId(id: NSNumber) -> HLProgramInstanceRequirements? {
-        return DatabaseMediator.instance.getProgramInstanceRequirementsByProgramInstanceId(id)
-    }
-    
     func getApplyByProgramInstanceId(id: NSNumber) -> HLApply? {
         return DatabaseMediator.instance.getApplyByProgramInstanceId(id)
     }
     
     func getApplyStats(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         CloudMediator.instance.getApplyStats(id, callback)
-    }
-    
-    func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
-        CloudMediator.instance.getUniversityRanking(name, callback)
     }
 
 }

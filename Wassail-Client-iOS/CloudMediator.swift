@@ -85,4 +85,24 @@ class CloudMediator: NSObject {
         CloudAdapter.instance.getUniversityRanking(name, completion)
     }
     
+    func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
+        
+        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+            println(data)
+            println(response)
+            println(error)
+            
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
+            
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+                callback(success: false, data: nil)
+            }
+            else {
+                callback(success: false, data: dict!)
+            }
+        }
+        
+        CloudAdapter.instance.getProgramInstanceInfo(id, completion)
+    }
+
 }

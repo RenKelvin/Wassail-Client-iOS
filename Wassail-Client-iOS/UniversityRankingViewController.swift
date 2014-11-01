@@ -14,7 +14,7 @@ class UniversityRankingViewController: GAITrackedViewController, UIAlertViewDele
     @IBOutlet var navigationView: UIView?
     
     @IBOutlet var errorLabel: UILabel?
-
+    
     var listName: NSString?
     var list: HLList?
     
@@ -55,8 +55,8 @@ class UniversityRankingViewController: GAITrackedViewController, UIAlertViewDele
             return
         }
         
-        // TODO: get list from aws
-        ApplyAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
+        //
+        UniversityAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
     }
     
     func getUniversityRankingHandler(success: Bool, list: HLList?) {

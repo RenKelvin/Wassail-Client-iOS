@@ -17,12 +17,6 @@ class Wassail_v1: NSObject {
     }
     
     // MARK: - others
-
-    func getApplyStats(programInstanceId: NSNumber) {
-    
-}
-
-    // MARK: - others
     
     func sendFeedback(text: NSString, completion: NormalClosure) {
         
@@ -46,10 +40,20 @@ class Wassail_v1: NSObject {
     
     func getUniversityRanking(name: NSString, completion: NormalClosure) {
         
-        let api: NSString = "/University/getUniversityRanking"
+        let api: NSString = "/university/getUniversityRanking"
         
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(name, forKey: "rankingName")
+        
+        CloudAdapter.instance.get(api, body: body, completion)
+    }
+    
+    func getProgramInstanceInfo(id: NSNumber, completion: NormalClosure) {
+        
+        let api: NSString = "/university/getProgramInstanceInfo"
+        
+        let body: NSMutableDictionary = NSMutableDictionary()
+        body.setObject(id, forKey: "programInstanceId")
         
         CloudAdapter.instance.get(api, body: body, completion)
     }
