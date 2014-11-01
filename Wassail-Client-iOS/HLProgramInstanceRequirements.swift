@@ -99,7 +99,10 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (toeflHas.boolValue) {
             ind = 101
             title = "TOEFL"
-            note = NSString(format: "寄送托福成绩 分数要求 %d", toeflIBTTotal.integerValue)
+            note = NSString(format: "寄送托福成绩")
+            if (applicationFee.doubleValue != 0.0) {
+                note += NSString(format: " 分数要求 %g", toeflIBTTotal.integerValue)
+            }
             
             array.addObject([ind, title, note])
         }
@@ -108,7 +111,10 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (ieltsHas.boolValue) {
             ind = 102
             title = "IELTS"
-            note = NSString(format: "寄送雅思成绩 分数要求 %d", ieltsTotal.integerValue)
+            note = NSString(format: "寄送雅思成绩")
+            if (applicationFee.doubleValue != 0.0) {
+                note += NSString(format: " 分数要求 %.1g", ieltsTotal.doubleValue)
+            }
             
             array.addObject([ind, title, note])
         }
@@ -117,7 +123,10 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (greHas.boolValue) {
             ind = 103
             title = "GRE"
-            note = NSString(format: "寄送GRE成绩 分数要求 %d", greTotal.integerValue)
+            note = NSString(format: "寄送GRE成绩", greTotal.integerValue)
+            if (applicationFee.doubleValue != 0.0) {
+                note += NSString(format: " 分数要求 %g", greTotal.integerValue)
+            }
             
             array.addObject([ind, title, note])
         }
@@ -208,7 +217,10 @@ class HLProgramInstanceRequirements: NSManagedObject {
         // 305 af
         ind = 305
         title = "Application Fee"
-        note = NSString(format: "申请费 $%g", applicationFee.doubleValue)
+        note = NSString(format: "提交申请费")
+        if (applicationFee.doubleValue != 0.0) {
+            note += NSString(format: " $%g", applicationFee.doubleValue)
+        }
         
         array.addObject([ind, title, note])
         
