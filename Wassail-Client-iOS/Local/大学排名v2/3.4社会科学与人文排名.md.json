@@ -7,85 +7,85 @@
                         "content": {
                             "body": {
                                 "address": "0401\u72af\u7f6a\u5b66", 
-                                "title": "\u72af\u7f6a\u5b66"
+                                "title": "Criminology"
                             }, 
                             "name": "0401\u72af\u7f6a\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Criminology"
+                        "note": "\u72af\u7f6a\u5b66"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0402\u7ecf\u6d4e\u5b66", 
-                                "title": "\u7ecf\u6d4e\u5b66"
+                                "title": "Economics"
                             }, 
                             "name": "0402\u7ecf\u6d4e\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Economics"
+                        "note": "\u7ecf\u6d4e\u5b66"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0403\u82f1\u8bed", 
-                                "title": "\u82f1\u8bed"
+                                "title": "English"
                             }, 
                             "name": "0403\u82f1\u8bed", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "English"
+                        "note": "\u82f1\u8bed"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0404\u5386\u53f2", 
-                                "title": "\u5386\u53f2"
+                                "title": "History"
                             }, 
                             "name": "0404\u5386\u53f2", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "History"
+                        "note": "\u5386\u53f2"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0405\u5fc3\u7406\u5b66", 
-                                "title": "\u5fc3\u7406\u5b66"
+                                "title": "Psychology"
                             }, 
                             "name": "0405\u5fc3\u7406\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Psychology"
+                        "note": "\u5fc3\u7406\u5b66"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0406\u653f\u6cbb\u79d1\u5b66", 
-                                "title": "\u653f\u6cbb\u79d1\u5b66"
+                                "title": "Political Science"
                             }, 
                             "name": "0406\u653f\u6cbb\u79d1\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Political Science"
+                        "note": "\u653f\u6cbb\u79d1\u5b66"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0407\u793e\u4f1a\u5b66", 
-                                "title": "\u793e\u4f1a\u5b66"
+                                "title": "Sociology"
                             }, 
                             "name": "0407\u793e\u4f1a\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Sociology"
+                        "note": "\u793e\u4f1a\u5b66"
                     }
                 ], 
                 "title": "-"

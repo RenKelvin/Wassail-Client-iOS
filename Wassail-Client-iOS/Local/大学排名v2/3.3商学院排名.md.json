@@ -7,13 +7,13 @@
                         "content": {
                             "body": {
                                 "address": "0301\u5546\u5b66\u9662\u6392\u540d", 
-                                "title": "\u5546\u5b66\u9662\u6392\u540d"
+                                "title": "Business Schools"
                             }, 
                             "name": "0301\u5546\u5b66\u9662\u6392\u540d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Business Schools"
+                        "note": "\u5546\u5b66\u9662\u6392\u540d"
                     }
                 ], 
                 "title": "-"
@@ -24,157 +24,157 @@
                         "content": {
                             "body": {
                                 "address": "0302\u4f1a\u8ba1", 
-                                "title": "\u4f1a\u8ba1"
+                                "title": "Accounting"
                             }, 
                             "name": "0302\u4f1a\u8ba1", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Accounting"
+                        "note": "\u4f1a\u8ba1"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0303\u521b\u4e1a", 
-                                "title": "\u521b\u4e1a"
+                                "title": "Entrepreneurship"
                             }, 
                             "name": "0303\u521b\u4e1a", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Entrepreneurship"
+                        "note": "\u521b\u4e1a"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0304\u884c\u653f\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
-                                "title": "\u884c\u653f\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
+                                "title": "Executive MBA"
                             }, 
                             "name": "0304\u884c\u653f\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Executive MBA"
+                        "note": "\u884c\u653f\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0305\u91d1\u878d", 
-                                "title": "\u91d1\u878d"
+                                "title": "Finance"
                             }, 
                             "name": "0305\u91d1\u878d", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Finance"
+                        "note": "\u91d1\u878d"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0306\u4fe1\u606f\u7cfb\u7edf", 
-                                "title": "\u4fe1\u606f\u7cfb\u7edf"
+                                "title": "Information Systems"
                             }, 
                             "name": "0306\u4fe1\u606f\u7cfb\u7edf", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Information Systems"
+                        "note": "\u4fe1\u606f\u7cfb\u7edf"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0307\u56fd\u9645\u5546\u52a1", 
-                                "title": "\u56fd\u9645\u5546\u52a1"
+                                "title": "International  Business"
                             }, 
                             "name": "0307\u56fd\u9645\u5546\u52a1", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "International  Business"
+                        "note": "\u56fd\u9645\u5546\u52a1"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0308\u7ba1\u7406\u5b66", 
-                                "title": "\u7ba1\u7406\u5b66"
+                                "title": "Management"
                             }, 
                             "name": "0308\u7ba1\u7406\u5b66", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Management"
+                        "note": "\u7ba1\u7406\u5b66"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0309\u5e02\u573a\u8425\u9500", 
-                                "title": "\u5e02\u573a\u8425\u9500"
+                                "title": "Marketing"
                             }, 
                             "name": "0309\u5e02\u573a\u8425\u9500", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Marketing"
+                        "note": "\u5e02\u573a\u8425\u9500"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0310\u975e\u76c8\u5229\u516c\u5171\u7ba1\u7406", 
-                                "title": "\u975e\u76c8\u5229\u516c\u5171\u7ba1\u7406"
+                                "title": "Non-profit Management"
                             }, 
                             "name": "0310\u975e\u76c8\u5229\u516c\u5171\u7ba1\u7406", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Non-profit Management"
+                        "note": "\u975e\u76c8\u5229\u516c\u5171\u7ba1\u7406"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0311\u5728\u804c\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
-                                "title": "\u5728\u804c\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
+                                "title": "Part-time MBA"
                             }, 
                             "name": "0311\u5728\u804c\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Part-time MBA"
+                        "note": "\u5728\u804c\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0312\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406", 
-                                "title": "\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406"
+                                "title": "Production / Operations"
                             }, 
                             "name": "0312\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Production / Operations"
+                        "note": "\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0313\u7269\u6d41\u7ba1\u7406", 
-                                "title": "\u7269\u6d41\u7ba1\u7406"
+                                "title": "Supply Chain / Logistics"
                             }, 
                             "name": "0313\u7269\u6d41\u7ba1\u7406", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Supply Chain / Logistics"
+                        "note": "\u7269\u6d41\u7ba1\u7406"
                     }, 
                     {
                         "content": {
                             "body": {
                                 "address": "0314\u91d1\u878d\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
-                                "title": "\u91d1\u878d\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
+                                "title": "Finance MBA"
                             }, 
                             "name": "0314\u91d1\u878d\u5de5\u5546\u7ba1\u7406\u7855\u58eb", 
                             "type": "HLUniversityRankingPreview"
                         }, 
                         "kind": "Item", 
-                        "note": "Finance MBA"
+                        "note": "\u91d1\u878d\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
                     }
                 ], 
                 "title": "-"
