@@ -1,18 +1,18 @@
 //
-//  FieldListViewController.swift
+//  FieldSelectorViewController.swift
 //  Wassail-Client-iOS
 //
-//  Created by Chuan Ren on 10/25/14.
+//  Created by Chuan Ren on 11/3/14.
 //  Copyright (c) 2014 Haile. All rights reserved.
 //
 
 import UIKit
 
-class FieldListViewController: GAITrackedViewController {
+class FieldSelectorViewController: GAITrackedViewController {
 
     @IBOutlet var tableView: UITableView?
     @IBOutlet var navigationView: UIView?
-    
+
     var listName: NSString?
     var list: HLList?
 
@@ -32,13 +32,13 @@ class FieldListViewController: GAITrackedViewController {
         super.viewWillAppear(animated)
         
         // GAITrackedViewController name
-        self.screenName = "Field List Screen"
+        self.screenName = "Field Selector Screen"
         
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
     }
-
+    
     // MARK: -
     
     override func setInfo(info: AnyObject?) {
@@ -55,6 +55,12 @@ class FieldListViewController: GAITrackedViewController {
         
         list = ListInfo.instance.getList(listName!)
         
+    }
+    
+    // MARK: - IBAction
+    
+    @IBAction func doneButtonClicked() {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
     // MARK: - Table view data source
@@ -92,7 +98,7 @@ class FieldListViewController: GAITrackedViewController {
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "FieldListTableViewCellReuseIdentifier"
+        var cellReuseIdentifier = "FieldSelectorTableViewCellReuseIdentifier"
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewSimple54Cell
         cell.configure(item as HLItemPreview)
@@ -137,19 +143,7 @@ class FieldListViewController: GAITrackedViewController {
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
-        // Get source item
-        if (list == nil) {
-            return
-        }
-        
-        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
-        
-        if (itemPreview.sourceType == nil) {
-            return
-        }
-        
-        let segueIdentifier = "FieldList" + itemPreview.sourceType! + "SegueIdentifier"
-        self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
+        // TODO: 123
         
     }
     

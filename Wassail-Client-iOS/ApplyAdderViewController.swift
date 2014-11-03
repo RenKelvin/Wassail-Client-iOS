@@ -86,6 +86,10 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         actionSheet.showInView(self.view)
     }
     
+    @IBAction func fieldButtonClicked() {
+        self.performSegueWithIdentifier("ApplyAdderFieldSelectorSegueIdentifier", sender: "FieldSelectorList")
+    }
+    
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
@@ -171,7 +175,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         
         return 64.0
     }
-
+    
     // MARK: - UIActionSheetDelegate
     
     func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {

@@ -330,6 +330,8 @@
 		FE39FB961A07495A00434756 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB901A07495A00434756 /* TPKeyboardAvoidingScrollView.m */; };
 		FE39FB971A07495A00434756 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */; };
 		FE39FB981A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		FE39FB9A1A075EDF00434756 /* FieldSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB991A075EDF00434756 /* FieldSelectorViewController.swift */; };
+		FE39FB9C1A07612300434756 /* FieldSelectorList.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */; };
 		FE3BC4D619FF7B860038CF47 /* ApplyAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */; };
 		FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
@@ -416,7 +418,6 @@
 		FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */; };
 		FE7262FF19DFEA11005739D0 /* 4.0其他文书.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */; };
 		FE72630119DFED10005739D0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72630019DFED10005739D0 /* Item.swift */; };
-		FE73147F1A04E91000A706B9 /* 1.1美国大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */; };
 		FE7314811A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */; };
 		FE7314831A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */; };
 		FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */; };
@@ -888,6 +889,8 @@
 		FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		FE39FB931A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		FE39FB991A075EDF00434756 /* FieldSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldSelectorViewController.swift; sourceTree = "<group>"; };
+		FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldSelectorList.md.json; sourceTree = "<group>"; };
 		FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAccessor.swift; sourceTree = "<group>"; };
 		FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderTableViewCell.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -992,7 +995,6 @@
 		FE7262E319DFEA11005739D0 /* 4.0Portfolio1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.0Portfolio1.png; sourceTree = "<group>"; };
 		FE7262E419DFEA11005739D0 /* 4.0其他文书.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4.0其他文书.md.json"; sourceTree = "<group>"; };
 		FE72630019DFED10005739D0 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1.1美国大学排名.md.json"; sourceTree = "<group>"; };
 		FE7314801A04FDA400A706B9 /* ProgramInstanceTableViewInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewInfoCell.swift; sourceTree = "<group>"; };
 		FE7314821A04FDBA00A706B9 /* ProgramInstanceTableViewContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramInstanceTableViewContactCell.swift; sourceTree = "<group>"; };
 		FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0院校数据库.md.json"; sourceTree = "<group>"; };
@@ -1813,8 +1815,8 @@
 		FE76B7EE19FD1FB6001B4B39 /* 院校数据库 */ = {
 			isa = PBXGroup;
 			children = (
-				FE73147E1A04E91000A706B9 /* 1.1美国大学排名.md.json */,
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
+				FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */,
 				FEB4258819FD50E300C0EE2F /* cu-logo.png */,
 				FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */,
 				FE9485E91A001FF7008E01D2 /* FieldIconEducation.png */,
@@ -2216,6 +2218,7 @@
 			children = (
 				FE124F5619F8D6B5003EC749 /* ApplyManagerViewController.swift */,
 				FE47ADBD19FBA4570023A0A2 /* ApplyAdderViewController.swift */,
+				FE39FB991A075EDF00434756 /* FieldSelectorViewController.swift */,
 				FE47ADBF19FBA4710023A0A2 /* ApplyViewController.swift */,
 			);
 			name = Apply;
@@ -2368,6 +2371,7 @@
 				ADF2AC061A036B8C00DA02C3 /* 2.5.2领域学科排名对比.png in Resources */,
 				AD8D823E19FF9CF900C9FAF3 /* 3.3奖学金.md.json in Resources */,
 				ADF2AC261A036B8C00DA02C3 /* 3.6其他排名.md.json in Resources */,
+				FE39FB9C1A07612300434756 /* FieldSelectorList.md.json in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
 				AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */,
 				ADF246B119F4FF1C005BA7E5 /* 1.12Tests.jpg in Resources */,
@@ -2583,7 +2587,6 @@
 				ADF2AC0B1A036B8C00DA02C3 /* 2.5.3四大排名评价标准.md.json in Resources */,
 				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADF2AC1F1A036B8C00DA02C3 /* 3.2理学院排名.md.json in Resources */,
-				FE73147F1A04E91000A706B9 /* 1.1美国大学排名.md.json in Resources */,
 				ADF2AC281A036B8C00DA02C3 /* 3.7教育学院排名.md.json in Resources */,
 				ADF2ABF61A036B8C00DA02C3 /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
@@ -2775,6 +2778,7 @@
 				FEA0FB9A19D7F69700A24409 /* HLLinkView.swift in Sources */,
 				FEA0FC0C19D85EFC00A24409 /* HLLink.swift in Sources */,
 				FED69E4C19FD39EE00D768DC /* HLUniversityRankingPreview.swift in Sources */,
+				FE39FB9A1A075EDF00434756 /* FieldSelectorViewController.swift in Sources */,
 				FE8D81B519C44B2900CE6174 /* ListTableView54Cell.swift in Sources */,
 				FE4E2B0119C48FA40096AD86 /* ArticleTableViewSectionCell.swift in Sources */,
 				FED339BC19D4600D0036F396 /* BrowserViewController.swift in Sources */,
