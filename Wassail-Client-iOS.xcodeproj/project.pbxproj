@@ -326,6 +326,10 @@
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
+		FE39FB951A07495A00434756 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB8E1A07495A00434756 /* TPKeyboardAvoidingCollectionView.m */; };
+		FE39FB961A07495A00434756 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB901A07495A00434756 /* TPKeyboardAvoidingScrollView.m */; };
+		FE39FB971A07495A00434756 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */; };
+		FE39FB981A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		FE3BC4D619FF7B860038CF47 /* ApplyAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */; };
 		FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
@@ -876,6 +880,14 @@
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerInfo.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
+		FE39FB8D1A07495A00434756 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		FE39FB8E1A07495A00434756 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		FE39FB8F1A07495A00434756 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		FE39FB901A07495A00434756 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		FE39FB911A07495A00434756 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		FE39FB931A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAccessor.swift; sourceTree = "<group>"; };
 		FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderTableViewCell.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -1490,6 +1502,21 @@
 			name = Apply;
 			sourceTree = "<group>";
 		};
+		FE39FB8C1A07495A00434756 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				FE39FB8D1A07495A00434756 /* TPKeyboardAvoidingCollectionView.h */,
+				FE39FB8E1A07495A00434756 /* TPKeyboardAvoidingCollectionView.m */,
+				FE39FB8F1A07495A00434756 /* TPKeyboardAvoidingScrollView.h */,
+				FE39FB901A07495A00434756 /* TPKeyboardAvoidingScrollView.m */,
+				FE39FB911A07495A00434756 /* TPKeyboardAvoidingTableView.h */,
+				FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */,
+				FE39FB931A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
 		FE3BC4D719FF80800038CF47 /* Apply */ = {
 			isa = PBXGroup;
 			children = (
@@ -1627,12 +1654,12 @@
 			children = (
 				FE60E6B219E596BA00147EF9 /* AWS */,
 				FE60E68B19E56DD300147EF9 /* Cocoa */,
-				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 				FE669BA919F9392200906F2E /* GAI */,
 				FE60E6B319E596CE00147EF9 /* Others */,
 				FECBB5FE19BDFDE200115694 /* RKUIKit */,
 				FE12E7BB1A0110D6008F3470 /* SDWebImage */,
 				FEEE449019FC25F700AFA88C /* SwiftyJSON */,
+				FE39FB8C1A07495A00434756 /* TPKeyboardAvoiding */,
 			);
 			name = "3rd Party";
 			sourceTree = "<group>";
@@ -2089,6 +2116,7 @@
 				FE8D81AD19C448B900CE6174 /* Item */,
 				FEA5A90919BD563F0048AF6A /* Tools */,
 				FEBC44CE1A04AA520067FE05 /* University */,
+				FEC3BD6019C2C8A800184760 /* Cocoa Touch Externsion */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -2719,6 +2747,7 @@
 				FEC32A9319C9E0C3001E5015 /* RKPickerViewDelegate.swift in Sources */,
 				FE0393CE19FCF33C00D0E755 /* WassailModel.xcdatamodeld in Sources */,
 				FE9E578619FBABB700A8A8C3 /* UniversityDatabaseViewController.swift in Sources */,
+				FE39FB951A07495A00434756 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				FEB1D7F819CEFD1B002F7285 /* CloudMediator.swift in Sources */,
 				FE8D81B719C44B3300CE6174 /* ListTableView44Cell.swift in Sources */,
 				FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */,
@@ -2728,6 +2757,7 @@
 				FE8D81BB19C476E200CE6174 /* HLArticle.swift in Sources */,
 				FEE0CEFE19C4AC720039A8E9 /* SizeConverterTableViewCell.swift in Sources */,
 				FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */,
+				FE39FB981A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				FE5761BD19BD4B6C00574EE1 /* ToolsViewController.swift in Sources */,
 				FE0FBE5E19C928E500656E49 /* RKNumbersViewCell.swift in Sources */,
 				FE47ADC019FBA4710023A0A2 /* ApplyViewController.swift in Sources */,
@@ -2793,6 +2823,7 @@
 				FEA0FB9519D7EEE000A24409 /* HLToolPreviewView.swift in Sources */,
 				FE5FB9A419C6BC8A00F37192 /* RKSelectorCollectionViewCell.swift in Sources */,
 				FEE1600A19D8FB5E0022883E /* HLItemView.swift in Sources */,
+				FE39FB971A07495A00434756 /* TPKeyboardAvoidingTableView.m in Sources */,
 				FE12E7EC1A0110D6008F3470 /* UIView+WebCacheOperation.m in Sources */,
 				FECBB60519BE093B00115694 /* RKNumericLabel.swift in Sources */,
 				FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */,
@@ -2810,6 +2841,7 @@
 				FE8D81B119C44ADE00CE6174 /* ListTableView88Cell.swift in Sources */,
 				FED69E4A19FD39CE00D768DC /* HLFieldListPreview.swift in Sources */,
 				FEE25E7619FD456200BDE743 /* HLUniversityPreviewWithRank.swift in Sources */,
+				FE39FB961A07495A00434756 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				FE5B1F9019B4033B00842C3D /* AppDelegate.swift in Sources */,
 				FEE0CEFC19C4AB3D0039A8E9 /* SizeConverterViewController.swift in Sources */,
 				FEC3BD5919C29DBA00184760 /* ListInfo.swift in Sources */,
