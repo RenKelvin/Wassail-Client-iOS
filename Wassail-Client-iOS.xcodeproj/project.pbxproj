@@ -323,6 +323,9 @@
 		FE12E7EA1A0110D6008F3470 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7D81A0110D6008F3470 /* UIImageView+HighlightedWebCache.m */; };
 		FE12E7EB1A0110D6008F3470 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DA1A0110D6008F3470 /* UIImageView+WebCache.m */; };
 		FE12E7EC1A0110D6008F3470 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */; };
+		FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF8F1A0A538500C64A39 /* Static.sqlite */; };
+		FE18CF931A0A538500C64A39 /* Static.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF901A0A538500C64A39 /* Static.sqlite-shm */; };
+		FE18CF941A0A538500C64A39 /* Static.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF911A0A538500C64A39 /* Static.sqlite-wal */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
@@ -878,6 +881,9 @@
 		FE12E7DA1A0110D6008F3470 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		FE12E7DB1A0110D6008F3470 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		FE18CF8F1A0A538500C64A39 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
+		FE18CF901A0A538500C64A39 /* Static.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Static.sqlite-shm"; sourceTree = "<group>"; };
+		FE18CF911A0A538500C64A39 /* Static.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Static.sqlite-wal"; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerInfo.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
@@ -2173,6 +2179,9 @@
 			children = (
 				FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */,
 				FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */,
+				FE18CF8F1A0A538500C64A39 /* Static.sqlite */,
+				FE18CF901A0A538500C64A39 /* Static.sqlite-shm */,
+				FE18CF911A0A538500C64A39 /* Static.sqlite-wal */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2687,6 +2696,7 @@
 				AD8D823A19FF9CF900C9FAF3 /* 3.1Britishcollege.jpg in Resources */,
 				AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */,
 				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
+				FE18CF941A0A538500C64A39 /* Static.sqlite-wal in Resources */,
 				AD34572A19FFE223004382CE /* 3.4Parttimejob.jpg in Resources */,
 				ADBB66B01A03A8A500E48C82 /* 2.12更多榜单.md.json in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
@@ -2695,6 +2705,7 @@
 				ADF246B919F4FF1C005BA7E5 /* 4.7academicinfo2.jpg in Resources */,
 				AD34573019FFE223004382CE /* 5.2生活费.md.json in Resources */,
 				ADF2AC1A1A036B8C00DA02C3 /* 3.11美术学院排名.md.json in Resources */,
+				FE18CF931A0A538500C64A39 /* Static.sqlite-shm in Resources */,
 				ADF2ABF01A036B8C00DA02C3 /* 1.1.4THELogo.jpg in Resources */,
 				ADF2AC241A036B8C00DA02C3 /* 3.5公共事务学院排名.md.json in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
@@ -2705,6 +2716,7 @@
 				ADF246C319F4FF1C005BA7E5 /* 5ApplyTexas.md.json in Resources */,
 				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				ADF2AC251A036B8C00DA02C3 /* 3.5排名解析.md.json in Resources */,
+				FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */,
 				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				ADF2AC1D1A036B8C00DA02C3 /* 3.1工程院排名.md.json in Resources */,
