@@ -12,6 +12,14 @@
                             "name": "2.1\u5b66\u8d39", 
                             "type": "HLArticlePreview"
                         }, 
+                        "icon": {
+                            "body": {
+                                "address": "\u5b66\u8d39.png", 
+                                "title": "\u5b66\u8d39"
+                            }, 
+                            "name": "\u5b66\u8d39.png", 
+                            "type": "HLImage"
+                        }, 
                         "kind": "Item", 
                         "note": "Tuition"
                     }, 
@@ -23,6 +31,14 @@
                             }, 
                             "name": "2.2\u751f\u6d3b\u8d39", 
                             "type": "HLArticlePreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "\u751f\u6d3b\u8d39.png", 
+                                "title": "\u751f\u6d3b\u8d39"
+                            }, 
+                            "name": "\u751f\u6d3b\u8d39.png", 
+                            "type": "HLImage"
                         }, 
                         "kind": "Item", 
                         "note": "Living Expenses"
@@ -36,6 +52,14 @@
                             "name": "2.3\u5956\u5b66\u91d1", 
                             "type": "HLArticlePreview"
                         }, 
+                        "icon": {
+                            "body": {
+                                "address": "\u5956\u5b66\u91d1.png", 
+                                "title": "\u5956\u5b66\u91d1"
+                            }, 
+                            "name": "\u5956\u5b66\u91d1.png", 
+                            "type": "HLImage"
+                        }, 
                         "kind": "Item", 
                         "note": "Scholarships"
                     }, 
@@ -47,6 +71,14 @@
                             }, 
                             "name": "2.4\u6253\u5de5", 
                             "type": "HLArticlePreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "\u6253\u5de5.png", 
+                                "title": "\u6253\u5de5"
+                            }, 
+                            "name": "\u6253\u5de5.png", 
+                            "type": "HLImage"
                         }, 
                         "kind": "Item", 
                         "note": "Part-time Job"

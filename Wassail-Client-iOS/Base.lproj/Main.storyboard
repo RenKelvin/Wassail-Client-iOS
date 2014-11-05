@@ -874,7 +874,7 @@
             </objects>
             <point key="canvasLocation" x="2464" y="162"/>
         </scene>
-        <!--Title-->
+        <!--项目详情-->
         <scene sceneID="22N-X0-IYF">
             <objects>
                 <viewController id="bFh-mN-eLf" customClass="ProgramInstanceViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -1255,10 +1255,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="RhZ-1i-QXa" secondAttribute="trailing" id="1pR-nu-bij"/>
+                            <constraint firstItem="RhZ-1i-QXa" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="8Jl-cH-qG7"/>
                             <constraint firstAttribute="trailing" secondItem="LwB-38-CUs" secondAttribute="trailing" id="9mx-Dy-uQ3"/>
                             <constraint firstItem="LwB-38-CUs" firstAttribute="top" secondItem="RhZ-1i-QXa" secondAttribute="bottom" id="H8M-Al-SRZ"/>
                             <constraint firstItem="RhZ-1i-QXa" firstAttribute="top" secondItem="dSz-wV-D9A" secondAttribute="bottom" constant="-64" id="L7c-rH-Zaa"/>
                             <constraint firstItem="RhZ-1i-QXa" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="ajk-IG-n3p"/>
+                            <constraint firstAttribute="trailing" secondItem="RhZ-1i-QXa" secondAttribute="trailing" id="byk-Q7-pmt"/>
                             <constraint firstItem="RhZ-1i-QXa" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="iG9-ih-2Pb"/>
                             <constraint firstItem="LwB-38-CUs" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="keP-aH-H1O"/>
                             <constraint firstItem="t6J-aY-6ra" firstAttribute="top" secondItem="LwB-38-CUs" secondAttribute="bottom" id="nIi-hW-Uev"/>
@@ -1267,11 +1269,14 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="1pR-nu-bij"/>
+                                <exclude reference="ajk-IG-n3p"/>
                                 <exclude reference="iG9-ih-2Pb"/>
+                                <exclude reference="vRu-O7-HUV"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="IXd-41-qWG"/>
+                    <navigationItem key="navigationItem" title="项目详情" id="IXd-41-qWG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="coverImageView" destination="L99-ik-Z9f" id="RGL-Q7-r27"/>
                         <outlet property="iconImageView" destination="5gt-mi-Z6q" id="OSf-Zs-10p"/>
@@ -4317,17 +4322,17 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BK5-dh-8Fc"/>
-        <segue reference="r4f-h3-sd1"/>
         <segue reference="TkG-Ai-5Ra"/>
         <segue reference="yOW-S0-chj"/>
-        <segue reference="kkp-86-AQj"/>
-        <segue reference="Xhy-D5-NUJ"/>
+        <segue reference="kVD-07-a4B"/>
         <segue reference="flF-XO-gRb"/>
         <segue reference="sEN-DU-GIR"/>
-        <segue reference="kVD-07-a4B"/>
-        <segue reference="QSv-1H-vFf"/>
-        <segue reference="bnk-2V-sOA"/>
+        <segue reference="r4f-h3-sd1"/>
         <segue reference="JLd-eu-ikG"/>
+        <segue reference="bnk-2V-sOA"/>
+        <segue reference="QSv-1H-vFf"/>
         <segue reference="R91-NS-LqA"/>
+        <segue reference="nvp-jT-Q9G"/>
+        <segue reference="Uob-hB-WD6"/>
     </inferredMetricsTieBreakers>
 </document>

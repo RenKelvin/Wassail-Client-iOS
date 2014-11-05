@@ -326,6 +326,10 @@
 		FE12E7EA1A0110D6008F3470 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7D81A0110D6008F3470 /* UIImageView+HighlightedWebCache.m */; };
 		FE12E7EB1A0110D6008F3470 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DA1A0110D6008F3470 /* UIImageView+WebCache.m */; };
 		FE12E7EC1A0110D6008F3470 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */; };
+		FE17ABE01A0A7E5800637798 /* 奖学金.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDC1A0A7E5800637798 /* 奖学金.png */; };
+		FE17ABE11A0A7E5800637798 /* 学费.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDD1A0A7E5800637798 /* 学费.png */; };
+		FE17ABE21A0A7E5800637798 /* 打工.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDE1A0A7E5800637798 /* 打工.png */; };
+		FE17ABE31A0A7E5800637798 /* 生活费.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDF1A0A7E5800637798 /* 生活费.png */; };
 		FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF8F1A0A538500C64A39 /* Static.sqlite */; };
 		FE18CF961A0A719000C64A39 /* FieldSelectorList.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
@@ -883,6 +887,10 @@
 		FE12E7DA1A0110D6008F3470 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		FE12E7DB1A0110D6008F3470 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		FE17ABDC1A0A7E5800637798 /* 奖学金.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "奖学金.png"; sourceTree = "<group>"; };
+		FE17ABDD1A0A7E5800637798 /* 学费.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学费.png"; sourceTree = "<group>"; };
+		FE17ABDE1A0A7E5800637798 /* 打工.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "打工.png"; sourceTree = "<group>"; };
+		FE17ABDF1A0A7E5800637798 /* 生活费.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生活费.png"; sourceTree = "<group>"; };
 		FE18CF8F1A0A538500C64A39 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
 		FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldSelectorList.md.json; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
@@ -1318,6 +1326,10 @@
 				ADD68A8C19FA4C1100B88199 /* 5加拿大留学费用.md.json */,
 				AD34572819FFE223004382CE /* 6资金证明.md.json */,
 				FE85385B1A03E1D400A26820 /* FinanialCertificate.png */,
+				FE17ABDC1A0A7E5800637798 /* 奖学金.png */,
+				FE17ABDD1A0A7E5800637798 /* 学费.png */,
+				FE17ABDE1A0A7E5800637798 /* 打工.png */,
+				FE17ABDF1A0A7E5800637798 /* 生活费.png */,
 			);
 			path = "留学费用";
 			sourceTree = "<group>";
@@ -2559,6 +2571,7 @@
 				AD40115819EB7A610088194C /* 4ACT.md.json in Resources */,
 				AD40115519EB7A610088194C /* 3SAT.md.json in Resources */,
 				ADF2ABE41A036B8C00DA02C3 /* 0QS.jpg in Resources */,
+				FE17ABE01A0A7E5800637798 /* 奖学金.png in Resources */,
 				AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */,
 				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
 				FE7262F519DFEA11005739D0 /* 3.2推荐信格式.png in Resources */,
@@ -2645,6 +2658,7 @@
 				AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */,
+				FE17ABE31A0A7E5800637798 /* 生活费.png in Resources */,
 				ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */,
 				ADCB6BFB19FA84F600E8DD20 /* 1.1学费.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
@@ -2656,6 +2670,7 @@
 				ADF2AC0F1A036B8C00DA02C3 /* 2.6.4ARWU其他排名.md.json in Resources */,
 				ADF246BA19F4FF1C005BA7E5 /* 4.8Education.jpg in Resources */,
 				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
+				FE17ABE21A0A7E5800637798 /* 打工.png in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
 				ADF2AC1B1A036B8C00DA02C3 /* 3.14哥大校徽.jpg in Resources */,
@@ -2710,6 +2725,7 @@
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
 				ADF2ABE31A036B8C00DA02C3 /* 0ARWU.jpg in Resources */,
 				ADF246C319F4FF1C005BA7E5 /* 5ApplyTexas.md.json in Resources */,
+				FE17ABE11A0A7E5800637798 /* 学费.png in Resources */,
 				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				ADF2AC251A036B8C00DA02C3 /* 3.5排名解析.md.json in Resources */,
 				FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */,
