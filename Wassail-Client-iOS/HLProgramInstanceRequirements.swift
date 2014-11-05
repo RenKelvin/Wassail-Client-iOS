@@ -100,7 +100,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             ind = 101
             title = "TOEFL"
             note = NSString(format: "寄送托福成绩")
-            if (applicationFee.doubleValue != 0.0) {
+            if (0 < toeflIBTTotal.intValue && toeflIBTTotal.intValue <= 120) {
                 note += NSString(format: " 分数要求 %g", toeflIBTTotal.integerValue)
             }
             
@@ -112,7 +112,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             ind = 102
             title = "IELTS"
             note = NSString(format: "寄送雅思成绩")
-            if (applicationFee.doubleValue != 0.0) {
+            if (ieltsTotal.doubleValue != 0.0) {
                 note += NSString(format: " 分数要求 %.1g", ieltsTotal.doubleValue)
             }
             
@@ -124,7 +124,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             ind = 103
             title = "GRE"
             note = NSString(format: "寄送GRE成绩", greTotal.integerValue)
-            if (applicationFee.doubleValue != 0.0) {
+            if (greTotal.doubleValue != 0) {
                 note += NSString(format: " 分数要求 %g", greTotal.integerValue)
             }
             
