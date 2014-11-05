@@ -235,6 +235,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
             case 1:
                 info.year = 2015
                 NSUserDefaults.standardUserDefaults().setInteger(2015, forKey: "defaultYear")
+                NSUserDefaults.standardUserDefaults().synchronize()
                 yearButton!.setTitle("2015", forState: .Normal)
             default:
                 ""
@@ -246,19 +247,23 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
             case 1:
                 info.season = 1
                 NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultSeason")
-                seasonButton!.setTitle("春季", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+    seasonButton!.setTitle("春季", forState: .Normal)
             case 2:
                 info.season = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultSeason")
-                seasonButton!.setTitle("夏季", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+  seasonButton!.setTitle("夏季", forState: .Normal)
             case 3:
                 info.season = 3
                 NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultSeason")
-                seasonButton!.setTitle("秋季", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+ seasonButton!.setTitle("秋季", forState: .Normal)
             case 4:
                 info.season = 4
                 NSUserDefaults.standardUserDefaults().setInteger(4, forKey: "defaultSeason")
-                seasonButton!.setTitle("冬季", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+ seasonButton!.setTitle("冬季", forState: .Normal)
             default:
                 ""
             }
@@ -269,15 +274,18 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
             case 1:
                 info.degree = 1
                 NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
-                degreeButton!.setTitle("Bachelor", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+ degreeButton!.setTitle("Bachelor", forState: .Normal)
             case 2:
                 info.degree = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultDegree")
-                degreeButton!.setTitle("Master", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+  degreeButton!.setTitle("Master", forState: .Normal)
             case 3:
                 info.degree = 3
                 NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultDegree")
-                degreeButton!.setTitle("Doctor", forState: .Normal)
+                NSUserDefaults.standardUserDefaults().synchronize()
+ degreeButton!.setTitle("Doctor", forState: .Normal)
             default:
                 ""
             }

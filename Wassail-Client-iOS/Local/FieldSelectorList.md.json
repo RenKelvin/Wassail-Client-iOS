@@ -7,7 +7,7 @@
                         "content": {
                             "body": {
                                 "address": "101", 
-                                "title": "Aerospace / Aeronautical / Astronautical"
+                                "title": "Aerospace / Astronautical"
                             }, 
                             "name": "101", 
                             "type": "HLItemPreview"
@@ -79,7 +79,7 @@
                         "content": {
                             "body": {
                                 "address": "107", 
-                                "title": "Electrical / Electronic / Communications"
+                                "title": "Electrical / Electronic"
                             }, 
                             "name": "107", 
                             "type": "HLItemPreview"

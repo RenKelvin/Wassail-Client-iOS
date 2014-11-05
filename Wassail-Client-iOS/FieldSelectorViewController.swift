@@ -154,6 +154,7 @@ class FieldSelectorViewController: GAITrackedViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
         NSUserDefaults.standardUserDefaults().setInteger(itemPreview.address!.integerValue as Int, forKey: "defaultField")
         NSUserDefaults.standardUserDefaults().setObject(itemPreview.title as NSString?, forKey: "defaultFieldName")
+        NSUserDefaults.standardUserDefaults().synchronize()
     }
     
     // MARK: - Navigation

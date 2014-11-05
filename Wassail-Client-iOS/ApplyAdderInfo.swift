@@ -32,26 +32,26 @@ class ApplyAdderInfo: NSObject {
     func updateHeader() {
         year = NSUserDefaults.standardUserDefaults().integerForKey("defaultYear")
         if (year == 0) {
-    year = 2015
-}
+            year = 2015
+        }
         season = NSUserDefaults.standardUserDefaults().integerForKey("defaultSeason")
         if (season == 0) {
             season = 3
         }
- degree = NSUserDefaults.standardUserDefaults().integerForKey("defaultDegree")
+        degree = NSUserDefaults.standardUserDefaults().integerForKey("defaultDegree")
         if (degree == 0) {
             degree = 2
         }
- field = NSUserDefaults.standardUserDefaults().integerForKey("defaultField")
-         if (field == 0) {
-    field = 204
-}
-   }
+        field = NSUserDefaults.standardUserDefaults().integerForKey("defaultField")
+        if (field == 0) {
+            field = 204
+        }
+    }
     
     func reloadData() {
         
         self.updateHeader()
-
+        
         let array = ApplyAccessor.instance.getProgramInstancePreviewList()
         
         if (array == nil) {
@@ -68,6 +68,10 @@ class ApplyAdderInfo: NSObject {
         
         if (data == nil) {
             self.reloadData()
+        }
+        
+        if (degree == 1) {
+            return data
         }
         
         let predicate = NSPredicate(format: "field == %d", field)
