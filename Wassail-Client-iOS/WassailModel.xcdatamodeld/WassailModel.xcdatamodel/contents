@@ -6,7 +6,7 @@
         <attribute name="cvDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="greDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="ieltsDone" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
         <attribute name="psDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="rlDone" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="satoractDone" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -18,10 +18,12 @@
     <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
         <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="degreeType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="field" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="iconAddress" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
         <attribute name="programName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="season" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondaryField" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="universityName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
@@ -33,7 +35,7 @@
         <attribute name="greTotal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="ieltsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="ieltsTotal" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
-        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
         <attribute name="psHas" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="recommendationHas" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="recommendationNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -56,8 +58,8 @@
         <memberEntity name="HLApply"/>
     </configuration>
     <elements>
-        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="238"/>
-        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="163"/>
-        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="358"/>
+        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="193"/>
+        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="360"/>
     </elements>
 </model>

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // GAIAdapter.instance().initialize()
         
         //
-        //println(UserDataManager.instance.applicationDocumentsDirectory)
+        println(UserDataManager.instance.applicationDocumentsDirectory)
         //DatabaseMediator.instance.generateProgramInstancePreviewList()
         //DatabaseMediator.instance.generateProgramInstanceRequirementsList()
         

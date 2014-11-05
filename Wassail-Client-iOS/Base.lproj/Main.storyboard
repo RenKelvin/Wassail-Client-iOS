@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Zh-LW-yx4">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
@@ -1690,13 +1690,13 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多内容持续更新中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZa-YR-83P">
-                                            <rect key="frame" x="15" y="4" width="570" height="15"/>
+                                            <rect key="frame" x="15" y="4.5" width="570" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTU-iC-5tS">
-                                            <rect key="frame" x="277" y="16" width="48" height="27"/>
+                                            <rect key="frame" x="276" y="16" width="48" height="27"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <state key="normal" title="用户反馈">
                                                 <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1711,11 +1711,16 @@
                                     <constraints>
                                         <constraint firstAttribute="centerY" secondItem="HTU-iC-5tS" secondAttribute="centerY" constant="-3" id="4Hv-vs-x1y"/>
                                         <constraint firstItem="SZa-YR-83P" firstAttribute="leading" secondItem="2z4-YY-GpZ" secondAttribute="leading" constant="15" id="ao6-cY-MlW"/>
-                                        <constraint firstAttribute="centerX" secondItem="HTU-iC-5tS" secondAttribute="centerX" constant="-0.5" id="m1J-rT-0ft"/>
+                                        <constraint firstAttribute="centerX" secondItem="HTU-iC-5tS" secondAttribute="centerX" id="m1J-rT-0ft"/>
                                         <constraint firstAttribute="trailing" secondItem="SZa-YR-83P" secondAttribute="trailing" constant="15" id="mI3-hI-7ub"/>
                                         <constraint firstAttribute="centerY" secondItem="SZa-YR-83P" secondAttribute="centerY" constant="14.75" id="mrv-xx-cLg"/>
                                         <constraint firstAttribute="centerX" secondItem="SZa-YR-83P" secondAttribute="centerX" id="yju-Qc-hjk"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="yju-Qc-hjk"/>
+                                        </mask>
+                                    </variation>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToolsTableViewCellReuseIdentifier" id="y1N-B8-xUZ" customClass="ToolsTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -2626,7 +2631,30 @@
                                 <view key="tableFooterView" contentMode="scaleToFill" id="RS0-pd-7By">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="感谢您使用申请管理器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAJ-sP-8WH">
+                                            <rect key="frame" x="15" y="3" width="570" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT1-fW-wTD">
+                                            <rect key="frame" x="277" y="15" width="48" height="27"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <state key="normal" title="报告错误">
+                                                <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="centerY" secondItem="hT1-fW-wTD" secondAttribute="centerY" constant="-6.5" id="91g-fh-u5h"/>
+                                        <constraint firstAttribute="trailing" secondItem="GAJ-sP-8WH" secondAttribute="trailing" constant="15" id="OFg-DW-c0y"/>
+                                        <constraint firstItem="GAJ-sP-8WH" firstAttribute="leading" secondItem="RS0-pd-7By" secondAttribute="leading" constant="15" id="cZD-Gi-f32"/>
+                                        <constraint firstAttribute="centerY" secondItem="GAJ-sP-8WH" secondAttribute="centerY" constant="11.5" id="gMb-in-cKq"/>
+                                        <constraint firstAttribute="centerX" secondItem="hT1-fW-wTD" secondAttribute="centerX" constant="-1" id="qqh-BO-sfb"/>
+                                    </constraints>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ApplyManagerTableViewCellReuseIdentifier" id="Ru4-cx-8q5" customClass="ApplyManagerTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -4262,17 +4290,17 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BK5-dh-8Fc"/>
         <segue reference="flF-XO-gRb"/>
-        <segue reference="sEN-DU-GIR"/>
-        <segue reference="r4f-h3-sd1"/>
-        <segue reference="TkG-Ai-5Ra"/>
-        <segue reference="kVD-07-a4B"/>
+        <segue reference="Xhy-D5-NUJ"/>
+        <segue reference="ydz-Qv-haZ"/>
+        <segue reference="Oab-mH-CQ6"/>
+        <segue reference="R8b-dB-BNq"/>
+        <segue reference="5Rv-FT-p8R"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="Bo5-kO-yCc"/>
         <segue reference="yst-Da-2Hg"/>
         <segue reference="OdY-zS-v6S"/>
         <segue reference="TYF-9O-bLs"/>
         <segue reference="bWm-xD-cJn"/>
-        <segue reference="Uob-hB-WD6"/>
-        <segue reference="nvp-jT-Q9G"/>
     </inferredMetricsTieBreakers>
 </document>
