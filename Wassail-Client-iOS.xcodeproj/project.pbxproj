@@ -324,8 +324,7 @@
 		FE12E7EB1A0110D6008F3470 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DA1A0110D6008F3470 /* UIImageView+WebCache.m */; };
 		FE12E7EC1A0110D6008F3470 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */; };
 		FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF8F1A0A538500C64A39 /* Static.sqlite */; };
-		FE18CF931A0A538500C64A39 /* Static.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF901A0A538500C64A39 /* Static.sqlite-shm */; };
-		FE18CF941A0A538500C64A39 /* Static.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF911A0A538500C64A39 /* Static.sqlite-wal */; };
+		FE18CF961A0A719000C64A39 /* FieldSelectorList.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */; };
 		FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2463F719DEC8400042F3F0 /* 工作许可.jpg */; };
@@ -334,7 +333,6 @@
 		FE39FB971A07495A00434756 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB921A07495A00434756 /* TPKeyboardAvoidingTableView.m */; };
 		FE39FB981A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		FE39FB9A1A075EDF00434756 /* FieldSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39FB991A075EDF00434756 /* FieldSelectorViewController.swift */; };
-		FE39FB9C1A07612300434756 /* FieldSelectorList.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */; };
 		FE3BC4D619FF7B860038CF47 /* ApplyAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */; };
 		FE3BC4D919FF80A00038CF47 /* ApplyAdderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */; };
 		FE4294D619C5DDD40078EFE4 /* TipsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */; };
@@ -882,8 +880,7 @@
 		FE12E7DB1A0110D6008F3470 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		FE12E7DC1A0110D6008F3470 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		FE18CF8F1A0A538500C64A39 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
-		FE18CF901A0A538500C64A39 /* Static.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Static.sqlite-shm"; sourceTree = "<group>"; };
-		FE18CF911A0A538500C64A39 /* Static.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Static.sqlite-wal"; sourceTree = "<group>"; };
+		FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldSelectorList.md.json; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerInfo.swift; sourceTree = "<group>"; };
 		FE2463F719DEC8400042F3F0 /* 工作许可.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "工作许可.jpg"; sourceTree = "<group>"; };
@@ -896,7 +893,6 @@
 		FE39FB931A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		FE39FB941A07495A00434756 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		FE39FB991A075EDF00434756 /* FieldSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldSelectorViewController.swift; sourceTree = "<group>"; };
-		FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldSelectorList.md.json; sourceTree = "<group>"; };
 		FE3BC4D519FF7B860038CF47 /* ApplyAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAccessor.swift; sourceTree = "<group>"; };
 		FE3BC4D819FF80A00038CF47 /* ApplyAdderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderTableViewCell.swift; sourceTree = "<group>"; };
 		FE4294D519C5DDD40078EFE4 /* TipsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -1624,6 +1620,7 @@
 		FE5BC07119D71BD4007E63BC /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */,
 				FE5BC07219D71BD4007E63BC /* Tools */,
 				FEA0FC0D19D8669000A24409 /* 信用卡 */,
 				AD40112819EB7A610088194C /* 出国考试 */,
@@ -1822,7 +1819,6 @@
 			isa = PBXGroup;
 			children = (
 				FE76B7EF19FD1FB6001B4B39 /* 0院校数据库.md.json */,
-				FE39FB9B1A07612300434756 /* FieldSelectorList.md.json */,
 				FEB4258819FD50E300C0EE2F /* cu-logo.png */,
 				FE9485E81A001FF7008E01D2 /* FieldIconBusiness.png */,
 				FE9485E91A001FF7008E01D2 /* FieldIconEducation.png */,
@@ -2180,8 +2176,6 @@
 				FE85385F1A03EE5600A26820 /* ProgramInstancePreview.json */,
 				FE8538601A03EE5600A26820 /* ProgramInstanceRequirements.json */,
 				FE18CF8F1A0A538500C64A39 /* Static.sqlite */,
-				FE18CF901A0A538500C64A39 /* Static.sqlite-shm */,
-				FE18CF911A0A538500C64A39 /* Static.sqlite-wal */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2342,6 +2336,7 @@
 				AD34572E19FFE223004382CE /* 5.1学费.md.json in Resources */,
 				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
 				ADA774B319FE7E9F00F65AA7 /* 2.4打工.md.json in Resources */,
+				FE18CF961A0A719000C64A39 /* FieldSelectorList.md.json in Resources */,
 				ADF2AC0E1A036B8C00DA02C3 /* 2.6.3QS其他排名.md.json in Resources */,
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
 				ADF2ABEF1A036B8C00DA02C3 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
@@ -2380,7 +2375,6 @@
 				ADF2AC061A036B8C00DA02C3 /* 2.5.2领域学科排名对比.png in Resources */,
 				AD8D823E19FF9CF900C9FAF3 /* 3.3奖学金.md.json in Resources */,
 				ADF2AC261A036B8C00DA02C3 /* 3.6其他排名.md.json in Resources */,
-				FE39FB9C1A07612300434756 /* FieldSelectorList.md.json in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
 				AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */,
 				ADF246B119F4FF1C005BA7E5 /* 1.12Tests.jpg in Resources */,
@@ -2696,7 +2690,6 @@
 				AD8D823A19FF9CF900C9FAF3 /* 3.1Britishcollege.jpg in Resources */,
 				AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */,
 				AD40116A19EB7A610088194C /* 9SAT Subject.md.json in Resources */,
-				FE18CF941A0A538500C64A39 /* Static.sqlite-wal in Resources */,
 				AD34572A19FFE223004382CE /* 3.4Parttimejob.jpg in Resources */,
 				ADBB66B01A03A8A500E48C82 /* 2.12更多榜单.md.json in Resources */,
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
@@ -2705,7 +2698,6 @@
 				ADF246B919F4FF1C005BA7E5 /* 4.7academicinfo2.jpg in Resources */,
 				AD34573019FFE223004382CE /* 5.2生活费.md.json in Resources */,
 				ADF2AC1A1A036B8C00DA02C3 /* 3.11美术学院排名.md.json in Resources */,
-				FE18CF931A0A538500C64A39 /* Static.sqlite-shm in Resources */,
 				ADF2ABF01A036B8C00DA02C3 /* 1.1.4THELogo.jpg in Resources */,
 				ADF2AC241A036B8C00DA02C3 /* 3.5公共事务学院排名.md.json in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,

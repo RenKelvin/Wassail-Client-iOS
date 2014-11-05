@@ -48,7 +48,13 @@ class ApplyManagerViewController: GAITrackedViewController {
         
         self.tableView!.reloadData()
     }
+
+    // MARK: - IBAction
     
+    @IBAction func reportButtonClicked() {
+        self.performSegueWithIdentifier("ApplyManagerFeedbackSegueIdentifier", sender: nil)
+    }
+
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

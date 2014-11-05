@@ -9,13 +9,13 @@
 import UIKit
 
 class FieldSelectorViewController: GAITrackedViewController {
-
+    
     @IBOutlet var tableView: UITableView?
     @IBOutlet var navigationView: UIView?
-
+    
     var listName: NSString?
     var list: HLList?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,7 +62,7 @@ class FieldSelectorViewController: GAITrackedViewController {
     @IBAction func doneButtonClicked() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
-
+    
     // MARK: - Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -143,8 +143,17 @@ class FieldSelectorViewController: GAITrackedViewController {
         // Deselect
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
-        // TODO: 123
+        // Get source item
+        if (list == nil) {
+            return
+        }
         
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        
+        // Set default field
+        self.dismissViewControllerAnimated(true, completion: nil)
+        NSUserDefaults.standardUserDefaults().setInteger(itemPreview.address!.integerValue as Int, forKey: "defaultField")
+        NSUserDefaults.standardUserDefaults().setObject(itemPreview.title as NSString?, forKey: "defaultFieldName")
     }
     
     // MARK: - Navigation
@@ -157,5 +166,5 @@ class FieldSelectorViewController: GAITrackedViewController {
         var controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
-
+    
 }

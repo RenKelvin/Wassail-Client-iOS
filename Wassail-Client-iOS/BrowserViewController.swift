@@ -103,35 +103,7 @@ class BrowserViewController: GAITrackedViewController {
         
         // TODO: Handle
     }
-    
-    //    // MARK: - NSURLConnectionDataDelegate
-    //
-    //    func connection(connection: NSURLConnection, didReceiveResponse response: NSURLResponse) {
-    //
-    //        println("Connection did receive response")
-    //
-    //        self.maxdata = Int(response.expectedContentLength)
-    //        self.curdata = 0
-    //    }
-    //
-    //    func connection(connection: NSURLConnection, didReceiveData data: NSData) {
-    //
-    //        println("Connection did receive data")
-    //
-    //        self.curdata += data.length
-    //
-    //        println("----------\(self.curdata)--------\(self.maxdata)")
-    //    }
-    //
-    //    func connectionDidFinishLoading(connection: NSURLConnection) {
-    //
-    //        println("Connection did finish")
-    //
-    //        self.maxdata = 0
-    //        self.curdata = 0
-    //
-    //    }
-    
+
     /*
     // MARK: - Navigation
     

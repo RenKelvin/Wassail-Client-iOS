@@ -14,10 +14,11 @@ class ApplyAdderInfo: NSObject {
     
     var data: NSArray?
     
-    var degree: Int = 2
+    var year: Int = 0
+    var season: Int = 0
+    var degree: Int = 0
+    
     var field: Int = 0
-    var year: Int = 2015
-    var season: Int = 3
     
     var searchText: NSString = ""
     var searchResultsArray: NSArray?
@@ -28,14 +29,36 @@ class ApplyAdderInfo: NSObject {
     
     // MARK: -
     
+    func updateHeader() {
+        year = NSUserDefaults.standardUserDefaults().integerForKey("defaultYear")
+        if (year == 0) {
+    year = 2015
+}
+        season = NSUserDefaults.standardUserDefaults().integerForKey("defaultSeason")
+        if (season == 0) {
+            season = 3
+        }
+ degree = NSUserDefaults.standardUserDefaults().integerForKey("defaultDegree")
+        if (degree == 0) {
+            degree = 2
+        }
+ field = NSUserDefaults.standardUserDefaults().integerForKey("defaultField")
+         if (field == 0) {
+    field = 204
+}
+   }
+    
     func reloadData() {
+        
+        self.updateHeader()
+
         let array = ApplyAccessor.instance.getProgramInstancePreviewList()
         
         if (array == nil) {
             return
         }
         
-        let predicate = NSPredicate(format: "year == %d && season == %d && degreeType == %d", year, season, degree) // TODO: field
+        let predicate = NSPredicate(format: "year == %d && season == %d && degreeType == %d", year, season, degree)
         let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
         
         data = filteredArray
@@ -47,7 +70,10 @@ class ApplyAdderInfo: NSObject {
             self.reloadData()
         }
         
-        return data
+        let predicate = NSPredicate(format: "field == %d", field)
+        let filteredArray = data!.filteredArrayUsingPredicate(predicate!)
+        
+        return filteredArray
     }
     
     func getFilteredPrograms(text: NSString) -> NSArray? {
@@ -66,7 +92,7 @@ class ApplyAdderInfo: NSObject {
             return nil
         }
         
-        let predicate = NSPredicate(format: "universityName CONTAINS[c] %@ || programName CONTAINS[c] %@ ", text ,text)
+        let predicate = NSPredicate(format: "universityName CONTAINS[c] %@ || programName CONTAINS[c] %@", text ,text)
         let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
         
         self.searchText = text

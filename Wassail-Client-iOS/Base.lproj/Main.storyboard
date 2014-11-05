@@ -874,7 +874,7 @@
             </objects>
             <point key="canvasLocation" x="2464" y="162"/>
         </scene>
-        <!--项目详情-->
+        <!--Title-->
         <scene sceneID="22N-X0-IYF">
             <objects>
                 <viewController id="bFh-mN-eLf" customClass="ProgramInstanceViewController" customModule="Wassail_Client_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -907,14 +907,14 @@
                                             <constraint firstAttribute="height" constant="72" id="v92-XR-5fW"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="University of Southern California" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ux-4M-b1a">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ux-4M-b1a">
                                         <rect key="frame" x="25" y="184" width="550" height="20.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master of Science in Computer Science" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-Bq-e8o">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-Bq-e8o">
                                         <rect key="frame" x="25" y="208" width="550" height="20.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1011,7 +1011,7 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015年 秋季" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQl-iY-mdS">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQl-iY-mdS">
                                                     <rect key="frame" x="81" y="13" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1032,19 +1032,19 @@
                                                         </mask>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015年 6月 1日" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytB-NU-oVN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytB-NU-oVN">
                                                     <rect key="frame" x="81" y="42" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Department of Computer Science" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9r-7y-qhA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9r-7y-qhA">
                                                     <rect key="frame" x="81" y="100" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Viterbi School of Engineering" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-og-W2e">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-og-W2e">
                                                     <rect key="frame" x="81" y="71" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1059,7 +1059,7 @@
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master of Science" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovn-fX-L9a">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovn-fX-L9a">
                                                     <rect key="frame" x="81" y="129" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1095,7 +1095,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWn-uF-Ut9">
                                                     <rect key="frame" x="81" y="152" width="504" height="29"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Button">
+                                                    <state key="normal" title=" ">
                                                         <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
@@ -1158,20 +1158,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zSo-h9-hSp" id="lnW-AT-uen">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="carrie.harber@usc.edu" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zrd-p1-p0T">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zrd-p1-p0T">
                                                     <rect key="frame" x="81" y="40" width="504" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="617-775-6354" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p5U-qm-ZQc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p5U-qm-ZQc">
                                                     <rect key="frame" x="81" y="69" width="504" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carrie Harber, Admission Officer" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Mn-Exp">
-                                                    <rect key="frame" x="15" y="13" width="239.5" height="19.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Mn-Exp">
+                                                    <rect key="frame" x="15" y="13" width="4.5" height="19.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="56" id="7TR-4o-zJn"/>
                                                     </constraints>
@@ -1258,14 +1258,20 @@
                             <constraint firstAttribute="trailing" secondItem="LwB-38-CUs" secondAttribute="trailing" id="9mx-Dy-uQ3"/>
                             <constraint firstItem="LwB-38-CUs" firstAttribute="top" secondItem="RhZ-1i-QXa" secondAttribute="bottom" id="H8M-Al-SRZ"/>
                             <constraint firstItem="RhZ-1i-QXa" firstAttribute="top" secondItem="dSz-wV-D9A" secondAttribute="bottom" constant="-64" id="L7c-rH-Zaa"/>
+                            <constraint firstItem="RhZ-1i-QXa" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="ajk-IG-n3p"/>
                             <constraint firstItem="RhZ-1i-QXa" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="iG9-ih-2Pb"/>
                             <constraint firstItem="LwB-38-CUs" firstAttribute="leading" secondItem="Fdb-0v-UAt" secondAttribute="leading" id="keP-aH-H1O"/>
                             <constraint firstItem="t6J-aY-6ra" firstAttribute="top" secondItem="LwB-38-CUs" secondAttribute="bottom" id="nIi-hW-Uev"/>
+                            <constraint firstAttribute="trailing" secondItem="RhZ-1i-QXa" secondAttribute="trailing" id="vRu-O7-HUV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1pR-nu-bij"/>
+                                <exclude reference="iG9-ih-2Pb"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="项目详情" id="cR9-a5-cmw">
-                        <barButtonItem key="backBarButtonItem" title=" " id="1nv-ix-lo6"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Title" id="IXd-41-qWG"/>
                     <connections>
                         <outlet property="coverImageView" destination="L99-ik-Z9f" id="RGL-Q7-r27"/>
                         <outlet property="iconImageView" destination="5gt-mi-Z6q" id="OSf-Zs-10p"/>
@@ -2632,7 +2638,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="感谢您使用申请管理器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAJ-sP-8WH">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击添加按钮添加需要申请的项目" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAJ-sP-8WH">
                                             <rect key="frame" x="15" y="3" width="570" height="15"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -2645,6 +2651,9 @@
                                                 <color key="titleColor" red="0.20000000000000001" green="0.57647058819999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="reportButtonClicked" destination="sj0-j9-YFw" eventType="touchUpInside" id="nV8-dI-kyt"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2798,6 +2807,7 @@
                         <outlet property="navigationView" destination="LhX-Nu-86m" id="Njv-cf-RrN"/>
                         <outlet property="tableView" destination="Z6J-8u-npN" id="vUX-CS-LTl"/>
                         <segue destination="zKi-Kv-mtH" kind="show" identifier="ApplyManagerApplySegueIdentifier" id="aKN-cE-0dr"/>
+                        <segue destination="Uyq-hx-WKz" kind="show" identifier="ApplyManagerFeedbackSegueIdentifier" id="PGn-Na-49g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGA-yT-hrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3027,7 +3037,7 @@
                                                     <constraint firstAttribute="height" constant="32" id="ebH-DQ-nTO"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                <state key="normal" title="Human Resource Management" backgroundImage="RoundBlueButtonBackground">
+                                                <state key="normal" title="Computer Science" backgroundImage="RoundBlueButtonBackground">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <variation key="default">
@@ -3115,13 +3125,26 @@
                                     <outlet property="delegate" destination="7tV-HF-ljT" id="iGS-5Y-cEN"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jrM-Pc-hhT">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="64" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jrM-Pc-hhT">
                                 <rect key="frame" x="0.0" y="196" width="600" height="404"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="z4B-o8-ZWv">
                                     <rect key="frame" x="0.0" y="76" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击添加按钮添加需要申请的项目" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7t-5F-8Yz">
+                                            <rect key="frame" x="15" y="6" width="570" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="r7t-5F-8Yz" secondAttribute="trailing" constant="15" id="SsS-Fq-Fdz"/>
+                                        <constraint firstItem="r7t-5F-8Yz" firstAttribute="leading" secondItem="z4B-o8-ZWv" secondAttribute="leading" constant="15" id="mje-Es-UwY"/>
+                                        <constraint firstItem="r7t-5F-8Yz" firstAttribute="top" secondItem="z4B-o8-ZWv" secondAttribute="top" constant="6" id="xFk-to-n5q"/>
+                                    </constraints>
                                 </view>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ApplyAdderTableViewCellReuseIdentifier" id="UFP-b8-rKy" customClass="ApplyAdderTableViewCell" customModule="Wassail_Client_iOS" customModuleProvider="target">
@@ -3227,6 +3250,8 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="degreeButton" destination="YXU-Br-8uV" id="L9Q-YH-9Jo"/>
+                        <outlet property="fieldButton" destination="rDQ-hb-vgv" id="gZr-cj-v2l"/>
+                        <outlet property="footerViewLabel" destination="r7t-5F-8Yz" id="w82-5g-bkM"/>
                         <outlet property="navigationView" destination="6a1-fE-4cP" id="d2R-H2-gXb"/>
                         <outlet property="searchDisplayController" destination="XZK-Ad-qYV" id="K8q-Xj-rTh"/>
                         <outlet property="seasonButton" destination="CWu-4u-7py" id="KDw-fW-z43"/>
@@ -4026,6 +4051,7 @@
                         <segue destination="S7C-mv-WHf" kind="show" identifier="ArticleTipsCalculatorSegueIdentifier" id="Oab-mH-CQ6"/>
                         <segue destination="WRg-lq-Ju5" kind="show" identifier="ArticleUnitConverterSegueIdentifier" id="R8b-dB-BNq"/>
                         <segue destination="Uoc-r9-F8b" kind="show" identifier="ArticleSizeConverterSegueIdentifier" id="Bo5-kO-yCc"/>
+                        <segue destination="sj0-j9-YFw" kind="show" identifier="ArticleApplyManagerSegueIdentifier" id="Gmh-T4-Tv0"/>
                     </connections>
                 </viewController>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" id="u8Y-kf-Iu9">
@@ -4186,20 +4212,20 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="FieldSelectorTableViewCellReuseIdentifier" id="Aom-XY-ajq" customClass="ListTableViewSimple54Cell" customModule="Wassail_Client_iOS" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FieldSelectorTableViewCellReuseIdentifier" id="Aom-XY-ajq" customClass="ListTableViewSimple54Cell" customModule="Wassail_Client_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aom-XY-ajq" id="Bfh-w3-xUn">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X5U-pc-dhj">
-                                                    <rect key="frame" x="15" y="8" width="531" height="19.5"/>
+                                                    <rect key="frame" x="15" y="8" width="570" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="461" translatesAutoresizingMaskIntoConstraints="NO" id="xWd-mV-it3">
-                                                    <rect key="frame" x="15" y="33" width="531" height="14.5"/>
+                                                    <rect key="frame" x="15" y="33" width="570" height="14.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="29" id="Ebc-iZ-mrl"/>
                                                     </constraints>
@@ -4290,17 +4316,18 @@
         <image name="UnitTextFieldBackground" width="93" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="flF-XO-gRb"/>
-        <segue reference="Xhy-D5-NUJ"/>
-        <segue reference="ydz-Qv-haZ"/>
-        <segue reference="Oab-mH-CQ6"/>
-        <segue reference="R8b-dB-BNq"/>
-        <segue reference="5Rv-FT-p8R"/>
-        <segue reference="REv-SL-D0I"/>
         <segue reference="Bo5-kO-yCc"/>
-        <segue reference="yst-Da-2Hg"/>
-        <segue reference="OdY-zS-v6S"/>
-        <segue reference="TYF-9O-bLs"/>
-        <segue reference="bWm-xD-cJn"/>
+        <segue reference="flF-XO-gRb"/>
+        <segue reference="QSv-1H-vFf"/>
+        <segue reference="bnk-2V-sOA"/>
+        <segue reference="oiE-Kz-hDb"/>
+        <segue reference="JLd-eu-ikG"/>
+        <segue reference="R8b-dB-BNq"/>
+        <segue reference="Gmh-T4-Tv0"/>
+        <segue reference="Oab-mH-CQ6"/>
+        <segue reference="REv-SL-D0I"/>
+        <segue reference="PGn-Na-49g"/>
+        <segue reference="R91-NS-LqA"/>
+        <segue reference="Uob-hB-WD6"/>
     </inferredMetricsTieBreakers>
 </document>

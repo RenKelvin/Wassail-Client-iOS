@@ -1,0 +1,721 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "101", 
+                                "title": "Aerospace / Aeronautical / Astronautical"
+                            }, 
+                            "name": "101", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u822a\u7a7a\u822a\u5929\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "102", 
+                                "title": "Biological / Agricultural Engineering"
+                            }, 
+                            "name": "102", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u751f\u7269\u4e0e\u519c\u4e1a\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "103", 
+                                "title": "Biomedical / Bioengineering"
+                            }, 
+                            "name": "103", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u751f\u7269\u533b\u5b66\u4e0e\u751f\u7269\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "104", 
+                                "title": "Chemical Engineering"
+                            }, 
+                            "name": "104", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5316\u5b66\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "105", 
+                                "title": "Civil Engineering"
+                            }, 
+                            "name": "105", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u571f\u6728\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "106", 
+                                "title": "Computer Engineering"
+                            }, 
+                            "name": "106", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8ba1\u7b97\u673a\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "107", 
+                                "title": "Electrical / Electronic / Communications"
+                            }, 
+                            "name": "107", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7535\u5b50\u7535\u6c14\u4e0e\u901a\u8baf\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "108", 
+                                "title": "Environmental Engineering"
+                            }, 
+                            "name": "108", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u73af\u5883\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "109", 
+                                "title": "Industrial Engineering"
+                            }, 
+                            "name": "109", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5de5\u4e1a\u4e0e\u5236\u9020\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "110", 
+                                "title": "Materials"
+                            }, 
+                            "name": "110", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6750\u6599\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "111", 
+                                "title": "Mechanical Engineering"
+                            }, 
+                            "name": "111", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u673a\u68b0\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "112", 
+                                "title": "Nuclear Engineering"
+                            }, 
+                            "name": "112", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6838\u80fd\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "199", 
+                                "title": "Engineering Others"
+                            }, 
+                            "name": "199", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5176\u4ed6\u5de5\u7a0b"
+                    }
+                ], 
+                "title": "Engineering"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "201", 
+                                "title": "Statistics"
+                            }, 
+                            "name": "201", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7edf\u8ba1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "202", 
+                                "title": "Biological Sciences"
+                            }, 
+                            "name": "202", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u751f\u7269\u79d1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "203", 
+                                "title": "Chemistry"
+                            }, 
+                            "name": "203", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5316\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "204", 
+                                "title": "Computer Science"
+                            }, 
+                            "name": "204", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8ba1\u7b97\u673a\u79d1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "205", 
+                                "title": "Earth Sciences"
+                            }, 
+                            "name": "205", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5730\u7403\u79d1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "206", 
+                                "title": "Mathematics"
+                            }, 
+                            "name": "206", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6570\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "207", 
+                                "title": "Physics"
+                            }, 
+                            "name": "207", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7269\u7406\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "208", 
+                                "title": "Actuarial Sciences"
+                            }, 
+                            "name": "208", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7cbe\u7b97\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "209", 
+                                "title": "Philosophy"
+                            }, 
+                            "name": "209", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u54f2\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "299", 
+                                "title": "Science Others"
+                            }, 
+                            "name": "299", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5176\u4ed6\u79d1\u5b66"
+                    }
+                ], 
+                "title": "Science"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "301", 
+                                "title": "Accounting"
+                            }, 
+                            "name": "301", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4f1a\u8ba1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "302", 
+                                "title": "Entrepreneurship"
+                            }, 
+                            "name": "302", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u521b\u4e1a"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "304", 
+                                "title": "Finance"
+                            }, 
+                            "name": "304", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u91d1\u878d"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "314", 
+                                "title": "Financial Engineering"
+                            }, 
+                            "name": "314", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u91d1\u878d\u5de5\u7a0b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "305", 
+                                "title": "Information Systems"
+                            }, 
+                            "name": "305", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4fe1\u606f\u7cfb\u7edf"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "306", 
+                                "title": "International Business"
+                            }, 
+                            "name": "306", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u56fd\u9645\u5546\u52a1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "307", 
+                                "title": "Management"
+                            }, 
+                            "name": "307", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7ba1\u7406\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "308", 
+                                "title": "Marketing"
+                            }, 
+                            "name": "308", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5e02\u573a\u8425\u9500"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "311", 
+                                "title": "Production / Operations"
+                            }, 
+                            "name": "311", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u751f\u4ea7\u8fd0\u8425\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "312", 
+                                "title": "Supply Chain / Logistics"
+                            }, 
+                            "name": "312", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7269\u6d41\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "313", 
+                                "title": "MBA"
+                            }, 
+                            "name": "313", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5de5\u5546\u7ba1\u7406\u7855\u58eb"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "315", 
+                                "title": "Human Resource Management"
+                            }, 
+                            "name": "315", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4eba\u529b\u8d44\u6e90\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "399", 
+                                "title": "Business Others"
+                            }, 
+                            "name": "399", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5176\u4ed6\u5546\u79d1"
+                    }
+                ], 
+                "title": "Business"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "402", 
+                                "title": "Economics"
+                            }, 
+                            "name": "402", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7ecf\u6d4e\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "403", 
+                                "title": "English"
+                            }, 
+                            "name": "403", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u82f1\u8bed"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "404", 
+                                "title": "History"
+                            }, 
+                            "name": "404", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5386\u53f2"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "405", 
+                                "title": "Psychology"
+                            }, 
+                            "name": "405", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5fc3\u7406\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "406", 
+                                "title": "Political Science"
+                            }, 
+                            "name": "406", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u653f\u6cbb\u79d1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "407", 
+                                "title": "Sociology"
+                            }, 
+                            "name": "407", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u793e\u4f1a\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "409", 
+                                "title": "Anthropology"
+                            }, 
+                            "name": "409", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4eba\u7c7b\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "412", 
+                                "title": "Religion"
+                            }, 
+                            "name": "412", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5b97\u6559\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "413", 
+                                "title": "Linguistics"
+                            }, 
+                            "name": "413", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8bed\u8a00\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "414", 
+                                "title": "Literature"
+                            }, 
+                            "name": "414", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6587\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "415", 
+                                "title": "Classics"
+                            }, 
+                            "name": "415", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u53e4\u5e0c\u814a\u53e4\u7f57\u9a6c\u6587\u5316\u7814\u7a76"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "416", 
+                                "title": "Criminology"
+                            }, 
+                            "name": "416", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u72af\u7f6a\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "410", 
+                                "title": "Journalism and Mass Communication"
+                            }, 
+                            "name": "410", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4f20\u5a92\u4e0e\u65b0\u95fb"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "411", 
+                                "title": "Education"
+                            }, 
+                            "name": "411", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6559\u80b2\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "408", 
+                                "title": "Public Affairs"
+                            }, 
+                            "name": "408", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u516c\u5171\u4e8b\u52a1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "499", 
+                                "title": "Social Science Others"
+                            }, 
+                            "name": "499", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5176\u4ed6\u793e\u79d1"
+                    }
+                ], 
+                "title": "Social Sciences"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "5", 
+                                "title": "Fine Arts"
+                            }, 
+                            "name": "5", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u827a\u672f"
+                    }
+                ], 
+                "title": "Fine Arts"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "8", 
+                                "title": "Public Health"
+                            }, 
+                            "name": "8", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u516c\u5171\u536b\u751f"
+                    }
+                ], 
+                "title": "Public Health"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "9", 
+                                "title": "Law"
+                            }, 
+                            "name": "9", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6cd5\u5b66"
+                    }
+                ], 
+                "title": "Law"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "10", 
+                                "title": "Medical"
+                            }, 
+                            "name": "10", 
+                            "type": "HLItemPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u533b\u5b66"
+                    }
+                ], 
+                "title": "Medical"
+            }
+        ], 
+        "title": "\u5168\u90e8\u4e13\u4e1a"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

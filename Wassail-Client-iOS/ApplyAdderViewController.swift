@@ -15,9 +15,12 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     @IBOutlet var tableView: UITableView?
     @IBOutlet var navigationView: UIView?
     
+    @IBOutlet var footerViewLabel: UILabel?
+    
     @IBOutlet var yearButton: UIButton?
     @IBOutlet var seasonButton: UIButton?
     @IBOutlet var degreeButton: UIButton?
+    @IBOutlet var fieldButton: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,11 +48,59 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
         
     }
     
+    // MARK: -
+    
     func reloadData() {
         
         info.reloadData()
         
+        self.updateHeader()
+        
         self.tableView!.reloadData()
+    }
+    
+    func updateHeader() {
+        if (info.year != 0) {
+            yearButton!.setTitle("\(info.year)", forState: .Normal)
+        }
+        
+        if (info.season != 0) {
+            switch info.season {
+            case 1:
+                seasonButton!.setTitle("春季", forState: .Normal)
+            case 2:
+                seasonButton!.setTitle("夏季", forState: .Normal)
+            case 3:
+                seasonButton!.setTitle("秋季", forState: .Normal)
+            case 4:
+                seasonButton!.setTitle("冬季", forState: .Normal)
+            default:
+                ""
+            }
+        }
+        
+        if (info.degree != 0) {
+            switch info.degree {
+            case 1:
+                degreeButton!.setTitle("Bachelor", forState: .Normal)
+            case 2:
+                degreeButton!.setTitle("Master", forState: .Normal)
+            case 3:
+                degreeButton!.setTitle("Doctor", forState: .Normal)
+            default:
+                ""
+            }
+        }
+        
+        if (info.field != 0) {
+            let fieldName = NSUserDefaults.standardUserDefaults().stringForKey("defaultFieldName")
+            if (fieldName != nil) {
+                fieldButton!.setTitle("\(fieldName!)", forState: .Normal)
+            }
+        }
+        else {
+            self.performSegueWithIdentifier("ApplyAdderFieldSelectorSegueIdentifier", sender: "FieldSelectorList")
+        }
     }
     
     // MARK: - IBAction
@@ -98,6 +149,25 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
+        if (tableView == self.searchDisplayController!.searchResultsTableView) {
+            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
+            if (array == nil) {
+                self.footerViewLabel!.text = NSString(format: "共0个项目")
+            }
+            else {
+                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count)
+            }
+        }
+        else {
+            let array = info.getAllPrograms()
+            if (array == nil) {
+                self.footerViewLabel!.text = NSString(format: "共0个项目")
+            }
+            else {
+                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count)
+            }
+        }
+        
         return 1
     }
     
@@ -148,29 +218,6 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
     
     // MARK: - Table view delegate
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
-        
-        var title: String = ""
-        switch section {
-        case 0:
-            title = "正在申请"
-        default:
-            title = ""
-        }
-        
-        headerView.titleLabel?.text = title
-        
-        return headerView
-    }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-        // Deselect
-        tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        
-    }
-    
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
         return 64.0
@@ -187,6 +234,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
                 ""
             case 1:
                 info.year = 2015
+                NSUserDefaults.standardUserDefaults().setInteger(2015, forKey: "defaultYear")
                 yearButton!.setTitle("2015", forState: .Normal)
             default:
                 ""
@@ -197,15 +245,19 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
                 ""
             case 1:
                 info.season = 1
+                NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultSeason")
                 seasonButton!.setTitle("春季", forState: .Normal)
             case 2:
                 info.season = 2
+                NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultSeason")
                 seasonButton!.setTitle("夏季", forState: .Normal)
             case 3:
                 info.season = 3
+                NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultSeason")
                 seasonButton!.setTitle("秋季", forState: .Normal)
             case 4:
                 info.season = 4
+                NSUserDefaults.standardUserDefaults().setInteger(4, forKey: "defaultSeason")
                 seasonButton!.setTitle("冬季", forState: .Normal)
             default:
                 ""
@@ -216,12 +268,15 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
                 ""
             case 1:
                 info.degree = 1
+                NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
                 degreeButton!.setTitle("Bachelor", forState: .Normal)
             case 2:
                 info.degree = 2
+                NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultDegree")
                 degreeButton!.setTitle("Master", forState: .Normal)
             case 3:
                 info.degree = 3
+                NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultDegree")
                 degreeButton!.setTitle("Doctor", forState: .Normal)
             default:
                 ""
