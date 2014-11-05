@@ -20,8 +20,7 @@
                             "name": "0CA.jpg", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item", 
-                        "note": "\u6700\u5e38\u7528\u7684\u672c\u79d1\u7533\u8bf7\u7cfb\u7edf"
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u672c\u79d1"
@@ -45,8 +44,7 @@
                             "name": "0ApplyYourself.png", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item", 
-                        "note": "\u6700\u5e38\u7528\u7684\u7814\u7a76\u751f\u7533\u8bf7\u7cfb\u7edf"
+                        "kind": "Item"
                     }, 
                     {
                         "content": {
@@ -65,8 +63,7 @@
                             "name": "0ApplyWeb.png", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item", 
-                        "note": "\u5e38\u7528\u7684\u7814\u7a76\u751f\u7533\u8bf7\u7cfb\u7edf"
+                        "kind": "Item"
                     }, 
                     {
                         "content": {
@@ -85,8 +82,7 @@
                             "name": "0ApplyTexas.png", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item", 
-                        "note": "\u5fb7\u5dde\u5f88\u591a\u5b66\u6821\u4f7f\u7528\u7684\u7533\u8bf7\u7cfb\u7edf"
+                        "kind": "Item"
                     }, 
                     {
                         "content": {
@@ -105,8 +101,7 @@
                             "name": "0Embark.png", 
                             "type": "HLImage"
                         }, 
-                        "kind": "Item", 
-                        "note": "\u7f8e\u56fd\u5c11\u6570\u9662\u6821\u548c\u82f1\u56fd\u540d\u6821\u4f7f\u7528"
+                        "kind": "Item"
                     }
                 ], 
                 "title": "\u7814\u7a76\u751f\u53ca\u535a\u58eb"
