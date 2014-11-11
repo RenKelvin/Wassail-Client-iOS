@@ -21,11 +21,11 @@ class CloudMediator: NSObject {
     func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-            //            println(data)
-            //            println(response)
-            //            println(error)
+            println(data)
+                        println(response)
+                       println(error)
             
-            if (response == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+            if (response == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false)
             }
             else {
@@ -47,7 +47,7 @@ class CloudMediator: NSObject {
             
             let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)
             }
             else {
@@ -69,10 +69,8 @@ class CloudMediator: NSObject {
             
             let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, list: nil)
-                // let l = ListInfo.instance.getList("1.1美国大学排名")
-                // callback(success: true, list: l)
             }
             else {
                 
@@ -93,17 +91,17 @@ class CloudMediator: NSObject {
     func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-            //            println(data)
-            //            println(response)
-            //            println(error)
+                        println(data)
+                        println(response)
+                        println(error)
             
             let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode == 200) {
+            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)
             }
             else {
-                callback(success: false, data: dict!)
+                callback(success: true, data: dict!)
             }
         }
         

@@ -81,26 +81,26 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         // Create session
         var session = NSURLSession.sharedSession()
         
+        // Convert para
+        var bodyArray = NSMutableArray()
+        for key in body.allKeys {
+            let object: AnyObject? = body.objectForKey(key as NSString)
+            if (object != nil) {
+                bodyArray.addObject(NSString(format: "\(key as NSString)=\(object!)"))
+}
+        }
+        var paraString = bodyArray.componentsJoinedByString("&")
+        if (paraString != "") {
+            paraString = "?" + paraString
+        }
+        
         // Create URL
-        var url = NSURL(scheme: scheme, host: host, path: path+String(version)+api)
+        var url = NSURL(scheme: scheme, host: host, path: path+String(version)+api+paraString)
         
         // Create request
         var request = NSMutableURLRequest()
         request.URL = url
         request.HTTPMethod = "GET"
-        
-        // Convert body
-        var bodyArray = NSMutableArray()
-        for key in body.allKeys {
-            let object: AnyObject? = body.objectForKey(key as NSString)
-            bodyArray.addObject(NSString(format: "\(key as NSString)=\(object)"))
-        }
-        
-        var bodyString = bodyArray.componentsJoinedByString("&")
-        let bodyData = bodyString.dataUsingEncoding(NSUTF8StringEncoding)
-        
-        // Add body
-        request.HTTPBody = bodyData
         
         // Create data task
         let task = session.dataTaskWithRequest(request, completionHandler: completion)

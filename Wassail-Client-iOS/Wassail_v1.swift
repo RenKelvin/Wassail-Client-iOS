@@ -33,7 +33,7 @@ class Wassail_v1: NSObject {
         let api: NSString = "/apply/getApplyStats"
         
         let body: NSMutableDictionary = NSMutableDictionary()
-        body.setObject(programInstanceId, forKey: "programInstanceId")
+        body.setObject(programInstanceId.integerValue, forKey: "programInstanceId")
         
         CloudAdapter.instance.get(api, body: body, completion)
     }
@@ -53,7 +53,7 @@ class Wassail_v1: NSObject {
         let api: NSString = "/university/getProgramInstanceInfo"
         
         let body: NSMutableDictionary = NSMutableDictionary()
-        body.setObject(id, forKey: "programInstanceId")
+        body.setObject(id.integerValue, forKey: "programInstanceId")
         
         CloudAdapter.instance.get(api, body: body, completion)
     }
