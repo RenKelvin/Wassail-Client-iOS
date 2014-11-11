@@ -70,7 +70,7 @@ class ApplyManagerTableViewCell: UITableViewCell, UIActionSheetDelegate {
             dateLabel!.text = nil
         }
         
-        if (item!.status.integerValue == 1) {
+        if (item!.status.integerValue == 1 && item != nil && requirements != nil) {
             let done = item!.getDoneCount() as Int
             let all = requirements!.getAllCount() as Int
             progressLabel!.text = NSString(format: "已完成 %d/%d", done, all) + "    "
