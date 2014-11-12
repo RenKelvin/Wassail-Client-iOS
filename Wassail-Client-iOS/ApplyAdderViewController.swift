@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate {
+class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, UIActionSheetDelegate {
     
     let info: ApplyAdderInfo = ApplyAdderInfo.instance
     
@@ -248,22 +248,22 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
                 info.season = 1
                 NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultSeason")
                 NSUserDefaults.standardUserDefaults().synchronize()
-    seasonButton!.setTitle("春季", forState: .Normal)
+                seasonButton!.setTitle("春季", forState: .Normal)
             case 2:
                 info.season = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultSeason")
                 NSUserDefaults.standardUserDefaults().synchronize()
-  seasonButton!.setTitle("夏季", forState: .Normal)
+                seasonButton!.setTitle("夏季", forState: .Normal)
             case 3:
                 info.season = 3
                 NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultSeason")
                 NSUserDefaults.standardUserDefaults().synchronize()
- seasonButton!.setTitle("秋季", forState: .Normal)
+                seasonButton!.setTitle("秋季", forState: .Normal)
             case 4:
                 info.season = 4
                 NSUserDefaults.standardUserDefaults().setInteger(4, forKey: "defaultSeason")
                 NSUserDefaults.standardUserDefaults().synchronize()
- seasonButton!.setTitle("冬季", forState: .Normal)
+                seasonButton!.setTitle("冬季", forState: .Normal)
             default:
                 ""
             }
@@ -272,20 +272,22 @@ class ApplyAdderViewController: GAITrackedViewController, UIActionSheetDelegate 
             case 0:
                 ""
             case 1:
-                info.degree = 1
-                NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
-                NSUserDefaults.standardUserDefaults().synchronize()
- degreeButton!.setTitle("Bachelor", forState: .Normal)
+                // info.degree = 1
+                // NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
+                // NSUserDefaults.standardUserDefaults().synchronize()
+                // degreeButton!.setTitle("Bachelor", forState: .Normal)
+                let alert = UIAlertView(title: "即将上线", message: "很抱歉，本科申请功能即将上线", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                alert.show()
             case 2:
                 info.degree = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultDegree")
                 NSUserDefaults.standardUserDefaults().synchronize()
-  degreeButton!.setTitle("Master", forState: .Normal)
+                degreeButton!.setTitle("Master", forState: .Normal)
             case 3:
                 info.degree = 3
                 NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultDegree")
                 NSUserDefaults.standardUserDefaults().synchronize()
- degreeButton!.setTitle("Doctor", forState: .Normal)
+                degreeButton!.setTitle("Doctor", forState: .Normal)
             default:
                 ""
             }
