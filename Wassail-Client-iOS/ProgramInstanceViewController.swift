@@ -63,7 +63,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
         programNameLabel!.text = self.data!["programName"].stringValue
         
         iconImageView!.sd_setImageWithURL(NSURL(string: (self.data!["icon"].stringValue)))
-        coverImageView!.sd_setImageWithURL(NSURL(string: (self.data!["cover"].stringValue)))
+        // coverImageView!.sd_setImageWithURL(NSURL(string: (self.data!["cover"].stringValue)))
     }
     
     func reloadData() {

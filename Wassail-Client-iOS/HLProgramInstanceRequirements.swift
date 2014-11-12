@@ -101,7 +101,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             title = "TOEFL"
             note = NSString(format: "寄送托福成绩")
             if (0 < toeflIBTTotal.intValue && toeflIBTTotal.intValue <= 120) {
-                note += NSString(format: " 分数要求 %g", toeflIBTTotal.integerValue)
+                note += NSString(format: " 分数要求 %d", toeflIBTTotal.integerValue)
             }
             
             array.addObject([ind, title, note])
@@ -113,7 +113,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             title = "IELTS"
             note = NSString(format: "寄送雅思成绩")
             if (ieltsTotal.doubleValue != 0.0) {
-                note += NSString(format: " 分数要求 %.1g", ieltsTotal.doubleValue)
+                note += NSString(format: " 分数要求 %.1f", ieltsTotal.doubleValue)
             }
             
             array.addObject([ind, title, note])
@@ -125,7 +125,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             title = "GRE"
             note = NSString(format: "寄送GRE成绩", greTotal.integerValue)
             if (greTotal.doubleValue != 0) {
-                note += NSString(format: " 分数要求 %g", greTotal.integerValue)
+                note += NSString(format: " 分数要求 %d", greTotal.integerValue)
             }
             
             array.addObject([ind, title, note])
@@ -222,7 +222,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
         title = "Application Fee"
         note = NSString(format: "提交申请费")
         if (applicationFee.doubleValue != 0.0) {
-            note += NSString(format: " $%g", applicationFee.doubleValue)
+            note += NSString(format: " $%d", applicationFee.integerValue)
         }
         
         array.addObject([ind, title, note])

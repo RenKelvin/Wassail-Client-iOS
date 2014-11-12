@@ -330,7 +330,6 @@
 		FE17ABE11A0A7E5800637798 /* 学费.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDD1A0A7E5800637798 /* 学费.png */; };
 		FE17ABE21A0A7E5800637798 /* 打工.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDE1A0A7E5800637798 /* 打工.png */; };
 		FE17ABE31A0A7E5800637798 /* 生活费.png in Resources */ = {isa = PBXBuildFile; fileRef = FE17ABDF1A0A7E5800637798 /* 生活费.png */; };
-		FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF8F1A0A538500C64A39 /* Static.sqlite */; };
 		FE18CF961A0A719000C64A39 /* FieldSelectorList.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */; };
 		FE1EBF3019C808AD002C8F25 /* RKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */; };
 		FE20A76219FCC6D300B5B279 /* ApplyManagerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */; };
@@ -490,6 +489,7 @@
 		FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */; };
 		FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
+		FEA95A281A13930700B1AD4B /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FEA95A271A13930700B1AD4B /* Static.sqlite */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
@@ -891,7 +891,6 @@
 		FE17ABDD1A0A7E5800637798 /* 学费.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学费.png"; sourceTree = "<group>"; };
 		FE17ABDE1A0A7E5800637798 /* 打工.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "打工.png"; sourceTree = "<group>"; };
 		FE17ABDF1A0A7E5800637798 /* 生活费.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生活费.png"; sourceTree = "<group>"; };
-		FE18CF8F1A0A538500C64A39 /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
 		FE18CF951A0A719000C64A39 /* FieldSelectorList.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldSelectorList.md.json; sourceTree = "<group>"; };
 		FE1EBF2F19C808AD002C8F25 /* RKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPickerView.swift; sourceTree = "<group>"; };
 		FE20A76119FCC6D300B5B279 /* ApplyManagerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyManagerInfo.swift; sourceTree = "<group>"; };
@@ -1074,6 +1073,7 @@
 		FEA0FC2D19D868F700A24409 /* 留学时间表.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "留学时间表.md.json"; sourceTree = "<group>"; };
 		FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKApplyButton.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
+		FEA95A271A13930700B1AD4B /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
@@ -2190,7 +2190,7 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				FE18CF8F1A0A538500C64A39 /* Static.sqlite */,
+				FEA95A271A13930700B1AD4B /* Static.sqlite */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
 				FE0393CC19FCF33C00D0E755 /* WassailModel.xcdatamodeld */,
@@ -2521,6 +2521,7 @@
 				AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */,
 				ADBB66B41A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json in Resources */,
 				ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */,
+				FEA95A281A13930700B1AD4B /* Static.sqlite in Resources */,
 				ADA774B719FE7E9F00F65AA7 /* 5加拿大.md.json in Resources */,
 				ADF2AC2A1A036B8C00DA02C3 /* 3.9法学院排名.md.json in Resources */,
 				AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */,
@@ -2728,7 +2729,6 @@
 				FE17ABE11A0A7E5800637798 /* 学费.png in Resources */,
 				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				ADF2AC251A036B8C00DA02C3 /* 3.5排名解析.md.json in Resources */,
-				FE18CF921A0A538500C64A39 /* Static.sqlite in Resources */,
 				FE7262F219DFEA11005739D0 /* 3.1Resume内容.md.json in Resources */,
 				FE60E6A219E56E1F00147EF9 /* email-2010-12-01.json in Resources */,
 				ADF2AC1D1A036B8C00DA02C3 /* 3.1工程院排名.md.json in Resources */,
