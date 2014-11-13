@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Init Google Analytics
-        // GAIAdapter.instance().initialize()
+         GAIAdapter.instance().initialize()
         
         //
-        println(UserDataManager.instance.applicationDocumentsDirectory)
+        //println(UserDataManager.instance.applicationDocumentsDirectory)
         //DatabaseMediator.instance.generateProgramInstancePreviewList()
         //DatabaseMediator.instance.generateProgramInstanceRequirementsList()
         
