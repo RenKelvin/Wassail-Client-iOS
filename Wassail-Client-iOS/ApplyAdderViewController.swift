@@ -93,7 +93,15 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
         }
         
         if (info.field != 0) {
-            let fieldName = NSUserDefaults.standardUserDefaults().stringForKey("defaultFieldName")
+            var fieldName: String? = "No Specific Field"
+
+            if (info.degree != 1) {
+             fieldName = NSUserDefaults.standardUserDefaults().stringForKey("defaultFieldName")
+            }
+            else {
+                fieldButton!.enabled = false
+            }
+            
             if (fieldName != nil) {
                 fieldButton!.setTitle("\(fieldName!)", forState: .Normal)
             }
@@ -272,22 +280,39 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
             case 0:
                 ""
             case 1:
-                 info.degree = 1
-                 NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
-                 NSUserDefaults.standardUserDefaults().synchronize()
-                 degreeButton!.setTitle("Bachelor", forState: .Normal)
-//                let alert = UIAlertView(title: "即将上线", message: "很抱歉，本科申请功能即将上线", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-//                alert.show()
+                info.degree = 1
+                NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
+                NSUserDefaults.standardUserDefaults().synchronize()
+                degreeButton!.setTitle("Bachelor", forState: .Normal)
+                
+                fieldButton!.enabled = false
+                let fieldName = "No Specific Field"
+                fieldButton!.setTitle("\(fieldName)", forState: .Normal)
+                
+                // let alert = UIAlertView(title: "即将上线", message: "很抱歉，本科申请功能即将上线", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+                // alert.show()
             case 2:
                 info.degree = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultDegree")
                 NSUserDefaults.standardUserDefaults().synchronize()
                 degreeButton!.setTitle("Master", forState: .Normal)
+                
+                fieldButton!.enabled = true
+                let fieldName = NSUserDefaults.standardUserDefaults().stringForKey("defaultFieldName")
+                if (fieldName != nil) {
+                    fieldButton!.setTitle("\(fieldName!)", forState: .Normal)
+                }
             case 3:
                 info.degree = 3
                 NSUserDefaults.standardUserDefaults().setInteger(3, forKey: "defaultDegree")
                 NSUserDefaults.standardUserDefaults().synchronize()
                 degreeButton!.setTitle("Doctor", forState: .Normal)
+                
+                fieldButton!.enabled = true
+                let fieldName = NSUserDefaults.standardUserDefaults().stringForKey("defaultFieldName")
+                if (fieldName != nil) {
+                    fieldButton!.setTitle("\(fieldName!)", forState: .Normal)
+                }
             default:
                 ""
             }

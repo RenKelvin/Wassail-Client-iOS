@@ -490,8 +490,6 @@
 		FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEA95A281A13930700B1AD4B /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FEA95A271A13930700B1AD4B /* Static.sqlite */; };
-		FEA9E8BA1A14F09100F31C09 /* ProgramInstancePreview.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA9E8B81A14F09100F31C09 /* ProgramInstancePreview.json */; };
-		FEA9E8BB1A14F09100F31C09 /* ProgramInstanceRequirements.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA9E8B91A14F09100F31C09 /* ProgramInstanceRequirements.json */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
@@ -1076,8 +1074,6 @@
 		FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKApplyButton.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEA95A271A13930700B1AD4B /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
-		FEA9E8B81A14F09100F31C09 /* ProgramInstancePreview.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstancePreview.json; path = "../../../../快盘/Haile/ProgramInstancePreview.json"; sourceTree = "<group>"; };
-		FEA9E8B91A14F09100F31C09 /* ProgramInstanceRequirements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProgramInstanceRequirements.json; path = "../../../../快盘/Haile/ProgramInstanceRequirements.json"; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
@@ -2194,8 +2190,6 @@
 		FEC8649819BD3DF4005087A3 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				FEA9E8B81A14F09100F31C09 /* ProgramInstancePreview.json */,
-				FEA9E8B91A14F09100F31C09 /* ProgramInstanceRequirements.json */,
 				FEA95A271A13930700B1AD4B /* Static.sqlite */,
 				FE98CA8319FE853700D71578 /* StaticDataManager.swift */,
 				FE0393CF19FCF42000D0E755 /* UserDataManager.swift */,
@@ -2596,7 +2590,6 @@
 				ADF246B219F4FF1C005BA7E5 /* 1CA.md.json in Resources */,
 				AD40116919EB7A610088194C /* 9Barron's SAT 2 物理.jpg in Resources */,
 				FE5B1F9519B4033B00842C3D /* Main.storyboard in Resources */,
-				FEA9E8BA1A14F09100F31C09 /* ProgramInstancePreview.json in Resources */,
 				ADF246B519F4FF1C005BA7E5 /* 4.3Biological.jpg in Resources */,
 				ADF2AC1C1A036B8C00DA02C3 /* 3.14诺贝尔奖.jpg in Resources */,
 				FE5B1F9719B4033B00842C3D /* Images.xcassets in Resources */,
@@ -2741,7 +2734,6 @@
 				ADF2AC1D1A036B8C00DA02C3 /* 3.1工程院排名.md.json in Resources */,
 				AD0E75F319F37695006F433C /* 3.2Personal.jpg in Resources */,
 				AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */,
-				FEA9E8BB1A14F09100F31C09 /* ProgramInstanceRequirements.json in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
