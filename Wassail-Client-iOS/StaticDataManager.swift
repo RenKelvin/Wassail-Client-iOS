@@ -60,7 +60,7 @@ class StaticDataManager: NSObject {
                 NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
             }
         }
-        
+
         var error: NSError? = nil
         var failureReason = "There was an error creating or loading the application's saved data."
         if coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Static", URL: url, options: nil, error: &error) == nil {

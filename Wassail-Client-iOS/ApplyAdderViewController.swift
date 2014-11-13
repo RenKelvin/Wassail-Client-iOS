@@ -272,12 +272,12 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
             case 0:
                 ""
             case 1:
-                // info.degree = 1
-                // NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
-                // NSUserDefaults.standardUserDefaults().synchronize()
-                // degreeButton!.setTitle("Bachelor", forState: .Normal)
-                let alert = UIAlertView(title: "即将上线", message: "很抱歉，本科申请功能即将上线", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
-                alert.show()
+                 info.degree = 1
+                 NSUserDefaults.standardUserDefaults().setInteger(1, forKey: "defaultDegree")
+                 NSUserDefaults.standardUserDefaults().synchronize()
+                 degreeButton!.setTitle("Bachelor", forState: .Normal)
+//                let alert = UIAlertView(title: "即将上线", message: "很抱歉，本科申请功能即将上线", delegate: self, cancelButtonTitle: nil, otherButtonTitles: "好的")
+//                alert.show()
             case 2:
                 info.degree = 2
                 NSUserDefaults.standardUserDefaults().setInteger(2, forKey: "defaultDegree")
