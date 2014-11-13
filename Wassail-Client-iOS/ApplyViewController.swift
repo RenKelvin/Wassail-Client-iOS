@@ -101,13 +101,13 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     
     func getApplyStatsHandler(success: Bool, data: NSDictionary?) {
         if (success) {
-            // println(data!)
-            
-            let json = JSON(data!)
-            status1CountLabel!.text = String(json["applying"].intValue)
-            status2CountLabel!.text = String(json["applied"].intValue)
-            status3CountLabel!.text = String(json["addmited"].intValue)
-            status4CountLabel!.text = String(json["rejected"].intValue)
+            NSOperationQueue.mainQueue().addOperationWithBlock({() -> Void in
+                let json = JSON(data!)
+                self.status1CountLabel!.text = String(json["applying"].intValue)
+                self.status2CountLabel!.text = String(json["applied"].intValue)
+                self.status3CountLabel!.text = String(json["addmited"].intValue)
+                self.status4CountLabel!.text = String(json["rejected"].intValue)
+            })
         }
         else {
             // TODO: get apply stats error
