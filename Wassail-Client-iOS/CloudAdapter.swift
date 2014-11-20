@@ -27,19 +27,19 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
     func sendFeedback(text: NSString, completion: NormalClosure) {
         Wassail_v1.instance.sendFeedback(text, completion)
     }
-
+    
     func getApplyStats(programInstanceId: NSNumber, completion: NormalClosure) {
         Wassail_v1.instance.getApplyStats(programInstanceId, completion)
     }
-
+    
     func getUniversityRanking(name: NSString, completion: NormalClosure) {
         Wassail_v1.instance.getUniversityRanking(name, completion)
     }
-
+    
     func getProgramInstanceInfo(id: NSNumber, completion: NormalClosure) {
         Wassail_v1.instance.getProgramInstanceInfo(id, completion)
     }
-
+    
     // MARK: -
     
     func post(api: NSString, body: NSDictionary, completion: NormalClosure) {
@@ -74,7 +74,7 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
         // Do the task
         task.resume()
     }
-
+    
     
     func get(api: NSString, body: NSDictionary, completion: NormalClosure) {
         
@@ -87,7 +87,7 @@ class CloudAdapter: NSObject, NSURLSessionTaskDelegate {
             let object: AnyObject? = body.objectForKey(key as NSString)
             if (object != nil) {
                 bodyArray.addObject(NSString(format: "\(key as NSString)=\(object!)"))
-}
+            }
         }
         var paraString = bodyArray.componentsJoinedByString("&")
         if (paraString != "") {

@@ -22,8 +22,8 @@ class CloudMediator: NSObject {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
             println(data)
-                        println(response)
-                       println(error)
+            println(response)
+            println(error)
             
             if (response == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false)
@@ -45,7 +45,7 @@ class CloudMediator: NSObject {
             //            println(response)
             //            println(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
             
             if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)
@@ -63,11 +63,11 @@ class CloudMediator: NSObject {
     func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-            //            println(data)
-            //            println(response)
-            //            println(error)
+            // println(data)
+            // println(response)
+            // println(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
             
             if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, list: nil)
@@ -81,7 +81,6 @@ class CloudMediator: NSObject {
                 else {
                     callback(success: false, list: nil)
                 }
-                
             }
         }
         
@@ -91,11 +90,11 @@ class CloudMediator: NSObject {
     func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         
         let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-                        println(data)
-                        println(response)
-                        println(error)
+            println(data)
+            println(response)
+            println(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as? NSDictionary
+            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
             
             if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)

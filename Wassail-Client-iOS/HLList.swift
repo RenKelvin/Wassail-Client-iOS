@@ -14,7 +14,7 @@ class HLList: HLItem {
     var author: NSString?
     var date: NSString?
     var note: NSString?
-  
+    
     var header: NSString?
     var footer: NSString?
     
@@ -34,7 +34,7 @@ class HLList: HLItem {
         author = jsonBody.objectForKey("author") as NSString?
         date = jsonBody.objectForKey("date") as NSString?
         note = jsonBody.objectForKey("note") as NSString?
-       
+        
         header = jsonBody.objectForKey("header") as NSString?
         footer = jsonBody.objectForKey("footer") as NSString?
         
@@ -42,22 +42,24 @@ class HLList: HLItem {
         
         // Groups
         for group in groups {
-            var items = group.objectForKey("items") as NSMutableArray
+            var items: NSMutableArray = group.objectForKey("items") as NSMutableArray
             for item in items {
                 
                 let kind = (item as NSDictionary).objectForKey("kind") as NSString
                 
                 // HLItem
                 if (kind == "Item") {
-                    let content = (item as NSDictionary).objectForKey("content") as NSMutableDictionary
-                    let body = content.objectForKey("body") as NSMutableDictionary
+                    let content: NSMutableDictionary = (item as NSDictionary).objectForKey("content") as NSMutableDictionary
+                    let body: NSMutableDictionary = content.objectForKey("body") as NSMutableDictionary
                     
                     // Add attributes
                     let keys = (item as NSDictionary).allKeys
                     for key in keys {
                         if (key as NSString != "kind" && key as NSString != "content") {
                             let object: AnyObject! = (item as NSDictionary).objectForKey((key as NSString)) as AnyObject!
-                            body.setObject(object, forKey: (key as NSString))
+                            if (body.isKindOfClass(NSMutableDictionary)) {
+                                body.setObject(object, forKey: (key as NSString))
+                            }
                         }
                     }
                     
@@ -103,7 +105,7 @@ class HLList: HLItem {
         if (!items.objectAtIndex(row).isKindOfClass(Item)) {
             return nil
         }
-
+        
         return items.objectAtIndex(row) as? Item
     }
 }
