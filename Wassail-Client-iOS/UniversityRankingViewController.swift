@@ -56,7 +56,15 @@ class UniversityRankingViewController: GAITrackedViewController, UIAlertViewDele
         }
         
         //
-        UniversityAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
+        list = ListInfo.instance.getList(listName!)
+        // UniversityAccessor.instance.getUniversityRanking(listName!, getUniversityRankingHandler)
+        
+        //        if (list == nil) {
+        //            return
+        //        }
+        //
+        //        // Set list title
+        //        self.title = list!.title
     }
     
     func updateView() {

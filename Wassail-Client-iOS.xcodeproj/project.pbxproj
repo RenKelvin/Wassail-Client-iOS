@@ -433,6 +433,122 @@
 		FE85385E1A03EA6500A26820 /* HLProgramInstanceRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85385D1A03EA6500A26820 /* HLProgramInstanceRequirements.swift */; };
 		FE8538641A04058100A26820 /* ApplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8538631A04058100A26820 /* ApplyTableViewCell.swift */; };
 		FE89D27F19DEA4A5008CC7FB /* GPACalculatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */; };
+		FE8BEA1F1A1FA56E00DE2917 /* 0101工程学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9AB1A1FA56E00DE2917 /* 0101工程学院排名.md.json */; };
+		FE8BEA201A1FA56E00DE2917 /* 0102航空航天工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9AC1A1FA56E00DE2917 /* 0102航空航天工程.md.json */; };
+		FE8BEA211A1FA56E00DE2917 /* 0103生物与农业工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9AD1A1FA56E00DE2917 /* 0103生物与农业工程.md.json */; };
+		FE8BEA221A1FA56E00DE2917 /* 0104生物医学与生物工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9AE1A1FA56E00DE2917 /* 0104生物医学与生物工程.md.json */; };
+		FE8BEA231A1FA56E00DE2917 /* 0105化学工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9AF1A1FA56E00DE2917 /* 0105化学工程.md.json */; };
+		FE8BEA241A1FA56E00DE2917 /* 0106土木工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B01A1FA56E00DE2917 /* 0106土木工程.md.json */; };
+		FE8BEA251A1FA56E00DE2917 /* 0107计算机工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B11A1FA56E00DE2917 /* 0107计算机工程.md.json */; };
+		FE8BEA261A1FA56E00DE2917 /* 0108电子电气与通讯工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B21A1FA56E00DE2917 /* 0108电子电气与通讯工程.md.json */; };
+		FE8BEA271A1FA56E00DE2917 /* 0109环境与环境卫生工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B31A1FA56E00DE2917 /* 0109环境与环境卫生工程.md.json */; };
+		FE8BEA281A1FA56E00DE2917 /* 0110工业与制造工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B41A1FA56E00DE2917 /* 0110工业与制造工程.md.json */; };
+		FE8BEA291A1FA56E00DE2917 /* 0111材料工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B51A1FA56E00DE2917 /* 0111材料工程.md.json */; };
+		FE8BEA2A1A1FA56E00DE2917 /* 0112机械工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B61A1FA56E00DE2917 /* 0112机械工程.md.json */; };
+		FE8BEA2B1A1FA56E00DE2917 /* 0113核能工程.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B71A1FA56E00DE2917 /* 0113核能工程.md.json */; };
+		FE8BEA2C1A1FA56E00DE2917 /* 0201统计学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B81A1FA56E00DE2917 /* 0201统计学.md.json */; };
+		FE8BEA2D1A1FA56E00DE2917 /* 0202生物科学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9B91A1FA56E00DE2917 /* 0202生物科学.md.json */; };
+		FE8BEA2E1A1FA56E00DE2917 /* 0203化学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BA1A1FA56E00DE2917 /* 0203化学.md.json */; };
+		FE8BEA2F1A1FA56E00DE2917 /* 0204计算机科学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BB1A1FA56E00DE2917 /* 0204计算机科学.md.json */; };
+		FE8BEA301A1FA56E00DE2917 /* 0205地球科学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BC1A1FA56E00DE2917 /* 0205地球科学.md.json */; };
+		FE8BEA311A1FA56E00DE2917 /* 0206数学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BD1A1FA56E00DE2917 /* 0206数学.md.json */; };
+		FE8BEA321A1FA56E00DE2917 /* 0207物理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BE1A1FA56E00DE2917 /* 0207物理学.md.json */; };
+		FE8BEA331A1FA56E00DE2917 /* 0301商学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9BF1A1FA56E00DE2917 /* 0301商学院排名.md.json */; };
+		FE8BEA341A1FA56E00DE2917 /* 0302会计.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C01A1FA56E00DE2917 /* 0302会计.md.json */; };
+		FE8BEA351A1FA56E00DE2917 /* 0303创业.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C11A1FA56E00DE2917 /* 0303创业.md.json */; };
+		FE8BEA361A1FA56E00DE2917 /* 0304行政工商管理硕士.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C21A1FA56E00DE2917 /* 0304行政工商管理硕士.md.json */; };
+		FE8BEA371A1FA56E00DE2917 /* 0305金融.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C31A1FA56E00DE2917 /* 0305金融.md.json */; };
+		FE8BEA381A1FA56E00DE2917 /* 0306信息系统.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C41A1FA56E00DE2917 /* 0306信息系统.md.json */; };
+		FE8BEA391A1FA56E00DE2917 /* 0307国际商务.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C51A1FA56E00DE2917 /* 0307国际商务.md.json */; };
+		FE8BEA3A1A1FA56E00DE2917 /* 0308管理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C61A1FA56E00DE2917 /* 0308管理学.md.json */; };
+		FE8BEA3B1A1FA56E00DE2917 /* 0309市场营销.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C71A1FA56E00DE2917 /* 0309市场营销.md.json */; };
+		FE8BEA3C1A1FA56E00DE2917 /* 0310非盈利公共管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C81A1FA56E00DE2917 /* 0310非盈利公共管理.md.json */; };
+		FE8BEA3D1A1FA56E00DE2917 /* 0311在职工商管理硕士.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9C91A1FA56E00DE2917 /* 0311在职工商管理硕士.md.json */; };
+		FE8BEA3E1A1FA56E00DE2917 /* 0312生产运营管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CA1A1FA56E00DE2917 /* 0312生产运营管理.md.json */; };
+		FE8BEA3F1A1FA56E00DE2917 /* 0313物流管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CB1A1FA56E00DE2917 /* 0313物流管理.md.json */; };
+		FE8BEA401A1FA56E00DE2917 /* 0314金融工商管理硕士.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CC1A1FA56E00DE2917 /* 0314金融工商管理硕士.md.json */; };
+		FE8BEA411A1FA56E00DE2917 /* 0401犯罪学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CD1A1FA56E00DE2917 /* 0401犯罪学.md.json */; };
+		FE8BEA421A1FA56E00DE2917 /* 0402经济学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CE1A1FA56E00DE2917 /* 0402经济学.md.json */; };
+		FE8BEA431A1FA56E00DE2917 /* 0403英语.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9CF1A1FA56E00DE2917 /* 0403英语.md.json */; };
+		FE8BEA441A1FA56E00DE2917 /* 0404历史.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D01A1FA56E00DE2917 /* 0404历史.md.json */; };
+		FE8BEA451A1FA56E00DE2917 /* 0405心理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D11A1FA56E00DE2917 /* 0405心理学.md.json */; };
+		FE8BEA461A1FA56E00DE2917 /* 0406政治科学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D21A1FA56E00DE2917 /* 0406政治科学.md.json */; };
+		FE8BEA471A1FA56E00DE2917 /* 0407社会学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D31A1FA56E00DE2917 /* 0407社会学.md.json */; };
+		FE8BEA481A1FA56E00DE2917 /* 0501公共事务学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D41A1FA56E00DE2917 /* 0501公共事务学院排名.md.json */; };
+		FE8BEA491A1FA56E00DE2917 /* 0502城市管理和政策.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D51A1FA56E00DE2917 /* 0502城市管理和政策.md.json */; };
+		FE8BEA4A1A1FA56E00DE2917 /* 0503环境政策和管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D61A1FA56E00DE2917 /* 0503环境政策和管理.md.json */; };
+		FE8BEA4B1A1FA56E00DE2917 /* 0504卫生政策和管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D71A1FA56E00DE2917 /* 0504卫生政策和管理.md.json */; };
+		FE8BEA4C1A1FA56E00DE2917 /* 0505信息技术管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D81A1FA56E00DE2917 /* 0505信息技术管理.md.json */; };
+		FE8BEA4D1A1FA56E00DE2917 /* 0506非营利机构管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9D91A1FA56E00DE2917 /* 0506非营利机构管理.md.json */; };
+		FE8BEA4E1A1FA56E00DE2917 /* 0507公共财政预算.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DA1A1FA56E00DE2917 /* 0507公共财政预算.md.json */; };
+		FE8BEA4F1A1FA56E00DE2917 /* 0508公共管理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DB1A1FA56E00DE2917 /* 0508公共管理学.md.json */; };
+		FE8BEA501A1FA56E00DE2917 /* 0509公共政策分析.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DC1A1FA56E00DE2917 /* 0509公共政策分析.md.json */; };
+		FE8BEA511A1FA56E00DE2917 /* 0510社会政策.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DD1A1FA56E00DE2917 /* 0510社会政策.md.json */; };
+		FE8BEA521A1FA56E00DE2917 /* 0601图书馆及信息研究院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DE1A1FA56E00DE2917 /* 0601图书馆及信息研究院排名.md.json */; };
+		FE8BEA531A1FA56E00DE2917 /* 0602档案管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9DF1A1FA56E00DE2917 /* 0602档案管理.md.json */; };
+		FE8BEA541A1FA56E00DE2917 /* 0603数字化图书馆.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E01A1FA56E00DE2917 /* 0603数字化图书馆.md.json */; };
+		FE8BEA551A1FA56E00DE2917 /* 0604健康档案管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E11A1FA56E00DE2917 /* 0604健康档案管理.md.json */; };
+		FE8BEA561A1FA56E00DE2917 /* 0605信息系统管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E21A1FA56E00DE2917 /* 0605信息系统管理.md.json */; };
+		FE8BEA571A1FA56E00DE2917 /* 0606法律图书馆管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E31A1FA56E00DE2917 /* 0606法律图书馆管理.md.json */; };
+		FE8BEA581A1FA56E00DE2917 /* 0607图书馆媒体学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E41A1FA56E00DE2917 /* 0607图书馆媒体学.md.json */; };
+		FE8BEA591A1FA56E00DE2917 /* 0608青少年服务.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E51A1FA56E00DE2917 /* 0608青少年服务.md.json */; };
+		FE8BEA5A1A1FA56E00DE2917 /* 0701档案管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E61A1FA56E00DE2917 /* 0701档案管理.md.json */; };
+		FE8BEA5B1A1FA56E00DE2917 /* 0702课程与教学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E71A1FA56E00DE2917 /* 0702课程与教学.md.json */; };
+		FE8BEA5C1A1FA56E00DE2917 /* 0703教育管理与监督.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E81A1FA56E00DE2917 /* 0703教育管理与监督.md.json */; };
+		FE8BEA5D1A1FA56E00DE2917 /* 0704教育政策.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9E91A1FA56E00DE2917 /* 0704教育政策.md.json */; };
+		FE8BEA5E1A1FA56E00DE2917 /* 0705教育心理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9EA1A1FA56E00DE2917 /* 0705教育心理学.md.json */; };
+		FE8BEA5F1A1FA56E00DE2917 /* 0706小学教育.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9EB1A1FA56E00DE2917 /* 0706小学教育.md.json */; };
+		FE8BEA601A1FA56E00DE2917 /* 0707高等教育管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9EC1A1FA56E00DE2917 /* 0707高等教育管理.md.json */; };
+		FE8BEA611A1FA56E00DE2917 /* 0708中学教育.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9ED1A1FA56E00DE2917 /* 0708中学教育.md.json */; };
+		FE8BEA621A1FA56E00DE2917 /* 0709特殊教育.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9EE1A1FA56E00DE2917 /* 0709特殊教育.md.json */; };
+		FE8BEA631A1FA56E00DE2917 /* 0710学生辅导及服务.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9EF1A1FA56E00DE2917 /* 0710学生辅导及服务.md.json */; };
+		FE8BEA641A1FA56E00DE2917 /* 0711技术与职业教育.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F01A1FA56E00DE2917 /* 0711技术与职业教育.md.json */; };
+		FE8BEA651A1FA56E00DE2917 /* 0801听力学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F11A1FA56E00DE2917 /* 0801听力学.md.json */; };
+		FE8BEA661A1FA56E00DE2917 /* 0802临床心理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F21A1FA56E00DE2917 /* 0802临床心理学.md.json */; };
+		FE8BEA671A1FA56E00DE2917 /* 0803保健管理.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F31A1FA56E00DE2917 /* 0803保健管理.md.json */; };
+		FE8BEA681A1FA56E00DE2917 /* 0804护理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F41A1FA56E00DE2917 /* 0804护理学.md.json */; };
+		FE8BEA691A1FA56E00DE2917 /* 0805麻醉护理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F51A1FA56E00DE2917 /* 0805麻醉护理学.md.json */; };
+		FE8BEA6A1A1FA56E00DE2917 /* 0806助产护理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F61A1FA56E00DE2917 /* 0806助产护理学.md.json */; };
+		FE8BEA6B1A1FA56E00DE2917 /* 0807职业疗法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F71A1FA56E00DE2917 /* 0807职业疗法.md.json */; };
+		FE8BEA6C1A1FA56E00DE2917 /* 0808药剂学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F81A1FA56E00DE2917 /* 0808药剂学.md.json */; };
+		FE8BEA6D1A1FA56E00DE2917 /* 0809物理治疗学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9F91A1FA56E00DE2917 /* 0809物理治疗学.md.json */; };
+		FE8BEA6E1A1FA56E00DE2917 /* 0810助理医师.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FA1A1FA56E00DE2917 /* 0810助理医师.md.json */; };
+		FE8BEA6F1A1FA56E00DE2917 /* 0811公共健康.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FB1A1FA56E00DE2917 /* 0811公共健康.md.json */; };
+		FE8BEA701A1FA56E00DE2917 /* 0812康复咨询.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FC1A1FA56E00DE2917 /* 0812康复咨询.md.json */; };
+		FE8BEA711A1FA56E00DE2917 /* 0813社会工作.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FD1A1FA56E00DE2917 /* 0813社会工作.md.json */; };
+		FE8BEA721A1FA56E00DE2917 /* 0814语言病理学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FE1A1FA56E00DE2917 /* 0814语言病理学.md.json */; };
+		FE8BEA731A1FA56E00DE2917 /* 0815兽医医药学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BE9FF1A1FA56E00DE2917 /* 0815兽医医药学.md.json */; };
+		FE8BEA741A1FA56E00DE2917 /* 0901法学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA001A1FA56E00DE2917 /* 0901法学院排名.md.json */; };
+		FE8BEA751A1FA56E00DE2917 /* 0902法律实务.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA011A1FA56E00DE2917 /* 0902法律实务.md.json */; };
+		FE8BEA761A1FA56E00DE2917 /* 0903仲裁学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA021A1FA56E00DE2917 /* 0903仲裁学.md.json */; };
+		FE8BEA771A1FA56E00DE2917 /* 0904环境法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA031A1FA56E00DE2917 /* 0904环境法.md.json */; };
+		FE8BEA781A1FA56E00DE2917 /* 0905医疗保健法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA041A1FA56E00DE2917 /* 0905医疗保健法.md.json */; };
+		FE8BEA791A1FA56E00DE2917 /* 0906知识产权法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA051A1FA56E00DE2917 /* 0906知识产权法.md.json */; };
+		FE8BEA7A1A1FA56E00DE2917 /* 0907国际法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA061A1FA56E00DE2917 /* 0907国际法.md.json */; };
+		FE8BEA7B1A1FA56E00DE2917 /* 0908法务文书写作.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA071A1FA56E00DE2917 /* 0908法务文书写作.md.json */; };
+		FE8BEA7C1A1FA56E00DE2917 /* 0909在职法律项目.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA081A1FA56E00DE2917 /* 0909在职法律项目.md.json */; };
+		FE8BEA7D1A1FA56E00DE2917 /* 0910税法.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA091A1FA56E00DE2917 /* 0910税法.md.json */; };
+		FE8BEA7E1A1FA56E00DE2917 /* 0911辩护学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0A1A1FA56E00DE2917 /* 0911辩护学.md.json */; };
+		FE8BEA7F1A1FA56E00DE2917 /* 1001研究性医学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0B1A1FA56E00DE2917 /* 1001研究性医学院排名.md.json */; };
+		FE8BEA801A1FA56E00DE2917 /* 1002临床医学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0C1A1FA56E00DE2917 /* 1002临床医学院排名.md.json */; };
+		FE8BEA811A1FA56E00DE2917 /* 1003艾滋病.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0D1A1FA56E00DE2917 /* 1003艾滋病.md.json */; };
+		FE8BEA821A1FA56E00DE2917 /* 1004药物与酒精滥用.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0E1A1FA56E00DE2917 /* 1004药物与酒精滥用.md.json */; };
+		FE8BEA831A1FA56E00DE2917 /* 1005家庭医学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA0F1A1FA56E00DE2917 /* 1005家庭医学.md.json */; };
+		FE8BEA841A1FA56E00DE2917 /* 1006老年医学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA101A1FA56E00DE2917 /* 1006老年医学.md.json */; };
+		FE8BEA851A1FA56E00DE2917 /* 1007内科.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA111A1FA56E00DE2917 /* 1007内科.md.json */; };
+		FE8BEA861A1FA56E00DE2917 /* 1008儿科.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA121A1FA56E00DE2917 /* 1008儿科.md.json */; };
+		FE8BEA871A1FA56E00DE2917 /* 1009乡村医学.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA131A1FA56E00DE2917 /* 1009乡村医学.md.json */; };
+		FE8BEA881A1FA56E00DE2917 /* 1010女性健康.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA141A1FA56E00DE2917 /* 1010女性健康.md.json */; };
+		FE8BEA891A1FA56E00DE2917 /* 1101美术学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA151A1FA56E00DE2917 /* 1101美术学院排名.md.json */; };
+		FE8BEA8A1A1FA56E00DE2917 /* 1102制陶术.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA161A1FA56E00DE2917 /* 1102制陶术.md.json */; };
+		FE8BEA8B1A1FA56E00DE2917 /* 1103平面设计.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA171A1FA56E00DE2917 /* 1103平面设计.md.json */; };
+		FE8BEA8C1A1FA56E00DE2917 /* 1104工业设计.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA181A1FA56E00DE2917 /* 1104工业设计.md.json */; };
+		FE8BEA8D1A1FA56E00DE2917 /* 1105室内设计.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA191A1FA56E00DE2917 /* 1105室内设计.md.json */; };
+		FE8BEA8E1A1FA56E00DE2917 /* 1106多媒体.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA1A1A1FA56E00DE2917 /* 1106多媒体.md.json */; };
+		FE8BEA8F1A1FA56E00DE2917 /* 1107绘画.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA1B1A1FA56E00DE2917 /* 1107绘画.md.json */; };
+		FE8BEA901A1FA56E00DE2917 /* 1108摄影.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA1C1A1FA56E00DE2917 /* 1108摄影.md.json */; };
+		FE8BEA911A1FA56E00DE2917 /* 1109版画.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA1D1A1FA56E00DE2917 /* 1109版画.md.json */; };
+		FE8BEA921A1FA56E00DE2917 /* 1110雕塑.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8BEA1E1A1FA56E00DE2917 /* 1110雕塑.md.json */; };
 		FE8C7BD519CB29A600F1C319 /* RKScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */; };
 		FE8D81AC19C448AF00CE6174 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */; };
 		FE8D81AF19C4499600CE6174 /* HLItemPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */; };
@@ -490,6 +606,12 @@
 		FEA59C0719FFD07000B1DD45 /* RKApplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */; };
 		FEA5A90C19BD565D0048AF6A /* ToolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */; };
 		FEA95A281A13930700B1AD4B /* Static.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FEA95A271A13930700B1AD4B /* Static.sqlite */; };
+		FEAAF04C1A1F2B4000561213 /* ARWU世界大学学术排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF0461A1F2B4000561213 /* ARWU世界大学学术排名.md.json */; };
+		FEAAF04D1A1F2B4000561213 /* QS世界大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF0471A1F2B4000561213 /* QS世界大学排名.md.json */; };
+		FEAAF04E1A1F2B4000561213 /* THE世界大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF0481A1F2B4000561213 /* THE世界大学排名.md.json */; };
+		FEAAF04F1A1F2B4000561213 /* USNews世界大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF0491A1F2B4000561213 /* USNews世界大学排名.md.json */; };
+		FEAAF0501A1F2B4000561213 /* USNews美国文理学院排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF04A1A1F2B4000561213 /* USNews美国文理学院排名.md.json */; };
+		FEAAF0511A1F2B4000561213 /* USNews美国综合大学排名.md.json in Resources */ = {isa = PBXBuildFile; fileRef = FEAAF04B1A1F2B4000561213 /* USNews美国综合大学排名.md.json */; };
 		FEAE0CAC19FE974800CC5110 /* HLProgramInstancePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */; };
 		FEAE0CAF19FEA39B00CC5110 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */; };
 		FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */; };
@@ -1017,6 +1139,122 @@
 		FE8538631A04058100A26820 /* ApplyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyTableViewCell.swift; sourceTree = "<group>"; };
 		FE8538651A0406D500A26820 /* HLApply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLApply.swift; sourceTree = "<group>"; };
 		FE89D27E19DEA4A5008CC7FB /* GPACalculatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculatorInfo.swift; sourceTree = "<group>"; };
+		FE8BE9AB1A1FA56E00DE2917 /* 0101工程学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0101工程学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BE9AC1A1FA56E00DE2917 /* 0102航空航天工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0102航空航天工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9AD1A1FA56E00DE2917 /* 0103生物与农业工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0103生物与农业工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9AE1A1FA56E00DE2917 /* 0104生物医学与生物工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0104生物医学与生物工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9AF1A1FA56E00DE2917 /* 0105化学工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0105化学工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B01A1FA56E00DE2917 /* 0106土木工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0106土木工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B11A1FA56E00DE2917 /* 0107计算机工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0107计算机工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B21A1FA56E00DE2917 /* 0108电子电气与通讯工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0108电子电气与通讯工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B31A1FA56E00DE2917 /* 0109环境与环境卫生工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0109环境与环境卫生工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B41A1FA56E00DE2917 /* 0110工业与制造工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0110工业与制造工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B51A1FA56E00DE2917 /* 0111材料工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0111材料工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B61A1FA56E00DE2917 /* 0112机械工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0112机械工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B71A1FA56E00DE2917 /* 0113核能工程.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0113核能工程.md.json"; sourceTree = "<group>"; };
+		FE8BE9B81A1FA56E00DE2917 /* 0201统计学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0201统计学.md.json"; sourceTree = "<group>"; };
+		FE8BE9B91A1FA56E00DE2917 /* 0202生物科学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0202生物科学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BA1A1FA56E00DE2917 /* 0203化学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0203化学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BB1A1FA56E00DE2917 /* 0204计算机科学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0204计算机科学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BC1A1FA56E00DE2917 /* 0205地球科学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0205地球科学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BD1A1FA56E00DE2917 /* 0206数学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0206数学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BE1A1FA56E00DE2917 /* 0207物理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0207物理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9BF1A1FA56E00DE2917 /* 0301商学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0301商学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BE9C01A1FA56E00DE2917 /* 0302会计.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0302会计.md.json"; sourceTree = "<group>"; };
+		FE8BE9C11A1FA56E00DE2917 /* 0303创业.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0303创业.md.json"; sourceTree = "<group>"; };
+		FE8BE9C21A1FA56E00DE2917 /* 0304行政工商管理硕士.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0304行政工商管理硕士.md.json"; sourceTree = "<group>"; };
+		FE8BE9C31A1FA56E00DE2917 /* 0305金融.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0305金融.md.json"; sourceTree = "<group>"; };
+		FE8BE9C41A1FA56E00DE2917 /* 0306信息系统.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0306信息系统.md.json"; sourceTree = "<group>"; };
+		FE8BE9C51A1FA56E00DE2917 /* 0307国际商务.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0307国际商务.md.json"; sourceTree = "<group>"; };
+		FE8BE9C61A1FA56E00DE2917 /* 0308管理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0308管理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9C71A1FA56E00DE2917 /* 0309市场营销.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0309市场营销.md.json"; sourceTree = "<group>"; };
+		FE8BE9C81A1FA56E00DE2917 /* 0310非盈利公共管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0310非盈利公共管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9C91A1FA56E00DE2917 /* 0311在职工商管理硕士.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0311在职工商管理硕士.md.json"; sourceTree = "<group>"; };
+		FE8BE9CA1A1FA56E00DE2917 /* 0312生产运营管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0312生产运营管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9CB1A1FA56E00DE2917 /* 0313物流管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0313物流管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9CC1A1FA56E00DE2917 /* 0314金融工商管理硕士.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0314金融工商管理硕士.md.json"; sourceTree = "<group>"; };
+		FE8BE9CD1A1FA56E00DE2917 /* 0401犯罪学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0401犯罪学.md.json"; sourceTree = "<group>"; };
+		FE8BE9CE1A1FA56E00DE2917 /* 0402经济学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0402经济学.md.json"; sourceTree = "<group>"; };
+		FE8BE9CF1A1FA56E00DE2917 /* 0403英语.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0403英语.md.json"; sourceTree = "<group>"; };
+		FE8BE9D01A1FA56E00DE2917 /* 0404历史.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0404历史.md.json"; sourceTree = "<group>"; };
+		FE8BE9D11A1FA56E00DE2917 /* 0405心理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0405心理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9D21A1FA56E00DE2917 /* 0406政治科学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0406政治科学.md.json"; sourceTree = "<group>"; };
+		FE8BE9D31A1FA56E00DE2917 /* 0407社会学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0407社会学.md.json"; sourceTree = "<group>"; };
+		FE8BE9D41A1FA56E00DE2917 /* 0501公共事务学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0501公共事务学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BE9D51A1FA56E00DE2917 /* 0502城市管理和政策.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0502城市管理和政策.md.json"; sourceTree = "<group>"; };
+		FE8BE9D61A1FA56E00DE2917 /* 0503环境政策和管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0503环境政策和管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9D71A1FA56E00DE2917 /* 0504卫生政策和管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0504卫生政策和管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9D81A1FA56E00DE2917 /* 0505信息技术管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0505信息技术管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9D91A1FA56E00DE2917 /* 0506非营利机构管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0506非营利机构管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9DA1A1FA56E00DE2917 /* 0507公共财政预算.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0507公共财政预算.md.json"; sourceTree = "<group>"; };
+		FE8BE9DB1A1FA56E00DE2917 /* 0508公共管理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0508公共管理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9DC1A1FA56E00DE2917 /* 0509公共政策分析.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0509公共政策分析.md.json"; sourceTree = "<group>"; };
+		FE8BE9DD1A1FA56E00DE2917 /* 0510社会政策.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0510社会政策.md.json"; sourceTree = "<group>"; };
+		FE8BE9DE1A1FA56E00DE2917 /* 0601图书馆及信息研究院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0601图书馆及信息研究院排名.md.json"; sourceTree = "<group>"; };
+		FE8BE9DF1A1FA56E00DE2917 /* 0602档案管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0602档案管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9E01A1FA56E00DE2917 /* 0603数字化图书馆.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0603数字化图书馆.md.json"; sourceTree = "<group>"; };
+		FE8BE9E11A1FA56E00DE2917 /* 0604健康档案管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0604健康档案管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9E21A1FA56E00DE2917 /* 0605信息系统管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0605信息系统管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9E31A1FA56E00DE2917 /* 0606法律图书馆管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0606法律图书馆管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9E41A1FA56E00DE2917 /* 0607图书馆媒体学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0607图书馆媒体学.md.json"; sourceTree = "<group>"; };
+		FE8BE9E51A1FA56E00DE2917 /* 0608青少年服务.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0608青少年服务.md.json"; sourceTree = "<group>"; };
+		FE8BE9E61A1FA56E00DE2917 /* 0701档案管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0701档案管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9E71A1FA56E00DE2917 /* 0702课程与教学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0702课程与教学.md.json"; sourceTree = "<group>"; };
+		FE8BE9E81A1FA56E00DE2917 /* 0703教育管理与监督.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0703教育管理与监督.md.json"; sourceTree = "<group>"; };
+		FE8BE9E91A1FA56E00DE2917 /* 0704教育政策.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0704教育政策.md.json"; sourceTree = "<group>"; };
+		FE8BE9EA1A1FA56E00DE2917 /* 0705教育心理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0705教育心理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9EB1A1FA56E00DE2917 /* 0706小学教育.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0706小学教育.md.json"; sourceTree = "<group>"; };
+		FE8BE9EC1A1FA56E00DE2917 /* 0707高等教育管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0707高等教育管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9ED1A1FA56E00DE2917 /* 0708中学教育.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0708中学教育.md.json"; sourceTree = "<group>"; };
+		FE8BE9EE1A1FA56E00DE2917 /* 0709特殊教育.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0709特殊教育.md.json"; sourceTree = "<group>"; };
+		FE8BE9EF1A1FA56E00DE2917 /* 0710学生辅导及服务.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0710学生辅导及服务.md.json"; sourceTree = "<group>"; };
+		FE8BE9F01A1FA56E00DE2917 /* 0711技术与职业教育.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0711技术与职业教育.md.json"; sourceTree = "<group>"; };
+		FE8BE9F11A1FA56E00DE2917 /* 0801听力学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0801听力学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F21A1FA56E00DE2917 /* 0802临床心理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0802临床心理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F31A1FA56E00DE2917 /* 0803保健管理.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0803保健管理.md.json"; sourceTree = "<group>"; };
+		FE8BE9F41A1FA56E00DE2917 /* 0804护理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0804护理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F51A1FA56E00DE2917 /* 0805麻醉护理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0805麻醉护理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F61A1FA56E00DE2917 /* 0806助产护理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0806助产护理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F71A1FA56E00DE2917 /* 0807职业疗法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0807职业疗法.md.json"; sourceTree = "<group>"; };
+		FE8BE9F81A1FA56E00DE2917 /* 0808药剂学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0808药剂学.md.json"; sourceTree = "<group>"; };
+		FE8BE9F91A1FA56E00DE2917 /* 0809物理治疗学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0809物理治疗学.md.json"; sourceTree = "<group>"; };
+		FE8BE9FA1A1FA56E00DE2917 /* 0810助理医师.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0810助理医师.md.json"; sourceTree = "<group>"; };
+		FE8BE9FB1A1FA56E00DE2917 /* 0811公共健康.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0811公共健康.md.json"; sourceTree = "<group>"; };
+		FE8BE9FC1A1FA56E00DE2917 /* 0812康复咨询.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0812康复咨询.md.json"; sourceTree = "<group>"; };
+		FE8BE9FD1A1FA56E00DE2917 /* 0813社会工作.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0813社会工作.md.json"; sourceTree = "<group>"; };
+		FE8BE9FE1A1FA56E00DE2917 /* 0814语言病理学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0814语言病理学.md.json"; sourceTree = "<group>"; };
+		FE8BE9FF1A1FA56E00DE2917 /* 0815兽医医药学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0815兽医医药学.md.json"; sourceTree = "<group>"; };
+		FE8BEA001A1FA56E00DE2917 /* 0901法学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0901法学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BEA011A1FA56E00DE2917 /* 0902法律实务.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0902法律实务.md.json"; sourceTree = "<group>"; };
+		FE8BEA021A1FA56E00DE2917 /* 0903仲裁学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0903仲裁学.md.json"; sourceTree = "<group>"; };
+		FE8BEA031A1FA56E00DE2917 /* 0904环境法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0904环境法.md.json"; sourceTree = "<group>"; };
+		FE8BEA041A1FA56E00DE2917 /* 0905医疗保健法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0905医疗保健法.md.json"; sourceTree = "<group>"; };
+		FE8BEA051A1FA56E00DE2917 /* 0906知识产权法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0906知识产权法.md.json"; sourceTree = "<group>"; };
+		FE8BEA061A1FA56E00DE2917 /* 0907国际法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0907国际法.md.json"; sourceTree = "<group>"; };
+		FE8BEA071A1FA56E00DE2917 /* 0908法务文书写作.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0908法务文书写作.md.json"; sourceTree = "<group>"; };
+		FE8BEA081A1FA56E00DE2917 /* 0909在职法律项目.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0909在职法律项目.md.json"; sourceTree = "<group>"; };
+		FE8BEA091A1FA56E00DE2917 /* 0910税法.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0910税法.md.json"; sourceTree = "<group>"; };
+		FE8BEA0A1A1FA56E00DE2917 /* 0911辩护学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "0911辩护学.md.json"; sourceTree = "<group>"; };
+		FE8BEA0B1A1FA56E00DE2917 /* 1001研究性医学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1001研究性医学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BEA0C1A1FA56E00DE2917 /* 1002临床医学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1002临床医学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BEA0D1A1FA56E00DE2917 /* 1003艾滋病.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1003艾滋病.md.json"; sourceTree = "<group>"; };
+		FE8BEA0E1A1FA56E00DE2917 /* 1004药物与酒精滥用.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1004药物与酒精滥用.md.json"; sourceTree = "<group>"; };
+		FE8BEA0F1A1FA56E00DE2917 /* 1005家庭医学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1005家庭医学.md.json"; sourceTree = "<group>"; };
+		FE8BEA101A1FA56E00DE2917 /* 1006老年医学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1006老年医学.md.json"; sourceTree = "<group>"; };
+		FE8BEA111A1FA56E00DE2917 /* 1007内科.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1007内科.md.json"; sourceTree = "<group>"; };
+		FE8BEA121A1FA56E00DE2917 /* 1008儿科.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1008儿科.md.json"; sourceTree = "<group>"; };
+		FE8BEA131A1FA56E00DE2917 /* 1009乡村医学.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1009乡村医学.md.json"; sourceTree = "<group>"; };
+		FE8BEA141A1FA56E00DE2917 /* 1010女性健康.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1010女性健康.md.json"; sourceTree = "<group>"; };
+		FE8BEA151A1FA56E00DE2917 /* 1101美术学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1101美术学院排名.md.json"; sourceTree = "<group>"; };
+		FE8BEA161A1FA56E00DE2917 /* 1102制陶术.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1102制陶术.md.json"; sourceTree = "<group>"; };
+		FE8BEA171A1FA56E00DE2917 /* 1103平面设计.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1103平面设计.md.json"; sourceTree = "<group>"; };
+		FE8BEA181A1FA56E00DE2917 /* 1104工业设计.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1104工业设计.md.json"; sourceTree = "<group>"; };
+		FE8BEA191A1FA56E00DE2917 /* 1105室内设计.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1105室内设计.md.json"; sourceTree = "<group>"; };
+		FE8BEA1A1A1FA56E00DE2917 /* 1106多媒体.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1106多媒体.md.json"; sourceTree = "<group>"; };
+		FE8BEA1B1A1FA56E00DE2917 /* 1107绘画.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1107绘画.md.json"; sourceTree = "<group>"; };
+		FE8BEA1C1A1FA56E00DE2917 /* 1108摄影.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1108摄影.md.json"; sourceTree = "<group>"; };
+		FE8BEA1D1A1FA56E00DE2917 /* 1109版画.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1109版画.md.json"; sourceTree = "<group>"; };
+		FE8BEA1E1A1FA56E00DE2917 /* 1110雕塑.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1110雕塑.md.json"; sourceTree = "<group>"; };
 		FE8C7BD419CB29A600F1C319 /* RKScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKScrollerView.swift; sourceTree = "<group>"; };
 		FE8D81AB19C448AF00CE6174 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		FE8D81AE19C4499600CE6174 /* HLItemPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLItemPreview.swift; sourceTree = "<group>"; };
@@ -1074,6 +1312,12 @@
 		FEA59C0619FFD07000B1DD45 /* RKApplyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKApplyButton.swift; sourceTree = "<group>"; };
 		FEA5A90B19BD565D0048AF6A /* ToolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsTableViewCell.swift; sourceTree = "<group>"; };
 		FEA95A271A13930700B1AD4B /* Static.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Static.sqlite; sourceTree = "<group>"; };
+		FEAAF0461A1F2B4000561213 /* ARWU世界大学学术排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ARWU世界大学学术排名.md.json"; sourceTree = "<group>"; };
+		FEAAF0471A1F2B4000561213 /* QS世界大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "QS世界大学排名.md.json"; sourceTree = "<group>"; };
+		FEAAF0481A1F2B4000561213 /* THE世界大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "THE世界大学排名.md.json"; sourceTree = "<group>"; };
+		FEAAF0491A1F2B4000561213 /* USNews世界大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "USNews世界大学排名.md.json"; sourceTree = "<group>"; };
+		FEAAF04A1A1F2B4000561213 /* USNews美国文理学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "USNews美国文理学院排名.md.json"; sourceTree = "<group>"; };
+		FEAAF04B1A1F2B4000561213 /* USNews美国综合大学排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "USNews美国综合大学排名.md.json"; sourceTree = "<group>"; };
 		FEAE0CAB19FE974800CC5110 /* HLProgramInstancePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLProgramInstancePreview.swift; sourceTree = "<group>"; };
 		FEAE0CAE19FEA39B00CC5110 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		FEB1D7EC19CEB1B0002F7285 /* RKPlayground.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKPlayground.xib; sourceTree = "<group>"; };
@@ -1337,6 +1581,128 @@
 		ADF2AB9A1A036B8C00DA02C3 /* 大学排名v2 */ = {
 			isa = PBXGroup;
 			children = (
+				FE8BE9AB1A1FA56E00DE2917 /* 0101工程学院排名.md.json */,
+				FE8BE9AC1A1FA56E00DE2917 /* 0102航空航天工程.md.json */,
+				FE8BE9AD1A1FA56E00DE2917 /* 0103生物与农业工程.md.json */,
+				FE8BE9AE1A1FA56E00DE2917 /* 0104生物医学与生物工程.md.json */,
+				FE8BE9AF1A1FA56E00DE2917 /* 0105化学工程.md.json */,
+				FE8BE9B01A1FA56E00DE2917 /* 0106土木工程.md.json */,
+				FE8BE9B11A1FA56E00DE2917 /* 0107计算机工程.md.json */,
+				FE8BE9B21A1FA56E00DE2917 /* 0108电子电气与通讯工程.md.json */,
+				FE8BE9B31A1FA56E00DE2917 /* 0109环境与环境卫生工程.md.json */,
+				FE8BE9B41A1FA56E00DE2917 /* 0110工业与制造工程.md.json */,
+				FE8BE9B51A1FA56E00DE2917 /* 0111材料工程.md.json */,
+				FE8BE9B61A1FA56E00DE2917 /* 0112机械工程.md.json */,
+				FE8BE9B71A1FA56E00DE2917 /* 0113核能工程.md.json */,
+				FE8BE9B81A1FA56E00DE2917 /* 0201统计学.md.json */,
+				FE8BE9B91A1FA56E00DE2917 /* 0202生物科学.md.json */,
+				FE8BE9BA1A1FA56E00DE2917 /* 0203化学.md.json */,
+				FE8BE9BB1A1FA56E00DE2917 /* 0204计算机科学.md.json */,
+				FE8BE9BC1A1FA56E00DE2917 /* 0205地球科学.md.json */,
+				FE8BE9BD1A1FA56E00DE2917 /* 0206数学.md.json */,
+				FE8BE9BE1A1FA56E00DE2917 /* 0207物理学.md.json */,
+				FE8BE9BF1A1FA56E00DE2917 /* 0301商学院排名.md.json */,
+				FE8BE9C01A1FA56E00DE2917 /* 0302会计.md.json */,
+				FE8BE9C11A1FA56E00DE2917 /* 0303创业.md.json */,
+				FE8BE9C21A1FA56E00DE2917 /* 0304行政工商管理硕士.md.json */,
+				FE8BE9C31A1FA56E00DE2917 /* 0305金融.md.json */,
+				FE8BE9C41A1FA56E00DE2917 /* 0306信息系统.md.json */,
+				FE8BE9C51A1FA56E00DE2917 /* 0307国际商务.md.json */,
+				FE8BE9C61A1FA56E00DE2917 /* 0308管理学.md.json */,
+				FE8BE9C71A1FA56E00DE2917 /* 0309市场营销.md.json */,
+				FE8BE9C81A1FA56E00DE2917 /* 0310非盈利公共管理.md.json */,
+				FE8BE9C91A1FA56E00DE2917 /* 0311在职工商管理硕士.md.json */,
+				FE8BE9CA1A1FA56E00DE2917 /* 0312生产运营管理.md.json */,
+				FE8BE9CB1A1FA56E00DE2917 /* 0313物流管理.md.json */,
+				FE8BE9CC1A1FA56E00DE2917 /* 0314金融工商管理硕士.md.json */,
+				FE8BE9CD1A1FA56E00DE2917 /* 0401犯罪学.md.json */,
+				FE8BE9CE1A1FA56E00DE2917 /* 0402经济学.md.json */,
+				FE8BE9CF1A1FA56E00DE2917 /* 0403英语.md.json */,
+				FE8BE9D01A1FA56E00DE2917 /* 0404历史.md.json */,
+				FE8BE9D11A1FA56E00DE2917 /* 0405心理学.md.json */,
+				FE8BE9D21A1FA56E00DE2917 /* 0406政治科学.md.json */,
+				FE8BE9D31A1FA56E00DE2917 /* 0407社会学.md.json */,
+				FE8BE9D41A1FA56E00DE2917 /* 0501公共事务学院排名.md.json */,
+				FE8BE9D51A1FA56E00DE2917 /* 0502城市管理和政策.md.json */,
+				FE8BE9D61A1FA56E00DE2917 /* 0503环境政策和管理.md.json */,
+				FE8BE9D71A1FA56E00DE2917 /* 0504卫生政策和管理.md.json */,
+				FE8BE9D81A1FA56E00DE2917 /* 0505信息技术管理.md.json */,
+				FE8BE9D91A1FA56E00DE2917 /* 0506非营利机构管理.md.json */,
+				FE8BE9DA1A1FA56E00DE2917 /* 0507公共财政预算.md.json */,
+				FE8BE9DB1A1FA56E00DE2917 /* 0508公共管理学.md.json */,
+				FE8BE9DC1A1FA56E00DE2917 /* 0509公共政策分析.md.json */,
+				FE8BE9DD1A1FA56E00DE2917 /* 0510社会政策.md.json */,
+				FE8BE9DE1A1FA56E00DE2917 /* 0601图书馆及信息研究院排名.md.json */,
+				FE8BE9DF1A1FA56E00DE2917 /* 0602档案管理.md.json */,
+				FE8BE9E01A1FA56E00DE2917 /* 0603数字化图书馆.md.json */,
+				FE8BE9E11A1FA56E00DE2917 /* 0604健康档案管理.md.json */,
+				FE8BE9E21A1FA56E00DE2917 /* 0605信息系统管理.md.json */,
+				FE8BE9E31A1FA56E00DE2917 /* 0606法律图书馆管理.md.json */,
+				FE8BE9E41A1FA56E00DE2917 /* 0607图书馆媒体学.md.json */,
+				FE8BE9E51A1FA56E00DE2917 /* 0608青少年服务.md.json */,
+				FE8BE9E61A1FA56E00DE2917 /* 0701档案管理.md.json */,
+				FE8BE9E71A1FA56E00DE2917 /* 0702课程与教学.md.json */,
+				FE8BE9E81A1FA56E00DE2917 /* 0703教育管理与监督.md.json */,
+				FE8BE9E91A1FA56E00DE2917 /* 0704教育政策.md.json */,
+				FE8BE9EA1A1FA56E00DE2917 /* 0705教育心理学.md.json */,
+				FE8BE9EB1A1FA56E00DE2917 /* 0706小学教育.md.json */,
+				FE8BE9EC1A1FA56E00DE2917 /* 0707高等教育管理.md.json */,
+				FE8BE9ED1A1FA56E00DE2917 /* 0708中学教育.md.json */,
+				FE8BE9EE1A1FA56E00DE2917 /* 0709特殊教育.md.json */,
+				FE8BE9EF1A1FA56E00DE2917 /* 0710学生辅导及服务.md.json */,
+				FE8BE9F01A1FA56E00DE2917 /* 0711技术与职业教育.md.json */,
+				FE8BE9F11A1FA56E00DE2917 /* 0801听力学.md.json */,
+				FE8BE9F21A1FA56E00DE2917 /* 0802临床心理学.md.json */,
+				FE8BE9F31A1FA56E00DE2917 /* 0803保健管理.md.json */,
+				FE8BE9F41A1FA56E00DE2917 /* 0804护理学.md.json */,
+				FE8BE9F51A1FA56E00DE2917 /* 0805麻醉护理学.md.json */,
+				FE8BE9F61A1FA56E00DE2917 /* 0806助产护理学.md.json */,
+				FE8BE9F71A1FA56E00DE2917 /* 0807职业疗法.md.json */,
+				FE8BE9F81A1FA56E00DE2917 /* 0808药剂学.md.json */,
+				FE8BE9F91A1FA56E00DE2917 /* 0809物理治疗学.md.json */,
+				FE8BE9FA1A1FA56E00DE2917 /* 0810助理医师.md.json */,
+				FE8BE9FB1A1FA56E00DE2917 /* 0811公共健康.md.json */,
+				FE8BE9FC1A1FA56E00DE2917 /* 0812康复咨询.md.json */,
+				FE8BE9FD1A1FA56E00DE2917 /* 0813社会工作.md.json */,
+				FE8BE9FE1A1FA56E00DE2917 /* 0814语言病理学.md.json */,
+				FE8BE9FF1A1FA56E00DE2917 /* 0815兽医医药学.md.json */,
+				FE8BEA001A1FA56E00DE2917 /* 0901法学院排名.md.json */,
+				FE8BEA011A1FA56E00DE2917 /* 0902法律实务.md.json */,
+				FE8BEA021A1FA56E00DE2917 /* 0903仲裁学.md.json */,
+				FE8BEA031A1FA56E00DE2917 /* 0904环境法.md.json */,
+				FE8BEA041A1FA56E00DE2917 /* 0905医疗保健法.md.json */,
+				FE8BEA051A1FA56E00DE2917 /* 0906知识产权法.md.json */,
+				FE8BEA061A1FA56E00DE2917 /* 0907国际法.md.json */,
+				FE8BEA071A1FA56E00DE2917 /* 0908法务文书写作.md.json */,
+				FE8BEA081A1FA56E00DE2917 /* 0909在职法律项目.md.json */,
+				FE8BEA091A1FA56E00DE2917 /* 0910税法.md.json */,
+				FE8BEA0A1A1FA56E00DE2917 /* 0911辩护学.md.json */,
+				FE8BEA0B1A1FA56E00DE2917 /* 1001研究性医学院排名.md.json */,
+				FE8BEA0C1A1FA56E00DE2917 /* 1002临床医学院排名.md.json */,
+				FE8BEA0D1A1FA56E00DE2917 /* 1003艾滋病.md.json */,
+				FE8BEA0E1A1FA56E00DE2917 /* 1004药物与酒精滥用.md.json */,
+				FE8BEA0F1A1FA56E00DE2917 /* 1005家庭医学.md.json */,
+				FE8BEA101A1FA56E00DE2917 /* 1006老年医学.md.json */,
+				FE8BEA111A1FA56E00DE2917 /* 1007内科.md.json */,
+				FE8BEA121A1FA56E00DE2917 /* 1008儿科.md.json */,
+				FE8BEA131A1FA56E00DE2917 /* 1009乡村医学.md.json */,
+				FE8BEA141A1FA56E00DE2917 /* 1010女性健康.md.json */,
+				FE8BEA151A1FA56E00DE2917 /* 1101美术学院排名.md.json */,
+				FE8BEA161A1FA56E00DE2917 /* 1102制陶术.md.json */,
+				FE8BEA171A1FA56E00DE2917 /* 1103平面设计.md.json */,
+				FE8BEA181A1FA56E00DE2917 /* 1104工业设计.md.json */,
+				FE8BEA191A1FA56E00DE2917 /* 1105室内设计.md.json */,
+				FE8BEA1A1A1FA56E00DE2917 /* 1106多媒体.md.json */,
+				FE8BEA1B1A1FA56E00DE2917 /* 1107绘画.md.json */,
+				FE8BEA1C1A1FA56E00DE2917 /* 1108摄影.md.json */,
+				FE8BEA1D1A1FA56E00DE2917 /* 1109版画.md.json */,
+				FE8BEA1E1A1FA56E00DE2917 /* 1110雕塑.md.json */,
+				FEAAF0461A1F2B4000561213 /* ARWU世界大学学术排名.md.json */,
+				FEAAF0471A1F2B4000561213 /* QS世界大学排名.md.json */,
+				FEAAF0481A1F2B4000561213 /* THE世界大学排名.md.json */,
+				FEAAF0491A1F2B4000561213 /* USNews世界大学排名.md.json */,
+				FEAAF04A1A1F2B4000561213 /* USNews美国文理学院排名.md.json */,
+				FEAAF04B1A1F2B4000561213 /* USNews美国综合大学排名.md.json */,
 				AD2C5C761A0A81980032149F /* 3.1Berkeley.jpg */,
 				AD2C5C771A0A81980032149F /* 3.1Stanford.jpg */,
 				AD2C5C781A0A81980032149F /* 3.1剑桥2.jpg */,
@@ -2341,13 +2707,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8BEA901A1FA56E00DE2917 /* 1108摄影.md.json in Resources */,
+				FE8BEA221A1FA56E00DE2917 /* 0104生物医学与生物工程.md.json in Resources */,
 				ADCF1EC519DD6058005E4FD4 /* 游学.jpg in Resources */,
 				AD3249B519E0448300796A5D /* 3.1Resume1.jpg in Resources */,
 				AD40116019EB7A610088194C /* 6GMAT官方指南.png in Resources */,
+				FE8BEA841A1FA56E00DE2917 /* 1006老年医学.md.json in Resources */,
 				ADBB66B11A03A8A500E48C82 /* 3.1美国大学类型简介.md.json in Resources */,
 				FE9485F31A001FF7008E01D2 /* FieldIconBusiness.png in Resources */,
 				FEA0FC1F19D8669000A24409 /* 1.2优缺点对比.md.json in Resources */,
 				ADF2ABFA1A036B8C00DA02C3 /* 2.2.2Northeastern.jpg in Resources */,
+				FEAAF04E1A1F2B4000561213 /* THE世界大学排名.md.json in Resources */,
 				AD34572E19FFE223004382CE /* 5.1学费.md.json in Resources */,
 				AD0E75EF19F37695006F433C /* 3.22TA.jpg in Resources */,
 				ADA774B319FE7E9F00F65AA7 /* 2.4打工.md.json in Resources */,
@@ -2356,43 +2726,61 @@
 				ADC907F319DD025300DFC311 /* 1.5.9SPGAMEX.jpg in Resources */,
 				ADF2ABEF1A036B8C00DA02C3 /* 1.1.3泰晤士报大学排名调查方式不周延.md.json in Resources */,
 				AD47693919F7E9C700811C7E /* 1.5.1范文2.md.json in Resources */,
+				FE8BEA5A1A1FA56E00DE2917 /* 0701档案管理.md.json in Resources */,
 				AD0E75F219F37695006F433C /* 3.25recommendation.jpg in Resources */,
 				ADF246A819F4FF1C005BA7E5 /* 1.3Personal.jpg in Resources */,
 				FEA0FC2019D8669000A24409 /* 1.3主要公司.md.json in Resources */,
 				AD0E75EB19F37695006F433C /* 3.19intlFJVisa.jpg in Resources */,
+				FE8BEA821A1FA56E00DE2917 /* 1004药物与酒精滥用.md.json in Resources */,
 				FEA0FC2719D8669000A24409 /* 1.5.5信用卡词汇.md.json in Resources */,
 				FE60E6AA19E56E1F00147EF9 /* sts-2011-06-15.json in Resources */,
+				FE8BEA371A1FA56E00DE2917 /* 0305金融.md.json in Resources */,
 				AD2C5C7A1A0A81980032149F /* 3.1Stanford.jpg in Resources */,
 				ADF246C019F4FF1C005BA7E5 /* 4ApplyWeb.md.json in Resources */,
 				FE7262E819DFEA11005739D0 /* 0申请文书.md.json in Resources */,
 				AD548A3C19F803FC0088E19C /* 2.7.1小论文范文.md.json in Resources */,
+				FE8BEA731A1FA56E00DE2917 /* 0815兽医医药学.md.json in Resources */,
+				FE8BEA241A1FA56E00DE2917 /* 0106土木工程.md.json in Resources */,
 				ADF2AC211A036B8C00DA02C3 /* 3.4社会科学与人文排名.md.json in Resources */,
 				ADF246B819F4FF1C005BA7E5 /* 4.6academicinfo.jpg in Resources */,
 				AD0E75E819F37695006F433C /* 3.16testTOEFL.jpg in Resources */,
+				FE8BEA6D1A1FA56E00DE2917 /* 0809物理治疗学.md.json in Resources */,
 				FEA0FC2E19D868F700A24409 /* 留学常用词汇.md.json in Resources */,
 				AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */,
 				FE60E69C19E56E1F00147EF9 /* autoscaling-2011-01-01.json in Resources */,
 				ADF2ABE91A036B8C00DA02C3 /* 0美国国旗.jpg in Resources */,
+				FE8BEA621A1FA56E00DE2917 /* 0709特殊教育.md.json in Resources */,
 				ADCF1EC219DD6058005E4FD4 /* Flight.jpg in Resources */,
 				ADC907DE19DD025300DFC311 /* 1.4RodeoDrive.jpg in Resources */,
+				FE8BEA7D1A1FA56E00DE2917 /* 0910税法.md.json in Resources */,
 				ADCB6BFC19FA84F600E8DD20 /* 1.2生活费.md.json in Resources */,
+				FE8BEA761A1FA56E00DE2917 /* 0903仲裁学.md.json in Resources */,
 				ADF2AC031A036B8C00DA02C3 /* 2.5.2Top200按国家统计对比.png in Resources */,
+				FE8BEA3B1A1FA56E00DE2917 /* 0309市场营销.md.json in Resources */,
+				FE8BEA641A1FA56E00DE2917 /* 0711技术与职业教育.md.json in Resources */,
 				AD2C5C791A0A81980032149F /* 3.1Berkeley.jpg in Resources */,
 				ADF2ABE71A036B8C00DA02C3 /* 0斯坦佛.jpg in Resources */,
 				ADF2AC021A036B8C00DA02C3 /* 2.5.1四大排名简介.md.json in Resources */,
 				AD40114D19EB7A610088194C /* 1托福.md.json in Resources */,
+				FE8BEA5E1A1FA56E00DE2917 /* 0705教育心理学.md.json in Resources */,
+				FE8BEA611A1FA56E00DE2917 /* 0708中学教育.md.json in Resources */,
 				ADC907F019DD025300DFC311 /* 1.5.9BankAmericard Cash Rewards.jpeg in Resources */,
+				FE8BEA921A1FA56E00DE2917 /* 1110雕塑.md.json in Resources */,
 				FEB4258B19FD50E300C0EE2F /* su-logo.png in Resources */,
 				AD47692C19F7E95300811C7E /* 2剑桥雅思考试全真试题解析.jpg in Resources */,
 				ADA774AB19FE7E9F00F65AA7 /* 2.1ANU.jpg in Resources */,
 				AD0E75EE19F37695006F433C /* 3.21dependent.jpg in Resources */,
+				FE8BEA301A1FA56E00DE2917 /* 0205地球科学.md.json in Resources */,
 				AD1EBB2719E0733E00515F5B /* 2.0个人陈述.md.json in Resources */,
 				FEE1603A19D9250C0022883E /* 1.5.4信用分数影响因素比重.jpg in Resources */,
+				FE8BEA4C1A1FA56E00DE2917 /* 0505信息技术管理.md.json in Resources */,
 				ADC907F219DD025300DFC311 /* 1.5.9ChaseSapphire.jpeg in Resources */,
 				ADF2AC061A036B8C00DA02C3 /* 2.5.2领域学科排名对比.png in Resources */,
 				AD8D823E19FF9CF900C9FAF3 /* 3.3奖学金.md.json in Resources */,
 				ADF2AC261A036B8C00DA02C3 /* 3.6其他排名.md.json in Resources */,
 				ADCF1ED019DD6079005E4FD4 /* 1.0美国国旗.jpg in Resources */,
+				FE8BEA861A1FA56E00DE2917 /* 1008儿科.md.json in Resources */,
+				FE8BEA911A1FA56E00DE2917 /* 1109版画.md.json in Resources */,
 				AD40115619EB7A610088194C /* 3SAT综合指导与模拟试题.jpg in Resources */,
 				ADF246B119F4FF1C005BA7E5 /* 1.12Tests.jpg in Resources */,
 				ADF2AC291A036B8C00DA02C3 /* 3.8卫生学院排名.md.json in Resources */,
@@ -2401,26 +2789,35 @@
 				ADF2ABFC1A036B8C00DA02C3 /* 2.2.2如何赢得“USNews排名”这个游戏.md.json in Resources */,
 				AD40115E19EB7A610088194C /* 5GRE词汇精选.jpeg in Resources */,
 				FE9485F61A001FF7008E01D2 /* FieldIconFineArts.png in Resources */,
+				FE8BEA351A1FA56E00DE2917 /* 0303创业.md.json in Resources */,
+				FE8BEA601A1FA56E00DE2917 /* 0707高等教育管理.md.json in Resources */,
+				FE8BEA3A1A1FA56E00DE2917 /* 0308管理学.md.json in Resources */,
+				FE8BEA2C1A1FA56E00DE2917 /* 0201统计学.md.json in Resources */,
 				FE9485FB1A001FF7008E01D2 /* FieldIconPublicAffairs.png in Resources */,
 				AD8C2C3019E9012000A5A4A7 /* 1.5.9AMEXBlueCash.jpg in Resources */,
 				AD8D823919FF9CF900C9FAF3 /* 1.1Tuition.jpg in Resources */,
 				AD0E75E519F37695006F433C /* 3.13languages.jpg in Resources */,
+				FE8BEA201A1FA56E00DE2917 /* 0102航空航天工程.md.json in Resources */,
 				ADC907DF19DD025300DFC311 /* 1.5.1AmericanCreditCard.jpg in Resources */,
 				ADDC6F491A03B342008376C1 /* 3.14诺贝尔奖.md.json in Resources */,
 				FE7262E719DFEA11005739D0 /* 0RL1.jpg in Resources */,
 				ADC907DD19DD025300DFC311 /* 1.3UnionPay.jpg in Resources */,
 				AD1EBB2A19E0733E00515F5B /* 2.2注意事项.md.json in Resources */,
 				ADA774AD19FE7E9F00F65AA7 /* 2.1Tuition2.jpeg in Resources */,
+				FE8BEA6F1A1FA56E00DE2917 /* 0811公共健康.md.json in Resources */,
 				ADF2ABFF1A036B8C00DA02C3 /* 2.2.4剑桥.jpg in Resources */,
 				AD34573319FFE223004382CE /* 5.4Partimejob2.jpeg in Resources */,
 				ADF246AE19F4FF1C005BA7E5 /* 1.9thirdparty.jpg in Resources */,
 				FE9485FD1A001FF7008E01D2 /* FieldIconSocialScience.png in Resources */,
 				ADE4DB2E1A0383D40087CFDB /* 0澳大利亚国旗.jpg in Resources */,
+				FE8BEA491A1FA56E00DE2917 /* 0502城市管理和政策.md.json in Resources */,
 				AD40115019EB7A610088194C /* 1新托福考试官方指南.jpg in Resources */,
 				FEA0FC2619D8669000A24409 /* 1.5.4FICOScore计算方法.md.json in Resources */,
 				ADBB66B21A03A8A500E48C82 /* 4.0LinkedIn排名.md.json in Resources */,
 				AD0E75EA19F37695006F433C /* 3.18intl.jpg in Resources */,
+				FE8BEA311A1FA56E00DE2917 /* 0206数学.md.json in Resources */,
 				FE9485FC1A001FF7008E01D2 /* FieldIconScience.png in Resources */,
+				FE8BEA651A1FA56E00DE2917 /* 0801听力学.md.json in Resources */,
 				ADF246AD19F4FF1C005BA7E5 /* 1.8otherschool.jpg in Resources */,
 				FE7262F319DFEA11005739D0 /* 3.2Resume.png in Resources */,
 				FE7262F119DFEA11005739D0 /* 3.1Resume3.jpg in Resources */,
@@ -2428,19 +2825,26 @@
 				ADF2ABF31A036B8C00DA02C3 /* 1如何看待排名.md.json in Resources */,
 				AD40116719EB7A610088194C /* 9Barron's SAT 2 化学.jpg in Resources */,
 				ADF2AC191A036B8C00DA02C3 /* 3.10医学院排名.md.json in Resources */,
+				FE8BEA751A1FA56E00DE2917 /* 0902法律实务.md.json in Resources */,
 				ADBB66AF1A03A8A500E48C82 /* 2.3USNews评价标准.png in Resources */,
 				ADF2AC011A036B8C00DA02C3 /* 2.2.4留学择校须防唯排名论.md.json in Resources */,
 				ADCF1EC419DD6058005E4FD4 /* 安全问题.jpg in Resources */,
+				FE8BEA3D1A1FA56E00DE2917 /* 0311在职工商管理硕士.md.json in Resources */,
 				AD40115F19EB7A610088194C /* 6GMAT.md.json in Resources */,
+				FE8BEA1F1A1FA56E00DE2917 /* 0101工程学院排名.md.json in Resources */,
 				FE9485F51A001FF7008E01D2 /* FieldIconEngineering.png in Resources */,
+				FE8BEA471A1FA56E00DE2917 /* 0407社会学.md.json in Resources */,
 				ADC907E519DD025300DFC311 /* 1.5.3ThreeReportingAgency.jpeg in Resources */,
 				FE7262EF19DFEA11005739D0 /* 1.6推荐信提交.md.json in Resources */,
 				AD40116819EB7A610088194C /* 9Barron's SAT 2 数学.jpg in Resources */,
 				ADF246A619F4FF1C005BA7E5 /* 1.1Login.jpg in Resources */,
+				FE8BEA661A1FA56E00DE2917 /* 0802临床心理学.md.json in Resources */,
 				FEA0FC2219D8669000A24409 /* 1.5.0美国信用卡.md.json in Resources */,
 				FE5BC07C19D71BD4007E63BC /* Size Converter.json in Resources */,
+				FE8BEA441A1FA56E00DE2917 /* 0404历史.md.json in Resources */,
 				AD1EBB2F19E0733E00515F5B /* 2.4素材选择.md.json in Resources */,
 				AD3249B119E040FA00796A5D /* 0Portfolio2.jpg in Resources */,
+				FE8BEA531A1FA56E00DE2917 /* 0602档案管理.md.json in Resources */,
 				FEE1603719D9250C0022883E /* 1.3JCBLogo.jpg in Resources */,
 				AD47693719F7E9C700811C7E /* 1.1RL2.jpeg in Resources */,
 				ADD68A8D19FA4C1100B88199 /* 0留学费用.md.json in Resources */,
@@ -2458,6 +2862,7 @@
 				ADC907ED19DD025300DFC311 /* 1.5.8CashBack.jpg in Resources */,
 				FEA0FC2319D8669000A24409 /* 1.5.1为什么要办理美国信用卡？.md.json in Resources */,
 				FE60E6A919E56E1F00147EF9 /* sqs-2012-11-05.json in Resources */,
+				FEAAF0501A1F2B4000561213 /* USNews美国文理学院排名.md.json in Resources */,
 				AD3249B419E0448300796A5D /* 1.5范文.md.json in Resources */,
 				AD40115D19EB7A610088194C /* 5GRE考试官方指南.jpg in Resources */,
 				AD2C5C7B1A0A81980032149F /* 3.1剑桥2.jpg in Resources */,
@@ -2465,21 +2870,31 @@
 				ADF246C119F4FF1C005BA7E5 /* 5.1login.jpg in Resources */,
 				AD34572919FFE223004382CE /* 3.2Livingexpenses3.jpg in Resources */,
 				ADF2AC141A036B8C00DA02C3 /* 2.8Princeton Review.jpeg in Resources */,
+				FE8BEA7C1A1FA56E00DE2917 /* 0909在职法律项目.md.json in Resources */,
 				FEA0FC2F19D868F700A24409 /* 留学时间表.md.json in Resources */,
 				AD0E75F819F37695006F433C /* 3.7contact.jpg in Resources */,
 				ADF246C519F4FF1C005BA7E5 /* 6.2ThirdParty.jpg in Resources */,
 				FEE1603519D9250C0022883E /* 1.3AmericanExpressLogo.jpg in Resources */,
+				FE8BEA7B1A1FA56E00DE2917 /* 0908法务文书写作.md.json in Resources */,
 				ADC907E419DD025300DFC311 /* 1.5.3Goodcredit.jpeg in Resources */,
+				FE8BEA451A1FA56E00DE2917 /* 0405心理学.md.json in Resources */,
 				ADF246AB19F4FF1C005BA7E5 /* 1.6household.jpg in Resources */,
 				AD0E75F919F37695006F433C /* 3.8applicationinfo.jpg in Resources */,
 				FEA0FB9319D7A18500A24409 /* RKArticleHeaderView.xib in Resources */,
+				FE8BEA411A1FA56E00DE2917 /* 0401犯罪学.md.json in Resources */,
 				ADF2AC101A036B8C00DA02C3 /* 2.6.5更多榜单.md.json in Resources */,
 				ADF2ABF51A036B8C00DA02C3 /* 2.10菲斯克大学入学指南.md.json in Resources */,
+				FE8BEA511A1FA56E00DE2917 /* 0510社会政策.md.json in Resources */,
+				FE8BEA4D1A1FA56E00DE2917 /* 0506非营利机构管理.md.json in Resources */,
 				ADF246B019F4FF1C005BA7E5 /* 1.11courses.jpg in Resources */,
 				ADF2AC081A036B8C00DA02C3 /* 2.5.3QS评价标准.png in Resources */,
 				FEA0FC2819D8669000A24409 /* 1.5.6信用卡使用注意事项.md.json in Resources */,
+				FE8BEA4E1A1FA56E00DE2917 /* 0507公共财政预算.md.json in Resources */,
+				FE8BEA5F1A1FA56E00DE2917 /* 0706小学教育.md.json in Resources */,
 				AD8D823C19FF9CF900C9FAF3 /* 3.1学费.md.json in Resources */,
+				FE8BEA3C1A1FA56E00DE2917 /* 0310非盈利公共管理.md.json in Resources */,
 				AD0E75E319F37695006F433C /* 3.11education.jpg in Resources */,
+				FE8BEA7F1A1FA56E00DE2917 /* 1001研究性医学院排名.md.json in Resources */,
 				FEE1603919D9250C0022883E /* 1.3VISALogo.jpg in Resources */,
 				FE7262FE19DFEA11005739D0 /* 4.0Portfolio1.png in Resources */,
 				AD0E75F519F37695006F433C /* 3.4Citizenship.jpg in Resources */,
@@ -2489,22 +2904,31 @@
 				FE2463F819DEC8400042F3F0 /* 工作许可.jpg in Resources */,
 				FE5BC07D19D71BD4007E63BC /* Tools.json in Resources */,
 				AD40114B19EB7A610088194C /* 10GRE Subject.md.json in Resources */,
+				FE8BEA4F1A1FA56E00DE2917 /* 0508公共管理学.md.json in Resources */,
+				FE8BEA691A1FA56E00DE2917 /* 0805麻醉护理学.md.json in Resources */,
 				AD40116219EB7A610088194C /* 7LSAT.md.json in Resources */,
 				ADD68A8E19FA4C1100B88199 /* 1美国留学费用.md.json in Resources */,
 				AD34572F19FFE223004382CE /* 5.2living expenses3.jpeg in Resources */,
+				FE8BEA2D1A1FA56E00DE2917 /* 0202生物科学.md.json in Resources */,
 				ADF2ABF21A036B8C00DA02C3 /* 1.1.4权威解读泰晤士报雪排名－照片.jpg in Resources */,
 				ADF2ABF41A036B8C00DA02C3 /* 2.10Fiske.jpeg in Resources */,
 				FEE1603819D9250C0022883E /* 1.3MasterCardLogo.jpg in Resources */,
 				AD34573119FFE223004382CE /* 5.3Scholarship1.jpeg in Resources */,
+				FE8BEA2F1A1FA56E00DE2917 /* 0204计算机科学.md.json in Resources */,
 				ADCB6C0819FA8BE800E8DD20 /* 1.3Scholarship2.jpg in Resources */,
 				AD40115719EB7A610088194C /* 3美国SAT考试官方指南.jpg in Resources */,
 				AD0E75FB19F37695006F433C /* 3ApplyYourself.md.json in Resources */,
+				FE8BEA341A1FA56E00DE2917 /* 0302会计.md.json in Resources */,
 				ADF246A719F4FF1C005BA7E5 /* 1.2LoginAddress.jpg in Resources */,
 				ADF2AC071A036B8C00DA02C3 /* 2.5.3ARWU评价标准.png in Resources */,
 				AD40114E19EB7A610088194C /* 1新托福考试冲刺试题.jpg in Resources */,
+				FEAAF04C1A1F2B4000561213 /* ARWU世界大学学术排名.md.json in Resources */,
+				FE8BEA361A1FA56E00DE2917 /* 0304行政工商管理硕士.md.json in Resources */,
 				AD1EBB2D19E0733E00515F5B /* 2.4素材2.jpg in Resources */,
 				ADCB6C0619FA8BE800E8DD20 /* 1.1Tuition3.jpg in Resources */,
 				AD47693619F7E9C700811C7E /* 0Portfolio2.jpeg in Resources */,
+				FE8BEA251A1FA56E00DE2917 /* 0107计算机工程.md.json in Resources */,
+				FE8BEA481A1FA56E00DE2917 /* 0501公共事务学院排名.md.json in Resources */,
 				AD548A3519F803B50088E19C /* 0Embark.png in Resources */,
 				ADF2ABF81A036B8C00DA02C3 /* 2.2.1教你如何看美国大学排名.md.json in Resources */,
 				AD548A3319F803B50088E19C /* 0ApplyYourself.png in Resources */,
@@ -2519,17 +2943,22 @@
 				ADC907E619DD025300DFC311 /* 1.5.5CreditcardSurprise.jpeg in Resources */,
 				ADF2AC161A036B8C00DA02C3 /* 2.9Yale Insider.jpeg in Resources */,
 				AD47693819F7E9C700811C7E /* 1.2Writing.jpeg in Resources */,
+				FE8BEA261A1FA56E00DE2917 /* 0108电子电气与通讯工程.md.json in Resources */,
 				ADBB66B41A03AA2B00E48C82 /* 2.6.1USNews其他排名.md.json in Resources */,
+				FE8BEA681A1FA56E00DE2917 /* 0804护理学.md.json in Resources */,
 				ADE4DB301A0383D40087CFDB /* 0英国国旗.jpg in Resources */,
+				FE8BEA281A1FA56E00DE2917 /* 0110工业与制造工程.md.json in Resources */,
 				FEA95A281A13930700B1AD4B /* Static.sqlite in Resources */,
 				ADA774B719FE7E9F00F65AA7 /* 5加拿大.md.json in Resources */,
 				ADF2AC2A1A036B8C00DA02C3 /* 3.9法学院排名.md.json in Resources */,
 				AD0E75F019F37695006F433C /* 3.23transcript.jpg in Resources */,
 				AD0E75E719F37695006F433C /* 3.15testGRESubject.jpg in Resources */,
+				FE8BEA771A1FA56E00DE2917 /* 0904环境法.md.json in Resources */,
 				ADCB6C0719FA8BE800E8DD20 /* 1.2Livingexpenses1.jpeg in Resources */,
 				ADC907EA19DD025300DFC311 /* 1.5.6CreditCardScam.jpg in Resources */,
 				ADF2AC171A036B8C00DA02C3 /* 2.9耶鲁大学内部指导.md.json in Resources */,
 				ADE4DB2D1A0383D40087CFDB /* 0加拿大国旗.jpg in Resources */,
+				FE8BEA5D1A1FA56E00DE2917 /* 0704教育政策.md.json in Resources */,
 				ADF2AC271A036B8C00DA02C3 /* 3.6图书咨询学排名.md.json in Resources */,
 				ADC907E219DD025300DFC311 /* 1.5.3CreditScore.jpg in Resources */,
 				ADA774AE19FE7E9F00F65AA7 /* 2.1学费.md.json in Resources */,
@@ -2541,19 +2970,29 @@
 				AD47693A19F7E9C700811C7E /* 1.5.2范文3.md.json in Resources */,
 				AD8D823D19FF9CF900C9FAF3 /* 3.2生活费.md.json in Resources */,
 				ADF246AF19F4FF1C005BA7E5 /* 1.10Grades.jpg in Resources */,
+				FE8BEA5C1A1FA56E00DE2917 /* 0703教育管理与监督.md.json in Resources */,
 				FEA0FC2A19D8669000A24409 /* 1.5.8美国信用卡分类介绍.md.json in Resources */,
 				FE60E69F19E56E1F00147EF9 /* dynamodb-2012-08-10.json in Resources */,
+				FEAAF0511A1F2B4000561213 /* USNews美国综合大学排名.md.json in Resources */,
 				AD47693B19F7E9C700811C7E /* 2.3个人陈述.jpeg in Resources */,
 				FE7262EE19DFEA11005739D0 /* 1.4注意事项.md.json in Resources */,
 				FE60E6A619E56E1F00147EF9 /* s3-2006-03-01.json in Resources */,
 				FE7262E519DFEA11005739D0 /* 0PS1.jpg in Resources */,
 				ADF2AC051A036B8C00DA02C3 /* 2.5.2四大排名对比.md.json in Resources */,
+				FE8BEA401A1FA56E00DE2917 /* 0314金融工商管理硕士.md.json in Resources */,
+				FE8BEA801A1FA56E00DE2917 /* 1002临床医学院排名.md.json in Resources */,
+				FE8BEA6B1A1FA56E00DE2917 /* 0807职业疗法.md.json in Resources */,
 				ADC907E919DD025300DFC311 /* 1.5.5POS.jpeg in Resources */,
 				FE60E6A819E56E1F00147EF9 /* sns-2010-03-31.json in Resources */,
+				FE8BEA4B1A1FA56E00DE2917 /* 0504卫生政策和管理.md.json in Resources */,
 				AD0E75EC19F37695006F433C /* 3.1AY_Login.jpg in Resources */,
 				FEA0FC2519D8669000A24409 /* 1.5.3信用记录到底是什么？.md.json in Resources */,
 				ADF2AC0A1A036B8C00DA02C3 /* 2.5.3US News评价标准.png in Resources */,
+				FE8BEA321A1FA56E00DE2917 /* 0207物理学.md.json in Resources */,
+				FEAAF04F1A1F2B4000561213 /* USNews世界大学排名.md.json in Resources */,
 				ADF246B319F4FF1C005BA7E5 /* 4.1Login.jpg in Resources */,
+				FE8BEA6C1A1FA56E00DE2917 /* 0808药剂学.md.json in Resources */,
+				FE8BEA791A1FA56E00DE2917 /* 0906知识产权法.md.json in Resources */,
 				FE9485F81A001FF7008E01D2 /* FieldIconInformationScience.png in Resources */,
 				FE7262EA19DFEA11005739D0 /* 1.1RL2.jpg in Resources */,
 				AD1EBB2C19E0733E00515F5B /* 2.3写作结构.md.json in Resources */,
@@ -2572,6 +3011,7 @@
 				AD40115819EB7A610088194C /* 4ACT.md.json in Resources */,
 				AD40115519EB7A610088194C /* 3SAT.md.json in Resources */,
 				ADF2ABE41A036B8C00DA02C3 /* 0QS.jpg in Resources */,
+				FE8BEA881A1FA56E00DE2917 /* 1010女性健康.md.json in Resources */,
 				FE17ABE01A0A7E5800637798 /* 奖学金.png in Resources */,
 				AD40116619EB7A610088194C /* 8MCAT.md.json in Resources */,
 				ADCF1EC319DD6058005E4FD4 /* 决定学校.jpg in Resources */,
@@ -2602,14 +3042,17 @@
 				ADF2ABF91A036B8C00DA02C3 /* 2.2.2Northeastern U.jpg in Resources */,
 				AD8D823B19FF9CF900C9FAF3 /* 3.1Tuition1.jpeg in Resources */,
 				AD1EBB2919E0733E00515F5B /* 2.2RL2.jpg in Resources */,
+				FE8BEA2A1A1FA56E00DE2917 /* 0112机械工程.md.json in Resources */,
 				AD0E75F619F37695006F433C /* 3.5contact.jpg in Resources */,
 				FE7262FC19DFEA11005739D0 /* 3.7常用动词.md.json in Resources */,
 				ADC907EF19DD025300DFC311 /* 1.5.9AMEXBlueCash.jpeg in Resources */,
+				FE8BEA211A1FA56E00DE2917 /* 0103生物与农业工程.md.json in Resources */,
 				AD47693E19F7E9C700811C7E /* 4.0Portfolio1.jpeg in Resources */,
 				ADC907E719DD025300DFC311 /* 1.5.5GoldenKey.jpeg in Resources */,
 				ADF2AC0B1A036B8C00DA02C3 /* 2.5.3四大排名评价标准.md.json in Resources */,
 				AD40116119EB7A610088194C /* 6GMAT词汇精选.jpg in Resources */,
 				ADF2AC1F1A036B8C00DA02C3 /* 3.2理学院排名.md.json in Resources */,
+				FE8BEA421A1FA56E00DE2917 /* 0402经济学.md.json in Resources */,
 				ADF2AC281A036B8C00DA02C3 /* 3.7教育学院排名.md.json in Resources */,
 				ADF2ABF61A036B8C00DA02C3 /* 2.11福布斯2014美国大学排行榜.png in Resources */,
 				ADC907EE19DD025300DFC311 /* 1.5.8Discover.jpg in Resources */,
@@ -2618,10 +3061,14 @@
 				FEB1D7ED19CEB1B0002F7285 /* RKPlayground.xib in Resources */,
 				ADF246BD19F4FF1C005BA7E5 /* 4.11Recommender.jpg in Resources */,
 				AD40115419EB7A610088194C /* 3Practice Tests for the SAT & PSAT.jpg in Resources */,
+				FE8BEA3E1A1FA56E00DE2917 /* 0312生产运营管理.md.json in Resources */,
 				FEE1603619D9250C0022883E /* 1.3Diner'sClubLogo.jpg in Resources */,
 				AD40115319EB7A610088194C /* 2雅思考试官方指南.jpg in Resources */,
 				FE7262F019DFEA11005739D0 /* 3.0个人简历.md.json in Resources */,
+				FE8BEA331A1FA56E00DE2917 /* 0301商学院排名.md.json in Resources */,
+				FE8BEA521A1FA56E00DE2917 /* 0601图书馆及信息研究院排名.md.json in Resources */,
 				ADC907DB19DD025300DFC311 /* 1.2creditcardsafe.jpg in Resources */,
+				FE8BEA8D1A1FA56E00DE2917 /* 1105室内设计.md.json in Resources */,
 				FE7262ED19DFEA11005739D0 /* 1.3素材选择.md.json in Resources */,
 				FE60E6A119E56E1F00147EF9 /* elasticloadbalancing-2012-06-01.json in Resources */,
 				ADF2AC131A036B8C00DA02C3 /* 2.7USNews其他排名.md.json in Resources */,
@@ -2631,14 +3078,18 @@
 				ADF246BE19F4FF1C005BA7E5 /* 4.12file.jpg in Resources */,
 				ADF246BB19F4FF1C005BA7E5 /* 4.9honors.jpg in Resources */,
 				AD1EBB3019E0733E00515F5B /* 2.5范文.md.json in Resources */,
+				FE8BEA711A1FA56E00DE2917 /* 0813社会工作.md.json in Resources */,
 				FE7262FA19DFEA11005739D0 /* 3.5简历格式.md.json in Resources */,
 				ADF2ABFB1A036B8C00DA02C3 /* 2.2.2如何赢得“USNews排名”这个游戏 照片.png in Resources */,
 				ADF2AC151A036B8C00DA02C3 /* 2.8普林斯顿评论.md.json in Resources */,
 				AD0E75ED19F37695006F433C /* 3.20I-20.jpg in Resources */,
 				ADF246BC19F4FF1C005BA7E5 /* 4.10test.jpg in Resources */,
+				FE8BEA721A1FA56E00DE2917 /* 0814语言病理学.md.json in Resources */,
+				FE8BEA561A1FA56E00DE2917 /* 0605信息系统管理.md.json in Resources */,
 				AD0E75F119F37695006F433C /* 3.24Passport.jpg in Resources */,
 				ADCB6BFE19FA84F600E8DD20 /* 1.4打工.md.json in Resources */,
 				FE7262FD19DFEA11005739D0 /* 3.7常用动词.png in Resources */,
+				FE8BEA6A1A1FA56E00DE2917 /* 0806助产护理学.md.json in Resources */,
 				ADF2ABF71A036B8C00DA02C3 /* 2.11福布斯美国大学排行榜.md.json in Resources */,
 				FEB4258A19FD50E300C0EE2F /* cu-logo.png in Resources */,
 				ADF2AC221A036B8C00DA02C3 /* 3.5.1USNews评价标准.md.json in Resources */,
@@ -2653,31 +3104,47 @@
 				FE85385C1A03E1D400A26820 /* FinanialCertificate.png in Resources */,
 				ADF2ABEE1A036B8C00DA02C3 /* 1.1.2英美名校.jpg in Resources */,
 				ADF246AA19F4FF1C005BA7E5 /* 1.5languages.jpg in Resources */,
+				FE8BEA231A1FA56E00DE2917 /* 0105化学工程.md.json in Resources */,
 				ADD68A9119FA4C1100B88199 /* 4日本留学费用.md.json in Resources */,
 				FEA0FB9819D7EF0800A24409 /* HLToolPreviewView.xib in Resources */,
 				ADF2AC0C1A036B8C00DA02C3 /* 2.5排名解析.md.json in Resources */,
 				AD47693C19F7E9C700811C7E /* 3.1Resume1.jpeg in Resources */,
+				FE8BEA541A1FA56E00DE2917 /* 0603数字化图书馆.md.json in Resources */,
 				FEA0FC2119D8669000A24409 /* 1.4中国信用卡境外服务.md.json in Resources */,
 				AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */,
+				FE8BEA741A1FA56E00DE2917 /* 0901法学院排名.md.json in Resources */,
+				FE8BEA7A1A1FA56E00DE2917 /* 0907国际法.md.json in Resources */,
+				FE8BEA461A1FA56E00DE2917 /* 0406政治科学.md.json in Resources */,
+				FE8BEA381A1FA56E00DE2917 /* 0306信息系统.md.json in Resources */,
+				FE8BEA271A1FA56E00DE2917 /* 0109环境与环境卫生工程.md.json in Resources */,
 				FE17ABE31A0A7E5800637798 /* 生活费.png in Resources */,
 				ADF246C619F4FF1C005BA7E5 /* 6Embark.md.json in Resources */,
+				FE8BEA781A1FA56E00DE2917 /* 0905医疗保健法.md.json in Resources */,
 				ADCB6BFB19FA84F600E8DD20 /* 1.1学费.md.json in Resources */,
+				FE8BEA591A1FA56E00DE2917 /* 0608青少年服务.md.json in Resources */,
 				FEA0FB9D19D7F6B400A24409 /* HLLinkView.xib in Resources */,
 				AD1386DB19F8A7D400F8B82D /* 1.6Family.jpg in Resources */,
 				ADF2ABFE1A036B8C00DA02C3 /* 2.2.3留学美国择校选专业要适合本身.md.json in Resources */,
 				ADF2ABEC1A036B8C00DA02C3 /* 1.1.2ARWU.jpg in Resources */,
 				AD1EBB3219E0733E00515F5B /* 2.6素材选择.md.json in Resources */,
+				FE8BEA571A1FA56E00DE2917 /* 0606法律图书馆管理.md.json in Resources */,
+				FE8BEA3F1A1FA56E00DE2917 /* 0313物流管理.md.json in Resources */,
 				ADF2AC121A036B8C00DA02C3 /* 2.6其他排名.md.json in Resources */,
 				ADF2AC0F1A036B8C00DA02C3 /* 2.6.4ARWU其他排名.md.json in Resources */,
 				ADF246BA19F4FF1C005BA7E5 /* 4.8Education.jpg in Resources */,
 				AD40115B19EB7A610088194C /* 5GRE.md.json in Resources */,
+				FE8BEA6E1A1FA56E00DE2917 /* 0810助理医师.md.json in Resources */,
 				FE17ABE21A0A7E5800637798 /* 打工.png in Resources */,
 				ADC907E019DD025300DFC311 /* 1.5.2SocialSecurityCard.jpg in Resources */,
 				FE7262F619DFEA11005739D0 /* 3.3CV.jpg in Resources */,
+				FE8BEA4A1A1FA56E00DE2917 /* 0503环境政策和管理.md.json in Resources */,
 				ADF2AC1B1A036B8C00DA02C3 /* 3.14哥大校徽.jpg in Resources */,
 				FE9485FA1A001FF7008E01D2 /* FieldIconMedical.png in Resources */,
 				AD40114A19EB7A610088194C /* 0出国考试.md.json in Resources */,
 				ADF2ABFD1A036B8C00DA02C3 /* 2.2.3留学美国.jpg in Resources */,
+				FE8BEA291A1FA56E00DE2917 /* 0111材料工程.md.json in Resources */,
+				FE8BEA811A1FA56E00DE2917 /* 1003艾滋病.md.json in Resources */,
+				FE8BEA631A1FA56E00DE2917 /* 0710学生辅导及服务.md.json in Resources */,
 				ADF2ABEA1A036B8C00DA02C3 /* 1.1.1世界大学排名仅供参考，不应盲信.md.json in Resources */,
 				FE7262F919DFEA11005739D0 /* 3.4CV样本.png in Resources */,
 				AD1EBB3319E0733E00515F5B /* 2.7小论文范文.md.json in Resources */,
@@ -2685,9 +3152,14 @@
 				ADF246C419F4FF1C005BA7E5 /* 6.1Supplemental.jpg in Resources */,
 				AD548A3B19F803FC0088E19C /* 2.5.2范文.md.json in Resources */,
 				ADF246B719F4FF1C005BA7E5 /* 4.5internationalinfo.jpg in Resources */,
+				FE8BEA5B1A1FA56E00DE2917 /* 0702课程与教学.md.json in Resources */,
 				FE7262F419DFEA11005739D0 /* 3.2Resume样本.md.json in Resources */,
+				FE8BEA8B1A1FA56E00DE2917 /* 1103平面设计.md.json in Resources */,
+				FE8BEA8E1A1FA56E00DE2917 /* 1106多媒体.md.json in Resources */,
+				FE8BEA581A1FA56E00DE2917 /* 0607图书馆媒体学.md.json in Resources */,
 				ADF2ABE51A036B8C00DA02C3 /* 0USNews.jpg in Resources */,
 				ADF246AC19F4FF1C005BA7E5 /* 1.7Education.jpg in Resources */,
+				FE8BEA8C1A1FA56E00DE2917 /* 1104工业设计.md.json in Resources */,
 				FE76B7F019FD1FB6001B4B39 /* 0院校数据库.md.json in Resources */,
 				AD40115C19EB7A610088194C /* 5GRE备考策略与模拟试题.jpg in Resources */,
 				AD1EBB2E19E0733E00515F5B /* 2.4素材3.jpg in Resources */,
@@ -2696,16 +3168,25 @@
 				AD34573419FFE223004382CE /* 5.4打工.md.json in Resources */,
 				FE9485F41A001FF7008E01D2 /* FieldIconEducation.png in Resources */,
 				ADA774AC19FE7E9F00F65AA7 /* 2.1College.jpeg in Resources */,
+				FE8BEA701A1FA56E00DE2917 /* 0812康复咨询.md.json in Resources */,
 				ADF246B619F4FF1C005BA7E5 /* 4.4otherinfo.jpg in Resources */,
 				AD548A3119F803B50088E19C /* 0ApplyTexas.png in Resources */,
+				FE8BEA8F1A1FA56E00DE2917 /* 1107绘画.md.json in Resources */,
+				FE8BEA831A1FA56E00DE2917 /* 1005家庭医学.md.json in Resources */,
+				FE8BEA671A1FA56E00DE2917 /* 0803保健管理.md.json in Resources */,
 				FE60E6A419E56E1F00147EF9 /* mobileanalytics-2014-06-30.json in Resources */,
+				FE8BEA7E1A1FA56E00DE2917 /* 0911辩护学.md.json in Resources */,
+				FE8BEA8A1A1FA56E00DE2917 /* 1102制陶术.md.json in Resources */,
 				ADCF1EC619DD6058005E4FD4 /* 申请住宿.jpg in Resources */,
 				FE7262FB19DFEA11005739D0 /* 3.6注意事项.md.json in Resources */,
+				FEAAF04D1A1F2B4000561213 /* QS世界大学排名.md.json in Resources */,
 				FE9485F91A001FF7008E01D2 /* FieldIconLaw.png in Resources */,
 				ADA774B419FE7E9F00F65AA7 /* 2澳大利亚.md.json in Resources */,
 				ADCB6C0519FA8BE800E8DD20 /* 1.1Tuition1.jpeg in Resources */,
 				AD40116319EB7A610088194C /* 7LSAT全真题汇编.jpg in Resources */,
 				ADF2AC111A036B8C00DA02C3 /* 2.6BostonU.jpg in Resources */,
+				FE8BEA391A1FA56E00DE2917 /* 0307国际商务.md.json in Resources */,
+				FE8BEA501A1FA56E00DE2917 /* 0509公共政策分析.md.json in Resources */,
 				ADA774B219FE7E9F00F65AA7 /* 2.4Partimejob3.jpeg in Resources */,
 				AD8D823A19FF9CF900C9FAF3 /* 3.1Britishcollege.jpg in Resources */,
 				AD34572C19FFE223004382CE /* 5.1CanadianHighSchool.jpg in Resources */,
@@ -2715,17 +3196,23 @@
 				FE60E6A719E56E1F00147EF9 /* sdb-2009-04-15.json in Resources */,
 				AD548A3D19F803FC0088E19C /* 2.7.2小论文范文.md.json in Resources */,
 				ADC907DA19DD025300DFC311 /* 1.1Credit Card.jpg in Resources */,
+				FE8BEA2B1A1FA56E00DE2917 /* 0113核能工程.md.json in Resources */,
+				FE8BEA431A1FA56E00DE2917 /* 0403英语.md.json in Resources */,
+				FE8BEA871A1FA56E00DE2917 /* 1009乡村医学.md.json in Resources */,
 				ADF246B919F4FF1C005BA7E5 /* 4.7academicinfo2.jpg in Resources */,
 				AD34573019FFE223004382CE /* 5.2生活费.md.json in Resources */,
 				ADF2AC1A1A036B8C00DA02C3 /* 3.11美术学院排名.md.json in Resources */,
 				ADF2ABF01A036B8C00DA02C3 /* 1.1.4THELogo.jpg in Resources */,
+				FE8BEA851A1FA56E00DE2917 /* 1007内科.md.json in Resources */,
 				ADF2AC241A036B8C00DA02C3 /* 3.5公共事务学院排名.md.json in Resources */,
 				ADD68A9219FA4C1100B88199 /* 5加拿大留学费用.md.json in Resources */,
 				ADA774B519FE7E9F00F65AA7 /* 3英国.md.json in Resources */,
 				FE5BC07E19D71BD4007E63BC /* Unit Converter.json in Resources */,
 				FE7262F719DFEA11005739D0 /* 3.3CV内容.md.json in Resources */,
 				ADF2ABE31A036B8C00DA02C3 /* 0ARWU.jpg in Resources */,
+				FE8BEA551A1FA56E00DE2917 /* 0604健康档案管理.md.json in Resources */,
 				ADF246C319F4FF1C005BA7E5 /* 5ApplyTexas.md.json in Resources */,
+				FE8BEA2E1A1FA56E00DE2917 /* 0203化学.md.json in Resources */,
 				FE17ABE11A0A7E5800637798 /* 学费.png in Resources */,
 				AD40115A19EB7A610088194C /* 4The Real ACT.jpg in Resources */,
 				ADF2AC251A036B8C00DA02C3 /* 3.5排名解析.md.json in Resources */,
@@ -2735,6 +3222,7 @@
 				AD0E75F319F37695006F433C /* 3.2Personal.jpg in Resources */,
 				AD47693D19F7E9C700811C7E /* 3.6resume.jpeg in Resources */,
 				FE7262E619DFEA11005739D0 /* 0Resume2.jpg in Resources */,
+				FE8BEA891A1FA56E00DE2917 /* 1101美术学院排名.md.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
