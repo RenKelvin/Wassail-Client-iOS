@@ -14,16 +14,22 @@ class UniversityRankingTableViewCell: UITableViewCell {
     @IBOutlet var subtitleLabel: UILabel?
     @IBOutlet var noteLabel: UILabel?
     @IBOutlet var iconImageView: UIImageView?
-
+    
     @IBOutlet var scoreLabel: UILabel?
     @IBOutlet var rankLabel: UILabel?
-
+    
     func configure(item: HLUniversityPreviewWithRank) {
         titleLabel?.text = item.title
         noteLabel?.text = item.note
         subtitleLabel?.text = item.chineseName
-
-        scoreLabel?.text = NSString(format: "%.3g", item.score!)
+        
+        if (item.score == nil || item.score! == 0.0) {
+            scoreLabel?.hidden = true
+        }
+        else {
+            scoreLabel?.text = NSString(format: "%.3g", item.score!)
+        }
+        
         rankLabel?.text = String(item.rank!)
         
         let name = item.icon!.address

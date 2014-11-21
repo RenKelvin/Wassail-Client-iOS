@@ -12,10 +12,14 @@ class HLItemBuilder: NSObject {
     
     class func build(json: NSDictionary) -> HLItem? {
         
-        let type = json.objectForKey("type") as NSString
-        let name = json.objectForKey("name") as NSString
+        let type = json.objectForKey("type") as NSString?
+        let name = json.objectForKey("name") as NSString?
         
-        switch type {
+        if (type == nil) {
+            return nil
+        }
+        
+        switch type! {
             
         case "HLItemPreview": return HLItemPreview(json: json)
             
