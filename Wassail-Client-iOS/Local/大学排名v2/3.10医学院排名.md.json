@@ -1,0 +1,139 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1001\u7814\u7a76\u6027\u533b\u5b66\u9662\u6392\u540d", 
+                                "title": "Best Research"
+                            }, 
+                            "name": "1001\u7814\u7a76\u6027\u533b\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7814\u7a76\u6027\u533b\u5b66\u9662\u6392\u540d"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1002\u4e34\u5e8a\u533b\u5b66\u9662\u6392\u540d", 
+                                "title": "Best Primary Care"
+                            }, 
+                            "name": "1002\u4e34\u5e8a\u533b\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4e34\u5e8a\u533b\u5b66\u9662\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1003\u827e\u6ecb\u75c5", 
+                                "title": "AIDS"
+                            }, 
+                            "name": "1003\u827e\u6ecb\u75c5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u827e\u6ecb\u75c5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1004\u836f\u7269\u4e0e\u9152\u7cbe\u6ee5\u7528", 
+                                "title": "Drug and Alcohol Abuse"
+                            }, 
+                            "name": "1004\u836f\u7269\u4e0e\u9152\u7cbe\u6ee5\u7528", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u836f\u7269\u4e0e\u9152\u7cbe\u6ee5\u7528"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1005\u5bb6\u5ead\u533b\u5b66", 
+                                "title": "Family Medicine"
+                            }, 
+                            "name": "1005\u5bb6\u5ead\u533b\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5bb6\u5ead\u533b\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1006\u8001\u5e74\u533b\u5b66", 
+                                "title": "Geriatrics"
+                            }, 
+                            "name": "1006\u8001\u5e74\u533b\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8001\u5e74\u533b\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1007\u5185\u79d1", 
+                                "title": "Internal Medicine"
+                            }, 
+                            "name": "1007\u5185\u79d1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5185\u79d1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1008\u513f\u79d1", 
+                                "title": "Pediatrics"
+                            }, 
+                            "name": "1008\u513f\u79d1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u513f\u79d1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1009\u4e61\u6751\u533b\u5b66", 
+                                "title": "Rural Medicine"
+                            }, 
+                            "name": "1009\u4e61\u6751\u533b\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4e61\u6751\u533b\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1010\u5973\u6027\u5065\u5eb7", 
+                                "title": "Women\u2019s Health"
+                            }, 
+                            "name": "1010\u5973\u6027\u5065\u5eb7", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5973\u6027\u5065\u5eb7"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u533b\u5b66\u7c7b\uff08Medical\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

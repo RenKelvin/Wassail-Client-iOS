@@ -11,13 +11,13 @@ import UIKit
 class HLList: HLItem {
     
     var title: NSString?
-    
     var author: NSString?
     var date: NSString?
+    var note: NSString?
+    
     var header: NSString?
-
     var footer: NSString?
-
+    
     var groups: NSArray = []
     
     override init() {
@@ -28,47 +28,52 @@ class HLList: HLItem {
         super.init(json: json)
         
         // Body
-        let jsonBody = json.objectForKey("body") as NSDictionary
+        let jsonBody = json.objectForKey("body") as! NSDictionary
         
-        title = jsonBody.objectForKey("title") as NSString?
-        author = jsonBody.objectForKey("author") as NSString?
-        date = jsonBody.objectForKey("date") as NSString?
-        header = jsonBody.objectForKey("header") as NSString?
+        title = jsonBody.objectForKey("title") as! NSString?
+        author = jsonBody.objectForKey("author") as! NSString?
+        date = jsonBody.objectForKey("date") as! NSString?
+        note = jsonBody.objectForKey("note") as! NSString?
         
-        footer = jsonBody.objectForKey("footer") as NSString?
+        header = jsonBody.objectForKey("header") as! NSString?
+        footer = jsonBody.objectForKey("footer") as! NSString?
         
-        groups = jsonBody.objectForKey("groups") as NSArray
+        groups = jsonBody.objectForKey("groups") as! NSArray
         
         // Groups
         for group in groups {
-            var items = group.objectForKey("items") as NSMutableArray
+            let items: NSMutableArray = group.objectForKey("items") as! NSMutableArray
             for item in items {
                 
-                let kind = (item as NSDictionary).objectForKey("kind") as NSString
+                let kind = (item as! NSDictionary).objectForKey("kind") as! NSString
                 
                 // HLItem
                 if (kind == "Item") {
-                    let content = (item as NSDictionary).objectForKey("content") as NSMutableDictionary
-                    let body = content.objectForKey("body") as NSMutableDictionary
+                    let content: NSMutableDictionary = (item as! NSDictionary).objectForKey("content") as! NSMutableDictionary
+                    let body: NSMutableDictionary = content.objectForKey("body") as! NSMutableDictionary
                     
                     // Add attributes
-                    let keys = (item as NSDictionary).allKeys
+                    let keys = (item as! NSDictionary).allKeys
                     for key in keys {
-                        if (key as NSString != "kind" && key as NSString != "content") {
-                            let object: AnyObject! = (item as NSDictionary).objectForKey((key as NSString)) as AnyObject!
-                            body.setObject(object, forKey: (key as NSString))
+                        if (key as! NSString != "kind" && key as! NSString != "content") {
+                            let object: AnyObject! = (item as! NSDictionary).objectForKey((key as! NSString)) as AnyObject!
+                            if (body.isKindOfClass(NSMutableDictionary)) {
+                                body.setObject(object, forKey: (key as! NSString))
+                            }
                         }
                     }
                     
                     content.setObject(body, forKey: "body")
                     
                     let model = HLItemBuilder.build(content as NSDictionary)
-                    items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
+                    if (model != nil) {
+                        items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model!)
+                    }
                 }
-                
-                // NOHLItem
+                    
+                    // NOHLItem
                 else {
-                    let model: Item = Item(json: item as NSDictionary)
+                    let model: Item = Item(json: item as! NSDictionary)
                     items.replaceObjectAtIndex(items.indexOfObject(item), withObject: model)
                 }
             }
@@ -80,23 +85,27 @@ class HLList: HLItem {
     }
     
     func numberOfItemsInGroup(group: Int) -> Int {
-        let groupDict = groups[group] as NSDictionary
-        let itemsArray = groupDict.objectForKey("items") as NSArray
+        let groupDict = groups[group] as! NSDictionary
+        let itemsArray = groupDict.objectForKey("items") as! NSArray
         
         return itemsArray.count
     }
     
     func titleForGroup(group: Int) -> NSString {
-        let groupDict = groups[group] as NSDictionary
-        let title = groupDict.objectForKey("title") as NSString
+        let groupDict = groups[group] as! NSDictionary
+        let title = groupDict.objectForKey("title") as! NSString
         
         return title
     }
     
-    func item(group: Int, row: Int) -> Item {
-        let group = groups.objectAtIndex(group) as NSDictionary
-        let items = group.objectForKey("items") as NSArray
+    func item(group: Int, row: Int) -> Item? {
+        let group = groups.objectAtIndex(group) as! NSDictionary
+        let items = group.objectForKey("items") as! NSArray
         
-        return items.objectAtIndex(row) as Item
+        if (!items.objectAtIndex(row).isKindOfClass(Item)) {
+            return nil
+        }
+        
+        return items.objectAtIndex(row) as? Item
     }
 }

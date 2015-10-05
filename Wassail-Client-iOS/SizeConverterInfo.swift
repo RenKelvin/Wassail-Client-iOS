@@ -30,7 +30,7 @@ class SizeConverterInfo: NSObject {
         return self.getNames()!.count
     }
     
-    func getCategory(name: String) -> NSDictionary? {
+    func getCategoryByName(name: String) -> NSDictionary? {
         if (data == nil) {
             return nil
         }
@@ -48,7 +48,7 @@ class SizeConverterInfo: NSObject {
             return nil
         }
         
-        let name = names![index] as NSString
+        let name = names![index] as! NSString
         return data!.objectForKey(name) as? NSDictionary
     }
     
@@ -68,7 +68,7 @@ class SizeConverterInfo: NSObject {
             return nil
         }
         
-        return category!.objectForKey("header") as NSArray?
+        return category!.objectForKey("header") as! NSArray?
     }
     
     func getMySize(num: Int) -> NSDictionary? {
@@ -78,9 +78,9 @@ class SizeConverterInfo: NSObject {
             return nil
         }
         
-        let key = NSString(format: "mysize\(names![num] as String)")
+        let key = NSString(format: "mysize\(names![num] as! String)")
         
-        return UserAccessor.instance.getMySize(key)
+        return UserAccessor.instance.getMySize(key as String)
 
     }
     
@@ -91,7 +91,7 @@ class SizeConverterInfo: NSObject {
             return false
         }
         
-        let key = NSString(format: "mysize\(names![ci] as String)")
+        let key = NSString(format: "mysize\(names![ci] as! String)")
         let value = NSDictionary(dictionary: ["group": group, "row": row])
         
         return UserAccessor.instance.setMySize(key, value: value)
@@ -103,11 +103,11 @@ class SizeConverterInfo: NSObject {
             return nil
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[group] as NSDictionary
+        let groups = category!.objectForKey("groups") as! NSArray
+        let group = groups[group] as! NSDictionary
         
-        let rows = group.objectForKey("rows") as NSArray
-        let row = rows[row] as NSArray
+        let rows = group.objectForKey("rows") as! NSArray
+        let row = rows[row] as! NSArray
         
         return row
     }

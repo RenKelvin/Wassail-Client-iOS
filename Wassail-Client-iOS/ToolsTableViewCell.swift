@@ -27,11 +27,11 @@ class ToolsTableViewCell: HLTableViewCell {
             return
         }
         
-        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as String)
-        titleLabel!.text = dict!.objectForKey("title") as String?
-        noteLabel!.text = dict!.objectForKey("note") as String?
+        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as! String)
+        titleLabel!.text = dict!.objectForKey("title") as! String?
+        noteLabel!.text = dict!.objectForKey("note") as! String?
         
-        let ready = dict!.objectForKey("ready") as NSString?
+        let ready = dict!.objectForKey("ready") as! NSString?
         if (ready == "false") {
             readyLabel!.hidden = false
             titleLabel!.textColor = UIColor.HLTextGray()
@@ -41,10 +41,10 @@ class ToolsTableViewCell: HLTableViewCell {
             titleLabel!.textColor = UIColor.HLTextBlack()
         }
         
-        let isNew = dict!.objectForKey("new") as NSString?
+        let isNew = dict!.objectForKey("new") as! NSString?
         let n = (isNew != nil && isNew! == "true")
         
-        let identifier = dict!.objectForKey("identifier") as String?
+        let identifier = dict!.objectForKey("identifier") as! String?
         let isUsed = UserAccessor.instance.getBool("isToolUsed" + identifier!) as Bool?
         let u = (isUsed != nil && isUsed! == true)
 

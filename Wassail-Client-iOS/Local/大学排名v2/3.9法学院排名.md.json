@@ -1,0 +1,151 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0901\u6cd5\u5b66\u9662\u6392\u540d", 
+                                "title": "Law Schools"
+                            }, 
+                            "name": "0901\u6cd5\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6cd5\u5b66\u9662\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0902\u6cd5\u5f8b\u5b9e\u52a1", 
+                                "title": "Clinical Training"
+                            }, 
+                            "name": "0902\u6cd5\u5f8b\u5b9e\u52a1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6cd5\u5f8b\u5b9e\u52a1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0903\u4ef2\u88c1\u5b66", 
+                                "title": "Dispute Resolution"
+                            }, 
+                            "name": "0903\u4ef2\u88c1\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4ef2\u88c1\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0904\u73af\u5883\u6cd5", 
+                                "title": "Environmental Law"
+                            }, 
+                            "name": "0904\u73af\u5883\u6cd5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u73af\u5883\u6cd5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0905\u533b\u7597\u4fdd\u5065\u6cd5", 
+                                "title": "Health Care Law"
+                            }, 
+                            "name": "0905\u533b\u7597\u4fdd\u5065\u6cd5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u533b\u7597\u4fdd\u5065\u6cd5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0906\u77e5\u8bc6\u4ea7\u6743\u6cd5", 
+                                "title": "Intellectual Property Law"
+                            }, 
+                            "name": "0906\u77e5\u8bc6\u4ea7\u6743\u6cd5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u77e5\u8bc6\u4ea7\u6743\u6cd5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0907\u56fd\u9645\u6cd5", 
+                                "title": "International Law"
+                            }, 
+                            "name": "0907\u56fd\u9645\u6cd5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u56fd\u9645\u6cd5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0908\u6cd5\u52a1\u6587\u4e66\u5199\u4f5c", 
+                                "title": "Legal Writing"
+                            }, 
+                            "name": "0908\u6cd5\u52a1\u6587\u4e66\u5199\u4f5c", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6cd5\u52a1\u6587\u4e66\u5199\u4f5c"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0909\u5728\u804c\u6cd5\u5f8b\u9879\u76ee", 
+                                "title": "Part-time Law"
+                            }, 
+                            "name": "0909\u5728\u804c\u6cd5\u5f8b\u9879\u76ee", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5728\u804c\u6cd5\u5f8b\u9879\u76ee"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0910\u7a0e\u6cd5", 
+                                "title": "Tax Law"
+                            }, 
+                            "name": "0910\u7a0e\u6cd5", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7a0e\u6cd5"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0911\u8fa9\u62a4\u5b66", 
+                                "title": "Trial Advocacy"
+                            }, 
+                            "name": "0911\u8fa9\u62a4\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8fa9\u62a4\u5b66"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u6cd5\u5b66\u7c7b\uff08Law\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

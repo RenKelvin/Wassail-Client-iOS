@@ -13,42 +13,69 @@ private let _LocalMediatorSharedInstance = LocalMediator()
 class LocalMediator: NSObject {
     
     class var instance : LocalMediator {
-    return _LocalMediatorSharedInstance
+        return _LocalMediatorSharedInstance
+    }
+    
+    func getItem(name: NSString) -> HLItem? {
+        
+        let json = LocalAdapter.instance.getJsonDict(name as String, dir: .Bundle)
+        
+        if (json == nil) {
+            return nil
+        }
+        
+        let item = HLItemBuilder.build(json!)
+        
+        return item
     }
     
     func getImage(name: NSString) -> UIImage? {
         
-        let image = LocalAdapter.instance.getImage(name, dir: .Bundle)
+        let image = LocalAdapter.instance.getImage(name as String, dir: .Bundle)
         
         return image
     }
     
     func getImageURL(name: NSString) -> NSURL? {
         
-        let url = LocalAdapter.instance.getImageURL(name, dir: .Bundle)
+        let url = LocalAdapter.instance.getImageURL(name as String, dir: .Bundle)
         
         return url
     }
     
     func getTools() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Tools", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Tools", dir: .Bundle)
         
         return dict
     }
     
     func getSizeConverter() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Size Converter", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Size Converter", dir: .Bundle)
         
         return dict
     }
     
     func getUnitConverter() -> NSDictionary? {
         
-        let dict = LocalAdapter.instance.getJson("Unit Converter", dir: .Bundle)
+        let dict = LocalAdapter.instance.getJsonDict("Unit Converter", dir: .Bundle)
         
         return dict
+    }
+    
+    func getProgramInstancePreviewList() -> NSArray? {
+        
+        let array = LocalAdapter.instance.getJsonArray("ProgramInstancePreview", dir: .Bundle)
+        
+        return array
+    }
+
+    func getProgramInstanceRequirementsList() -> NSArray? {
+        
+        let array = LocalAdapter.instance.getJsonArray("ProgramInstanceRequirements", dir: .Bundle)
+        
+        return array
     }
     
     func getMySize(key: String) -> NSDictionary? {
@@ -58,7 +85,7 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let size = dict!.objectForKey(key) as NSDictionary?
+        let size = dict!.objectForKey(key) as! NSDictionary?
         
         return size
     }
@@ -75,7 +102,7 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let gpa = dict!.objectForKey("mygpa") as Double?
+        let gpa = dict!.objectForKey("mygpa") as! Double?
         
         return gpa
     }
@@ -96,15 +123,15 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let b = dict!.objectForKey(key) as Bool?
+        let b = dict!.objectForKey(key) as! Bool?
         
         return b
-
+        
     }
     
     func setBool(key: String, value: Bool) -> Bool {
         
         return LocalAdapter.instance.writePlist("User", key: key, value: value)
     }
-
+    
 }

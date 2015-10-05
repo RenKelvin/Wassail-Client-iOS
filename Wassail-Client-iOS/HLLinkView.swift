@@ -24,7 +24,7 @@ class HLLinkView: HLItemView {
         
         self.link = dict
         
-        titleLabel!.text = dict!.objectForKey("title") as String?
+        titleLabel!.text = dict!.objectForKey("title") as! String?
         //        noteLabel!.text = dict!.objectForKey("note") as String?
         
     }
@@ -37,7 +37,7 @@ class HLLinkView: HLItemView {
         
         let identifier = "Article" + "Browser" + "SegueIdentifier"
         
-        let address = link!.objectForKey("address") as NSString
+        let address = link!.objectForKey("address") as! NSString
         
         self.controller!.performSegueWithIdentifier(identifier, sender: address)
     }

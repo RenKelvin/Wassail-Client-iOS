@@ -18,7 +18,7 @@ class ArticleTableViewSectionCell: ArticleTableViewCell {
             return
         }
         
-        let text = item!.objectForKey("content") as NSString?
+        let text = item!.objectForKey("content") as! NSString?
         if (text == nil) {
             sectionLabel!.text = nil
         }
@@ -26,7 +26,7 @@ class ArticleTableViewSectionCell: ArticleTableViewCell {
             sectionLabel!.text = ""
         }
         else {
-            sectionLabel!.text = text!
+            sectionLabel!.text = text! as String
         }
         // FIXME: Manually modified preferredMaxLayoutWidth for different devices
         sectionLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0

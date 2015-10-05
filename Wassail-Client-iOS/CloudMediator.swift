@@ -13,11 +13,98 @@ private let _CloudMediatorSharedInstance = CloudMediator()
 class CloudMediator: NSObject {
     
     class var instance : CloudMediator {
-    return _CloudMediatorSharedInstance
+        return _CloudMediatorSharedInstance
     }
     
-    func sendFeedback(text: NSString) {
-        CloudAdapter.instance.sendFeedback(text)
+    // MARK: -
+    
+    func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
+        
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            print(data)
+            print(response)
+            print(error)
+            
+            if (response == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
+                callback(success: false)
+            }
+            else {
+                callback(success: true)
+            }
+        }
+        
+        CloudAdapter.instance.sendFeedback(text, completion: completion)
+    }
+    
+    // MARK: - Apply
+    
+    func getApplyStats(programInstanceId: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
+        
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            //            println(data)
+            //            println(response)
+            //            println(error)
+            
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
+            
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
+                callback(success: false, data: nil)
+            }
+            else {
+                callback(success: true, data: dict!)
+            }
+        }
+        
+        CloudAdapter.instance.getApplyStats(programInstanceId, completion: completion)
+    }
+    
+    // MARK: - University
+    
+    func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
+        
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            // println(data)
+            // println(response)
+            // println(error)
+            
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
+            
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
+                callback(success: false, list: nil)
+            }
+            else {
+                
+                let list = HLItemBuilder.build(dict!)
+                if (list != nil && list!.isKindOfClass(HLList)) {
+                    callback(success: true, list: list as? HLList)
+                }
+                else {
+                    callback(success: false, list: nil)
+                }
+            }
+        }
+        
+        CloudAdapter.instance.getUniversityRanking(name, completion: completion)
+    }
+    
+    func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
+        
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            print(data)
+            print(response)
+            print(error)
+            
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
+            
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
+                callback(success: false, data: nil)
+            }
+            else {
+                callback(success: true, data: dict!)
+            }
+        }
+        
+        CloudAdapter.instance.getProgramInstanceInfo(id, completion: completion)
     }
     
 }

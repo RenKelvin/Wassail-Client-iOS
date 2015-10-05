@@ -1,0 +1,139 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1101\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
+                                "title": "Fine Arts Schools"
+                            }, 
+                            "name": "1101\u7f8e\u672f\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7f8e\u672f\u5b66\u9662\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1102\u5236\u9676\u672f", 
+                                "title": "Ceramics"
+                            }, 
+                            "name": "1102\u5236\u9676\u672f", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5236\u9676\u672f"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1103\u5e73\u9762\u8bbe\u8ba1", 
+                                "title": "Graphic Design"
+                            }, 
+                            "name": "1103\u5e73\u9762\u8bbe\u8ba1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5e73\u9762\u8bbe\u8ba1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1104\u5de5\u4e1a\u8bbe\u8ba1", 
+                                "title": "Industrial Design"
+                            }, 
+                            "name": "1104\u5de5\u4e1a\u8bbe\u8ba1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5de5\u4e1a\u8bbe\u8ba1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1105\u5ba4\u5185\u8bbe\u8ba1", 
+                                "title": "Interior Design"
+                            }, 
+                            "name": "1105\u5ba4\u5185\u8bbe\u8ba1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5ba4\u5185\u8bbe\u8ba1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1106\u591a\u5a92\u4f53", 
+                                "title": "Multimedia / Visual Communications"
+                            }, 
+                            "name": "1106\u591a\u5a92\u4f53", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u591a\u5a92\u4f53/\u89c6\u89c9\u8868\u8fbe"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1107\u7ed8\u753b", 
+                                "title": "Painting / Drawing"
+                            }, 
+                            "name": "1107\u7ed8\u753b", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7ed8\u753b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1108\u6444\u5f71", 
+                                "title": "Photography"
+                            }, 
+                            "name": "1108\u6444\u5f71", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6444\u5f71"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1109\u7248\u753b", 
+                                "title": "Printmaking"
+                            }, 
+                            "name": "1109\u7248\u753b", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7248\u753b"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1110\u96d5\u5851", 
+                                "title": "Sculpture"
+                            }, 
+                            "name": "1110\u96d5\u5851", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u96d5\u5851"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7f8e\u672f\u7c7b\uff08Fine Arts\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

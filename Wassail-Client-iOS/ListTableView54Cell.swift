@@ -11,12 +11,14 @@ import UIKit
 class ListTableView54Cell: ListTableViewCell {
     
     override func configure(item: HLItemPreview) {
-        titleLabel?.text = item.title
-        noteLabel?.text = item.note
+        titleLabel?.text = item.title as? String
+        noteLabel?.text = item.note as? String
         
-        let name = item.icon!.address
-        if (name != nil) {
-            iconImageView?.image = DefaultInfo.instance.getImage(name!)
+        if (item.icon != nil) {
+            let name = item.icon!.address
+            if (name != nil) {
+                iconImageView?.image = DefaultInfo.instance.getImage(name!)
+            }
         }
     }
     

@@ -1,0 +1,69 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6.1USNews\u5176\u4ed6\u6392\u540d", 
+                                "title": "US News\u5176\u4ed6\u6392\u540d"
+                            }, 
+                            "name": "2.6.1USNews\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6.2THE\u5176\u4ed6\u6392\u540d", 
+                                "title": "THE\u5176\u4ed6\u6392\u540d"
+                            }, 
+                            "name": "2.6.2THE\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6.3QS\u5176\u4ed6\u6392\u540d", 
+                                "title": "QS\u5176\u4ed6\u6392\u540d"
+                            }, 
+                            "name": "2.6.3QS\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6.4ARWU\u5176\u4ed6\u6392\u540d", 
+                                "title": "ARWU\u5176\u4ed6\u6392\u540d"
+                            }, 
+                            "name": "2.6.4ARWU\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6.5\u66f4\u591a\u699c\u5355", 
+                                "title": "\u66f4\u591a\u699c\u5355"
+                            }, 
+                            "name": "2.6.5\u66f4\u591a\u699c\u5355", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u5176\u4ed6\u4e16\u754c\u5927\u5b66\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

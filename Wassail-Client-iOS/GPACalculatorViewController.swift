@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GPACalculatorViewController: UIViewController {
+class GPACalculatorViewController: GAITrackedViewController {
     
     let info: GPACalculatorInfo = GPACalculatorInfo.instance
     
@@ -36,12 +36,12 @@ class GPACalculatorViewController: UIViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "GPA Calculator Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         
@@ -54,6 +54,11 @@ class GPACalculatorViewController: UIViewController {
         if (mygpa == nil) {
             inputTextField!.becomeFirstResponder()
         }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - TableViewDataSource
@@ -77,11 +82,11 @@ class GPACalculatorViewController: UIViewController {
     // MARK: -
     
     func updateViews() {
-        inputTextField!.text = NSString(format: "%.2f", input)
+        inputTextField!.text = NSString(format: "%.2f", input) as String
         
-        gpaLabel!.text = NSString(format: "%.2f", gpa)
+        gpaLabel!.text = NSString(format: "%.2f", gpa) as String
         
-        rankingLabel!.text = NSString(format: "恭喜！你的成绩超过了%.1f%%的申请者！", ranking*100)
+        rankingLabel!.text = NSString(format: "恭喜！你的成绩超过了%.1f%%的申请者！", ranking*100) as String
     }
     
     func updateNumbers() {
@@ -117,7 +122,7 @@ class GPACalculatorViewController: UIViewController {
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -142,8 +147,8 @@ class GPACalculatorViewController: UIViewController {
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        input = NSString(string: textField.text).doubleValue
-        textField.text = NSString(format: "%.2f", input)
+        input = NSString(string: textField.text!).doubleValue
+        textField.text = NSString(format: "%.2f", input) as String
         
         info.setMyGPA(input)
         

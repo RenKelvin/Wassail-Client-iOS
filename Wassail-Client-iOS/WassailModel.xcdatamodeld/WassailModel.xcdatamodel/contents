@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A388a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="HLApply" representedClassName="HLApply" syncable="YES">
+        <attribute name="afDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="apDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cvDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ieltsDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="psDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rlDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satoractDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="toeflDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="trDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="wsDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="HLProgramInstancePreview" representedClassName="HLProgramInstancePreview" syncable="YES">
+        <attribute name="deadlineDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="degreeType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="field" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="iconAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="programName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="season" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondaryField" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="universityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="HLProgramInstanceRequirements" representedClassName="HLProgramInstanceRequirements" syncable="YES">
+        <attribute name="apExamsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="applicationFee" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="applicationFeeHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="greTotal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ieltsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ieltsTotal" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="programInstanceId" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="psHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recommendationHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recommendationNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="resumeHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satoractHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satSubjectTestsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="schoolReportHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="scoreChoiceHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="teacherEvaluationsHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="toeflHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="toeflIBTTotal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="transcriptHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="writingSampleHas" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <configuration name="Static">
+        <memberEntity name="HLProgramInstancePreview"/>
+        <memberEntity name="HLProgramInstanceRequirements"/>
+    </configuration>
+    <configuration name="User">
+        <memberEntity name="HLApply"/>
+    </configuration>
+    <elements>
+        <element name="HLApply" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="HLProgramInstancePreview" positionX="-63" positionY="-9" width="128" height="193"/>
+        <element name="HLProgramInstanceRequirements" positionX="-54" positionY="0" width="128" height="360"/>
+    </elements>
+</model>

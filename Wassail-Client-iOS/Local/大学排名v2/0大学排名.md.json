@@ -1,0 +1,245 @@
+{
+    "body": {
+        "footer": "\u66f4\u591a\u6392\u540d\u6301\u7eed\u66f4\u65b0\u4e2d", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                                "title": "\u5982\u4f55\u770b\u5f85\u6392\u540d"
+                            }, 
+                            "name": "1\u5982\u4f55\u770b\u5f85\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u65af\u5766\u4f5b.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u65af\u5766\u4f5b.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5927\u5b66\u6392\u540d\u7684\u4ef7\u503c\u3001\u53ef\u4fe1\u5ea6\u53ca\u5408\u7406\u6027"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.5\u6392\u540d\u89e3\u6790", 
+                                "title": "\u4e16\u754c\u5927\u5b66\u6392\u540d\u89e3\u6790"
+                            }, 
+                            "name": "2.5\u6392\u540d\u89e3\u6790", 
+                            "type": "HLListPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "US News\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "USNews\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0USNews.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0USNews.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "2014\u5e7410\u6708\u6700\u65b0\u53d1\u5e03"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "THE\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u6cf0\u6664\u58eb\u9ad8\u7b49\u6559\u80b2.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u6cf0\u6664\u58eb\u9ad8\u7b49\u6559\u80b2.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "2014\u5e7410\u6708\u53d1\u5e03"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                                "title": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "QS\u4e16\u754c\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0QS.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0QS.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "2014\u5e749\u6708\u53d1\u5e03"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
+                                "title": "ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d"
+                            }, 
+                            "name": "ARWU\u4e16\u754c\u5927\u5b66\u5b66\u672f\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0ARWU.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0ARWU.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "2014\u5e748\u6708\u53d1\u5e03"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.6\u5176\u4ed6\u6392\u540d", 
+                                "title": "\u5176\u4ed6\u4e16\u754c\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "2.6\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u4e16\u754c\u5927\u5b66"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.5\u6392\u540d\u89e3\u6790", 
+                                "title": "\u7f8e\u56fd\u5927\u5b66\u6392\u540d\u89e3\u6790"
+                            }, 
+                            "name": "3.5\u6392\u540d\u89e3\u6790", 
+                            "type": "HLListPreview"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.1\u7f8e\u56fd\u5927\u5b66\u7c7b\u578b\u7b80\u4ecb", 
+                                "title": "\u7f8e\u56fd\u5927\u5b66\u7c7b\u578b\u7b80\u4ecb"
+                            }, 
+                            "name": "3.1\u7f8e\u56fd\u5927\u5b66\u7c7b\u578b\u7b80\u4ecb", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "USNews\u7f8e\u56fd\u7efc\u5408\u5927\u5b66\u6392\u540d", 
+                                "title": "US News\u7efc\u5408\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "USNews\u7f8e\u56fd\u7efc\u5408\u5927\u5b66\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0USNews.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0USNews.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "USNews\u7f8e\u56fd\u6587\u7406\u5b66\u9662\u6392\u540d", 
+                                "title": "US News\u6587\u7406\u5b66\u9662\u6392\u540d"
+                            }, 
+                            "name": "USNews\u7f8e\u56fd\u6587\u7406\u5b66\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0USNews.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0USNews.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.0\u7f8e\u56fd\u4e13\u4e1a\u6392\u540d", 
+                                "title": "US News\u4e13\u4e1a\u6392\u540d"
+                            }, 
+                            "name": "3.0\u7f8e\u56fd\u4e13\u4e1a\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0USNews.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0USNews.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3.6\u5176\u4ed6\u6392\u540d", 
+                                "title": "\u5176\u4ed6\u7f8e\u56fd\u5927\u5b66\u6392\u540d"
+                            }, 
+                            "name": "3.6\u5176\u4ed6\u6392\u540d", 
+                            "type": "HLListPreview"
+                        }, 
+                        "kind": "Item"
+                    }
+                ], 
+                "title": "\u7f8e\u56fd"
+            }
+        ], 
+        "title": "\u5927\u5b66\u6392\u540d"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

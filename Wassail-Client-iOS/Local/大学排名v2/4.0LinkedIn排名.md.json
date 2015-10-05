@@ -1,0 +1,826 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": "\u5168\u7403\u6700\u5927\u7684\u804c\u573a\u793e\u4ea4\u7f51\u7ad9LinkedIn\u4eca\u65e5\u516c\u5e03\u4e86\u4e00\u4efd\u7ed9\u4e88\u5c31\u4e1a\u53ca\u804c\u4e1a\u53d1\u5c55\u60c5\u51b5\u7684\u5927\u5b66\u6392\u540d\u3002\u4e0e\u4f20\u7edf\u5b66\u672f\u6392\u540d\u4e0d\u540c\uff0c\u8fd9\u4efd\u6392\u540d\u4ece\u5927\u5b66\u6bd5\u4e1a\u751f\u7684\u5c31\u4e1a\u60c5\u51b5\u5bf9\u7f8e\u56fd\u53ca\u82f1\u56fd\u5927\u5b66\u8fdb\u884c\u6392\u540d\u3002LinkedIn\u901a\u8fc7\u5bf9\u8d85\u8fc7\u4e09\u4ebf\u4e2a\u7528\u6237\u7684\u6bd5\u4e1a\u9662\u6821\u53ca\u76ee\u524d\u5c31\u4e1a\u60c5\u51b5\u8fdb\u884c\u5206\u6790\u5bf9\u6bd4\uff0c\u5f97\u51fa\u6765\u4e0d\u540c\u884c\u4e1a\u4e2d\u5404\u5b66\u6821\u6bd5\u4e1a\u751f\u7684\u5c31\u4e1a\u4eba\u6570\u3001\u5f53\u524d\u85aa\u8d44\u53ca\u6240\u5904\u7ea7\u522b\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5f15\u4eba\u6df1\u601d\u7684\u73b0\u8c61\u662f\u5e38\u9752\u85e4\u5b66\u6821\u5728\u4e00\u4e9b\u4e13\u4e1a\u6392\u540d\u4e0a\u6d88\u5931\u4e86\uff0c\u4e0d\u8fc7\u8fd9\u5e76\u975e\u8fd9\u4e9b\u5b66\u6821\u6559\u80b2\u8d28\u91cf\u4e0d\u884c\uff0c\u800c\u662f\u901a\u5e38\u8fd9\u4e9b\u5b66\u6821\u6bd5\u4e1a\u751f\u4f1a\u503e\u5411\u4e8e\u627e\u5176\u4ed6\u9886\u57df\u7684\u5de5\u4f5c\u3002\u53e6\u5916\uff0cLinkedIn\u5c06\u6587\u7406\u5b66\u9662\u548c\u7efc\u5408\u6027\u5927\u5b66\u6df7\u6392\uff0c\u7ed9\u51fa\u4e86\u4e00\u4efd\u66f4\u5bb9\u6613\u7406\u89e3\u5bf9\u6bd4\u7684\u6392\u540d\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 (UPenn)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8036\u9c81\u5927\u5b66 (Yale)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e54\u6cbb\u57ce\u5927\u5b66 (Georgetown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u666e\u6797\u65af\u987f\u5927\u5b66 (Princeton)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66 (Columbia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ebd\u7ea6\u5927\u5b66 (NYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b\u5927\u5b66 (Duke)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8fbe\u7279\u8305\u65af\u5b66\u9662 (Dartmouth)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u6bcd\u5927\u5b66 (Notre Dame)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ef4\u514b\u68ee\u6797\u5927\u5b66 (Wake Forest)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ef4\u62c9\u8bfa\u74e6\u5927\u5b66 (Villanova)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6ce2\u58eb\u987f\u5b66\u9662 (BC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u536b\u65af\u7406\u5b66\u9662 (Wellesley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u963f\u9ed8\u65af\u7279\u5b66\u9662 (Amherst)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717\u5927\u5b66 (Brown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u91cc\u6d77\u5927\u5b66 (Lehigh)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u83b1\u65af\u5927\u5b66 (Rice)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5361\u8010\u57fa\u6885\u9686\u5927\u5b66 (CMU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9ebb\u7701\u7406\u5de5\u5b66\u9662 (MIT)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u683c\u65af\u5927\u5b66 (Rutgers)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u57c3\u9ed8\u91cc\u5927\u5b66 (Emory)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5317\u5361\u7f57\u6765\u7eb3\u5dde\u5927\u5b66 (UNC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u897f\u6839\u5927\u5b66 (UMich)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u91d1\u878d (Finance)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u4e54\u6cbb\u57ce\u5927\u5b66 (Georgetown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 (UPenn)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8036\u9c81\u5927\u5b66 (Yale)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b\u5927\u5b66 (Duke)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66 (Columbia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u666e\u6797\u65af\u987f\u5927\u5b66 (Princeton)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ebd\u7ea6\u5927\u5b66 (NYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u536b\u65af\u7406\u5b66\u9662 (Wellesley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8fbe\u7279\u8305\u65af\u5b66\u9662 (Dartmouth)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u963f\u9ed8\u65af\u7279\u5b66\u9662 (Amherst)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717\u5927\u5b66 (Brown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6ce2\u58eb\u987f\u5927\u5b66 (BU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6ce2\u58eb\u987f\u5b66\u9662 (BC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u57c3\u9ed8\u91cc\u5927\u5b66 (Emory)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u6bcd\u5927\u5b66 (Notre Dame)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u829d\u52a0\u54e5\u5927\u5b66 (UChicago)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u660e\u5fb7\u5b66\u9662 (Middlebury)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u83b1\u65af\u5927\u5b66 (Rice)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u897f\u6839\u5927\u5b66 (UMich)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8303\u5fb7\u5821\u5927\u5b66 (Vanderbilt)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5f17\u5409\u5c3c\u4e9a\u5927\u5b66 (UVA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821 (Berkeley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u897f\u5317\u5927\u5b66 (Northwestern)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5357\u536b\u7406\u516c\u4f1a\u5927\u5b66 (SMU)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u6295\u8d44\u94f6\u884c (Investment Bank)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 (UPenn)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u897f\u6839\u5927\u5b66 (UMich)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ebd\u7ea6\u5927\u5b66 (NYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e54\u6cbb\u57ce\u5927\u5b66 (Georgetown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u65af\u5766\u798f\u5927\u5b66 (Stanford)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821 (Berkeley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u897f\u5317\u5927\u5b66 (Northwestern)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u514b\u8428\u65af\u5927\u5b66\u5965\u65af\u4e01\u5206\u6821 (UT Austin)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u51e4\u51f0\u57ce\u5927\u5b66 (University of Phoenix)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5317\u5361\u7f57\u6765\u7eb3\u5dde\u5927\u5b66 (UNC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u57c3\u9ed8\u91cc\u5927\u5b66 (Emory)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5f17\u5409\u5c3c\u4e9a\u5927\u5b66 (UVA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u6bcd\u5927\u5b66 (Notre Dame)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u683c\u65af\u5927\u5b66 (Rutgers)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5dde\u5dde\u7acb\u5927\u5b66 (Penn State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u534e\u76db\u987f\u5927\u5b66 (UW)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u4f55\u585e\u5dde\u7acb\u5927\u5b66 (San Jose State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66 (Columbia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8fc8\u963f\u5bc6\u5927\u5b66 (U Miami)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6768\u767e\u7ff0\u5927\u5b66 (BYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u660e\u5c3c\u82cf\u8fbe\u5927\u5b66 (UM Twin Cities)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b\u5927\u5b66 (Duke)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u96ea\u57ce\u5927\u5b66 (Syracuse)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u5e02\u573a\u8425\u9500 (Marketing)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u7ef4\u62c9\u8bfa\u74e6\u5927\u5b66 (Villanova)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u6bcd\u5927\u5b66 (Notre Dame)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6ce2\u58eb\u987f\u5b66\u9662 (BC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u91cc\u6d77\u5927\u5b66 (Lehigh)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u57c3\u9ed8\u91cc\u5927\u5b66 (Emory)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5357\u52a0\u5dde\u5927\u5b66 (USC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u83f2\u5c14\u8d39\u5c14\u5fb7\u5927\u5b66 (Fairfield)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u5854\u514b\u62c9\u62c9\u5927\u5b66 (Santa Clara)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f0a\u5229\u8bfa\u4f0a\u5927\u5b66\u9999\u69df\u5206\u6821 (UIUC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7ef4\u514b\u68ee\u6797\u5927\u5b66 (Wake Forest)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5317\u5361\u7f57\u6765\u7eb3\u5dde\u5927\u5b66 (UNC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u96ea\u57ce\u5927\u5b66 (Syracuse)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u672c\u7279\u5229\u5927\u5b66 (Bentley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5df4\u514b\u5185\u5c14\u5927\u5b66 (Bucknell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u798f\u5fb7\u6d77\u59c6\u5927\u5b66 (Fordham)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8036\u5e0c\u74e6\u5927\u5b66 (Yeshiva)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821 (Berkeley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6768\u767e\u7ff0\u5927\u5b66 (BYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u91cc\u5947\u8499\u5927\u5b66 (Richmond)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9a6c\u91cc\u5170\u6d1b\u7ea6\u62c9\u5927\u5b66 (Loyola U)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u5341\u5b57\u5b66\u9662 (Holy Cross)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9a6c\u91cc\u5170\u5927\u5b66\u5e15\u514b\u5206\u6821 (Maryland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5a01\u65af\u5eb7\u8f9b\u5927\u5b66\u9ea6\u8fea\u900a\u5206\u6821 (UW)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5a01\u5ec9\u739b\u4e3d\u5b66\u9662 (College of W&M)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9ebb\u7701\u5927\u5b66\u963f\u83ab\u65af\u7279\u5206\u6821 (UM - Amherst)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u4f1a\u8ba1\u5e08 (Accounting)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5361\u8010\u57fa\u6885\u9686\u5927\u5b66 (CMU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u7406\u5de5\u5b66\u9662 (CIT)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9ebb\u7701\u7406\u5de5\u5b66\u9662 (MIT)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u666e\u6797\u65af\u987f\u5927\u5b66 (Princeton)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821 (Berkeley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u534e\u76db\u987f\u5927\u5b66 (UW)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b\u5927\u5b66 (Duke)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u897f\u6839\u5927\u5b66 (UMich)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u65af\u5766\u798f\u5927\u5b66 (Stanford)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u6d1b\u6749\u77f6\u5206\u6821 (UCLA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f0a\u5229\u8bfa\u4f0a\u5927\u5b66\u9999\u69df\u5206\u6821 (UIUC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u514b\u8428\u65af\u5927\u5b66\u5965\u65af\u4e01\u5206\u6821 (UT Austin)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717\u5927\u5b66 (Brown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u5723\u5730\u4e9a\u54e5\u5206\u6821 (UCSD)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u83b1\u65af\u5927\u5b66 (Rice)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 (UPenn)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e9a\u5229\u6851\u90a3\u5927\u5b66 (U Arizona)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u7ef4\u59c6\u5fb7\u5b66\u9662 (Harvey Mudd)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u514b\u8428\u65af\u5927\u5b66\u8fbe\u62c9\u65af\u5206\u6821 (UT Dallas)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u4f55\u585e\u5dde\u7acb\u5927\u5b66 (San Jose State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5357\u52a0\u5dde\u5927\u5b66 (USC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u8def\u6613\u65af\u534e\u76db\u987f\u5927\u5b66 (WUISL)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u5207\u65af\u7279\u7406\u5de5\u5b66\u9662 (RIT)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u8f6f\u4ef6\u5de5\u7a0b (Software)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u65af\u5766\u798f\u5927\u5b66 (Stanford)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9ebb\u7701\u7406\u5de5\u5b66\u9662 (MIT)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717\u5927\u5b66 (Brown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u666e\u6797\u65af\u987f\u5927\u5b66 (Princeton)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u4f2f\u514b\u5229\u5206\u6821 (Berkeley)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5361\u8010\u57fa\u6885\u9686\u5927\u5b66 (CMU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66 (Columbia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5f17\u5409\u5c3c\u4e9a\u5927\u5b66 (UVA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9a6c\u91cc\u5170\u5927\u5b66\u5e15\u514b\u5206\u6821 (Maryland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u6d1b\u6749\u77f6\u5206\u6821 (UCLA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u5207\u65af\u7279\u7406\u5de5\u5b66\u9662 (RIT)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u5723\u5730\u4e9a\u54e5\u5206\u6821 (UCSD)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f0a\u5229\u8bfa\u4f0a\u5927\u5b66\u9999\u69df\u5206\u6821 (UIUC)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u521d\u521b\u516c\u53f8\u8f6f\u4ef6\u5de5\u7a0b"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u7ebd\u7ea6\u5927\u5b66 (NYU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u970d\u592b\u65af\u7279\u62c9\u5927\u5b66 (Hofstra)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u675c\u514b\u5927\u5b66 (Duke)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u970d\u534e\u5fb7\u5927\u5b66 (Howard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u897f\u5317\u5927\u5b66 (Northwestern)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u96ea\u57ce\u5927\u5b66 (Syracuse)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6606\u5c3c\u76ae\u4e9a\u514b\u5927\u5b66 (Quinnipiac)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u798f\u5fb7\u6d77\u59c6\u5927\u5b66 (Fordham)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8036\u9c81\u5927\u5b66 (Yale)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e03\u6717\u5927\u5b66 (Brown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54e5\u4f26\u6bd4\u4e9a\u5927\u5b66 (Columbia)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u683c\u65af\u5927\u5b66 (Rutgers)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5927\u5b66 (UPenn)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e54\u6cbb\u57ce\u5927\u5b66 (Georgetown)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e54\u6cbb\u534e\u76db\u987f\u5927\u5b66 (GWU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8fc8\u963f\u5bc6\u5927\u5b66 (U Miami)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4e1c\u5317\u5927\u5b66 (Northeastern)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5357\u52a0\u5dde\u5927\u5b66 (USC)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f0a\u8428\u5361\u5b66\u9662 (Ithaca)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u9a6c\u91cc\u5170\u5927\u5b66\u5e15\u514b\u5206\u6821 (Maryland)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u54c8\u4f5b\u5927\u5b66 (Harvard)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5dde\u5dde\u7acb\u5927\u5b66 (Penn State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u62c9\u534e\u5927\u5b66 (U Delaware)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u6d1b\u6749\u77f6\u5206\u6821 (UCLA)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u4f20\u5a92 (Media)"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": "\u5361\u8010\u57fa\u6885\u9686\u5927\u5b66 (CMU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u89c6\u89c9\u827a\u672f\u5b66\u9662 (School of Visual Arts)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u521b\u610f\u7814\u7a76\u5b66\u9662 (College for Creative Studies)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8bbe\u8ba1\u827a\u672f\u4e2d\u5fc3\u5b66\u9662 (Art Center College of Design)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u534e\u76db\u987f\u5927\u5b66 (UW)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u65af\u5766\u798f\u5927\u5b66 (Stanford)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7075\u6797\u827a\u672f\u8bbe\u8ba1\u5b66\u9662 (Ringling)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8f9b\u8f9b\u90a3\u63d0\u5927\u5b66 (U Cincinnati)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u8428\u51e1\u7eb3\u827a\u672f\u8bbe\u8ba1\u5b66\u9662 (Savannah)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5723\u4f55\u585e\u5dde\u7acb\u5927\u5b66 (San Jose State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7f57\u5fb7\u5c9b\u8bbe\u8ba1\u5b66\u9662 (Rhode Island School of Design)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u514b\u8428\u65af\u5927\u5b66\u5965\u65af\u4e01\u5206\u6821 (UT Austin)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u96ea\u57ce\u5927\u5b66 (Syracuse)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4fc4\u52d2\u5188\u5dde\u7acb\u5927\u5b66 (OSU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u65e7\u91d1\u5c71\u827a\u672f\u5927\u5b66 (Academy of Arts U)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u666e\u745e\u7279\u827a\u672f\u5b66\u9662 (Pratt)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5e15\u68ee\u65af\u8bbe\u8ba1\u5b66\u9662 (Parsons)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5fb7\u62c9\u534e\u5927\u5b66 (U Delaware)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5eb7\u5948\u5c14\u5927\u5b66 (Cornell)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u52a0\u5dde\u5927\u5b66\u6d1b\u6749\u77f6\u5206\u6821 (UCLA)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6ce2\u58eb\u987f\u5927\u5b66 (BU)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f50\u6cbb\u4e9a\u7406\u5de5\u5b66\u9662 (GaTech)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bbe\u5dde\u5dde\u7acb\u5927\u5b66 (Penn State)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u4f11\u65af\u987f\u5927\u5b66 (U Houston)", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5bc6\u897f\u6839\u5927\u5b66 (UMich)", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "\u8bbe\u8ba1\u5e08 (Designers)"
+            }
+        ], 
+        "title": "LinkedIn\u804c\u4e1a\u53d1\u5c55\u6392\u540d (\u6700\u65b0\u53d1\u5e03)"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

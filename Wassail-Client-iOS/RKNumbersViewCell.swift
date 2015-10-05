@@ -38,8 +38,8 @@ class RKNumbersViewCell: UITableViewCell {
         
         var cur: Double = 15.0
         
-        for i in 1...num {
-            var label = UILabel()
+        for _ in 1...num {
+            let label = UILabel()
             label.tag = 1
             
             label.textAlignment = NSTextAlignment.Center
@@ -69,8 +69,8 @@ class RKNumbersViewCell: UITableViewCell {
         self.generateLabels(texts!.count, highlight: highlight)
         
         for i in 1...texts!.count {
-            var label = labels.objectAtIndex(i-1) as UILabel
-            label.text = texts!.objectAtIndex(i-1) as NSString
+            let label = labels.objectAtIndex(i-1) as! UILabel
+            label.text = texts!.objectAtIndex(i-1) as? String
         }
     }
     

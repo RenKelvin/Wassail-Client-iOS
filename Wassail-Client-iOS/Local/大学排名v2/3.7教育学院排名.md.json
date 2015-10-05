@@ -1,0 +1,151 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0701\u6863\u6848\u7ba1\u7406", 
+                                "title": "Education Schools"
+                            }, 
+                            "name": "0701\u6863\u6848\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6559\u80b2\u5b66\u9662\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0702\u8bfe\u7a0b\u4e0e\u6559\u5b66", 
+                                "title": "Curriculum and Instruction"
+                            }, 
+                            "name": "0702\u8bfe\u7a0b\u4e0e\u6559\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u8bfe\u7a0b\u4e0e\u6559\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0703\u6559\u80b2\u7ba1\u7406\u4e0e\u76d1\u7763", 
+                                "title": "Education Administration and Supervision"
+                            }, 
+                            "name": "0703\u6559\u80b2\u7ba1\u7406\u4e0e\u76d1\u7763", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6559\u80b2\u7ba1\u7406\u4e0e\u76d1\u7763"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0704\u6559\u80b2\u653f\u7b56", 
+                                "title": "Education Policy"
+                            }, 
+                            "name": "0704\u6559\u80b2\u653f\u7b56", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6559\u80b2\u653f\u7b56"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0705\u6559\u80b2\u5fc3\u7406\u5b66", 
+                                "title": "Education Psychology"
+                            }, 
+                            "name": "0705\u6559\u80b2\u5fc3\u7406\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6559\u80b2\u5fc3\u7406\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0706\u5c0f\u5b66\u6559\u80b2", 
+                                "title": "Elementary Teacher Education"
+                            }, 
+                            "name": "0706\u5c0f\u5b66\u6559\u80b2", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5c0f\u5b66\u6559\u80b2"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0707\u9ad8\u7b49\u6559\u80b2\u7ba1\u7406", 
+                                "title": "Higher Education Administration"
+                            }, 
+                            "name": "0707\u9ad8\u7b49\u6559\u80b2\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u9ad8\u7b49\u6559\u80b2\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0708\u4e2d\u5b66\u6559\u80b2", 
+                                "title": "Secondary Teacher Education"
+                            }, 
+                            "name": "0708\u4e2d\u5b66\u6559\u80b2", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4e2d\u5b66\u6559\u80b2"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0709\u7279\u6b8a\u6559\u80b2", 
+                                "title": "Special Education"
+                            }, 
+                            "name": "0709\u7279\u6b8a\u6559\u80b2", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u7279\u6b8a\u6559\u80b2"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0710\u5b66\u751f\u8f85\u5bfc\u53ca\u670d\u52a1", 
+                                "title": "Student Counseling and Personnel Services"
+                            }, 
+                            "name": "0710\u5b66\u751f\u8f85\u5bfc\u53ca\u670d\u52a1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5b66\u751f\u8f85\u5bfc\u53ca\u670d\u52a1"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0711\u6280\u672f\u4e0e\u804c\u4e1a\u6559\u80b2", 
+                                "title": "Technical / Vocational"
+                            }, 
+                            "name": "0711\u6280\u672f\u4e0e\u804c\u4e1a\u6559\u80b2", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6280\u672f\u4e0e\u804c\u4e1a\u6559\u80b2"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u6559\u80b2\u7c7b\uff08Education\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

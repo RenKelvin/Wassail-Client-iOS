@@ -30,7 +30,7 @@ class UnitConverterInfo: NSObject {
         return self.getNames()!.count
     }
     
-    func getCategory(name: String) -> NSDictionary? {
+    func getCategoryByName(name: String) -> NSDictionary? {
         if (data == nil) {
             return nil
         }
@@ -48,7 +48,7 @@ class UnitConverterInfo: NSObject {
             return nil
         }
         
-        let name = names![index] as NSString
+        let name = names![index] as! NSString
         return data!.objectForKey(name) as? NSDictionary
     }
 
@@ -68,7 +68,7 @@ class UnitConverterInfo: NSObject {
             return nil
         }
         
-        return category!.objectForKey("units") as NSArray?
+        return category!.objectForKey("units") as! NSArray?
     }
     
     func getKnows(index: Int) -> NSArray? {
@@ -79,7 +79,7 @@ class UnitConverterInfo: NSObject {
             return nil
         }
         
-        return category!.objectForKey("knows") as NSArray?
+        return category!.objectForKey("knows") as! NSArray?
     }
 
     func getUnit(ci: Int, ui: Int) -> NSDictionary? {
@@ -93,8 +93,8 @@ class UnitConverterInfo: NSObject {
             return nil
         }
         
-        let units = category!.objectForKey("units") as NSArray
-        let unit = units.objectAtIndex(ui) as NSDictionary
+        let units = category!.objectForKey("units") as! NSArray
+        let unit = units.objectAtIndex(ui) as! NSDictionary
         
         return unit
     }

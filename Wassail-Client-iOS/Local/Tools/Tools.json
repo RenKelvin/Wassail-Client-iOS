@@ -1,11 +1,13 @@
 {
     "names": [
               [
+               "apply manager",
                "online application",
                "apply documents",
+               "abroad expense",
+               "offer broadcast",
                "gpa calculator",
                "abroad exams",
-               "offer broadcast",
                "university rankings",
                "abroad words"
                ],
@@ -17,27 +19,35 @@
                "info container"
                ],
               ],
+    "university database": {
+        "ready": "true",
+        "note": "世界各国院校介绍、排名详解",
+        "title": "院校数据库",
+        "icon": "ToolsIconUniversityDatabase",
+        "identifier": "UniversityDatabase"
+    },
     "university rankings": {
         "ready": "true",
         "note": "世界大学权威排名，深度分析",
         "title": "大学排名",
         "icon": "ToolsIconUniversityRankings",
-        "identifier": "UniversityRankings"
+        "identifier": "UniversityRankings",
+        "new": "true"
     },
     "abroad exams": {
         "ready": "true",
         "note": "语言考试、综合考试等介绍",
         "title": "出国考试",
         "icon": "ToolsIconAbroadExams",
-        "identifier": "AbroadExams",
-        "new": "true"
+        "identifier": "AbroadExams"
     },
     "apply manager": {
-        "ready": "false",
+        "ready": "true",
         "note": "申请事项管理，截止日期提醒",
         "title": "申请管理器",
         "icon": "ToolsIconApplyManager",
-        "identifier": "ApplyManager"
+        "identifier": "ApplyManager",
+        "new": "true"
     },
     "offer broadcast": {
         "ready": "false",
@@ -61,11 +71,12 @@
         "identifier": "AirlineTickets"
     },
     "abroad expense": {
-        "ready": "false",
+        "ready": "true",
         "note": "出国留学费用介绍、分析及规划",
         "title": "留学费用",
         "icon": "ToolsIconAbroadExpense",
-        "identifier": "AbroadExpense"
+        "identifier": "AbroadExpense",
+        "new": "true"
     },
     "visa introduction": {
         "ready": "false",
@@ -94,7 +105,6 @@
         "title": "网申流程",
         "icon": "ToolsIconOnlineApplication",
         "identifier": "OnlineApplication",
-        "new": "true"
     },
     "admission interview": {
         "ready": "false",

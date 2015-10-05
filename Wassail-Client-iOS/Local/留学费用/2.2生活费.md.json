@@ -1,0 +1,84 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.2Livingexpenses2.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "2.2Livingexpenses2.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u65b0\u5357\u5a01\u5c14\u58eb\u5dde/\u7ef4\u591a\u5229\u4e9a", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u57ce\u533a\u6bcf\u5e74\u7ea62.5\u4e07\u6fb3\u5143\uff0c13.5\u4e07\u4eba\u6c11\u5e01\uff1b\u90ca\u533a\u6bcf\u5e74\u7ea61.5\u4e07\u6fb3\u5143\uff0c8\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne  - City", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$22,000-$28,800", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Melbourne - Rural", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$15,600-$20,700", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6606\u58eb\u5170\u5dde/\u897f\u6fb3\u5dde/\u9996\u90fd\u5730\u533a", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u57ce\u533a\u6bcf\u5e74\u7ea62\u4e07\u6fb3\u5143\uff0c11\u4e07\u4eba\u6c11\u5e01\uff1b\u90ca\u533a\u6bcf\u5e74\u7ea61.2\u4e07\u6fb3\u5143\uff0c6.5\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of Queensland", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$23,030", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u5357\u6fb3/\u5854\u65af\u9a6c\u5c3c\u4e9a/\u5317\u9886\u5730\u533a", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "\u57ce\u533a\u6bcf\u5e74\u7ea62\u4e07\u6fb3\u5143\uff0c11\u4e07\u4eba\u6c11\u5e01\uff1b\u90ca\u533a\u6bcf\u5e74\u7ea61\u4e07\u6fb3\u5143\uff0c5.5\u4e07\u4eba\u6c11\u5e01\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "University of South Australia", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "$ 14,300 - $22,880", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "note": "1\u6fb3\u5143\uff1d5.38\u4eba\u6c11\u5e01", 
+        "title": "\u6fb3\u5927\u5229\u4e9a\u751f\u6d3b\u8d39"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

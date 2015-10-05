@@ -1,0 +1,43 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1.4Partimejob4.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "1.4Partimejob4.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u6821\u5185\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0on-campus\u6307\u5728\u81ea\u5df1\u5c31\u8bfb\u7684\u9662\u6821\u5de5\u4f5c\uff0c\u4e0d\u9700\u8981\u7533\u8bf7\u5de5\u4f5c\u7b7e\u8bc1\u3002\u6761\u4ef6\u662f\u5fc5\u987b\u662f\u5168\u65e5\u5236 \u5b66\u751f(Full-time\u00a0Student)\u3002\u6bcf\u5468\u4e0d\u53ef\u4ee5\u8d85\u8fc720\u5c0f\u65f6\uff0c\u6691\u5047\u4e0d\u53ef\u4ee5\u8d85\u8fc740\u5c0f\u65f6\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6821\u5916\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0off-campus\u6307\u5141\u8bb8\u56fd\u9645\u5b66\u751f\u5b66\u4e60\u671f\u95f4\u5728\u6821\u5916\u5de5\u4f5c\uff0c\u5165\u5b669\u4e2a\u6708\u4ee5\u4e0a (\u4e24\u4e2a\u5b66\u671f) \u540e\u53ef\u4ee5\u7533\u8bf7CPT (Curricular Practical Training) \u5230\u6821\u5916\u6253\u5de5\uff0c\u6bcf\u5468\u4e0d\u80fd\u8d85\u8fc720\u5c0f\u65f6\uff0c\u6691\u5047\u4e0d\u53ef\u4ee5\u8d85\u8fc740\u4e2a\u5c0f\u65f6\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u7f8e\u56fd\u6253\u5de5"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

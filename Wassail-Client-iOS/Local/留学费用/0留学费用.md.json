@@ -1,0 +1,119 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "1\u7f8e\u56fd", 
+                                "title": "\u7f8e\u56fd\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "1\u7f8e\u56fd", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u7f8e\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "United States"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2\u6fb3\u5927\u5229\u4e9a", 
+                                "title": "\u6fb3\u5927\u5229\u4e9a\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "2\u6fb3\u5927\u5229\u4e9a", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u6fb3\u5927\u5229\u4e9a\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u6fb3\u5927\u5229\u4e9a\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Australia"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "3\u82f1\u56fd", 
+                                "title": "\u82f1\u56fd\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "3\u82f1\u56fd", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u82f1\u56fd\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u82f1\u56fd\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "United Kingdom"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "5\u52a0\u62ff\u5927", 
+                                "title": "\u52a0\u62ff\u5927\u7559\u5b66\u8d39\u7528"
+                            }, 
+                            "name": "5\u52a0\u62ff\u5927", 
+                            "type": "HLListPreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "0\u52a0\u62ff\u5927\u56fd\u65d7.jpg", 
+                                "title": ""
+                            }, 
+                            "name": "0\u52a0\u62ff\u5927\u56fd\u65d7.jpg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Canada"
+                    }
+                ], 
+                "title": "\u6309\u56fd\u522b\u5206"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "6\u8d44\u91d1\u8bc1\u660e", 
+                                "title": "\u8d44\u91d1\u8bc1\u660e"
+                            }, 
+                            "name": "6\u8d44\u91d1\u8bc1\u660e", 
+                            "type": "HLArticlePreview"
+                        }, 
+                        "icon": {
+                            "body": {
+                                "address": "FinanialCertificate.png", 
+                                "title": ""
+                            }, 
+                            "name": "FinanialCertificate.png", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item", 
+                        "note": "Proof of Financial Support"
+                    }
+                ], 
+                "title": "\u8d44\u91d1\u8bc1\u660e"
+            }
+        ], 
+        "title": "\u7559\u5b66\u8d39\u7528"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

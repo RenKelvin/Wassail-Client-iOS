@@ -1,0 +1,35 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "2.4Partimejob3.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "2.4Partimejob3.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u6fb3\u5927\u5229\u4e9a\u79fb\u6c11\u5c40\u89c4\u5b9a\uff0c\u5141\u8bb8\u5168\u65e5\u5236\u56fd\u9645\u5b66\u751f\u5728\u5b66\u671f\u4e2d\u6bcf14\u5929\u6253\u5de540\u5c0f\u65f6\uff0c\u5047\u671f\u6ca1\u6709\u6253\u5de5\u65f6\u95f4\u9650\u5236\u3002\u5982\u679c\u4f60\u662f\u7814\u7a76\u6027\u7684\u7814\u7a76\u751f\u6216\u535a\u58eb (\u5b66\u751f\u7b7e\u8bc1\u5c5e\u4e8e574 subclass)\u4e0a\u4e13\u4e1a\u8bfe\u671f\u95f4\u670940\u5c0f\u65f6\u4e0a\u9650\uff0c\u8fdb\u5165\u7814\u7a76\u9636\u6bb5\u65f6\u5219\u6ca1\u6709\u5de5\u4f5c\u65f6\u95f4\u4e0a\u9650\u3002\u56fd\u9645\u5b66\u751f\u7684\u914d\u5076\u4e0e\u5b50\u5973\u4e5f\u4eab\u53d7\u76f8\u540c\u7684\u5de5\u4f5c\u65f6\u9650\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6253\u5de5\u524d\uff0c\u8981\u5148\u53bb\u6fb3\u6d32\u7a0e\u52a1\u529e\u516c\u5ba4 (Australia Tax Office) \u7533\u8bf7\u7a0e\u53f7(Tax File Number)\uff0c\u4e00\u822c1\u52302\u5468\u540e\u7a0e\u52a1\u5c40\u5c31\u4f1a\u5c06\u4f60\u7684\u7a0e\u53f7\u90ae\u5bc4\u5230\u4f60\u63d0\u4f9b\u7684\u5730\u5740\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u6fb3\u5927\u5229\u4e9a\u6253\u5de5"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}

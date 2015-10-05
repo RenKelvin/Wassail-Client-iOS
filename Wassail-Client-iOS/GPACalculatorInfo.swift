@@ -18,7 +18,7 @@ class GPACalculatorInfo: NSObject {
     
     func getMyGPA() -> Double? {
         
-        let key = NSString(format: "mygpa")
+        _ = NSString(format: "mygpa")
         
         return UserAccessor.instance.getMyGPA()
         
@@ -30,8 +30,8 @@ class GPACalculatorInfo: NSObject {
             return false
         }
         
-        let key = NSString(format: "mygpa")
-        let value = gpa!
+        _ = NSString(format: "mygpa")
+        _ = gpa!
         
         return UserAccessor.instance.setMyGPA(gpa)
     }

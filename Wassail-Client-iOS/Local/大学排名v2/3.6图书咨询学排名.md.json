@@ -1,0 +1,115 @@
+{
+    "body": {
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0601\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u9662\u6392\u540d", 
+                                "title": "Library & Information Studies"
+                            }, 
+                            "name": "0601\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u9662\u6392\u540d", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u9662\u6392\u540d"
+                    }
+                ], 
+                "title": "-"
+            }, 
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0602\u6863\u6848\u7ba1\u7406", 
+                                "title": "Archives and Preservation"
+                            }, 
+                            "name": "0602\u6863\u6848\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6863\u6848\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0603\u6570\u5b57\u5316\u56fe\u4e66\u9986", 
+                                "title": "Digital Librarianship"
+                            }, 
+                            "name": "0603\u6570\u5b57\u5316\u56fe\u4e66\u9986", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6570\u5b57\u5316\u56fe\u4e66\u9986"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0604\u5065\u5eb7\u6863\u6848\u7ba1\u7406", 
+                                "title": "Health Librarianship"
+                            }, 
+                            "name": "0604\u5065\u5eb7\u6863\u6848\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u5065\u5eb7\u6863\u6848\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0605\u4fe1\u606f\u7cfb\u7edf\u7ba1\u7406", 
+                                "title": "Information Systems"
+                            }, 
+                            "name": "0605\u4fe1\u606f\u7cfb\u7edf\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u4fe1\u606f\u7cfb\u7edf\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0606\u6cd5\u5f8b\u56fe\u4e66\u9986\u7ba1\u7406", 
+                                "title": "Law Librarianship"
+                            }, 
+                            "name": "0606\u6cd5\u5f8b\u56fe\u4e66\u9986\u7ba1\u7406", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u6cd5\u5f8b\u56fe\u4e66\u9986\u7ba1\u7406"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0607\u56fe\u4e66\u9986\u5a92\u4f53\u5b66", 
+                                "title": "School Library Media"
+                            }, 
+                            "name": "0607\u56fe\u4e66\u9986\u5a92\u4f53\u5b66", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u56fe\u4e66\u9986\u5a92\u4f53\u5b66"
+                    }, 
+                    {
+                        "content": {
+                            "body": {
+                                "address": "0608\u9752\u5c11\u5e74\u670d\u52a1", 
+                                "title": "Services for Children and Youth"
+                            }, 
+                            "name": "0608\u9752\u5c11\u5e74\u670d\u52a1", 
+                            "type": "HLUniversityRankingPreview"
+                        }, 
+                        "kind": "Item", 
+                        "note": "\u9752\u5c11\u5e74\u670d\u52a1"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u56fe\u4e66\u9986\u53ca\u4fe1\u606f\u7814\u7a76\u5b66\u7c7b\uff08Library & Information Science\uff09"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLList"
+}

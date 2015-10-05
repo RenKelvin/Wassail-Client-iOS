@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BrowserViewController: UIViewController {
+class BrowserViewController: GAITrackedViewController {
     
     @IBOutlet var navigationView: UIView?
     
@@ -30,7 +30,7 @@ class BrowserViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.url = NSURL(string: address)
+        self.url = NSURL(string: address as String)
         self.request = NSURLRequest(URL: self.url!)
         
         // Load request
@@ -41,6 +41,11 @@ class BrowserViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Browser Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.TransparentWithDarkText)
     }
@@ -54,7 +59,7 @@ class BrowserViewController: UIViewController {
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
-            address = info as NSString
+            address = info as! NSString
         }
     }
     
@@ -74,7 +79,7 @@ class BrowserViewController: UIViewController {
         
         //        println("Webview did start")
         
-        self.urlLabel!.text = self.request!.URL.absoluteString!
+        self.urlLabel!.text = self.request!.URL!.absoluteString
         
         self.indicator!.startAnimating()
     }
@@ -91,42 +96,14 @@ class BrowserViewController: UIViewController {
     
     func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
         
-        println("Webview did failed: \(error)")
+        print("Webview did failed: \(error)")
         
         self.indicator!.stopAnimating()
         self.indicator!.hidden = true
         
         // TODO: Handle
     }
-    
-    //    // MARK: - NSURLConnectionDataDelegate
-    //
-    //    func connection(connection: NSURLConnection, didReceiveResponse response: NSURLResponse) {
-    //
-    //        println("Connection did receive response")
-    //
-    //        self.maxdata = Int(response.expectedContentLength)
-    //        self.curdata = 0
-    //    }
-    //
-    //    func connection(connection: NSURLConnection, didReceiveData data: NSData) {
-    //
-    //        println("Connection did receive data")
-    //
-    //        self.curdata += data.length
-    //
-    //        println("----------\(self.curdata)--------\(self.maxdata)")
-    //    }
-    //
-    //    func connectionDidFinishLoading(connection: NSURLConnection) {
-    //
-    //        println("Connection did finish")
-    //
-    //        self.maxdata = 0
-    //        self.curdata = 0
-    //
-    //    }
-    
+
     /*
     // MARK: - Navigation
     

@@ -19,20 +19,20 @@ class DefaultAccessor: NSObject {
     }
     
     func getItem(name: NSString) -> HLItem? {
-        var raw = DefaultMapper.instance.getItem(name)
+        let item = LocalMediator.instance.getItem(name)
         
-        if (raw == nil) {
-            println("DefaultAccessor.getItem: \(name) - Failed!")
+        if (item == nil) {
+            print("DefaultAccessor.getItem: \(name) - Failed!")
             return nil
         }
         
-        return HLItemBuilder.build(raw!)
+        return item
     }
     
     func getImage(name: NSString) -> UIImage? {
         
         // Cache image
-        let img = self.imageCache.objectForKey(name) as UIImage?
+        let img = self.imageCache.objectForKey(name) as! UIImage?
         if (img != nil) {
             return img
         }
@@ -65,8 +65,8 @@ class DefaultAccessor: NSObject {
         return LocalMediator.instance.getUnitConverter()
     }
     
-    func sendFeedback(text: NSString) {
-        CloudMediator.instance.sendFeedback(text)
+    func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
+        CloudMediator.instance.sendFeedback(text, callback: callback)
     }
     
 }

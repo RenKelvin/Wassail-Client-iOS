@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SizeConverterViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class SizeConverterViewController: GAITrackedViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     let info: SizeConverterInfo = SizeConverterInfo.instance
     
@@ -34,6 +34,11 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "Size Converter Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
     }
@@ -63,7 +68,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             return 0
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
+        let groups = category!.objectForKey("groups") as! NSArray
         
         return groups.count
     }
@@ -76,25 +81,25 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             return 0
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section] as NSDictionary
+        let groups = category!.objectForKey("groups") as! NSArray
+        let group = groups[section] as! NSDictionary
         
-        let rows = group.objectForKey("rows") as NSArray
+        let rows = group.objectForKey("rows") as! NSArray
         
         return rows.count
         
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as RKNumbersViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("SizeConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as! RKNumbersViewCell
         
         let row = info.getRow(ci, group: indexPath.section, row: indexPath.row)
         
         let mySize = info.getMySize(ci) as NSDictionary?
         if (mySize != nil) {
             
-            let g = mySize!.objectForKey("group") as Int
-            let r = mySize!.objectForKey("row") as Int
+            let g = mySize!.objectForKey("group") as! Int
+            let r = mySize!.objectForKey("row") as! Int
             
             if (g == indexPath.section && r == indexPath.row) {
                 cell.configure(row, highlight: true)
@@ -111,17 +116,17 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     // MARK: - UITableViewDataDelegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         let category = info.getCategory(ci) as NSDictionary?
         if (category == nil) {
             return headerView
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section] as NSDictionary
+        let groups = category!.objectForKey("groups") as! NSArray
+        let group = groups[section] as! NSDictionary
         
-        headerView.titleLabel?.text = group.objectForKey("title") as NSString
+        headerView.titleLabel?.text = group.objectForKey("title") as? String
         
         return headerView
     }
@@ -133,10 +138,10 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
             return 0.0
         }
         
-        let groups = category!.objectForKey("groups") as NSArray
-        let group = groups[section] as NSDictionary
+        let groups = category!.objectForKey("groups") as! NSArray
+        let group = groups[section] as! NSDictionary
         
-        let title = group.objectForKey("title") as NSString
+        let title = group.objectForKey("title") as! NSString
         
         if (title == "-") {
             return 0.0
@@ -175,7 +180,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as! RKSelectorCollectionViewCell
         
         if (indexPath.row == ci) {
             cell.setSelect()
@@ -187,8 +192,8 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
         // Configure the cell
         let names = info.getNames()
         if (names == nil) { return cell }
-        let name = names!.objectAtIndex(indexPath.row) as NSString
-        let dict = info.getCategory(name) as NSDictionary?
+        let name = names!.objectAtIndex(indexPath.row) as! NSString
+        let dict = info.getCategoryByName(name as String) as NSDictionary?
         cell.configure(dict)
         
         return cell
@@ -206,7 +211,7 @@ class SizeConverterViewController: UIViewController, UICollectionViewDataSource,
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let height = selectorView!.bounds.size.height
         let number = CGFloat(info.numberOfCategories())
-        var width = selectorView!.bounds.size.width / number
+        let width = selectorView!.bounds.size.width / number
         
         return CGSize(width: width, height: height)
     }

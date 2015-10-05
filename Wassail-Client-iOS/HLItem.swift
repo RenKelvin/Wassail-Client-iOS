@@ -22,7 +22,8 @@ class HLItem: Item {
         super.init(json: json)
         
         // Header
-        name = json.objectForKey("name") as NSString
-        type = json.objectForKey("type") as NSString
+        name = json.objectForKey("name") as! NSString
+        type = json.objectForKey("type") as! NSString
     }
+
 }

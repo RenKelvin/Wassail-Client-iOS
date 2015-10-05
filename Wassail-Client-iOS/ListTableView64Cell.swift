@@ -11,7 +11,7 @@ import UIKit
 class ListTableView64Cell: ListTableViewCell {
     
     override func configure(item: HLItemPreview) {
-        titleLabel?.text = item.title
+        titleLabel?.text = item.title as? String
     }
 
 }

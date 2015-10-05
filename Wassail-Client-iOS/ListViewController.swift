@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ListViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
     
@@ -43,10 +43,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // GAITrackedViewController name
+        self.screenName = "List Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
-        
     }
     
     // MARK: -
@@ -63,14 +67,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return
         }
         
-        list = ListInfo.instance.getList(listName!)
+        list = ListInfo.instance.getList(listName! as String)
         
         if (list == nil) {
             return
         }
         
         // Set list title
-        self.title = list!.title
+        self.title = list!.title as? String
         
         self.updateTableHeader()
         
@@ -82,7 +86,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return
         }
         
-        self.headerLabel!.text = list!.header
+        self.headerLabel!.text = list!.header as? String
         
         let height: CGFloat = self.getHeaderHeight(list!.header)
         
@@ -93,7 +97,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             self.tableView!.tableHeaderView!.frame.size.height = height + 52.0
         }
         
-        self.footerLabel!.text = list!.footer
+        self.footerLabel!.text = list!.footer as? String
     }
     
     func getHeaderHeight(text: NSString?) -> CGFloat {
@@ -102,10 +106,10 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return 0.0
         }
         
-        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ListViewController") as ListViewController
-        var label = controller.headerLabelPrototype!
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ListViewController") as! ListViewController
+        let label = controller.headerLabelPrototype!
         label.frame.size.width = DefaultInfo.instance.getScreenWidth() - 50.0
-        label.text = text!
+        label.text = text! as String
         
         label.sizeToFit()
         
@@ -139,19 +143,22 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return UITableViewCell()
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            print("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "ListTableViewSimpleCellReuseIdentifier"
+        var cellReuseIdentifier = "ListTableViewSimple44CellReuseIdentifier"
         
-        if (((item as HLItemPreview).icon) != nil) {
+        if (((item as! HLItemPreview).icon) != nil) {
             cellReuseIdentifier = "ListTableView54CellReuseIdentifier"
         }
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewCell
-        cell.configure(item as HLItemPreview)
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as! ListTableViewCell
+        cell.configure(item as! HLItemPreview)
         
         return cell
     }
@@ -161,7 +168,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
         // TODO: manaully adjust cell height
-        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        let h = self.cellHeights.objectForKey(indexPath) as! CGFloat?
         if (h != nil) {
             return h!
         }
@@ -171,14 +178,17 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         
         let item = list!.item(indexPath.section, row: indexPath.row)
-        if (!item.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item)")
+        if (item == nil) {
+            return 0.0
+        }
+        if (!item!.isKindOfClass(HLItemPreview)) {
+            print("Wrong list item: \(item!)")
             return 0.0
         }
         
         var height: CGFloat = 0.0
         
-        if (((item as HLItemPreview).icon) != nil) {
+        if (((item as! HLItemPreview).icon) != nil) {
             height = 54.0
         }
         else {
@@ -191,7 +201,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        let h = self.cellHeights.objectForKey(indexPath) as! CGFloat?
         if (h != nil) {
             return h!
         }
@@ -199,15 +209,15 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 54.0
     }
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         if (list == nil) {
             return headerView
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         headerView.setTitle(title)
         
@@ -220,7 +230,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return 0.0
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         if (title == "-" || title == "~") {
             return 0.0
@@ -239,25 +249,14 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return
         }
         
-        let item = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as! HLItemPreview
         
-        let type = item.type
-        switch type {
-        case "HLListPreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListListSegueIdentifier", sender: itemAddress)
-            
-        case "HLArticlePreview":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListArticleSegueIdentifier", sender: itemAddress)
-            
-        case "HLLink":
-            let itemAddress = item.address
-            self.performSegueWithIdentifier("ListBrowserSegueIdentifier", sender: itemAddress)
-            
-        default:
-            ""
+        if (itemPreview.sourceType == nil) {
+            return
         }
+        let segueIdentifier = "List" + (itemPreview.sourceType! as String) + "SegueIdentifier"
+        self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
+
     }
     
     // MARK: - Navigation
@@ -267,7 +266,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

@@ -9,7 +9,7 @@
 import UIKit
 import QuickLook
 
-class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
     @IBOutlet var tableViewHeaderView: UIView?
@@ -28,6 +28,9 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+        // GAITrackedViewController name
+        self.screenName = "Tools Screen"
+        
         // Configure Navigation Bar and Status Bar
         self.setNavigationBarStyle(HLNavigationBarStyle.Transparent)
         navigationView!.backgroundColor! = UIColor.HLBlue(0)
@@ -41,12 +44,12 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Update date
         let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
-        let components = calendar!.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
+        let components = calendar!.components([.Day, .Month], fromDate: NSDate())
         
         let month = components.month as Int
         let day = components.day as Int
         
-        monthLabel!.text = NSString(format: "\(month)月")
+        monthLabel!.text = NSString(format: "\(month)月") as String
         dayLabel!.text = String(day)
         
         // Force reload
@@ -84,11 +87,11 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as! ToolsTableViewCell
         
         // Configure the cell
         
-        var dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
+        let dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
         
         if (dict == nil) {
             return cell
@@ -101,8 +104,8 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     // MARK: - Table view delegate
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -127,22 +130,29 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         //
         switch indexPath.section {
         case 0:
-            switch indexPath.row {
+            switch indexPath.row-1 {
+            case -2:
+                self.performSegueWithIdentifier("ToolsUniversityDatabaseSegueIdentifier", sender: "0院校数据库")
+            case -1:
+                self.performSegueWithIdentifier("ToolsApplyManagerSegueIdentifier", sender: nil)
+                UserAccessor.instance.setBool("isToolUsed" + "ApplyManager", value: true)
             case 0:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0网申流程")
-                UserAccessor.instance.setBool("isToolUsed" + "OnlineApplication", value: true)
             case 1:
                 self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0申请文书")
             case 2:
-                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0留学费用")
+                UserAccessor.instance.setBool("isToolUsed" + "AbroadExpense", value: true)
             case 3:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
-                UserAccessor.instance.setBool("isToolUsed" + "AbroadExams", value: true)
-            case 4:
                 ""
+            case 4:
+                self.performSegueWithIdentifier("ToolsGPACalculatorSegueIdentifier", sender: nil)
             case 5:
-                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0出国考试")
             case 6:
+                self.performSegueWithIdentifier("ToolsListSegueIdentifier", sender: "0大学排名")
+                UserAccessor.instance.setBool("isToolUsed" + "UniversityRankings", value: true)
+            case 7:
                 self.performSegueWithIdentifier("ToolsArticleSegueIdentifier", sender: "留学常用词汇")
             default:
                 ""
@@ -175,7 +185,7 @@ class ToolsViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

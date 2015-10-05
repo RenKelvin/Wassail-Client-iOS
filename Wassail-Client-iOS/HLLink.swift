@@ -14,10 +14,11 @@ class HLLink: HLItemPreview {
         super.init(json: json)
         
         // Body
-        let jsonBody = json.objectForKey("body") as NSDictionary
+        let jsonBody = json.objectForKey("body") as! NSDictionary
         
         title = jsonBody.objectForKey("title") as? NSString
         address = jsonBody.objectForKey("address") as? NSString
+        
+        sourceType = "Browser"
     }
-    
 }

@@ -1,0 +1,51 @@
+{
+    "body": {
+        "author": "\u4e92\u8054\u7f51", 
+        "date": "2014/10/22", 
+        "groups": [
+            {
+                "items": [
+                    {
+                        "content": {
+                            "body": {
+                                "address": "5.4Partimejob2.jpeg", 
+                                "title": ""
+                            }, 
+                            "name": "5.4Partimejob2.jpeg", 
+                            "type": "HLImage"
+                        }, 
+                        "kind": "Item"
+                    }, 
+                    {
+                        "content": "\u6821\u5185\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0on-campus\u6307\u5728\u81ea\u5df1\u5c31\u8bfb\u7684\u9662\u6821\u5de5\u4f5c\uff0c\u4e0d\u9700\u8981\u7533\u8bf7\u5de5\u4f5c\u7b7e\u8bc1(Work\u00a0Permit)\u3002\u5b66\u751f\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6: \u6709\u6548\u7684\u5b66\u4e60\u8bb8\u53ef(Study\u00a0Permit)\u00a0\u3001\u5728\u516c\u7acb\u5927\u4e13\u9662\u6821\u8bfb\u4e66\u6216\u8005\u90e8\u5206\u79c1\u7acb\u9662\u6821\u8bfb\u4e66(\u76ee\u524d\u53ea\u6709\u9b41\u5317\u514b\u7701\u7684\u5927\u4e13\u9662\u6821\u7b26\u5408\u6807\u51c6)\u00a0\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u6821\u5916\u5de5\u4f5c", 
+                        "kind": "Section"
+                    }, 
+                    {
+                        "content": "Work\u00a0off-campus\u6307\u5141\u8bb8\u56fd\u9645\u5b66\u751f\u5b66\u4e60\u671f\u95f4\u5728\u6821\u5916\u5de5\u4f5c\uff0c2014\u5e746\u67081\u65e5\u540e\u4e0d\u7528", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u7533\u8bf7\u5de5\u4f5c\u7b7e\u8bc1 (Work Permit)\u4e86\uff0c\u4f46\u4e0a\u8bfe\u671f\u95f4\u6700\u591a\u6bcf\u546820\u5c0f\u65f6\uff0c\u5047\u671f\u4e2d\u6ca1\u6709\u6700\u9ad8\u65f6\u9650\u3002\u5b66\u751f\u5fc5\u987b\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\uff1a\u6709\u6548\u7684\u5b66\u4e60\u8bb8\u53ef(Study\u00a0Permit)\u00a0\uff1b\u5168\u65e5\u5236\u5b66\u751f(Full-time\u00a0Student)\u00a0\uff1b\u5728\u53c2\u4e0e\u6821\u5916\u6253\u5de5\u9879\u76ee\u7684\u9662\u6821\u5b66\u4e60\uff0c\u5b66\u4e60\u8bfe\u7a0b\u4e3a\u4e13\u79d1\uff0c\u672c\u79d1\uff0c\u7855\u58eb\u7b49\u9ad8\u4e2d\u4ee5\u4e0a\u6587\u51ed\uff1b\u5b66\u4e60\u9879\u76ee\u957f\u5ea6\u5fc5\u987b\u81f3\u5c116\u4e2a\u6708\u3002", 
+                        "kind": "Graph"
+                    }, 
+                    {
+                        "content": "\u867d\u7136\u4e0d\u7528Work Permit\u4e86\uff0c\u5728\u6821\u5916\u5de5\u4f5c\u9700\u8981\u7533\u8bf7\u793e\u4f1a\u4fdd\u9669\u53f7\u7801 (Social Insurance Number)\u3002\u5728\u7533\u8bf7\u793e\u4f1a\u4fdd\u9669\u53f7\u7801\u7684\u65f6\u5019\uff0c\u6709\u53ef\u80fd\u4f1a\u8981\u6c42\u4f60\u63d0\u4f9b\u79fb\u6c11\u5c40\u7684\u6821\u5916\u5de5\u4f5c\u8bc1\u660e\u3002", 
+                        "kind": "Graph"
+                    }
+                ], 
+                "title": "-"
+            }
+        ], 
+        "title": "\u52a0\u62ff\u5927\u6253\u5de5"
+    }, 
+    "name": "<\u6587\u4ef6\u540d>", 
+    "type": "HLArticle"
+}
