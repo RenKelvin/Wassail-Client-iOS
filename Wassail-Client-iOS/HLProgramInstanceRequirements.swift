@@ -68,7 +68,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
             return data!
         }
         
-        var array = NSMutableArray()
+        let array = NSMutableArray()
         
         array.addObject(self.getExamsRequirements())
         array.addObject(self.getDocsRequirements())
@@ -89,7 +89,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
     }
     
     func getExamsRequirements() -> NSArray {
-        var array = NSMutableArray()
+        let array = NSMutableArray()
         
         var ind = 0
         var title = ""
@@ -99,9 +99,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (toeflHas.boolValue) {
             ind = 101
             title = "TOEFL"
-            note = NSString(format: "寄送托福成绩")
+            note = NSString(format: "寄送托福成绩") as String
             if (0 < toeflIBTTotal.intValue && toeflIBTTotal.intValue <= 120) {
-                note += NSString(format: " 分数要求 %d", toeflIBTTotal.integerValue)
+                note += NSString(format: " 分数要求 %d", toeflIBTTotal.integerValue) as String
             }
             
             array.addObject([ind, title, note])
@@ -111,9 +111,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (ieltsHas.boolValue) {
             ind = 102
             title = "IELTS"
-            note = NSString(format: "寄送雅思成绩")
+            note = NSString(format: "寄送雅思成绩") as String
             if (ieltsTotal.doubleValue != 0.0) {
-                note += NSString(format: " 分数要求 %.1f", ieltsTotal.doubleValue)
+                note += NSString(format: " 分数要求 %.1f", ieltsTotal.doubleValue) as String
             }
             
             array.addObject([ind, title, note])
@@ -123,9 +123,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (greHas.boolValue) {
             ind = 103
             title = "GRE"
-            note = NSString(format: "寄送GRE成绩", greTotal.integerValue)
+            note = NSString(format: "寄送GRE成绩", greTotal.integerValue) as String
             if (greTotal.doubleValue != 0) {
-                note += NSString(format: " 分数要求 %d", greTotal.integerValue)
+                note += NSString(format: " 分数要求 %d", greTotal.integerValue) as String
             }
             
             array.addObject([ind, title, note])
@@ -153,7 +153,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
     }
     
     func getDocsRequirements() -> NSArray {
-        var array = NSMutableArray()
+        let array = NSMutableArray()
         
         var ind = 0
         var title = ""
@@ -181,9 +181,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
         if (recommendationHas.boolValue) {
             ind = 203
             title = "Recomendation Letter"
-            note = NSString(format: "提交推荐信")
+            note = NSString(format: "提交推荐信") as String
             if (recommendationNum.intValue != 0) {
-                note += NSString(format: " 要求%d封", recommendationNum.intValue)
+                note += NSString(format: " 要求%d封", recommendationNum.intValue) as String
             }
 
             array.addObject([ind, title, note])
@@ -211,7 +211,7 @@ class HLProgramInstanceRequirements: NSManagedObject {
     }
     
     func getFeeRequirements() -> NSArray {
-        var array = NSMutableArray()
+        let array = NSMutableArray()
         
         var ind = 0
         var title = ""
@@ -220,9 +220,9 @@ class HLProgramInstanceRequirements: NSManagedObject {
         // 305 af
         ind = 305
         title = "Application Fee"
-        note = NSString(format: "提交申请费")
+        note = NSString(format: "提交申请费") as String
         if (applicationFee.doubleValue != 0.0) {
-            note += NSString(format: " $%d", applicationFee.integerValue)
+            note += NSString(format: " $%d", applicationFee.integerValue) as String
         }
         
         array.addObject([ind, title, note])

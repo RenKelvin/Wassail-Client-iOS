@@ -18,7 +18,7 @@ class LocalMediator: NSObject {
     
     func getItem(name: NSString) -> HLItem? {
         
-        let json = LocalAdapter.instance.getJsonDict(name, dir: .Bundle)
+        let json = LocalAdapter.instance.getJsonDict(name as String, dir: .Bundle)
         
         if (json == nil) {
             return nil
@@ -31,14 +31,14 @@ class LocalMediator: NSObject {
     
     func getImage(name: NSString) -> UIImage? {
         
-        let image = LocalAdapter.instance.getImage(name, dir: .Bundle)
+        let image = LocalAdapter.instance.getImage(name as String, dir: .Bundle)
         
         return image
     }
     
     func getImageURL(name: NSString) -> NSURL? {
         
-        let url = LocalAdapter.instance.getImageURL(name, dir: .Bundle)
+        let url = LocalAdapter.instance.getImageURL(name as String, dir: .Bundle)
         
         return url
     }
@@ -85,7 +85,7 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let size = dict!.objectForKey(key) as NSDictionary?
+        let size = dict!.objectForKey(key) as! NSDictionary?
         
         return size
     }
@@ -102,7 +102,7 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let gpa = dict!.objectForKey("mygpa") as Double?
+        let gpa = dict!.objectForKey("mygpa") as! Double?
         
         return gpa
     }
@@ -123,7 +123,7 @@ class LocalMediator: NSObject {
             return nil
         }
         
-        let b = dict!.objectForKey(key) as Bool?
+        let b = dict!.objectForKey(key) as! Bool?
         
         return b
         

@@ -73,7 +73,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
         }
         
         //
-        UniversityAccessor.instance.getProgramInstanceInfo(programInstanceId!, getProgramInstanceInfoHandler)
+        UniversityAccessor.instance.getProgramInstanceInfo(programInstanceId!, callback: getProgramInstanceInfoHandler)
     }
     
     func getProgramInstanceInfoHandler(success: Bool, data: NSDictionary?) {
@@ -135,7 +135,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:
-            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as ProgramInstanceTableViewInfoCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewInfoCellReuseIdentifier", forIndexPath: indexPath) as! ProgramInstanceTableViewInfoCell
             
             // Configure the cell
             if (self.data == nil) {
@@ -145,7 +145,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
             
             return cell
         case 1:
-            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewContactCellReuseIdentifier", forIndexPath: indexPath) as ProgramInstanceTableViewContactCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("ProgramInstanceTableViewContactCellReuseIdentifier", forIndexPath: indexPath) as! ProgramInstanceTableViewContactCell
             
             // Configure the cell
             if (self.data == nil) {
@@ -168,7 +168,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -218,7 +218,7 @@ class ProgramInstanceViewController: GAITrackedViewController, UIAlertViewDelega
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

@@ -19,22 +19,22 @@ class UniversityRankingTableViewCell: UITableViewCell {
     @IBOutlet var rankLabel: UILabel?
     
     func configure(item: HLUniversityPreviewWithRank) {
-        titleLabel?.text = item.title
-        noteLabel?.text = item.note
-        subtitleLabel?.text = item.chineseName
+        titleLabel?.text = item.title as? String
+        noteLabel?.text = item.note as? String
+        subtitleLabel?.text = item.chineseName as? String
         
         if (item.score == nil || item.score! == 0.0) {
             scoreLabel?.hidden = true
         }
         else {
-            scoreLabel?.text = NSString(format: "%.3g", item.score!)
+            scoreLabel?.text = NSString(format: "%.3g", item.score!) as String
         }
         
         rankLabel?.text = String(item.rank!)
         
         let name = item.icon!.address
         if (name != nil) {
-            iconImageView?.sd_setImageWithURL(NSURL(string: name!), placeholderImage: UIImage(named: "ImagePlaceHolder"))
+            iconImageView?.sd_setImageWithURL(NSURL(string: name! as String), placeholderImage: UIImage(named: "ImagePlaceHolder"))
         }
     }
     

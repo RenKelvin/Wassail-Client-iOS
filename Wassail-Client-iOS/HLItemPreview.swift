@@ -21,7 +21,7 @@ class HLItemPreview: HLItem {
         super.init(json: json)
         
         // Body
-        let jsonBody = json.objectForKey("body") as NSDictionary
+        let jsonBody = json.objectForKey("body") as! NSDictionary
 
         title = jsonBody.objectForKey("title") as? NSString
         note = jsonBody.objectForKey("note") as? NSString

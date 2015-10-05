@@ -73,20 +73,20 @@ class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelega
     // MARK: -
     
     func getRateString() -> NSString{
-        var stringFormat: NSString = "%.1f%%"
+        let stringFormat: NSString = "%.1f%%"
         
         if (rate == 0.15) {
-            return "推荐小费" + String(format: stringFormat, rate*100)
+            return "推荐小费" + String(format: stringFormat as String, rate*100)
         }
         else {
-            return String(format: stringFormat, rate*100)
+            return String(format: stringFormat as String, rate*100)
         }
     }
     
     func updateViews() {
         amountTextField!.text = String(format: "%.2f", amount)
         
-        rateLabel!.text = self.getRateString()
+        rateLabel!.text = self.getRateString() as String
         
         tipsTextField!.text = String(format: "%.2f", tips)
         totalTextField!.text = String(format: "%.2f", total)
@@ -196,7 +196,7 @@ class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelega
     }
     
     @IBAction func decNum() {
-        let n = NSString(string: numTextField!.text).integerValue
+        let n = NSString(string: numTextField!.text!).integerValue
         
         if (n == 1) {
             return
@@ -209,7 +209,7 @@ class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelega
     }
     
     @IBAction func incNum() {
-        let n = NSString(string: numTextField!.text).integerValue
+        let n = NSString(string: numTextField!.text!).integerValue
         
         if (n == 99) {
             return
@@ -243,8 +243,8 @@ class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelega
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        amount = NSString(string: textField.text).doubleValue
-        textField.text = NSString(format: "%.2f", amount)
+        amount = NSString(string: textField.text!).doubleValue
+        textField.text = NSString(format: "%.2f", amount) as String
         
         self.updateNumbers()
         
@@ -265,7 +265,7 @@ class TipsCalculatorViewController: GAITrackedViewController, UIScrollViewDelega
             return
         }
         
-        rate = (scrollView as RKScrollerView).getRate()
+        rate = (scrollView as! RKScrollerView).getRate()
         
         self.updateNumbers()
     }

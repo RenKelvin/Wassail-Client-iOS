@@ -12,8 +12,8 @@ class HLItemBuilder: NSObject {
     
     class func build(json: NSDictionary) -> HLItem? {
         
-        let type = json.objectForKey("type") as NSString?
-        let name = json.objectForKey("name") as NSString?
+        let type = json.objectForKey("type") as! NSString?
+        _ = json.objectForKey("name") as! NSString?
         
         if (type == nil) {
             return nil

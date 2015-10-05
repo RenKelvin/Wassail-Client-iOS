@@ -12,7 +12,7 @@ class RKApplyButton: UIButton {
     
     @IBOutlet var textLabel: UILabel?
 
-    var status: Int = 0
+    var stat: Int = 0
     
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -24,7 +24,7 @@ class RKApplyButton: UIButton {
     
     func setStatus(status: Int) {
 
-        self.status = status
+        self.stat = status
         
         var title = ""
         var color = UIColor.clearColor()

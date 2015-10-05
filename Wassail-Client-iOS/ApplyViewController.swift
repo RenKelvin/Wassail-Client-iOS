@@ -77,7 +77,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
         
         titleLabel!.text = preview!.universityName
         noteLabel!.text = preview!.programName
-        dateLabel!.text = preview!.deadlineDate.normalString()
+        dateLabel!.text = preview!.deadlineDate.normalString() as? String
         
         iconImageView!.sd_setImageWithURL(NSURL(string: preview!.iconAddress), placeholderImage: UIImage(named: "ImagePlaceHolder"))
         
@@ -96,7 +96,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
         }
         
         // Apply stats
-        ApplyAccessor.instance.getApplyStats(programInstanceId, getApplyStatsHandler)
+        ApplyAccessor.instance.getApplyStats(programInstanceId, callback: getApplyStatsHandler)
     }
     
     func getApplyStatsHandler(success: Bool, data: NSDictionary?) {
@@ -141,23 +141,23 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         let array = requirements!.getRequirements() as NSArray
-        let subArray = array[section] as NSArray
+        let subArray = array[section] as! NSArray
         
         return subArray.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyTableViewCellReuseIdentifier", forIndexPath: indexPath) as! ApplyTableViewCell
         
         // Configure the cell
         let array = requirements!.getRequirements() as NSArray
-        let subArray = array[indexPath.section] as NSArray
-        let req = subArray[indexPath.row] as NSArray
-        cell.tag = req[0] as Int
-        cell.titleLabel!.text = req[1] as NSString
-        cell.noteLabel!.text = req[2] as NSString
+        let subArray = array[indexPath.section] as! NSArray
+        let req = subArray[indexPath.row] as! NSArray
+        cell.tag = req[0] as! Int
+        cell.titleLabel!.text = req[1] as? String
+        cell.noteLabel!.text = req[2] as? String
         
-        let done = apply!.getDone(req[0] as Int) as Bool
+        let done = apply!.getDone(req[0] as! Int) as Bool
         cell.checkButton!.selected = done
         cell.apply = self.apply
         
@@ -167,7 +167,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -216,7 +216,7 @@ class ApplyViewController: GAITrackedViewController, UIActionSheetDelegate {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

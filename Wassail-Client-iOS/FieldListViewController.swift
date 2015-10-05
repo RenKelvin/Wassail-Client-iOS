@@ -53,7 +53,7 @@ class FieldListViewController: GAITrackedViewController {
             return
         }
         
-        list = ListInfo.instance.getList(listName!)
+        list = ListInfo.instance.getList(listName! as String)
         
     }
 
@@ -88,14 +88,14 @@ class FieldListViewController: GAITrackedViewController {
             return UITableViewCell()
         }
         if (!item!.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item!)")
+            print("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "FieldListTableViewCellReuseIdentifier"
+        let cellReuseIdentifier = "FieldListTableViewCellReuseIdentifier"
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewSimple54Cell
-        cell.configure(item as HLItemPreview)
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as! ListTableViewSimple54Cell
+        cell.configure(item as! HLItemPreview)
         
         return cell
     }
@@ -104,13 +104,13 @@ class FieldListViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         if (list == nil) {
             return headerView
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         headerView.setTitle(title)
         
@@ -123,7 +123,7 @@ class FieldListViewController: GAITrackedViewController {
             return 0.0
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         if (title == "-" || title == "~") {
             return 0.0
@@ -142,13 +142,13 @@ class FieldListViewController: GAITrackedViewController {
             return
         }
         
-        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as! HLItemPreview
         
         if (itemPreview.sourceType == nil) {
             return
         }
         
-        let segueIdentifier = "FieldList" + itemPreview.sourceType! + "SegueIdentifier"
+        let segueIdentifier = "FieldList" + (itemPreview.sourceType as! String) + "SegueIdentifier"
         self.performSegueWithIdentifier(segueIdentifier, sender: itemPreview.address)
         
     }
@@ -160,7 +160,7 @@ class FieldListViewController: GAITrackedViewController {
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
 

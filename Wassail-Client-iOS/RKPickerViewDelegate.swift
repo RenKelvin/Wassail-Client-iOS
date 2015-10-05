@@ -10,6 +10,6 @@ import Foundation
 
 protocol RKPickerViewDelegate {
     
-    func pickerView(#pickerView: RKPickerView, didselectedAtIndex i: Int)
+    func pickerView(pickerView pickerView: RKPickerView, didselectedAtIndex i: Int)
     
 }

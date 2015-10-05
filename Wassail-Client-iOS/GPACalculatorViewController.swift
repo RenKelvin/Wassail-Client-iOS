@@ -82,11 +82,11 @@ class GPACalculatorViewController: GAITrackedViewController {
     // MARK: -
     
     func updateViews() {
-        inputTextField!.text = NSString(format: "%.2f", input)
+        inputTextField!.text = NSString(format: "%.2f", input) as String
         
-        gpaLabel!.text = NSString(format: "%.2f", gpa)
+        gpaLabel!.text = NSString(format: "%.2f", gpa) as String
         
-        rankingLabel!.text = NSString(format: "恭喜！你的成绩超过了%.1f%%的申请者！", ranking*100)
+        rankingLabel!.text = NSString(format: "恭喜！你的成绩超过了%.1f%%的申请者！", ranking*100) as String
     }
     
     func updateNumbers() {
@@ -122,7 +122,7 @@ class GPACalculatorViewController: GAITrackedViewController {
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -147,8 +147,8 @@ class GPACalculatorViewController: GAITrackedViewController {
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        input = NSString(string: textField.text).doubleValue
-        textField.text = NSString(format: "%.2f", input)
+        input = NSString(string: textField.text!).doubleValue
+        textField.text = NSString(format: "%.2f", input) as String
         
         info.setMyGPA(input)
         

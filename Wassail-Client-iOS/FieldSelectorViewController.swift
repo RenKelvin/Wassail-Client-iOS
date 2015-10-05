@@ -53,7 +53,7 @@ class FieldSelectorViewController: GAITrackedViewController {
             return
         }
         
-        list = ListInfo.instance.getList(listName!)
+        list = ListInfo.instance.getList(listName! as String)
         
     }
     
@@ -94,14 +94,14 @@ class FieldSelectorViewController: GAITrackedViewController {
             return UITableViewCell()
         }
         if (!item!.isKindOfClass(HLItemPreview)) {
-            println("Wrong list item: \(item!)")
+            print("Wrong list item: \(item!)")
             return UITableViewCell()
         }
         
-        var cellReuseIdentifier = "FieldSelectorTableViewCellReuseIdentifier"
+        let cellReuseIdentifier = "FieldSelectorTableViewCellReuseIdentifier"
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ListTableViewSimple54Cell
-        cell.configure(item as HLItemPreview)
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as! ListTableViewSimple54Cell
+        cell.configure(item as! HLItemPreview)
         
         return cell
     }
@@ -110,13 +110,13 @@ class FieldSelectorViewController: GAITrackedViewController {
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
         
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         if (list == nil) {
             return headerView
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         headerView.setTitle(title)
         
@@ -129,7 +129,7 @@ class FieldSelectorViewController: GAITrackedViewController {
             return 0.0
         }
         
-        var title: String = list!.titleForGroup(section)
+        let title: String = list!.titleForGroup(section) as String
         
         if (title == "-" || title == "~") {
             return 0.0
@@ -148,7 +148,7 @@ class FieldSelectorViewController: GAITrackedViewController {
             return
         }
         
-        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as HLItemPreview
+        let itemPreview = list!.item(indexPath.section, row: indexPath.row) as! HLItemPreview
         
         // Set default field
         self.dismissViewControllerAnimated(true, completion: nil)
@@ -164,7 +164,7 @@ class FieldSelectorViewController: GAITrackedViewController {
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

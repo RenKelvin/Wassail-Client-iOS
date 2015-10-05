@@ -25,11 +25,11 @@ class UniversityAccessor: NSObject {
     }
     
     func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
-        CloudMediator.instance.getUniversityRanking(name, callback)
+        CloudMediator.instance.getUniversityRanking(name, callback: callback)
     }
 
     func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
-        CloudMediator.instance.getProgramInstanceInfo(id, callback)
+        CloudMediator.instance.getProgramInstanceInfo(id, callback: callback)
     }
     
 }

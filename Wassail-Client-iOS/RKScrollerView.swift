@@ -17,14 +17,14 @@ class RKScrollerView: UIScrollView {
         
         var cur: Double = 0.0
         for i in 0...99 {
-            var label = UILabel()
+            let label = UILabel()
             
             label.font = UIFont.boldSystemFontOfSize(32.0)
             label.textAlignment = NSTextAlignment.Center
             label.textColor = UIColor.whiteColor()
             label.text = String(i)
             
-            let size = label.frame.size
+            _ = label.frame.size
             label.frame = CGRect(origin: CGPoint(x: cur, y: 8), size: CGSize(width: CGFloat(itemWidth), height: 38.0))
             cur += itemWidth
             
@@ -57,7 +57,7 @@ class RKScrollerView: UIScrollView {
     
     func scrollTo(rate: Double) {
         
-        var x: Double = itemWidth * rate * 100 - indent
+        let x: Double = itemWidth * rate * 100 - indent
         
         // TODO: > 99
         

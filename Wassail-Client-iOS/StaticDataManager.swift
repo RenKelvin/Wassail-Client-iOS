@@ -47,8 +47,14 @@ class StaticDataManager: NSObject {
         if (true) {
             let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
             if (urlRes != nil) {
-                NSFileManager.defaultManager().removeItemAtURL(url, error: nil)
-                NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+                do {
+                    try NSFileManager.defaultManager().removeItemAtURL(url)
+                } catch _ {
+                }
+                do {
+                    try NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url)
+                } catch _ {
+                }
                 NSUserDefaults.standardUserDefaults().setBool(true, forKey: "staticDataStoreDidCopy121")
             }
         }
@@ -57,24 +63,33 @@ class StaticDataManager: NSObject {
         if (!NSFileManager.defaultManager().fileExistsAtPath(url.path!)) {
             let urlRes = NSBundle.mainBundle().URLForResource("Static", withExtension: "sqlite")
             if (urlRes != nil) {
-                NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url, error: nil)
+                do {
+                    try NSFileManager.defaultManager().copyItemAtURL(urlRes!, toURL: url)
+                } catch _ {
+                }
             }
         }
 
         var error: NSError? = nil
         var failureReason = "There was an error creating or loading the application's saved data."
-        if coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Static", URL: url, options: nil, error: &error) == nil {
+        do {
+            try coordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: "Static", URL: url, options: nil)
+        } catch var error1 as NSError {
+            error = error1
             coordinator = nil
             // Report any error we got.
             let dict = NSMutableDictionary()
             dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
             dict[NSLocalizedFailureReasonErrorKey] = failureReason
             dict[NSUnderlyingErrorKey] = error
-            error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+            // error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+            error = nil
             // Replace this with code to handle the error appropriately.
             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog("Unresolved error \(error), \(error!.userInfo)")
             abort()
+        } catch {
+            fatalError()
         }
         
         return coordinator
@@ -96,11 +111,16 @@ class StaticDataManager: NSObject {
     func saveContext () {
         if let moc = self.managedObjectContext {
             var error: NSError? = nil
-            if moc.hasChanges && !moc.save(&error) {
-                // Replace this implementation with code to handle the error appropriately.
-                // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                NSLog("Unresolved error \(error), \(error!.userInfo)")
-                abort()
+            if moc.hasChanges {
+                do {
+                    try moc.save()
+                } catch let error1 as NSError {
+                    error = error1
+                    // Replace this implementation with code to handle the error appropriately.
+                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                    NSLog("Unresolved error \(error), \(error!.userInfo)")
+                    abort()
+                }
             }
         }
     }

@@ -30,7 +30,7 @@ class BrowserViewController: GAITrackedViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.url = NSURL(string: address)
+        self.url = NSURL(string: address as String)
         self.request = NSURLRequest(URL: self.url!)
         
         // Load request
@@ -59,7 +59,7 @@ class BrowserViewController: GAITrackedViewController {
     
     override func setInfo(info: AnyObject?) {
         if (info != nil) {
-            address = info as NSString
+            address = info as! NSString
         }
     }
     
@@ -79,7 +79,7 @@ class BrowserViewController: GAITrackedViewController {
         
         //        println("Webview did start")
         
-        self.urlLabel!.text = self.request!.URL.absoluteString!
+        self.urlLabel!.text = self.request!.URL!.absoluteString
         
         self.indicator!.startAnimating()
     }
@@ -96,7 +96,7 @@ class BrowserViewController: GAITrackedViewController {
     
     func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
         
-        println("Webview did failed: \(error)")
+        print("Webview did failed: \(error)")
         
         self.indicator!.stopAnimating()
         self.indicator!.hidden = true

@@ -69,11 +69,11 @@ class ApplyManagerViewController: GAITrackedViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyManagerTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyManagerTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ApplyManagerTableViewCellReuseIdentifier", forIndexPath: indexPath) as! ApplyManagerTableViewCell
         
         // Configure the cell
         let array = info.getAllApplies()
-        let apply = array!.objectAtIndex(indexPath.row) as HLApply
+        let apply = array!.objectAtIndex(indexPath.row) as! HLApply
         
         cell.configure(apply)
         
@@ -83,7 +83,7 @@ class ApplyManagerViewController: GAITrackedViewController {
     // MARK: - Table view delegate
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -105,7 +105,7 @@ class ApplyManagerViewController: GAITrackedViewController {
         
         //
         let array = info.getAllApplies()
-        let apply = array!.objectAtIndex(indexPath.row) as HLApply
+        let apply = array!.objectAtIndex(indexPath.row) as! HLApply
         
         self.performSegueWithIdentifier("ApplyManagerApplySegueIdentifier", sender: apply)
         
@@ -122,7 +122,7 @@ class ApplyManagerViewController: GAITrackedViewController {
             
             // get the apply
             let array = info.getAllApplies()
-            let apply = array!.objectAtIndex(indexPath.row) as HLApply
+            let apply = array!.objectAtIndex(indexPath.row) as! HLApply
             
             // delete the apply
             ApplyAccessor.instance.deleteApply(apply)
@@ -145,7 +145,7 @@ class ApplyManagerViewController: GAITrackedViewController {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

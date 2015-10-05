@@ -20,7 +20,7 @@ class HLUniversityPreviewWithRank: HLItemPreview {
         sourceType = "University"
         
         let j = JSON(json)
-        let jsonBody = json.objectForKey("body") as NSDictionary
+        _ = json.objectForKey("body") as! NSDictionary
         chineseName = j["body"]["chineseName"].stringValue
         score = j["body"]["score"].doubleValue
         rank = j["body"]["rank"].intValue

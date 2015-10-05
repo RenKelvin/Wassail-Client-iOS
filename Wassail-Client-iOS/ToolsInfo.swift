@@ -27,7 +27,7 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        let applyTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(0) as NSArray
+        let applyTools = (tools!.objectForKey("names") as! NSArray).objectAtIndex(0) as! NSArray
         
         return applyTools
     }
@@ -39,7 +39,7 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        let abroadTools = (tools!.objectForKey("names") as NSArray).objectAtIndex(1) as NSArray
+        let abroadTools = (tools!.objectForKey("names") as! NSArray).objectAtIndex(1) as! NSArray
         
         return abroadTools
     }
@@ -51,7 +51,7 @@ class ToolsInfo: NSObject {
             return nil
         }
         
-        let name = ((tools!.objectForKey("names") as NSArray).objectAtIndex(section) as NSArray).objectAtIndex(row) as NSString
+        let name = ((tools!.objectForKey("names") as! NSArray).objectAtIndex(section) as! NSArray).objectAtIndex(row) as! NSString
         
         return self.getTool(name)
     }

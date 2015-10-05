@@ -20,12 +20,12 @@ class CloudMediator: NSObject {
     
     func sendFeedback(text: NSString, callback: (success: Bool) -> Void) {
         
-        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-            println(data)
-            println(response)
-            println(error)
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            print(data)
+            print(response)
+            print(error)
             
-            if (response == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
+            if (response == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false)
             }
             else {
@@ -33,21 +33,21 @@ class CloudMediator: NSObject {
             }
         }
         
-        CloudAdapter.instance.sendFeedback(text, completion)
+        CloudAdapter.instance.sendFeedback(text, completion: completion)
     }
     
     // MARK: - Apply
     
     func getApplyStats(programInstanceId: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         
-        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
             //            println(data)
             //            println(response)
             //            println(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)
             }
             else {
@@ -55,21 +55,21 @@ class CloudMediator: NSObject {
             }
         }
         
-        CloudAdapter.instance.getApplyStats(programInstanceId, completion)
+        CloudAdapter.instance.getApplyStats(programInstanceId, completion: completion)
     }
     
     // MARK: - University
     
     func getUniversityRanking(name: NSString, callback: (success: Bool, list: HLList?) -> Void) {
         
-        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
             // println(data)
             // println(response)
             // println(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, list: nil)
             }
             else {
@@ -84,19 +84,19 @@ class CloudMediator: NSObject {
             }
         }
         
-        CloudAdapter.instance.getUniversityRanking(name, completion)
+        CloudAdapter.instance.getUniversityRanking(name, completion: completion)
     }
     
     func getProgramInstanceInfo(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
         
-        let completion = {(data: NSData!, response: NSURLResponse!, error: NSError!) -> Void in
-            println(data)
-            println(response)
-            println(error)
+        let completion = {(data: NSData?, response: NSURLResponse?, error: NSError?) -> () in
+            print(data)
+            print(response)
+            print(error)
             
-            let dict: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
+            let dict: NSDictionary? = (try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers)) as? NSDictionary
             
-            if (response == nil || dict == nil || (response! as NSHTTPURLResponse).statusCode != 200) {
+            if (response == nil || dict == nil || (response! as! NSHTTPURLResponse).statusCode != 200) {
                 callback(success: false, data: nil)
             }
             else {
@@ -104,7 +104,7 @@ class CloudMediator: NSObject {
             }
         }
         
-        CloudAdapter.instance.getProgramInstanceInfo(id, completion)
+        CloudAdapter.instance.getProgramInstanceInfo(id, completion: completion)
     }
     
 }

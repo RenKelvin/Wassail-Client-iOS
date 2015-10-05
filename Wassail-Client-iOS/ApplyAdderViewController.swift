@@ -158,21 +158,21 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Return the number of sections.
         if (tableView == self.searchDisplayController!.searchResultsTableView) {
-            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
+            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text!)
             if (array == nil) {
-                self.footerViewLabel!.text = NSString(format: "共0个项目")
+                self.footerViewLabel!.text = NSString(format: "共0个项目") as String
             }
             else {
-                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count)
+                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count) as String
             }
         }
         else {
             let array = info.getAllPrograms()
             if (array == nil) {
-                self.footerViewLabel!.text = NSString(format: "共0个项目")
+                self.footerViewLabel!.text = NSString(format: "共0个项目") as String
             }
             else {
-                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count)
+                self.footerViewLabel!.text = NSString(format: "共%d个项目", array!.count) as String
             }
         }
         
@@ -184,7 +184,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
         var array: NSArray?
         
         if (tableView == self.searchDisplayController!.searchResultsTableView) {
-            array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
+            array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text!)
         }
         else {
             array = info.getAllPrograms()
@@ -199,23 +199,23 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as ApplyAdderTableViewCell
+        let cell = self.tableView!.dequeueReusableCellWithIdentifier("ApplyAdderTableViewCellReuseIdentifier", forIndexPath: indexPath) as! ApplyAdderTableViewCell
         
         if (tableView == self.searchDisplayController!.searchResultsTableView) {
-            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text)
+            let array = info.getFilteredPrograms(self.searchDisplayController!.searchBar.text!)
             
             if (array == nil) {
                 return cell
             }
             
-            let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
+            let program = array!.objectAtIndex(indexPath.row) as! HLProgramInstancePreview
             
             cell.configure(program)
         }
             
         else {
             let array = info.getAllPrograms()
-            let program = array!.objectAtIndex(indexPath.row) as HLProgramInstancePreview
+            let program = array!.objectAtIndex(indexPath.row) as! HLProgramInstancePreview
             
             cell.configure(program)
         }
@@ -331,7 +331,7 @@ class ApplyAdderViewController: GAITrackedViewController, UIAlertViewDelegate, U
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

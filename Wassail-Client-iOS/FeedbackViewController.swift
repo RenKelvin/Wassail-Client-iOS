@@ -67,7 +67,7 @@ class FeedbackViewController: GAITrackedViewController, UIAlertViewDelegate {
     // MARK: - IBAction
     
     @IBAction func sendButtonClicked() {
-        DefaultAccessor.instance.sendFeedback(textView!.text, sendFeedBackHandler)
+        DefaultAccessor.instance.sendFeedback(textView!.text, callback: sendFeedBackHandler)
     }
     
     @IBAction func blankTapped() {

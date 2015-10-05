@@ -35,7 +35,7 @@ class RKPickerView: UIView {
         
         for i in 0...(num-1) {
             
-            var button = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).first as UIButton
+            let button = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).first as! UIButton
             
             buttons.addObject(button)
             
@@ -62,9 +62,9 @@ class RKPickerView: UIView {
                 return
             }
             
-            picker = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as UIImageView
+            picker = NSBundle.mainBundle().loadNibNamed("RKPlayground", owner: nil, options: nil).last as! UIImageView
             
-            let button = self.buttons.objectAtIndex(0) as UIButton
+            let button = self.buttons.objectAtIndex(0) as! UIButton
             picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
             self.addSubview(picker!)
         }
@@ -87,9 +87,9 @@ class RKPickerView: UIView {
         }
         
         for i in 0...(units.count-1) {
-            var button = buttons.objectAtIndex(i) as UIButton
-            let unitCN = (units.objectAtIndex(i) as NSDictionary).objectForKey("cn") as NSString
-            button.setTitle(unitCN, forState: UIControlState.Normal)
+            let button = buttons.objectAtIndex(i) as! UIButton
+            let unitCN = (units.objectAtIndex(i) as! NSDictionary).objectForKey("cn") as! NSString
+            button.setTitle(unitCN as String, forState: UIControlState.Normal)
         }
         
     }
@@ -98,14 +98,14 @@ class RKPickerView: UIView {
         
         UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseOut, animations: {
             
-            let button = self.buttons.objectAtIndex(num) as UIButton
+            let button = self.buttons.objectAtIndex(num) as! UIButton
             
             self.picker!.center = (CGPoint: CGPoint(x: button.center.x, y: button.center.y))
             
             },
             completion: {
                 finished in
-                let a = 1
+                _ = 1
             }
         )
         

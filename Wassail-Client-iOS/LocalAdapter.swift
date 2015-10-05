@@ -55,7 +55,7 @@ class LocalAdapter: NSObject {
             return false
         }
         
-        var mdict = NSMutableDictionary(dictionary: dict! as Dictionary)
+        let mdict = NSMutableDictionary(dictionary: dict! as Dictionary)
         mdict.setObject(value, forKey: key)
         
         mdict.writeToURL(url!, atomically: true)
@@ -67,7 +67,7 @@ class LocalAdapter: NSObject {
         
         let url = self.getURL(file, type: "plist", dir: dir)
         if (url == nil) {
-            println("Local Adapter: \(file).plist in not found in \(dir)")
+            print("Local Adapter: \(file).plist in not found in \(dir)")
             return nil
         }
         
@@ -101,15 +101,14 @@ class LocalAdapter: NSObject {
         
         let url = self.getURL(file, type: "json", dir: dir)
         if (url == nil) {
-            println("Local Adapter: \(file).json in not found in \(dir)")
+            print("Local Adapter: \(file).json in not found in \(dir)")
             return nil
         }
         
         let data = NSData(contentsOfFile: url!.path!)
-        var error: NSError? = NSError()
-        let json: NSDictionary? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as? NSDictionary
+        let json: NSDictionary? = try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSDictionary
         if (json == nil) {
-            println("Local Adapter: \(file).json in \(dir) error")
+            print("Local Adapter: \(file).json in \(dir) error")
             return nil
         }
         
@@ -120,15 +119,14 @@ class LocalAdapter: NSObject {
         
         let url = self.getURL(file, type: "json", dir: dir)
         if (url == nil) {
-            println("Local Adapter: \(file).json in not found in \(dir)")
+            print("Local Adapter: \(file).json in not found in \(dir)")
             return nil
         }
         
         let data = NSData(contentsOfFile: url!.path!)
-        var error: NSError? = NSError()
-        let json: NSArray? = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &error) as? NSArray
+        let json: NSArray? = try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
         if (json == nil) {
-            println("Local Adapter: \(file).json in \(dir) error")
+            print("Local Adapter: \(file).json in \(dir) error")
             return nil
         }
         
@@ -137,14 +135,14 @@ class LocalAdapter: NSObject {
     
     // MARK: -
     
-    func getImage(file: String, dir: Directory) -> UIImage? {
+    func getImage(file: NSString, dir: Directory) -> UIImage? {
         
         let path = file.stringByDeletingPathExtension as NSString
         let type = file.pathExtension as NSString
-        let url = self.getURL(path, type: type, dir: dir)
+        let url = self.getURL(path as String, type: type as String, dir: dir)
         
         if (url == nil) {
-            println("Local Adapter: \(file) not found in \(dir)")
+            print("Local Adapter: \(file) not found in \(dir)")
             return nil
         }
         
@@ -153,14 +151,14 @@ class LocalAdapter: NSObject {
         return image
     }
     
-    func getImageURL(file: String, dir: Directory) -> NSURL? {
+    func getImageURL(file: NSString, dir: Directory) -> NSURL? {
         
         let path = file.stringByDeletingPathExtension as NSString
         let type = file.pathExtension as NSString
-        let url = self.getURL(path, type: type, dir: dir)
+        let url = self.getURL(path as String, type: type as String, dir: dir)
         
         if (url == nil) {
-            println("Local Adapter: \(file) not found in \(dir)")
+            print("Local Adapter: \(file) not found in \(dir)")
             return nil
         }
         
@@ -178,12 +176,8 @@ class LocalAdapter: NSObject {
             url = NSBundle.mainBundle().URLForResource(path, withExtension: type)
             
         case .Document:
-            url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as? NSURL
+            url = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0] as NSURL
             url = url?.URLByAppendingPathComponent(String(format: "\(path).\(type)"))
-            
-        default:
-            url = nil
-            
         }
         
         return url

@@ -25,8 +25,8 @@ class UnitConverterTableViewCell: UITableViewCell {
     }
     
     func configure(dict: NSDictionary) {
-        leftLabel!.text = dict.objectForKey("title") as NSString
-        rightLabel!.text = dict.objectForKey("description") as NSString
+        leftLabel!.text = dict.objectForKey("title") as! NSString as String
+        rightLabel!.text = dict.objectForKey("description") as! NSString as String
     }
     
 }

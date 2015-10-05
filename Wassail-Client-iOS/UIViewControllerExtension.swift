@@ -26,7 +26,7 @@ extension UIViewController {
             return
         }
         
-        var bar = self.navigationController!.navigationBar as UINavigationBar
+        let bar = self.navigationController!.navigationBar as UINavigationBar
         
         switch style {
         case .Default:
@@ -57,8 +57,6 @@ extension UIViewController {
             bar.setBackgroundImage(nil, forBarMetrics: UIBarMetrics.Default)
             //            bar.shadowImage = UIImage()
             bar.backgroundColor = UIColor.clearColor()
-        default:
-            ""
         }
     }
 }

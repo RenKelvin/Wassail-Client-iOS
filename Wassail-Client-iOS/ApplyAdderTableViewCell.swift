@@ -32,7 +32,7 @@ class ApplyAdderTableViewCell: UITableViewCell, UIAlertViewDelegate {
     // MARK: - IBAction
     
     @IBAction func statusButtonClicked() {
-        if (statusButton!.status == 0) {
+        if (statusButton!.stat == 0) {
             let alert = UIAlertView(title: "开始申请", message: "确定开始申请该项目吗？", delegate: self, cancelButtonTitle: "取消", otherButtonTitles: "确定")
             alert.show()
         }

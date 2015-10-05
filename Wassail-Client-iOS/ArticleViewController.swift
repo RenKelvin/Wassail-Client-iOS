@@ -91,14 +91,14 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             return
         }
         
-        article = ArticleInfo.instance.getArticle(articleName!)
+        article = ArticleInfo.instance.getArticle(articleName! as String)
         
         if (article == nil) {
             return
         }
         
         if (article!.title == "留学时间表" || article!.title == "常用词汇") {
-            self.navigationItem.title = article!.title
+            self.navigationItem.title = article!.title as? String
             self.tableView!.tableHeaderView = nil
         }
         else {
@@ -116,25 +116,25 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             return
         }
         
-        self.titleLabel!.text = article!.title
+        self.titleLabel!.text = article!.title as? String
         self.titleLabel!.hidden = false
         
         if (article!.author != nil) {
-            self.authorLabel!.text = article!.author!+"  "
+            self.authorLabel!.text = (article!.author! as String)+"  "
         }
         else {
-            self.authorLabel!.text = article!.author
+            self.authorLabel!.text = article!.author as? String
         }
         self.authorLabel!.hidden = false
         
-        self.dateLabel!.text = article!.date
+        self.dateLabel!.text = article!.date as? String
         self.dateLabel!.hidden = false
         
-        self.noteLabel!.text = article!.note
+        self.noteLabel!.text = article!.note as? String
         self.noteLabel!.hidden = false
         
         // headerLabel
-        self.headerLabel!.text = article!.header
+        self.headerLabel!.text = article!.header as? String
         // FIXME: Manually modified preferredMaxLayoutWidth for different devices
         headerLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0
         
@@ -155,10 +155,10 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             return 0.0
         }
         
-        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as ArticleViewController
-        var label = controller.headerLabelPrototype!
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as! ArticleViewController
+        let label = controller.headerLabelPrototype!
         label.frame.size.width = DefaultInfo.instance.getScreenWidth() - 50.0
-        label.text = text!
+        label.text = text as? String
         
         label.sizeToFit()
         
@@ -195,7 +195,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         
         var cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         
-        let type = item!.objectForKey("kind") as NSString
+        let type = item!.objectForKey("kind") as! NSString
         switch type {
         case "Section":
             cellReuseIdentifier = "ArticleTableViewSectionCellReuseIdentifier"
@@ -208,7 +208,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
         }
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as ArticleTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier, forIndexPath: indexPath) as! ArticleTableViewCell
         cell.controller = self
         cell.configure(item)
         
@@ -219,7 +219,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         return cell
     }
     
-    func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject]! {
+    func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
         
         if (article != nil && article!.title == "常用词汇") {
             return ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "#"]
@@ -233,7 +233,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        let h = self.cellHeights.objectForKey(indexPath) as! CGFloat?
         if (h != nil) {
             return h!
         }
@@ -247,27 +247,27 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         var cell: ArticleTableViewCell?
         
         var item = article!.item(indexPath.section, row: indexPath.row) as NSDictionary?
-        let type = item!.objectForKey("kind") as NSString
-        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as ArticleViewController
+        let type = item!.objectForKey("kind") as! NSString
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ArticleViewController") as! ArticleViewController
         
         switch type {
         case "Section":
             cellReuseIdentifier = "ArticleTableViewSectionCellReuseIdentifier"
-            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as ArticleTableViewCell?
+            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as! ArticleTableViewCell?
             if (cell == nil) {
                 cell = controller.sectionCell!
                 self.offscreenCells.setObject(cell!, forKey: cellReuseIdentifier)
             }
         case "Graph":
             cellReuseIdentifier = "ArticleTableViewGraphCellReuseIdentifier"
-            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as ArticleTableViewCell?
+            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as! ArticleTableViewCell?
             if (cell == nil) {
                 cell = controller.graphCell!
                 self.offscreenCells.setObject(cell!, forKey: cellReuseIdentifier)
             }
         case "Item":
             cellReuseIdentifier = "ArticleTableViewItemCellReuseIdentifier"
-            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as ArticleTableViewCell?
+            cell = self.offscreenCells.objectForKey(cellReuseIdentifier) as! ArticleTableViewCell?
             item = item!.objectForKey("content") as? NSDictionary
             if (cell == nil) {
                 cell = controller.itemCell!
@@ -308,7 +308,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        let h = self.cellHeights.objectForKey(indexPath) as CGFloat?
+        let h = self.cellHeights.objectForKey(indexPath) as! CGFloat?
         if (h != nil) {
             return h!
         }
@@ -316,15 +316,15 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         return 256.0
     }
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as RKArticleHeaderView
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKArticleHeaderView", owner: nil, options: nil).first as! RKArticleHeaderView
         
         if (article == nil) {
             return headerView
         }
         
-        var title: String = article!.titleForChapter(section)
+        let title: String = article!.titleForChapter(section) as String
         
         headerView.setTitle(title)
         
@@ -341,7 +341,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
             return 0.0
         }
         
-        var title: String = article!.titleForChapter(section)
+        let title: String = article!.titleForChapter(section) as String
         
         if (title == "-") {
             return 0.0
@@ -352,12 +352,12 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
     
     // MARK: - QLPreviewControllerDatasource
     
-    func numberOfPreviewItemsInPreviewController(controller: QLPreviewController!) -> Int {
+    func numberOfPreviewItemsInPreviewController(controller: QLPreviewController) -> Int {
         return imagesArray.count
     }
     
-    func previewController(controller: QLPreviewController!, previewItemAtIndex index: Int) -> QLPreviewItem! {
-        return imagesArray[index] as NSURL
+    func previewController(controller: QLPreviewController, previewItemAtIndex index: Int) -> QLPreviewItem {
+        return imagesArray[index] as! NSURL
     }
     
     
@@ -368,7 +368,7 @@ class ArticleViewController: GAITrackedViewController, UITableViewDataSource, UI
         
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

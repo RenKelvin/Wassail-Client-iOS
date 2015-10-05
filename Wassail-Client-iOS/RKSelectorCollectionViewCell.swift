@@ -19,8 +19,8 @@ class RKSelectorCollectionViewCell: UICollectionViewCell {
             return
         }
         
-        titleLabel!.text = dict!.objectForKey("title") as NSString
-        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as NSString)
+        titleLabel!.text = dict!.objectForKey("title") as! NSString as String
+        iconImageView!.image = UIImage(named: dict!.objectForKey("icon") as! NSString as String)
     }
     
     func setSelect() {

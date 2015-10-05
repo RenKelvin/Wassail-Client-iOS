@@ -44,12 +44,12 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
         
         // Update date
         let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
-        let components = calendar!.components(.CalendarUnitDay | .CalendarUnitMonth, fromDate: NSDate())
+        let components = calendar!.components([.Day, .Month], fromDate: NSDate())
         
         let month = components.month as Int
         let day = components.day as Int
         
-        monthLabel!.text = NSString(format: "\(month)月")
+        monthLabel!.text = NSString(format: "\(month)月") as String
         dayLabel!.text = String(day)
         
         // Force reload
@@ -87,11 +87,11 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as ToolsTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ToolsTableViewCellReuseIdentifier", forIndexPath: indexPath) as! ToolsTableViewCell
         
         // Configure the cell
         
-        var dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
+        let dict: NSDictionary? = info.getTool(indexPath.section, row: indexPath.row)
         
         if (dict == nil) {
             return cell
@@ -104,8 +104,8 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
     
     // MARK: - Table view delegate
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -185,7 +185,7 @@ class ToolsViewController: GAITrackedViewController, UITableViewDataSource, UITa
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         
-        var controller = segue.destinationViewController as UIViewController
+        let controller = segue.destinationViewController as UIViewController
         controller.setInfo(sender)
     }
     

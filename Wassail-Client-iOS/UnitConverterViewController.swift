@@ -95,10 +95,10 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
         rightPickerView!.reload(units!)
         
         //
-        let string = inputTextField!.text as NSString
+        let string = inputTextField!.text! as NSString
         if (string.length > 1 && string.substringToIndex(1) == "-") {
             inputTextField!.text = string.substringFromIndex(1)
-            input = NSString(string: inputTextField!.text).doubleValue
+            input = NSString(string: inputTextField!.text!).doubleValue
         }
         
         //
@@ -113,8 +113,8 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
         inputTextField!.text = String(format: "%g", input)
         outputTextField!.text = String(format: "%g", output)
         
-        inputUnitLabel!.text = iu!.objectForKey("unit") as NSString
-        outputUnitLabel!.text = ou!.objectForKey("unit") as NSString
+        inputUnitLabel!.text = iu!.objectForKey("unit") as! NSString as String
+        outputUnitLabel!.text = ou!.objectForKey("unit") as! NSString as String
     }
     
     func updateNumbersByInput() {
@@ -132,11 +132,11 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
             return 0.0
         }
         
-        let k1: Double = (iu!.objectForKey("k") as NSString).doubleValue
-        let b1: Double = (iu!.objectForKey("b") as NSString).doubleValue
+        let k1: Double = (iu!.objectForKey("k") as! NSString).doubleValue
+        let b1: Double = (iu!.objectForKey("b") as! NSString).doubleValue
         
-        let k2: Double = (ou!.objectForKey("k") as NSString).doubleValue
-        let b2: Double = (ou!.objectForKey("b") as NSString).doubleValue
+        let k2: Double = (ou!.objectForKey("k") as! NSString).doubleValue
+        let b2: Double = (ou!.objectForKey("b") as! NSString).doubleValue
         
         let output = (k1*input+b1-b2)/k2
         return output
@@ -150,7 +150,7 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     
     @IBAction func zeroButtonTapped() {
         
-        input = NSString(string: inputTextField!.text).doubleValue * (-1.0)
+        input = NSString(string: inputTextField!.text!).doubleValue * (-1.0)
         
         if (input > 0) {
             zeroBarButtonItem!.title = "零下"
@@ -183,12 +183,12 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as UnitConverterTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("UnitConverterTableViewCellReuseIdentifier", forIndexPath: indexPath) as! UnitConverterTableViewCell
         
         switch indexPath.section {
         case 0:
             let knows = info.getKnows(ci)
-            cell.configure(knows![indexPath.row] as NSDictionary)
+            cell.configure(knows![indexPath.row] as! NSDictionary)
             
         default:
             return cell
@@ -199,8 +199,8 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     
     // MARK: - Table view delegate
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView {
-        var headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as RKTableHeaderView
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = NSBundle.mainBundle().loadNibNamed("RKTableHeaderView", owner: nil, options: nil).first as! RKTableHeaderView
         
         var title: String = ""
         switch section {
@@ -236,7 +236,7 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as RKSelectorCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RKSelectorCollectionViewCellReuseIdentifier", forIndexPath: indexPath) as! RKSelectorCollectionViewCell
         
         if (indexPath.row == ci) {
             cell.setSelect()
@@ -250,8 +250,8 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
         if (names == nil) {
             return cell
         }
-        let name = names!.objectAtIndex(indexPath.row) as NSString
-        let dict = info.getCategory(name) as NSDictionary?
+        let name = names!.objectAtIndex(indexPath.row) as! NSString
+        let dict = info.getCategoryByName(name as String) as NSDictionary?
         cell.configure(dict)
         
         return cell
@@ -270,14 +270,14 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let height = selectorView!.bounds.size.height
         let number = CGFloat(info.numberOfCategories())
-        var width = selectorView!.bounds.size.width / number
+        let width = selectorView!.bounds.size.width / number
         
         return CGSize(width: width, height: height)
     }
     
     // MARK: - RKPickerViewDelegate
     
-    func pickerView(#pickerView: RKPickerView, didselectedAtIndex i: Int) {
+    func pickerView(pickerView pickerView: RKPickerView, didselectedAtIndex i: Int) {
         
         switch pickerView.tag {
         case 0:
@@ -295,7 +295,7 @@ class UnitConverterViewController: GAITrackedViewController, UITableViewDataSour
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        input = NSString(string: textField.text).doubleValue
+        input = NSString(string: textField.text!).doubleValue
         
         self.updateNumbersByInput()
         

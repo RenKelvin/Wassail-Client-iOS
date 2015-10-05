@@ -25,7 +25,7 @@ class Wassail_v1: NSObject {
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(text, forKey: "message")
         
-        CloudAdapter.instance.post(api, body: body, completion)
+        CloudAdapter.instance.post(api, body: body, completion: completion)
     }
     
     func getApplyStats(programInstanceId: NSNumber, completion: NormalClosure) {
@@ -35,7 +35,7 @@ class Wassail_v1: NSObject {
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(programInstanceId.integerValue, forKey: "programInstanceId")
         
-        CloudAdapter.instance.get(api, body: body, completion)
+        CloudAdapter.instance.get(api, body: body, completion: completion)
     }
     
     func getUniversityRanking(name: NSString, completion: NormalClosure) {
@@ -45,7 +45,7 @@ class Wassail_v1: NSObject {
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(name, forKey: "rankingName")
         
-        CloudAdapter.instance.get(api, body: body, completion)
+        CloudAdapter.instance.get(api, body: body, completion: completion)
     }
     
     func getProgramInstanceInfo(id: NSNumber, completion: NormalClosure) {
@@ -55,7 +55,7 @@ class Wassail_v1: NSObject {
         let body: NSMutableDictionary = NSMutableDictionary()
         body.setObject(id.integerValue, forKey: "programInstanceId")
         
-        CloudAdapter.instance.get(api, body: body, completion)
+        CloudAdapter.instance.get(api, body: body, completion: completion)
     }
 
 }

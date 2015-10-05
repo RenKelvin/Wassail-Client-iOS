@@ -37,7 +37,7 @@ class ApplyAccessor: NSObject {
     }
     
     func getApplyStats(id: NSNumber, callback: (success: Bool, data: NSDictionary?) -> Void) {
-        CloudMediator.instance.getApplyStats(id, callback)
+        CloudMediator.instance.getApplyStats(id, callback: callback)
     }
 
 }

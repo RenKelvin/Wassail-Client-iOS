@@ -59,7 +59,7 @@ class ApplyAdderInfo: NSObject {
         }
         
         let predicate = NSPredicate(format: "year == %d && season == %d && degreeType == %d", year, season, degree)
-        let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
+        let filteredArray = array!.filteredArrayUsingPredicate(predicate)
         
         data = filteredArray
     }
@@ -75,7 +75,7 @@ class ApplyAdderInfo: NSObject {
         }
         
         let predicate = NSPredicate(format: "field == %d", field)
-        let filteredArray = data!.filteredArrayUsingPredicate(predicate!)
+        let filteredArray = data!.filteredArrayUsingPredicate(predicate)
         
         return filteredArray
     }
@@ -97,7 +97,7 @@ class ApplyAdderInfo: NSObject {
         }
         
         let predicate = NSPredicate(format: "universityName CONTAINS[c] %@ || programName CONTAINS[c] %@", text ,text)
-        let filteredArray = array!.filteredArrayUsingPredicate(predicate!)
+        let filteredArray = array!.filteredArrayUsingPredicate(predicate)
         
         self.searchText = text
         self.searchResultsArray = filteredArray

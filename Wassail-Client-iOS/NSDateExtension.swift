@@ -12,17 +12,17 @@ extension NSDate {
     
     class func dateWithString(string: NSString) -> NSDate? {
         
-        var df: NSDateFormatter = NSDateFormatter()
+        let df: NSDateFormatter = NSDateFormatter()
         df.timeZone = NSTimeZone.defaultTimeZone()
         df.dateFormat = "yyyy-MM-dd"
         
-        return df.dateFromString(string)
+        return df.dateFromString(string as String)
     }
     
      func normalString() -> NSString? {
         
         let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar)
-        let components = calendar!.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: self)
+        let components = calendar!.components([.Year, .Month, .Day], fromDate: self)
         
         let year = components.year as Int
         let month = components.month as Int

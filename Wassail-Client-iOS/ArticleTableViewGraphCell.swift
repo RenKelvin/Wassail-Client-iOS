@@ -18,7 +18,7 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
             return
         }
         
-        let text = item!.objectForKey("content") as NSString?
+        let text = item!.objectForKey("content") as! NSString?
         if (text == nil) {
             graphLabel!.text = nil
         }
@@ -26,7 +26,7 @@ class ArticleTableViewGraphCell: ArticleTableViewCell {
             graphLabel!.text = ""
         }
         else {
-            graphLabel!.text = text!
+            graphLabel!.text = text! as String
         }
         // FIXME: Manually modified preferredMaxLayoutWidth for different devices
         graphLabel!.preferredMaxLayoutWidth = DefaultInfo.instance.getScreenWidth() - 30.0

@@ -28,9 +28,9 @@ class DatabaseMediator: NSObject {
         
         // Insert each object
         for dict in array! {
-            var object: HLProgramInstancePreview? = DatabaseAdapter.instance.create("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstancePreview
+            let object: HLProgramInstancePreview? = DatabaseAdapter.instance.create("HLProgramInstancePreview", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstancePreview
             
-            object!.configure(dict as NSDictionary)
+            object!.configure(dict as! NSDictionary)
         }
     }
 
@@ -44,15 +44,15 @@ class DatabaseMediator: NSObject {
         
         // Insert each object
         for dict in array! {
-            var object: HLProgramInstanceRequirements? = DatabaseAdapter.instance.create("HLProgramInstanceRequirements", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstanceRequirements
+            let object: HLProgramInstanceRequirements? = DatabaseAdapter.instance.create("HLProgramInstanceRequirements", context: StaticDataManager.instance.managedObjectContext!) as? HLProgramInstanceRequirements
             
-            object!.configure(dict as NSDictionary)
+            object!.configure(dict as! NSDictionary)
         }
     }
     
     func getProgramInstancePreviewList() -> NSArray? {
         
-        var sortDescriptors: NSMutableArray = NSMutableArray()
+        let sortDescriptors: NSMutableArray = NSMutableArray()
         let sortDescriptor1 = NSSortDescriptor(key: "universityName", ascending: true)
         sortDescriptors.addObject(sortDescriptor1)
         let sortDescriptor2 = NSSortDescriptor(key: "programName", ascending: true)
@@ -63,7 +63,7 @@ class DatabaseMediator: NSObject {
     
     func getApplyList() -> NSArray? {
         
-        var sortDescriptors: NSMutableArray = NSMutableArray()
+        let sortDescriptors: NSMutableArray = NSMutableArray()
         let sortDescriptor = NSSortDescriptor(key: "status", ascending: true)
         sortDescriptors.addObject(sortDescriptor)
         

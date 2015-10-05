@@ -26,8 +26,8 @@ class RKNumbersView: UITableView {
         
         var cur: Double = 15.0
         
-        for i in 0...(num-1) {
-            var label = UILabel()
+        for _ in 0...(num-1) {
+            let label = UILabel()
             
             label.font = UIFont.boldSystemFontOfSize(16.0)
             label.textAlignment = NSTextAlignment.Center
@@ -50,8 +50,8 @@ class RKNumbersView: UITableView {
         self.generateLabels(header.count)
         
         for i in 1...header.count {
-            var label = labels.objectAtIndex(i-1) as UILabel
-            label.text = header.objectAtIndex(i-1) as NSString
+            let label = labels.objectAtIndex(i-1) as! UILabel
+            label.text = header.objectAtIndex(i-1) as! NSString as String
         }
         
         self.reloadData()
