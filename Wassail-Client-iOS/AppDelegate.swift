@@ -8,7 +8,7 @@
 
 import UIKit
 import Fabric
-import Answers
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         // Init Fabric
-        Fabric.with([Answers.self])
+        Fabric.with([Answers.self, Crashlytics.self])
 
         // Init Google Analytics
         GAIAdapter.instance().initialize()

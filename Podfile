@@ -5,6 +5,6 @@
 
 target 'Wassail-Client-iOS' do
     pod 'Fabric'
-    pod 'Answers'
+    pod 'Crashlytics'
 end
 
