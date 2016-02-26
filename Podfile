@@ -4,6 +4,7 @@
 # use_frameworks!
 
 target 'Wassail-Client-iOS' do
-
+    pod 'Fabric'
+    pod 'Answers'
 end
 

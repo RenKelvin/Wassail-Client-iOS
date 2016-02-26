@@ -19,7 +19,21 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>3132</string>
+	<string>3134</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>1bed3f48ab8b1205fe0d204097f42dee0885e3d2</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Answers</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSMinimumSystemVersion</key>
 	<string>8.0</string>
 	<key>LSRequiresIPhoneOS</key>

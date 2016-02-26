@@ -1,1 +1,14 @@
+PODS:
+  - Answers (1.2.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.6)
+
+DEPENDENCIES:
+  - Answers
+  - Fabric
+
+SPEC CHECKSUMS:
+  Answers: f47bc44937ab00fe5a119b16df28e1d1aeadcf84
+  Fabric: 1abc1e59f11fa39ede6f690ef7309d8563e3ec59
+
 COCOAPODS: 0.39.0

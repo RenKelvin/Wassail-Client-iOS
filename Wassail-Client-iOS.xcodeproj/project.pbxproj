@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39EE1CB02372191489B99400 /* libPods-Wassail-Client-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */; };
 		AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C819F37695006F433C /* 3.10education.jpg */; };
 		AD0E75E319F37695006F433C /* 3.11education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C919F37695006F433C /* 3.11education.jpg */; };
 		AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CA19F37695006F433C /* 3.12education.jpg */; };
@@ -662,6 +663,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A57CE9F11BD83A3D00EEBCE1 /* Wassail-Client-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Wassail-Client-iOS.entitlements"; sourceTree = "<group>"; };
 		AD0E75C819F37695006F433C /* 3.10education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.10education.jpg; sourceTree = "<group>"; };
 		AD0E75C919F37695006F433C /* 3.11education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.11education.jpg; sourceTree = "<group>"; };
@@ -959,6 +962,7 @@
 		ADF2ABE01A036B8C00DA02C3 /* 3.7教育学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.7教育学院排名.md.json"; sourceTree = "<group>"; };
 		ADF2ABE11A036B8C00DA02C3 /* 3.8卫生学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.8卫生学院排名.md.json"; sourceTree = "<group>"; };
 		ADF2ABE21A036B8C00DA02C3 /* 3.9法学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.9法学院排名.md.json"; sourceTree = "<group>"; };
+		C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wassail-Client-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0393CD19FCF33C00D0E755 /* WassailModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WassailModel.xcdatamodel; sourceTree = "<group>"; };
 		FE0393CF19FCF42000D0E755 /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		FE0393D219FCFE2C00D0E755 /* ApplyAdderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderInfo.swift; sourceTree = "<group>"; };
@@ -1373,12 +1377,22 @@
 				FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */,
 				FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */,
 				FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */,
+				39EE1CB02372191489B99400 /* libPods-Wassail-Client-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C53C492276D3F743FE94D06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */,
+				6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1768,6 +1782,14 @@
 			path = "大学排名v2";
 			sourceTree = "<group>";
 		};
+		C884C56994F07126EF29F9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE0393D119FCFA1B00D0E755 /* University */ = {
 			isa = PBXGroup;
 			children = (
@@ -1924,6 +1946,8 @@
 			children = (
 				FE5B1F8C19B4033B00842C3D /* Wassail-Client-iOS */,
 				FE5B1F8B19B4033B00842C3D /* Products */,
+				6C53C492276D3F743FE94D06 /* Pods */,
+				C884C56994F07126EF29F9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2594,10 +2618,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE5B1FA619B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOS" */;
 			buildPhases = (
+				A66B2096B20F37FC6A08DB67 /* Check Pods Manifest.lock */,
 				FE5B1F8619B4033B00842C3D /* Sources */,
 				FE5B1F8719B4033B00842C3D /* Frameworks */,
 				FE5B1F8819B4033B00842C3D /* Resources */,
 				FE1BD44719D9874600C2EC36 /* Run Script */,
+				7B8296E57C1D5324F4FEC566 /* Embed Pods Frameworks */,
+				B3B3707B6662045244938839 /* Copy Pods Resources */,
+				A56241891C8026E8002BBF3E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -3178,6 +3206,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7B8296E57C1D5324F4FEC566 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56241891C8026E8002BBF3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1bed3f48ab8b1205fe0d204097f42dee0885e3d2 9ebdd270da0962437bbd2f71588d4f1d4de97ed24432618d65a9b0278377d9b1";
+		};
+		A66B2096B20F37FC6A08DB67 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B3707B6662045244938839 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FE1BD44719D9874600C2EC36 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3418,6 +3504,7 @@
 		};
 		FE5B1FA719B4033B00842C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -3439,7 +3526,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Wassail-Client-iOS",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haileinfotech.wassail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -3452,6 +3542,7 @@
 		};
 		FE5B1FA819B4033B00842C3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -3473,7 +3564,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Wassail-Client-iOS",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haileinfotech.wassail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

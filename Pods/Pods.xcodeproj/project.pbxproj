@@ -6,43 +6,157 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9CA589214BE772157E7E4047F540088E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B1E5E8F99695EC229B02444217C9C490 /* Pods-Wassail-Client-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA6F4EAF89CA8532D88AFD2776403C /* Pods-Wassail-Client-iOS-dummy.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		042C3B5676B5C1A58E642F33C9EC3607 /* Pods-Wassail-Client-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wassail-Client-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3281BB2D5B5D8BDB260AE40EF598D9D4 /* Pods-Wassail-Client-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wassail-Client-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		518C821E496259470F67B3B551C7EA22 /* Pods-Wassail-Client-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wassail-Client-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD489DA0DC4040679C3CD47776207A6 /* libPods-Wassail-Client-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wassail-Client-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA6F4EAF89CA8532D88AFD2776403C /* Pods-Wassail-Client-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wassail-Client-iOS-dummy.m"; sourceTree = "<group>"; };
+		B54B2C4A0F52DB14E2694089D6E9F5FE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCF9652B3CC5C97E71B354779D4B9D5C /* Pods-Wassail-Client-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wassail-Client-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		CC2953195CC6E33BC8264AA6781937E5 /* Pods-Wassail-Client-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wassail-Client-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7F4183FAC52D6FAC9B09CF612264B23 /* Pods-Wassail-Client-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wassail-Client-iOS-resources.sh"; sourceTree = "<group>"; };
+		DCAF212A5746CA50EB63AA4219F0CD6B /* Answers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Answers.framework; path = iOS/Answers.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		F08822C3B1078B548E76C1ED5946D292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA589214BE772157E7E4047F540088E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		09C5E90726D2521A760312DBF50D9358 /* Products */ = {
+		3751BEF9F35A4CBAA902D5DDFC7EDB0B /* Pods-Wassail-Client-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				042C3B5676B5C1A58E642F33C9EC3607 /* Pods-Wassail-Client-iOS-acknowledgements.markdown */,
+				CC2953195CC6E33BC8264AA6781937E5 /* Pods-Wassail-Client-iOS-acknowledgements.plist */,
+				A0CA6F4EAF89CA8532D88AFD2776403C /* Pods-Wassail-Client-iOS-dummy.m */,
+				BCF9652B3CC5C97E71B354779D4B9D5C /* Pods-Wassail-Client-iOS-frameworks.sh */,
+				D7F4183FAC52D6FAC9B09CF612264B23 /* Pods-Wassail-Client-iOS-resources.sh */,
+				518C821E496259470F67B3B551C7EA22 /* Pods-Wassail-Client-iOS.debug.xcconfig */,
+				3281BB2D5B5D8BDB260AE40EF598D9D4 /* Pods-Wassail-Client-iOS.release.xcconfig */,
+			);
+			name = "Pods-Wassail-Client-iOS";
+			path = "Target Support Files/Pods-Wassail-Client-iOS";
+			sourceTree = "<group>";
+		};
+		6BF671A351619333115351644530A7E5 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				83289E2B0252487CE62E4D73D8C8D198 /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		6D72895D8641B4A2C57E170E84C7BAA2 /* Answers */ = {
+			isa = PBXGroup;
+			children = (
+				70A57CC78760B707C26900CEB9460C14 /* Frameworks */,
+			);
+			path = Answers;
+			sourceTree = "<group>";
+		};
+		70A57CC78760B707C26900CEB9460C14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF212A5746CA50EB63AA4219F0CD6B /* Answers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75760EBB878FB78E5D7C32DE410D0021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD489DA0DC4040679C3CD47776207A6 /* libPods-Wassail-Client-iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		7C9A07F06090B18E4EA1E6236F2F7AA2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				3751BEF9F35A4CBAA902D5DDFC7EDB0B /* Pods-Wassail-Client-iOS */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				09C5E90726D2521A760312DBF50D9358 /* Products */,
-				F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9EC87A2CF0B53B24566F19703FE44FA /* Pods */,
+				75760EBB878FB78E5D7C32DE410D0021 /* Products */,
+				7C9A07F06090B18E4EA1E6236F2F7AA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */ = {
+		83289E2B0252487CE62E4D73D8C8D198 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B54B2C4A0F52DB14E2694089D6E9F5FE /* Fabric.framework */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9EC87A2CF0B53B24566F19703FE44FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D72895D8641B4A2C57E170E84C7BAA2 /* Answers */,
+				6BF671A351619333115351644530A7E5 /* Fabric */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D562F7C51A0F2B3CED5CBA2AC628B8 /* Pods-Wassail-Client-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8983821D4FC74904D9262FF8571ABBE1 /* Build configuration list for PBXNativeTarget "Pods-Wassail-Client-iOS" */;
+			buildPhases = (
+				F7CDE47034AC939DB3DA8BC93FADE3A4 /* Sources */,
+				F08822C3B1078B548E76C1ED5946D292 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Wassail-Client-iOS";
+			productName = "Pods-Wassail-Client-iOS";
+			productReference = 6CD489DA0DC4040679C3CD47776207A6 /* libPods-Wassail-Client-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
@@ -59,15 +173,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 09C5E90726D2521A760312DBF50D9358 /* Products */;
+			productRefGroup = 75760EBB878FB78E5D7C32DE410D0021 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				79D562F7C51A0F2B3CED5CBA2AC628B8 /* Pods-Wassail-Client-iOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		F7CDE47034AC939DB3DA8BC93FADE3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E5E8F99695EC229B02444217C9C490 /* Pods-Wassail-Client-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
+		019E7E6C6F049E697E4BE819FF912523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518C821E496259470F67B3B551C7EA22 /* Pods-Wassail-Client-iOS.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -141,6 +284,23 @@
 			};
 			name = Release;
 		};
+		FDA780A3757D81F1763AA68F4FCB5F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3281BB2D5B5D8BDB260AE40EF598D9D4 /* Pods-Wassail-Client-iOS.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -149,6 +309,15 @@
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8983821D4FC74904D9262FF8571ABBE1 /* Build configuration list for PBXNativeTarget "Pods-Wassail-Client-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019E7E6C6F049E697E4BE819FF912523 /* Debug */,
+				FDA780A3757D81F1763AA68F4FCB5F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
