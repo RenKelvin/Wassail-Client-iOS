@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39EE1CB02372191489B99400 /* libPods-Wassail-Client-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */; };
+		19ADAE614B304DFD29C18832 /* libPods-Wassail-Client-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B36577E0F7EE1D00EDD9BE /* libPods-Wassail-Client-iOS.a */; };
 		AD0E75E219F37695006F433C /* 3.10education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C819F37695006F433C /* 3.10education.jpg */; };
 		AD0E75E319F37695006F433C /* 3.11education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75C919F37695006F433C /* 3.11education.jpg */; };
 		AD0E75E419F37695006F433C /* 3.12education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0E75CA19F37695006F433C /* 3.12education.jpg */; };
@@ -663,8 +663,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0D2082E7AED1D74A9E9DB51E /* Pods-Wassail-Client-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1167644599EE47EC2FE36A9D /* Pods-Wassail-Client-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wassail-Client-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A57CE9F11BD83A3D00EEBCE1 /* Wassail-Client-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Wassail-Client-iOS.entitlements"; sourceTree = "<group>"; };
 		AD0E75C819F37695006F433C /* 3.10education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.10education.jpg; sourceTree = "<group>"; };
 		AD0E75C919F37695006F433C /* 3.11education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.11education.jpg; sourceTree = "<group>"; };
@@ -962,7 +962,7 @@
 		ADF2ABE01A036B8C00DA02C3 /* 3.7教育学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.7教育学院排名.md.json"; sourceTree = "<group>"; };
 		ADF2ABE11A036B8C00DA02C3 /* 3.8卫生学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.8卫生学院排名.md.json"; sourceTree = "<group>"; };
 		ADF2ABE21A036B8C00DA02C3 /* 3.9法学院排名.md.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "3.9法学院排名.md.json"; sourceTree = "<group>"; };
-		C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wassail-Client-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B36577E0F7EE1D00EDD9BE /* libPods-Wassail-Client-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wassail-Client-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0393CD19FCF33C00D0E755 /* WassailModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WassailModel.xcdatamodel; sourceTree = "<group>"; };
 		FE0393CF19FCF42000D0E755 /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		FE0393D219FCFE2C00D0E755 /* ApplyAdderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyAdderInfo.swift; sourceTree = "<group>"; };
@@ -1377,20 +1377,28 @@
 				FE60E68419E56DBA00147EF9 /* Bolts.framework in Frameworks */,
 				FE60E68619E56DBA00147EF9 /* Mantle.framework in Frameworks */,
 				FE60E68719E56DBA00147EF9 /* Reachability.framework in Frameworks */,
-				39EE1CB02372191489B99400 /* libPods-Wassail-Client-iOS.a in Frameworks */,
+				19ADAE614B304DFD29C18832 /* libPods-Wassail-Client-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C53C492276D3F743FE94D06 /* Pods */ = {
+		60E8128032CA2784B6E7A931 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */,
-				6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */,
+				0D2082E7AED1D74A9E9DB51E /* Pods-Wassail-Client-iOS.debug.xcconfig */,
+				1167644599EE47EC2FE36A9D /* Pods-Wassail-Client-iOS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7975938886CF32D21ED43660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0B36577E0F7EE1D00EDD9BE /* libPods-Wassail-Client-iOS.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AD0E75C719F37695006F433C /* 网申流程 */ = {
@@ -1782,14 +1790,6 @@
 			path = "大学排名v2";
 			sourceTree = "<group>";
 		};
-		C884C56994F07126EF29F9A7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C1FF7A4F84622EEDE72DA5BD /* libPods-Wassail-Client-iOS.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FE0393D119FCFA1B00D0E755 /* University */ = {
 			isa = PBXGroup;
 			children = (
@@ -1946,8 +1946,8 @@
 			children = (
 				FE5B1F8C19B4033B00842C3D /* Wassail-Client-iOS */,
 				FE5B1F8B19B4033B00842C3D /* Products */,
-				6C53C492276D3F743FE94D06 /* Pods */,
-				C884C56994F07126EF29F9A7 /* Frameworks */,
+				60E8128032CA2784B6E7A931 /* Pods */,
+				7975938886CF32D21ED43660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2618,14 +2618,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE5B1FA619B4033B00842C3D /* Build configuration list for PBXNativeTarget "Wassail-Client-iOS" */;
 			buildPhases = (
-				A66B2096B20F37FC6A08DB67 /* Check Pods Manifest.lock */,
+				02408D7BFC3D07D4E16C9B47 /* [CP] Check Pods Manifest.lock */,
 				FE5B1F8619B4033B00842C3D /* Sources */,
 				FE5B1F8719B4033B00842C3D /* Frameworks */,
 				FE5B1F8819B4033B00842C3D /* Resources */,
 				FE1BD44719D9874600C2EC36 /* Run Script */,
-				7B8296E57C1D5324F4FEC566 /* Embed Pods Frameworks */,
-				B3B3707B6662045244938839 /* Copy Pods Resources */,
 				A56241891C8026E8002BBF3E /* ShellScript */,
+				95C9105DC952D1A05AB5D7E8 /* [CP] Embed Pods Frameworks */,
+				25A5E28A5456042B46CA064E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2644,7 +2644,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Haile;
 				TargetAttributes = {
 					FE5B1F8919B4033B00842C3D = {
@@ -3206,14 +3206,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B8296E57C1D5324F4FEC566 /* Embed Pods Frameworks */ = {
+		02408D7BFC3D07D4E16C9B47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wassail-Client-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A5E28A5456042B46CA064E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C9105DC952D1A05AB5D7E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3233,36 +3266,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1bed3f48ab8b1205fe0d204097f42dee0885e3d2 9ebdd270da0962437bbd2f71588d4f1d4de97ed24432618d65a9b0278377d9b1";
-		};
-		A66B2096B20F37FC6A08DB67 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B3B3707B6662045244938839 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wassail-Client-iOS/Pods-Wassail-Client-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		FE1BD44719D9874600C2EC36 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3432,13 +3435,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3447,6 +3458,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -3475,13 +3487,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -3489,6 +3509,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3504,15 +3525,15 @@
 		};
 		FE5B1FA719B4033B00842C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C5D477DEBBA777ABEC49A0 /* Pods-Wassail-Client-iOS.debug.xcconfig */;
+			baseConfigurationReference = 0D2082E7AED1D74A9E9DB51E /* Pods-Wassail-Client-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Wassail-Client-iOS/Wassail-Client-iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3542,15 +3563,15 @@
 		};
 		FE5B1FA819B4033B00842C3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A36209F5CB818A91157AD6E /* Pods-Wassail-Client-iOS.release.xcconfig */;
+			baseConfigurationReference = 1167644599EE47EC2FE36A9D /* Pods-Wassail-Client-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Wassail-Client-iOS/Wassail-Client-iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3573,7 +3594,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Wassail-Client-iOS/Wassail-Client-iOS-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
